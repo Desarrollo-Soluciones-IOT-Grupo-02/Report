@@ -1,6 +1,6 @@
 <hr>
 
-# <center>Informe de Trabajo Final</center>
+<h1 align="center"> Informe de Trabajo Final </h1>
 
 <h3 align="center"> Universidad Peruana de Ciencias Aplicadas </h3>
 
@@ -35,6 +35,7 @@
 | :---------------------------------- | :--------: |
 | ##                                  |     ##     |
 | Del Carmen Zorrilla, Ray Alessandro | U202124061 |
+| ##                                  |     ##     |
 | ##                                  |     ##     |
 | ##                                  |     ##     |
 | ##                                  |     ##     |
