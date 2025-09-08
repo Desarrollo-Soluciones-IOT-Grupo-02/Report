@@ -35,7 +35,7 @@
 | :---------------------------------- | :--------: |
 | Roca Huapaya, Orlando Arturo        | U201919742 |
 | Del Carmen Zorrilla, Ray Alessandro | U202124061 |
-| ##                                  |     ##     |
+| Pardo Zapata, Gustavo Adolfo        | u202120347 |
 | ##                                  |     ##     |
 | ##                                  |     ##     |
 | ##                                  |     ##     |
@@ -204,7 +204,7 @@ ReciclaMar propone RIMP (Recolector Inteligente de Metales para Playas), un sist
 | Foto | Apellidos y Nombres | Código | Carrera | Conocimientos y contribución principal |
 |---|---|---:|---|---|
 | ![Orlando Roca](./foto_integrantes/orlando_roca.JPG) | **Roca Huapaya, Orlando Arturo** | u201919742 | Ingeniería de Software | Mi contribución al equipo es la experiencia que tengo desarrollando interfaces en React o Vue y servicios de APIs REST en Spring Boot o Laravel. Me enfoco en que el producto sea usable, estable y fácil de desplegar. Además, priorizaré el uso de buenas prácticas en el ciclo de desarrollo del software. |
-| *(colocar foto)* | **Integrante 2** | [por completar] | [carrera] |  |
+| ![Gustavo Pardo](./foto_integrantes/PerfilGustavo.jpg) | **Pardo Zapata, Gustavo Adolfo** | u202120347 | Ingeniería de Software  | Soy proactivo, colaborativo, organizado,responsable y con habilidades de resolución de problemas.Tengo una excelente capacidad para comunicarme de manera efectiva y clara con los demás miembros de mi equipo y deseo colaborar en todo lo posible con mis demás compañeros en este trabajo. Cuento con conocimiento en JavaScript, Java, Python, C# y SQL.  |
 | *(colocar foto)* | **Integrante 3** | [por completar] | [carrera] |  |
 | *(colocar foto)* | **Integrante 4** | [por completar] | [carrera] |  |
 | *(colocar foto)* | **Integrante 5** | [por completar] | [carrera] |  |
