@@ -33,7 +33,7 @@
 
 | Member                              |    Code    |
 | :---------------------------------- | :--------: |
-| ##                                  |     ##     |
+| Roca Huapaya, Orlando Arturo        | U201919742 |
 | Del Carmen Zorrilla, Ray Alessandro | U202124061 |
 | ##                                  |     ##     |
 | ##                                  |     ##     |
@@ -195,19 +195,141 @@
 
 ### 1.1.1. Descripción de la StartUp
 
+ReciclaMar surge como una solución ante la creciente preocupación por la contaminación en playas urbanas del Perú. La presencia de residuos metálicos como latas y chapas deteriora la experiencia turística, eleva los costos de limpieza y pone en riesgo la seguridad de los visitantes. Al mismo tiempo, la falta de incentivos claros, la ausencia de trazabilidad y el uso de contenedores no inteligentes dificultan una gestión eficiente por parte de las municipalidades y limitan la participación ciudadana en el reciclaje.
+
+ReciclaMar propone RIMP (Recolector Inteligente de Metales para Playas), un sistema IoT que valida automáticamente que el residuo sea metálico mediante un sensor, identifica al usuario con RFID y habilita la apertura de una compuerta para el depósito.desarrollamos una plataforma web y móvil que permite a las personas reciclar y acumular puntos por municipalidad para canjear en comercios aliados.
+
 ### 1.1.2. Perfiles de integrantes del equipo
+
+| Foto | Apellidos y Nombres | Código | Carrera | Conocimientos y contribución principal |
+|---|---|---:|---|---|
+| ![Orlando Roca](./foto_integrantes/orlando_roca.JPG) | **Roca Huapaya, Orlando Arturo** | u201919742 | Ingeniería de Software | Mi contribución al equipo es la experiencia que tengo desarrollando interfaces en React o Vue y servicios de APIs REST en Spring Boot o Laravel. Me enfoco en que el producto sea usable, estable y fácil de desplegar. Además, priorizaré el uso de buenas prácticas en el ciclo de desarrollo del software. |
+| *(colocar foto)* | **Integrante 2** | [por completar] | [carrera] |  |
+| *(colocar foto)* | **Integrante 3** | [por completar] | [carrera] |  |
+| *(colocar foto)* | **Integrante 4** | [por completar] | [carrera] |  |
+| *(colocar foto)* | **Integrante 5** | [por completar] | [carrera] |  |
+| *(colocar foto)* | **Integrante 6** | [por completar] | [carrera] |  |
+
 
 ## 1.2. Solution Profile
 
 ### 1.2.1. Antecedentes y problemática
+En las playas de Lima persiste la acumulación de residuos metálicos como latas, tapas y chapas que deteriora la experiencia turística, eleva costos de limpieza y genera riesgos para la salud. Según DIGESA reportó en el verano 2024 que de 131 playas vigiladas, 89 eran “no saludables” principalmente por limpieza y presencia de residuos sólidos, lo que evidencia la magnitud del problema. La solución propuesta, para el reciclaje de metales debe verificar automáticamente que el residuo sea metálico y abrir una compuerta segura para evitar fraudes, también identificar al usuario vía RFID para asignar puntos por municipalidad y habilitar canjes en comercios aliados. El objetivo es incrementar la tasa de reciclaje de metal en temporada alta, recuperar mayor volumen por playa y reducir tiempos y costos de recolección. El alcance y restricciones del piloto se delimitan a 1 o 3 playas de Lima, enfocarnos exclusivamente en el reciclaje de metales en la versión inicial, recompensas gestionadas por cada municipalidad o comercio.
+
+#### 5W + 2H
+
+##### What (¿qué?)
+Acumulación de residuos metálicos en arena como latas, tapas y chapas, esto afecta salubridad y operación municipal en las playas.
+
+##### When (¿cuándo?)
+Todo el año, con picos en temporada de verano y fines de semana.
+
+##### Where (¿dónde?)
+Playas de Lima, áreas de alto tránsito donde se han medido y caracterizado residuos, incluyendo metálicos peligrosos.
+
+##### Who (¿quiénes?)
+Bañistas y municipalidades.
+
+##### Why (¿por qué?)
+Infraestructura de residuos insuficiente e ineficientes, falta de incentivos que vincule el acto de reciclar con beneficios y datos útiles para gestión.
+
+##### How (¿cómo sucede?)
+Los visitantes consumen bebidas y dejan latas o chapas en la arena. El estudio de Villacorta-Córdova et al. (2021), publicado en la Revista Científica UNJFSC, evidenció en cuatro playas de la Costa Verde la presencia de 55 objetos metálicos, principalmente latas oxidadas y punzantes en zonas de bañistas, lo que confirma el riesgo para la salud y la convivencia de metales en las playas.
+##### How much (¿cuánto?)
+
+- 89 playas “no saludables” al inicio de verano 2024, principalmente por residuos sólidos en arena.
+
+- En las playas de la Costa Verde se encontraron 55 ítems metálicos, 42% fueron latas de bebidas.
 
 ### 1.2.2. Lean UX Process
 
 #### 1.2.2.1. Lean UX Problem Statements
 
+Ante esta situación nuestra Startup se plantea las siguientes Problem Statements:
+
+**PS1:**  
+- **Objetivos actuales del producto:** Mantener las playas seguras para el disfrute turístico y recreativo.  
+- **Problema:** Los bañistas enfrentan constantemente playas con residuos metálicos como latas, tapas y chapas, lo que genera riesgos de cortes, incomodidad y reduce la calidad de la experiencia turística. Actualmente, no existe un sistema que valide los materiales ni incentive a los usuarios a reciclar.  
+- **Pregunta solicitud de mejora:** ¿Cómo podemos diseñar un recolector inteligente que valide automáticamente el residuo metálico, identifique al usuario y entregue recompensas inmediatas, incentivando así la participación activa de los bañistas en la limpieza de las playas?  
+
+**PS2:**  
+- **Objetivos actuales del producto:** Garantizar la salubridad de las playas, optimizar la recolección de residuos y reducir costos de limpieza.  
+- **Problema:** Las municipalidades gastan recursos elevados en limpieza manual de playas sin contar con datos en tiempo real ni mecanismos de trazabilidad. Esto dificulta la toma de decisiones y el control de rutas de recolección.  
+- **Pregunta solicitud de mejora:** ¿Cómo podemos proveer a las municipalidades de un sistema IoT que registre en tiempo real los residuos recolectados, emita alertas de llenado y entregue KPIs útiles para planificar rutas y evaluar el impacto ambiental y económico?
+
 #### 1.2.2.2. Lean UX Assumptions
 
+**Business Outcomes**
+- Aumentar la tasa de reciclaje de metales en playas urbanas de Lima y el volumen recuperado por playa.
+- Reducir tiempo y costo de limpieza municipal mediante telemetría y alertas de llenado.
+- Conseguir acuerdos con comercios locales para sostener el sistema de canjes y mejorar la adopción.
+- Lograr pilotos con 1 o 3 playas por municipio.
+- Generar datos confiables como kg y usos, para reportes y toma de decisiones.
+
+**User Assumptions (sobre los usuarios)**
+- Bañistas reciclarán si el proceso es rápido, seguro y reciben beneficios inmediatos.
+- Aceptarán usar tarjeta RFID si el registro toma menos de 1 minuto y no solicita datos sensibles.
+- Municipalidades adoptarán la solución si muestra ahorros operativos y KPIs claros.
+
+**User Outcomes (lo que experimentan/ganan)**
+- Los bañistas depositan sus latas en segundos, reciben puntos y visualizan sus resultados desde la app.
+- Las municipalidades evidencian mejoras de salubridad con métricas.
+- Los operadores reducen tiempos de recolección.
+
+**Feature Assumptions (sobre funcionalidades)**
+- Sensor inductivo valida metal con baja tasa de falsos positivos y abre compuerta.
+- RFID identifica al usuario y permite la recolección de puntos y canjes en comercios aliados.
+- Dashboard municipal con métricas, KPIs y alertas de llenado.
+- App web y móvil para registro, puntaje y catálogo de canjes.
+- Arquitectura Edge con opción de energía solar para continuidad operativa.
+
 #### 1.2.2.3. Lean UX Hyphotesis Statements
+
+
+- Creemos que aumentaremos la tasa de reciclaje de metales y el volumen recuperado por playa (business outcome) si los bañistas (user) pueden depositar sus latas en segundos y reciben puntos inmediatos (benefit) con sensor inductivo, compuerta y RFID de registro en menos de 1 minuto (feature).
+
+  Sabremos que hemos tenido éxito 
+  
+  Cuando al menos el 40% de usuarios registrados realicen mas de 2 depósitos por semana en temporada alta.
+
+- Creemos que incrementaremos la adopción de la app y los canjes (business outcome)  
+si los bañistas (user) visualizan sus puntos y un catálogo de canjes locales claro (benefit)  
+con la app web o móvil y validación de canje en comercios aliados (feature).  
+
+  Sabremos que hemos tenido éxito.
+
+  Cuando la tasa de canje mensual sea mayor o igual al 30% de usuarios activos y se registren mas de 50 canjes por mes.
+
+- Creemos que mejoraremos la satisfacción y la confianza en el sistema (business outcome) si los bañistas (user) perciben que su reciclaje es trazable y antifraude (benefit) con RFID personal, historial en la app y validación de metal antes de abrir la compuerta (feature).
+
+  Sabremos que hemos tenido éxito 
+
+  Cuando 8 de cada 10 usuarios se declaren seguros o muy seguros, y los eventos inválidos no excedan el 5%
+
+- Creemos que reduciremos tiempo y costo de limpieza (business outcome)  
+si las municipalidades (user) reciben alertas de llenado para planificar rutas (benefit)  
+con dashboard municipal (feature).
+
+  Sabremos que hemos tenido éxito. 
+
+  Cuando el tiempo promedio por ruta baje más del 20% y el costo operativo por tonelada baje más del 15% durante 8 semanas de piloto.
+
+- Creemos que fortaleceremos la planificación y la transparencia (business outcome)  
+si las municipalidades (user) confían en KPIs trazables (benefit)  
+con latencia de datos menor de 5 minutos (feature).  
+
+  Sabremos que hemos tenido éxito
+
+  Cuando el dashboard sea consultado semanalmente y se realice más de 1 ajuste de ruta por semana basado en los KPIs.
+
+- Creemos que atraeremos comercios locales (business outcome)  
+si las municipalidades (user) observan ahorros operativos y evidencia de canjes (benefit)  
+con acuerdos de canjes activos (feature).  
+
+  Sabremos que hemos tenido éxito 
+
+  cuando logremos mas de 10 comercios aliados y mas de 50 canjes por mes en el piloto.
+
 
 #### 1.2.2.4. Lean UX Canvas
 
@@ -384,5 +506,9 @@
 ## Video About-the-Team
 
 # Bibliografía
+
+Dirección General de Salud Ambiental (DIGESA). (2024, enero). *Más de 80 playas de Lima y Callao no son saludables para bañistas en verano, advierte la Digesa*. RPP Noticias. https://rpp.pe/peru/actualidad/verano-2024-hay-42-playas-saludables-y-89-no-saludables-en-el-peru-segun-digesa-noticia-1525501
+
+Villacorta-Córdova, E. A., Gaspar-Torribio, M., & Espinoza-Montero, P. J. (2021). Evaluación de la contaminación por residuos sólidos en cuatro playas de la Costa Verde, Lima, Perú. *Revista Científica UNJFSC*, 29(1), 321–338. https://revistas.cientifica.edu.pe/index.php/southsustainability/article/download/1382/1097/6410
 
 # Anexos
