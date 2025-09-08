@@ -408,6 +408,29 @@ A partir de los resultados del EventStorming se realizó la sesión de Candidate
 
 Estos contextos fueron priorizados de acuerdo con el valor que aportan al negocio, siendo **DeviceControl** y **UserRewards** los más críticos para la operación mínima viable del sistema.
 #### 4.1.1.2. Domain Message Flows Modeling
+Se aplicó la técnica de Domain Storytelling para visualizar cómo los bounded contexts colaboran en escenarios reales.
+
+**Escenario A — Depósito y acreditación de puntos:**
+
+1. Usuario deposita residuo en el recolector.
+2. `DeviceControl` valida que el material sea metálico.
+3. `DeviceControl` identifica al usuario mediante RFID.
+4. `UserRewards` acredita puntos y genera `PuntoAcreditado`.
+5. `DeviceControl` abre compuerta y muestra confirmación.
+6. `Connectivity` envía telemetría al servidor.
+
+**Escenario B — Canje de puntos:**
+
+1. Usuario solicita un beneficio.
+2. `MunicipalAdmin` valida disponibilidad.
+3. `UserRewards` descuenta puntos y registra `RecompensaCanjeada`.
+4. `Analytics` actualiza métricas de impacto social.
+
+**Escenario C — Mantenimiento preventivo:**
+
+1. `DeviceControl` detecta fallo y emite `AlertaMantenimiento`.
+2. `Connectivity` transmite alerta a `MunicipalAdmin`.
+3. Operador autorizado accede a datos en `Auth & IAM` y programa reparación.
 
 #### 4.1.1.3. Bounded Context Canvases
 
