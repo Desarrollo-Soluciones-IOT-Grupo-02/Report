@@ -378,7 +378,7 @@ con acuerdos de canjes activos (feature).
 # Capítulo IV: Solution Software Design
 
 ## 4.1. Strategic-Level Domain-Driven Design
-En este capítulo se presentan las decisiones de diseño tomadas a nivel estratégico aplicando Domain-Driven Design (DDD) al proyecto Recolector Inteligente de Metales con IoT para Playas. El objetivo es identificar y organizar los bounded contexts que conforman la solución, empleando herramientas como EventStorming, Candidate Context Discovery, Domain Message Flows Modeling, Bounded Context Canvases y Context Mapping.
+En este capítulo se presentan las decisiones de diseño tomadas a nivel estratégico aplicando Domain-Driven Design (DDD) al proyecto *Recolector Inteligente de Metales con IoT para Playas*. El objetivo es identificar y organizar los bounded contexts que conforman la solución, empleando herramientas como EventStorming, Candidate Context Discovery, Domain Message Flows Modeling, Bounded Context Canvases y Context Mapping.
 ### 4.1.1. EventStorming
 Se llevó a cabo una sesión de EventStorming con una duración aproximada de 1.5 horas, donde participaron miembros del equipo técnico y representantes de los usuarios finales. El propósito fue mapear los eventos clave del dominio, comandos, políticas y modelos de lectura para comprender la dinámica del negocio.
 
@@ -390,7 +390,7 @@ Políticas / reglas de negocio:
 
 Este primer nivel permitió identificar el lenguaje ubicuo y los procesos que requieren mayor detalle en etapas posteriores.
 #### 4.1.1.1. Candidate Context Discovery
-A partir de los resultados del EventStorming se realizó la sesión de Candidate Context Discovery, utilizando las técnicas start-with-value y look-for-pivotal-events. Se identificaron los siguientes **bounded contexts candidatos**:
+A partir de los resultados del EventStorming se realizó la sesión de Candidate Context Discovery, utilizando las técnicas *start-with-value* y *look-for-pivotal-events*. Se identificaron los siguientes **bounded contexts candidatos**:
 
 1) **DeviceControl (Recolector Físico):** validación de material, control de actuadores, telemetría.
 
@@ -458,6 +458,17 @@ Se diseñaron los **Bounded Context Canvas** para los contextos prioritarios.
 - **Capacidades:** Gestión de campañas, visualización de métricas, control de ventas de material.
   
 ### 4.1.2 Context mapping
+Finalmente, se elaboraron mapas de contextos para representar las relaciones estructurales.
+
+**Relaciones clave y patrones DDD aplicados:**
+
+- **DeviceControl → UserRewards:** *Event-Driven / Published Language* (eventos de depósito y usuario identificado).
+- **UserRewards ↔ MunicipalAdmin:** *Customer/Supplier*, ya que la municipalidad define las reglas de recompensas que consumen los usuarios.
+- **MunicipalAdmin → MaterialProcessing:** *Customer/Supplier* (gestión de ventas de material reciclado).
+- **Connectivity ↔ DeviceControl:** *Anti-Corruption Layer* para aislar diferencias de protocolos de comunicación IoT.
+- **Analytics ← All contexts:** funciona como *read model* de los eventos del sistema.
+
+Este proceso permitió identificar la mejor aproximación para separar responsabilidades, reducir acoplamiento y garantizar la escalabilidad del sistema.
 
 ### 4.1.3. Software Architecture
 
