@@ -390,7 +390,23 @@ Políticas / reglas de negocio:
 
 Este primer nivel permitió identificar el lenguaje ubicuo y los procesos que requieren mayor detalle en etapas posteriores.
 #### 4.1.1.1. Candidate Context Discovery
+A partir de los resultados del EventStorming se realizó la sesión de Candidate Context Discovery, utilizando las técnicas start-with-value y look-for-pivotal-events. Se identificaron los siguientes **bounded contexts candidatos**:
 
+1) **DeviceControl (Recolector Físico):** validación de material, control de actuadores, telemetría.
+
+2) **UserRewards (Gestión de usuarios y puntos):** acreditación, reglas de acumulación y canje.
+
+3) **MunicipalAdmin (Administración municipal):** definición de recompensas, gestión de beneficios y métricas.
+
+4) **MaterialProcessing (Logística de reciclaje):** clasificación de lotes y ventas a gestores externos.
+
+5) **Connectivity/IoT Platform:** comunicación entre dispositivos y servidor, telemetría y actualizaciones OTA.
+
+6) **Auth & IAM:** control de accesos y seguridad.
+
+7) **Analytics & Reporting:** generación de reportes e indicadores ambientales y sociales.
+
+Estos contextos fueron priorizados de acuerdo con el valor que aportan al negocio, siendo **DeviceControl** y **UserRewards** los más críticos para la operación mínima viable del sistema.
 #### 4.1.1.2. Domain Message Flows Modeling
 
 #### 4.1.1.3. Bounded Context Canvases
