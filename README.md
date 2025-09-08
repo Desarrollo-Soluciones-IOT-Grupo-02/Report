@@ -378,9 +378,17 @@ con acuerdos de canjes activos (feature).
 # Capítulo IV: Solution Software Design
 
 ## 4.1. Strategic-Level Domain-Driven Design
-
+En este capítulo se presentan las decisiones de diseño tomadas a nivel estratégico aplicando Domain-Driven Design (DDD) al proyecto Recolector Inteligente de Metales con IoT para Playas. El objetivo es identificar y organizar los bounded contexts que conforman la solución, empleando herramientas como EventStorming, Candidate Context Discovery, Domain Message Flows Modeling, Bounded Context Canvases y Context Mapping.
 ### 4.1.1. EventStorming
+Se llevó a cabo una sesión de EventStorming con una duración aproximada de 1.5 horas, donde participaron miembros del equipo técnico y representantes de los usuarios finales. El propósito fue mapear los eventos clave del dominio, comandos, políticas y modelos de lectura para comprender la dinámica del negocio.
 
+Políticas / reglas de negocio:
+
+- Solo materiales metálicos homologados acreditan puntos.
+- Se establecen límites de depósitos por usuario para evitar fraude.
+- Las municipalidades definen sus reglas de canje de puntos.
+
+Este primer nivel permitió identificar el lenguaje ubicuo y los procesos que requieren mayor detalle en etapas posteriores.
 #### 4.1.1.1. Candidate Context Discovery
 
 #### 4.1.1.2. Domain Message Flows Modeling
