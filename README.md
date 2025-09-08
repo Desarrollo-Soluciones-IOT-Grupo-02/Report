@@ -434,6 +434,29 @@ Se aplicó la técnica de Domain Storytelling para visualizar cómo los bounded 
 
 #### 4.1.1.3. Bounded Context Canvases
 
+Se diseñaron los **Bounded Context Canvas** para los contextos prioritarios.
+
+**DeviceControl (Recolector Físico):**
+
+- **Propósito:** Validar materiales, identificar usuarios, controlar actuadores.
+- **Lenguaje ubicuo:** SensorInductivo, RFIDReader, Comparta, Telemetría.
+- **Reglas:** Solo se abren compuertas si el material es metálico.
+- **Capacidades:** Validación de material, apertura segura de compuerta, envío de alertas.
+
+**UserRewards (Gestión de puntos):**
+
+- **Propósito:** Administrar saldos de puntos y canjes.
+- **Lenguaje ubicuo:** Usuario, SaldoPuntos, Transacción, Canje.
+- **Reglas:** Límites diarios de depósitos, puntos por tipo de material.
+- **Capacidades:** Alta de usuarios, acreditación de puntos, consulta de saldo.
+
+**MunicipalAdmin (Administración municipal):**
+
+- **Propósito:** Configurar recompensas y gestionar beneficios locales.
+- **Lenguaje ubicuo:** Recompensa, Campaña, LoteMaterial, Reporte.
+- **Reglas:** Cada municipalidad define sus beneficios.
+- **Capacidades:** Gestión de campañas, visualización de métricas, control de ventas de material.
+  
 ### 4.1.2 Context mapping
 
 ### 4.1.3. Software Architecture
