@@ -647,30 +647,30 @@ Se construyeron context maps revisando diferentes alternativas de diseño median
 
 **RewardManagement Context ↔ MunicipalityManagement Context*&*
 
-Relación: Partnership
-Justificación: Colaboración mutua para validar recompensas, gestionar inventario y convenios
-Patrón: Shared Language para conceptos de beneficios
+- **Relación:** Partnership
+- **Justificación:** Colaboración mutua para validar recompensas, gestionar inventario y convenios
+- **Patrón:** Shared Language para conceptos de beneficios
 
-Monitoring & Reporting Context → MunicipalityManagement Context
+**Monitoring & Reporting Context → MunicipalityManagement Context**
 
-Relación: Shared Kernel
-Justificación: Ambos requieren datos consistentes de impacto ambiental y métricas de negocio
-Patrón: Shared Database para datos de reporting
+- **Relación:** Shared Kernel
+- **Justificación:** Ambos requieren datos consistentes de impacto ambiental y métricas de negocio
+- **Patrón:** Shared Database para datos de reporting
 
-Anti-corruption Layers identificados:
+**Anti-corruption Layers identificados:**
 
-Entre RewardManagement y sistemas legacy municipales
-Entre WasteCollection y diferentes fabricantes de sensores IoT
+- Entre RewardManagement y sistemas legacy municipales
+- Entre WasteCollection y diferentes fabricantes de sensores IoT
 
-Beneficios del Context Mapping Final
+**Beneficios del Context Mapping Final**
 
-Security-First Design: IAM/Authentication Context centraliza toda la lógica de seguridad
-Aislamiento de responsabilidades core: WasteCollection y RewardManagement mantienen independencia
-Dependencias claras: Cada context conoce sus upstream/downstream explícitos
-Reducción de acoplamiento: Partnership pattern permite evolución independiente
-Escalabilidad: Shared Kernel limitado a datos realmente compartidos
-Mantenibilidad: Anti-corruption layers protegen dominios core de cambios externos
-Interoperabilidad: IAM permite integración con múltiples proveedores de identidad municipales
+- **Security-First Design:** IAM/Authentication Context centraliza toda la lógica de seguridad
+- **Aislamiento de responsabilidades core:** WasteCollection y RewardManagement mantienen independencia
+- **Dependencias claras:** Cada context conoce sus upstream/downstream explícitos
+- **Reducción de acoplamiento:** Partnership pattern permite evolución independiente
+- **Escalabilidad:** Shared Kernel limitado a datos realmente compartidos
+- **Mantenibilidad:** Anti-corruption layers protegen dominios core de cambios externos
+- **Interoperabilidad:** IAM permite integración con múltiples proveedores de identidad municipales
 
 Esta aproximación permite evolución independiente de cada bounded context mientras mantiene la coherencia y seguridad del sistema completo.
 
