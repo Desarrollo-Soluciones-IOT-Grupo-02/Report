@@ -377,98 +377,302 @@ con acuerdos de canjes activos (feature).
 
 # Capítulo IV: Solution Software Design
 
+# Capítulo IV: Solution Software Design
+
 ## 4.1. Strategic-Level Domain-Driven Design
 En este capítulo se presentan las decisiones de diseño tomadas a nivel estratégico aplicando Domain-Driven Design (DDD) al proyecto *Recolector Inteligente de Metales con IoT para Playas*. El objetivo es identificar y organizar los bounded contexts que conforman la solución, empleando herramientas como EventStorming, Candidate Context Discovery, Domain Message Flows Modeling, Bounded Context Canvases y Context Mapping.
 ### 4.1.1. EventStorming
-Se llevó a cabo una sesión de EventStorming con una duración aproximada de 1.5 horas, donde participaron miembros del equipo técnico y representantes de los usuarios finales. El propósito fue mapear los eventos clave del dominio, comandos, políticas y modelos de lectura para comprender la dinámica del negocio.
+**Introducción y Actividades Realizadas**
+El proceso de EventStorming se realizó durante una sesión colaborativa de 90 minutos con el objetivo de identificar los principales eventos, actores y sistemas involucrados en el dominio del problema. La sesión se estructuró en las siguientes fases:
 
-Políticas / reglas de negocio:
+- **Big Picture Event Storming (30 min):** Identificación inicial de eventos de dominio
+- **Actor y Sistema Mapping (20 min):** Identificación de personas y sistemas externos
+- **Hotspots Discovery (15 min):** Identificación de áreas problemáticas
+- **Timeline Refinement (25 min):** Ordenamiento cronológico y refinamiento
 
-- Solo materiales metálicos homologados acreditan puntos.
-- Se establecen límites de depósitos por usuario para evitar fraude.
-- Las municipalidades definen sus reglas de canje de puntos.
+**Elementos Identificados**
+**Personas identificadas:**
 
-Este primer nivel permitió identificar el lenguaje ubicuo y los procesos que requieren mayor detalle en etapas posteriores.
+- **Usuario** (turista, bañista, ciudadano): Persona que deposita residuos metálicos
+- **Municipalidad:** Entidad que gestiona convenios y beneficios locales
+- **Administrador del sistema:** Personal técnico que mantiene y configura el sistema
+
+**Eventos de Dominio identificados:**
+
+- Residuo introducido en recolector
+- Residuo detectado por sensor inductivo
+- Residuo validado como metálico
+- Usuario identificado mediante RFID
+- Puntos calculados y asignados
+- Recompensa solicitada
+- Recompensa canjeada
+- Material metálico procesado
+- Reporte de impacto generado
+
+**Sistemas externos:**
+
+- **Recolector IoT:** Sistema físico con sensores y actuadores
+- **Plataforma de Gestión de Puntos:** Backend de procesamiento
+- **Sistema Municipal de Recompensas:** Base de datos de beneficios locales
+
+**Hotspots identificados:**
+
+- **Seguridad de datos del usuario:** Protección de información personal y patrones de uso
+- **Calidad de detección de metales:** Precisión de sensores inductivos y falsos positivos
+- **Interoperabilidad entre municipalidades:** Sincronización de datos entre diferentes jurisdicciones
+- **Conectividad IoT:** Mantenimiento de conexión en ubicaciones remotas
+- **Gestión de inventario de recompensas:** Control de stock y disponibilidad
+
 #### 4.1.1.1. Candidate Context Discovery
-A partir de los resultados del EventStorming se realizó la sesión de Candidate Context Discovery, utilizando las técnicas *start-with-value* y *look-for-pivotal-events*. Se identificaron los siguientes **bounded contexts candidatos**:
 
-1) **DeviceControl (Recolector Físico):** validación de material, control de actuadores, telemetría.
+**Proceso y Técnica Aplicada**
+A partir del EventStorming, se aplicó la técnica start-with-value durante una sesión de 90 minutos, priorizando las partes core del dominio que generan mayor valor para el negocio y el impacto ambiental.
+**Bounded Contexts Identificados**
+**WasteCollection Context (Core Domain)**
 
-2) **UserRewards (Gestión de usuarios y puntos):** acreditación, reglas de acumulación y canje.
+- **Justificación:** Contiene la lógica central de validación y recolección, diferenciador clave del sistema
+- **Eventos principales:** Residuo detectado, Residuo validado como metálico
+- **Valor de negocio:** Alto - función principal del sistema
 
-3) **MunicipalAdmin (Administración municipal):** definición de recompensas, gestión de beneficios y métricas.
+**UserIdentification Context**
 
-4) **MaterialProcessing (Logística de reciclaje):** clasificación de lotes y ventas a gestores externos.
+- **Justificación:** Maneja la identidad y registro de usuarios, necesario pero no diferenciador
+- **Eventos principales:** Usuario identificado
+- **Valor de negocio:** Medio - soporte esencial
 
-5) **Connectivity/IoT Platform:** comunicación entre dispositivos y servidor, telemetría y actualizaciones OTA.
+**RewardManagement Context (Core Domain)**
 
-6) **Auth & IAM:** control de accesos y seguridad.
+- **Justificación:** Gestiona el sistema de incentivos, clave para adopción del usuario
+- **Eventos principales:** Puntos asignados, Recompensa canjeada
+- **Valor de negocio:** Alto - motor de engagement
 
-7) **Analytics & Reporting:** generación de reportes e indicadores ambientales y sociales.
+**MunicipalityManagement Context**
 
-Estos contextos fueron priorizados de acuerdo con el valor que aportan al negocio, siendo **DeviceControl** y **UserRewards** los más críticos para la operación mínima viable del sistema.
+- **Justificación:** Administra relaciones con entidades gubernamentales
+- **Eventos principales:** Convenio establecido, Material vendido
+- **Valor de negocio:** Medio - necesario para sostenibilidad
+
+**Monitoring & Reporting Context**
+
+- **Justificación:** Genera métricas de impacto ambiental y operacional
+- **Eventos principales:** Reporte de impacto generado
+- **Valor de negocio:** Medio - transparencia y mejora continua
+
 #### 4.1.1.2. Domain Message Flows Modeling
-Se aplicó la técnica de Domain Storytelling para visualizar cómo los bounded contexts colaboran en escenarios reales.
+**Técnica y Herramientas**
+Se aplicó la técnica de Domain Storytelling para visualizar la colaboración entre bounded contexts. Se modelaron 4 flujos principales:
+**Flujo 1: Depositar Residuo Metálico**
 
-**Escenario A — Depósito y acreditación de puntos:**
+1. Usuario introduce residuo en el recolector
+2. WasteCollection Context → sensor detecta material
+3. WasteCollection Context → valida si es metálico mediante sensor inductivo
+4. Si es válido: WasteCollection Context → UserIdentification Context (solicita identificación)
+5. UserIdentification Context → lee tarjeta RFID y valida usuario
+6. UserIdentification Context → RewardManagement Context (usuario confirmado)
+7. RewardManagement Context → calcula y asigna puntos
+8. WasteCollection Context → abre compuerta y almacena residuo
+   
+**Flujo 2: Canje de Recompensas**
 
-1. Usuario deposita residuo en el recolector.
-2. `DeviceControl` valida que el material sea metálico.
-3. `DeviceControl` identifica al usuario mediante RFID.
-4. `UserRewards` acredita puntos y genera `PuntoAcreditado`.
-5. `DeviceControl` abre compuerta y muestra confirmación.
-6. `Connectivity` envía telemetría al servidor.
+1. Usuario solicita canje de recompensa
+2. RewardManagement Context → valida puntos disponibles del usuario
+3. RewardManagement Context → MunicipalityManagement Context (verifica beneficio)
+4. MunicipalityManagement Context → confirma disponibilidad de recompensa
+5. RewardManagement Context → deduce puntos del usuario
+6. Sistema notifica canje exitoso al usuario
+   
+**Flujo 3: Procesamiento y Venta de Material**
 
-**Escenario B — Canje de puntos:**
+1. WasteCollection Context → detecta contenedor lleno
+2. WasteCollection Context → Monitoring & Reporting Context (registra volumen)
+3. MunicipalityManagement Context → gestiona recolección física
+4. MunicipalityManagement Context → procesa venta de material reciclado
+5. Monitoring & Reporting Context → actualiza métricas de impacto
+   
+**Flujo 4: Generación de Reportes**
 
-1. Usuario solicita un beneficio.
-2. `MunicipalAdmin` valida disponibilidad.
-3. `UserRewards` descuenta puntos y registra `RecompensaCanjeada`.
-4. `Analytics` actualiza métricas de impacto social.
-
-**Escenario C — Mantenimiento preventivo:**
-
-1. `DeviceControl` detecta fallo y emite `AlertaMantenimiento`.
-2. `Connectivity` transmite alerta a `MunicipalAdmin`.
-3. Operador autorizado accede a datos en `Auth & IAM` y programa reparación.
-
+1. Monitoring & Reporting Context → recolecta datos de todos los contexts
+2. Procesa estadísticas de uso, impacto ambiental y eficiencia
+3. Monitoring & Reporting Context → MunicipalityManagement Context (dashboards)
+4. Genera reportes para stakeholders gubernamentales
+   
 #### 4.1.1.3. Bounded Context Canvases
 
-Se diseñaron los **Bounded Context Canvas** para los contextos prioritarios.
+**Proceso Iterativo Aplicado**
+Para cada bounded context se siguió el proceso iterativo con los pasos: Context Overview Definition, Business Rules Distillation & Ubiquitous Language Capture, Capability Analysis, Dependencies Capture, y Design Critique.
 
-**DeviceControl (Recolector Físico):**
+**WasteCollection Context (Core Domain)**
+**Context Overview Definition:**
 
-- **Propósito:** Validar materiales, identificar usuarios, controlar actuadores.
-- **Lenguaje ubicuo:** SensorInductivo, RFIDReader, Comparta, Telemetría.
-- **Reglas:** Solo se abren compuertas si el material es metálico.
-- **Capacidades:** Validación de material, apertura segura de compuerta, envío de alertas.
+- **Responsabilidad:** Validar, recolectar y almacenar residuos metálicos mediante sensores IoT
 
-**UserRewards (Gestión de puntos):**
+**Business Rules & Ubiquitous Language:**
 
-- **Propósito:** Administrar saldos de puntos y canjes.
-- **Lenguaje ubicuo:** Usuario, SaldoPuntos, Transacción, Canje.
-- **Reglas:** Límites diarios de depósitos, puntos por tipo de material.
-- **Capacidades:** Alta de usuarios, acreditación de puntos, consulta de saldo.
+- **Lenguaje Ubicuo:** Residuo, Validación, Sensor Inductivo, Actuador, Compuerta, Material Metálico
+- **Reglas de negocio:**
+  - Solo se abre compuerta si el sensor confirma material metálico
+  - El sensor debe calibrarse cada 48 horas
+  - Contenedor lleno bloquea nuevos depósitos
 
-**MunicipalAdmin (Administración municipal):**
+**Capability Analysis:**
 
-- **Propósito:** Configurar recompensas y gestionar beneficios locales.
-- **Lenguaje ubicuo:** Recompensa, Campaña, LoteMaterial, Reporte.
-- **Reglas:** Cada municipalidad define sus beneficios.
-- **Capacidades:** Gestión de campañas, visualización de métricas, control de ventas de material.
+- Detección de material metálico
+- Validación de calidad del residuo
+- Control de actuadores (compuerta)
+- Monitoreo de nivel de llenado
+
+**Dependencies:**
+
+- **Upstream:** UserIdentification Context (para completar transacción)
+- **Downstream:** Monitoring & Reporting Context (para métricas)
+
+**UserIdentification Context**
+**Context Overview Definition:**
+
+- **Responsabilidad:** Identificar y validar usuarios mediante tecnología RFID
+
+**Business Rules & Ubiquitous Language:**
+
+- **Lenguaje Ubicuo:* Usuario, Tarjeta RFID, Registro, Identificación, Perfil
+- **Reglas de negocio:**
+  - Cada usuario posee una tarjeta RFID única
+  - Usuarios inactivos por 12 meses se suspenden
+  - Registro requiere datos personales mínimos
+
+**Capability Analysis:**
+- Lectura de tarjetas RFID
+- Validación de identidad de usuario
+- Gestión de perfiles de usuario
+- Control de acceso al sistema
+
+**Dependencies:**
+
+- **Downstream:** RewardManagement Context (para asignación de puntos)
+
+**RewardManagement Context (Core Domain)**
+**Context Overview Definition:**
+
+- **Responsabilidad:** Gestionar sistema de puntos, acumulación y canje de recompensas
+
+**Business Rules & Ubiquitous Language:**
+
+- **Lenguaje Ubicuo:** Puntos, Canje, Recompensa, Balance, Transacción, Beneficio
+- **Reglas de negocio:**
+  - Puntos se asignan solo tras validar residuo y usuario
+  - Puntos expiran después de 24 meses
+  - Canje requiere saldo mínimo específico por recompensa
+
+**Capability Analysis:**
+
+- Cálculo y asignación de puntos
+- Gestión de balance de usuarios
+- Procesamiento de canjes
+- Historial de transacciones
+
+**Dependencies:**
+
+- **Upstream:** UserIdentification Context (confirmación de usuario)
+- **Partnership:** MunicipalityManagement Context (validación de recompensas)
+
+**MunicipalityManagement Context**
+**Context Overview Definition:**
+
+- **Responsabilidad:** Gestionar convenios municipales, administración de beneficios y venta de material reciclado
+
+**Business Rules & Ubiquitous Language:**
+
+- **Lenguaje Ubicuo:** Municipalidad, Convenio, Beneficio, Reciclaje, Venta, Comisión
+- **Reglas de negocio:**
+  - Cada municipio define catálogo propio de beneficios
+  - Comisiones por venta se distribuyen según convenio
+  - Recompensas deben estar respaldadas por inventario
+
+**Capability Analysis:**
+
+- Gestión de convenios municipales
+- Administración de catálogo de recompensas
+- Procesamiento de ventas de material
+- Distribución de beneficios económicos
+
+**Dependencies:**
+
+- **Partnership:** RewardManagement Context (validación mutua)
+- **Downstream:** Monitoring & Reporting Context (datos de impacto)
+
+**Monitoring & Reporting Context**
+**Context Overview Definition:**
+
+- **Responsabilidad:** Generar métricas, informes de impacto ambiental y dashboards operacionales
+
+**Business Rules & Ubiquitous Language:**
+
+- **Lenguaje Ubicuo:** Reporte, Impacto Ambiental, Estadística, Dashboard, KPI, Métrica
+- **Reglas de negocio:**
+  - Reportes se actualizan cada 24 horas
+  - Datos históricos se mantienen por 5 años
+  - Dashboards públicos excluyen datos personales
+
+**Capability Analysis:**
+- Recolección y agregación de datos
+- Cálculo de impacto ambiental
+- Generación de reportes automatizados
+- Dashboards para diferentes stakeholders
+
+**Dependencies:**
+
+- **Upstream:** Todos los contexts (datos de entrada)
   
 ### 4.1.2 Context mapping
-Finalmente, se elaboraron mapas de contextos para representar las relaciones estructurales.
+**Proceso de Elaboración y Alternativas Evaluadas**
+Se construyeron context maps revisando diferentes alternativas de diseño mediante las preguntas sugeridas:
+**Alternativas evaluadas:**
 
-**Relaciones clave y patrones DDD aplicados:**
+- ¿Mover capability de cálculo de puntos a WasteCollection? → Rechazado: viola single responsibility
+- ¿Partir RewardManagement en Points y Rewards contexts? → Rechazado: aumenta complejidad sin valor
+- ¿Crear shared service para notificaciones? → Aceptado: reduce duplicación
+- ¿Aislar core capabilities de reporting? → Aceptado: separa concerns analíticos
 
-- **DeviceControl → UserRewards:** *Event-Driven / Published Language* (eventos de depósito y usuario identificado).
-- **UserRewards ↔ MunicipalAdmin:** *Customer/Supplier*, ya que la municipalidad define las reglas de recompensas que consumen los usuarios.
-- **MunicipalAdmin → MaterialProcessing:** *Customer/Supplier* (gestión de ventas de material reciclado).
-- **Connectivity ↔ DeviceControl:** *Anti-Corruption Layer* para aislar diferencias de protocolos de comunicación IoT.
-- **Analytics ← All contexts:** funciona como *read model* de los eventos del sistema.
+**Context Map Final**
+**WasteCollection Context → UserIdentification Context**
 
-Este proceso permitió identificar la mejor aproximación para separar responsabilidades, reducir acoplamiento y garantizar la escalabilidad del sistema.
+- **Relación:** Customer/Supplier
+- **Justificación:** WasteCollection necesita identificación de usuario para completar la transacción
+- **Patrón:** Published Language (eventos estándar)
+
+**UserIdentification Context → RewardManagement Context**
+
+- **Relación:** Conformist
+- **Justificación:** UserIdentification se adapta al modelo de puntos definido por RewardManagement
+- **Patrón:** Open Host Service (API de puntos)
+
+**RewardManagement Context ↔ MunicipalityManagement Context*&*
+
+Relación: Partnership
+Justificación: Colaboración mutua para validar recompensas, gestionar inventario y convenios
+Patrón: Shared Language para conceptos de beneficios
+
+Monitoring & Reporting Context → MunicipalityManagement Context
+
+Relación: Shared Kernel
+Justificación: Ambos requieren datos consistentes de impacto ambiental y métricas de negocio
+Patrón: Shared Database para datos de reporting
+
+Anti-corruption Layers identificados:
+
+Entre RewardManagement y sistemas legacy municipales
+Entre WasteCollection y diferentes fabricantes de sensores IoT
+
+Beneficios del Context Mapping Final
+
+Security-First Design: IAM/Authentication Context centraliza toda la lógica de seguridad
+Aislamiento de responsabilidades core: WasteCollection y RewardManagement mantienen independencia
+Dependencias claras: Cada context conoce sus upstream/downstream explícitos
+Reducción de acoplamiento: Partnership pattern permite evolución independiente
+Escalabilidad: Shared Kernel limitado a datos realmente compartidos
+Mantenibilidad: Anti-corruption layers protegen dominios core de cambios externos
+Interoperabilidad: IAM permite integración con múltiples proveedores de identidad municipales
+
+Esta aproximación permite evolución independiente de cada bounded context mientras mantiene la coherencia y seguridad del sistema completo.
 
 ### 4.1.3. Software Architecture
 
