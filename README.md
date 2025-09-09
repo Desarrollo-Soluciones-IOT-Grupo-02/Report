@@ -339,6 +339,20 @@ con acuerdos de canjes activos (feature).
 
 ## 2.1. Competidores
 
+## 2.1. Competidores  
+
+En el mercado peruano no existen actualmente soluciones IoT específicas para el reciclaje de metales en playas. Sin embargo, es posible identificar competidores indirectos internacionales, que ofrecen tecnologías avanzadas de gestión de residuos aplicadas a contextos urbanos, y referentes locales con iniciativas de reciclaje e incentivos. Estos competidores, aunque no están focalizados en playas, aportan aprendizajes relevantes y representan potenciales amenazas en caso de adaptar sus modelos al ámbito costero.  
+
+Los principales competidores seleccionados son:  
+
+- **Big Belly Solar**: empresa estadounidense con presencia internacional, reconocida por sus estaciones solares inteligentes que compactan residuos y transmiten datos en tiempo real. Su enfoque principal está en ciudades y espacios urbanos de alto tránsito.  
+- **Evreka**: startup global que combina hardware IoT y software en la nube para digitalizar la gestión de residuos. Su propuesta se centra en optimizar rutas de recolección y operaciones de limpieza a gran escala en ciudades inteligentes.  
+- **Ecube Labs**: compañía surcoreana que fabrica compactadores solares y sensores ultrasónicos para monitoreo de residuos, integrados con su plataforma CleanCityNetworks. Sus soluciones tienen amplia adopción en Asia, Norteamérica y Europa.  
+
+En comparación, **ReciclaMar** busca diferenciarse al ofrecer un modelo adaptado a playas peruanas, centrado en la recolección de residuos metálicos con incentivos inmediatos a los bañistas, al mismo tiempo que provee datos en tiempo real a las municipalidades costeras.  
+
+
+
 ### 2.1.1. Análisis competitivo
 
 <table border="1" cellspacing="0" cellpadding="5">
