@@ -524,7 +524,7 @@ Este proceso permitió identificar la mejor aproximación para separar responsab
 ![Deployment – Firebase](./diagrams/c4/03-deployment/structurizr-105978-deploy-firebase.png)
 
 > Hosting estático de la landing page.  
-![Deployment – GitHub Pages](./diagrams/c4/03-deployment/deploy-ghpages.png)
+![Deployment – GitHub Pages](./diagrams/c4/03-deployment/structurizr-105978-deploy-ghpages.png)
 
 > Dispositivo ESP32 y app móvil Android.  
 ![Deployment – Devices](./diagrams/c4/03-deployment/structurizr-105978-deploy-devices.png)
