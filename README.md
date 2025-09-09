@@ -36,7 +36,7 @@
 | Roca Huapaya, Orlando Arturo        | U201919742 |
 | Del Carmen Zorrilla, Ray Alessandro | U202124061 |
 | Pardo Zapata, Gustavo Adolfo        | u202120347 |
-| ##                                  |     ##     |
+| Cruz Palomino, Adriano Sebastian    | U202210697 |
 | ##                                  |     ##     |
 | ##                                  |     ##     |
 
@@ -341,7 +341,162 @@ con acuerdos de canjes activos (feature).
 
 ### 2.1.1. Análisis competitivo
 
+<table border="1" cellspacing="0" cellpadding="5">
+  <tr>
+    <th colspan="6" valign="top">Competitive Analysis Landscape</th>
+  </tr>
+  <tr>
+    <td colspan="2" valign="top">¿Por qué llevar a cabo este análisis?</td>
+    <td colspan="4" valign="top">Identificar cómo se posiciona ReciclaMar frente a soluciones internacionales de gestión inteligente de residuos, evaluando fortalezas, debilidades y oportunidades para diferenciarse en el contexto de playas peruanas.</td>
+  </tr>
+  <tr>
+    <td colspan="2" valign="top"></td>
+    <td valign="top"><b>ReciclaMar</b><img src='chapter-2/ReciclaMar-logo.png' width="50" height="50"></td>
+    <td valign="top"><b>Big Belly Solar</b><img src='chapter-2/Big-Belly-Solar-logo.png' width="auto" height="50"></td>
+    <td valign="top"><b>Evreka</b><img src='chapter-2/Evreka-logo.png' width="auto" height="50"></td>
+    <td valign="top"><b>Ecube Labs</b><img src='chapter-2/Ecube-logo.png' width="auto" height="50"></td>
+  </tr>
+  <tr>
+    <td rowspan="2" valign="top">Perfil</td>
+    <td valign="top">Overview</td>
+    <td valign="top">Startup peruana que busca mantener limpias las playas con recolectores inteligentes de metales, conectados a una app de incentivos y dashboard municipal.</td>
+    <td valign="top">Empresa estadounidense que fabrica compactadores solares de residuos con monitoreo IoT.</td>
+    <td valign="top">Startup global que ofrece software y hardware IoT para digitalizar la gestión de residuos y optimizar rutas de recolección.</td>
+    <td valign="top">Empresa surcoreana que desarrolla compactadores solares y sensores IoT, integrados con la plataforma CleanCityNetworks.</td>
+  </tr>
+  <tr>
+    <td valign="top">Ventaja competitiva ¿Qué valor ofrece a los clientes?</td>
+    <td valign="top">Incentivos inmediatos a bañistas mediante puntos y canjes, además de datos en tiempo real para reducir costos municipales de limpieza.</td>
+    <td valign="top">Reduce la frecuencia de recolección y costos mediante compactación automática.</td>
+    <td valign="top">Ofrece un ecosistema integral para digitalizar toda la cadena de gestión de residuos urbanos.</td>
+    <td valign="top">Monitoreo preciso del llenado de contenedores y optimización de rutas con telemetría avanzada.</td>
+  </tr>
+  <tr>
+    <td rowspan="2" valign="top">Perfil de Marketing</td>
+    <td valign="top">Mercado objetivo</td>
+    <td valign="top">Bañistas, municipalidades costeras y comercios locales aliados.</td>
+    <td valign="top">Municipalidades de ciudades desarrolladas con alto presupuesto.</td>
+    <td valign="top">Gobiernos locales y empresas de gestión de residuos en múltiples regiones.</td>
+    <td valign="top">Municipalidades y operadores urbanos en Asia, EE.UU. y Europa.</td>
+  </tr>
+  <tr>
+    <td valign="top">Estrategias de marketing</td>
+    <td valign="top">Campañas ambientales en playas, convenios con comercios, app móvil/web.</td>
+    <td valign="top">Relaciones B2G con gobiernos, contratos de largo plazo.</td>
+    <td valign="top">Participación en ferias de smart cities y alianzas estratégicas.</td>
+    <td valign="top">Expansión global con casos de éxito en smart cities y contratos B2G.</td>
+  </tr>
+  <tr>
+    <td rowspan="3" valign="top">Perfil de Producto</td>
+    <td valign="top">Productos & Servicios</td>
+    <td valign="top">Recolector inteligente de metales en playas, app web/móvil para usuarios y dashboard municipal con métricas.</td>
+    <td valign="top">Compactadores solares inteligentes y software de gestión.</td>
+    <td valign="top">Sensores IoT, smart bins, plataforma SaaS para gestión integral.</td>
+    <td valign="top">Compactadores solares, sensores ultrasónicos IoT y plataforma CleanCityNetworks.</td>
+  </tr>
+  <tr>
+    <td valign="top">Precios & Costos</td>
+    <td valign="top">Modelo de bajo costo inicial, sostenido con convenios municipales y comercios aliados.</td>
+    <td valign="top">USD 4,000–6,000 por unidad, alto costo de mantenimiento.</td>
+    <td valign="top">Modelo SaaS + hardware, costo elevado pero escalable.</td>
+    <td valign="top">Modelo SaaS por dispositivo, costo medio-alto según escala y servicios.</td>
+  </tr>
+  <tr>
+    <td valign="top">Canales de distribución (Web y/o Móvil)</td>
+    <td valign="top">Landing page, aplicación móvil/web y convenios con municipalidades.</td>
+    <td valign="top">Contratos directos con gobiernos locales.</td>
+    <td valign="top">Plataforma SaaS, apps móviles y hardware IoT distribuido globalmente.</td>
+    <td valign="top">Distribuidores internacionales, contratos B2G, CleanCityNetworks.</td>
+  </tr>
+  <tr>
+    <td rowspan="4" valign="top">Análisis SWOT</td>
+    <td valign="top">Fortalezas</td>
+    <td valign="top">Enfoque único en playas, incentivos inmediatos e innovación IoT accesible.</td>
+    <td valign="top">Tecnología madura, eficiencia probada en ciudades.</td>
+    <td valign="top">Escalabilidad global, integración de software y hardware.</td>
+    <td valign="top">Experiencia internacional, portafolio completo de soluciones IoT.</td>
+  </tr>
+  <tr>
+    <td valign="top">Debilidades</td>
+    <td valign="top">Startup nueva, recursos limitados.</td>
+    <td valign="top">Altos costos, poco viable en mercados emergentes.</td>
+    <td valign="top">Dependencia de inversión externa, complejidad de implementación.</td>
+    <td valign="top">Altos costos iniciales y enfoque urbano más que turístico.</td>
+  </tr>
+  <tr>
+    <td valign="top">Oportunidades</td>
+    <td valign="top">Conciencia ambiental creciente y turismo sostenible en Perú.</td>
+    <td valign="top">Expansión hacia países en desarrollo interesados en smart cities.</td>
+    <td valign="top">Crecimiento de la demanda global en digitalización de residuos.</td>
+    <td valign="top">Mayor interés mundial en soluciones de smart cities con energías limpias.</td>
+  </tr>
+  <tr>
+    <td valign="top">Amenazas</td>
+    <td valign="top">Escasez de financiamiento sostenido y replicabilidad de la idea.</td>
+    <td valign="top">Competencia de soluciones más accesibles y locales.</td>
+    <td valign="top">Entrada de competidores más económicos y especializados.</td>
+    <td valign="top">Competencia de grandes players con más recursos tecnológicos.</td>
+  </tr>
+</table>
+
 ### 2.1.2. Estrategias y tácticas frente a competidores
+
+A partir del análisis competitivo realizado se identificaron las principales fortalezas, debilidades, oportunidades y amenazas de los competidores. Esta información resulta esencial para definir cómo diferenciar a ReciclaMar en el mercado y establecer una propuesta de valor sólida.  
+
+**Fortalezas de los competidores**  
+- Big Belly y Ecube Labs cuentan con tecnología madura y casos de éxito en ciudades internacionales.  
+- Evreka dispone de un ecosistema integral de software y hardware IoT para gestión de residuos.  
+- Todos tienen presencia consolidada en el mercado global y experiencia comprobada.  
+
+**Estrategias y tácticas frente a fortalezas**  
+- **Estrategias**:  
+  - Diferenciar a ReciclaMar por su enfoque especializado en playas y residuos metálicos, un nicho no cubierto por estos competidores.  
+  - Comunicar que el producto es más accesible y adaptado a contextos municipales peruanos con recursos limitados.  
+- **Tácticas**:  
+  - Desarrollar campañas de marketing que comparen costos y beneficios frente a soluciones internacionales.  
+  - Presentar pilotos exitosos en playas de Lima para demostrar resultados tangibles en salubridad y reducción de costos.  
+
+**Debilidades de los competidores**  
+- Alto costo de implementación y mantenimiento (Big Belly y Ecube Labs).  
+- Complejidad en la adopción tecnológica y dependencia de inversión externa (Evreka).  
+- Limitada adaptación a contextos turísticos como playas.  
+
+**Estrategias y tácticas frente a debilidades**  
+- **Estrategias**:  
+  - Posicionar a ReciclaMar como una solución de bajo costo y rápida implementación.  
+  - Destacar la simplicidad y usabilidad para operadores municipales y ciudadanos.  
+- **Tácticas**:  
+  - Elaborar un modelo de negocio basado en convenios con municipalidades y comercios locales para sostener la operación.  
+  - Diseñar una interfaz web y móvil intuitiva que reduzca la barrera de entrada tecnológica.  
+
+**Oportunidades de los competidores**  
+- Creciente interés global por smart cities y sostenibilidad ambiental.  
+- Posibilidad de expandirse a mercados emergentes con nuevas adaptaciones.  
+- Aumento de la conciencia ciudadana sobre el reciclaje y la gestión responsable de residuos.  
+
+**Estrategias y tácticas frente a oportunidades**  
+- **Estrategias**:  
+  - Aprovechar la ola de sostenibilidad y turismo responsable para posicionar ReciclaMar como solución innovadora para playas.  
+  - Establecer alianzas con municipalidades costeras y comercios locales para ganar legitimidad y tracción.  
+- **Tácticas**:  
+  - Participar en convocatorias de innovación ambiental y programas de responsabilidad social empresarial.  
+  - Integrar métricas de impacto ambiental en el dashboard municipal como valor agregado para informes de sostenibilidad.  
+
+**Amenazas de los competidores**  
+- Ingreso de soluciones más completas en gestión de residuos que podrían extenderse a playas.  
+- Evolución tecnológica rápida que vuelva obsoletos los prototipos actuales.  
+- Cambios en las prioridades municipales que reduzcan la inversión en innovación.  
+
+**Estrategias y tácticas frente a amenazas**  
+- **Estrategias**:  
+  - Adoptar un enfoque de innovación continua para mantener la vigencia tecnológica.  
+  - Asegurar una arquitectura flexible que permita escalar a otros tipos de residuos en el futuro.  
+  - Mantener relaciones constantes con municipalidades para alinear la propuesta con sus necesidades.  
+- **Tácticas**:  
+  - Actualizar periódicamente el software y hardware con mejoras incrementales.  
+  - Estar presentes en foros, ferias y comités de innovación municipal y ambiental.  
+  - Desarrollar prototipos modulares que permitan añadir nuevas funcionalidades sin rediseñar todo el sistema.  
+
 
 ## 2.2. Entrevistas
 
