@@ -512,3 +512,5 @@ Dirección General de Salud Ambiental (DIGESA). (2024, enero). *Más de 80 playa
 Villacorta-Córdova, E. A., Gaspar-Torribio, M., & Espinoza-Montero, P. J. (2021). Evaluación de la contaminación por residuos sólidos en cuatro playas de la Costa Verde, Lima, Perú. *Revista Científica UNJFSC*, 29(1), 321–338. https://revistas.cientifica.edu.pe/index.php/southsustainability/article/download/1382/1097/6410
 
 # Anexos
+
+Lean UX Canvas - https://miro.com/app/board/uXjVJKqj5v4=/
