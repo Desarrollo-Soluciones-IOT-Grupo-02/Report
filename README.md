@@ -705,23 +705,501 @@ Esta aproximación permite evolución independiente de cada bounded context mien
 
 ## 4.2. Tactical-Level Domain-Driven Design
 
-### 4.2.X. Bounded Context:
+# 4.2. Tactical-Level Domain-Driven Design
 
-#### 4.2.X.1. Domain Layer
+## 4.2.1. Bounded Context: IAM
 
-#### 4.2.X.2. Interface Context
+### 4.2.1.1. Domain Layer
 
-#### 4.2.X.3. Application Context
+**Entidades:**
+- **User**: Entidad raíz que representa los datos de autenticación de un usuario del sistema IoT
+  - Atributos: id, username, password, email, role, isActive, createdAt, updatedAt
+  - Métodos: authenticate(), changePassword(), isActive(), updateLastLogin()
 
-#### 4.2.X.4. Infrastructure Context
+**Value Objects:**
+- **Username**: Representa el nombre de usuario único
+- **Password**: Representa la contraseña encriptada
+- **Role**: Enumera los roles disponibles (CITIZEN, MUNICIPALITY_ADMIN, SYSTEM_ADMIN, COLLECTOR)
 
-#### 4.2.X.5. Bounded Context Software Architecture Component Level Diagrams
+**Servicios de Dominio:**
+- **AuthenticationService**: Maneja la lógica de autenticación
+- **PasswordService**: Gestiona el cifrado y validación de contraseñas
 
-#### 4.2.X.6. Bounded Context Software Architecture Code Level Diagrams
+**Repositorios:**
+- **UserRepository**: Interfaz para persistencia de usuarios
 
-#### 4.2.X.6.1. Bounded Context Domain Layer Class Diagrams
+### 4.2.1.2. Interface Layer
 
-#### 4.2.X.6.2. Bounded Context Database Design Diagram
+**Controladores:**
+- **AuthController**: Maneja endpoints de autenticación
+  - POST /api/v1/auth/login
+  - POST /api/v1/auth/register
+  - POST /api/v1/auth/logout
+  - POST /api/v1/auth/refresh
+
+**DTOs:**
+- **LoginRequest**: Datos de inicio de sesión
+- **RegisterRequest**: Datos de registro
+- **AuthResponse**: Respuesta con token y datos del usuario
+
+### 4.2.1.3. Application Layer
+
+**Casos de Uso:**
+- **LoginUseCase**: Procesa el inicio de sesión
+- **RegisterUseCase**: Procesa el registro de usuarios
+- **RefreshTokenUseCase**: Renueva tokens de acceso
+
+**Servicios de Aplicación:**
+- **AuthApplicationService**: Orquesta los casos de uso de autenticación
+
+### 4.2.1.4. Infrastructure Layer
+
+**Implementaciones:**
+- **JpaUserRepository**: Implementación JPA del repositorio de usuarios
+- **JwtTokenService**: Servicio para manejo de tokens JWT
+- **BCryptPasswordEncoder**: Implementación de cifrado de contraseñas
+
+### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams
+
+![IAMComponentDiagram](./diagrams/component-diagrams/IAM_Component_Diagram.png)
+
+### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams
+
+#### 4.2.1.6.1. Bounded Context Domain Layer Class Diagrams
+
+![IAMClassDiagram](./diagrams/class-diagrams/IAM_Domain_Class_Diagram.png)
+
+#### 4.2.1.6.2. Bounded Context Database Design Diagram
+
+![IAMDatabaseDiagram](./diagrams/db-diagrams/IAM_Database_Design.png)
+
+## 4.2.2. Bounded Context: WasteCollection
+
+### 4.2.2.1. Domain Layer
+
+**Entidades:**
+- **WasteBin**: Entidad raíz que representa un contenedor de residuos inteligente
+  - Atributos: id, location, capacity, currentLevel, sensorId, status, lastEmptied, municipalityId
+  - Métodos: updateLevel(), markAsEmpty(), needsCollection(), calculateFillPercentage()
+
+- **CollectionRoute**: Representa una ruta de recolección optimizada
+  - Atributos: id, collectorId, wasteBins, estimatedTime, status, createdAt
+  - Métodos: addWasteBin(), removeWasteBin(), optimize(), complete()
+
+- **CollectionRecord**: Registro de recolección realizada
+  - Atributos: id, wasteBinId, collectorId, collectedAt, volumeCollected, wasteType
+  - Métodos: validate(), calculateReward()
+
+**Value Objects:**
+- **Location**: Coordenadas geográficas (latitud, longitud)
+- **WasteLevel**: Nivel de llenado del contenedor (0-100%)
+- **WasteType**: Tipo de residuo (ORGANIC, RECYCLABLE, GENERAL)
+
+**Servicios de Dominio:**
+- **RouteOptimizationService**: Optimiza rutas de recolección
+- **CollectionSchedulingService**: Programa recolecciones basadas en niveles
+
+**Repositorios:**
+- **WasteBinRepository**: Interfaz para persistencia de contenedores
+- **CollectionRouteRepository**: Interfaz para persistencia de rutas
+- **CollectionRecordRepository**: Interfaz para persistencia de registros
+
+### 4.2.2.2. Interface Layer
+
+**Controladores:**
+- **WasteBinController**: Maneja endpoints de contenedores
+  - GET /api/v1/waste-bins
+  - GET /api/v1/waste-bins/{id}
+  - PUT /api/v1/waste-bins/{id}/level
+  - GET /api/v1/waste-bins/needs-collection
+
+- **CollectionController**: Maneja endpoints de recolección
+  - POST /api/v1/collections/routes
+  - GET /api/v1/collections/routes/{id}
+  - PUT /api/v1/collections/routes/{id}/complete
+  - POST /api/v1/collections/records
+
+**DTOs:**
+- **WasteBinResponse**: Respuesta con datos del contenedor
+- **UpdateLevelRequest**: Datos para actualizar nivel
+- **CollectionRouteRequest**: Datos para crear ruta
+- **CollectionRecordRequest**: Datos para registrar recolección
+
+### 4.2.2.3. Application Layer
+
+**Casos de Uso:**
+- **UpdateWasteLevelUseCase**: Actualiza nivel de contenedor
+- **GenerateCollectionRouteUseCase**: Genera ruta optimizada
+- **RecordCollectionUseCase**: Registra recolección realizada
+- **GetWasteBinsNeedingCollectionUseCase**: Obtiene contenedores que necesitan recolección
+
+**Servicios de Aplicación:**
+- **WasteCollectionApplicationService**: Orquesta los casos de uso de recolección
+
+### 4.2.2.4. Infrastructure Layer
+
+**Implementaciones:**
+- **JpaWasteBinRepository**: Implementación JPA del repositorio de contenedores
+- **JpaCollectionRouteRepository**: Implementación JPA del repositorio de rutas
+- **JpaCollectionRecordRepository**: Implementación JPA del repositorio de registros
+- **IoTSensorService**: Servicio para comunicación con sensores IoT
+- **MapsApiService**: Servicio para optimización de rutas usando APIs de mapas
+
+### 4.2.2.5. Bounded Context Software Architecture Component Level Diagrams
+
+![WateCollectionComponentDiagram](./diagrams/component-diagrams/WasteCollection_Component_Diagram.png)
+
+### 4.2.2.6. Bounded Context Software Architecture Code Level Diagrams
+
+#### 4.2.2.6.1. Bounded Context Domain Layer Class Diagrams
+
+![WasteCollectionClassDiagram](./diagrams/class-diagrams/WasteCollection_Domain_Class_Diagram.png)
+
+#### 4.2.2.6.2. Bounded Context Database Design Diagram
+
+![WasteCollecionDatabaseDiagram](./diagrams/db-diagrams/WasteCollection_Database_Design.png)
+
+## 4.2.3. Bounded Context: UserIdentification
+
+### 4.2.3.1. Domain Layer
+
+**Entidades:**
+- **Citizen**: Entidad raíz que representa un ciudadano registrado
+  - Atributos: id, dni, firstName, lastName, email, phone, address, municipalityId, isVerified
+  - Métodos: verify(), updateProfile(), isActive(), getFullName()
+
+- **IdentificationDevice**: Dispositivo para identificación (QR, NFC, etc.)
+  - Atributos: id, deviceType, deviceId, citizenId, isActive, lastUsed
+  - Métodos: activate(), deactivate(), updateLastUsed()
+
+**Value Objects:**
+- **DNI**: Documento Nacional de Identidad
+- **Address**: Dirección completa del ciudadano
+- **DeviceType**: Tipo de dispositivo (QR_CODE, NFC_CARD, MOBILE_APP)
+
+**Servicios de Dominio:**
+- **CitizenVerificationService**: Verifica identidad de ciudadanos
+- **DeviceRegistrationService**: Registra dispositivos de identificación
+
+**Repositorios:**
+- **CitizenRepository**: Interfaz para persistencia de ciudadanos
+- **IdentificationDeviceRepository**: Interfaz para persistencia de dispositivos
+
+### 4.2.3.2. Interface Layer
+
+**Controladores:**
+- **CitizenController**: Maneja endpoints de ciudadanos
+  - POST /api/v1/citizens/register
+  - GET /api/v1/citizens/{id}
+  - PUT /api/v1/citizens/{id}/verify
+  - GET /api/v1/citizens/profile
+
+- **IdentificationController**: Maneja endpoints de identificación
+  - POST /api/v1/identification/devices
+  - GET /api/v1/identification/verify/{deviceId}
+  - PUT /api/v1/identification/devices/{id}/activate
+
+**DTOs:**
+- **CitizenRegistrationRequest**: Datos para registro de ciudadano
+- **CitizenResponse**: Respuesta con datos del ciudadano
+- **DeviceRegistrationRequest**: Datos para registro de dispositivo
+- **IdentificationResponse**: Respuesta de identificación
+
+### 4.2.3.3. Application Layer
+
+**Casos de Uso:**
+- **RegisterCitizenUseCase**: Registra nuevo ciudadano
+- **VerifyCitizenUseCase**: Verifica identidad de ciudadano
+- **RegisterDeviceUseCase**: Registra dispositivo de identificación
+- **IdentifyUserUseCase**: Identifica usuario mediante dispositivo
+
+**Servicios de Aplicación:**
+- **UserIdentificationApplicationService**: Orquesta los casos de uso de identificación
+
+### 4.2.3.4. Infrastructure Layer
+
+**Implementaciones:**
+- **JpaCitizenRepository**: Implementación JPA del repositorio de ciudadanos
+- **JpaIdentificationDeviceRepository**: Implementación JPA del repositorio de dispositivos
+- **QRCodeService**: Servicio para generación y lectura de códigos QR
+- **NFCService**: Servicio para comunicación NFC
+- **DocumentVerificationService**: Servicio externo para verificación de documentos
+
+### 4.2.3.5. Bounded Context Software Architecture Component Level Diagrams
+
+![UserIdentificationComponentDiagram](./diagrams/component-diagrams/UserIdentification_Component_Diagram.png)
+
+### 4.2.3.6. Bounded Context Software Architecture Code Level Diagrams
+
+#### 4.2.3.6.1. Bounded Context Domain Layer Class Diagrams
+
+![UserIdentificationClassDiagram](./diagrams/class-diagrams/UserIdentification_Domain_Class_Diagram.png)
+
+#### 4.2.3.6.2. Bounded Context Database Design Diagram
+
+![UserIdentificationDatabaseDiagram](./diagrams/db-diagrams/UserIdentification_Database_Design.png)
+
+## 4.2.4. Bounded Context: RewardManagement
+
+### 4.2.4.1. Domain Layer
+
+**Entidades:**
+- **Reward**: Entidad raíz que representa una recompensa
+  - Atributos: id, citizenId, points, rewardType, description, earnedAt, expiresAt, status
+  - Métodos: redeem(), expire(), isValid(), calculateValue()
+
+- **RewardTransaction**: Transacción de puntos de recompensa
+  - Atributos: id, citizenId, points, transactionType, description, relatedEntityId, createdAt
+  - Métodos: validate(), reverse()
+
+- **RewardCatalog**: Catálogo de recompensas disponibles
+  - Atributos: id, name, description, pointsCost, category, isActive, stock
+  - Métodos: purchase(), updateStock(), activate(), deactivate()
+
+**Value Objects:**
+- **Points**: Puntos de recompensa
+- **RewardType**: Tipo de recompensa (WASTE_DISPOSAL, RECYCLING, REPORTING)
+- **TransactionType**: Tipo de transacción (EARNED, REDEEMED, EXPIRED)
+
+**Servicios de Dominio:**
+- **RewardCalculationService**: Calcula puntos basados en acciones
+- **RewardRedemptionService**: Maneja canje de recompensas
+
+**Repositorios:**
+- **RewardRepository**: Interfaz para persistencia de recompensas
+- **RewardTransactionRepository**: Interfaz para persistencia de transacciones
+- **RewardCatalogRepository**: Interfaz para persistencia del catálogo
+
+### 4.2.4.2. Interface Layer
+
+**Controladores:**
+- **RewardController**: Maneja endpoints de recompensas
+  - GET /api/v1/rewards/citizen/{citizenId}
+  - POST /api/v1/rewards/earn
+  - POST /api/v1/rewards/redeem
+  - GET /api/v1/rewards/balance/{citizenId}
+
+- **RewardCatalogController**: Maneja endpoints del catálogo
+  - GET /api/v1/rewards/catalog
+  - GET /api/v1/rewards/catalog/{id}
+  - POST /api/v1/rewards/catalog/{id}/purchase
+
+**DTOs:**
+- **EarnRewardRequest**: Datos para ganar recompensa
+- **RedeemRewardRequest**: Datos para canjear recompensa
+- **RewardResponse**: Respuesta con datos de recompensa
+- **RewardBalanceResponse**: Respuesta con balance de puntos
+
+### 4.2.4.3. Application Layer
+
+**Casos de Uso:**
+- **EarnRewardUseCase**: Otorga puntos por acciones
+- **RedeemRewardUseCase**: Canjea puntos por recompensas
+- **GetRewardBalanceUseCase**: Obtiene balance de puntos
+- **GetRewardHistoryUseCase**: Obtiene historial de recompensas
+
+**Servicios de Aplicación:**
+- **RewardManagementApplicationService**: Orquesta los casos de uso de recompensas
+
+### 4.2.4.4. Infrastructure Layer
+
+**Implementaciones:**
+- **JpaRewardRepository**: Implementación JPA del repositorio de recompensas
+- **JpaRewardTransactionRepository**: Implementación JPA del repositorio de transacciones
+- **JpaRewardCatalogRepository**: Implementación JPA del repositorio del catálogo
+- **PaymentGatewayService**: Servicio para procesamiento de pagos
+- **NotificationService**: Servicio para notificaciones de recompensas
+
+### 4.2.4.5. Bounded Context Software Architecture Component Level Diagrams
+
+![RewardManagmentComponentDiagram](./diagrams/component-diagrams/RewardManagement_Component_Diagram.png)
+
+### 4.2.4.6. Bounded Context Software Architecture Code Level Diagrams
+
+#### 4.2.4.6.1. Bounded Context Domain Layer Class Diagrams
+
+![RewardManagmentClassDiagram](./diagrams/class-diagrams/RewardManagement_Domain_Class_Diagram.png)
+
+#### 4.2.4.6.2. Bounded Context Database Design Diagram
+
+![RewardManagmentDatabaseDiagram](./diagrams/db-diagrams/RewardManagement_Database_Design.png)
+
+## 4.2.5. Bounded Context: MunicipalityManagement
+
+### 4.2.5.1. Domain Layer
+
+**Entidades:**
+- **Municipality**: Entidad raíz que representa una municipalidad
+  - Atributos: id, name, code, region, population, area, contactInfo, isActive
+  - Métodos: updateInfo(), activate(), deactivate(), addZone()
+
+- **Zone**: Zona dentro de una municipalidad
+  - Atributos: id, municipalityId, name, boundaries, population, zoneType
+  - Métodos: updateBoundaries(), assignCollector()
+
+- **MunicipalityAdmin**: Administrador de municipalidad
+  - Atributos: id, userId, municipalityId, role, permissions, assignedAt
+  - Métodos: grantPermission(), revokePermission(), isAuthorized()
+
+**Value Objects:**
+- **ContactInfo**: Información de contacto de la municipalidad
+- **Boundaries**: Límites geográficos de una zona
+- **ZoneType**: Tipo de zona (RESIDENTIAL, COMMERCIAL, INDUSTRIAL)
+
+**Servicios de Dominio:**
+- **MunicipalityConfigurationService**: Configura parámetros municipales
+- **ZoneManagementService**: Gestiona zonas y asignaciones
+
+**Repositorios:**
+- **MunicipalityRepository**: Interfaz para persistencia de municipalidades
+- **ZoneRepository**: Interfaz para persistencia de zonas
+- **MunicipalityAdminRepository**: Interfaz para persistencia de administradores
+
+### 4.2.5.2. Interface Layer
+
+**Controladores:**
+- **MunicipalityController**: Maneja endpoints de municipalidades
+  - GET /api/v1/municipalities
+  - GET /api/v1/municipalities/{id}
+  - PUT /api/v1/municipalities/{id}
+  - POST /api/v1/municipalities/{id}/zones
+
+- **ZoneController**: Maneja endpoints de zonas
+  - GET /api/v1/zones/municipality/{municipalityId}
+  - GET /api/v1/zones/{id}
+  - PUT /api/v1/zones/{id}
+
+**DTOs:**
+- **MunicipalityResponse**: Respuesta con datos de municipalidad
+- **UpdateMunicipalityRequest**: Datos para actualizar municipalidad
+- **ZoneRequest**: Datos para crear/actualizar zona
+- **ZoneResponse**: Respuesta con datos de zona
+
+### 4.2.5.3. Application Layer
+
+**Casos de Uso:**
+- **GetMunicipalityUseCase**: Obtiene información de municipalidad
+- **UpdateMunicipalityUseCase**: Actualiza información de municipalidad
+- **CreateZoneUseCase**: Crea nueva zona
+- **AssignAdminUseCase**: Asigna administrador a municipalidad
+
+**Servicios de Aplicación:**
+- **MunicipalityManagementApplicationService**: Orquesta los casos de uso municipales
+
+### 4.2.5.4. Infrastructure Layer
+
+**Implementaciones:**
+- **JpaMunicipalityRepository**: Implementación JPA del repositorio de municipalidades
+- **JpaZoneRepository**: Implementación JPA del repositorio de zonas
+- **JpaMunicipalityAdminRepository**: Implementación JPA del repositorio de administradores
+- **GeocodingService**: Servicio para geocodificación de direcciones
+- **MapService**: Servicio para manejo de mapas y límites geográficos
+
+### 4.2.5.5. Bounded Context Software Architecture Component Level Diagrams
+
+![MunicipalityManagmentComponentDiagram](./diagrams/component-diagrams/MunicipalityManagement_Component_Diagram.png)
+
+### 4.2.5.6. Bounded Context Software Architecture Code Level Diagrams
+
+#### 4.2.5.6.1. Bounded Context Domain Layer Class Diagrams
+
+![MunicipalityManagmentClassDiagram](./diagrams/class-diagrams/MunicipalityManagement_Domain_Class_Diagram.png)
+
+#### 4.2.5.6.2. Bounded Context Database Design Diagram
+
+![MunicipalityManagmentDatabaseDiagram](./diagrams/db-diagrams/MunicipalityManagement_Database_Design.png)
+
+## 4.2.6. Bounded Context: Monitoring & Reporting
+
+### 4.2.6.1. Domain Layer
+
+**Entidades:**
+- **Report**: Entidad raíz que representa un reporte del sistema
+  - Atributos: id, reportType, municipalityId, generatedBy, data, createdAt, status
+  - Métodos: generate(), export(), schedule(), validate()
+
+- **Metric**: Métrica del sistema
+  - Atributos: id, name, value, unit, timestamp, source, municipalityId
+  - Métodos: update(), validate(), compare()
+
+- **Alert**: Alerta del sistema
+  - Atributos: id, alertType, severity, message, source, isResolved, createdAt
+  - Métodos: resolve(), escalate(), notify()
+
+**Value Objects:**
+- **ReportType**: Tipo de reporte (COLLECTION_EFFICIENCY, WASTE_LEVELS, CITIZEN_PARTICIPATION)
+- **AlertSeverity**: Severidad de alerta (LOW, MEDIUM, HIGH, CRITICAL)
+- **MetricValue**: Valor de métrica con unidad
+
+**Servicios de Dominio:**
+- **ReportGenerationService**: Genera reportes basados en datos
+- **AlertingService**: Gestiona alertas del sistema
+- **MetricsAggregationService**: Agrega métricas para análisis
+
+**Repositorios:**
+- **ReportRepository**: Interfaz para persistencia de reportes
+- **MetricRepository**: Interfaz para persistencia de métricas
+- **AlertRepository**: Interfaz para persistencia de alertas
+
+### 4.2.6.2. Interface Layer
+
+**Controladores:**
+- **ReportController**: Maneja endpoints de reportes
+  - GET /api/v1/reports
+  - POST /api/v1/reports/generate
+  - GET /api/v1/reports/{id}
+  - GET /api/v1/reports/{id}/export
+
+- **MetricsController**: Maneja endpoints de métricas
+  - GET /api/v1/metrics
+  - GET /api/v1/metrics/dashboard
+  - POST /api/v1/metrics
+
+- **AlertController**: Maneja endpoints de alertas
+  - GET /api/v1/alerts
+  - PUT /api/v1/alerts/{id}/resolve
+  - GET /api/v1/alerts/active
+
+**DTOs:**
+- **GenerateReportRequest**: Datos para generar reporte
+- **ReportResponse**: Respuesta con datos del reporte
+- **MetricResponse**: Respuesta con datos de métrica
+- **AlertResponse**: Respuesta con datos de alerta
+
+### 4.2.6.3. Application Layer
+
+**Casos de Uso:**
+- **GenerateReportUseCase**: Genera reportes del sistema
+- **GetMetricsDashboardUseCase**: Obtiene métricas para dashboard
+- **CreateAlertUseCase**: Crea nueva alerta
+- **ResolveAlertUseCase**: Resuelve alerta existente
+
+**Servicios de Aplicación:**
+- **MonitoringReportingApplicationService**: Orquesta los casos de uso de monitoreo
+
+### 4.2.6.4. Infrastructure Layer
+
+**Implementaciones:**
+- **JpaReportRepository**: Implementación JPA del repositorio de reportes
+- **JpaMetricRepository**: Implementación JPA del repositorio de métricas
+- **JpaAlertRepository**: Implementación JPA del repositorio de alertas
+- **ReportExportService**: Servicio para exportación de reportes
+- **EmailNotificationService**: Servicio para notificaciones por email
+- **DataAnalyticsService**: Servicio para análisis de datos
+
+### 4.2.6.5. Bounded Context Software Architecture Component Level Diagrams
+
+![MonitoringReportingComponentDiagram](./diagrams/component-diagrams/MonitoringReporting_Component_Diagram.png)
+
+### 4.2.6.6. Bounded Context Software Architecture Code Level Diagrams
+
+#### 4.2.6.6.1. Bounded Context Domain Layer Class Diagrams
+
+![MonitoringReportingClassDiagram](./diagrams/class-diagrams/MonitoringReporting_Domain_Class_Diagram.png)
+
+#### 4.2.6.6.2. Bounded Context Database Design Diagram
+
+![MonitoringReportingDatabaseDiagram](./diagrams/db-diagrams/MonitoringReporting_Database_Design.png)
 
 # Capítulo V: Solutions UI/UX Design
 
