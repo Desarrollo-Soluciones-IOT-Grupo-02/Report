@@ -1,51 +1,95 @@
-workspace "IoT Beach Metal Collector System" "C4 – Landscape, Context y Containers (MVP)" {
+workspace "ReciclaMar – RIMP Platform" "C4 – Landscape, Context y Containers (MVP)" {
 
   model {
-    // Personas (con IDs)
-    user_beach = person "Beach Visitor" {
-      description "Turista/visitante que deposita metal, acumula puntos y canjea."
+    // Personas (Segmentos)
+    // Segmento 1: Bañistas (Turista y Local)
+    beach_tourist = person "Beach Tourist" {
+      description "Turista que deposita metal y canjea puntos en temporadas/visitas."
+      tags "Segmento1"
     }
+    beach_local = person "Local Beach Resident" {
+      description "Poblador local que usa el sistema con mayor frecuencia y continuidad."
+      tags "Segmento1"
+    }
+
+    // Segmento 2: Municipalidades costeras
     admin_muni = person "Municipal Admin" {
       description "Administra recompensas, emite/activa RFID, aprueba canjes y consulta reportes."
+      tags "Segmento2"
     }
+
+    // Segmento 3: Operación/Mantenimiento
     maint_crew = person "Maintenance Crew" {
       description "Opera y mantiene el recolector (modo servicio, estado del dispositivo)."
+      tags "Segmento3"
     }
 
-    // Sistema externo confirmado (Auth)
-    sys_firebase = softwareSystem "Firebase Auth (IdP)" {
-      description "Autenticación de usuarios (OIDC/JWT)."
-      tags "External"
-    }
-
-    // Sistema en foco (L1 caja negra; L2 lo abrimos en contenedores)
-    system_ibmcs = softwareSystem "IoT Beach Metal Collector System (IBMCS)" {
-      description "Plataforma IoT del recolector de metales para playas (eventos, puntos/canje, administración y reportes)."
+    // Sistema en foco
+    system_rimp = softwareSystem "RIMP Platform (ReciclaMar)" {
+      description "Plataforma IoT ‘RIMP’ de ReciclaMar para recolectar metales en playas: eventos, puntos/canje, administración y reportes."
       tags "OurSystem"
 
-      // CONTENEDORES (L2)
-      c_landing = container "Landing Site" {
-        description "Sitio informativo y de registro básico."
+      // Contenedores
+      c_landing = container "ReciclaMar Landing" {
+        description "Sitio informativo de ReciclaMar y registro básico."
         technology "HTML/CSS/JS (estático)"
         tags "Frontend"
       }
 
-      c_mobile = container "Mobile App" {
-        description "App del ciudadano: ver puntos, canje, historial."
+      c_mobile = container "RIMP App (Mobile)" {
+        description "App del ciudadano (RIMP): ver puntos, canje, historial."
         technology "Flutter/Dart"
         tags "Frontend"
       }
 
-      c_web_admin = container "Web Admin" {
+      c_web_admin = container "ReciclaMar Admin (Web)" {
         description "Panel municipal: recompensas, RFID, aprobaciones y reportes."
-        technology "Angular/TypeScript"
+        technology "React/TypeScript (SPA)"
         tags "Frontend"
       }
 
-      c_backend = container "Backend API" {
+      // === Backend con Bounded Contexts (DDD) ===
+      c_backend = container "RIMP Backend API" {
         description "API REST (usuarios/RFID, puntos/canje, dispositivos, reportes)."
-        technology "Node.js (NestJS)"
+        technology "Java 21 + Spring Boot 3"
         tags "Backend"
+
+        // Componentes (Bounded Contexts)
+        cmp_iam = component "IAM" {
+          description "Autenticación/Autorización, gestión de credenciales y roles (login/password propio en MVP)."
+          technology "Spring Boot (Security, JWT)"
+          tags "BC_IAM"
+        }
+
+        cmp_waste = component "WasteCollection Context" {
+          description "Ingesta de eventos del dispositivo (depósito metal), validación de material y registro de transacciones."
+          technology "Spring Boot (REST)"
+          tags "BC_WASTE"
+        }
+
+        cmp_userid = component "UserIdentification Context" {
+          description "Identificación del usuario (RFID/ID interno), vinculación con cuentas y normalización de identidad."
+          technology "Spring Boot"
+          tags "BC_USERID"
+        }
+
+        cmp_reward = component "RewardManagement Context" {
+          description "Cálculo/acumulación de puntos, reglas de canje, historial y ledger."
+          technology "Spring Boot"
+          tags "BC_REWARD"
+        }
+
+        cmp_muni = component "MunicipalityManagement Context" {
+          description "Catálogo de municipalidades, convenios, recompensas locales, aprobaciones y parametrización."
+          technology "Spring Boot"
+          tags "BC_MUNI"
+        }
+
+        cmp_monitor = component "Monitoring & Reporting Context" {
+          description "KPIs operativos, paneles, reportes y auditoría básica."
+          technology "Spring Boot"
+          tags "BC_MONITOR"
+        }
       }
 
       c_db = container "Operational DB" {
@@ -56,7 +100,7 @@ workspace "IoT Beach Metal Collector System" "C4 – Landscape, Context y Contai
 
       c_storage = container "Object Storage" {
         description "Almacenamiento de evidencias y archivos."
-        technology "Firebase Storage"
+        technology "Cloud Storage"
         tags "Storage"
       }
 
@@ -67,48 +111,55 @@ workspace "IoT Beach Metal Collector System" "C4 – Landscape, Context y Contai
       }
     }
 
-    // RELACIONES (L1 y L2)
-    // Personas -> Sistema (para Context)
-    user_beach -> system_ibmcs "Deposita metal y consulta/canjea puntos"
-    admin_muni -> system_ibmcs "Administra recompensas, emite RFID, reportes"
-    maint_crew -> system_ibmcs "Opera/da mantenimiento al recolector"
+    // Relaciones por segmento (L1)
+    beach_tourist -> system_rimp "Deposita metal y consulta/canjea puntos"
+    beach_local   -> system_rimp "Deposita metal y consulta/canjea puntos"
+    admin_muni    -> system_rimp "Administra recompensas, emite RFID, reportes"
+    maint_crew    -> system_rimp "Opera/da mantenimiento al recolector"
 
-    // Sistema -> Externo (para Context)
-    system_ibmcs -> sys_firebase "Autenticación"
+    // Personas -> Contenedores (L2)
+    beach_tourist -> c_mobile "Usa"
+    beach_local   -> c_mobile "Usa"
+    admin_muni    -> c_web_admin "Usa"
+    maint_crew    -> c_web_admin "Usa (modo servicio)"
 
-    // Personas -> Contenedores (para Containers)
-    user_beach -> c_mobile "Usa"
-    admin_muni -> c_web_admin "Usa"
-    maint_crew -> c_web_admin "Usa (modo servicio)"
-
-    // Landing -> Mobile (CTA descarga)
+    // Landing -> Mobile (CTA)
     c_landing -> c_mobile "CTA descarga APK"
 
-    // Frontends -> Auth externo
-    c_mobile    -> sys_firebase "Login/Token OIDC"
-    c_web_admin -> sys_firebase "Login/Token OIDC"
-
-    // Backend -> Auth externo (validación de tokens)
-    c_backend -> sys_firebase "Valida tokens (JWKS/Introspección)"
-
-    // Frontends -> Backend
+    // Frontends -> Backend (L2)
     c_mobile    -> c_backend "REST API (puntos, canje, historial)"
     c_web_admin -> c_backend "REST API (gestión, reportes)"
 
-    // Dispositivo -> Backend (sin broker, HTTP)
+    // Dispositivo -> Backend (L2)
     c_firmware  -> c_backend "POST eventos del dispositivo"
 
-    // Backend -> Datos
+    // Backend -> Datos (L2)
     c_backend -> c_db      "CRUD"
     c_backend -> c_storage "Sube/lee archivos"
 
-    // --- DEPLOYMENT (L3) ---
-    deploymentEnvironment "Production" {
+    // === Relaciones hacia componentes (L3 – Component) ===
+    c_mobile    -> cmp_iam     "Login/registro, perfil"
+    c_mobile    -> cmp_reward  "Consultar puntos/canje"
+    c_mobile    -> cmp_userid  "Vincular RFID/identidad"
 
+    c_web_admin -> cmp_muni    "Gestión de recompensas y aprobaciones"
+    c_web_admin -> cmp_monitor "Reportes/KPIs operativos"
+
+    c_firmware  -> cmp_waste   "POST evento depósito metal"
+
+    // Acceso a datos por bounded context (MVP: una sola DB)
+    cmp_iam     -> c_db "CRUD"
+    cmp_waste   -> c_db "CRUD"
+    cmp_userid  -> c_db "CRUD"
+    cmp_reward  -> c_db "CRUD"
+    cmp_muni    -> c_db "CRUD"
+    cmp_monitor -> c_db "Lecturas intensivas; materializa vistas si es necesario"
+
+    // Deployment
+    deploymentEnvironment "Production" {
       outdoor = deploymentNode "Outdoor Enclosure - Beach" {
         technology "Hardware"
         instances 1
-
         deploymentNode "ESP32 Board" {
           technology "ESP32 (Wi-Fi/4G)"
           instances 1
@@ -117,7 +168,7 @@ workspace "IoT Beach Metal Collector System" "C4 – Landscape, Context y Contai
       }
 
       railway_app = deploymentNode "Railway - App Platform" {
-        technology "Railway (PaaS, HTTPS)"
+        technology "Railway (PaaS, HTTPS; Java Runtime)"
         instances 1
         containerInstance c_backend
       }
@@ -128,8 +179,8 @@ workspace "IoT Beach Metal Collector System" "C4 – Landscape, Context y Contai
         containerInstance c_db
       }
 
-      firebase_storage_node = deploymentNode "Firebase Storage" {
-        technology "Firebase Storage (SaaS)"
+      cloud_storage_node = deploymentNode "Cloud Storage" {
+        technology "SaaS"
         instances 1
         containerInstance c_storage
       }
@@ -140,8 +191,8 @@ workspace "IoT Beach Metal Collector System" "C4 – Landscape, Context y Contai
         containerInstance c_landing
       }
 
-      firebase_hosting = deploymentNode "Firebase Hosting" {
-        technology "Firebase Hosting (SPA)"
+      hosting_web = deploymentNode "Hosting Web Admin" {
+        technology "Hosting (SPA)"
         instances 1
         containerInstance c_web_admin
       }
@@ -151,245 +202,104 @@ workspace "IoT Beach Metal Collector System" "C4 – Landscape, Context y Contai
         instances 1
         containerInstance c_mobile
       }
-
-      // Firebase Auth como deploymentNode + infra interno (ID para animación)
-        firebase_saas = deploymentNode "Firebase (SaaS)" {
-        technology "SaaS"
-        // Instancia del sistema externo (no un container)
-        softwareSystemInstance sys_firebase
-        }
-      
     }
-    
   }
 
   views {
-    // --- L0: Landscape panorámico ---
+    // Landscape
     systemLandscape "landscape" {
       include *
       autoLayout lr
-      title "System Landscape (MVP)"
-      description "Vista general: IBMCS, actores confirmados y autenticación externa."
-    }
-
-    // --- L1: Contextos ---
-    // Contexto general
-    systemContext system_ibmcs "context" {
-      include user_beach
-      include admin_muni
-      include maint_crew
-      include system_ibmcs
-      include sys_firebase
-
-      autoLayout tb
-      title "System Context – IBMCS (MVP)"
-      description "IBMCS como caja negra; actores principales y autenticación con Firebase."
-
+      title "System Landscape – RIMP (MVP)"
+      description "Segmentos: Bañistas (Turista/Local), Municipalidades, Operación; RIMP como sistema central de ReciclaMar."
       animation {
-        system_ibmcs
-        user_beach
+        system_rimp
+        beach_tourist
+        beach_local
         admin_muni
         maint_crew
-        sys_firebase
       }
     }
 
-    // Contexto — Usuarios + Auth
-    systemContext system_ibmcs "context-usuarios" {
-      include user_beach
+    // Contexto (con segmentos)
+    systemContext system_rimp "context" {
+      include beach_tourist
+      include beach_local
       include admin_muni
-      include system_ibmcs
-      include sys_firebase
-
-      autoLayout tb
-      title "System Context – Usuarios + Auth"
-      description "Interacción de ciudadano y administrador con IBMCS, autenticados vía Firebase."
-
-      animation {
-        system_ibmcs
-        user_beach
-        admin_muni
-        sys_firebase
-      }
-    }
-
-    // Contexto — Operaciones (mantenimiento)
-    systemContext system_ibmcs "context-operaciones" {
       include maint_crew
-      include admin_muni
-      include system_ibmcs
-      include sys_firebase
+      include system_rimp
 
       autoLayout tb
-      title "System Context – Operaciones"
-      description "Operación y mantenimiento del recolector por parte del personal de campo; acceso autenticado."
-
+      title "System Context – RIMP (MVP)"
+      description "RIMP como caja negra con segmentos objetivo."
       animation {
-        system_ibmcs
+        system_rimp
+        beach_tourist
+        beach_local
+        admin_muni
         maint_crew
-        admin_muni
-        sys_firebase
       }
     }
 
-    // Contexto — Canjes (recompensas)
-    systemContext system_ibmcs "context-canjes" {
-      include user_beach
-      include admin_muni
-      include system_ibmcs
-      include sys_firebase
-
+    // Containers (foco en usuarios por segmento)
+    container system_rimp "containers-usuarios" {
       autoLayout tb
-      title "System Context – Canjes"
-      description "Acumulación/consulta de puntos por el ciudadano y gestión/aprobación de canjes por la municipalidad."
-
-      animation {
-        system_ibmcs
-        user_beach
-        admin_muni
-        sys_firebase
-      }
-    }
-
-    // --- L2: Containers ---
-    // Contenedores (general)
-    container system_ibmcs "containers" {
-      autoLayout lr
-      title "Container Diagram – IBMCS (MVP)"
-      description "Descomposición interna de IBMCS: Backend (Node.js + Datos), Front (Angular), Mobile, Landing y Firmware."
-
-      include user_beach
+      title "Container Diagram – RIMP por Segmentos de Usuario"
+      description "Flujos entre RIMP App/Web, Backend y datos diferenciando segmentos."
+      include beach_tourist
+      include beach_local
       include admin_muni
       include maint_crew
-
-      // Front y apps
       include c_landing
       include c_mobile
       include c_web_admin
-
-      // Backend y datos
       include c_backend
       include c_db
       include c_storage
-
-      // Edge
       include c_firmware
-
-      // Externo
-      include sys_firebase
-
       animation {
-        c_landing
-        c_mobile
-        c_web_admin
-        c_backend
-        c_db
-        c_storage
-        c_firmware
-        sys_firebase
+        beach_tourist
+        beach_local
+        admin_muni
+        maint_crew
       }
     }
 
-    // Contenedores — foco BACKEND
-    container system_ibmcs "containers-backend" {
+    // Componentes del Backend (Bounded Contexts)
+    component c_backend "components-backend" {
       autoLayout tb
-      title "Container Diagram – Backend Core"
-      description "Vista filtrada del backend (Node.js + DB + Storage) y sus relaciones con Front y Auth."
-
-      include c_backend
-      include c_db
-      include c_storage
-      include c_web_admin
-      include c_mobile
-      include sys_firebase
-    }
-
-    // Containers — foco en usuarios
-    container system_ibmcs "containers-usuarios" {
-      autoLayout tb
-      title "Container Diagram – Usuarios"
-      description "Flujos de puntos/canje y autenticación entre Landing/Mobile/Web, Backend y datos."
-
-      include user_beach
-      include admin_muni
-      include c_landing
+      title "Component Diagram – RIMP Backend (Bounded Contexts)"
+      description "Monolito modular en Spring Boot con bounded contexts: IAM, WasteCollection, UserIdentification, RewardManagement, MunicipalityManagement, Monitoring & Reporting."
+      include cmp_iam
+      include cmp_waste
+      include cmp_userid
+      include cmp_reward
+      include cmp_muni
+      include cmp_monitor
+      // Para ver flujos clave con clientes y edge
       include c_mobile
       include c_web_admin
-      include c_backend
+      include c_firmware
       include c_db
-      include sys_firebase
+      animation {
+        cmp_iam
+        cmp_userid
+        cmp_waste
+        cmp_reward
+        cmp_muni
+        cmp_monitor
+      }
     }
 
-    // Containers — foco en operaciones
-    container system_ibmcs "containers-operaciones" {
-      autoLayout tb
-      title "Container Diagram – Operaciones"
-      description "Gestión municipal y operación de campo sobre Backend y base de datos."
-
-      include maint_crew
-      include admin_muni
-      include c_web_admin
-      include c_backend
-      include c_db
-    }
-
-    // --- L3: Deployment ---
     // Deployment general
-    deployment system_ibmcs "Production" "deploy" {
+    deployment system_rimp "Production" "deploy" {
       include *
       autoLayout lr
-      title "Deployment Diagram – Production (MVP)"
-      description "ESP32 en playa → Backend/DB en Railway; Storage y Web Admin en Firebase; Landing en GitHub Pages; Auth en Firebase."
-      animation {
-        c_firmware
-        c_backend
-        c_db
-        c_storage
-        c_landing
-        c_web_admin
-        c_mobile
-
-        
-      }
+      title "Deployment Diagram – RIMP (Production MVP)"
+      description "ESP32 en playa → Backend/DB en Railway; Storage en la nube; Landing ReciclaMar en GitHub Pages; Admin en hosting SPA."
     }
 
-    // Deployment — slice Railway
-    deployment system_ibmcs "Production" "deploy-railway" {
-      autoLayout tb
-      title "Deployment – Railway"
-      description "Servicios desplegados en Railway (Backend y DB)."
-      include c_backend
-      include c_db
-    }
-
-    // Deployment — slice Firebase
-    deployment system_ibmcs "Production" "deploy-firebase" {
-      autoLayout tb
-      title "Deployment – Firebase"
-      description "Servicios en Firebase (Web Admin, Storage, Auth)."
-      include c_web_admin
-      include c_storage
-
-    }
-
-    // Deployment — slice GitHub Pages
-    deployment system_ibmcs "Production" "deploy-ghpages" {
-      autoLayout tb
-      title "Deployment – GitHub Pages"
-      description "Landing estático."
-      include c_landing
-    }
-
-    // Deployment — slice Devices
-    deployment system_ibmcs "Production" "deploy-devices" {
-      autoLayout tb
-      title "Deployment – Devices"
-      description "Dispositivo ESP32 y móviles Android (APK)."
-      include c_firmware
-      include c_mobile
-    }
-
-    // --- Estilos ---
+    // Estilos (por segmento, roles y bounded contexts)
     styles {
       element OurSystem {
         background "#1168bd"
@@ -398,19 +308,24 @@ workspace "IoT Beach Metal Collector System" "C4 – Landscape, Context y Contai
         strokeWidth 2
       }
 
-      element External {
-        background "#e0e0e0"
-        color "#000000"
-        border Dashed
-        stroke "#7a7a7a"
+      element Segmento1 {
+        background "#2aa775"
+        color "#ffffff"
+        stroke "#1e7e59"
         strokeWidth 2
       }
 
-      element Person {
-        shape Person
-        background "#08427b"
+      element Segmento2 {
+        background "#c97c2f"
         color "#ffffff"
-        stroke "#062f61"
+        stroke "#955e24"
+        strokeWidth 2
+      }
+
+      element Segmento3 {
+        background "#6b5b95"
+        color "#ffffff"
+        stroke "#514a72"
         strokeWidth 2
       }
 
@@ -447,6 +362,44 @@ workspace "IoT Beach Metal Collector System" "C4 – Landscape, Context y Contai
         background "#0b8457"
         color "#ffffff"
         stroke "#086643"
+        strokeWidth 2
+      }
+
+      // Estilos para bounded contexts (sin ';' y con comillas)
+      element "BC_IAM" {
+        background "#1F77B4"
+        color "#ffffff"
+        stroke "#174f7a"
+        strokeWidth 2
+      }
+      element "BC_WASTE" {
+        background "#2CA02C"
+        color "#ffffff"
+        stroke "#1d6f1d"
+        strokeWidth 2
+      }
+      element "BC_USERID" {
+        background "#17BECF"
+        color "#ffffff"
+        stroke "#118996"
+        strokeWidth 2
+      }
+      element "BC_REWARD" {
+        background "#FF7F0E"
+        color "#ffffff"
+        stroke "#b35a0a"
+        strokeWidth 2
+      }
+      element "BC_MUNI" {
+        background "#9467BD"
+        color "#ffffff"
+        stroke "#6a4a87"
+        strokeWidth 2
+      }
+      element "BC_MONITOR" {
+        background "#8C564B"
+        color "#ffffff"
+        stroke "#633e35"
         strokeWidth 2
       }
     }
