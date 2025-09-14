@@ -678,7 +678,7 @@ Esta aproximación permite evolución independiente de cada bounded context mien
 
 #### 4.1.3.1. Software Architecture System Landscape Diagram
 
-> Vista general del ecosistema: actores (visitante, municipalidad, mantenimiento), el sistema IBMCS y el servicio externo de autenticación Firebase.  
+> Muestra la visión general del ecosistema de ReciclaMar, con la plataforma RIMP como sistema central y los actores principales.   
 
 ![System Landscape – IBMCS](./diagrams/c4/00-landscape/structurizr-105978-landscape.png)
 
@@ -686,52 +686,22 @@ Esta aproximación permite evolución independiente de cada bounded context mien
 
 #### 4.1.3.2. Software Architecture Context Level Diagrams
 
-> Caja negra de IBMCS, mostrando interacción con los tres actores y Firebase.  
+> Representa a RIMP como caja negra y cómo interactúan los segmentos: bañistas, municipalidades y mantenimiento.   
 ![Context – General](./diagrams/c4/01-context/structurizr-105978-context.png)
-
-> Flujo de autenticación de usuario visitante y municipalidad vía Firebase.  
-![Context – Usuarios + Auth](./diagrams/c4/01-context/structurizr-105978-context-usuarios.png)
-
-> Operación/mantenimiento de recolectores por personal de campo.  
-![Context – Operaciones](./diagrams/c4/01-context/structurizr-105978-context-operaciones.png)
-
-> Flujo de acumulación y canje de puntos entre usuario y municipalidad.  
-![Context – Canjes](./diagrams/c4/01-context/structurizr-105978-context-canjes.png)
 
 ---
 
 #### 4.1.3.3. Software Architecture Container Level Diagrams
 
-> Descomposición en contenedores: frontends, backend, DB, storage y firmware Edge.  
-![Containers – General](./diagrams/c4/02-containers/structurizr-105978-containers.png)
-
-> Vista del backend con base de datos y storage.  
-![Containers – Backend Core](./diagrams/c4/02-containers/structurizr-105978-containers-backend.png)
-
-> Flujos de puntos/canje y autenticación desde las aplicaciones.  
-![Containers – Usuarios](./diagrams/c4/02-containers/structurizr-105978-containers-usuarios.png)
-
-> Enfoque en la gestión municipal y mantenimiento sobre backend y DB.  
-![Containers – Operaciones](./diagrams/c4/02-containers/structurizr-105978-containers-operaciones.png)
+> Descompone RIMP en sus aplicaciones y servicios: App móvil (Flutter), Web Admin (React), Backend (Spring Boot), DB, Storage y Firmware (ESP32).  
+![Containers – General](./diagrams/c4/02-containers/structurizr-105978-containers-usuarios.png)
 
 ---
 
 #### 4.1.3.4. Software Architecture Deployment Diagrams
 
-> Infraestructura general: ESP32 en playa, backend+DB en Railway, Web Admin/Storage en Firebase, Landing en GitHub Pages, móviles Android.  
+> Muestra dónde se despliegan los contenedores: ESP32 en playa, Backend/DB en Railway, Landing en GitHub Pages, Web Admin en hosting SPA y App móvil en Android.  
 ![Deployment – Production](./diagrams/c4/03-deployment/structurizr-105978-deploy.png)
-
-> Slice de Railway con backend y base de datos.  
-![Deployment – Railway](./diagrams/c4/03-deployment/structurizr-105978-deploy-railway.png)
-
-> Slice de Firebase con Web Admin y Storage.  
-![Deployment – Firebase](./diagrams/c4/03-deployment/structurizr-105978-deploy-firebase.png)
-
-> Hosting estático de la landing page.  
-![Deployment – GitHub Pages](./diagrams/c4/03-deployment/structurizr-105978-deploy-ghpages.png)
-
-> Dispositivo ESP32 y app móvil Android.  
-![Deployment – Devices](./diagrams/c4/03-deployment/structurizr-105978-deploy-devices.png)
 
 ## 4.2. Tactical-Level Domain-Driven Design
 
