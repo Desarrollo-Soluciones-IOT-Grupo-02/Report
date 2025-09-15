@@ -392,7 +392,8 @@ Aquí mostramos los pasos respectivos para la elaboración correcta del Event St
 
 En esta sección se realizó una lluvia de ideas de los eventos del dominio relacionados con el sistema de gestión inteligente de residuos metálicos que se está explorando. Nos permitió identificar los eventos clave como: WasteCollected, UserAuthenticated, MetallicResidueValidated, PointsEarned, RewardClaimed, BenefitDefined, ReportGenerated, entre otros, y las interacciones entre ellos.
 
-[Imagen del Step 1 - Unstructured Exploration]
+<img width=600 high=600 src="https://media.discordapp.net/attachments/1417188407204909217/1417188496409628682/image.png?ex=68c99323&is=68c841a3&hm=5eda63e9430c7258247ae91800268fc56674d791cb8a5514d8892207a40d4c7c&=&format=webp&quality=lossless"/>
+<img width=600 high=600 src="https://media.discordapp.net/attachments/1417188407204909217/1417188595625889883/Mermaid_Chart_-_Create_complex_visual_diagrams_with_text._A_smarter_way_of_creating_diagrams.-2025-09-15-164124.png?ex=68c9933b&is=68c841bb&hm=af056e162ce068aeb6860e419ce95211dbd009f9d9773b82381f674672a48717&=&format=webp&quality=lossless&width=1097&height=602"/>
 
 **Step 2: Timelines**
 
