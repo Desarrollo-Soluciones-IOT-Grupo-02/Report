@@ -440,7 +440,7 @@ En esta fase, identificamos los sistemas externos que interactúan con nuestro d
 
 En este último paso, agrupamos los eventos y comandos que pertenecen a un agregado específico: Waste Collection Aggregate, User Identity Aggregate, Reward Management Aggregate, Municipal Agreement Aggregate, y Reporting Aggregate, para garantizar que todas las operaciones dentro de un contexto estén alineadas y mantengan la consistencia del sistema.
 
-[Imagen del Step 9 - Aggregates]
+<img width=700 high=800 src="https://media.discordapp.net/attachments/1417188407204909217/1417197895450492938/Aggregates.png?ex=68c99be4&is=68c84a64&hm=f51db55840bfc1eb2eb92ab4c8296458fd3dfe72a37d27b4bbb094da8ae26297&=&format=webp&quality=lossless&width=607&height=607"/>
 
 #### 4.1.1.1. Candidate Context Discovery
 
