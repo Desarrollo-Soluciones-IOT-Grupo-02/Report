@@ -405,13 +405,15 @@ En esta sección, los eventos identificados previamente, son agrupados en subgru
 
 Durante esta fase, identificamos puntos problemáticos o (Pain Points) que son áreas donde los usuarios pueden obtener dificultades al momento de realizar una respectiva funcionalidad en la aplicación. Estos puntos incluyen problemas con la validación RFID, fallos en los sensores de detección metálica, demoras en la asignación de puntos, y dificultades en el proceso de canje de recompensas. Estos puntos son importantes para mejorar la experiencia de usuario e implementar una aplicación eficiente.
 
-[Imagen del Step 3 - Paint Points]
+<img width=1000 high=900 src="https://media.discordapp.net/attachments/1417188407204909217/1417204725656322048/pain_points.png?ex=68c9a240&is=68c850c0&hm=a4566d8297a78adf3cf9d7d52d5e62ccc5957d275cf5d465c1f169c21b85a614&=&format=webp&quality=lossless&width=882&height=92" />
+
 
 **Step 4: Pivotal Points**
 
 En esta fase, nos enfocamos en identificar los puntos cruciales dentro del flujo del negocio de gestión de residuos, los cuales tienen un impacto significativo en la operatividad del sistema o el comportamiento del usuario. Estos puntos incluyen la validación exitosa de residuos metálicos, la correcta identificación del usuario vía RFID, y la confirmación del canje de recompensas. Estos puntos nos ayudan a priorizar qué áreas deben ser optimizadas o revisadas con mayor detalle.
 
-[Imagen del Step 4 - Pivotal Points]
+<img width=1000 high=900 src="https://media.discordapp.net/attachments/1417188407204909217/1417204723664289864/Pivotal_points.png?ex=68c9a240&is=68c850c0&hm=0a12200a934673b36165c6a98c2dc8f936410242c710add8291013e2b45533af&=&format=webp&quality=lossless&width=882&height=102" />
+
 
 **Step 5: Commands**
 
@@ -423,18 +425,20 @@ Los comandos representan acciones que los actores del sistema pueden ejecutar. D
 
 En este paso, se identifican las políticas, que son reglas de negocio o condiciones que deben cumplirse para que un comando pueda ser ejecutado o un evento pueda suceder. Las políticas incluyen: "Solo se asignan puntos si el residuo es validado como metálico", "Cada usuario debe tener una tarjeta RFID única", "Los beneficios son definidos por cada municipio", "Los reportes se actualizan periódicamente".
 
-[Imagen del Step 6 - Policies]
+<img width=1000 high=900 src="https://media.discordapp.net/attachments/1417188407204909217/1417204724217810984/policies.png?ex=68c9a240&is=68c850c0&hm=e6d67b30b540a996c37db6fca76ed4f2cf5e0d63dfba5e906fa3802110a2d8c9&=&format=webp&quality=lossless&width=882&height=93" />
 
 **Step 7: Read Models**
 
 Los Read Models son vistas del estado del sistema, generalmente optimizadas para la consulta por parte de los usuarios o procesos. Durante este paso, definimos qué información necesita ser accesible: estado de puntos del usuario, historial de recolección, beneficios disponibles, métricas de impacto ambiental, y reportes de actividad municipal.
 
-[Imagen del Step 7 - Read Models]
+<img width=1000 high=900 src="https://media.discordapp.net/attachments/1417188407204909217/1417204724679311409/read_models.png?ex=68c9a240&is=68c850c0&hm=d30e9e7cbd2f729b4bc00c83fcdd7b6240bd1de60710ba0d92fd28885ba844ad&=&format=webp&quality=lossless&width=882&height=102" />
+
 
 **Step 8: External Systems**
 En esta fase, identificamos los sistemas externos que interactúan con nuestro dominio: sistemas de sensores IoT para detección de metales, lectores RFID, plataformas de pago para recompensas, sistemas municipales de gestión, y servicios de notificación. Es crucial entender cómo estos sistemas externos afectan los flujos de recolección y recompensas.
 
-[Imagen del Step 8 - External Systems]
+<img width=1000 high=900 src="https://media.discordapp.net/attachments/1417188407204909217/1417204725182631986/external_sistems.png?ex=68c9a240&is=68c850c0&hm=d07e5f9da7f8fe47a53bb4bc0f436b6547a1826d9aadfd55e73be54b89b96657&=&format=webp&quality=lossless&width=882&height=102" />
+
 
 **Step 9: Aggregates**
 
@@ -466,31 +470,31 @@ Priorizar los bounded contexts, nos permite identificar situaciones primordiales
 
 **Bounded Context Identity & Access Management:**
 
-[Imagen del Bounded Context IAM]
+<img width=700 high=800 src="https://media.discordapp.net/attachments/1417188407204909217/1417213082660507659/IAM.png?ex=68c9aa09&is=68c85889&hm=bb923f30d30b5932649660a648d22ad904e5e7871794db14f1f3711bed731da8&=&format=webp&quality=lossless&width=882&height=358"/>
 
 **Bounded Context Waste Collection:**
 
-[Imagen del Bounded Context Waste Collection]
+<img width=700 high=800 src="https://media.discordapp.net/attachments/1417188407204909217/1417213083994292378/wASTE_COLLECTION.png?ex=68c9aa09&is=68c85889&hm=3bc622aacaa0382431eb27d4ae62a1e0ceb1380dabdb187bf983cb8428d8abf4&=&format=webp&quality=lossless&width=754&height=607"/>
 
 **Bounded Context User Identification:**
 
-[Imagen del Bounded Context User Identification]
+<img width=700 high=800 src="https://media.discordapp.net/attachments/1417188407204909217/1417213084984148039/USERIDENTIFICATION.png?ex=68c9aa0a&is=68c8588a&hm=ab5900de38421992c2dbb2b04dc7a6662014ba85964ccef263ac5d719a9ebe5d&=&format=webp&quality=lossless&width=504&height=607"/>
 
 **Bounded Context Reward Management:**
 
-[Imagen del Bounded Context Reward Management]
+<img width=700 high=800 src="https://media.discordapp.net/attachments/1417188407204909217/1417213079950856373/REWARD_MANAGEMENT.png?ex=68c9aa08&is=68c85888&hm=c81d895a422934c1762e74ef1d7228674412a389e34fe1aef10cf429af5cc407&=&format=webp&quality=lossless&width=498&height=607"/>
 
 **Bounded Context Municipality Management:**
 
-[Imagen del Bounded Context Municipality Management]
+<img width=700 high=800 src="https://media.discordapp.net/attachments/1417188407204909217/1417213080949227550/MUNICIPALITY_MANAGEMENT.png?ex=68c9aa09&is=68c85889&hm=15fd0b01cc12425e13b06543a55b89d86b693f5a7727e35d7ecd274a6bd0c391&=&format=webp&quality=lossless&width=509&height=606"/>
 
 **Bounded Context Monitoring & Reporting:**
 
-[Imagen del Bounded Context Monitoring & Reporting]
+<img width=400 high=600 src="https://media.discordapp.net/attachments/1417188407204909217/1417213081724915733/Monitoring_reporting.png?ex=68c9aa09&is=68c85889&hm=1a91d81e455c0b6952ea860a1b7b3bac66d768f13a57f244e3559acce8a9235c&=&format=webp&quality=lossless&width=248&height=607"/>
 
 **Visión General de los Bounded Contexts:**
 
-[Imagen de la Visión General de todos los Bounded Contexts]
+<img width=700 high=800 src="https://media.discordapp.net/attachments/1417188407204909217/1417209278410002492/General_bounded_context.png?ex=68c9a67e&is=68c854fe&hm=7a8a9b6deb4502a9082b8d3505ce94c76ff846bdbd37972ecd00eb2add4fb523&=&format=webp&quality=lossless&width=410&height=350"/>
 
 #### 4.1.1.2. Domain Message Flows Modeling
 
