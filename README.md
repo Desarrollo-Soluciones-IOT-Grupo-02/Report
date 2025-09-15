@@ -506,13 +506,13 @@ En este escenario, se describe el proceso de autenticación de usuario en el sis
 
 En este escenario, se describe el proceso completo de recolección de residuos metálicos. El ciudadano interactúa con los contextos de User Identification y Waste Collection para depositar residuos metálicos y ser identificado mediante su tarjeta RFID.
 
-[Imagen del Scenario Waste Collection Process]
+<img width=700 high=800 src="https://media.discordapp.net/attachments/1417188407204909217/1417198864582316133/Waste_Collection_process.png?ex=68c99ccb&is=68c84b4b&hm=495f57d3ca40fffe884f1567e4cde60bcecd4550348cae9fa85d31b7a80f1cba&=&format=webp&quality=lossless&width=1064&height=607"/>
 
 **Scenario: Reward Points Assignment**
 
 En este escenario, se describe el proceso de asignación de puntos de recompensa. Tras la validación exitosa del residuo metálico y la identificación del usuario, el contexto de Reward Management asigna puntos al usuario basado en las reglas definidas.
 
-[Imagen del Scenario Reward Points Assignment]
+<img width=700 high=800 src="https://media.discordapp.net/attachments/1417188407204909217/1417199594466447458/Reward_Points_assignment.png?ex=68c99d79&is=68c84bf9&hm=a97c3fc3fcfff7e6d6e7ad2e2b4c3b3f67f7c16ec7f6229b825f3f15f2b4d007&=&format=webp&quality=lossless&width=1010&height=607"/>
 
 **Scenario: Benefit Redemption**
 
