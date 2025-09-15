@@ -399,7 +399,7 @@ En esta sección se realizó una lluvia de ideas de los eventos del dominio rela
 
 En esta sección, los eventos identificados previamente, son agrupados en subgrupos lo cual tiene como líder al evento principal (es quien encapsula la funcionalidad principal del grupo). Estos eventos comienzan con el flujo que describe el escenario empresarial exitoso (Happy path) relacionado con la recolección de residuos, validación de usuarios, asignación de puntos y canje de recompensas, así como también escenarios alternativos cuando hay fallos en la validación o problemas técnicos.
 
-[Imagen del Step 2 - Timelines]
+<img width=900 high=900 src="https://media.discordapp.net/attachments/1417188407204909217/1417194792135295087/Flujo_Principal.png?ex=68c99900&is=68c84780&hm=3c650fa94cb5c7d91f41ca438866763bd5371c65231e8e57c3d9b0a4d604f074&=&format=webp&quality=lossless&width=1097&height=502"/>
 
 **Step 3: Paint Points**
 
@@ -417,7 +417,7 @@ En esta fase, nos enfocamos en identificar los puntos cruciales dentro del flujo
 
 Los comandos representan acciones que los actores del sistema pueden ejecutar. Durante este paso, mapeamos qué acciones desencadenan los eventos clave dentro del sistema: ValidateWaste, AuthenticateUser, AssignPoints, ClaimReward, DefineBenefit, GenerateReport, y qué actores (ciudadanos, administradores municipales, sistema IoT) son responsables de ejecutarlas.
 
-[Imagen del Step 5 - Commands]
+<img width=700 high=800 src="https://media.discordapp.net/attachments/1417188407204909217/1417196880093515916/Commands.png?ex=68c99af2&is=68c84972&hm=329c6da35f1af84ef304c16ed35c8d57c00927876065307ad88fd5c5d0a034d1&=&format=webp&quality=lossless&width=653&height=607"/>
 
 **Step 6: Policies**
 
