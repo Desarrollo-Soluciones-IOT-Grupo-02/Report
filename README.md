@@ -504,7 +504,7 @@ En esta sección, se describe el proceso utilizado para visualizar la interacci�
 
 En este escenario, se describe el proceso de autenticación de usuario en el sistema. El ciudadano interactúa con el contexto de Identity & Access Management para autenticarse y acceder a las funcionalidades de la plataforma de reciclaje.
 
-[Imagen del Scenario User Authentication]
+<img width=700 high=800 src="https://media.discordapp.net/attachments/1417188407204909217/1417217291141255188/user_authentication.png?ex=68c9adf4&is=68c85c74&hm=07a18fc5ea9cd7167543f316e23b716c8f8e5c029e53a39737f6d2eea5a024f1&=&format=webp&quality=lossless&width=882&height=512"/>
 
 **Scenario: Waste Collection Process**
 
@@ -522,13 +522,13 @@ En este escenario, se describe el proceso de asignación de puntos de recompensa
 
 En este escenario, se describe el proceso de canje de beneficios municipales. El ciudadano interactúa con los contextos de Reward Management y Municipality Management para canjear sus puntos por beneficios definidos por su municipio.
 
-[Imagen del Scenario Benefit Redemption]
+<img width=700 high=800 src="https://media.discordapp.net/attachments/1417188407204909217/1417217292126654514/benefit_redemption.png?ex=68c9adf5&is=68c85c75&hm=afd80a043f966bf64f97e2aa3a4f5a85346e5afcbd7175e72e22301ef2752ef3&=&format=webp&quality=lossless&width=882&height=532"/>
 
 **Scenario: Generate Impact Report**
 
 En este escenario, se describe el proceso de generación de reportes de impacto ambiental. Los administradores municipales interactúan con el contexto de Monitoring & Reporting para visualizar métricas de recolección, impacto ambiental y participación ciudadana.
 
-[Imagen del Scenario Generate Impact Report]
+<img width=700 high=800 src="https://media.discordapp.net/attachments/1417188407204909217/1417217290096873604/generate_impact_report.png?ex=68c9adf4&is=68c85c74&hm=9ad7ef6044edf7fedad2a8eed83023e48723c5c4d02a76477fa6dad54cb1219d&=&format=webp&quality=lossless&width=882&height=551"/>
    
 #### 4.1.1.3. Bounded Context Canvases
 
