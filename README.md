@@ -554,7 +554,7 @@ En esta sección, se detallan los pasos seguidos por el equipo para diseñar los
 - **Reglas de negocio:** Los tokens de acceso tienen tiempo de expiración; Los usuarios deben autenticarse antes de acceder a funcionalidades; Diferentes roles tienen diferentes niveles de acceso
 - **Dependencias:** User Identification Context (para validar identidad de usuarios finales)
 
-[Imagen del Bounded Context Canvas IAM]
+<img width=900 high=900 src="https://media.discordapp.net/attachments/1417188407204909217/1417220947978752010/BC_IAM.png?ex=68c9b15c&is=68c85fdc&hm=58ef12bf2ab132628944b92b4c8f3d602a7939080ef3e6b30ab3c46293990ead&=&format=webp&quality=lossless&width=882&height=327"/>
 
 **Bounded Context Canvas Waste Collection:**
 
@@ -564,7 +564,7 @@ En esta sección, se detallan los pasos seguidos por el equipo para diseñar los
 - **Reglas de negocio:** Solo se acepta para la compuerta si el material es metálico; La validación debe ser confirmada por sensores IoT
 - **Dependencias:** User Identification Context
 
-[Imagen del Bounded Context Canvas Waste Collection]
+<img width=900 high=900 src="https://media.discordapp.net/attachments/1417188407204909217/1417220948704362537/BC_WASTE_COLLECTION.png?ex=68c9b15c&is=68c85fdc&hm=f41f5cb2ba1b9fcfb95f7490c08b958fea418cd155f723fafa27a1de86153318&=&format=webp&quality=lossless&width=882&height=280"/>
 
 **Bounded Context Canvas User Identification:**
 
@@ -574,7 +574,7 @@ En esta sección, se detallan los pasos seguidos por el equipo para diseñar los
 - **Reglas de negocio:** Cada usuario posee una tarjeta única; La tarjeta RFID debe estar activa y registrada
 - **Dependencias:** Reward Management Context
 
-[Imagen del Bounded Context Canvas User Identification]
+<img width=900 high=900 src="https://media.discordapp.net/attachments/1417188407204909217/1417220949316472873/BC_USER_IDENTIFICATION.png?ex=68c9b15d&is=68c85fdd&hm=47f0fb1f79f9e51b5a82c430d6235f4fd03d6477b2fac77d4d8fe18e40d8bd9d&=&format=webp&quality=lossless&width=882&height=280"/>
 
 **Bounded Context Canvas Reward Management:**
 
@@ -584,7 +584,7 @@ En esta sección, se detallan los pasos seguidos por el equipo para diseñar los
 - **Reglas de negocio:** Los puntos sólo se asignan tras validar residuo y usuario; Los puntos tienen fecha de expiración
 - **Dependencias:** Municipality Management Context
 
-[Imagen del Bounded Context Canvas Reward Management]
+<img width=900 high=900 src="https://media.discordapp.net/attachments/1417188407204909217/1417220949933297779/BC_REWARD_MANAGEMENT.png?ex=68c9b15d&is=68c85fdd&hm=af684ac4cb008a362b54d4784ea01e36eef990fa583d8b992db81541dc4a12c5&=&format=webp&quality=lossless&width=882&height=286"/>
 
 **Bounded Context Canvas Municipality Management:**
 
@@ -594,7 +594,7 @@ En esta sección, se detallan los pasos seguidos por el equipo para diseñar los
 - **Reglas de negocio:** Cada municipio define sus propios beneficios; Los convenios deben ser renovados periódicamente
 - **Dependencias:** Ninguna (contexto independiente)
 
-[Imagen del Bounded Context Canvas Municipality Management]
+<img width=900 high=900 src="https://media.discordapp.net/attachments/1417188407204909217/1417220950520496208/BC_MUNICIPALITY_MANAGEMENT.png?ex=68c9b15d&is=68c85fdd&hm=062b451522b7d07de72a621900ebba07250580869a4ab9b2590727612a33838d&=&format=webp&quality=lossless&width=882&height=288"/>
 
 **Bounded Context Canvas Monitoring & Reporting:**
 
@@ -604,7 +604,7 @@ En esta sección, se detallan los pasos seguidos por el equipo para diseñar los
 - **Reglas de negocio:** Los reportes deben actualizarse periódicamente; Las métricas deben reflejar el impacto ambiental real
 - **Dependencias:** Todos los demás contextos (para recopilar datos)
 
-[Imagen del Bounded Context Canvas Monitoring & Reporting]
+<img width=900 high=900 src="https://media.discordapp.net/attachments/1417188407204909217/1417220947336761404/BC_MONITORING_REPORTING.png?ex=68c9b15c&is=68c85fdc&hm=1a4c16f1eb38266a9b1990bce1936ef14d5da88d4b92c3c4af9d8042393961f6&=&format=webp&quality=lossless&width=882&height=287"/>
 
 ### 4.1.2 Context mapping
 
@@ -637,7 +637,7 @@ En esta sección, se analizan las relaciones entre los bounded contexts identifi
 
 **Context Mapping Diagram**
 
-[Imagen del Context Mapping completo mostrando todas las relaciones entre contextos]
+<img width=900 high=900 src="https://media.discordapp.net/attachments/1417188407204909217/1417227830835675206/CCM.png?ex=68c9b7c5&is=68c86645&hm=bdceb1c8fc55fe945eb3d3477c7ea7d8505baa5783694589531e5db5ce009b7e&=&format=webp&quality=lossless&width=970&height=607"/>
 
 El diagrama muestra claramente cómo los seis bounded contexts interactúan entre sí, con Identity & Access Management como el proveedor central de servicios de seguridad, User Identification como el núcleo de identificación de ciudadanos, Waste Collection como el procesador central de residuos, Reward Management como el gestor de incentivos, Municipality Management como el definidor de políticas de beneficios, y Monitoring & Reporting como el consumidor de datos para análisis e informes del sistema de reciclaje inteligente.
 
