@@ -48,6 +48,63 @@
 
 # Registro de Versiones del Informe
 
+Esta sección tiene como propósito detallar las actualizaciones significativas realizadas al informe durante su evolución. Se presenta en una página independiente y se organiza en un cuadro con el formato que se muestra a continuación.
+
+<table align="center">
+  <thead>
+    <tr>
+      <th>Versión</th>
+      <th>Fecha</th>
+      <th>Autor</th>
+      <th>Descripción de modificación</th>
+    </tr>
+  </thead>
+  <tbody>
+  <!-- TB1 -->
+    <tr>
+      <td rowspan="7">TB1</td>
+      <td rowspan="7">16/09/2025</td>
+    </tr>
+    <tr>
+      <td>Del Carmen Zorrilla, Ray Alessandro</td>
+      <td>
+        - Entrevistas a usuarios.<br>
+      </td>
+    </tr>
+    <tr>
+      <td>Estudiante</td>
+      <td>
+        - Entrevistas a usuarios.<br>
+      </td>
+    </tr>
+        <tr>
+      <td>Estudiante</td>
+      <td>
+        - Entrevistas a usuarios.<br>
+      </td>
+    </tr>
+        <tr>
+      <td>Estudiante</td>
+      <td>
+        - Entrevistas a usuarios.<br>
+      </td>
+    </tr>
+        <tr>
+      <td>Estudiante</td>
+      <td>
+        - Entrevistas a usuarios.<br>
+      </td>
+    </tr>
+        <tr>
+      <td>Estudiante</td>
+      <td>
+        - Entrevistas a usuarios.<br>
+      </td>
+    </tr>
+  <!-- Otras entrega -->
+  </tbody>
+</table>
+
 <br><br>
 
 # Project Report Collaboration Insights
@@ -185,7 +242,134 @@
 
 # Student Outcome
 
-<b>ABET – EAC - Student Outcome 5:</b> La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos proporcionan liderazgo, crean un entorno de colaboración e inclusivo, establecen objetivos, planifican tareas y cumplen objetivos.
+<b>ABET – EAC - Student Outcome 5:</b>
+La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos proporcionan liderazgo, crean un entorno de colaboración e inclusivo, establecen objetivos, planifican tareas y cumplen objetivos.
+
+<table align="center">
+  <thead>
+    <tr>
+      <th>Criterio específico</th>
+      <th>Acciones realizadas</th>
+      <th>Conclusiones</th>
+    </tr>
+  </thead>
+  <tbody>
+    <!-- Criterio 1 -->
+    <tr>
+      <td rowspan="1">
+        Trabaja en equipo para proporcionar liderazgo en forma conjunta
+      </td>
+      <!-- TB1 -->
+      <td>
+        <table>
+          <tr>
+            <td rowspan="7"><b>TB1</b></td>
+          </tr>
+        <!-- Estudiantes -->
+          <tr>
+            <td>
+              <b>Del Carmen Zorrilla, Ray Alessandro:</b><br>
+              Morbi vel tortor id eros dictum venenatis id ut dui. Mauris quis tellus sed nunc hendrerit vehicula ac id mauris.
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <b>Estudiante 2:</b><br>
+              Morbi vel tortor id eros dictum venenatis id ut dui. Mauris quis tellus sed nunc hendrerit vehicula ac id mauris.
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <b>Estudiante 3:</b><br>
+              Morbi vel tortor id eros dictum venenatis id ut dui. Mauris quis tellus sed nunc hendrerit vehicula ac id mauris.
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <b>Estudiante 4:</b><br>
+              Morbi vel tortor id eros dictum venenatis id ut dui. Mauris quis tellus sed nunc hendrerit vehicula ac id mauris.
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <b>Estudiante 5:</b><br>
+              Morbi vel tortor id eros dictum venenatis id ut dui. Mauris quis tellus sed nunc hendrerit vehicula ac id mauris.
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <b>Estudiante 6:</b><br>
+              Morbi vel tortor id eros dictum venenatis id ut dui. Mauris quis tellus sed nunc hendrerit vehicula ac id mauris.
+            </td>
+          </tr>
+        </table>
+      </td>
+      <!-- Conclusion TB1 -->
+      <td rowspan="1">
+        Fusce cursus dolor et nulla suscipit, sit amet ullamcorper nibh vestibulum.<br>
+        Nam ornare massa eu lobortis porttitor.<br>
+        Nam ut erat feugiat libero pretium semper at metus.
+      </td>
+    </tr>
+    <!-- Criterio 2 -->
+    <tr>
+      <td rowspan="1">
+        Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.
+      </td>
+      <!-- TB1 -->
+      <td>
+        <table>
+          <tr>
+            <td rowspan="7"><b>TB1</b></td>
+          </tr>
+        <!-- Estudiantes -->
+          <tr>
+            <td>
+              <b>Del Carmen Zorrilla, Ray Alessandro:</b><br>
+              Morbi vel tortor id eros dictum venenatis id ut dui. Mauris quis tellus sed nunc hendrerit vehicula ac id mauris.
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <b>Estudiante 2:</b><br>
+              Morbi vel tortor id eros dictum venenatis id ut dui. Mauris quis tellus sed nunc hendrerit vehicula ac id mauris.
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <b>Estudiante 3:</b><br>
+              Morbi vel tortor id eros dictum venenatis id ut dui. Mauris quis tellus sed nunc hendrerit vehicula ac id mauris.
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <b>Estudiante 4:</b><br>
+              Morbi vel tortor id eros dictum venenatis id ut dui. Mauris quis tellus sed nunc hendrerit vehicula ac id mauris.
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <b>Estudiante 5:</b><br>
+              Morbi vel tortor id eros dictum venenatis id ut dui. Mauris quis tellus sed nunc hendrerit vehicula ac id mauris.
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <b>Estudiante 6:</b><br>
+              Morbi vel tortor id eros dictum venenatis id ut dui. Mauris quis tellus sed nunc hendrerit vehicula ac id mauris.
+            </td>
+          </tr>
+        </table>
+      </td>
+      <!-- Conclusion TB1 -->
+      <td rowspan="1">
+        Fusce mattis augue a nisl bibendum, quis fringilla neque scelerisque.<br>
+        Vivamus commodo libero eget venenatis imperdiet.<br>
+        Suspendisse blandit nisl quis mauris vehicula faucibus.
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 <br><br>
 
@@ -346,15 +530,16 @@ con acuerdos de canjes activos (feature).
 
   Cuando logremos mas de 10 comercios aliados y mas de 50 canjes por mes en el piloto.
 
-
 #### 1.2.2.4. Lean UX Canvas
 ![Lean UX Canvas](./lean_ux_canvas/Lean%20UX%20Canvas%20(1).jpg)
 ## 1.3. Segmentos objetivo
 
 <p align="justify">
   Un informe del Ministerio del Ambiente (Minam, 2025) reportó que en el Perú se generaron 8 994 762 toneladas de residuos sólidos municipales, lo que equivale a un promedio de 24 643 toneladas diarias. Sin embargo, apenas el 2,8 % de estos residuos fueron valorizados mediante procesos de reciclaje o reinserción en la cadena productiva. Esta realidad evidencia la necesidad urgente de implementar soluciones innovadoras que fomenten el reciclaje y reduzcan la acumulación de residuos, particularmente en las zonas costeras, donde la contaminación metálica afecta tanto al ecosistema marino como a la experiencia turística.
-  <br><br>
-  Nuestros principales segmentos objetivo son:
+
+  ---
+
+  **Nuestros principales segmentos objetivo son:**
 </p>
 
 ### 1.3.1 Segmento objetivo 1: Bañistas
@@ -369,37 +554,6 @@ con acuerdos de canjes activos (feature).
   Las municipalidades responsables de la gestión de playas representan un segmento clave, dado que actúan como administradores e implementadores de la solución. Son las encargadas de adquirir las tarjetas RFID de CleanWave, distribuirlas a los bañistas con su propia identidad visual, registrar a los usuarios y gestionar el sistema de recompensas. Asimismo, tienen a su cargo la recolección y reventa de los materiales metálicos depositados en los recolectores, lo que les permite generar ingresos adicionales. Estas instituciones buscan soluciones tecnológicas que les permitan mejorar la limpieza de las playas, reforzar su imagen institucional, atraer turismo sostenible y fomentar la participación ciudadana en iniciativas ambientales.
 </div>
 
-<p align="justify">
-  Un informe del Ministerio del Ambiente (Minam, 2025) reportó que en el Perú se generaron 8 994 762 toneladas de residuos sólidos municipales, lo que equivale a un promedio de 24 643 toneladas diarias. Sin embargo, apenas el 2,8 % de estos residuos fueron valorizados mediante procesos de reciclaje o reinserción en la cadena productiva. Esta realidad evidencia la necesidad urgente de implementar soluciones innovadoras que fomenten el reciclaje y reduzcan la acumulación de residuos, particularmente en las zonas costeras, donde la contaminación metálica afecta tanto al ecosistema marino como a la experiencia turística.
-  <br><br>
-  Nuestros principales segmentos objetivo son:
-</p>
-
-### 1.3.1 Segmento objetivo 1: Bañistas
-
-<p align="justify">
-  Este segmento está conformado por personas que visitan las playas para actividades recreativas y turísticas. Incluye tanto a turistas nacionales como extranjeros, así como a residentes locales. Se caracterizan por su interés en disfrutar de espacios limpios y seguros, y muestran predisposición a participar en iniciativas sostenibles cuando estas incluyen incentivos claros. A través del uso de las tarjetas RFID proporcionadas por las municipalidades —y previamente configuradas por CleanWave— los bañistas pueden acumular puntos cada vez que reciclan residuos metálicos en los recolectores Metalix. Dichos puntos son canjeables por beneficios locales, generando un esquema de gamificación ambiental que refuerza su motivación. Este grupo busca soluciones simples, rápidas y atractivas que les permitan contribuir al cuidado del medio ambiente mientras obtienen recompensas tangibles.
-</p>
-
-### 1.3.2 Segmento objetivo 2: Municipalidades costeras
-
-<div align="justify">
-  Las municipalidades responsables de la gestión de playas representan un segmento clave, dado que actúan como administradores e implementadores de la solución. Son las encargadas de adquirir las tarjetas RFID de CleanWave, distribuirlas a los bañistas con su propia identidad visual, registrar a los usuarios y gestionar el sistema de recompensas. Asimismo, tienen a su cargo la recolección y reventa de los materiales metálicos depositados en los recolectores, lo que les permite generar ingresos adicionales. Estas instituciones buscan soluciones tecnológicas que les permitan mejorar la limpieza de las playas, reforzar su imagen institucional, atraer turismo sostenible y fomentar la participación ciudadana en iniciativas ambientales.
-</div>
-
-#### Segmento 1 — Municipalidades costeras
-- **Perfil:** Gerencias de Ambiente, Turismo y Limpieza de distritos con litoral como Chorrillos, Barranco, Miraflores, San Miguel, Ventanilla.  
-- **Necesidades:** Reducir costos de limpieza, mejorar la salubridad de las playas, contar con métricas confiables para la toma de decisiones y cumplir normativas ambientales.  
-- **Datos de sustento:** DIGESA reportó que en verano 2024, 89 de 131 playas de Lima y Callao fueron declaradas “no saludables” principalmente por residuos sólidos (RPP Noticias, 2024). Esto demuestra la urgencia de soluciones de monitoreo y trazabilidad.  
-- **Demografía institucional:** 43 municipalidades en Lima Metropolitana, de las cuales al menos 15 son costeras. Todas cuentan con áreas de limpieza responsables de la gestión de playas.
-
----
-
-#### Segmento 2 — Bañistas
-- **Perfil:** Personas de 16 a 45 años que visitan playas urbanas para recreación, deporte o turismo. Mayoritariamente jóvenes y adultos con smartphone y uso frecuente de aplicaciones móviles.  
-- **Necesidades:** Playas limpias y seguras, incentivos atractivos para reciclar, experiencia rápida y confiable.  
-- **Datos de sustento:** Según el Ministerio de Comercio Exterior y Turismo, las playas limeñas reciben cientos de miles de visitantes en temporada de verano. En campañas de limpieza como Hazla por tu Playa 2024, más de 5,000 voluntarios retiraron 100 toneladas de basura en un solo fin de semana en Lima y Callao (Corresponsables, 2024).  
-- **Demografía ciudadana:** Jóvenes universitarios, familias y turistas locales o nacionales, nivel socioeconómico variado, pero con acceso a smartphones.
 # Capítulo II: Requirements Elicitation & Analysis
 
 ## 2.1. Competidores
@@ -466,7 +620,7 @@ con acuerdos de canjes activos (feature).
 
 ## 4.2. Tactical-Level Domain-Driven Design
 
-### 4.2.X. Bounded Context:
+### 4.2.X. Bounded Context
 
 #### 4.2.X.1. Domain Layer
 
@@ -538,31 +692,31 @@ con acuerdos de canjes activos (feature).
 
 ### 6.2.X. Sprint n
 
-#### 6.2.X.1. Sprint Planning n.
+#### 6.2.X.1. Sprint Planning n
 
-#### 6.2.X.2. Sprint Backlog n.
+#### 6.2.X.2. Sprint Backlog n
 
 #### 6.2.X.3. Development Evidence for Sprint Review
 
-#### 6.2.X.4. Testing Suite Evidence for Sprint Review.
+#### 6.2.X.4. Testing Suite Evidence for Sprint Review
 
-#### 6.2.X.5. Execution Evidence for Sprint Review.
+#### 6.2.X.5. Execution Evidence for Sprint Review
 
-#### 6.2.X.6. Services Documentation Evidence for Sprint Review.
+#### 6.2.X.6. Services Documentation Evidence for Sprint Review
 
-#### 6.2.X.7. Software Deployment Evidence for Sprint Review.
+#### 6.2.X.7. Software Deployment Evidence for Sprint Review
 
-#### 6.2.X.8. Team Collaboration Insights during Sprint.
+#### 6.2.X.8. Team Collaboration Insights during Sprint
 
-## 6.3. Validation Interviews.
+## 6.3. Validation Interviews
 
-### 6.3.1. Diseño de Entrevistas.
+### 6.3.1. Diseño de Entrevistas
 
-### 6.3.2. Registro de Entrevistas.
+### 6.3.2. Registro de Entrevistas
 
-### 6.3.3. Evaluaciones según heurísticas.
+### 6.3.3. Evaluaciones según heurísticas
 
-## 6.4. Video About-the-Product.
+## 6.4. Video About-the-Product
 
 # Conclusiones
 
@@ -571,27 +725,19 @@ con acuerdos de canjes activos (feature).
 ## Video About-the-Team
 
 # Bibliografía
-<ul>
-  <li>
-    Dirección General de Salud Ambiental (DIGESA). (2024, enero). 
-    <i>Más de 80 playas de Lima y Callao no son saludables para bañistas en verano, advierte la Digesa</i>. 
-    RPP Noticias. 
-    <a href="https://rpp.pe/peru/actualidad/verano-2024-hay-42-playas-saludables-y-89-no-saludables-en-el-peru-segun-digesa-noticia-1525501" target="_blank">
-      https://rpp.pe/peru/actualidad/verano-2024-hay-42-playas-saludables-y-89-no-saludables-en-el-peru-segun-digesa-noticia-1525501
-    </a>
-  </li>
-  <li>
-    Villacorta-Córdova, E. A., Gaspar-Torribio, M., & Espinoza-Montero, P. J. (2021). 
-    Evaluación de la contaminación por residuos sólidos en cuatro playas de la Costa Verde, Lima, Perú. 
-    <i>Revista Científica UNJFSC</i>, 29(1), 321–338. 
-    <a href="https://revistas.cientifica.edu.pe/index.php/southsustainability/article/download/1382/1097/6410" target="_blank">
-      https://revistas.cientifica.edu.pe/index.php/southsustainability/article/download/1382/1097/6410
-    </a>
-  </li>
-</ul>
 
+- Corresponsables. (2024, febrero 28). *Recolectan 100 toneladas de residuos en playas de Lima y Callao*. Corresponsables.  
+  [https://www.corresponsables.com/per/actualidad/medioambiente/100-toneladas-residuos-playas-lima-callao/](https://www.corresponsables.com/per/actualidad/medioambiente/100-toneladas-residuos-playas-lima-callao/)
 
-Corresponsables. (2024, febrero 28). *Recolectan 100 toneladas de residuos en playas de Lima y Callao*. Corresponsables. https://www.corresponsables.com/per/actualidad/medioambiente/100-toneladas-residuos-playas-lima-callao/  
+- Dirección General de Salud Ambiental (DIGESA). (2024, enero). *Más de 80 playas de Lima y Callao no son saludables para bañistas en verano, advierte la Digesa*.  RPP Noticias.  
+  [https://rpp.pe/peru/actualidad/verano-2024-hay-42-playas-saludables-y-89-no-saludables-en-el-peru-segun-digesa-noticia-1525501](https://rpp.pe/peru/actualidad/verano-2024-hay-42-playas-saludables-y-89-no-saludables-en-el-peru-segun-digesa-noticia-1525501)
+
+- Ministerio del Ambiente. (2025, julio 8). *Municipios reportan incremento en valorización de residuos sólidos durante 2024*. Nota de prensa. Gobierno del Perú.  
+  [https://www.gob.pe/es/n/1205034](https://www.gob.pe/es/n/1205034)
+
+- Villacorta-Córdova, E. A., Gaspar-Torribio, M., & Espinoza-Montero, P. J. (2021). Evaluación de la contaminación por residuos sólidos en cuatro playas de la Costa Verde, Lima, Perú. *Revista Científica UNJFSC*, 29(1), 321–338.  
+  [https://revistas.cientifica.edu.pe/index.php/southsustainability/article/download/1382/1097/6410](https://revistas.cientifica.edu.pe/index.php/southsustainability/article/download/1382/1097/6410)
+
 # Anexos
 
-Lean UX Canvas - https://miro.com/app/board/uXjVJKqj5v4=/
+- Lean UX Canvas - https://miro.com/app/board/uXjVJKqj5v4=/
