@@ -206,7 +206,7 @@ ReciclaMar propone RIMP (Recolector Inteligente de Metales para Playas), un sist
 | ![Orlando Roca](./foto_integrantes/orlando_roca.JPG) | **Roca Huapaya, Orlando Arturo** | u201919742 | Ingeniería de Software | Mi contribución al equipo es la experiencia que tengo desarrollando interfaces en React o Vue y servicios de APIs REST en Spring Boot o Laravel. Me enfoco en que el producto sea usable, estable y fácil de desplegar. Además, priorizaré el uso de buenas prácticas en el ciclo de desarrollo del software. |
 | ![Gustavo Pardo](./foto_integrantes/PerfilGustavo.jpg) | **Pardo Zapata, Gustavo Adolfo** | u202120347 | Ingeniería de Software  | Soy proactivo, colaborativo, organizado,responsable y con habilidades de resolución de problemas.Tengo una excelente capacidad para comunicarme de manera efectiva y clara con los demás miembros de mi equipo y deseo colaborar en todo lo posible con mis demás compañeros en este trabajo. Cuento con conocimiento en JavaScript, Java, Python, C# y SQL.  |
 | *(colocar foto)* | **Integrante 3** | [por completar] | [carrera] |  |
-| *(colocar foto)* | **Integrante 4** | [por completar] | [carrera] |  |
+| ![Adriano Cruz](./foto_integrantes/AdrianoCruz.png) | **Cruz Palomino,** | U202210697 | Ingeniería de Software	 | Mi nombre es Adriano Sebastian Cruz Palomino, tengo 20 años, soy alumno de Ingeniería de Software en la UPC, actualmente estoy cursando el 8vo ciclo. Soy una persona curiosa, responsable, y comprometida con mis estudios, siempre busco aprender más y mejorar mis habilidades.	 |
 | *(colocar foto)* | **Integrante 5** | [por completar] | [carrera] |  |
 | *(colocar foto)* | **Integrante 6** | [por completar] | [carrera] |  |
 
@@ -349,7 +349,7 @@ Los principales competidores seleccionados son:
 - **Evreka**: startup global que combina hardware IoT y software en la nube para digitalizar la gestión de residuos. Su propuesta se centra en optimizar rutas de recolección y operaciones de limpieza a gran escala en ciudades inteligentes.  
 - **Ecube Labs**: compañía surcoreana que fabrica compactadores solares y sensores ultrasónicos para monitoreo de residuos, integrados con su plataforma CleanCityNetworks. Sus soluciones tienen amplia adopción en Asia, Norteamérica y Europa.  
 
-En comparación, **ReciclaMar** busca diferenciarse al ofrecer un modelo adaptado a playas peruanas, centrado en la recolección de residuos metálicos con incentivos inmediatos a los bañistas, al mismo tiempo que provee datos en tiempo real a las municipalidades costeras.  
+En comparación, **CleanWave** busca diferenciarse al ofrecer un modelo adaptado a playas peruanas, centrado en la recolección de residuos metálicos con incentivos inmediatos a los bañistas, al mismo tiempo que provee datos en tiempo real a las municipalidades costeras.  
 
 
 
@@ -361,14 +361,14 @@ En comparación, **ReciclaMar** busca diferenciarse al ofrecer un modelo adaptad
   </tr>
   <tr>
     <td colspan="2" valign="top">¿Por qué llevar a cabo este análisis?</td>
-    <td colspan="4" valign="top">Identificar cómo se posiciona ReciclaMar frente a soluciones internacionales de gestión inteligente de residuos, evaluando fortalezas, debilidades y oportunidades para diferenciarse en el contexto de playas peruanas.</td>
+    <td colspan="4" valign="top">Identificar cómo se posiciona CleanWave frente a soluciones internacionales de gestión inteligente de residuos, evaluando fortalezas, debilidades y oportunidades para diferenciarse en el contexto de playas peruanas.</td>
   </tr>
   <tr>
     <td colspan="2" valign="top"></td>
-    <td valign="top"><b>ReciclaMar</b><img src='chapter-2/ReciclaMar-logo.png' width="50" height="50"></td>
-    <td valign="top"><b>Big Belly Solar</b><img src='chapter-2/Big-Belly-Solar-logo.png' width="auto" height="50"></td>
-    <td valign="top"><b>Evreka</b><img src='chapter-2/Evreka-logo.png' width="auto" height="50"></td>
-    <td valign="top"><b>Ecube Labs</b><img src='chapter-2/Ecube-logo.png' width="auto" height="50"></td>
+    <td valign="top"><b>CleanWave</b><img src='chapter-2/CleanWave-logo.png' width="50" height="50"></td>
+    <td valign="top"><b>Big Belly Solar</b><img src='chapter-2/Competidores/Big-Belly-Solar-logo.png' width="auto" height="50"></td>
+    <td valign="top"><b>Evreka</b><img src='chapter-2/Competidores/Evreka-logo.png' width="auto" height="50"></td>
+    <td valign="top"><b>Ecube Labs</b><img src='chapter-2/Competidores/Ecube-logo.png' width="auto" height="50"></td>
   </tr>
   <tr>
     <td rowspan="2" valign="top">Perfil</td>
@@ -455,7 +455,7 @@ En comparación, **ReciclaMar** busca diferenciarse al ofrecer un modelo adaptad
 
 ### 2.1.2. Estrategias y tácticas frente a competidores
 
-A partir del análisis competitivo realizado se identificaron las principales fortalezas, debilidades, oportunidades y amenazas de los competidores. Esta información resulta esencial para definir cómo diferenciar a ReciclaMar en el mercado y establecer una propuesta de valor sólida.  
+A partir del análisis competitivo realizado se identificaron las principales fortalezas, debilidades, oportunidades y amenazas de los competidores. Esta información resulta esencial para definir cómo diferenciar a CleanWave en el mercado y establecer una propuesta de valor sólida.  
 
 **Fortalezas de los competidores**  
 - Big Belly y Ecube Labs cuentan con tecnología madura y casos de éxito en ciudades internacionales.  
@@ -464,7 +464,7 @@ A partir del análisis competitivo realizado se identificaron las principales fo
 
 **Estrategias y tácticas frente a fortalezas**  
 - **Estrategias**:  
-  - Diferenciar a ReciclaMar por su enfoque especializado en playas y residuos metálicos, un nicho no cubierto por estos competidores.  
+  - Diferenciar a CleanWave por su enfoque especializado en playas y residuos metálicos, un nicho no cubierto por estos competidores.  
   - Comunicar que el producto es más accesible y adaptado a contextos municipales peruanos con recursos limitados.  
 - **Tácticas**:  
   - Desarrollar campañas de marketing que comparen costos y beneficios frente a soluciones internacionales.  
@@ -477,7 +477,7 @@ A partir del análisis competitivo realizado se identificaron las principales fo
 
 **Estrategias y tácticas frente a debilidades**  
 - **Estrategias**:  
-  - Posicionar a ReciclaMar como una solución de bajo costo y rápida implementación.  
+  - Posicionar a CleanWave como una solución de bajo costo y rápida implementación.  
   - Destacar la simplicidad y usabilidad para operadores municipales y ciudadanos.  
 - **Tácticas**:  
   - Elaborar un modelo de negocio basado en convenios con municipalidades y comercios locales para sostener la operación.  
@@ -490,7 +490,7 @@ A partir del análisis competitivo realizado se identificaron las principales fo
 
 **Estrategias y tácticas frente a oportunidades**  
 - **Estrategias**:  
-  - Aprovechar la ola de sostenibilidad y turismo responsable para posicionar ReciclaMar como solución innovadora para playas.  
+  - Aprovechar la ola de sostenibilidad y turismo responsable para posicionar CleanWave como solución innovadora para playas.  
   - Establecer alianzas con municipalidades costeras y comercios locales para ganar legitimidad y tracción.  
 - **Tácticas**:  
   - Participar en convocatorias de innovación ambiental y programas de responsabilidad social empresarial.  
@@ -524,15 +524,103 @@ A partir del análisis competitivo realizado se identificaron las principales fo
 
 ### 2.3.1. User Personas
 
+Se presentan los perfiles de los bañistas y de los miembros de municipalidades costeras que interactuarán con nuestra solución. Estos perfiles son esenciales para comprender sus motivaciones, frustraciones y necesidades, lo que permitirá diseñar un sistema IoT que incentive el reciclaje de residuos metálicos en playas y optimice la gestión municipal de limpieza.
+
+#### **Segmento 1: Bañistas**
+
+![UserPersona1](chapter-2/User-Persona/User-Persona-Luis-Fernandez.png)
+
+#### **Segmento 2: Miembros de Municipalidades Costeras**
+
+![UserPersona2](chapter-2/User-Persona/User-Persona-Carlos-Ramirez.png)
+
 ### 2.3.2. User Task Matrix
+
+En esta sección se presenta el **User Task Matrix**, que concentra las tareas que los User Persona (que representan a cada segmento) realizan actualmente para cumplir sus objetivos. Estas tareas existen independientemente del desarrollo de una solución tecnológica, y han sido identificadas a partir de observaciones en playas urbanas de Lima y entrevistas exploratorias con bañistas y personal municipal.
+
+Se han considerado dos segmentos principales:
+
+* **Bañistas**: Personas que acuden a las playas urbanas por recreación y consumo social, y que generan residuos metálicos durante su estancia.  
+* **Municipalidades costeras**: Instituciones responsables de la limpieza, mantenimiento y seguridad en playas, con limitaciones de presupuesto y procesos mayormente manuales.
+
+| Tareas                                                                 | Bañistas |   | Municipalidades costeras |   |
+| :--------------------------------------------------------------------- | :------: | :-: | :----------------------: | :-: |
+|                                                                        | Frecuencia | Importancia | Frecuencia | Importancia |
+| Llevar y consumir bebidas enlatadas en la playa                        | Alta      | Alta        | –          | –           |
+| Buscar un contenedor para depositar residuos metálicos                 | Media     | Alta        | –          | –           |
+| Guardar residuos hasta encontrar un tacho o dejarlos en la arena       | Media     | Alta        | –          | –           |
+| Quejarse por la suciedad de la playa (redes sociales o verbalmente)    | Baja      | Media       | –          | –           |
+| Organizar cuadrillas de limpieza manual                                | –         | –           | Alta       | Alta        |
+| Colocar y supervisar contenedores básicos en zonas concurridas         | –         | –           | Alta       | Alta        |
+| Coordinar recolección con camiones municipales                         | –         | –           | Alta       | Alta        |
+| Estimar volumen de residuos de forma manual (sin datos precisos)       | –         | –           | Alta       | Media       |
+| Responder a quejas de vecinos o turistas                               | –         | –           | Media      | Alta        |
+| Elaborar reportes agregados de limpieza para justificar presupuesto    | –         | –           | Alta       | Alta        |
+| Difundir información general sobre campañas de limpieza o reciclaje    | Baja      | Media       | Media      | Alta        |
+
+---
+
+**Análisis de tareas**  
+
+- Los **bañistas** suelen generar residuos metálicos (latas, tapas, chapas) en la playa. Aunque consideran importante desecharlos correctamente, la falta de infraestructura y de incentivos deriva en comportamientos poco sostenibles, como dejar residuos en la arena.  
+- Las **municipalidades costeras** concentran sus esfuerzos en la limpieza manual y en la logística de recolección sin contar con datos en tiempo real. Esto genera mayores costos y menor eficiencia en la planificación de rutas y recursos.  
+- Las tareas más frecuentes e importantes en ambos segmentos son:  
+  - Para **bañistas**: disponer de residuos metálicos en contenedores adecuados.  
+  - Para **municipalidades**: organizar cuadrillas, coordinar recolección y justificar presupuestos.  
+- La principal diferencia está en la **capacidad de acción**: mientras los bañistas se limitan a la disposición de residuos, las municipalidades deben garantizar la limpieza general y rendir cuentas con pocos recursos tecnológicos.
 
 ### 2.3.3. User Journey Mapping
 
+El User Journey Mapping muestra cómo bañistas y municipalidades viven hoy la experiencia de reciclaje en playas. Permite identificar sus metas, emociones y dificultades en cada fase, destacando oportunidades para que CleanWave simplifique el depósito de residuos metálicos y ofrezca datos útiles para la gestión municipal.
+
+#### **Segmento 1: Bañistas**
+
+![UserJouneyMapping](chapter-2/User-Journey-Mapping/User-Journey-Mapping-1.png)
+
+#### **Segmento 2: Miembros de Municipalidades Costeras**
+
+![UserJouneyMapping](chapter-2/User-Journey-Mapping/User-Journey-Mapping-2.png)
+
 ### 2.3.4. Empathy Mapping
+
+El Empathy Map ayuda a comprender lo que los bañistas y funcionarios municipales piensan, sienten, ven, dicen y hacen respecto al reciclaje. Así se identifican frustraciones como la falta de tachos diferenciados o de métricas confiables, y motivaciones como recibir recompensas inmediatas o reducir costos de limpieza.
+
+#### **Segmento 1: Bañistas**
+
+![EmpathyMap](chapter-2/Empathy-Map/Empathy-Map-1.png)
+
+#### **Segmento 2: Miembros de Municipalidades Costeras**
+
+![EmpathyMap](chapter-2/Empathy-Map/Empathy-Map-2.png)
 
 ### 2.3.5. As-Is Scenario Mapping
 
+El As-Is Scenario Mapping describe la situación actual sin CleanWave: bañistas que muchas veces dejan residuos en la arena y municipalidades que dependen de limpieza manual sin datos en tiempo real. Esto permite resaltar los puntos de dolor que nuestra solución IoT busca resolver.
+
+#### **Segmento 1: Bañistas**
+
+![As-is](chapter-2/As-Is/As-Is-Scenario-Mapping-1.png)
+
+#### **Segmento 2: Miembros de Municipalidades Costeras**
+
+![As-is](chapter-2/As-Is/As-Is-Scenario-Mapping-2.png)
+
 ## 2.4. Ubiquitous Language
+
+Para garantizar que todo el equipo y los actores involucrados utilicen los mismos términos, se define un lenguaje ubicuo del dominio del reciclaje de metales en playas. Este lenguaje sirve como base para la comunicación, la redacción de historias de usuario y el modelado del sistema.  
+
+- **Usuario**: actor del sistema que puede ser un *Bañista* o un *Representante Municipal*.  
+- **Bañista**: visitante de la playa que genera residuos metálicos y participa en el programa de reciclaje acumulando puntos.  
+- **Municipalidad**: organización responsable de la limpieza de playas y administración del sistema de reciclaje en su jurisdicción.  
+- **Recolector inteligente**: contenedor IoT que valida si el residuo es metálico, registra al usuario y envía datos en tiempo real.  
+- **Residuo metálico**: objeto válido para el reciclaje dentro del sistema (latas, tapas, chapas).  
+- **Evento de reciclaje**: acción registrada cuando un bañista deposita un residuo metálico en un recolector.  
+- **Puntos**: unidad de valor que se otorga a los bañistas por cada residuo reciclado y que puede acumularse por municipalidad.  
+- **Recompensa**: beneficio que puede canjear un bañista con sus puntos en comercios aliados.  
+- **Canje**: proceso por el cual los puntos acumulados se convierten en una recompensa.  
+- **Dashboard municipal**: panel de control para que la municipalidad supervise recolectores, métricas y reportes de reciclaje.  
+- **Telemetría**: información generada por los recolectores (nivel de llenado, peso estimado, frecuencia de uso).  
+- **Alerta de llenado**: notificación que indica que un recolector ha alcanzado un umbral definido y requiere recolección.  
 
 # Capítulo III: Requirements Specification
 
