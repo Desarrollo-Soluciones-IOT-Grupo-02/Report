@@ -201,14 +201,14 @@ ReciclaMar propone RIMP (Recolector Inteligente de Metales para Playas), un sist
 
 ### 1.1.2. Perfiles de integrantes del equipo
 
-| Foto | Apellidos y Nombres | Código | Carrera | Conocimientos y contribución principal |
-|---|---|---:|---|---|
-| ![Orlando Roca](./foto_integrantes/orlando_roca.JPG) | **Roca Huapaya, Orlando Arturo** | u201919742 | Ingeniería de Software | Mi contribución al equipo es la experiencia que tengo desarrollando interfaces en React o Vue y servicios de APIs REST en Spring Boot o Laravel. Me enfoco en que el producto sea usable, estable y fácil de desplegar. Además, priorizaré el uso de buenas prácticas en el ciclo de desarrollo del software. |
-| ![Gustavo Pardo](./foto_integrantes/PerfilGustavo.jpg) | **Pardo Zapata, Gustavo Adolfo** | u202120347 | Ingeniería de Software  | Soy proactivo, colaborativo, organizado,responsable y con habilidades de resolución de problemas.Tengo una excelente capacidad para comunicarme de manera efectiva y clara con los demás miembros de mi equipo y deseo colaborar en todo lo posible con mis demás compañeros en este trabajo. Cuento con conocimiento en JavaScript, Java, Python, C# y SQL.  |
-| *(colocar foto)* | **Integrante 3** | [por completar] | [carrera] |  |
-| ![Adriano Cruz](./foto_integrantes/AdrianoCruz.png) | **Cruz Palomino,** | U202210697 | Ingeniería de Software	 | Mi nombre es Adriano Sebastian Cruz Palomino, tengo 20 años, soy alumno de Ingeniería de Software en la UPC, actualmente estoy cursando el 8vo ciclo. Soy una persona curiosa, responsable, y comprometida con mis estudios, siempre busco aprender más y mejorar mis habilidades.	 |
-| *(colocar foto)* | **Integrante 5** | [por completar] | [carrera] |  |
-| *(colocar foto)* | **Integrante 6** | [por completar] | [carrera] |  |
+| Foto                                                   | Apellidos y Nombres              |          Código | Carrera                | Conocimientos y contribución principal                                                                                                                                                                                                                                                                                                                       |
+| ------------------------------------------------------ | -------------------------------- | --------------: | ---------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| ![Orlando Roca](./foto_integrantes/orlando_roca.JPG)   | **Roca Huapaya, Orlando Arturo** |      u201919742 | Ingeniería de Software | Mi contribución al equipo es la experiencia que tengo desarrollando interfaces en React o Vue y servicios de APIs REST en Spring Boot o Laravel. Me enfoco en que el producto sea usable, estable y fácil de desplegar. Además, priorizaré el uso de buenas prácticas en el ciclo de desarrollo del software.                                                |
+| ![Gustavo Pardo](./foto_integrantes/PerfilGustavo.jpg) | **Pardo Zapata, Gustavo Adolfo** |      u202120347 | Ingeniería de Software | Soy proactivo, colaborativo, organizado,responsable y con habilidades de resolución de problemas.Tengo una excelente capacidad para comunicarme de manera efectiva y clara con los demás miembros de mi equipo y deseo colaborar en todo lo posible con mis demás compañeros en este trabajo. Cuento con conocimiento en JavaScript, Java, Python, C# y SQL. |
+| *(colocar foto)*                                       | **Integrante 3**                 | [por completar] | [carrera]              |                                                                                                                                                                                                                                                                                                                                                              |
+| ![Adriano Cruz](./foto_integrantes/AdrianoCruz.png)    | **Cruz Palomino,**               |      U202210697 | Ingeniería de Software | Mi nombre es Adriano Sebastian Cruz Palomino, tengo 20 años, soy alumno de Ingeniería de Software en la UPC, actualmente estoy cursando el 8vo ciclo. Soy una persona curiosa, responsable, y comprometida con mis estudios, siempre busco aprender más y mejorar mis habilidades.                                                                           |
+| *(colocar foto)*                                       | **Integrante 5**                 | [por completar] | [carrera]              |                                                                                                                                                                                                                                                                                                                                                              |
+| *(colocar foto)*                                       | **Integrante 6**                 | [por completar] | [carrera]              |                                                                                                                                                                                                                                                                                                                                                              |
 
 
 ## 1.2. Solution Profile
@@ -516,6 +516,108 @@ A partir del análisis competitivo realizado se identificaron las principales fo
 
 ### 2.2.1. Diseño de entrevistas
 
+
+<p align="justify">
+  Se han establecido preguntas dirigidas a nuestros segmentos objetivo (<b>Bañistas</b> y <b>Municipalidades costeras</b>) con el fin de recolectar información cualitativa y cuantitativa que permita construir arquetipos de usuario. Estas entrevistas consideran aspectos demográficos, personales, digitales, así como objetivos, frustraciones y antecedentes relacionados al cuidado ambiental en playas. La información obtenida servirá para validar la propuesta de valor de <b>Metalix</b> y orientar su diseño de acuerdo con las necesidades reales de los usuarios.
+</p>
+
+---
+
+#### Características demográficas
+
+- ¿Cuál es su nombre?
+- ¿Cuál es su edad?
+- ¿Cuál es su género?
+- ¿En qué ciudad y distrito reside?
+- ¿Cuál es su estado civil?
+- ¿Con quién vive actualmente (solo/a, familia, amigos)?
+- ¿A qué se dedica actualmente?
+
+#### Características personales y sociales
+
+- ¿Cómo describiría su personalidad (ejemplo: sociable, innovador, tradicional, responsable)?
+- ¿Qué habilidades considera que le representan en su vida personal o laboral?
+- ¿Qué marcas, servicios o personas suelen influir en sus hábitos de consumo o en sus decisiones cotidianas?
+
+#### Dispositivos y canales digitales
+
+- ¿Qué dispositivos utiliza con mayor frecuencia (celular, laptop, smartwatch, etc.)?
+- ¿Qué aplicaciones o herramientas digitales son las que más usa en su día a día?
+- ¿Qué redes sociales o canales digitales utiliza más para informarse o interactuar?
+
+#### Objetivos y frustraciones (contexto de playa y sostenibilidad)
+
+- Cuando piensa en una playa ideal, ¿qué espera encontrar o experimentar? (ejemplo: limpieza, seguridad, tranquilidad, servicios organizados).
+- ¿Qué situaciones en la playa le generan más frustración o incomodidad? (ejemplo: basura, falta de tachos, poca participación de autoridades o bañistas).
+- ¿Qué cree que debería mejorar en la experiencia de visitar o gestionar playas en el Perú?
+
+#### Biografía o antecedentes
+
+- ¿Ha participado antes en iniciativas de reciclaje, programas municipales o proyectos de cuidado ambiental? ¿Cómo fue su experiencia?
+- ¿Qué experiencias previas influyen en su visión actual sobre la importancia del cuidado ambiental en espacios públicos como las playas?
+
+---
+
+### Segmento 1: Bañistas (turistas y pobladores locales)
+
+**Preguntas sobre su experiencia**
+
+- ¿Con qué frecuencia visita las playas?
+- ¿Suele consumir bebidas enlatadas u otros productos metálicos durante su estancia en la playa?
+- ¿Conoce o ha usado antes algún sistema de reciclaje en playas u otros espacios públicos?
+- ¿Qué tipo de beneficios le motivarían a participar en un sistema de reciclaje (descuentos, premios, sorteos, etc.)?
+- ¿Qué tan dispuesto estaría a utilizar una tarjeta RFID para registrar sus puntos de reciclaje?
+
+**Preguntas sobre los desafíos y problemas**
+
+- ¿Con qué frecuencia percibe suciedad o presencia de residuos metálicos en la playa que visita?
+- ¿Cómo afecta esta contaminación su experiencia en la playa?
+- ¿Qué opina sobre los esfuerzos actuales de las municipalidades para mantener las playas limpias?
+- ¿Ha tenido dificultades para encontrar tachos de reciclaje en playas?
+
+**Deseos del usuario**
+
+- ¿Qué beneficios le gustaría recibir a cambio de reciclar residuos metálicos en la playa?
+- ¿Considera atractivo un sistema que premie con puntos cada acción de reciclaje?
+- ¿Qué características le motivarían a participar activamente en un programa de reciclaje gamificado?
+
+---
+
+### Segmento 2: Municipalidades costeras
+
+**Preguntas sobre su experiencia**
+- ¿Cuál es su cargo y cuáles son sus responsabilidades en la gestión de playas?
+- ¿Qué estrategias utilizan actualmente para el manejo de residuos metálicos en las playas?
+- ¿Han implementado programas de incentivos o campañas de concientización para los bañistas?
+- ¿Qué tipo de tecnologías han probado o consideran viables para mejorar la gestión de residuos en playas?
+
+**Desafíos y problemas**
+- ¿Qué dificultades enfrentan en el control de residuos metálicos en zonas turísticas?
+- ¿Qué limitaciones tienen los programas de limpieza y recolección actuales?
+- ¿Existen obstáculos en cuanto a financiamiento, logística o participación ciudadana para mantener limpias las playas?
+- ¿Qué impacto tiene la acumulación de residuos en la imagen turística de la municipalidad?
+
+**Deseos del usuario**
+- ¿Qué mejoras consideran necesarias para optimizar la gestión de residuos metálicos en las playas?
+- ¿Qué tipo de incentivos o estrategias cree que motivarían más a los bañistas a participar en programas de reciclaje?
+- ¿Le resultaría atractivo un modelo donde puedan revender el material metálico recolectado y, al mismo tiempo, gestionar un sistema de recompensas para los bañistas?
+
+---
+
+### Validación del proyecto (para ambos segmentos)
+
+Al finalizar la entrevista, se presenta al entrevistado la idea del proyecto junto a las principales funcionalidades que posee.
+
+**Presentación breve del proyecto:**
+> *"Metalix es un recolector inteligente de metales para playas, que combina sensores para validar residuos metálicos, tarjetas RFID configuradas por CleanWave para acumular puntos y un sistema de recompensas gestionado por las municipalidades. El objetivo es reducir la contaminación y motivar a los bañistas a reciclar mediante beneficios locales."*
+
+**Preguntas de validación**
+- ¿Qué le parece la propuesta de proyecto Metalix?
+- ¿Considera que esta solución ayudaría a reducir la contaminación en playas?
+- ¿Qué aspecto del proyecto le parece más atractivo?
+- ¿Qué beneficios cree que podría aportar un sistema como Metalix a su experiencia como bañista o a la gestión de su municipalidad?
+- ¿Qué características adicionales cree que serían necesarias para mejorar la solución?
+
 ### 2.2.2. Registro de entrevistas
 
 ### Entrevistado 1  
@@ -567,20 +669,20 @@ Se han considerado dos segmentos principales:
 * **Bañistas**: Personas que acuden a las playas urbanas por recreación y consumo social, y que generan residuos metálicos durante su estancia.  
 * **Municipalidades costeras**: Instituciones responsables de la limpieza, mantenimiento y seguridad en playas, con limitaciones de presupuesto y procesos mayormente manuales.
 
-| Tareas                                                                 | Bañistas |   | Municipalidades costeras |   |
-| :--------------------------------------------------------------------- | :------: | :-: | :----------------------: | :-: |
-|                                                                        | Frecuencia | Importancia | Frecuencia | Importancia |
-| Llevar y consumir bebidas enlatadas en la playa                        | Alta      | Alta        | –          | –           |
-| Buscar un contenedor para depositar residuos metálicos                 | Media     | Alta        | –          | –           |
-| Guardar residuos hasta encontrar un tacho o dejarlos en la arena       | Media     | Alta        | –          | –           |
-| Quejarse por la suciedad de la playa (redes sociales o verbalmente)    | Baja      | Media       | –          | –           |
-| Organizar cuadrillas de limpieza manual                                | –         | –           | Alta       | Alta        |
-| Colocar y supervisar contenedores básicos en zonas concurridas         | –         | –           | Alta       | Alta        |
-| Coordinar recolección con camiones municipales                         | –         | –           | Alta       | Alta        |
-| Estimar volumen de residuos de forma manual (sin datos precisos)       | –         | –           | Alta       | Media       |
-| Responder a quejas de vecinos o turistas                               | –         | –           | Media      | Alta        |
-| Elaborar reportes agregados de limpieza para justificar presupuesto    | –         | –           | Alta       | Alta        |
-| Difundir información general sobre campañas de limpieza o reciclaje    | Baja      | Media       | Media      | Alta        |
+| Tareas                                                              |  Bañistas  |             | Municipalidades costeras |             |
+| :------------------------------------------------------------------ | :--------: | :---------: | :----------------------: | :---------: |
+|                                                                     | Frecuencia | Importancia |        Frecuencia        | Importancia |
+| Llevar y consumir bebidas enlatadas en la playa                     |    Alta    |    Alta     |            –             |      –      |
+| Buscar un contenedor para depositar residuos metálicos              |   Media    |    Alta     |            –             |      –      |
+| Guardar residuos hasta encontrar un tacho o dejarlos en la arena    |   Media    |    Alta     |            –             |      –      |
+| Quejarse por la suciedad de la playa (redes sociales o verbalmente) |    Baja    |    Media    |            –             |      –      |
+| Organizar cuadrillas de limpieza manual                             |     –      |      –      |           Alta           |    Alta     |
+| Colocar y supervisar contenedores básicos en zonas concurridas      |     –      |      –      |           Alta           |    Alta     |
+| Coordinar recolección con camiones municipales                      |     –      |      –      |           Alta           |    Alta     |
+| Estimar volumen de residuos de forma manual (sin datos precisos)    |     –      |      –      |           Alta           |    Media    |
+| Responder a quejas de vecinos o turistas                            |     –      |      –      |          Media           |    Alta     |
+| Elaborar reportes agregados de limpieza para justificar presupuesto |     –      |      –      |           Alta           |    Alta     |
+| Difundir información general sobre campañas de limpieza o reciclaje |    Baja    |    Media    |          Media           |    Alta     |
 
 ---
 
