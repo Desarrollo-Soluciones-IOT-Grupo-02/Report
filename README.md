@@ -527,11 +527,21 @@ A partir del análisis competitivo realizado se identificaron las principales fo
 - **Duración:** 06:09:00  
 - **URL Entrevista:**  [Ver entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202120347_upc_edu_pe/EV9G5QaBY35HrWKGJiDWL6cBlIZ_fVRdGKS1x7VeihuQOA?e=V2Mybg&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
-<img src="https://cdn.discordapp.com/attachments/1415461008348156137/1415461093802905801/Entrevista.png?ex=68c34a5e&is=68c1f8de&hm=be0ca918d212f2419d3cd4d539333e90cfe549a2ca74c966542304440e2f4692&" alt="Logo" width="700" height="1000">  
-  
+<img src="https://cdn.discordapp.com/attachments/1415461008348156137/1415461093802905801/Entrevista.png?ex=68c34a5e&is=68c1f8de&hm=be0ca918d212f2419d3cd4d539333e90cfe549a2ca74c966542304440e2f4692&" alt="Logo" width="700" height="1000">
+
 Renzo ramos , de 21 años y residente de Ventanilla, visita la playa Costa Azul casi todos los fines de semana, principalmente en verano. Durante su estancia suele consumir bebidas enlatadas como gaseosas y cervezas. Aunque conoce los tachos de reciclaje en parques y/o playas, no los ha utilizado mucho porque no están bien señalizados. Estaría motivado a reciclar si recibe beneficios atractivos como sorteos de productos deportivos o descuentos en restaurantes.
 José percibe con frecuencia residuos metálicos en la playa, especialmente en temporada alta, lo que afecta su experiencia y considera que puede ser peligroso. Opina que los esfuerzos municipales de limpieza no son suficientes y que los tachos de reciclaje escasean o están mal ubicados. Estaría dispuesto a usar una tarjeta RFID para registrar puntos siempre que el sistema sea rápido y sencillo. Considera atractivo un programa de reciclaje gamificado, sobre todo si incluye recompensas reales, acumulación de puntos y la posibilidad de competir con amigos.
-  
+
+### Entrevistado 2
+- **Nombre del entrevistado:** Carlos Ramírez  
+- **Edad:** 28 años  
+- **Distrito:** Santiago de Surco, Lima  
+- **Nombre del entrevistador:** Orlando Roca 
+- **Duración:** 00:04:43  
+- **URL Entrevista:** [ ]  
+![entrevista 2](./entrevistas/entrevista_2.png)  
+Carlos Ramírez, de 28 años y residente de Surco, visita las playas con frecuencia en verano y ocasionalmente en invierno. Durante su estancia suele consumir bebidas enlatadas, pero señala que casi no hay tachos de reciclaje en las playas y que los esfuerzos municipales de limpieza son mínimos. Afirma que percibe residuos metálicos con frecuencia, lo cual afecta negativamente la experiencia y genera una sensación de descuido ambiental. Estaría motivado a reciclar si recibe beneficios atractivos como descuentos en restaurantes, sorteos de productos o entradas, y se muestra dispuesto a usar una tarjeta RFID siempre que el proceso sea rápido y sencillo. Además, considera atractivo un sistema gamificado de reciclaje que incluya recompensas, rankings y competencias con amigos.
+
 ### 2.2.3. Análisis de entrevistas
 
 ## 2.3. Needfinding
