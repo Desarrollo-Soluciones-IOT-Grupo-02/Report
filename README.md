@@ -1170,6 +1170,234 @@ En esta sección, se presenta las User Stories diseñadas que cumplen con las ne
 
 ## 3.4. Product Backlog
 
+<div align="justify"> 
+  El Product Backlog es una lista priorizada y dinámica que reúne todas las funcionalidades, requisitos, mejoras y tareas necesarias para el desarrollo de la aplicación. Su propósito es servir como guía central del proyecto, asegurando que cada entrega responda a las necesidades del usuario y a los objetivos planteados. Al mantenerlo actualizado y ordenado, se facilita la planificación de iteraciones, la asignación de prioridades y el enfoque del equipo en generar el mayor valor posible en cada incremento del producto.
+</div>
+
+<table align="center" width="100%" cellspacing="0" cellpadding="6" style="border-collapse:collapse;">
+  <thead align="center" style="background:#F8FAFC;">
+    <tr>
+      <th># Orden</th>
+      <th>User Story Id</th>
+      <th>Título</th>
+      <th>Descripción</th>
+      <th>Story Points</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="text-align:center;">
+      <td>1</td>
+      <td>HU-01</td>
+      <td>Ver municipalidades participantes</td>
+      <td align="justify">Como visitante, quiero ver las municipalidades adheridas al programa, para saber si mi distrito participa y dónde.</td>
+      <td>2</td>
+    </tr>
+    <tr style="text-align:center;">
+      <td>2</td>
+      <td>HU-02</td>
+      <td>Ver recompensas destacadas</td>
+      <td align="justify">Como visitante, quiero visualizar recompensas de ejemplo, para entender el valor del programa y motivarme a participar.</td>
+      <td>2</td>
+    </tr>
+    <tr style="text-align:center;">
+      <td>3</td>
+      <td>HU-04</td>
+      <td>Consultar FAQ y enviar contacto</td>
+      <td align="justify">Como visitante, quiero resolver dudas frecuentes y enviar consultas, para recibir soporte oportuno.</td>
+      <td>3</td>
+    </tr>
+    <tr style="text-align:center;">
+      <td>4</td>
+      <td>HU-05</td>
+      <td>Registrar interés municipal</td>
+      <td align="justify">Como representante de municipalidad, quiero registrar una solicitud de adhesión, para que la empresa evalúe mi incorporación y me contacte.</td>
+      <td>3</td>
+    </tr>
+    <tr style="text-align:center;">
+      <td>5</td>
+      <td>HU-03</td>
+      <td>Conocer proceso para obtener tarjeta RFID</td>
+      <td align="justify">Como visitante, quiero conocer los pasos para obtener mi tarjeta, para empezar a usar el sistema y acumular puntos.</td>
+      <td>1</td>
+    </tr>
+    <tr style="text-align:center;">
+      <td>6</td>
+      <td>HU-06</td>
+      <td>Registro de cuenta</td>
+      <td align="justify">Como visitante, quiero crear una cuenta como bañista o municipalidad, para acceder a la aplicación según mi rol.</td>
+      <td>5</td>
+    </tr>
+    <tr style="text-align:center;">
+      <td>7</td>
+      <td>HU-07</td>
+      <td>Inicio de sesión</td>
+      <td align="justify">Como usuario, quiero iniciar sesión con mis credenciales, para acceder a mi panel según mi rol.</td>
+      <td>3</td>
+    </tr>
+    <tr style="text-align:center;">
+      <td>8</td>
+      <td>HU-09</td>
+      <td>Cerrar sesión</td>
+      <td align="justify">Como usuario, quiero cerrar sesión, para proteger mi cuenta en dispositivos compartidos.</td>
+      <td>1</td>
+    </tr>
+    <tr style="text-align:center;">
+      <td>9</td>
+      <td>TS-01</td>
+      <td>API de autenticación con JWT</td>
+      <td align="justify">Como developer, quiero exponer endpoints de registro, login y logout seguros, para garantizar autenticación protegida basada en JWT.</td>
+      <td>5</td>
+    </tr>
+    <tr style="text-align:center;">
+      <td>10</td>
+      <td>HU-08</td>
+      <td>Recuperar contraseña</td>
+      <td align="justify">Como usuario, quiero recuperar mi contraseña por correo, para restablecer el acceso a mi cuenta.</td>
+      <td>3</td>
+    </tr>
+    <tr style="text-align:center;">
+      <td>11</td>
+      <td>HU-10</td>
+      <td>Editar perfil</td>
+      <td align="justify">Como usuario, quiero actualizar datos personales y de contacto, para mantener mi información vigente en la plataforma.</td>
+      <td>3</td>
+    </tr>
+    <tr style="text-align:center;">
+      <td>12</td>
+      <td>TS-08</td>
+      <td>Configuración del broker de mensajería</td>
+      <td align="justify">Como developer, quiero configurar HiveMQ como broker MQTT, para permitir comunicación segura entre dispositivos IoT y backend.</td>
+      <td>5</td>
+    </tr>
+    <tr style="text-align:center;">
+      <td>13</td>
+      <td>TS-07</td>
+      <td>Configuración de ESP32 (Wi-Fi y MQTT)</td>
+      <td align="justify">Como developer, quiero configurar el ESP32 para conectarse a Wi-Fi y al broker MQTT, para publicar telemetría y recibir comandos.</td>
+      <td>5</td>
+    </tr>
+    <tr style="text-align:center;">
+      <td>14</td>
+      <td>TS-09</td>
+      <td>Sensores y actuadores en ESP32</td>
+      <td align="justify">Como developer, quiero configurar sensores y actuadores (inductivo metal, celda de carga/peso, ultrasónico, servo de compuerta), para operar el tacho de forma confiable.</td>
+      <td>8</td>
+    </tr>
+    <tr style="text-align:center;">
+      <td>15</td>
+      <td>TS-02</td>
+      <td>API de RFID y puntos</td>
+      <td align="justify">Como developer, quiero validar RFID y sumar puntos por evento, para mantener el historial de reciclaje consistente.</td>
+      <td>5</td>
+    </tr>
+    <tr style="text-align:center;">
+      <td>16</td>
+      <td>HU-11</td>
+      <td>Registrar tarjeta RFID</td>
+      <td align="justify">Como bañista, quiero asociar mi tarjeta RFID a mi cuenta, para acumular puntos automáticamente al reciclar.</td>
+      <td>5</td>
+    </tr>
+    <tr style="text-align:center;">
+      <td>17</td>
+      <td>HU-12</td>
+      <td>Consultar puntos por municipalidad</td>
+      <td align="justify">Como bañista, quiero consultar mis puntos acumulados por municipalidad, para conocer mi avance en cada jurisdicción.</td>
+      <td>3</td>
+    </tr>
+    <tr style="text-align:center;">
+      <td>18</td>
+      <td>HU-13</td>
+      <td>Ver saldo total</td>
+      <td align="justify">Como bañista, quiero consultar mi saldo total de puntos, para saber cuánto puedo canjear.</td>
+      <td>2</td>
+    </tr>
+    <tr style="text-align:center;">
+      <td>19</td>
+      <td>HU-15</td>
+      <td>Historial de reciclaje</td>
+      <td align="justify">Como bañista, quiero consultar mi historial de reciclaje, para revisar mis acciones y puntos obtenidos en el tiempo.</td>
+      <td>3</td>
+    </tr>
+    <tr style="text-align:center;">
+      <td>20</td>
+      <td>TS-03</td>
+      <td>API de canje con ID único</td>
+      <td align="justify">Como developer, quiero generar y validar IDs únicos para los canjes, para evitar duplicados y fraudes.</td>
+      <td>5</td>
+    </tr>
+    <tr style="text-align:center;">
+      <td>21</td>
+      <td>HU-14</td>
+      <td>Canjear recompensas</td>
+      <td align="justify">Como bañista, quiero canjear mis puntos por recompensas, para obtener beneficios del programa.</td>
+      <td>8</td>
+    </tr>
+    <tr style="text-align:center;">
+      <td>22</td>
+      <td>HU-16</td>
+      <td>Ranking de bañistas</td>
+      <td align="justify">Como bañista, quiero consultar el ranking en mi municipalidad, para compararme con otros usuarios y motivarme a mejorar.</td>
+      <td>3</td>
+    </tr>
+    <tr style="text-align:center;">
+      <td>23</td>
+      <td>TS-04</td>
+      <td>Telemetría de recolectores (Edge/IoT)</td>
+      <td align="justify">Como developer, quiero procesar en el edge datos de peso y ocupación, para optimizar reportes y reducir la latencia.</td>
+      <td>5</td>
+    </tr>
+    <tr style="text-align:center;">
+      <td>24</td>
+      <td>HU-18</td>
+      <td>Administración de recompensas</td>
+      <td align="justify">Como municipalidad, quiero añadir, editar o eliminar recompensas, para ofrecer beneficios actualizados a los bañistas.</td>
+      <td>5</td>
+    </tr>
+    <tr style="text-align:center;">
+      <td>25</td>
+      <td>HU-17</td>
+      <td>Panel de recolectores</td>
+      <td align="justify">Como municipalidad, quiero consultar ubicación, peso/ocupación y estado de cada recolector, para planificar el retiro oportuno.</td>
+      <td>8</td>
+    </tr>
+    <tr style="text-align:center;">
+      <td>26</td>
+      <td>HU-20</td>
+      <td>Reporte de residuos</td>
+      <td align="justify">Como municipalidad, quiero consultar peso y cantidad de residuos recolectados, para medir el desempeño y planificar la operación.</td>
+      <td>5</td>
+    </tr>
+    <tr style="text-align:center;">
+      <td>27</td>
+      <td>HU-19</td>
+      <td>Ranking de bañistas (vista municipal)</td>
+      <td align="justify">Como municipalidad, quiero consultar el ranking de bañistas por puntos, para incentivar la participación y reconocer a los más activos.</td>
+      <td>3</td>
+    </tr>
+    <tr style="text-align:center;">
+      <td>28</td>
+      <td>HU-21</td>
+      <td>Gestión de usuarios municipales</td>
+      <td align="justify">Como municipalidad, quiero listar y suspender usuarios en mi jurisdicción, para mantener el control de acceso y evitar usos indebidos.</td>
+      <td>3</td>
+    </tr>
+    <tr style="text-align:center;">
+      <td>29</td>
+      <td>TS-05</td>
+      <td>Despliegue en Azure Web App</td>
+      <td align="justify">Como developer, quiero desplegar la aplicación en Azure Web App, para garantizar disponibilidad sin manejar contenedores.</td>
+      <td>3</td>
+    </tr>
+    <tr style="text-align:center;">
+      <td>30</td>
+      <td>TS-06</td>
+      <td>Seguridad y cifrado TLS/HTTPS</td>
+      <td align="justify">Como developer, quiero habilitar HTTPS con TLS, para proteger la comunicación entre cliente, backend y broker.</td>
+      <td>1</td>
+    </tr>
+  </tbody>
+</table>
+
 # Capítulo IV: Solution Software Design
 
 ## 4.1. Strategic-Level Domain-Driven Design
