@@ -23,9 +23,9 @@
 <h4 align="center"> NRC: 3355 </h4>
 
 
-<h3> Startup: ------ </h3>
+<h3> Startup: CleanWave </h3>
 
-<h3> Product: ------ </h3>
+<h3> Product: Metalix </h3>
 
 <h3> Team Members: </h3>
 
@@ -195,26 +195,43 @@
 
 ### 1.1.1. Descripción de la StartUp
 
-CleanWave surge como una solución ante la creciente preocupación por la contaminación en playas urbanas del Perú. La presencia de residuos metálicos como latas y chapas deteriora la experiencia turística, eleva los costos de limpieza y pone en riesgo la seguridad de los visitantes. Al mismo tiempo, la falta de incentivos claros, la ausencia de trazabilidad y el uso de contenedores no inteligentes dificultan una gestión eficiente por parte de las municipalidades y limitan la participación ciudadana en el reciclaje.
+**CleanWave** nace como una startup comprometida con la preservación del medio ambiente y la mejora de la experiencia turística en las playas del Perú. Su propósito es combatir la creciente contaminación ocasionada por residuos metálicos, como latas y envases, que afectan tanto a los ecosistemas marinos como a los bañistas.  
 
-CleanWave propone Metalix, un sistema IoT que valida automáticamente que el residuo sea metálico mediante un sensor, identifica al usuario con RFID y habilita la apertura de una compuerta para el depósito.desarrollamos una plataforma web y móvil que permite a las personas reciclar y acumular puntos por municipalidad para canjear en comercios aliados.
+A través de su producto **Metalix**, Clean Wave ofrece una solución tecnológica innovadora basada en Internet de las Cosas (IoT), que combina sensores, actuadores y un sistema de recompensas para fomentar el reciclaje responsable. Metalix utiliza sensores inductivos que permiten identificar residuos metálicos en el momento de la disposición, y un lector RFID/NFC que reconoce a cada usuario mediante una tarjeta única. Una vez validado el material, un servo motor de alta potencia abre la compuerta del recolector, asegurando que solo se depositen metales y evitando la contaminación cruzada.  
+
+El sistema no solo promueve el reciclaje, sino que también incentiva la participación ciudadana a través de un programa de recompensas administrado por las municipalidades, donde los puntos acumulados pueden canjearse por beneficios locales. Además, la información recolectada se centraliza en la nube, permitiendo a las autoridades y a la startup monitorear en tiempo real el uso de los recolectores, la cantidad de residuos y la eficiencia del programa.  
+
+**Misión:**  
+Contribuir a la sostenibilidad ambiental y al desarrollo de comunidades costeras mediante soluciones tecnológicas que incentiven el reciclaje responsable y fortalezcan la cultura ecológica en el país.  
+
+**Visión:**  
+Convertirse en la startup líder en soluciones IoT para la gestión de residuos en Latinoamérica, reconocida por su capacidad de innovación, su impacto positivo en la conservación ambiental y su aporte al bienestar de la sociedad.
+
+<div style="display: flex; justify-content: center;">
+  <img style="width: 300px; height: auto; border-radius: 10px; clip-path: inset(50px 0 50px 0)" src="./assets/chapter-1/metalix/metalix-logo.png" alt="Metalix Logo"/>
+</div>
 
 ### 1.1.2. Perfiles de integrantes del equipo
 
-| Foto | Apellidos y Nombres | Código | Carrera | Conocimientos y contribución principal |
-|---|---|---:|---|---|
-| ![Orlando Roca](./foto_integrantes/orlando_roca.JPG) | **Roca Huapaya, Orlando Arturo** | u201919742 | Ingeniería de Software | Mi contribución al equipo es la experiencia que tengo desarrollando interfaces en React o Vue y servicios de APIs REST en Spring Boot o Laravel. Me enfoco en que el producto sea usable, estable y fácil de desplegar. Además, priorizaré el uso de buenas prácticas en el ciclo de desarrollo del software. |
-| ![Gustavo Pardo](./foto_integrantes/PerfilGustavo.jpg) | **Pardo Zapata, Gustavo Adolfo** | u202120347 | Ingeniería de Software  | Soy proactivo, colaborativo, organizado,responsable y con habilidades de resolución de problemas.Tengo una excelente capacidad para comunicarme de manera efectiva y clara con los demás miembros de mi equipo y deseo colaborar en todo lo posible con mis demás compañeros en este trabajo. Cuento con conocimiento en JavaScript, Java, Python, C# y SQL.  |
-| ![Johan Quiñones](./foto_integrantes/JohanQuinones.jpeg) | **Quiñones Tintaya, Johan Jorge** | u202218183 | Ingeniería de Software | He adquirido una base sólida en algoritmos y programación orientada a objetos, lo que me permite enfrentar desafíos de desarrollo con eficacia. Además, me destaco por mi capacidad para trabajar en equipo, manteniendo una comunicación clara y efectiva que facilita la colaboración. Estoy comprometido con mi crecimiento profesional y busco constantemente mejorar mis habilidades para contribuir de manera significativa en proyectos y equipos, ofreciendo soluciones innovadoras. |
-| *(colocar foto)* | **Integrante 4** | [por completar] | [carrera] |  |
-| *(colocar foto)* | **Integrante 5** | [por completar] | [carrera] |  |
-| *(colocar foto)* | **Integrante 6** | [por completar] | [carrera] |  |
+| Foto                                                 | Apellidos y Nombres              |          Código | Carrera                | Conocimientos y contribución principal                                                                                                                                                                                                                                                                        |
+| ---------------------------------------------------- | -------------------------------- | --------------: | ---------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ![Orlando Roca](./foto_integrantes/orlando_roca.JPG) | **Roca Huapaya, Orlando Arturo** |      u201919742 | Ingeniería de Software | Mi contribución al equipo es la experiencia que tengo desarrollando interfaces en React o Vue y servicios de APIs REST en Spring Boot o Laravel. Me enfoco en que el producto sea usable, estable y fácil de desplegar. Además, priorizaré el uso de buenas prácticas en el ciclo de desarrollo del software. |
+| *(colocar foto)*                                     | **Integrante 2**                 | [por completar] | [carrera]              |                                                                                                                                                                                                                                                                                                               |
+| *(colocar foto)*                                     | **Integrante 3**                 | [por completar] | [carrera]              |                                                                                                                                                                                                                                                                                                               |
+| *(colocar foto)*                                     | **Integrante 4**                 | [por completar] | [carrera]              |                                                                                                                                                                                                                                                                                                               |
+| *(colocar foto)*                                     | **Integrante 5**                 | [por completar] | [carrera]              |                                                                                                                                                                                                                                                                                                               |
+| *(colocar foto)*                                     | **Integrante 6**                 | [por completar] | [carrera]              |                                                                                                                                                                                                                                                                                                               |
 
 
 ## 1.2. Solution Profile
+<p align="justify">
+  Metalix es una iniciativa que fomenta el reciclaje de metales en playas mediante un programa de puntos y recompensas en alianza con las municipalidades. El ecosistema incluye una landing para difusión e inscripción, una app web y una app móvil donde los bañistas se registran, vinculan su tarjeta RFID, consultan su saldo, canjean beneficios y siguen su progreso y ranking. En los puntos de reciclaje, los recolectores Metalix identifican al usuario cuando deposita metal y registran cada evento, habilitando trazabilidad, alertas de llenado y una gestión operativa integral por parte de la municipalidad (usuarios, recompensas y reportes). Con ello, buscamos incrementar la participación ciudadana, reducir residuos en playas y ofrecer información clara para la toma de decisiones, premiando el comportamiento responsable.
+</p>
 
 ### 1.2.1. Antecedentes y problemática
-En las playas de Lima persiste la acumulación de residuos metálicos como latas, tapas y chapas que deteriora la experiencia turística, eleva costos de limpieza y genera riesgos para la salud. Según DIGESA reportó en el verano 2024 que de 131 playas vigiladas, 89 eran “no saludables” principalmente por limpieza y presencia de residuos sólidos, lo que evidencia la magnitud del problema. La solución propuesta, para el reciclaje de metales debe verificar automáticamente que el residuo sea metálico y abrir una compuerta segura para evitar fraudes, también identificar al usuario vía RFID para asignar puntos por municipalidad y habilitar canjes en comercios aliados. El objetivo es incrementar la tasa de reciclaje de metal en temporada alta, recuperar mayor volumen por playa y reducir tiempos y costos de recolección. El alcance y restricciones del piloto se delimitan a 1 o 3 playas de Lima, enfocarnos exclusivamente en el reciclaje de metales en la versión inicial, recompensas gestionadas por cada municipalidad o comercio.
+<p align="justify">
+  En las playas de Lima persiste la acumulación de residuos metálicos como latas, tapas y chapas que deteriora la experiencia turística, eleva costos de limpieza y genera riesgos para la salud. Según DIGESA reportó en el verano 2024 que de 131 playas vigiladas, 89 eran “no saludables” principalmente por limpieza y presencia de residuos sólidos, lo que evidencia la magnitud del problema. La solución propuesta, para el reciclaje de metales debe verificar automáticamente que el residuo sea metálico y abrir una compuerta segura para evitar fraudes, también identificar al usuario vía RFID para asignar puntos por municipalidad y habilitar canjes en comercios aliados. El objetivo es incrementar la tasa de reciclaje de metal en temporada alta, recuperar mayor volumen por playa y reducir tiempos y costos de recolección. El alcance y restricciones del piloto se delimitan a 1 o 3 playas de Lima, enfocarnos exclusivamente en el reciclaje de metales en la versión inicial, recompensas gestionadas por cada municipalidad o comercio.
+</p>
 
 #### 5W + 2H
 
@@ -333,6 +350,42 @@ con acuerdos de canjes activos (feature).
 #### 1.2.2.4. Lean UX Canvas
 ![Lean UX Canvas](./lean_ux_canvas/Lean%20UX%20Canvas%20(1).jpg)
 ## 1.3. Segmentos objetivo
+
+<p align="justify">
+  Un informe del Ministerio del Ambiente (Minam, 2025) reportó que en el Perú se generaron 8 994 762 toneladas de residuos sólidos municipales, lo que equivale a un promedio de 24 643 toneladas diarias. Sin embargo, apenas el 2,8 % de estos residuos fueron valorizados mediante procesos de reciclaje o reinserción en la cadena productiva. Esta realidad evidencia la necesidad urgente de implementar soluciones innovadoras que fomenten el reciclaje y reduzcan la acumulación de residuos, particularmente en las zonas costeras, donde la contaminación metálica afecta tanto al ecosistema marino como a la experiencia turística.
+  <br><br>
+  Nuestros principales segmentos objetivo son:
+</p>
+
+### 1.3.1 Segmento objetivo 1: Bañistas
+
+<p align="justify">
+  Este segmento está conformado por personas que visitan las playas para actividades recreativas y turísticas. Incluye tanto a turistas nacionales como extranjeros, así como a residentes locales. Se caracterizan por su interés en disfrutar de espacios limpios y seguros, y muestran predisposición a participar en iniciativas sostenibles cuando estas incluyen incentivos claros. A través del uso de las tarjetas RFID proporcionadas por las municipalidades —y previamente configuradas por CleanWave— los bañistas pueden acumular puntos cada vez que reciclan residuos metálicos en los recolectores Metalix. Dichos puntos son canjeables por beneficios locales, generando un esquema de gamificación ambiental que refuerza su motivación. Este grupo busca soluciones simples, rápidas y atractivas que les permitan contribuir al cuidado del medio ambiente mientras obtienen recompensas tangibles.
+</p>
+
+### 1.3.2 Segmento objetivo 2: Municipalidades costeras
+
+<div align="justify">
+  Las municipalidades responsables de la gestión de playas representan un segmento clave, dado que actúan como administradores e implementadores de la solución. Son las encargadas de adquirir las tarjetas RFID de CleanWave, distribuirlas a los bañistas con su propia identidad visual, registrar a los usuarios y gestionar el sistema de recompensas. Asimismo, tienen a su cargo la recolección y reventa de los materiales metálicos depositados en los recolectores, lo que les permite generar ingresos adicionales. Estas instituciones buscan soluciones tecnológicas que les permitan mejorar la limpieza de las playas, reforzar su imagen institucional, atraer turismo sostenible y fomentar la participación ciudadana en iniciativas ambientales.
+</div>
+
+<p align="justify">
+  Un informe del Ministerio del Ambiente (Minam, 2025) reportó que en el Perú se generaron 8 994 762 toneladas de residuos sólidos municipales, lo que equivale a un promedio de 24 643 toneladas diarias. Sin embargo, apenas el 2,8 % de estos residuos fueron valorizados mediante procesos de reciclaje o reinserción en la cadena productiva. Esta realidad evidencia la necesidad urgente de implementar soluciones innovadoras que fomenten el reciclaje y reduzcan la acumulación de residuos, particularmente en las zonas costeras, donde la contaminación metálica afecta tanto al ecosistema marino como a la experiencia turística.
+  <br><br>
+  Nuestros principales segmentos objetivo son:
+</p>
+
+### 1.3.1 Segmento objetivo 1: Bañistas
+
+<p align="justify">
+  Este segmento está conformado por personas que visitan las playas para actividades recreativas y turísticas. Incluye tanto a turistas nacionales como extranjeros, así como a residentes locales. Se caracterizan por su interés en disfrutar de espacios limpios y seguros, y muestran predisposición a participar en iniciativas sostenibles cuando estas incluyen incentivos claros. A través del uso de las tarjetas RFID proporcionadas por las municipalidades —y previamente configuradas por CleanWave— los bañistas pueden acumular puntos cada vez que reciclan residuos metálicos en los recolectores Metalix. Dichos puntos son canjeables por beneficios locales, generando un esquema de gamificación ambiental que refuerza su motivación. Este grupo busca soluciones simples, rápidas y atractivas que les permitan contribuir al cuidado del medio ambiente mientras obtienen recompensas tangibles.
+</p>
+
+### 1.3.2 Segmento objetivo 2: Municipalidades costeras
+
+<div align="justify">
+  Las municipalidades responsables de la gestión de playas representan un segmento clave, dado que actúan como administradores e implementadores de la solución. Son las encargadas de adquirir las tarjetas RFID de CleanWave, distribuirlas a los bañistas con su propia identidad visual, registrar a los usuarios y gestionar el sistema de recompensas. Asimismo, tienen a su cargo la recolección y reventa de los materiales metálicos depositados en los recolectores, lo que les permite generar ingresos adicionales. Estas instituciones buscan soluciones tecnológicas que les permitan mejorar la limpieza de las playas, reforzar su imagen institucional, atraer turismo sostenible y fomentar la participación ciudadana en iniciativas ambientales.
+</div>
 
 #### Segmento 1 — Municipalidades costeras
 - **Perfil:** Gerencias de Ambiente, Turismo y Limpieza de distritos con litoral como Chorrillos, Barranco, Miraflores, San Miguel, Ventanilla.  
@@ -518,10 +571,25 @@ con acuerdos de canjes activos (feature).
 ## Video About-the-Team
 
 # Bibliografía
+<ul>
+  <li>
+    Dirección General de Salud Ambiental (DIGESA). (2024, enero). 
+    <i>Más de 80 playas de Lima y Callao no son saludables para bañistas en verano, advierte la Digesa</i>. 
+    RPP Noticias. 
+    <a href="https://rpp.pe/peru/actualidad/verano-2024-hay-42-playas-saludables-y-89-no-saludables-en-el-peru-segun-digesa-noticia-1525501" target="_blank">
+      https://rpp.pe/peru/actualidad/verano-2024-hay-42-playas-saludables-y-89-no-saludables-en-el-peru-segun-digesa-noticia-1525501
+    </a>
+  </li>
+  <li>
+    Villacorta-Córdova, E. A., Gaspar-Torribio, M., & Espinoza-Montero, P. J. (2021). 
+    Evaluación de la contaminación por residuos sólidos en cuatro playas de la Costa Verde, Lima, Perú. 
+    <i>Revista Científica UNJFSC</i>, 29(1), 321–338. 
+    <a href="https://revistas.cientifica.edu.pe/index.php/southsustainability/article/download/1382/1097/6410" target="_blank">
+      https://revistas.cientifica.edu.pe/index.php/southsustainability/article/download/1382/1097/6410
+    </a>
+  </li>
+</ul>
 
-Dirección General de Salud Ambiental (DIGESA). (2024, enero). *Más de 80 playas de Lima y Callao no son saludables para bañistas en verano, advierte la Digesa*. RPP Noticias. https://rpp.pe/peru/actualidad/verano-2024-hay-42-playas-saludables-y-89-no-saludables-en-el-peru-segun-digesa-noticia-1525501
-
-Villacorta-Córdova, E. A., Gaspar-Torribio, M., & Espinoza-Montero, P. J. (2021). Evaluación de la contaminación por residuos sólidos en cuatro playas de la Costa Verde, Lima, Perú. *Revista Científica UNJFSC*, 29(1), 321–338. https://revistas.cientifica.edu.pe/index.php/southsustainability/article/download/1382/1097/6410
 
 Corresponsables. (2024, febrero 28). *Recolectan 100 toneladas de residuos en playas de Lima y Callao*. Corresponsables. https://www.corresponsables.com/per/actualidad/medioambiente/100-toneladas-residuos-playas-lima-callao/  
 # Anexos
