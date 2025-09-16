@@ -195,9 +195,9 @@
 
 ### 1.1.1. Descripción de la StartUp
 
-ReciclaMar surge como una solución ante la creciente preocupación por la contaminación en playas urbanas del Perú. La presencia de residuos metálicos como latas y chapas deteriora la experiencia turística, eleva los costos de limpieza y pone en riesgo la seguridad de los visitantes. Al mismo tiempo, la falta de incentivos claros, la ausencia de trazabilidad y el uso de contenedores no inteligentes dificultan una gestión eficiente por parte de las municipalidades y limitan la participación ciudadana en el reciclaje.
+CleanWave surge como una solución ante la creciente preocupación por la contaminación en playas urbanas del Perú. La presencia de residuos metálicos como latas y chapas deteriora la experiencia turística, eleva los costos de limpieza y pone en riesgo la seguridad de los visitantes. Al mismo tiempo, la falta de incentivos claros, la ausencia de trazabilidad y el uso de contenedores no inteligentes dificultan una gestión eficiente por parte de las municipalidades y limitan la participación ciudadana en el reciclaje.
 
-ReciclaMar propone RIMP (Recolector Inteligente de Metales para Playas), un sistema IoT que valida automáticamente que el residuo sea metálico mediante un sensor, identifica al usuario con RFID y habilita la apertura de una compuerta para el depósito.desarrollamos una plataforma web y móvil que permite a las personas reciclar y acumular puntos por municipalidad para canjear en comercios aliados.
+CleanWave propone Metalix, un sistema IoT que valida automáticamente que el residuo sea metálico mediante un sensor, identifica al usuario con RFID y habilita la apertura de una compuerta para el depósito.desarrollamos una plataforma web y móvil que permite a las personas reciclar y acumular puntos por municipalidad para canjear en comercios aliados.
 
 ### 1.1.2. Perfiles de integrantes del equipo
 
@@ -285,7 +285,6 @@ Ante esta situación nuestra Startup se plantea las siguientes Problem Statement
 
 #### 1.2.2.3. Lean UX Hyphotesis Statements
 
-
 - Creemos que aumentaremos la tasa de reciclaje de metales y el volumen recuperado por playa (business outcome) si los bañistas (user) pueden depositar sus latas en segundos y reciben puntos inmediatos (benefit) con sensor inductivo, compuerta y RFID de registro en menos de 1 minuto (feature).
 
   Sabremos que hemos tenido éxito 
@@ -328,13 +327,26 @@ con acuerdos de canjes activos (feature).
 
   Sabremos que hemos tenido éxito 
 
-  cuando logremos mas de 10 comercios aliados y mas de 50 canjes por mes en el piloto.
+  Cuando logremos mas de 10 comercios aliados y mas de 50 canjes por mes en el piloto.
 
 
 #### 1.2.2.4. Lean UX Canvas
-
+![Lean UX Canvas](./lean_ux_canvas/Lean%20UX%20Canvas%20(1).jpg)
 ## 1.3. Segmentos objetivo
 
+#### Segmento 1 — Municipalidades costeras
+- **Perfil:** Gerencias de Ambiente, Turismo y Limpieza de distritos con litoral como Chorrillos, Barranco, Miraflores, San Miguel, Ventanilla.  
+- **Necesidades:** Reducir costos de limpieza, mejorar la salubridad de las playas, contar con métricas confiables para la toma de decisiones y cumplir normativas ambientales.  
+- **Datos de sustento:** DIGESA reportó que en verano 2024, 89 de 131 playas de Lima y Callao fueron declaradas “no saludables” principalmente por residuos sólidos (RPP Noticias, 2024). Esto demuestra la urgencia de soluciones de monitoreo y trazabilidad.  
+- **Demografía institucional:** 43 municipalidades en Lima Metropolitana, de las cuales al menos 15 son costeras. Todas cuentan con áreas de limpieza responsables de la gestión de playas.
+
+---
+
+#### Segmento 2 — Bañistas
+- **Perfil:** Personas de 16 a 45 años que visitan playas urbanas para recreación, deporte o turismo. Mayoritariamente jóvenes y adultos con smartphone y uso frecuente de aplicaciones móviles.  
+- **Necesidades:** Playas limpias y seguras, incentivos atractivos para reciclar, experiencia rápida y confiable.  
+- **Datos de sustento:** Según el Ministerio de Comercio Exterior y Turismo, las playas limeñas reciben cientos de miles de visitantes en temporada de verano. En campañas de limpieza como Hazla por tu Playa 2024, más de 5,000 voluntarios retiraron 100 toneladas de basura en un solo fin de semana en Lima y Callao (Corresponsables, 2024).  
+- **Demografía ciudadana:** Jóvenes universitarios, familias y turistas locales o nacionales, nivel socioeconómico variado, pero con acceso a smartphones.
 # Capítulo II: Requirements Elicitation & Analysis
 
 ## 2.1. Competidores
@@ -511,6 +523,7 @@ Dirección General de Salud Ambiental (DIGESA). (2024, enero). *Más de 80 playa
 
 Villacorta-Córdova, E. A., Gaspar-Torribio, M., & Espinoza-Montero, P. J. (2021). Evaluación de la contaminación por residuos sólidos en cuatro playas de la Costa Verde, Lima, Perú. *Revista Científica UNJFSC*, 29(1), 321–338. https://revistas.cientifica.edu.pe/index.php/southsustainability/article/download/1382/1097/6410
 
+Corresponsables. (2024, febrero 28). *Recolectan 100 toneladas de residuos en playas de Lima y Callao*. Corresponsables. https://www.corresponsables.com/per/actualidad/medioambiente/100-toneladas-residuos-playas-lima-callao/  
 # Anexos
 
 Lean UX Canvas - https://miro.com/app/board/uXjVJKqj5v4=/
