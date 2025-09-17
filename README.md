@@ -711,7 +711,7 @@ Carlos Ramírez, de 28 años y residente de Surco, visita las playas con frecuen
 <p><b>Resumen de la entrevista:</b></p>
 
 <p align="justify">
-  Michelle Villena, de 29 años y residente de Santa Anita, visita las playas con frecuencia en verano y ocasionalmente en invierno. Suele consumir bebidas enlatadas, pero observa que casi no hay tachos de reciclaje y que los esfuerzos municipales de limpieza son mínimos. Percibe residuos metálicos con frecuencia, lo que empeora la experiencia y refleja descuido ambiental. Estaría motivada a reciclar si recibe beneficios atractivos como descuentos en centros comerciales; muestra disposición a usar una tarjeta RFID siempre que el proceso sea rápido y sencillo, y valora un sistema gamificado con recompensas.
+  Michelle Villena, de 29 años y residente de Santa Anita, visita las playas con frecuencia en familia; suele consumir bebidas enlatadas, pero observa que casi no hay tachos de reciclaje; estaría motivada a reciclar si recibe beneficios atractivos como descuentos en centros comerciales, se muestra entusiasta a usar una tarjeta RFID siempre que el proceso sea sencillo, y considera atractivo un sistema de recompensas.
 </p>
 
 ---
