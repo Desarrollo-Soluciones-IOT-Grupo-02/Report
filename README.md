@@ -620,39 +620,199 @@ Al finalizar la entrevista, se presenta al entrevistado la idea del proyecto jun
 
 ### 2.2.2. Registro de entrevistas
 
-### Entrevistado 1  
+#### Segmento: Bañistas
 
-- **Nombre del entrevistado:** Renzo Ramos
-- **Edad:** 21 años  
-- **Distrito:** Ventanilla  
-- **Nombre del entrevistador:** Gustavo Pardo  
-- **Duración:** 06:09:00  
-- **URL Entrevista:**  [Ver entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202120347_upc_edu_pe/EV9G5QaBY35HrWKGJiDWL6cBlIZ_fVRdGKS1x7VeihuQOA?e=V2Mybg&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+##### Entrevista 1
+<ul>
+  <li><b>Nombre del entrevistado:</b> Renzo Ramos</li>
+  <li><b>Edad:</b> 21 años</li>
+  <li><b>Distrito:</b> Ventanilla</li>
+  <li><b>Nombre del entrevistador:</b> Gustavo Pardo</li>
+  <li><b>Duración:</b> 06:09:00</li>
+</ul>
 
-![entrevista 1](./entrevistas/Entrevista_1.png) 
+<p><b>Evidencia de la entrevista:</b></p>
 
-Renzo ramos , de 21 años y residente de Ventanilla, visita la playa Costa Azul casi todos los fines de semana, principalmente en verano. Durante su estancia suele consumir bebidas enlatadas como gaseosas y cervezas. Aunque conoce los tachos de reciclaje en parques y/o playas, no los ha utilizado mucho porque no están bien señalizados. Estaría motivado a reciclar si recibe beneficios atractivos como sorteos de productos deportivos o descuentos en restaurantes.
-José percibe con frecuencia residuos metálicos en la playa, especialmente en temporada alta, lo que afecta su experiencia y considera que puede ser peligroso. Opina que los esfuerzos municipales de limpieza no son suficientes y que los tachos de reciclaje escasean o están mal ubicados. Estaría dispuesto a usar una tarjeta RFID para registrar puntos siempre que el sistema sea rápido y sencillo. Considera atractivo un programa de reciclaje gamificado, sobre todo si incluye recompensas reales, acumulación de puntos y la posibilidad de competir con amigos.
+<p align="center">
+  <img src="./entrevistas/Entrevista_1.png" alt="Entrevista 1" width="85%">
+</p>
 
-### Entrevistado 2
-- **Nombre del entrevistado:** Carlos Ramírez  
-- **Edad:** 28 años  
-- **Distrito:** Santiago de Surco, Lima  
-- **Nombre del entrevistador:** Orlando Roca 
-- **Duración:** 00:04:43  
-- **URL Entrevista:** [ ]  
-![entrevista 2](./entrevistas/entrevista_2.png)  
-Carlos Ramírez, de 28 años y residente de Surco, visita las playas con frecuencia en verano y ocasionalmente en invierno. Durante su estancia suele consumir bebidas enlatadas, pero señala que casi no hay tachos de reciclaje en las playas y que los esfuerzos municipales de limpieza son mínimos. Afirma que percibe residuos metálicos con frecuencia, lo cual afecta negativamente la experiencia y genera una sensación de descuido ambiental. Estaría motivado a reciclar si recibe beneficios atractivos como descuentos en restaurantes, sorteos de productos o entradas, y se muestra dispuesto a usar una tarjeta RFID siempre que el proceso sea rápido y sencillo. Además, considera atractivo un sistema gamificado de reciclaje que incluya recompensas, rankings y competencias con amigos.
+<p align="center">
+  <b>Enlace de entrevista:</b>
+  <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202120347_upc_edu_pe/EV9G5QaBY35HrWKGJiDWL6cBlIZ_fVRdGKS1x7VeihuQOA?e=V2Mybg&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">Ver video</a>
+</p>
 
-### Entrevistado 3
-- **Nombre del entrevistado:** Michelle Villena 
-- **Edad:** 29 años  
-- **Distrito:** Santa Anita, Lima  
-- **Nombre del entrevistador:** Eduardo Mancilla
-- **Duración:** 00:07:17  
-- **URL Entrevista:** [ ]  
-![entrevista 3](./entrevistas/entrevista_3.PNG)  
-Michelle Villena, de 29 años y residente de Santa Anita, visita las playas con frecuencia en verano y ocasionalmente en invierno; suele consumir bebidas enlatadas, pero observa que casi no hay tachos de reciclaje y que los esfuerzos municipales de limpieza son mínimos, percibiendo residuos metálicos con frecuencia, lo que empeora la experiencia y transmite descuido ambiental; estaría motivada a reciclar si recibe beneficios atractivos como descuentos en centros comerciales, se muestra dispuesta a usar una tarjeta RFID siempre que el proceso sea rápido y sencillo, y considera atractivo un sistema gamificado con recompensas.
+<p align="center">
+  <b>Inicio:</b> 00:00:00 — <b>Fin:</b> 06:09:00
+</p>
+
+<p><b>Resumen de la entrevista:</b></p>
+
+<p align="justify">
+Renzo Ramos, de 21 años y residente de Ventanilla, visita la playa Costa Azul casi todos los fines de semana, principalmente en verano. Durante su estancia suele consumir bebidas enlatadas como gaseosas y cervezas. Aunque conoce los tachos de reciclaje en parques y/o playas, no los ha utilizado mucho porque no están bien señalizados. Estaría motivado a reciclar si recibe beneficios atractivos como sorteos de productos deportivos o descuentos en restaurantes. Percibe con frecuencia residuos metálicos en la playa, especialmente en temporada alta, lo que afecta su experiencia y puede ser peligroso. Considera insuficientes los esfuerzos municipales de limpieza y que los tachos escasean o están mal ubicados. Estaría dispuesto a usar una tarjeta RFID para registrar puntos siempre que el sistema sea rápido y sencillo. Ve atractivo un programa de reciclaje gamificado con recompensas reales, acumulación de puntos y posibilidad de competir con amigos.
+</p>
+
+<hr>
+
+##### Entrevista 2
+<ul>
+  <li><b>Nombre del entrevistado:</b> Carlos Ramírez</li>
+  <li><b>Edad:</b> 28 años</li>
+  <li><b>Distrito:</b> Santiago de Surco, Lima</li>
+  <li><b>Nombre del entrevistador:</b> Orlando Roca</li>
+  <li><b>Duración:</b> 00:04:43</li>
+</ul>
+
+<p><b>Evidencia de la entrevista:</b></p>
+
+<p align="center">
+  <img src="./entrevistas/entrevista_2.png" alt="Entrevista 2" width="85%">
+</p>
+
+<p align="center">
+  <b>Enlace de entrevista:</b> <i>(pendiente)</i>
+</p>
+
+<p align="center">
+  <b>Inicio:</b> 00:00:00 — <b>Fin:</b> 00:04:43
+</p>
+
+<p><b>Resumen de la entrevista:</b></p>
+
+<p align="justify">
+Carlos Ramírez, de 28 años y residente de Surco, visita las playas con frecuencia en verano y ocasionalmente en invierno. Suele consumir bebidas enlatadas, pero señala que casi no hay tachos de reciclaje en playas y que los esfuerzos municipales de limpieza son mínimos. Afirma percibir residuos metálicos con frecuencia, lo cual afecta negativamente la experiencia y transmite descuido ambiental. Estaría motivado a reciclar si recibe beneficios como descuentos en restaurantes, sorteos de productos o entradas, y usaría una tarjeta RFID si el proceso es rápido y sencillo. Considera atractivo un sistema gamificado con recompensas, rankings y competencias con amigos.
+</p>
+
+<hr>
+
+##### Entrevista 3
+<ul>
+  <li><b>Nombre del entrevistado:</b> Michelle Villena</li>
+  <li><b>Edad:</b> 29 años</li>
+  <li><b>Distrito:</b> Santa Anita, Lima</li>
+  <li><b>Nombre del entrevistador:</b> Eduardo Mancilla</li>
+  <li><b>Duración:</b> 00:07:17</li>
+</ul>
+
+<p><b>Evidencia de la entrevista:</b></p>
+
+<p align="center">
+  <img src="./entrevistas/entrevista_3.PNG" alt="Entrevista 3" width="85%">
+</p>
+
+<p align="center">
+  <b>Enlace de entrevista:</b> <i>(pendiente)</i>
+</p>
+
+<p align="center">
+  <b>Inicio:</b> 00:00:00 — <b>Fin:</b> 00:07:17
+</p>
+
+<p><b>Resumen de la entrevista:</b></p>
+
+<p align="justify">
+  Michelle Villena, de 29 años y residente de Santa Anita, visita las playas con frecuencia en verano y ocasionalmente en invierno. Suele consumir bebidas enlatadas, pero observa que casi no hay tachos de reciclaje y que los esfuerzos municipales de limpieza son mínimos. Percibe residuos metálicos con frecuencia, lo que empeora la experiencia y refleja descuido ambiental. Estaría motivada a reciclar si recibe beneficios atractivos como descuentos en centros comerciales; muestra disposición a usar una tarjeta RFID siempre que el proceso sea rápido y sencillo, y valora un sistema gamificado con recompensas.
+</p>
+
+---
+
+#### Segmento: Municipalidades costeras
+
+##### Entrevista 4
+<ul>
+  <li><b>Nombre del entrevistado:</b> Bruce Cipriano</li>
+  <li><b>Distrito:</b> Punta Hermosa, Lima</li>
+  <li><b>Nombre del entrevistador:</b> Ray Del Carmen</li>
+  <li><b>Duración:</b> 00:00</li>
+</ul>
+
+<p><b>Evidencia de la entrevista:</b></p>
+
+<p align="center">
+  <img src="./entrevistas/entrevista-muni_1.png" alt="Entrevista Municipalidad 1" width="85%">
+</p>
+
+<p align="center">
+  <b>Enlace de entrevista:</b> <i>(pendiente)</i>
+</p>
+
+<p align="center">
+  <b>Inicio:</b> 00:00:00 — <b>Fin:</b> 00:00:00
+</p>
+
+<p><b>Resumen de la entrevista:</b></p>
+
+<p align="justify">
+  Bruce Andrés Cipriano Chumbes, jefe de gestión ambiental de la Municipalidad de Punta Hermosa, resaltó su rol en la limpieza de playas, manejo de residuos y liderazgo en campañas de educación ambiental. Se describió como una persona responsable, pragmática y colaborativa, que utiliza tanto laptop como dispositivos móviles (Android e iOS) para la gestión de datos logísticos, apoyándose principalmente en herramientas digitales como Excel y Gmail. Además, recurre a redes sociales como WhatsApp, Facebook, Instagram y X (Twitter) para difundir información turística y comunicados.
+</p>
+
+<p align="justify">
+  En su visión, una playa ideal debe contar con limpieza constante, tachos diferenciados, baños públicos, seguridad, accesibilidad y adecuada señalización. Sus principales frustraciones surgen de la presencia de basura, la escasez de tachos y la baja participación de los bañistas en el cuidado ambiental. Señaló que la continuidad de las campañas es clave, ya que ha observado que los impactos disminuyen cuando estas no se mantienen en el tiempo. Propuso como mejoras una mayor educación ambiental, incentivos para reciclar y la incorporación de tecnologías que optimicen la recolección.
+</p>
+
+<p align="justify">
+  Actualmente, su gestión incluye el uso de tachos diferenciados y convenios con recicladores formalizados, aunque identificó que los residuos metálicos representan un problema particular que afecta la imagen turística y la economía local. Mencionó que una tecnología con sensores para detectar el llenado de tachos sería de gran utilidad. Al conocer el proyecto <b>Metalix</b>, lo consideró innovador y atractivo, destacando que incentiva la participación activa de los bañistas, reduce costos de limpieza y fortalece la imagen turística mediante un sistema de recompensas por la recolección de metales.
+</p>
+
+---
+
+##### Entrevista 5
+<ul>
+  <li><b>Nombre del entrevistado:</b> —</li>
+  <li><b>Distrito:</b> —</li>
+  <li><b>Nombre del entrevistador:</b> —</li>
+  <li><b>Duración:</b> —</li>
+</ul>
+
+<p><b>Evidencia de la entrevista:</b></p>
+
+<p align="center">
+  <img src="./entrevistas/entrevista_muni_1.png" alt="Entrevista Municipalidad 2" width="85%">
+</p>
+
+<p align="center">
+  <b>Enlace de entrevista:</b> <i>(pendiente)</i>
+</p>
+
+<p align="center">
+  <b>Inicio:</b> 00:00:00 — <b>Fin:</b> 00:00:00
+</p>
+
+<p><b>Resumen de la entrevista:</b></p>
+
+<p align="justify">
+  Resumen --------------------
+</p>
+
+---
+
+##### Entrevista 6
+<ul>
+  <li><b>Nombre del entrevistado:</b> —</li>
+  <li><b>Distrito:</b> —</li>
+  <li><b>Nombre del entrevistador:</b> —</li>
+  <li><b>Duración:</b> —</li>
+</ul>
+
+<p><b>Evidencia de la entrevista:</b></p>
+
+<p align="center">
+  <img src="./entrevistas/entrevista_muni_1.png" alt="Entrevista Municipalidad 3" width="85%">
+</p>
+
+<p align="center">
+  <b>Enlace de entrevista:</b> <i>(pendiente)</i>
+</p>
+
+<p align="center">
+  <b>Inicio:</b> 00:00:00 — <b>Fin:</b> 00:00:00
+</p>
+
+<p><b>Resumen de la entrevista:</b></p>
+
+<p align="justify">
+  Resumen --------------------
+</p>
 
 ### 2.2.3. Análisis de entrevistas
 
