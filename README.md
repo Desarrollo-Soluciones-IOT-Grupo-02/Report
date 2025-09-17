@@ -644,6 +644,16 @@ José percibe con frecuencia residuos metálicos en la playa, especialmente en t
 ![entrevista 2](./entrevistas/entrevista_2.png)  
 Carlos Ramírez, de 28 años y residente de Surco, visita las playas con frecuencia en verano y ocasionalmente en invierno. Durante su estancia suele consumir bebidas enlatadas, pero señala que casi no hay tachos de reciclaje en las playas y que los esfuerzos municipales de limpieza son mínimos. Afirma que percibe residuos metálicos con frecuencia, lo cual afecta negativamente la experiencia y genera una sensación de descuido ambiental. Estaría motivado a reciclar si recibe beneficios atractivos como descuentos en restaurantes, sorteos de productos o entradas, y se muestra dispuesto a usar una tarjeta RFID siempre que el proceso sea rápido y sencillo. Además, considera atractivo un sistema gamificado de reciclaje que incluya recompensas, rankings y competencias con amigos.
 
+### Entrevistado 3
+- **Nombre del entrevistado:** Michelle Villena 
+- **Edad:** 29 años  
+- **Distrito:** Santa Anita, Lima  
+- **Nombre del entrevistador:** Eduardo Mancilla
+- **Duración:** 00:07:17  
+- **URL Entrevista:** [ ]  
+![entrevista 3](./entrevistas/entrevista_3.PNG)  
+Michelle Villena, de 29 años y residente de Santa Anita, visita las playas con frecuencia en verano y ocasionalmente en invierno; suele consumir bebidas enlatadas, pero observa que casi no hay tachos de reciclaje y que los esfuerzos municipales de limpieza son mínimos, percibiendo residuos metálicos con frecuencia, lo que empeora la experiencia y transmite descuido ambiental; estaría motivada a reciclar si recibe beneficios atractivos como descuentos en centros comerciales, se muestra dispuesta a usar una tarjeta RFID siempre que el proceso sea rápido y sencillo, y considera atractivo un sistema gamificado con recompensas.
+
 ### 2.2.3. Análisis de entrevistas
 
 ## 2.3. Needfinding
