@@ -721,6 +721,7 @@ Carlos Ramírez, de 28 años y residente de Surco, visita las playas con frecuen
 ##### Entrevista 4
 <ul>
   <li><b>Nombre del entrevistado:</b> Bruce Cipriano</li>
+  <li><b>Edad:</b> 32 años</li>
   <li><b>Distrito:</b> Punta Hermosa, Lima</li>
   <li><b>Nombre del entrevistador:</b> Ray Del Carmen</li>
   <li><b>Duración:</b> 00:00</li>
@@ -759,6 +760,7 @@ Carlos Ramírez, de 28 años y residente de Surco, visita las playas con frecuen
 ##### Entrevista 5
 <ul>
   <li><b>Nombre del entrevistado:</b> —</li>
+  <li><b>Edad:</b> -- años</li>
   <li><b>Distrito:</b> —</li>
   <li><b>Nombre del entrevistador:</b> —</li>
   <li><b>Duración:</b> —</li>
@@ -789,6 +791,7 @@ Carlos Ramírez, de 28 años y residente de Surco, visita las playas con frecuen
 ##### Entrevista 6
 <ul>
   <li><b>Nombre del entrevistado:</b> —</li>
+  <li><b>Edad:</b> -- años</li>
   <li><b>Distrito:</b> —</li>
   <li><b>Nombre del entrevistador:</b> —</li>
   <li><b>Duración:</b> —</li>
