@@ -28,16 +28,40 @@
 <h3> Team Members: </h3>
 
 <div align="center">
-
-| Member                              |    Code    |
-| :---------------------------------- | :--------: |
-| Roca Huapaya, Orlando Arturo        | U201919742 |
-| Del Carmen Zorrilla, Ray Alessandro | U202124061 |
-| Pardo Zapata, Gustavo Adolfo        | u202120347 |
-| Cruz Palomino, Adriano Sebastian    | U202210697 |
-| Mancilla Ordaya, Eduardo Vicente    | U202018894 |
-| Quiñones Tintaya, Johan Jorge       | U202218183 |
-
+  <table>
+    <thead>
+      <tr>
+        <th>Member</th>
+        <th>Code</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Roca Huapaya, Orlando Arturo</td>
+        <td>U201919742</td>
+      </tr>
+      <tr>
+        <td>Del Carmen Zorrilla, Ray Alessandro</td>
+        <td>U202124061</td>
+      </tr>
+      <tr>
+        <td>Pardo Zapata, Gustavo Adolfo</td>
+        <td>U202120347</td>
+      </tr>
+      <tr>
+        <td>Cruz Palomino, Adriano Sebastian</td>
+        <td>U202210697</td>
+      </tr>
+      <tr>
+        <td>Mancilla Ordaya, Eduardo Vicente</td>
+        <td>U202018894</td>
+      </tr>
+      <tr>
+        <td>Quiñones Tintaya, Johan Jorge</td>
+        <td>U202218183</td>
+      </tr>
+    </tbody>
+  </table>
 </div>
 
 <h3 align="center">Septiembre, 2025</h3>
