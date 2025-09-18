@@ -390,17 +390,20 @@ Event Storming es una herramienta que nos permite descubrir el comportamiento de
 
 Aquí mostramos los pasos respectivos para la elaboración correcta del Event Storming realizada en la herramienta de Miro.
 
+<b>Enlace al Miro:</b>
+  <a href="https://miro.com/app/board/uXjVI_LnCNw=/?share_link_id=408756915917">EventStorming</a>
+
 **Step 1: Unstructured Exploration**
 
 En esta sección se realizó una lluvia de ideas de los eventos del dominio relacionados con el sistema de gestión inteligente de residuos metálicos que se está explorando. Nos permitió identificar los eventos clave como: WasteCollected, UserAuthenticated, MetallicResidueValidated, PointsEarned, RewardClaimed, BenefitDefined, ReportGenerated, entre otros, y las interacciones entre ellos.
 
-
+![EventStorming](./diagrams/Canvases/event_keys.png)
 
 **Step 2: Timelines**
 
 En esta sección, los eventos identificados previamente, son agrupados en subgrupos lo cual tiene como líder al evento principal (es quien encapsula la funcionalidad principal del grupo). Estos eventos comienzan con el flujo que describe el escenario empresarial exitoso (Happy path) relacionado con la recolección de residuos, validación de usuarios, asignación de puntos y canje de recompensas, así como también escenarios alternativos cuando hay fallos en la validación o problemas técnicos.
 
-<img width=900 high=900 src="https://media.discordapp.net/attachments/1417188407204909217/1417194792135295087/Flujo_Principal.png?ex=68c99900&is=68c84780&hm=3c650fa94cb5c7d91f41ca438866763bd5371c65231e8e57c3d9b0a4d604f074&=&format=webp&quality=lossless&width=1097&height=502"/>
+![EventStorming](./diagrams/Canvases/Flujo_Principal.png)
 
 **Step 3: Paint Points**
 
@@ -444,7 +447,7 @@ En esta fase, identificamos los sistemas externos que interactúan con nuestro d
 
 En este último paso, agrupamos los eventos y comandos que pertenecen a un agregado específico: Waste Collection Aggregate, User Identity Aggregate, Reward Management Aggregate, Municipal Agreement Aggregate, y Reporting Aggregate, para garantizar que todas las operaciones dentro de un contexto estén alineadas y mantengan la consistencia del sistema.
 
-<img width=700 high=800 src="https://media.discordapp.net/attachments/1417188407204909217/1417197895450492938/Aggregates.png?ex=68c99be4&is=68c84a64&hm=f51db55840bfc1eb2eb92ab4c8296458fd3dfe72a37d27b4bbb094da8ae26297&=&format=webp&quality=lossless&width=607&height=607"/>
+![EventStorming](./diagrams/Canvases/aggregates.png)
 
 #### 4.1.1.1. Candidate Context Discovery
 
@@ -470,30 +473,31 @@ Priorizar los bounded contexts, nos permite identificar situaciones primordiales
 
 **Bounded Context Identity & Access Management:**
 
-<img width=700 high=800 src="https://media.discordapp.net/attachments/1417188407204909217/1417213082660507659/IAM.png?ex=68c9aa09&is=68c85889&hm=bb923f30d30b5932649660a648d22ad904e5e7871794db14f1f3711bed731da8&=&format=webp&quality=lossless&width=882&height=358"/>
+![EventStorming](./diagrams/Canvases/BCIAM.png)
 
 **Bounded Context Waste Collection:**
 
-<img width=700 high=800 src="https://media.discordapp.net/attachments/1417188407204909217/1417213083994292378/wASTE_COLLECTION.png?ex=68c9aa09&is=68c85889&hm=3bc622aacaa0382431eb27d4ae62a1e0ceb1380dabdb187bf983cb8428d8abf4&=&format=webp&quality=lossless&width=754&height=607"/>
+![EventStorming](./diagrams/Canvases/BCWASTECOLECTION.png)
 
 **Bounded Context User Identification:**
 
-<img width=700 high=800 src="https://media.discordapp.net/attachments/1417188407204909217/1417213084984148039/USERIDENTIFICATION.png?ex=68c9aa0a&is=68c8588a&hm=ab5900de38421992c2dbb2b04dc7a6662014ba85964ccef263ac5d719a9ebe5d&=&format=webp&quality=lossless&width=504&height=607"/>
+![EventStorming](./diagrams/Canvases/BCIDENTY.png)
 
 **Bounded Context Reward Management:**
 
-<img width=700 high=800 src="https://media.discordapp.net/attachments/1417188407204909217/1417213079950856373/REWARD_MANAGEMENT.png?ex=68c9aa08&is=68c85888&hm=c81d895a422934c1762e74ef1d7228674412a389e34fe1aef10cf429af5cc407&=&format=webp&quality=lossless&width=498&height=607"/>
+![EventStorming](./diagrams/Canvases/BCREWARD.png)
 
 **Bounded Context Municipality Management:**
 
-<img width=700 high=800 src="https://media.discordapp.net/attachments/1417188407204909217/1417213080949227550/MUNICIPALITY_MANAGEMENT.png?ex=68c9aa09&is=68c85889&hm=15fd0b01cc12425e13b06543a55b89d86b693f5a7727e35d7ecd274a6bd0c391&=&format=webp&quality=lossless&width=509&height=606"/>
+![EventStorming](./diagrams/Canvases/BCMUNICIPALMANG.png)
 
 **Bounded Context Monitoring & Reporting:**
 
-<img width=400 high=600 src="https://media.discordapp.net/attachments/1417188407204909217/1417213081724915733/Monitoring_reporting.png?ex=68c9aa09&is=68c85889&hm=1a91d81e455c0b6952ea860a1b7b3bac66d768f13a57f244e3559acce8a9235c&=&format=webp&quality=lossless&width=248&height=607"/>
+![EventStorming](./diagrams/Canvases/BCREPORT.png)
 
 **Visión General de los Bounded Contexts:**
 
+![EventStorming](./diagrams/Canvases/Bounded_context.png)
 
 
 #### 4.1.1.2. Domain Message Flows Modeling
@@ -504,25 +508,25 @@ En esta sección, se describe el proceso utilizado para visualizar la interacci�
 
 En este escenario, se describe el proceso de autenticación de usuario en el sistema. El ciudadano interactúa con el contexto de Identity & Access Management para autenticarse y acceder a las funcionalidades de la plataforma de reciclaje.
 
-<img width=700 high=800 src="https://media.discordapp.net/attachments/1417188407204909217/1417217291141255188/user_authentication.png?ex=68c9adf4&is=68c85c74&hm=07a18fc5ea9cd7167543f316e23b716c8f8e5c029e53a39737f6d2eea5a024f1&=&format=webp&quality=lossless&width=882&height=512"/>
+![EventStorming](./diagrams/Canvases/user_authentication.png)
 
 **Scenario: Waste Collection Process**
 
 En este escenario, se describe el proceso completo de recolección de residuos metálicos. El ciudadano interactúa con los contextos de User Identification y Waste Collection para depositar residuos metálicos y ser identificado mediante su tarjeta RFID.
 
-<img width=700 high=800 src="https://media.discordapp.net/attachments/1417188407204909217/1417198864582316133/Waste_Collection_process.png?ex=68c99ccb&is=68c84b4b&hm=495f57d3ca40fffe884f1567e4cde60bcecd4550348cae9fa85d31b7a80f1cba&=&format=webp&quality=lossless&width=1064&height=607"/>
+![EventStorming](./diagrams/Canvases/Waste_Collection_process.png)
 
 **Scenario: Reward Points Assignment**
 
 En este escenario, se describe el proceso de asignación de puntos de recompensa. Tras la validación exitosa del residuo metálico y la identificación del usuario, el contexto de Reward Management asigna puntos al usuario basado en las reglas definidas.
 
-<img width=700 high=800 src="https://media.discordapp.net/attachments/1417188407204909217/1417199594466447458/Reward_Points_assignment.png?ex=68c99d79&is=68c84bf9&hm=a97c3fc3fcfff7e6d6e7ad2e2b4c3b3f67f7c16ec7f6229b825f3f15f2b4d007&=&format=webp&quality=lossless&width=1010&height=607"/>
+![EventStorming](./diagrams/Canvases/Reward_Points_assignment.png)
 
 **Scenario: Benefit Redemption**
 
 En este escenario, se describe el proceso de canje de beneficios municipales. El ciudadano interactúa con los contextos de Reward Management y Municipality Management para canjear sus puntos por beneficios definidos por su municipio.
 
-<img width=700 high=800 src="https://media.discordapp.net/attachments/1417188407204909217/1417217292126654514/benefit_redemption.png?ex=68c9adf5&is=68c85c75&hm=afd80a043f966bf64f97e2aa3a4f5a85346e5afcbd7175e72e22301ef2752ef3&=&format=webp&quality=lossless&width=882&height=532"/>
+![EventStorming](./diagrams/Canvases/benefit_redemption.png)
 
 **Scenario: Generate Impact Report**
 
@@ -554,7 +558,7 @@ En esta sección, se detallan los pasos seguidos por el equipo para diseñar los
 - **Reglas de negocio:** Los tokens de acceso tienen tiempo de expiración; Los usuarios deben autenticarse antes de acceder a funcionalidades; Diferentes roles tienen diferentes niveles de acceso
 - **Dependencias:** User Identification Context (para validar identidad de usuarios finales)
 
-<img width=900 high=900 src="https://media.discordapp.net/attachments/1417188407204909217/1417220947978752010/BC_IAM.png?ex=68c9b15c&is=68c85fdc&hm=58ef12bf2ab132628944b92b4c8f3d602a7939080ef3e6b30ab3c46293990ead&=&format=webp&quality=lossless&width=882&height=327"/>
+![EventStorming](./diagrams/Canvases/IAMCANVAS.png)
 
 **Bounded Context Canvas Waste Collection:**
 
@@ -564,7 +568,7 @@ En esta sección, se detallan los pasos seguidos por el equipo para diseñar los
 - **Reglas de negocio:** Solo se acepta para la compuerta si el material es metálico; La validación debe ser confirmada por sensores IoT
 - **Dependencias:** User Identification Context
 
-<img width=900 high=900 src="https://media.discordapp.net/attachments/1417188407204909217/1417220948704362537/BC_WASTE_COLLECTION.png?ex=68c9b15c&is=68c85fdc&hm=f41f5cb2ba1b9fcfb95f7490c08b958fea418cd155f723fafa27a1de86153318&=&format=webp&quality=lossless&width=882&height=280"/>
+![EventStorming](./diagrams/Canvases/WASTECOLLECTIONCANVAS.png)
 
 **Bounded Context Canvas User Identification:**
 
@@ -574,7 +578,7 @@ En esta sección, se detallan los pasos seguidos por el equipo para diseñar los
 - **Reglas de negocio:** Cada usuario posee una tarjeta única; La tarjeta RFID debe estar activa y registrada
 - **Dependencias:** Reward Management Context
 
-<img width=900 high=900 src="https://media.discordapp.net/attachments/1417188407204909217/1417220949316472873/BC_USER_IDENTIFICATION.png?ex=68c9b15d&is=68c85fdd&hm=47f0fb1f79f9e51b5a82c430d6235f4fd03d6477b2fac77d4d8fe18e40d8bd9d&=&format=webp&quality=lossless&width=882&height=280"/>
+![EventStorming](./diagrams/Canvases/USERIDENTIFICATIONCANVAS.png)
 
 **Bounded Context Canvas Reward Management:**
 
@@ -584,7 +588,7 @@ En esta sección, se detallan los pasos seguidos por el equipo para diseñar los
 - **Reglas de negocio:** Los puntos sólo se asignan tras validar residuo y usuario; Los puntos tienen fecha de expiración
 - **Dependencias:** Municipality Management Context
 
-<img width=900 high=900 src="https://media.discordapp.net/attachments/1417188407204909217/1417220949933297779/BC_REWARD_MANAGEMENT.png?ex=68c9b15d&is=68c85fdd&hm=af684ac4cb008a362b54d4784ea01e36eef990fa583d8b992db81541dc4a12c5&=&format=webp&quality=lossless&width=882&height=286"/>
+![EventStorming](./diagrams/Canvases/REWARDMANAGCANVAS.png)
 
 **Bounded Context Canvas Municipality Management:**
 
@@ -594,7 +598,7 @@ En esta sección, se detallan los pasos seguidos por el equipo para diseñar los
 - **Reglas de negocio:** Cada municipio define sus propios beneficios; Los convenios deben ser renovados periódicamente
 - **Dependencias:** Ninguna (contexto independiente)
 
-<img width=900 high=900 src="https://media.discordapp.net/attachments/1417188407204909217/1417220950520496208/BC_MUNICIPALITY_MANAGEMENT.png?ex=68c9b15d&is=68c85fdd&hm=062b451522b7d07de72a621900ebba07250580869a4ab9b2590727612a33838d&=&format=webp&quality=lossless&width=882&height=288"/>
+![EventStorming](./diagrams/Canvases/MUNICIPALMANGCANVAS.png)
 
 **Bounded Context Canvas Monitoring & Reporting:**
 
@@ -604,7 +608,7 @@ En esta sección, se detallan los pasos seguidos por el equipo para diseñar los
 - **Reglas de negocio:** Los reportes deben actualizarse periódicamente; Las métricas deben reflejar el impacto ambiental real
 - **Dependencias:** Todos los demás contextos (para recopilar datos)
 
-<img width=900 high=900 src="https://media.discordapp.net/attachments/1417188407204909217/1417220947336761404/BC_MONITORING_REPORTING.png?ex=68c9b15c&is=68c85fdc&hm=1a4c16f1eb38266a9b1990bce1936ef14d5da88d4b92c3c4af9d8042393961f6&=&format=webp&quality=lossless&width=882&height=287"/>
+![EventStorming](./diagrams/Canvases/MONITORINGREPORTCANVAS.png)
 
 ### 4.1.2 Context mapping
 
@@ -637,7 +641,7 @@ En esta sección, se analizan las relaciones entre los bounded contexts identifi
 
 **Context Mapping Diagram**
 
-<img width=900 high=900 src="https://media.discordapp.net/attachments/1417188407204909217/1417227830835675206/CCM.png?ex=68c9b7c5&is=68c86645&hm=bdceb1c8fc55fe945eb3d3477c7ea7d8505baa5783694589531e5db5ce009b7e&=&format=webp&quality=lossless&width=970&height=607"/>
+![EventStorming](./diagrams/Canvases/CCM.png)
 
 El diagrama muestra claramente cómo los seis bounded contexts interactúan entre sí, con Identity & Access Management como el proveedor central de servicios de seguridad, User Identification como el núcleo de identificación de ciudadanos, Waste Collection como el procesador central de residuos, Reward Management como el gestor de incentivos, Municipality Management como el definidor de políticas de beneficios, y Monitoring & Reporting como el consumidor de datos para análisis e informes del sistema de reciclaje inteligente.
 
