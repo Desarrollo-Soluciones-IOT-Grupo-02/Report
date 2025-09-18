@@ -37,7 +37,7 @@
 | Del Carmen Zorrilla, Ray Alessandro | U202124061 |
 | Pardo Zapata, Gustavo Adolfo        | u202120347 |
 | Cruz Palomino, Adriano Sebastian    | U202210697 |
-| ##                                  |     ##     |
+| Mancilla Ordaya, Eduardo Vicente    | U202018894 |
 | ##                                  |     ##     |
 
 </div>
