@@ -2451,305 +2451,276 @@ En esta sección, se presenta las User Stories diseñadas que cumplen con las ne
 # Capítulo IV: Solution Software Design
 
 ## 4.1. Strategic-Level Domain-Driven Design
-En este capítulo se presentan las decisiones de diseño tomadas a nivel estratégico aplicando Domain-Driven Design (DDD) al proyecto *Recolector Inteligente de Metales con IoT para Playas*. El objetivo es identificar y organizar los bounded contexts que conforman la solución, empleando herramientas como EventStorming, Candidate Context Discovery, Domain Message Flows Modeling, Bounded Context Canvases y Context Mapping.
+En nuestro equipo, abordamos las decisiones estratégicas utilizando Domain-Driven Design (DDD) para asegurarnos de que comprendemos a fondo el dominio y sus complejidades relacionadas con la gestión automatizada de residuos metálicos y el sistema de recompensas municipales. Aplicamos Event Storming como primera herramienta, lo que nos permitió identificar juntos los eventos clave dentro del sistema y visualizar cómo fluye la información y las interacciones en el negocio de reciclaje inteligente.
+
+Después, utilizamos el Bounded Context Canvas para definir claramente los límites de cada contexto dentro del dominio. Esto nos ayudó a organizar las responsabilidades y asegurar que cada parte del sistema estuviera alineada tanto con la visión de negocio como con las capacidades técnicas. Gracias a estas herramientas, pudimos tomar decisiones estratégicas más informadas y coherentes, asegurando que el desarrollo estuviera bien fundamentado en las necesidades reales del negocio de gestión de residuos y recompensas.
 ### 4.1.1. EventStorming
-**Introducción y Actividades Realizadas**
-El proceso de EventStorming se realizó durante una sesión colaborativa de 90 minutos con el objetivo de identificar los principales eventos, actores y sistemas involucrados en el dominio del problema. La sesión se estructuró en las siguientes fases:
+Event Storming es una herramienta que nos permite descubrir el comportamiento de un negocio, recopilando eventos importantes del negocio, los actores principales, servicios de terceros y otros. Para la implementación de esta sección se realizaron entrevistas correspondientes a los segmentos objetivos (ciudadanos, municipalidades y administradores), de esta manera pudimos identificar los eventos principales relacionados con la recolección de residuos metálicos, identificación de usuarios, gestión de recompensas y desarrollar un entendimiento común.
 
-- **Big Picture Event Storming (30 min):** Identificación inicial de eventos de dominio
-- **Actor y Sistema Mapping (20 min):** Identificación de personas y sistemas externos
-- **Hotspots Discovery (15 min):** Identificación de áreas problemáticas
-- **Timeline Refinement (25 min):** Ordenamiento cronológico y refinamiento
+![EventStorming](./diagrams/BoundedContext/eventstorming.png)
 
-**Elementos Identificados**
-**Personas identificadas:**
+Aquí mostramos los pasos respectivos para la elaboración correcta del Event Storming realizada en la herramienta de Miro.
 
-- **Usuario** (turista, bañista, ciudadano): Persona que deposita residuos metálicos
-- **Municipalidad:** Entidad que gestiona convenios y beneficios locales
-- **Administrador del sistema:** Personal técnico que mantiene y configura el sistema
+<b>Enlace al Miro:</b>
+  <a href="https://miro.com/app/board/uXjVI_LnCNw=/?share_link_id=408756915917">EventStorming</a>
 
-**Eventos de Dominio identificados:**
+**Step 1: Unstructured Exploration**
 
-- Residuo introducido en recolector
-- Residuo detectado por sensor inductivo
-- Residuo validado como metálico
-- Usuario identificado mediante RFID
-- Puntos calculados y asignados
-- Recompensa solicitada
-- Recompensa canjeada
-- Material metálico procesado
-- Reporte de impacto generado
+En esta sección se realizó una lluvia de ideas de los eventos del dominio relacionados con el sistema de gestión inteligente de residuos metálicos que se está explorando. Nos permitió identificar los eventos clave como: WasteCollected, UserAuthenticated, MetallicResidueValidated, PointsEarned, RewardClaimed, BenefitDefined, ReportGenerated, entre otros, y las interacciones entre ellos.
 
-**Sistemas externos:**
+![EventStorming](./diagrams/Canvases/event_keys.png)
 
-- **Recolector IoT:** Sistema físico con sensores y actuadores
-- **Plataforma de Gestión de Puntos:** Backend de procesamiento
-- **Sistema Municipal de Recompensas:** Base de datos de beneficios locales
+**Step 2: Timelines**
 
-**Hotspots identificados:**
+En esta sección, los eventos identificados previamente, son agrupados en subgrupos lo cual tiene como líder al evento principal (es quien encapsula la funcionalidad principal del grupo). Estos eventos comienzan con el flujo que describe el escenario empresarial exitoso (Happy path) relacionado con la recolección de residuos, validación de usuarios, asignación de puntos y canje de recompensas, así como también escenarios alternativos cuando hay fallos en la validación o problemas técnicos.
 
-- **Seguridad de datos del usuario:** Protección de información personal y patrones de uso
-- **Calidad de detección de metales:** Precisión de sensores inductivos y falsos positivos
-- **Interoperabilidad entre municipalidades:** Sincronización de datos entre diferentes jurisdicciones
-- **Conectividad IoT:** Mantenimiento de conexión en ubicaciones remotas
-- **Gestión de inventario de recompensas:** Control de stock y disponibilidad
+![EventStorming](./diagrams/Canvases/Flujo_Principal.png)
+
+**Step 3: Paint Points**
+
+Durante esta fase, identificamos puntos problemáticos o (Pain Points) que son áreas donde los usuarios pueden obtener dificultades al momento de realizar una respectiva funcionalidad en la aplicación. Estos puntos incluyen problemas con la validación RFID, fallos en los sensores de detección metálica, demoras en la asignación de puntos, y dificultades en el proceso de canje de recompensas. Estos puntos son importantes para mejorar la experiencia de usuario e implementar una aplicación eficiente.
+
+![EventStorming](./diagrams/BoundedContext/painpoints.png)
+
+**Step 4: Pivotal Points**
+
+En esta fase, nos enfocamos en identificar los puntos cruciales dentro del flujo del negocio de gestión de residuos, los cuales tienen un impacto significativo en la operatividad del sistema o el comportamiento del usuario. Estos puntos incluyen la validación exitosa de residuos metálicos, la correcta identificación del usuario vía RFID, y la confirmación del canje de recompensas. Estos puntos nos ayudan a priorizar qué áreas deben ser optimizadas o revisadas con mayor detalle.
+
+![EventStorming](./diagrams/BoundedContext/pivotalevents.png)
+
+
+**Step 5: Commands**
+
+Los comandos representan acciones que los actores del sistema pueden ejecutar. Durante este paso, mapeamos qué acciones desencadenan los eventos clave dentro del sistema: ValidateWaste, AuthenticateUser, AssignPoints, ClaimReward, DefineBenefit, GenerateReport, y qué actores (ciudadanos, administradores municipales, sistema IoT) son responsables de ejecutarlas.
+
+![EventStorming](./diagrams/BoundedContext/comands.png)
+
+**Step 6: Policies**
+
+En este paso, se identifican las políticas, que son reglas de negocio o condiciones que deben cumplirse para que un comando pueda ser ejecutado o un evento pueda suceder. Las políticas incluyen: "Solo se asignan puntos si el residuo es validado como metálico", "Cada usuario debe tener una tarjeta RFID única", "Los beneficios son definidos por cada municipio", "Los reportes se actualizan periódicamente".
+
+![EventStorming](./diagrams/BoundedContext/politics.png)
+
+**Step 7: Read Models**
+
+Los Read Models son vistas del estado del sistema, generalmente optimizadas para la consulta por parte de los usuarios o procesos. Durante este paso, definimos qué información necesita ser accesible: estado de puntos del usuario, historial de recolección, beneficios disponibles, métricas de impacto ambiental, y reportes de actividad municipal.
+
+![EventStorming](./diagrams/BoundedContext/readmodels.png)
+
+
+**Step 8: External Systems**
+En esta fase, identificamos los sistemas externos que interactúan con nuestro dominio: sistemas de sensores IoT para detección de metales, lectores RFID, plataformas de pago para recompensas, sistemas municipales de gestión, y servicios de notificación. Es crucial entender cómo estos sistemas externos afectan los flujos de recolección y recompensas.
+
+![EventStorming](./diagrams/BoundedContext/sistems.png)
+
+
+**Step 9: Aggregates**
+
+En este último paso, agrupamos los eventos y comandos que pertenecen a un agregado específico: Waste Collection Aggregate, User Identity Aggregate, Reward Management Aggregate, Municipal Agreement Aggregate, y Reporting Aggregate, para garantizar que todas las operaciones dentro de un contexto estén alineadas y mantengan la consistencia del sistema.
+
+![EventStorming](./diagrams/Canvases/Aggregates.png)
 
 #### 4.1.1.1. Candidate Context Discovery
 
-**Proceso y Técnica Aplicada**
-A partir del EventStorming, se aplicó la técnica start-with-value durante una sesión de 90 minutos, priorizando las partes core del dominio que generan mayor valor para el negocio y el impacto ambiental.
-**Bounded Contexts Identificados**
-**WasteCollection Context (Core Domain)**
+Nuestro equipo decidió usar la técnica start-with-value ya que empezamos a identificar la esencia del negocio de gestión inteligente de residuos metálicos, lo cual es importante para tener una mejor proyección a futuro del negocio sostenible.
 
-- **Justificación:** Contiene la lógica central de validación y recolección, diferenciador clave del sistema
-- **Eventos principales:** Residuo detectado, Residuo validado como metálico
-- **Valor de negocio:** Alto - función principal del sistema
+**Identificación de Valores del Negocio:**
+Analizamos los valores clave del negocio relacionados con la gestión automatizada de recolección de residuos metálicos, el sistema de recompensas ciudadanas, y la administración municipal de beneficios. Estas áreas son fundamentales para mejorar la eficiencia operativa en la gestión de recursos (como la recolección selectiva de metales) y para garantizar que los ciudadanos tengan acceso a un sistema de incentivos efectivo que promueva el reciclaje.
 
-**UserIdentification Context**
+**Identificación de funcionalidades:**
+A partir de los valores identificados, nos enfocamos en las funcionalidades más críticas: gestión de identidad y autenticación de usuarios, recolección y validación de residuos metálicos, sistema de puntos y recompensas, administración de beneficios municipales, generación de reportes e impacto ambiental, y monitoreo del sistema.
 
-- **Justificación:** Maneja la identidad y registro de usuarios, necesario pero no diferenciador
-- **Eventos principales:** Usuario identificado
-- **Valor de negocio:** Medio - soporte esencial
+**Priorización de contextos:**
+Priorizar los bounded contexts, nos permite identificar situaciones primordiales que se deben lograr de manera pronta. Además, priorizar los bounded contexts, ayuda a priorizar el core del negocio los cuales son esenciales para el desarrollo de la solución de reciclaje inteligente.
 
-**RewardManagement Context (Core Domain)**
+**Identificamos 6 Bounded Contexts:**
 
-- **Justificación:** Gestiona el sistema de incentivos, clave para adopción del usuario
-- **Eventos principales:** Puntos asignados, Recompensa canjeada
-- **Valor de negocio:** Alto - motor de engagement
+- Identity & Access Management
+- Waste Collection
+- User Identification
+- Reward Management
+- Municipality Management
+- Monitoring & Reporting
 
-**MunicipalityManagement Context**
+**Bounded Context Identity & Access Management:**
 
-- **Justificación:** Administra relaciones con entidades gubernamentales
-- **Eventos principales:** Convenio establecido, Material vendido
-- **Valor de negocio:** Medio - necesario para sostenibilidad
+![EventStorming](./diagrams/Canvases/BCIAM.png)
 
-**Monitoring & Reporting Context**
+**Bounded Context Waste Collection:**
 
-- **Justificación:** Genera métricas de impacto ambiental y operacional
-- **Eventos principales:** Reporte de impacto generado
-- **Valor de negocio:** Medio - transparencia y mejora continua
+![EventStorming](./diagrams/Canvases/BCWASTECOLECTION.png)
+
+**Bounded Context User Identification:**
+
+![EventStorming](./diagrams/Canvases/BCIDENTY.png)
+
+**Bounded Context Reward Management:**
+
+![EventStorming](./diagrams/Canvases/BCREWARD.png)
+
+**Bounded Context Municipality Management:**
+
+![EventStorming](./diagrams/Canvases/BCMUNICIPALMANG.png)
+
+**Bounded Context Monitoring & Reporting:**
+
+![EventStorming](./diagrams/Canvases/BCREPORT.png)
+
+**Visión General de los Bounded Contexts:**
+
+![EventStorming](./diagrams/Canvases/Bounded_context.png)
+
 
 #### 4.1.1.2. Domain Message Flows Modeling
-**Técnica y Herramientas**
-Se aplicó la técnica de Domain Storytelling para visualizar la colaboración entre bounded contexts. Se modelaron 4 flujos principales:
-**Flujo 1: Depositar Residuo Metálico**
 
-1. Usuario introduce residuo en el recolector
-2. WasteCollection Context → sensor detecta material
-3. WasteCollection Context → valida si es metálico mediante sensor inductivo
-4. Si es válido: WasteCollection Context → UserIdentification Context (solicita identificación)
-5. UserIdentification Context → lee tarjeta RFID y valida usuario
-6. UserIdentification Context → RewardManagement Context (usuario confirmado)
-7. RewardManagement Context → calcula y asigna puntos
-8. WasteCollection Context → abre compuerta y almacena residuo
-   
-**Flujo 2: Canje de Recompensas**
+En esta sección, se describe el proceso utilizado para visualizar la interacción entre los diferentes bounded contexts que conforman el sistema de gestión inteligente de residuos. El objetivo principal es entender cómo estos contextos colaboran para resolver los casos de uso del negocio de reciclaje y satisfacer las necesidades de los ciudadanos y municipalidades. Para lograr esto, se aplicó la técnica de Domain Storytelling, que facilita la representación gráfica de los flujos de mensajes entre actores, contextos y sistemas, permitiendo identificar claramente las responsabilidades y los puntos de comunicación entre cada componente del dominio.
 
-1. Usuario solicita canje de recompensa
-2. RewardManagement Context → valida puntos disponibles del usuario
-3. RewardManagement Context → MunicipalityManagement Context (verifica beneficio)
-4. MunicipalityManagement Context → confirma disponibilidad de recompensa
-5. RewardManagement Context → deduce puntos del usuario
-6. Sistema notifica canje exitoso al usuario
-   
-**Flujo 3: Procesamiento y Venta de Material**
+**Scenario: User Authentication**
 
-1. WasteCollection Context → detecta contenedor lleno
-2. WasteCollection Context → Monitoring & Reporting Context (registra volumen)
-3. MunicipalityManagement Context → gestiona recolección física
-4. MunicipalityManagement Context → procesa venta de material reciclado
-5. Monitoring & Reporting Context → actualiza métricas de impacto
-   
-**Flujo 4: Generación de Reportes**
+En este escenario, se describe el proceso de autenticación de usuario en el sistema. El ciudadano interactúa con el contexto de Identity & Access Management para autenticarse y acceder a las funcionalidades de la plataforma de reciclaje.
 
-1. Monitoring & Reporting Context → recolecta datos de todos los contexts
-2. Procesa estadísticas de uso, impacto ambiental y eficiencia
-3. Monitoring & Reporting Context → MunicipalityManagement Context (dashboards)
-4. Genera reportes para stakeholders gubernamentales
+![EventStorming](./diagrams/Canvases/user_authentication.png)
+
+**Scenario: Waste Collection Process**
+
+En este escenario, se describe el proceso completo de recolección de residuos metálicos. El ciudadano interactúa con los contextos de User Identification y Waste Collection para depositar residuos metálicos y ser identificado mediante su tarjeta RFID.
+
+![EventStorming](./diagrams/Canvases/Waste_Collection_process.png)
+
+**Scenario: Reward Points Assignment**
+
+En este escenario, se describe el proceso de asignación de puntos de recompensa. Tras la validación exitosa del residuo metálico y la identificación del usuario, el contexto de Reward Management asigna puntos al usuario basado en las reglas definidas.
+
+![EventStorming](./diagrams/Canvases/Reward_Points_assignment.png)
+
+**Scenario: Benefit Redemption**
+
+En este escenario, se describe el proceso de canje de beneficios municipales. El ciudadano interactúa con los contextos de Reward Management y Municipality Management para canjear sus puntos por beneficios definidos por su municipio.
+
+![EventStorming](./diagrams/Canvases/benefit_redemption.png)
+
+**Scenario: Generate Impact Report**
+
+En este escenario, se describe el proceso de generación de reportes de impacto ambiental. Los administradores municipales interactúan con el contexto de Monitoring & Reporting para visualizar métricas de recolección, impacto ambiental y participación ciudadana.
+
+![EventStorming](./diagrams/Canvases/generate_impact_report.png)
    
 #### 4.1.1.3. Bounded Context Canvases
 
-**Proceso Iterativo Aplicado**
-Para cada bounded context se siguió el proceso iterativo con los pasos: Context Overview Definition, Business Rules Distillation & Ubiquitous Language Capture, Capability Analysis, Dependencies Capture, y Design Critique.
+En esta sección, se detallan los pasos seguidos por el equipo para diseñar los bounded contexts identificados durante el proceso. El diseño de los bounded contexts fue iterativo, asegurando que cada contexto refleje de manera precisa los criterios de diseño y el conocimiento del dominio de gestión de residuos metálicos. Para cada bounded context, se siguieron los siguientes pasos clave:
 
-**WasteCollection Context (Core Domain)**
-**Context Overview Definition:**
+**Context Overview Definition:** Se definió el propósito y los límites de cada bounded context, alineándolos con el dominio del negocio de reciclaje inteligente.
 
-- **Responsabilidad:** Validar, recolectar y almacenar residuos metálicos mediante sensores IoT
+**Business Rules Distillation & Ubiquitous Language Capture:** Se identificaron las reglas de negocio clave relacionadas con la gestión de residuos, recompensas y administración municipal, capturando el lenguaje ubicuo para una comunicación clara entre el equipo.
 
-**Business Rules & Ubiquitous Language:**
+**Capability Analysis:** Se analizaron las capacidades que cada bounded context debe ofrecer para el sistema de reciclaje.
 
-- **Lenguaje Ubicuo:** Residuo, Validación, Sensor Inductivo, Actuador, Compuerta, Material Metálico
-- **Reglas de negocio:**
-  - Solo se abre compuerta si el sensor confirma material metálico
-  - El sensor debe calibrarse cada 48 horas
-  - Contenedor lleno bloquea nuevos depósitos
+**Capability Layering:** Se aplicó la separación en capas de capacidades cuando fue necesario.
 
-**Capability Analysis:**
+**Dependencies Capture:** Se identificaron las dependencias con otros bounded contexts y sistemas externos como sensores IoT y lectores RFID.
 
-- Detección de material metálico
-- Validación de calidad del residuo
-- Control de actuadores (compuerta)
-- Monitoreo de nivel de llenado
+**Design Critique:** Se revisó el diseño para asegurar un desacoplamiento adecuado y alineación con los objetivos del negocio sostenible.
 
-**Dependencies:**
+**Bounded Context Canvas Identity & Access Management:**
 
-- **Upstream:** UserIdentification Context (para completar transacción)
-- **Downstream:** Monitoring & Reporting Context (para métricas)
+- **Propósito del Contexto:** Gestionar autenticación, autorización y seguridad del sistema
+- **Responsabilidad:** Autenticar y autorizar usuarios del sistema
+- **Lenguaje Ubicuo:** Usuario, Credencial, Token, Rol, Permiso, Autenticación
+- **Reglas de negocio:** Los tokens de acceso tienen tiempo de expiración; Los usuarios deben autenticarse antes de acceder a funcionalidades; Diferentes roles tienen diferentes niveles de acceso
+- **Dependencias:** User Identification Context (para validar identidad de usuarios finales)
 
-**UserIdentification Context**
-**Context Overview Definition:**
+![EventStorming](./diagrams/Canvases/IAMCANVAS.png)
 
-- **Responsabilidad:** Identificar y validar usuarios mediante tecnología RFID
+**Bounded Context Canvas Waste Collection:**
 
-**Business Rules & Ubiquitous Language:**
+- **Propósito del Contexto:** Gestionar la recolección, validación y procesamiento de residuos metálicos
+- **Responsabilidad:** Validar y recolectar residuos metálicos
+- **Lenguaje Ubicuo:** Residuo, Validación, Sensor, Actuador, Material Metálico
+- **Reglas de negocio:** Solo se acepta para la compuerta si el material es metálico; La validación debe ser confirmada por sensores IoT
+- **Dependencias:** User Identification Context
 
-- **Lenguaje Ubicuo:* Usuario, Tarjeta RFID, Registro, Identificación, Perfil
-- **Reglas de negocio:**
-  - Cada usuario posee una tarjeta RFID única
-  - Usuarios inactivos por 12 meses se suspenden
-  - Registro requiere datos personales mínimos
+![EventStorming](./diagrams/Canvases/WASTECOLLECTIONCANVAS.png)
 
-**Capability Analysis:**
-- Lectura de tarjetas RFID
-- Validación de identidad de usuario
-- Gestión de perfiles de usuario
-- Control de acceso al sistema
+**Bounded Context Canvas User Identification:**
 
-**Dependencies:**
+- **Propósito del Contexto:** Identificar usuarios mediante RFID y gestionar perfiles de ciudadanos
+- **Responsabilidad:** Identificar usuarios mediante RFID
+- **Lenguaje Ubicuo:** Usuario, Tarjeta RFID, Registro, Perfil
+- **Reglas de negocio:** Cada usuario posee una tarjeta única; La tarjeta RFID debe estar activa y registrada
+- **Dependencias:** Reward Management Context
 
-- **Downstream:** RewardManagement Context (para asignación de puntos)
+![EventStorming](./diagrams/Canvases/USERIDENTIFICATIONCANVAS.png)
 
-**RewardManagement Context (Core Domain)**
-**Context Overview Definition:**
+**Bounded Context Canvas Reward Management:**
 
-- **Responsabilidad:** Gestionar sistema de puntos, acumulación y canje de recompensas
+- **Propósito del Contexto:** Gestionar sistema de puntos y recompensas para incentivar el reciclaje
+- **Responsabilidad:** Gestionar puntos y recompensas
+- **Lenguaje Ubicuo:** Puntos, Canje, Recompensa, Beneficio
+- **Reglas de negocio:** Los puntos sólo se asignan tras validar residuo y usuario; Los puntos tienen fecha de expiración
+- **Dependencias:** Municipality Management Context
 
-**Business Rules & Ubiquitous Language:**
+![EventStorming](./diagrams/Canvases/REWARDMANAGCANVAS.png)
 
-- **Lenguaje Ubicuo:** Puntos, Canje, Recompensa, Balance, Transacción, Beneficio
-- **Reglas de negocio:**
-  - Puntos se asignan solo tras validar residuo y usuario
-  - Puntos expiran después de 24 meses
-  - Canje requiere saldo mínimo específico por recompensa
+**Bounded Context Canvas Municipality Management:**
 
-**Capability Analysis:**
+- **Propósito del Contexto:** Gestionar convenios y administración de beneficios municipales
+- **Responsabilidad:** Gestionar convenios y administración de beneficios
+- **Lenguaje Ubicuo:** Municipio, Beneficio, Convenio, Administración
+- **Reglas de negocio:** Cada municipio define sus propios beneficios; Los convenios deben ser renovados periódicamente
+- **Dependencias:** Ninguna (contexto independiente)
 
-- Cálculo y asignación de puntos
-- Gestión de balance de usuarios
-- Procesamiento de canjes
-- Historial de transacciones
+![EventStorming](./diagrams/Canvases/MUNICIPALMANGCANVAS.png)
 
-**Dependencies:**
+**Bounded Context Canvas Monitoring & Reporting:**
 
-- **Upstream:** UserIdentification Context (confirmación de usuario)
-- **Partnership:** MunicipalityManagement Context (validación de recompensas)
+- **Propósito del Contexto:** Generar métricas e informes del sistema de reciclaje
+- **Responsabilidad:** Generar métricas e informes
+- **Lenguaje Ubicuo:** Reporte, Impacto, Estadística, Métrica Ambiental
+- **Reglas de negocio:** Los reportes deben actualizarse periódicamente; Las métricas deben reflejar el impacto ambiental real
+- **Dependencias:** Todos los demás contextos (para recopilar datos)
 
-**MunicipalityManagement Context**
-**Context Overview Definition:**
+![EventStorming](./diagrams/Canvases/MONITORINGREPORTCANVAS.png)
 
-- **Responsabilidad:** Gestionar convenios municipales, administración de beneficios y venta de material reciclado
-
-**Business Rules & Ubiquitous Language:**
-
-- **Lenguaje Ubicuo:** Municipalidad, Convenio, Beneficio, Reciclaje, Venta, Comisión
-- **Reglas de negocio:**
-  - Cada municipio define catálogo propio de beneficios
-  - Comisiones por venta se distribuyen según convenio
-  - Recompensas deben estar respaldadas por inventario
-
-**Capability Analysis:**
-
-- Gestión de convenios municipales
-- Administración de catálogo de recompensas
-- Procesamiento de ventas de material
-- Distribución de beneficios económicos
-
-**Dependencies:**
-
-- **Partnership:** RewardManagement Context (validación mutua)
-- **Downstream:** Monitoring & Reporting Context (datos de impacto)
-
-**Monitoring & Reporting Context**
-**Context Overview Definition:**
-
-- **Responsabilidad:** Generar métricas, informes de impacto ambiental y dashboards operacionales
-
-**Business Rules & Ubiquitous Language:**
-
-- **Lenguaje Ubicuo:** Reporte, Impacto Ambiental, Estadística, Dashboard, KPI, Métrica
-- **Reglas de negocio:**
-  - Reportes se actualizan cada 24 horas
-  - Datos históricos se mantienen por 5 años
-  - Dashboards públicos excluyen datos personales
-
-**Capability Analysis:**
-- Recolección y agregación de datos
-- Cálculo de impacto ambiental
-- Generación de reportes automatizados
-- Dashboards para diferentes stakeholders
-
-**Dependencies:**
-
-- **Upstream:** Todos los contexts (datos de entrada)
-  
 ### 4.1.2 Context mapping
-**Proceso de Elaboración y Alternativas Evaluadas**
-Se construyeron context maps revisando diferentes alternativas de diseño mediante las preguntas sugeridas:
-**Alternativas evaluadas:**
 
-- ¿Mover capability de cálculo de puntos a WasteCollection? → Rechazado: viola single responsibility
-- ¿Partir RewardManagement en Points y Rewards contexts? → Rechazado: aumenta complejidad sin valor
-- ¿Crear shared service para notificaciones? → Aceptado: reduce duplicación
-- ¿Aislar core capabilities de reporting? → Aceptado: separa concerns analíticos
+En esta sección, se analizan las relaciones entre los bounded contexts identificados y se asignan patrones de context mapping adecuados para cada uno:
 
-**Context Map Final**
-**WasteCollection Context → UserIdentification Context**
+**Customer/Supplier**
 
-- **Relación:** Customer/Supplier
-- **Justificación:** WasteCollection necesita identificación de usuario para completar la transacción
-- **Patrón:** Published Language (eventos estándar)
+**Descripción:** En esta relación, un contexto actúa como Cliente (Customer) y otro como Proveedor (Supplier). El contexto Cliente necesita servicios o datos del contexto Proveedor. Esta relación establece una dependencia directa donde el proveedor suministra información o servicios que el cliente necesita para funcionar adecuadamente en el sistema de reciclaje.
 
-**UserIdentification Context → RewardManagement Context**
+- **"Waste Collection"** es Cliente de "User Identification". En este caso, "User Identification" proporciona datos de validación de usuarios a "Waste Collection" para confirmar la identidad antes de procesar residuos.
+- **"Reward Management"** es Cliente de "User Identification" y "Municipality Management". "User Identification" proporciona datos de usuario para asignar puntos, mientras que "Municipality Management" provee información sobre beneficios disponibles.
 
-- **Relación:** Conformist
-- **Justificación:** UserIdentification se adapta al modelo de puntos definido por RewardManagement
-- **Patrón:** Open Host Service (API de puntos)
+**Open/Host Service (OHS)**
 
-**RewardManagement Context ↔ MunicipalityManagement Context*&*
+**Descripción:** En este patrón, un contexto expone un servicio bien definido que otros contextos pueden consumir sin tener que conocer o interactuar con la lógica interna de ese contexto. Este patrón es útil para integrar sistemas o contextos que necesitan acceder a servicios comunes, como autenticación, permisos o servicios de identificación.
 
-- **Relación:** Partnership
-- **Justificación:** Colaboración mutua para validar recompensas, gestionar inventario y convenios
-- **Patrón:** Shared Language para conceptos de beneficios
+- El contexto **"Identity & Access Management"** (Host) expone servicios de autenticación y autorización para todos los demás contextos del sistema de reciclaje.
 
-**Monitoring & Reporting Context → MunicipalityManagement Context**
+**Conformist**
 
-- **Relación:** Shared Kernel
-- **Justificación:** Ambos requieren datos consistentes de impacto ambiental y métricas de negocio
-- **Patrón:** Shared Database para datos de reporting
+**Descripción:** En este patrón, un contexto downstream adopta completamente el modelo del contexto upstream, sin traducción o adaptación. El contexto downstream se conforma al modelo y las interfaces del contexto upstream.
 
-**Anti-corruption Layers identificados:**
+- El contexto **"Monitoring & Reporting"** actúa como Conformist respecto a todos los demás contextos. Se adapta a los modelos de datos de "Waste Collection", "User Identification", "Reward Management", y "Municipality Management" para generar reportes consolidados.
 
-- Entre RewardManagement y sistemas legacy municipales
-- Entre WasteCollection y diferentes fabricantes de sensores IoT
+**Shared Kernel**
 
-**Beneficios del Context Mapping Final**
+**Descripción:** Este patrón se utiliza cuando dos contextos comparten un subconjunto común de su modelo de dominio. Los contextos que participan en un Shared Kernel deben coordinarse estrechamente para mantener la coherencia del modelo compartido.
 
-- **Security-First Design:** IAM/Authentication Context centraliza toda la lógica de seguridad
-- **Aislamiento de responsabilidades core:** WasteCollection y RewardManagement mantienen independencia
-- **Dependencias claras:** Cada context conoce sus upstream/downstream explícitos
-- **Reducción de acoplamiento:** Partnership pattern permite evolución independiente
-- **Escalabilidad:** Shared Kernel limitado a datos realmente compartidos
-- **Mantenibilidad:** Anti-corruption layers protegen dominios core de cambios externos
-- **Interoperabilidad:** IAM permite integración con múltiples proveedores de identidad municipales
+- **"Identity & Access Management"** y **"User Identification"** comparten un Shared Kernel relacionado con la información básica de identidad del usuario y estados de autenticación.
 
-Esta aproximación permite evolución independiente de cada bounded context mientras mantiene la coherencia y seguridad del sistema completo.
+**Context Mapping Diagram**
+
+![EventStorming](./diagrams/Canvases/CCM.png)
+
+El diagrama muestra claramente cómo los seis bounded contexts interactúan entre sí, con Identity & Access Management como el proveedor central de servicios de seguridad, User Identification como el núcleo de identificación de ciudadanos, Waste Collection como el procesador central de residuos, Reward Management como el gestor de incentivos, Municipality Management como el definidor de políticas de beneficios, y Monitoring & Reporting como el consumidor de datos para análisis e informes del sistema de reciclaje inteligente.
 
 ### 4.1.3. Software Architecture
 
 #### 4.1.3.1. Software Architecture System Landscape Diagram
 
-> Vista general del ecosistema: actores (visitante, municipalidad, mantenimiento), el sistema IBMCS y el servicio externo de autenticación Firebase.  
+> Muestra la visión general del ecosistema de ReciclaMar, con la plataforma RIMP como sistema central y los actores principales.   
 
 ![System Landscape – IBMCS](./diagrams/c4/00-landscape/structurizr-105978-landscape.png)
 
@@ -2757,73 +2728,520 @@ Esta aproximación permite evolución independiente de cada bounded context mien
 
 #### 4.1.3.2. Software Architecture Context Level Diagrams
 
-> Caja negra de IBMCS, mostrando interacción con los tres actores y Firebase.  
+> Representa a RIMP como caja negra y cómo interactúan los segmentos: bañistas, municipalidades y mantenimiento.   
 ![Context – General](./diagrams/c4/01-context/structurizr-105978-context.png)
-
-> Flujo de autenticación de usuario visitante y municipalidad vía Firebase.  
-![Context – Usuarios + Auth](./diagrams/c4/01-context/structurizr-105978-context-usuarios.png)
-
-> Operación/mantenimiento de recolectores por personal de campo.  
-![Context – Operaciones](./diagrams/c4/01-context/structurizr-105978-context-operaciones.png)
-
-> Flujo de acumulación y canje de puntos entre usuario y municipalidad.  
-![Context – Canjes](./diagrams/c4/01-context/structurizr-105978-context-canjes.png)
 
 ---
 
 #### 4.1.3.3. Software Architecture Container Level Diagrams
 
-> Descomposición en contenedores: frontends, backend, DB, storage y firmware Edge.  
-![Containers – General](./diagrams/c4/02-containers/structurizr-105978-containers.png)
-
-> Vista del backend con base de datos y storage.  
-![Containers – Backend Core](./diagrams/c4/02-containers/structurizr-105978-containers-backend.png)
-
-> Flujos de puntos/canje y autenticación desde las aplicaciones.  
-![Containers – Usuarios](./diagrams/c4/02-containers/structurizr-105978-containers-usuarios.png)
-
-> Enfoque en la gestión municipal y mantenimiento sobre backend y DB.  
-![Containers – Operaciones](./diagrams/c4/02-containers/structurizr-105978-containers-operaciones.png)
+> Descompone RIMP en sus aplicaciones y servicios: App móvil (Flutter), Web Admin (React), Backend (Spring Boot), DB, Storage y Firmware (ESP32).  
+![Containers – General](./diagrams/c4/02-containers/structurizr-105978-containers-usuarios.png)
 
 ---
 
 #### 4.1.3.4. Software Architecture Deployment Diagrams
 
-> Infraestructura general: ESP32 en playa, backend+DB en Railway, Web Admin/Storage en Firebase, Landing en GitHub Pages, móviles Android.  
+> Muestra dónde se despliegan los contenedores: ESP32 en playa, Backend/DB en Railway, Landing en GitHub Pages, Web Admin en hosting SPA y App móvil en Android.  
 ![Deployment – Production](./diagrams/c4/03-deployment/structurizr-105978-deploy.png)
-
-> Slice de Railway con backend y base de datos.  
-![Deployment – Railway](./diagrams/c4/03-deployment/structurizr-105978-deploy-railway.png)
-
-> Slice de Firebase con Web Admin y Storage.  
-![Deployment – Firebase](./diagrams/c4/03-deployment/structurizr-105978-deploy-firebase.png)
-
-> Hosting estático de la landing page.  
-![Deployment – GitHub Pages](./diagrams/c4/03-deployment/structurizr-105978-deploy-ghpages.png)
-
-> Dispositivo ESP32 y app móvil Android.  
-![Deployment – Devices](./diagrams/c4/03-deployment/structurizr-105978-deploy-devices.png)
 
 ## 4.2. Tactical-Level Domain-Driven Design
 
-### 4.2.X. Bounded Context
-### 4.2.X. Bounded Context
+# 4.2. Tactical-Level Domain-Driven Design
 
-#### 4.2.X.1. Domain Layer
+## 4.2.1. Bounded Context: IAM
 
-#### 4.2.X.2. Interface Context
+### 4.2.1.1. Domain Layer
 
-#### 4.2.X.3. Application Context
+**Entidades:**
+- **User**: Entidad raíz que representa los datos de autenticación de un usuario del sistema IoT
+  - Atributos: id, username, password, email, role, isActive, createdAt, updatedAt
+  - Métodos: authenticate(), changePassword(), isActive(), updateLastLogin()
 
-#### 4.2.X.4. Infrastructure Context
+**Value Objects:**
+- **Username**: Representa el nombre de usuario único
+- **Password**: Representa la contraseña encriptada
+- **Role**: Enumera los roles disponibles (CITIZEN, MUNICIPALITY_ADMIN, SYSTEM_ADMIN, COLLECTOR)
 
-#### 4.2.X.5. Bounded Context Software Architecture Component Level Diagrams
+**Servicios de Dominio:**
+- **AuthenticationService**: Maneja la lógica de autenticación
+- **PasswordService**: Gestiona el cifrado y validación de contraseñas
 
-#### 4.2.X.6. Bounded Context Software Architecture Code Level Diagrams
+**Repositorios:**
+- **UserRepository**: Interfaz para persistencia de usuarios
 
-#### 4.2.X.6.1. Bounded Context Domain Layer Class Diagrams
+### 4.2.1.2. Interface Layer
 
-#### 4.2.X.6.2. Bounded Context Database Design Diagram
+**Controladores:**
+- **AuthController**: Maneja endpoints de autenticación
+  - POST /api/v1/auth/login
+  - POST /api/v1/auth/register
+  - POST /api/v1/auth/logout
+  - POST /api/v1/auth/refresh
+
+**DTOs:**
+- **LoginRequest**: Datos de inicio de sesión
+- **RegisterRequest**: Datos de registro
+- **AuthResponse**: Respuesta con token y datos del usuario
+
+### 4.2.1.3. Application Layer
+
+**Casos de Uso:**
+- **LoginUseCase**: Procesa el inicio de sesión
+- **RegisterUseCase**: Procesa el registro de usuarios
+- **RefreshTokenUseCase**: Renueva tokens de acceso
+
+**Servicios de Aplicación:**
+- **AuthApplicationService**: Orquesta los casos de uso de autenticación
+
+### 4.2.1.4. Infrastructure Layer
+
+**Implementaciones:**
+- **JpaUserRepository**: Implementación JPA del repositorio de usuarios
+- **JwtTokenService**: Servicio para manejo de tokens JWT
+- **BCryptPasswordEncoder**: Implementación de cifrado de contraseñas
+
+### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams
+
+![IAMComponentDiagram](./diagrams/component-diagrams/IAM_Component_Diagram.png)
+
+### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams
+
+#### 4.2.1.6.1. Bounded Context Domain Layer Class Diagrams
+
+![IAMClassDiagram](./diagrams/class-diagrams/IAM_Domain_Class_Diagram.png)
+
+#### 4.2.1.6.2. Bounded Context Database Design Diagram
+
+![IAMDatabaseDiagram](./diagrams/db-diagrams/IAM_Database_Design.png)
+
+## 4.2.2. Bounded Context: WasteCollection
+
+### 4.2.2.1. Domain Layer
+
+**Entidades:**
+- **WasteBin**: Entidad raíz que representa un contenedor de residuos inteligente
+  - Atributos: id, location, capacity, currentLevel, sensorId, status, lastEmptied, municipalityId
+  - Métodos: updateLevel(), markAsEmpty(), needsCollection(), calculateFillPercentage()
+
+- **CollectionRoute**: Representa una ruta de recolección optimizada
+  - Atributos: id, collectorId, wasteBins, estimatedTime, status, createdAt
+  - Métodos: addWasteBin(), removeWasteBin(), optimize(), complete()
+
+- **CollectionRecord**: Registro de recolección realizada
+  - Atributos: id, wasteBinId, collectorId, collectedAt, volumeCollected, wasteType
+  - Métodos: validate(), calculateReward()
+
+**Value Objects:**
+- **Location**: Coordenadas geográficas (latitud, longitud)
+- **WasteLevel**: Nivel de llenado del contenedor (0-100%)
+- **WasteType**: Tipo de residuo (ORGANIC, RECYCLABLE, GENERAL)
+
+**Servicios de Dominio:**
+- **RouteOptimizationService**: Optimiza rutas de recolección
+- **CollectionSchedulingService**: Programa recolecciones basadas en niveles
+
+**Repositorios:**
+- **WasteBinRepository**: Interfaz para persistencia de contenedores
+- **CollectionRouteRepository**: Interfaz para persistencia de rutas
+- **CollectionRecordRepository**: Interfaz para persistencia de registros
+
+### 4.2.2.2. Interface Layer
+
+**Controladores:**
+- **WasteBinController**: Maneja endpoints de contenedores
+  - GET /api/v1/waste-bins
+  - GET /api/v1/waste-bins/{id}
+  - PUT /api/v1/waste-bins/{id}/level
+  - GET /api/v1/waste-bins/needs-collection
+
+- **CollectionController**: Maneja endpoints de recolección
+  - POST /api/v1/collections/routes
+  - GET /api/v1/collections/routes/{id}
+  - PUT /api/v1/collections/routes/{id}/complete
+  - POST /api/v1/collections/records
+
+**DTOs:**
+- **WasteBinResponse**: Respuesta con datos del contenedor
+- **UpdateLevelRequest**: Datos para actualizar nivel
+- **CollectionRouteRequest**: Datos para crear ruta
+- **CollectionRecordRequest**: Datos para registrar recolección
+
+### 4.2.2.3. Application Layer
+
+**Casos de Uso:**
+- **UpdateWasteLevelUseCase**: Actualiza nivel de contenedor
+- **GenerateCollectionRouteUseCase**: Genera ruta optimizada
+- **RecordCollectionUseCase**: Registra recolección realizada
+- **GetWasteBinsNeedingCollectionUseCase**: Obtiene contenedores que necesitan recolección
+
+**Servicios de Aplicación:**
+- **WasteCollectionApplicationService**: Orquesta los casos de uso de recolección
+
+### 4.2.2.4. Infrastructure Layer
+
+**Implementaciones:**
+- **JpaWasteBinRepository**: Implementación JPA del repositorio de contenedores
+- **JpaCollectionRouteRepository**: Implementación JPA del repositorio de rutas
+- **JpaCollectionRecordRepository**: Implementación JPA del repositorio de registros
+- **IoTSensorService**: Servicio para comunicación con sensores IoT
+- **MapsApiService**: Servicio para optimización de rutas usando APIs de mapas
+
+### 4.2.2.5. Bounded Context Software Architecture Component Level Diagrams
+
+![WateCollectionComponentDiagram](./diagrams/component-diagrams/WasteCollection_Component_Diagram.png)
+
+### 4.2.2.6. Bounded Context Software Architecture Code Level Diagrams
+
+#### 4.2.2.6.1. Bounded Context Domain Layer Class Diagrams
+
+![WasteCollectionClassDiagram](./diagrams/class-diagrams/WasteCollection_Domain_Class_Diagram.png)
+
+#### 4.2.2.6.2. Bounded Context Database Design Diagram
+
+![WasteCollecionDatabaseDiagram](./diagrams/db-diagrams/WasteCollection_Database_Design.png)
+
+## 4.2.3. Bounded Context: UserIdentification
+
+### 4.2.3.1. Domain Layer
+
+**Entidades:**
+- **Citizen**: Entidad raíz que representa un ciudadano registrado
+  - Atributos: id, dni, firstName, lastName, email, phone, address, municipalityId, isVerified
+  - Métodos: verify(), updateProfile(), isActive(), getFullName()
+
+- **IdentificationDevice**: Dispositivo para identificación (QR, NFC, etc.)
+  - Atributos: id, deviceType, deviceId, citizenId, isActive, lastUsed
+  - Métodos: activate(), deactivate(), updateLastUsed()
+
+**Value Objects:**
+- **DNI**: Documento Nacional de Identidad
+- **Address**: Dirección completa del ciudadano
+- **DeviceType**: Tipo de dispositivo (QR_CODE, NFC_CARD, MOBILE_APP)
+
+**Servicios de Dominio:**
+- **CitizenVerificationService**: Verifica identidad de ciudadanos
+- **DeviceRegistrationService**: Registra dispositivos de identificación
+
+**Repositorios:**
+- **CitizenRepository**: Interfaz para persistencia de ciudadanos
+- **IdentificationDeviceRepository**: Interfaz para persistencia de dispositivos
+
+### 4.2.3.2. Interface Layer
+
+**Controladores:**
+- **CitizenController**: Maneja endpoints de ciudadanos
+  - POST /api/v1/citizens/register
+  - GET /api/v1/citizens/{id}
+  - PUT /api/v1/citizens/{id}/verify
+  - GET /api/v1/citizens/profile
+
+- **IdentificationController**: Maneja endpoints de identificación
+  - POST /api/v1/identification/devices
+  - GET /api/v1/identification/verify/{deviceId}
+  - PUT /api/v1/identification/devices/{id}/activate
+
+**DTOs:**
+- **CitizenRegistrationRequest**: Datos para registro de ciudadano
+- **CitizenResponse**: Respuesta con datos del ciudadano
+- **DeviceRegistrationRequest**: Datos para registro de dispositivo
+- **IdentificationResponse**: Respuesta de identificación
+
+### 4.2.3.3. Application Layer
+
+**Casos de Uso:**
+- **RegisterCitizenUseCase**: Registra nuevo ciudadano
+- **VerifyCitizenUseCase**: Verifica identidad de ciudadano
+- **RegisterDeviceUseCase**: Registra dispositivo de identificación
+- **IdentifyUserUseCase**: Identifica usuario mediante dispositivo
+
+**Servicios de Aplicación:**
+- **UserIdentificationApplicationService**: Orquesta los casos de uso de identificación
+
+### 4.2.3.4. Infrastructure Layer
+
+**Implementaciones:**
+- **JpaCitizenRepository**: Implementación JPA del repositorio de ciudadanos
+- **JpaIdentificationDeviceRepository**: Implementación JPA del repositorio de dispositivos
+- **QRCodeService**: Servicio para generación y lectura de códigos QR
+- **NFCService**: Servicio para comunicación NFC
+- **DocumentVerificationService**: Servicio externo para verificación de documentos
+
+### 4.2.3.5. Bounded Context Software Architecture Component Level Diagrams
+
+![UserIdentificationComponentDiagram](./diagrams/component-diagrams/UserIdentification_Component_Diagram.png)
+
+### 4.2.3.6. Bounded Context Software Architecture Code Level Diagrams
+
+#### 4.2.3.6.1. Bounded Context Domain Layer Class Diagrams
+
+![UserIdentificationClassDiagram](./diagrams/class-diagrams/UserIdentification_Domain_Class_Diagram.png)
+
+#### 4.2.3.6.2. Bounded Context Database Design Diagram
+
+![UserIdentificationDatabaseDiagram](./diagrams/db-diagrams/UserIdentification_Database_Design.png)
+
+## 4.2.4. Bounded Context: RewardManagement
+
+### 4.2.4.1. Domain Layer
+
+**Entidades:**
+- **Reward**: Entidad raíz que representa una recompensa
+  - Atributos: id, citizenId, points, rewardType, description, earnedAt, expiresAt, status
+  - Métodos: redeem(), expire(), isValid(), calculateValue()
+
+- **RewardTransaction**: Transacción de puntos de recompensa
+  - Atributos: id, citizenId, points, transactionType, description, relatedEntityId, createdAt
+  - Métodos: validate(), reverse()
+
+- **RewardCatalog**: Catálogo de recompensas disponibles
+  - Atributos: id, name, description, pointsCost, category, isActive, stock
+  - Métodos: purchase(), updateStock(), activate(), deactivate()
+
+**Value Objects:**
+- **Points**: Puntos de recompensa
+- **RewardType**: Tipo de recompensa (WASTE_DISPOSAL, RECYCLING, REPORTING)
+- **TransactionType**: Tipo de transacción (EARNED, REDEEMED, EXPIRED)
+
+**Servicios de Dominio:**
+- **RewardCalculationService**: Calcula puntos basados en acciones
+- **RewardRedemptionService**: Maneja canje de recompensas
+
+**Repositorios:**
+- **RewardRepository**: Interfaz para persistencia de recompensas
+- **RewardTransactionRepository**: Interfaz para persistencia de transacciones
+- **RewardCatalogRepository**: Interfaz para persistencia del catálogo
+
+### 4.2.4.2. Interface Layer
+
+**Controladores:**
+- **RewardController**: Maneja endpoints de recompensas
+  - GET /api/v1/rewards/citizen/{citizenId}
+  - POST /api/v1/rewards/earn
+  - POST /api/v1/rewards/redeem
+  - GET /api/v1/rewards/balance/{citizenId}
+
+- **RewardCatalogController**: Maneja endpoints del catálogo
+  - GET /api/v1/rewards/catalog
+  - GET /api/v1/rewards/catalog/{id}
+  - POST /api/v1/rewards/catalog/{id}/purchase
+
+**DTOs:**
+- **EarnRewardRequest**: Datos para ganar recompensa
+- **RedeemRewardRequest**: Datos para canjear recompensa
+- **RewardResponse**: Respuesta con datos de recompensa
+- **RewardBalanceResponse**: Respuesta con balance de puntos
+
+### 4.2.4.3. Application Layer
+
+**Casos de Uso:**
+- **EarnRewardUseCase**: Otorga puntos por acciones
+- **RedeemRewardUseCase**: Canjea puntos por recompensas
+- **GetRewardBalanceUseCase**: Obtiene balance de puntos
+- **GetRewardHistoryUseCase**: Obtiene historial de recompensas
+
+**Servicios de Aplicación:**
+- **RewardManagementApplicationService**: Orquesta los casos de uso de recompensas
+
+### 4.2.4.4. Infrastructure Layer
+
+**Implementaciones:**
+- **JpaRewardRepository**: Implementación JPA del repositorio de recompensas
+- **JpaRewardTransactionRepository**: Implementación JPA del repositorio de transacciones
+- **JpaRewardCatalogRepository**: Implementación JPA del repositorio del catálogo
+- **PaymentGatewayService**: Servicio para procesamiento de pagos
+- **NotificationService**: Servicio para notificaciones de recompensas
+
+### 4.2.4.5. Bounded Context Software Architecture Component Level Diagrams
+
+![RewardManagmentComponentDiagram](./diagrams/component-diagrams/RewardManagement_Component_Diagram.png)
+
+### 4.2.4.6. Bounded Context Software Architecture Code Level Diagrams
+
+#### 4.2.4.6.1. Bounded Context Domain Layer Class Diagrams
+
+![RewardManagmentClassDiagram](./diagrams/class-diagrams/RewardManagement_Domain_Class_Diagram.png)
+
+#### 4.2.4.6.2. Bounded Context Database Design Diagram
+
+![RewardManagmentDatabaseDiagram](./diagrams/db-diagrams/RewardManagement_Database_Design.png)
+
+## 4.2.5. Bounded Context: MunicipalityManagement
+
+### 4.2.5.1. Domain Layer
+
+**Entidades:**
+- **Municipality**: Entidad raíz que representa una municipalidad
+  - Atributos: id, name, code, region, population, area, contactInfo, isActive
+  - Métodos: updateInfo(), activate(), deactivate(), addZone()
+
+- **Zone**: Zona dentro de una municipalidad
+  - Atributos: id, municipalityId, name, boundaries, population, zoneType
+  - Métodos: updateBoundaries(), assignCollector()
+
+- **MunicipalityAdmin**: Administrador de municipalidad
+  - Atributos: id, userId, municipalityId, role, permissions, assignedAt
+  - Métodos: grantPermission(), revokePermission(), isAuthorized()
+
+**Value Objects:**
+- **ContactInfo**: Información de contacto de la municipalidad
+- **Boundaries**: Límites geográficos de una zona
+- **ZoneType**: Tipo de zona (RESIDENTIAL, COMMERCIAL, INDUSTRIAL)
+
+**Servicios de Dominio:**
+- **MunicipalityConfigurationService**: Configura parámetros municipales
+- **ZoneManagementService**: Gestiona zonas y asignaciones
+
+**Repositorios:**
+- **MunicipalityRepository**: Interfaz para persistencia de municipalidades
+- **ZoneRepository**: Interfaz para persistencia de zonas
+- **MunicipalityAdminRepository**: Interfaz para persistencia de administradores
+
+### 4.2.5.2. Interface Layer
+
+**Controladores:**
+- **MunicipalityController**: Maneja endpoints de municipalidades
+  - GET /api/v1/municipalities
+  - GET /api/v1/municipalities/{id}
+  - PUT /api/v1/municipalities/{id}
+  - POST /api/v1/municipalities/{id}/zones
+
+- **ZoneController**: Maneja endpoints de zonas
+  - GET /api/v1/zones/municipality/{municipalityId}
+  - GET /api/v1/zones/{id}
+  - PUT /api/v1/zones/{id}
+
+**DTOs:**
+- **MunicipalityResponse**: Respuesta con datos de municipalidad
+- **UpdateMunicipalityRequest**: Datos para actualizar municipalidad
+- **ZoneRequest**: Datos para crear/actualizar zona
+- **ZoneResponse**: Respuesta con datos de zona
+
+### 4.2.5.3. Application Layer
+
+**Casos de Uso:**
+- **GetMunicipalityUseCase**: Obtiene información de municipalidad
+- **UpdateMunicipalityUseCase**: Actualiza información de municipalidad
+- **CreateZoneUseCase**: Crea nueva zona
+- **AssignAdminUseCase**: Asigna administrador a municipalidad
+
+**Servicios de Aplicación:**
+- **MunicipalityManagementApplicationService**: Orquesta los casos de uso municipales
+
+### 4.2.5.4. Infrastructure Layer
+
+**Implementaciones:**
+- **JpaMunicipalityRepository**: Implementación JPA del repositorio de municipalidades
+- **JpaZoneRepository**: Implementación JPA del repositorio de zonas
+- **JpaMunicipalityAdminRepository**: Implementación JPA del repositorio de administradores
+- **GeocodingService**: Servicio para geocodificación de direcciones
+- **MapService**: Servicio para manejo de mapas y límites geográficos
+
+### 4.2.5.5. Bounded Context Software Architecture Component Level Diagrams
+
+![MunicipalityManagmentComponentDiagram](./diagrams/component-diagrams/MunicipalityManagement_Component_Diagram.png)
+
+### 4.2.5.6. Bounded Context Software Architecture Code Level Diagrams
+
+#### 4.2.5.6.1. Bounded Context Domain Layer Class Diagrams
+
+![MunicipalityManagmentClassDiagram](./diagrams/class-diagrams/MunicipalityManagement_Domain_Class_Diagram.png)
+
+#### 4.2.5.6.2. Bounded Context Database Design Diagram
+
+![MunicipalityManagmentDatabaseDiagram](./diagrams/db-diagrams/MunicipalityManagement_Database_Design.png)
+
+## 4.2.6. Bounded Context: Monitoring & Reporting
+
+### 4.2.6.1. Domain Layer
+
+**Entidades:**
+- **Report**: Entidad raíz que representa un reporte del sistema
+  - Atributos: id, reportType, municipalityId, generatedBy, data, createdAt, status
+  - Métodos: generate(), export(), schedule(), validate()
+
+- **Metric**: Métrica del sistema
+  - Atributos: id, name, value, unit, timestamp, source, municipalityId
+  - Métodos: update(), validate(), compare()
+
+- **Alert**: Alerta del sistema
+  - Atributos: id, alertType, severity, message, source, isResolved, createdAt
+  - Métodos: resolve(), escalate(), notify()
+
+**Value Objects:**
+- **ReportType**: Tipo de reporte (COLLECTION_EFFICIENCY, WASTE_LEVELS, CITIZEN_PARTICIPATION)
+- **AlertSeverity**: Severidad de alerta (LOW, MEDIUM, HIGH, CRITICAL)
+- **MetricValue**: Valor de métrica con unidad
+
+**Servicios de Dominio:**
+- **ReportGenerationService**: Genera reportes basados en datos
+- **AlertingService**: Gestiona alertas del sistema
+- **MetricsAggregationService**: Agrega métricas para análisis
+
+**Repositorios:**
+- **ReportRepository**: Interfaz para persistencia de reportes
+- **MetricRepository**: Interfaz para persistencia de métricas
+- **AlertRepository**: Interfaz para persistencia de alertas
+
+### 4.2.6.2. Interface Layer
+
+**Controladores:**
+- **ReportController**: Maneja endpoints de reportes
+  - GET /api/v1/reports
+  - POST /api/v1/reports/generate
+  - GET /api/v1/reports/{id}
+  - GET /api/v1/reports/{id}/export
+
+- **MetricsController**: Maneja endpoints de métricas
+  - GET /api/v1/metrics
+  - GET /api/v1/metrics/dashboard
+  - POST /api/v1/metrics
+
+- **AlertController**: Maneja endpoints de alertas
+  - GET /api/v1/alerts
+  - PUT /api/v1/alerts/{id}/resolve
+  - GET /api/v1/alerts/active
+
+**DTOs:**
+- **GenerateReportRequest**: Datos para generar reporte
+- **ReportResponse**: Respuesta con datos del reporte
+- **MetricResponse**: Respuesta con datos de métrica
+- **AlertResponse**: Respuesta con datos de alerta
+
+### 4.2.6.3. Application Layer
+
+**Casos de Uso:**
+- **GenerateReportUseCase**: Genera reportes del sistema
+- **GetMetricsDashboardUseCase**: Obtiene métricas para dashboard
+- **CreateAlertUseCase**: Crea nueva alerta
+- **ResolveAlertUseCase**: Resuelve alerta existente
+
+**Servicios de Aplicación:**
+- **MonitoringReportingApplicationService**: Orquesta los casos de uso de monitoreo
+
+### 4.2.6.4. Infrastructure Layer
+
+**Implementaciones:**
+- **JpaReportRepository**: Implementación JPA del repositorio de reportes
+- **JpaMetricRepository**: Implementación JPA del repositorio de métricas
+- **JpaAlertRepository**: Implementación JPA del repositorio de alertas
+- **ReportExportService**: Servicio para exportación de reportes
+- **EmailNotificationService**: Servicio para notificaciones por email
+- **DataAnalyticsService**: Servicio para análisis de datos
+
+### 4.2.6.5. Bounded Context Software Architecture Component Level Diagrams
+
+![MonitoringReportingComponentDiagram](./diagrams/component-diagrams/MonitoringReporting_Component_Diagram.png)
+
+### 4.2.6.6. Bounded Context Software Architecture Code Level Diagrams
+
+#### 4.2.6.6.1. Bounded Context Domain Layer Class Diagrams
+
+![MonitoringReportingClassDiagram](./diagrams/class-diagrams/MonitoringReporting_Domain_Class_Diagram.png)
+
+#### 4.2.6.6.2. Bounded Context Database Design Diagram
+
+![MonitoringReportingDatabaseDiagram](./diagrams/db-diagrams/MonitoringReporting_Database_Design.png)
 
 # Capítulo V: Solutions UI/UX Design
 
