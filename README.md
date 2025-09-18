@@ -66,7 +66,13 @@ Esta sección tiene como propósito detallar las actualizaciones significativas 
     <tr>
       <td>Del Carmen Zorrilla, Ray Alessandro</td>
       <td>
-        - Entrevistas a usuarios.<br>
+        - Diseñé las entrevistas para recolectar información de usuarios.<br>
+        - Realicé entrevistas al segmento de <b>municipalidades costeras</b> para identificar necesidades y problemáticas.<br>
+        - Segmenté y definí los <b>segmentos objetivo</b> principales del proyecto (bañistas y municipalidades).<br>
+        - Desarrollé el <b>To-Be Scenario Mapping</b> de ambos segmentos, mostrando el flujo ideal de interacción con el sistema.<br>
+        - Redacté y estructuré las <b>User Stories</b> centradas en los bañistas.<br>
+        - Elaboré el <b>Impact Mapping</b> conectando objetivos estratégicos, impactos y entregables.<br>
+        - Organicé y documenté el <b>Product Backlog</b>, priorizando las historias y asignando story points.<br>
       </td>
     </tr>
     <tr>
@@ -265,37 +271,39 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
           </tr>
         <!-- Estudiantes -->
           <tr>
-            <td>
+            <td align="justify">
               <b>Del Carmen Zorrilla, Ray Alessandro:</b><br>
-              Morbi vel tortor id eros dictum venenatis id ut dui. Mauris quis tellus sed nunc hendrerit vehicula ac id mauris.
+              Durante el desarrollo del proyecto asumí un rol activo en la organización de las tareas y coordinación con mis compañeros. 
+              Brindé liderazgo conjunto al proponer la segmentación de los usuarios y en la preparación de las entrevistas, 
+              fomentando la toma de decisiones compartida y asegurando que el equipo avanzara de forma ordenada y alineada a los objetivos.
             </td>
           </tr>
           <tr>
-            <td>
+            <td align="justify">
               <b>Estudiante 2:</b><br>
               Morbi vel tortor id eros dictum venenatis id ut dui. Mauris quis tellus sed nunc hendrerit vehicula ac id mauris.
             </td>
           </tr>
           <tr>
-            <td>
+            <td align="justify">
               <b>Estudiante 3:</b><br>
               Morbi vel tortor id eros dictum venenatis id ut dui. Mauris quis tellus sed nunc hendrerit vehicula ac id mauris.
             </td>
           </tr>
           <tr>
-            <td>
+            <td align="justify">
               <b>Estudiante 4:</b><br>
               Morbi vel tortor id eros dictum venenatis id ut dui. Mauris quis tellus sed nunc hendrerit vehicula ac id mauris.
             </td>
           </tr>
           <tr>
-            <td>
+            <td align="justify">
               <b>Estudiante 5:</b><br>
               Morbi vel tortor id eros dictum venenatis id ut dui. Mauris quis tellus sed nunc hendrerit vehicula ac id mauris.
             </td>
           </tr>
           <tr>
-            <td>
+            <td align="justify">
               <b>Estudiante 6:</b><br>
               Morbi vel tortor id eros dictum venenatis id ut dui. Mauris quis tellus sed nunc hendrerit vehicula ac id mauris.
             </td>
@@ -303,15 +311,17 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
         </table>
       </td>
       <!-- Conclusion TB1 -->
-      <td rowspan="1">
-        Fusce cursus dolor et nulla suscipit, sit amet ullamcorper nibh vestibulum.<br>
-        Nam ornare massa eu lobortis porttitor.<br>
-        Nam ut erat feugiat libero pretium semper at metus.
+      <td rowspan="1" align="justify">
+        Como grupo distribuimos las responsabilidades de manera equilibrada en cada capítulo del proyecto, 
+        permitiendo que cada integrante asumiera un rol de liderazgo en sus secciones (entrevistas, Lean UX, análisis competitivo, 
+        scenario mapping, user stories, arquitectura, entre otros).  
+        Esto fomentó un liderazgo compartido, donde cada miembro guió al resto en su parte y, al mismo tiempo, 
+        se apoyó en las ideas de los demás para enriquecer los entregables.  
       </td>
     </tr>
     <!-- Criterio 2 -->
     <tr>
-      <td rowspan="1">
+      <td rowspan="1" >
         Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.
       </td>
       <!-- TB1 -->
@@ -322,37 +332,41 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
           </tr>
         <!-- Estudiantes -->
           <tr>
-            <td>
+            <td align="justify">
               <b>Del Carmen Zorrilla, Ray Alessandro:</b><br>
-              Morbi vel tortor id eros dictum venenatis id ut dui. Mauris quis tellus sed nunc hendrerit vehicula ac id mauris.
+              Contribuí a crear un entorno colaborativo e inclusivo dentro del equipo, 
+              promoviendo la participación de todos y valorando cada propuesta. 
+              Establecí metas claras en la elaboración del To-Be Scenario Mapping, Impact Mapping y Product Backlog, 
+              planificando tareas de manera conjunta y asegurando que se cumplieran los objetivos en los plazos acordados. 
+              Mi aporte se centró en mantener un clima de confianza y compromiso para lograr entregables de calidad.
             </td>
           </tr>
           <tr>
-            <td>
+            <td align="justify">
               <b>Estudiante 2:</b><br>
               Morbi vel tortor id eros dictum venenatis id ut dui. Mauris quis tellus sed nunc hendrerit vehicula ac id mauris.
             </td>
           </tr>
           <tr>
-            <td>
+            <td align="justify">
               <b>Estudiante 3:</b><br>
               Morbi vel tortor id eros dictum venenatis id ut dui. Mauris quis tellus sed nunc hendrerit vehicula ac id mauris.
             </td>
           </tr>
           <tr>
-            <td>
+            <td align="justify">
               <b>Estudiante 4:</b><br>
               Morbi vel tortor id eros dictum venenatis id ut dui. Mauris quis tellus sed nunc hendrerit vehicula ac id mauris.
             </td>
           </tr>
           <tr>
-            <td>
+            <td align="justify">
               <b>Estudiante 5:</b><br>
               Morbi vel tortor id eros dictum venenatis id ut dui. Mauris quis tellus sed nunc hendrerit vehicula ac id mauris.
             </td>
           </tr>
           <tr>
-            <td>
+            <td align="justify">
               <b>Estudiante 6:</b><br>
               Morbi vel tortor id eros dictum venenatis id ut dui. Mauris quis tellus sed nunc hendrerit vehicula ac id mauris.
             </td>
@@ -360,10 +374,12 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
         </table>
       </td>
       <!-- Conclusion TB1 -->
-      <td rowspan="1">
-        Fusce mattis augue a nisl bibendum, quis fringilla neque scelerisque.<br>
-        Vivamus commodo libero eget venenatis imperdiet.<br>
-        Suspendisse blandit nisl quis mauris vehicula faucibus.
+      <td rowspan="1" align="justify">
+        El equipo trabajó en un entorno colaborativo, valorando las propuestas de todos y asegurando la participación equitativa.  
+        Se establecieron metas claras para cada hito (entrevistas, análisis, mapeos, especificaciones y diseño), 
+        planificando tareas de forma conjunta y distribuyendo el trabajo según las fortalezas de cada integrante.  
+        Gracias a esta organización y compromiso colectivo, se cumplieron los objetivos en los tiempos establecidos, 
+        garantizando un proyecto cohesionado y alineado a la solución propuesta.
       </td>
     </tr>
   </tbody>
@@ -389,21 +405,80 @@ Contribuir a la sostenibilidad ambiental y al desarrollo de comunidades costeras
 **Visión:**  
 Convertirse en la startup líder en soluciones IoT para la gestión de residuos en Latinoamérica, reconocida por su capacidad de innovación, su impacto positivo en la conservación ambiental y su aporte al bienestar de la sociedad.
 
-<div style="display: flex; justify-content: center;">
+<div align="center">
   <img style="width: 300px; height: auto; border-radius: 10px; clip-path: inset(50px 0 50px 0)" src="./assets/chapter-1/metalix/metalix-logo.png" alt="Metalix Logo"/>
 </div>
 
 ### 1.1.2. Perfiles de integrantes del equipo
 
-| Foto                                                     | Apellidos y Nombres               |          Código | Carrera                | Conocimientos y contribución principal                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
-| -------------------------------------------------------- | --------------------------------- | --------------: | ---------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![Orlando Roca](./foto_integrantes/orlando_roca.JPG)     | **Roca Huapaya, Orlando Arturo**  |      u201919742 | Ingeniería de Software | Mi contribución al equipo es la experiencia que tengo desarrollando interfaces en React o Vue y servicios de APIs REST en Spring Boot o Laravel. Me enfoco en que el producto sea usable, estable y fácil de desplegar. Además, priorizaré el uso de buenas prácticas en el ciclo de desarrollo del software.                                                                                                                                                                                                                                                                                                                         |
-| ![Gustavo Pardo](./foto_integrantes/PerfilGustavo.jpg)   | **Pardo Zapata, Gustavo Adolfo**  |      u202120347 | Ingeniería de Software | Soy proactivo, colaborativo, organizado,responsable y con habilidades de resolución de problemas.Tengo una excelente capacidad para comunicarme de manera efectiva y clara con los demás miembros de mi equipo y deseo colaborar en todo lo posible con mis demás compañeros en este trabajo. Cuento con conocimiento en JavaScript, Java, Python, C# y SQL.                                                                                                                                                                                                                                                                          |
-| ![Johan Quiñones](./foto_integrantes/JohanQuinones.jpeg) | **Quiñones Tintaya, Johan Jorge** |      U202218183 | Ingeniería de Software | Mi nombre es Johan Jorge Quiñones Tintaya, tengo 19 años y soy estudiante de ingeniería de software en la UPC, cursando el quinto ciclo. He adquirido una base sólida en algoritmos y programación orientada a objetos, lo que me permite enfrentar desafíos de desarrollo con eficacia. Además, me destaco por mi capacidad para trabajar en equipo, manteniendo una comunicación clara y efectiva que facilita la colaboración. Estoy comprometido con mi crecimiento profesional y busco constantemente mejorar mis habilidades para contribuir de manera significativa en proyectos y equipos, ofreciendo soluciones innovadoras. |
-| ![Adriano Cruz](./foto_integrantes/AdrianoCruz.png)      | **Cruz Palomino,**                |      U202210697 | Ingeniería de Software | Mi nombre es Adriano Sebastian Cruz Palomino, tengo 20 años, soy alumno de Ingeniería de Software en la UPC, actualmente estoy cursando el 8vo ciclo. Soy una persona curiosa, responsable, y comprometida con mis estudios, siempre busco aprender más y mejorar mis habilidades.                                                                                                                                                                                                                                                                                                                                                    |
-| *(colocar foto)*                                         | **Integrante 5**                  | [por completar] | [carrera]              |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
-| *(colocar foto)*                                         | **Integrante 6**                  | [por completar] | [carrera]              |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
-
+<table>
+  <thead>
+    <tr>
+      <th>Foto</th>
+      <th>Apellidos y Nombres</th>
+      <th>Código</th>
+      <th>Carrera</th>
+      <th>Conocimientos y contribución principal</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><img src="./foto_integrantes/orlando_roca.JPG" alt="Foto de Orlando Roca" width="400"></td>
+      <td><b>Roca Huapaya, Orlando Arturo</b></td>
+      <td>U201919742</td>
+      <td>Ingeniería de Software</td>
+      <td>
+          Mi contribución al equipo es la experiencia que tengo desarrollando interfaces en React o Vue y servicios de APIs REST en Spring Boot o Laravel. Me enfoco en que el producto sea usable, estable y fácil de desplegar. Además, priorizaré el uso de buenas prácticas en el ciclo de desarrollo del software.
+      </td>
+    </tr>
+    <tr>
+      <td><img src="./foto_integrantes/PerfilGustavo.jpg" alt="Foto de Gustavo Pardo" width="400"></td>
+      <td><b>Pardo Zapata, Gustavo Adolfo</b></td>
+      <td>U202120347</td>
+      <td>Ingeniería de Software</td>
+      <td>
+          Soy proactivo, colaborativo, organizado,responsable y con habilidades de resolución de problemas.Tengo una excelente capacidad para comunicarme de manera efectiva y clara con los demás miembros de mi equipo y deseo colaborar en todo lo posible con mis demás compañeros en este trabajo. Cuento con conocimiento en JavaScript, Java, Python, C# y SQL.
+      </td>
+    </tr>
+    <tr>
+      <td><img src="./foto_integrantes/JohanQuinones.jpeg" alt="Foto de Johan Quiñones" width="400"></td>
+      <td><b>Quiñones Tintaya, Johan Jorge</b></td>
+      <td>U202218183</td>
+      <td>Ingeniería de Software</td>
+      <td>
+          Mi nombre es Johan Jorge Quiñones Tintaya, tengo 19 años y soy estudiante de ingeniería de software en la UPC, cursando el quinto ciclo. He adquirido una base sólida en algoritmos y programación orientada a objetos, lo que me permite enfrentar desafíos de desarrollo con eficacia. Además, me destaco por mi capacidad para trabajar en equipo, manteniendo una comunicación clara y efectiva que facilita la colaboración. Estoy comprometido con mi crecimiento profesional y busco constantemente mejorar mis habilidades para contribuir de manera significativa en proyectos y equipos, ofreciendo soluciones innovadoras.
+      </td>
+    </tr>
+    <tr>
+      <td><img src="./foto_integrantes/AdrianoCruz.png" alt="Foto de Adriano Cruz" width="400"></td>
+      <td><b>Cruz Palomino, Adriano Sebastián</b></td>
+      <td>U202210697</td>
+      <td>Ingeniería de Software</td>
+      <td>
+          Mi nombre es Adriano Sebastian Cruz Palomino, tengo 20 años, soy alumno de Ingeniería de Software en la UPC, actualmente estoy cursando el 8vo ciclo. Soy una persona curiosa, responsable, y comprometida con mis estudios, siempre busco aprender más y mejorar mis habilidades.
+      </td>
+    </tr>
+    <tr>
+      <td><i>(colocar foto)</i></td>
+      <td><b>Integrante 5</b></td>
+      <td>[por completar]</td>
+      <td>[carrera]</td>
+      <td>[contribución]</td>
+    </tr>
+    <tr>
+      <td><img src="./foto_integrantes/RayDelCarmen.png" alt="Foto de Ray Alessandro Del Carmen Zorrilla" width="400"></td>
+      <td><b>Del Carmen Zorrilla, Ray Alessandro</b></td>
+      <td>U202124061</td>
+      <td>Ingeniería de Software</td>
+      <td>
+          Soy una persona creativa, proactiva y resiliente, con gusto por el liderazgo y el apoyo constante a mi equipo. 
+          Mi principal contribución es proponer soluciones innovadoras y mantener una comunicación clara que fortalezca la colaboración. 
+          Cuento con conocimientos en <b>desarrollo backend</b>, <b>frontend</b>, un acercamiento a <b>aplicaciones móviles</b> 
+          y gran interés por el uso de la <b>Inteligencia Artificial</b> en proyectos tecnológicos.
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 ## 1.2. Solution Profile
 <p align="justify">
@@ -595,10 +670,22 @@ En comparación, **CleanWave** busca diferenciarse al ofrecer un modelo adaptado
   </tr>
   <tr>
     <td colspan="2" valign="top"></td>
-    <td valign="top"><b>CleanWave</b><img src='chapter-2/CleanWave-logo.png' width="50" height="50"></td>
-    <td valign="top"><b>Big Belly Solar</b><img src='chapter-2/Competidores/Big-Belly-Solar-logo.png' width="auto" height="50"></td>
-    <td valign="top"><b>Evreka</b><img src='chapter-2/Competidores/Evreka-logo.png' width="auto" height="50"></td>
-    <td valign="top"><b>Ecube Labs</b><img src='chapter-2/Competidores/Ecube-logo.png' width="auto" height="50"></td>
+    <td valign="top" align="center">
+      <img src='./assets/chapter-1/metalix/metalix-logo.png' width="120" height="120"><br>
+      <b>CleanWave</b>
+    </td>
+    <td valign="top" align="center">
+      <img src='./chapter-2/Competidores/Big-Belly-Solar-logo.png' width="200" height="120"><br>
+      <b>Big Belly Solar</b>
+    </td>
+    <td valign="top" align="center">
+      <img src='./chapter-2/Competidores/Evreka-logo.png' width="200" height="120"><br>
+      <b>Evreka</b>
+    </td>
+    <td valign="top" align="center">
+      <img src='./chapter-2/Competidores/Ecube-logo.png' width="200" height="120"><br>
+      <b>Ecube Labs</b>
+    </td>
   </tr>
   <tr>
     <td rowspan="2" valign="top">Perfil</td>
@@ -1982,6 +2069,8 @@ En esta sección, se presenta las User Stories diseñadas que cumplen con las ne
 <div align="justify"> 
   El Product Backlog es una lista priorizada y dinámica que reúne todas las funcionalidades, requisitos, mejoras y tareas necesarias para el desarrollo de la aplicación. Su propósito es servir como guía central del proyecto, asegurando que cada entrega responda a las necesidades del usuario y a los objetivos planteados. Al mantenerlo actualizado y ordenado, se facilita la planificación de iteraciones, la asignación de prioridades y el enfoque del equipo en generar el mayor valor posible en cada incremento del producto.
 </div>
+
+<br>
 
 <table align="center" width="100%" cellspacing="0" cellpadding="6" style="border-collapse:collapse;">
   <thead align="center" style="background:#F8FAFC;">
