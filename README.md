@@ -293,8 +293,8 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
           </tr>
           <tr>
             <td align="justify">
-              <b>Estudiante 3:</b><br>
-              Morbi vel tortor id eros dictum venenatis id ut dui. Mauris quis tellus sed nunc hendrerit vehicula ac id mauris.
+              <b>Quiñones Tintaya, Johan Jorge:</b><br>
+              En el avance del Análisis de entrevistas, coordine con mis compañeros la construcción de preguntas y la redacción de respuestas en primera persona, de modo que todos pudimos aportar desde distintos enfoques. Del mismo modo, en el desarrollo del Tactical-Level Domain-Driven Design y sus subpuntos por cada bounded context, ejercí el desarrollo completo de sus responsabilidades técnicas (diagramas, definición de capas y modelos).
             </td>
           </tr>
           <tr>
@@ -356,8 +356,8 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
           </tr>
           <tr>
             <td align="justify">
-              <b>Estudiante 3:</b><br>
-              Morbi vel tortor id eros dictum venenatis id ut dui. Mauris quis tellus sed nunc hendrerit vehicula ac id mauris.
+              <b>Quiñones Tintaya, Johan Jorge:</b><br>
+              Durante la elaboración del Análisis de entrevistas, fomenté un entorno inclusivo al integrar distintas perspectivas (usuarios, municipalidades y bañistas), garantizando que las voces recogidas se reflejaran en el documento. Asimismo, en el Tactical-Level DDD, establecí junto al equipo metas claras para cada bounded context, planificamos la entrega de diagramas y modelos en fases, y cumplimos con los objetivos trazados de manera organizada, asegurando coherencia entre todas las capas y subpuntos definidos.
             </td>
           </tr>
           <tr>
