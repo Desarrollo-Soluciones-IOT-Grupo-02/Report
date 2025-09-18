@@ -447,7 +447,7 @@ En esta fase, identificamos los sistemas externos que interactúan con nuestro d
 
 En este último paso, agrupamos los eventos y comandos que pertenecen a un agregado específico: Waste Collection Aggregate, User Identity Aggregate, Reward Management Aggregate, Municipal Agreement Aggregate, y Reporting Aggregate, para garantizar que todas las operaciones dentro de un contexto estén alineadas y mantengan la consistencia del sistema.
 
-![EventStorming](./diagrams/Canvases/aggregates.png)
+![EventStorming](./diagrams/Canvases/Aggregates.png)
 
 #### 4.1.1.1. Candidate Context Discovery
 
@@ -532,7 +532,7 @@ En este escenario, se describe el proceso de canje de beneficios municipales. El
 
 En este escenario, se describe el proceso de generación de reportes de impacto ambiental. Los administradores municipales interactúan con el contexto de Monitoring & Reporting para visualizar métricas de recolección, impacto ambiental y participación ciudadana.
 
-<img width=700 high=800 src="https://media.discordapp.net/attachments/1417188407204909217/1417217290096873604/generate_impact_report.png?ex=68c9adf4&is=68c85c74&hm=9ad7ef6044edf7fedad2a8eed83023e48723c5c4d02a76477fa6dad54cb1219d&=&format=webp&quality=lossless&width=882&height=551"/>
+![EventStorming](./diagrams/Canvases/generate_impact_report.png)
    
 #### 4.1.1.3. Bounded Context Canvases
 
