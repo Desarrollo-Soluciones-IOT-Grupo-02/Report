@@ -377,6 +377,22 @@ Ante esta situación nuestra Startup se plantea las siguientes Problem Statement
 
 ## 3.1. To-Be Scenario Mapping
 
+<div align="justify">
+  En esta sección se describe el escenario futuro esperado tras la implementación de Metalix, mostrando cómo la experiencia de los bañistas y de las municipalidades se transforma gracias al sistema. A través del To-Be Scenario Mapping se proyecta un flujo optimizado, donde cada paso integra acciones, pensamientos y emociones positivas, evidenciando cómo la solución propuesta resuelve los puntos de dolor identificados en el escenario actual (As-Is) y genera valor tanto ambiental como social.
+</div>
+
+### Segmento objetivo 1: Bañistas
+
+<div align="center">
+  <img src="./chapter-3/to-be-scenario-mapping/segmento-1.jpg" alt="To-Be Scenario Mapping Bañistas">
+</div>
+
+### Segmento objetivo 2: Municipalidades costeras
+
+<div align="center">
+  <img src="./chapter-3/to-be-scenario-mapping/segmento-2.jpg" alt="To-Be Scenario Mapping Municipalidades Costeras">
+</div>
+
 ## 3.2. User Stories
 
 En esta sección, se presenta las User Stories diseñadas que cumplen con las necesidades de los usuarios finales.
@@ -1167,6 +1183,21 @@ En esta sección, se presenta las User Stories diseñadas que cumplen con las ne
 </table>
 
 ## 3.3. Impact mapping
+<div align="justify">
+  En esta sección se presenta cómo el sistema se alinea con los objetivos estratégicos del proyecto, evidenciando de manera clara cómo cada funcionalidad contribuye directamente al logro de los resultados esperados.
+</div>
+
+### Segmento objetivo 1: Bañistas
+
+<div align="center">
+  <img src="./chapter-3/impact-mapping/segmento-1.png" alt="Impact Mapping Bañistas">
+</div>
+
+### Segmento objetivo 2: Municipalidades costeras
+
+<div align="center">
+  <img src="./chapter-3/impact-mapping/segmento-2.png" alt="Impact Mapping Municipalidades Costeras">
+</div>
 
 ## 3.4. Product Backlog
 
