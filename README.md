@@ -790,7 +790,7 @@ En la entrevista, Sebastian que es asistente de la coordinación de gestión amb
 
 ##### Entrevista 6
 <ul>
-  <li><b>Nombre del entrevistado:</b> Matos Fernandez, Johan Jorge</li>
+  <li><b>Nombre del entrevistado:</b> Matos Fernandez, Christian Andre</li>
   <li><b>Edad:</b> 20 años</li>
   <li><b>Distrito:</b> Punta Hermosa</li>
   <li><b>Nombre del entrevistador:</b> Quiñones Tintaya, Johan Jorge</li>
