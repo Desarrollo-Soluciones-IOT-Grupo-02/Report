@@ -349,7 +349,7 @@ Los principales competidores seleccionados son:
 - **Evreka**: startup global que combina hardware IoT y software en la nube para digitalizar la gestión de residuos. Su propuesta se centra en optimizar rutas de recolección y operaciones de limpieza a gran escala en ciudades inteligentes.  
 - **Ecube Labs**: compañía surcoreana que fabrica compactadores solares y sensores ultrasónicos para monitoreo de residuos, integrados con su plataforma CleanCityNetworks. Sus soluciones tienen amplia adopción en Asia, Norteamérica y Europa.  
 
-En comparación, **CleanWave** busca diferenciarse al ofrecer un modelo adaptado a playas peruanas, centrado en la recolección de residuos metálicos con incentivos inmediatos a los bañistas, al mismo tiempo que provee datos en tiempo real a las municipalidades costeras.  
+En comparación, **Metalix** busca diferenciarse al ofrecer un modelo adaptado a playas peruanas, centrado en la recolección de residuos metálicos con incentivos inmediatos a los bañistas, al mismo tiempo que provee datos en tiempo real a las municipalidades costeras.  
 
 
 
@@ -361,11 +361,11 @@ En comparación, **CleanWave** busca diferenciarse al ofrecer un modelo adaptado
   </tr>
   <tr>
     <td colspan="2" valign="top">¿Por qué llevar a cabo este análisis?</td>
-    <td colspan="4" valign="top">Identificar cómo se posiciona CleanWave frente a soluciones internacionales de gestión inteligente de residuos, evaluando fortalezas, debilidades y oportunidades para diferenciarse en el contexto de playas peruanas.</td>
+    <td colspan="4" valign="top">Identificar cómo se posiciona Metalix frente a soluciones internacionales de gestión inteligente de residuos, evaluando fortalezas, debilidades y oportunidades para diferenciarse en el contexto de playas peruanas.</td>
   </tr>
   <tr>
     <td colspan="2" valign="top"></td>
-    <td valign="top"><b>CleanWave</b><img src='chapter-2/CleanWave-logo.png' width="50" height="50"></td>
+    <td valign="top"><b>Metalix</b><img src='chapter-2/Competidores/metalix-logo.png' width="auto" height="50"></td>
     <td valign="top"><b>Big Belly Solar</b><img src='chapter-2/Competidores/Big-Belly-Solar-logo.png' width="auto" height="50"></td>
     <td valign="top"><b>Evreka</b><img src='chapter-2/Competidores/Evreka-logo.png' width="auto" height="50"></td>
     <td valign="top"><b>Ecube Labs</b><img src='chapter-2/Competidores/Ecube-logo.png' width="auto" height="50"></td>
@@ -455,7 +455,7 @@ En comparación, **CleanWave** busca diferenciarse al ofrecer un modelo adaptado
 
 ### 2.1.2. Estrategias y tácticas frente a competidores
 
-A partir del análisis competitivo realizado se identificaron las principales fortalezas, debilidades, oportunidades y amenazas de los competidores. Esta información resulta esencial para definir cómo diferenciar a CleanWave en el mercado y establecer una propuesta de valor sólida.  
+A partir del análisis competitivo realizado se identificaron las principales fortalezas, debilidades, oportunidades y amenazas de los competidores. Esta información resulta esencial para definir cómo diferenciar a Metalix en el mercado y establecer una propuesta de valor sólida.  
 
 **Fortalezas de los competidores**  
 - Big Belly y Ecube Labs cuentan con tecnología madura y casos de éxito en ciudades internacionales.  
@@ -464,7 +464,7 @@ A partir del análisis competitivo realizado se identificaron las principales fo
 
 **Estrategias y tácticas frente a fortalezas**  
 - **Estrategias**:  
-  - Diferenciar a CleanWave por su enfoque especializado en playas y residuos metálicos, un nicho no cubierto por estos competidores.  
+  - Diferenciar a Metalix por su enfoque especializado en playas y residuos metálicos, un nicho no cubierto por estos competidores.  
   - Comunicar que el producto es más accesible y adaptado a contextos municipales peruanos con recursos limitados.  
 - **Tácticas**:  
   - Desarrollar campañas de marketing que comparen costos y beneficios frente a soluciones internacionales.  
@@ -477,7 +477,7 @@ A partir del análisis competitivo realizado se identificaron las principales fo
 
 **Estrategias y tácticas frente a debilidades**  
 - **Estrategias**:  
-  - Posicionar a CleanWave como una solución de bajo costo y rápida implementación.  
+  - Posicionar a Metalix como una solución de bajo costo y rápida implementación.  
   - Destacar la simplicidad y usabilidad para operadores municipales y ciudadanos.  
 - **Tácticas**:  
   - Elaborar un modelo de negocio basado en convenios con municipalidades y comercios locales para sostener la operación.  
@@ -490,7 +490,7 @@ A partir del análisis competitivo realizado se identificaron las principales fo
 
 **Estrategias y tácticas frente a oportunidades**  
 - **Estrategias**:  
-  - Aprovechar la ola de sostenibilidad y turismo responsable para posicionar CleanWave como solución innovadora para playas.  
+  - Aprovechar la ola de sostenibilidad y turismo responsable para posicionar Metalix como solución innovadora para playas.  
   - Establecer alianzas con municipalidades costeras y comercios locales para ganar legitimidad y tracción.  
 - **Tácticas**:  
   - Participar en convocatorias de innovación ambiental y programas de responsabilidad social empresarial.  
@@ -609,7 +609,7 @@ A partir del análisis competitivo realizado se identificaron las principales fo
 Al finalizar la entrevista, se presenta al entrevistado la idea del proyecto junto a las principales funcionalidades que posee.
 
 **Presentación breve del proyecto:**
-> *"Metalix es un recolector inteligente de metales para playas, que combina sensores para validar residuos metálicos, tarjetas RFID configuradas por CleanWave para acumular puntos y un sistema de recompensas gestionado por las municipalidades. El objetivo es reducir la contaminación y motivar a los bañistas a reciclar mediante beneficios locales."*
+> *"Metalix es un recolector inteligente de metales para playas, que combina sensores para validar residuos metálicos, tarjetas RFID configuradas por Metalix para acumular puntos y un sistema de recompensas gestionado por las municipalidades. El objetivo es reducir la contaminación y motivar a los bañistas a reciclar mediante beneficios locales."*
 
 **Preguntas de validación**
 - ¿Qué le parece la propuesta de proyecto Metalix?
@@ -870,7 +870,7 @@ Se han considerado dos segmentos principales:
 
 ### 2.3.3. User Journey Mapping
 
-El User Journey Mapping muestra cómo bañistas y municipalidades viven hoy la experiencia de reciclaje en playas. Permite identificar sus metas, emociones y dificultades en cada fase, destacando oportunidades para que CleanWave simplifique el depósito de residuos metálicos y ofrezca datos útiles para la gestión municipal.
+El User Journey Mapping muestra cómo bañistas y municipalidades viven hoy la experiencia de reciclaje en playas. Permite identificar sus metas, emociones y dificultades en cada fase, destacando oportunidades para que Metalix simplifique el depósito de residuos metálicos y ofrezca datos útiles para la gestión municipal.
 
 #### **Segmento 1: Bañistas**
 
@@ -894,7 +894,7 @@ El Empathy Map ayuda a comprender lo que los bañistas y funcionarios municipale
 
 ### 2.3.5. As-Is Scenario Mapping
 
-El As-Is Scenario Mapping describe la situación actual sin CleanWave: bañistas que muchas veces dejan residuos en la arena y municipalidades que dependen de limpieza manual sin datos en tiempo real. Esto permite resaltar los puntos de dolor que nuestra solución IoT busca resolver.
+El As-Is Scenario Mapping describe la situación actual sin Metalix: bañistas que muchas veces dejan residuos en la arena y municipalidades que dependen de limpieza manual sin datos en tiempo real. Esto permite resaltar los puntos de dolor que nuestra solución IoT busca resolver.
 
 #### **Segmento 1: Bañistas**
 
