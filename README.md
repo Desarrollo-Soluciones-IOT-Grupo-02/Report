@@ -255,93 +255,137 @@ Esta sección tiene como propósito detallar las actualizaciones significativas 
 <b>ABET – EAC - Student Outcome 5:</b>
 La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos proporcionan liderazgo, crean un entorno de colaboración e inclusivo, establecen objetivos, planifican tareas y cumplen objetivos.
 
-<!-- Student Outcomes – TB1 -->
-<style>
-  .so-table{width:100%;border-collapse:collapse;font-family:system-ui,Segoe UI,Roboto,Arial,sans-serif}
-  .so-table th,.so-table td{border:1px solid #e5e7eb;padding:12px;vertical-align:top}
-  .so-table th{background:#f8fafc;text-align:left}
-  .inner-table{width:100%;border-collapse:collapse}
-  .inner-table td{border:none;padding:8px 0;vertical-align:top}
-  .badge{display:inline-block;background:#eef2ff;color:#3730a3;font-weight:700;border-radius:6px;padding:2px 8px}
-  .who{font-weight:700}
-  .just{text-align:justify}
-</style>
-
-<table class="so-table" align="center">
+<table align="center">
   <thead>
     <tr>
-      <th style="width:22%">Criterio específico</th>
-      <th style="width:48%">Acciones realizadas</th>
-      <th style="width:30%">Conclusiones</th>
+      <th>Criterio específico</th>
+      <th>Acciones realizadas</th>
+      <th>Conclusiones</th>
     </tr>
   </thead>
   <tbody>
     <!-- Criterio 1 -->
     <tr>
-      <td>Trabaja en equipo para proporcionar liderazgo en forma conjunta</td>
+      <td rowspan="1">
+        Trabaja en equipo para proporcionar liderazgo en forma conjunta
+      </td>
+      <!-- TB1 -->
       <td>
-        <table class="inner-table">
-          <tr><td><span class="badge">TB1</span></td></tr>
+        <table width="50%" align="center">
           <tr>
-            <td class="just">
-              <span class="who">Del Carmen Zorrilla, Ray Alessandro:</span><br>
-              Durante el desarrollo del proyecto asumí un rol activo en la organización de las tareas y coordinación con mis compañeros.
-              Brindé liderazgo conjunto al proponer la segmentación de los usuarios y en la preparación de las entrevistas,
+            <td rowspan="7"><b>TB1</b></td>
+          </tr>
+        <!-- Estudiantes -->
+          <tr>
+            <td align="justify">
+              <b>Del Carmen Zorrilla, Ray Alessandro:</b><br>
+              Durante el desarrollo del proyecto asumí un rol activo en la organización de las tareas y coordinación con mis compañeros. 
+              Brindé liderazgo conjunto al proponer la segmentación de los usuarios y en la preparación de las entrevistas, 
               fomentando la toma de decisiones compartida y asegurando que el equipo avanzara de forma ordenada y alineada a los objetivos.
             </td>
           </tr>
           <tr>
-            <td class="just">
-              <span class="who">Quiñones Tintaya, Johan Jorge:</span><br>
-              En el avance del Análisis de entrevistas, coordiné con mis compañeros la construcción de preguntas y la redacción de respuestas en primera persona,
-              de modo que todos pudimos aportar desde distintos enfoques. Del mismo modo, en el desarrollo del Tactical-Level Domain-Driven Design
-              y sus subpuntos por cada bounded context, ejercí el desarrollo completo de sus responsabilidades técnicas (diagramas, definición de capas y modelos).
+            <td align="justify">
+              <b>Estudiante 2:</b><br>
+              Morbi vel tortor id eros dictum venenatis id ut dui. Mauris quis tellus sed nunc hendrerit vehicula ac id mauris.
             </td>
           </tr>
-          <tr><td class="just"><span class="who">Estudiante 2:</span><br>[Aportes en liderazgo compartido].</td></tr>
-          <tr><td class="just"><span class="who">Estudiante 4:</span><br>[Aportes en liderazgo compartido].</td></tr>
-          <tr><td class="just"><span class="who">Estudiante 5:</span><br>[Aportes en liderazgo compartido].</td></tr>
-          <tr><td class="just"><span class="who">Estudiante 6:</span><br>[Aportes en liderazgo compartido].</td></tr>
+          <tr>
+            <td align="justify">
+              <b>Quiñones Tintaya, Johan Jorge:</b><br>
+              En el avance del Análisis de entrevistas, coordine con mis compañeros la construcción de preguntas y la redacción de respuestas en primera persona, de modo que todos pudimos aportar desde distintos enfoques. Del mismo modo, en el desarrollo del Tactical-Level Domain-Driven Design y sus subpuntos por cada bounded context, ejercí el desarrollo completo de sus responsabilidades técnicas (diagramas, definición de capas y modelos).
+            </td>
+          </tr>
+          <tr>
+            <td align="justify">
+              <b>Estudiante 4:</b><br>
+              Morbi vel tortor id eros dictum venenatis id ut dui. Mauris quis tellus sed nunc hendrerit vehicula ac id mauris.
+            </td>
+          </tr>
+          <tr>
+            <td align="justify">
+              <b>Estudiante 5:</b><br>
+              Morbi vel tortor id eros dictum venenatis id ut dui. Mauris quis tellus sed nunc hendrerit vehicula ac id mauris.
+            </td>
+          </tr>
+          <tr>
+            <td align="justify">
+              <b>Estudiante 6:</b><br>
+              Morbi vel tortor id eros dictum venenatis id ut dui. Mauris quis tellus sed nunc hendrerit vehicula ac id mauris.
+            </td>
+          </tr>
         </table>
       </td>
-      <td class="just">
-        Como grupo distribuimos las responsabilidades en cada capítulo del proyecto, permitiendo que cada integrante
-        asumiera un rol de liderazgo en su sección (entrevistas, Lean UX, análisis competitivo, scenario mapping, user stories, arquitectura, etc.).
-        Esto fomentó un liderazgo compartido: cada miembro guió al resto en su parte y, a la vez, se apoyó en las ideas de los demás para enriquecer los entregables.
+      <!-- Conclusion TB1 -->
+      <td rowspan="1" align="justify">
+        Como grupo distribuimos las responsabilidades de manera equilibrada en cada capítulo del proyecto, 
+        permitiendo que cada integrante asumiera un rol de liderazgo en sus secciones (entrevistas, Lean UX, análisis competitivo, 
+        scenario mapping, user stories, arquitectura, entre otros).  
+        Esto fomentó un liderazgo compartido, donde cada miembro guió al resto en su parte y, al mismo tiempo, 
+        se apoyó en las ideas de los demás para enriquecer los entregables.  
       </td>
     </tr>
     <!-- Criterio 2 -->
     <tr>
-      <td>Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos</td>
+      <td rowspan="1" >
+        Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.
+      </td>
+      <!-- TB1 -->
       <td>
-        <table class="inner-table">
-          <tr><td><span class="badge">TB1</span></td></tr>
+        <table>
           <tr>
-            <td class="just">
-              <span class="who">Del Carmen Zorrilla, Ray Alessandro:</span><br>
-              Contribuí a crear un entorno colaborativo e inclusivo promoviendo la participación de todos y valorando cada propuesta.
-              Establecí metas claras en la elaboración del To-Be Scenario Mapping, Impact Mapping y Product Backlog,
-              planificando tareas de manera conjunta y asegurando el cumplimiento de objetivos en los plazos acordados.
+            <td rowspan="7"><b>TB1</b></td>
+          </tr>
+        <!-- Estudiantes -->
+          <tr>
+            <td align="justify">
+              <b>Del Carmen Zorrilla, Ray Alessandro:</b><br>
+              Contribuí a crear un entorno colaborativo e inclusivo dentro del equipo, 
+              promoviendo la participación de todos y valorando cada propuesta. 
+              Establecí metas claras en la elaboración del To-Be Scenario Mapping, Impact Mapping y Product Backlog, 
+              planificando tareas de manera conjunta y asegurando que se cumplieran los objetivos en los plazos acordados. 
+              Mi aporte se centró en mantener un clima de confianza y compromiso para lograr entregables de calidad.
             </td>
           </tr>
           <tr>
-            <td class="just">
-              <span class="who">Quiñones Tintaya, Johan Jorge:</span><br>
-              Durante la elaboración del Análisis de entrevistas, integré distintas perspectivas (usuarios, municipalidades y bañistas),
-              garantizando que las voces recogidas se reflejaran en el documento. En el Tactical-Level DDD, establecimos metas por bounded context,
-              planificamos la entrega de diagramas y modelos por fases y cumplimos con los objetivos de manera organizada.
+            <td align="justify">
+              <b>Estudiante 2:</b><br>
+              Morbi vel tortor id eros dictum venenatis id ut dui. Mauris quis tellus sed nunc hendrerit vehicula ac id mauris.
             </td>
           </tr>
-          <tr><td class="just"><span class="who">Estudiante 2:</span><br>[Aportes en colaboración, metas y planificación].</td></tr>
-          <tr><td class="just"><span class="who">Estudiante 4:</span><br>[Aportes en colaboración, metas y planificación].</td></tr>
-          <tr><td class="just"><span class="who">Estudiante 5:</span><br>[Aportes en colaboración, metas y planificación].</td></tr>
-          <tr><td class="just"><span class="who">Estudiante 6:</span><br>[Aportes en colaboración, metas y planificación].</td></tr>
+          <tr>
+            <td align="justify">
+              <b>Quiñones Tintaya, Johan Jorge:</b><br>
+              Durante la elaboración del Análisis de entrevistas, fomenté un entorno inclusivo al integrar distintas perspectivas (usuarios, municipalidades y bañistas), garantizando que las voces recogidas se reflejaran en el documento. Asimismo, en el Tactical-Level DDD, establecí junto al equipo metas claras para cada bounded context, planificamos la entrega de diagramas y modelos en fases, y cumplimos con los objetivos trazados de manera organizada, asegurando coherencia entre todas las capas y subpuntos definidos.
+            </td>
+          </tr>
+          <tr>
+            <td align="justify">
+              <b>Estudiante 4:</b><br>
+              Morbi vel tortor id eros dictum venenatis id ut dui. Mauris quis tellus sed nunc hendrerit vehicula ac id mauris.
+            </td>
+          </tr>
+          <tr>
+            <td align="justify">
+              <b>Estudiante 5:</b><br>
+              Morbi vel tortor id eros dictum venenatis id ut dui. Mauris quis tellus sed nunc hendrerit vehicula ac id mauris.
+            </td>
+          </tr>
+          <tr>
+            <td align="justify">
+              <b>Estudiante 6:</b><br>
+              Morbi vel tortor id eros dictum venenatis id ut dui. Mauris quis tellus sed nunc hendrerit vehicula ac id mauris.
+            </td>
+          </tr>
         </table>
       </td>
-      <td class="just">
-        El equipo trabajó en un entorno colaborativo e inclusivo, con metas claras por hito (entrevistas, análisis, mapeos, especificación y diseño),
-        planificación conjunta y distribución según fortalezas. Gracias a esta organización y compromiso colectivo,
-        se cumplieron los objetivos en los tiempos establecidos y se mantuvo la coherencia del proyecto.
+      <!-- Conclusion TB1 -->
+      <td rowspan="1" align="justify">
+        El equipo trabajó en un entorno colaborativo, valorando las propuestas de todos y asegurando la participación equitativa.  
+        Se establecieron metas claras para cada hito (entrevistas, análisis, mapeos, especificaciones y diseño), 
+        planificando tareas de forma conjunta y distribuyendo el trabajo según las fortalezas de cada integrante.  
+        Gracias a esta organización y compromiso colectivo, se cumplieron los objetivos en los tiempos establecidos, 
+        garantizando un proyecto cohesionado y alineado a la solución propuesta.
       </td>
     </tr>
   </tbody>
