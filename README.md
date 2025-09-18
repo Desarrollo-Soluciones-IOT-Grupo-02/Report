@@ -82,9 +82,16 @@ Esta sección tiene como propósito detallar las actualizaciones significativas 
       </td>
     </tr>
         <tr>
-      <td>Estudiante</td>
+      <td>Quiñones Tintaya, Johan Jorge</td>
       <td>
-        - Entrevistas a usuarios.<br>
+        - Realice entrevista a usuario<br>
+        - Desarrolle el analisis completo de todas las entrevistas
+        - Desarrolle completamente el punto de Tactical-Level Domain-Driven Design para el BD de WasteCollection
+        - Desarrolle completamente el punto de Tactical-Level Domain-Driven Design para el BD de UserIdentification
+        - Desarrolle completamente el punto de Tactical-Level Domain-Driven Design para el BD de RewardManagement
+        - Desarrolle completamente el punto de Tactical-Level Domain-Driven Design para el BD de MunicipalityManagement
+        - Desarrolle completamente el punto de Tactical-Level Domain-Driven Design para el BD de Monitoring & Reporting 
+
       </td>
     </tr>
         <tr>
