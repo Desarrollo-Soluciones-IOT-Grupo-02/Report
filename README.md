@@ -517,7 +517,7 @@ Convertirse en la startup líder en soluciones IoT para la gestión de residuos 
     <tr>
       <td><img src="./foto_integrantes/EduardoMancilla.jpeg" alt="Foto de Eduardo Mancilla" width="400"></td>
       <td><b>Mancilla Ordaya, Eduardo Vicente</b></td>
-      <td>U20201889</td>
+      <td>U202018894</td>
       <td>Ingeniería de Software</td>
       <td>Soy Eduardo, estudiante entusiasta de la tecnología, con gusto por el trabajo en equipo y la búsqueda de nuevos aprendizajes. Me interesa explorar nuevas tecnologías y aplicarlas en el desarrollo de proyectos, aportando compromiso, creatividad y una comunicación clara que favorezca la colaboración.
       </td>
@@ -698,8 +698,6 @@ Ante esta situación nuestra Startup se plantea las siguientes Problem Statement
 </div>
 
 # Capítulo II: Requirements Elicitation & Analysis
-
-## 2.1. Competidores
 
 ## 2.1. Competidores  
 
