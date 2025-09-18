@@ -8,11 +8,9 @@
 
 <h3 align="center">Ciclo 2025 - 2</h3>
 
-
 <div align="center">
   <img width=250 src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png"/>
 </div>
-
 
 <h1 align="center"> TB1 Report </h1>
 
@@ -397,14 +395,14 @@ Convertirse en la startup líder en soluciones IoT para la gestión de residuos 
 
 ### 1.1.2. Perfiles de integrantes del equipo
 
-| Foto                                                   | Apellidos y Nombres              |          Código | Carrera                | Conocimientos y contribución principal                                                                                                                                                                                                                                                                                                                       |
-| ------------------------------------------------------ | -------------------------------- | --------------: | ---------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| ![Orlando Roca](./foto_integrantes/orlando_roca.JPG)   | **Roca Huapaya, Orlando Arturo** |      u201919742 | Ingeniería de Software | Mi contribución al equipo es la experiencia que tengo desarrollando interfaces en React o Vue y servicios de APIs REST en Spring Boot o Laravel. Me enfoco en que el producto sea usable, estable y fácil de desplegar. Además, priorizaré el uso de buenas prácticas en el ciclo de desarrollo del software.                                                |
-| ![Gustavo Pardo](./foto_integrantes/PerfilGustavo.jpg) | **Pardo Zapata, Gustavo Adolfo** |      u202120347 | Ingeniería de Software | Soy proactivo, colaborativo, organizado,responsable y con habilidades de resolución de problemas.Tengo una excelente capacidad para comunicarme de manera efectiva y clara con los demás miembros de mi equipo y deseo colaborar en todo lo posible con mis demás compañeros en este trabajo. Cuento con conocimiento en JavaScript, Java, Python, C# y SQL. |
-| ![Johan Quiñones](./foto_integrantes/JohanQuinones.jpeg) | **Quiñones Tintaya, Johan Jorge** | U202218183 | Ingeniería de Software | Mi nombre es Johan Jorge Quiñones Tintaya, tengo 19 años y soy estudiante de ingeniería de software en la UPC, cursando el quinto ciclo. He adquirido una base sólida en algoritmos y programación orientada a objetos, lo que me permite enfrentar desafíos de desarrollo con eficacia. Además, me destaco por mi capacidad para trabajar en equipo, manteniendo una comunicación clara y efectiva que facilita la colaboración. Estoy comprometido con mi crecimiento profesional y busco constantemente mejorar mis habilidades para contribuir de manera significativa en proyectos y equipos, ofreciendo soluciones innovadoras. |         
-| ![Adriano Cruz](./foto_integrantes/AdrianoCruz.png)    | **Cruz Palomino,**               |      U202210697 | Ingeniería de Software | Mi nombre es Adriano Sebastian Cruz Palomino, tengo 20 años, soy alumno de Ingeniería de Software en la UPC, actualmente estoy cursando el 8vo ciclo. Soy una persona curiosa, responsable, y comprometida con mis estudios, siempre busco aprender más y mejorar mis habilidades.                                                                           |
-| *(colocar foto)*                                       | **Integrante 5**                 | [por completar] | [carrera]              |                                                                                                                                                                                                                                                                                                                                                              |
-| *(colocar foto)*                                       | **Integrante 6**                 | [por completar] | [carrera]              |                                                                                                                                                                                                                                                                                                                                                              |
+| Foto                                                     | Apellidos y Nombres               |          Código | Carrera                | Conocimientos y contribución principal                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| -------------------------------------------------------- | --------------------------------- | --------------: | ---------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ![Orlando Roca](./foto_integrantes/orlando_roca.JPG)     | **Roca Huapaya, Orlando Arturo**  |      u201919742 | Ingeniería de Software | Mi contribución al equipo es la experiencia que tengo desarrollando interfaces en React o Vue y servicios de APIs REST en Spring Boot o Laravel. Me enfoco en que el producto sea usable, estable y fácil de desplegar. Además, priorizaré el uso de buenas prácticas en el ciclo de desarrollo del software.                                                                                                                                                                                                                                                                                                                         |
+| ![Gustavo Pardo](./foto_integrantes/PerfilGustavo.jpg)   | **Pardo Zapata, Gustavo Adolfo**  |      u202120347 | Ingeniería de Software | Soy proactivo, colaborativo, organizado,responsable y con habilidades de resolución de problemas.Tengo una excelente capacidad para comunicarme de manera efectiva y clara con los demás miembros de mi equipo y deseo colaborar en todo lo posible con mis demás compañeros en este trabajo. Cuento con conocimiento en JavaScript, Java, Python, C# y SQL.                                                                                                                                                                                                                                                                          |
+| ![Johan Quiñones](./foto_integrantes/JohanQuinones.jpeg) | **Quiñones Tintaya, Johan Jorge** |      U202218183 | Ingeniería de Software | Mi nombre es Johan Jorge Quiñones Tintaya, tengo 19 años y soy estudiante de ingeniería de software en la UPC, cursando el quinto ciclo. He adquirido una base sólida en algoritmos y programación orientada a objetos, lo que me permite enfrentar desafíos de desarrollo con eficacia. Además, me destaco por mi capacidad para trabajar en equipo, manteniendo una comunicación clara y efectiva que facilita la colaboración. Estoy comprometido con mi crecimiento profesional y busco constantemente mejorar mis habilidades para contribuir de manera significativa en proyectos y equipos, ofreciendo soluciones innovadoras. |
+| ![Adriano Cruz](./foto_integrantes/AdrianoCruz.png)      | **Cruz Palomino,**                |      U202210697 | Ingeniería de Software | Mi nombre es Adriano Sebastian Cruz Palomino, tengo 20 años, soy alumno de Ingeniería de Software en la UPC, actualmente estoy cursando el 8vo ciclo. Soy una persona curiosa, responsable, y comprometida con mis estudios, siempre busco aprender más y mejorar mis habilidades.                                                                                                                                                                                                                                                                                                                                                    |
+| *(colocar foto)*                                         | **Integrante 5**                  | [por completar] | [carrera]              |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| *(colocar foto)*                                         | **Integrante 6**                  | [por completar] | [carrera]              |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 
 
 ## 1.2. Solution Profile
@@ -420,22 +418,29 @@ Convertirse en la startup líder en soluciones IoT para la gestión de residuos 
 #### 5W + 2H
 
 ##### What (¿qué?)
+
 Acumulación de residuos metálicos en arena como latas, tapas y chapas, esto afecta salubridad y operación municipal en las playas.
 
 ##### When (¿cuándo?)
+
 Todo el año, con picos en temporada de verano y fines de semana.
 
 ##### Where (¿dónde?)
+
 Playas de Lima, áreas de alto tránsito donde se han medido y caracterizado residuos, incluyendo metálicos peligrosos.
 
 ##### Who (¿quiénes?)
+
 Bañistas y municipalidades.
 
 ##### Why (¿por qué?)
+
 Infraestructura de residuos insuficiente e ineficientes, falta de incentivos que vincule el acto de reciclar con beneficios y datos útiles para gestión.
 
 ##### How (¿cómo sucede?)
+
 Los visitantes consumen bebidas y dejan latas o chapas en la arena. El estudio de Villacorta-Córdova et al. (2021), publicado en la Revista Científica UNJFSC, evidenció en cuatro playas de la Costa Verde la presencia de 55 objetos metálicos, principalmente latas oxidadas y punzantes en zonas de bañistas, lo que confirma el riesgo para la salud y la convivencia de metales en las playas.
+
 ##### How much (¿cuánto?)
 
 - 89 playas “no saludables” al inicio de verano 2024, principalmente por residuos sólidos en arena.
@@ -448,19 +453,22 @@ Los visitantes consumen bebidas y dejan latas o chapas en la arena. El estudio d
 
 Ante esta situación nuestra Startup se plantea las siguientes Problem Statements:
 
-**PS1:**  
-- **Objetivos actuales del producto:** Mantener las playas seguras para el disfrute turístico y recreativo.  
-- **Problema:** Los bañistas enfrentan constantemente playas con residuos metálicos como latas, tapas y chapas, lo que genera riesgos de cortes, incomodidad y reduce la calidad de la experiencia turística. Actualmente, no existe un sistema que valide los materiales ni incentive a los usuarios a reciclar.  
-- **Pregunta solicitud de mejora:** ¿Cómo podemos diseñar un recolector inteligente que valide automáticamente el residuo metálico, identifique al usuario y entregue recompensas inmediatas, incentivando así la participación activa de los bañistas en la limpieza de las playas?  
+**PS1:**
 
-**PS2:**  
-- **Objetivos actuales del producto:** Garantizar la salubridad de las playas, optimizar la recolección de residuos y reducir costos de limpieza.  
-- **Problema:** Las municipalidades gastan recursos elevados en limpieza manual de playas sin contar con datos en tiempo real ni mecanismos de trazabilidad. Esto dificulta la toma de decisiones y el control de rutas de recolección.  
+- **Objetivos actuales del producto:** Mantener las playas seguras para el disfrute turístico y recreativo.
+- **Problema:** Los bañistas enfrentan constantemente playas con residuos metálicos como latas, tapas y chapas, lo que genera riesgos de cortes, incomodidad y reduce la calidad de la experiencia turística. Actualmente, no existe un sistema que valide los materiales ni incentive a los usuarios a reciclar.
+- **Pregunta solicitud de mejora:** ¿Cómo podemos diseñar un recolector inteligente que valide automáticamente el residuo metálico, identifique al usuario y entregue recompensas inmediatas, incentivando así la participación activa de los bañistas en la limpieza de las playas?
+
+**PS2:**
+
+- **Objetivos actuales del producto:** Garantizar la salubridad de las playas, optimizar la recolección de residuos y reducir costos de limpieza.
+- **Problema:** Las municipalidades gastan recursos elevados en limpieza manual de playas sin contar con datos en tiempo real ni mecanismos de trazabilidad. Esto dificulta la toma de decisiones y el control de rutas de recolección.
 - **Pregunta solicitud de mejora:** ¿Cómo podemos proveer a las municipalidades de un sistema IoT que registre en tiempo real los residuos recolectados, emita alertas de llenado y entregue KPIs útiles para planificar rutas y evaluar el impacto ambiental y económico?
 
 #### 1.2.2.2. Lean UX Assumptions
 
 **Business Outcomes**
+
 - Aumentar la tasa de reciclaje de metales en playas urbanas de Lima y el volumen recuperado por playa.
 - Reducir tiempo y costo de limpieza municipal mediante telemetría y alertas de llenado.
 - Conseguir acuerdos con comercios locales para sostener el sistema de canjes y mejorar la adopción.
@@ -468,16 +476,19 @@ Ante esta situación nuestra Startup se plantea las siguientes Problem Statement
 - Generar datos confiables como kg y usos, para reportes y toma de decisiones.
 
 **User Assumptions (sobre los usuarios)**
+
 - Bañistas reciclarán si el proceso es rápido, seguro y reciben beneficios inmediatos.
 - Aceptarán usar tarjeta RFID si el registro toma menos de 1 minuto y no solicita datos sensibles.
 - Municipalidades adoptarán la solución si muestra ahorros operativos y KPIs claros.
 
 **User Outcomes (lo que experimentan/ganan)**
+
 - Los bañistas depositan sus latas en segundos, reciben puntos y visualizan sus resultados desde la app.
 - Las municipalidades evidencian mejoras de salubridad con métricas.
 - Los operadores reducen tiempos de recolección.
 
 **Feature Assumptions (sobre funcionalidades)**
+
 - Sensor inductivo valida metal con baja tasa de falsos positivos y abre compuerta.
 - RFID identifica al usuario y permite la recolección de puntos y canjes en comercios aliados.
 - Dashboard municipal con métricas, KPIs y alertas de llenado.
@@ -488,13 +499,13 @@ Ante esta situación nuestra Startup se plantea las siguientes Problem Statement
 
 - Creemos que aumentaremos la tasa de reciclaje de metales y el volumen recuperado por playa (business outcome) si los bañistas (user) pueden depositar sus latas en segundos y reciben puntos inmediatos (benefit) con sensor inductivo, compuerta y RFID de registro en menos de 1 minuto (feature).
 
-  Sabremos que hemos tenido éxito 
-  
+  Sabremos que hemos tenido éxito
+
   Cuando al menos el 40% de usuarios registrados realicen mas de 2 depósitos por semana en temporada alta.
 
 - Creemos que incrementaremos la adopción de la app y los canjes (business outcome)  
-si los bañistas (user) visualizan sus puntos y un catálogo de canjes locales claro (benefit)  
-con la app web o móvil y validación de canje en comercios aliados (feature).  
+  si los bañistas (user) visualizan sus puntos y un catálogo de canjes locales claro (benefit)  
+  con la app web o móvil y validación de canje en comercios aliados (feature).
 
   Sabremos que hemos tenido éxito.
 
@@ -502,31 +513,31 @@ con la app web o móvil y validación de canje en comercios aliados (feature).
 
 - Creemos que mejoraremos la satisfacción y la confianza en el sistema (business outcome) si los bañistas (user) perciben que su reciclaje es trazable y antifraude (benefit) con RFID personal, historial en la app y validación de metal antes de abrir la compuerta (feature).
 
-  Sabremos que hemos tenido éxito 
+  Sabremos que hemos tenido éxito
 
   Cuando 8 de cada 10 usuarios se declaren seguros o muy seguros, y los eventos inválidos no excedan el 5%
 
 - Creemos que reduciremos tiempo y costo de limpieza (business outcome)  
-si las municipalidades (user) reciben alertas de llenado para planificar rutas (benefit)  
-con dashboard municipal (feature).
+  si las municipalidades (user) reciben alertas de llenado para planificar rutas (benefit)  
+  con dashboard municipal (feature).
 
-  Sabremos que hemos tenido éxito. 
+  Sabremos que hemos tenido éxito.
 
   Cuando el tiempo promedio por ruta baje más del 20% y el costo operativo por tonelada baje más del 15% durante 8 semanas de piloto.
 
 - Creemos que fortaleceremos la planificación y la transparencia (business outcome)  
-si las municipalidades (user) confían en KPIs trazables (benefit)  
-con latencia de datos menor de 5 minutos (feature).  
+  si las municipalidades (user) confían en KPIs trazables (benefit)  
+  con latencia de datos menor de 5 minutos (feature).
 
   Sabremos que hemos tenido éxito
 
   Cuando el dashboard sea consultado semanalmente y se realice más de 1 ajuste de ruta por semana basado en los KPIs.
 
 - Creemos que atraeremos comercios locales (business outcome)  
-si las municipalidades (user) observan ahorros operativos y evidencia de canjes (benefit)  
-con acuerdos de canjes activos (feature).  
+  si las municipalidades (user) observan ahorros operativos y evidencia de canjes (benefit)  
+  con acuerdos de canjes activos (feature).
 
-  Sabremos que hemos tenido éxito 
+  Sabremos que hemos tenido éxito
 
   Cuando logremos mas de 10 comercios aliados y mas de 50 canjes por mes en el piloto.
 
@@ -1144,11 +1155,1057 @@ Para garantizar que todo el equipo y los actores involucrados utilicen los mismo
 
 ## 3.1. To-Be Scenario Mapping
 
+<div align="justify">
+  En esta sección se describe el escenario futuro esperado tras la implementación de Metalix, mostrando cómo la experiencia de los bañistas y de las municipalidades se transforma gracias al sistema. A través del To-Be Scenario Mapping se proyecta un flujo optimizado, donde cada paso integra acciones, pensamientos y emociones positivas, evidenciando cómo la solución propuesta resuelve los puntos de dolor identificados en el escenario actual (As-Is) y genera valor tanto ambiental como social.
+</div>
+
+### Segmento objetivo 1: Bañistas
+
+<div align="center">
+  <img src="./chapter-3/to-be-scenario-mapping/segmento-1.jpg" alt="To-Be Scenario Mapping Bañistas">
+</div>
+
+### Segmento objetivo 2: Municipalidades costeras
+
+<div align="center">
+  <img src="./chapter-3/to-be-scenario-mapping/segmento-2.jpg" alt="To-Be Scenario Mapping Municipalidades Costeras">
+</div>
+
 ## 3.2. User Stories
 
+En esta sección, se presenta las User Stories diseñadas que cumplen con las necesidades de los usuarios finales.
+
+<table align=center">
+  <thead align="center">
+    <tr>
+      <th>Epic/User Story ID</th>
+      <th>Título</th>
+      <th>Descripción</th>
+      <th>Criterios de Aceptación</th>
+      <th>Relación (EPIC ID)</th>
+    </tr>
+  </thead>
+  <tbody align="center">
+    <!-- EP-01 -->
+    <tr style="background-color:#F3F8FF; border-left:6px solid #2563EB;">
+      <td><strong>EP-01</strong></td>
+      <td><strong>Difusión y captación (Landing Page)</strong></td>
+      <td align="justify">
+        <strong>Como</strong> visitante, <strong>quiero</strong> acceder a un sitio web público con información clara de Metalix,
+        <strong>para</strong> conocer beneficios, municipalidades y opciones de contacto.
+      </td>
+      <td align="justify">
+        <strong>Escenario 1: Visualización general de la landing</strong><br>
+        <strong>Dado</strong> que un visitante accede al sitio,<br>
+        <strong>Cuando</strong> ingresa a la URL principal,<br>
+        <strong>Entonces</strong> visualiza una landing con secciones de características/beneficios, municipalidades participantes, preguntas frecuentes y formulario de contacto.
+      </td>
+      <td>–</td>
+    </tr>
+    <!-- HU-01 -->
+    <tr>
+      <td><strong>HU-01</strong></td>
+      <td>Ver municipalidades participantes</td>
+      <td align="justify">
+        <strong>Como</strong> visitante, <strong>quiero</strong> ver las municipalidades adheridas al programa, 
+        <strong>para</strong> saber si mi distrito participa y dónde.
+      </td>
+      <td align="justify">
+        <strong>Escenario 1: Listado disponible</strong><br>
+        <strong>Dado</strong> que el usuario está en la sección “Municipalidades”,<br>
+        <strong>Cuando</strong> consulta el contenido,<br>
+        <strong>Entonces</strong> se muestran las municipalidades con nombre y distrito.
+        <br><br>
+        <strong>Escenario 2: Sin registros</strong><br>
+        <strong>Dado</strong> que no hay municipalidades registradas,<br>
+        <strong>Cuando</strong> el usuario consulta,<br>
+        <strong>Entonces</strong> aparece el mensaje “Próximamente”.
+      </td>
+      <td>EP-01</td>
+    </tr>
+    <!-- HU-02 -->
+    <tr>
+      <td><strong>HU-02</strong></td>
+      <td>Ver recompensas destacadas</td>
+      <td align="justify">
+        <strong>Como</strong> visitante, <strong>quiero</strong> visualizar recompensas de ejemplo, 
+        <strong>para</strong> entender el valor del programa y motivarme a participar.
+      </td>
+      <td align="justify">
+        <strong>Escenario 1: Visualización de recompensas</strong><br>
+        <strong>Dado</strong> que el usuario accede a la sección “Beneficios”,<br>
+        <strong>Cuando</strong> consulta el contenido,<br>
+        <strong>Entonces</strong> se muestran recompensas con nombre y puntos requeridos.
+        <br><br>
+        <strong>Escenario 2: Sin recompensas</strong><br>
+        <strong>Dado</strong> que no existen recompensas registradas,<br>
+        <strong>Cuando</strong> el usuario consulta,<br>
+        <strong>Entonces</strong> aparece “Aún no hay recompensas disponibles”.
+      </td>
+      <td>EP-01</td>
+    </tr>
+    <!-- HU-03 -->
+    <tr>
+      <td><strong>HU-03</strong></td>
+      <td>Conocer proceso para obtener tarjeta RFID</td>
+      <td align="justify">
+        <strong>Como</strong> visitante, <strong>quiero</strong> conocer los pasos para obtener mi tarjeta de reciclaje, 
+        <strong>para</strong> empezar a usar el sistema y acumular puntos.
+      </td>
+      <td align="justify">
+        <strong>Escenario 1: Visualización del proceso</strong><br>
+        <strong>Dado</strong> que el usuario accede a la sección “Obtén tu tarjeta”,<br>
+        <strong>Cuando</strong> revisa el contenido,<br>
+        <strong>Entonces</strong> visualiza los pasos del proceso y las municipalidades asociadas.
+      </td>
+      <td>EP-01</td>
+    </tr>
+    <!-- HU-04 -->
+    <tr>
+      <td><strong>HU-04</strong></td>
+      <td>Consultar FAQ y enviar contacto general</td>
+      <td align="justify">
+        <strong>Como</strong> visitante, <strong>quiero</strong> resolver dudas frecuentes y enviar consultas generales, 
+        <strong>para</strong> recibir información y soporte oportuno.
+      </td>
+      <td align="justify">
+        <strong>Escenario 1: Consulta de FAQ</strong><br>
+        <strong>Dado</strong> que el usuario accede a la sección “FAQ”,<br>
+        <strong>Cuando</strong> la consulta,<br>
+        <strong>Entonces</strong> se muestran preguntas y respuestas vigentes.<br><br>
+        <strong>Escenario 2: Envío de contacto exitoso</strong><br>
+        <strong>Dado</strong> que el usuario completa el formulario con datos válidos,<br>
+        <strong>Cuando</strong> hace clic en “Enviar”,<br>
+        <strong>Entonces</strong> se muestra una confirmación visual del envío.<br><br>
+        <strong>Escenario 3: Error por datos incompletos</strong><br>
+        <strong>Dado</strong> que el usuario no completa los campos obligatorios,<br>
+        <strong>Cuando</strong> intenta enviar el formulario,<br>
+        <strong>Entonces</strong> se muestra un mensaje indicando los campos faltantes.
+      </td>
+      <td>EP-01</td>
+    </tr>
+    <!-- HU-05 -->
+    <tr>
+      <td><strong>HU-05</strong></td>
+      <td>Registrar interés municipal</td>
+      <td align="justify">
+        <strong>Como</strong> representante de municipalidad, <strong>quiero</strong> registrar una solicitud de adhesión, 
+        <strong>para</strong> que la empresa evalúe mi incorporación y me contacte.
+      </td>
+      <td align="justify">
+        <strong>Escenario 1: Registro exitoso</strong><br>
+        <strong>Dado</strong> que el representante completa el formulario con datos válidos,<br>
+        <strong>Cuando</strong> envía la solicitud,<br>
+        <strong>Entonces</strong> el sistema registra la solicitud y muestra confirmación.<br><br>
+        <strong>Escenario 2: Error de validación</strong><br>
+        <strong>Dado</strong> que el representante deja campos obligatorios vacíos o inválidos,<br>
+        <strong>Cuando</strong> intenta enviar la solicitud,<br>
+        <strong>Entonces</strong> el sistema muestra mensajes de error de validación.
+      </td>
+      <td>EP-01</td>
+    </tr>
+    <!-- EP-02 -->
+    <tr style="background-color:#F3F8FF; border-left:6px solid #2563EB;">
+      <td><strong>EP-02</strong></td>
+      <td><strong>Acceso seguro a la plataforma</strong></td>
+      <td align="justify">
+        <strong>Como</strong> usuario, <strong>quiero</strong> registrarme, iniciar sesión, recuperar contraseña y cerrar sesión de forma segura,
+        <strong>para</strong> acceder a funcionalidades personalizadas y proteger mi información.
+      </td>
+      <td align="justify">
+        <strong>Escenario 1: Autenticación exitosa</strong><br>
+        <strong>Dado</strong> que soy un usuario en la aplicación,<br>
+        <strong>Cuando</strong> ejecuto la acción de inicio de sesión o registro de manera correcta,<br>
+        <strong>Entonces</strong> mis datos se guardan o validan satisfactoriamente<br>
+        <strong>Y</strong> se muestra un mensaje de éxito.
+        <br><br>
+        <strong>Escenario 2: Autenticación fallida</strong><br>
+        <strong>Dado</strong> que soy un usuario en la aplicación,<br>
+        <strong>Cuando</strong> ejecuto la acción de inicio de sesión o de registro con datos incorrectos,<br>
+        <strong>Entonces</strong> se muestra un mensaje de error detallado<br>
+        <strong>Y</strong> no se completa la transacción.
+      </td>
+      <td>–</td>
+    </tr>
+    <!-- HU-06 -->
+    <tr>
+      <td><strong>HU-06</strong></td>
+      <td>Registro de cuenta</td>
+      <td align="justify">
+        <strong>Como</strong> visitante, <strong>quiero</strong> crear una cuenta como bañista o municipalidad,
+        <strong>para</strong> acceder a la aplicación según mi rol.
+      </td>
+      <td align="justify">
+        <strong>Escenario 1: Registro exitoso</strong><br>
+        <strong>Dado</strong> que ingreso datos válidos,<br>
+        <strong>Cuando</strong> ejecuto la acción de registro,<br>
+        <strong>Entonces</strong> se crea la cuenta y se muestra confirmación.
+        <br><br>
+        <strong>Escenario 2: Correo duplicado</strong><br>
+        <strong>Dado</strong> que el correo ya está registrado,<br>
+        <strong>Cuando</strong> intento registrarme,<br>
+        <strong>Entonces</strong> aparece el mensaje “correo ya registrado”.
+        <br><br>
+        <strong>Escenario 3: Contraseña débil</strong><br>
+        <strong>Dado</strong> que ingreso una contraseña que no cumple los requisitos de seguridad,<br>
+        <strong>Cuando</strong> intento registrarme,<br>
+        <strong>Entonces</strong> se muestra un mensaje con los requisitos mínimos.
+      </td>
+      <td>EP-02</td>
+    </tr>
+    <!-- HU-07 -->
+    <tr>
+      <td><strong>HU-07</strong></td>
+      <td>Inicio de sesión</td>
+      <td align="justify">
+        <strong>Como</strong> usuario, <strong>quiero</strong> iniciar sesión con mis credenciales,
+        <strong>para</strong> acceder a mi panel según mi rol.
+      </td>
+      <td align="justify">
+        <strong>Escenario 1: Inicio de sesión exitoso</strong><br>
+        <strong>Dado</strong> que ingreso credenciales válidas,<br>
+        <strong>Cuando</strong> ejecuto la acción de inicio de sesión,<br>
+        <strong>Entonces</strong> accedo a mi panel según mi rol.
+        <br><br>
+        <strong>Escenario 2: Credenciales inválidas</strong><br>
+        <strong>Dado</strong> que ingreso credenciales inválidas,<br>
+        <strong>Cuando</strong> intento iniciar sesión,<br>
+        <strong>Entonces</strong> se muestra un mensaje de error y permanece la vista de login.
+      </td>
+      <td>EP-02</td>
+    </tr>
+    <!-- HU-08 -->
+    <tr>
+      <td><strong>HU-08</strong></td>
+      <td>Recuperar contraseña</td>
+      <td align="justify">
+        <strong>Como</strong> usuario, <strong>quiero</strong> recuperar mi contraseña por correo,
+        <strong>para</strong> restablecer el acceso a mi cuenta.
+      </td>
+      <td align="justify">
+        <strong>Escenario 1: Solicitud válida</strong><br>
+        <strong>Dado</strong> que ingreso un correo válido y registrado,<br>
+        <strong>Cuando</strong> solicito la recuperación,<br>
+        <strong>Entonces</strong> recibo un enlace temporal para restablecer la contraseña.
+        <br><br>
+        <strong>Escenario 2: Correo no registrado</strong><br>
+        <strong>Dado</strong> que ingreso un correo no registrado,<br>
+        <strong>Cuando</strong> solicito la recuperación,<br>
+        <strong>Entonces</strong> se muestra un mensaje de error indicando que el correo no existe.
+      </td>
+      <td>EP-02</td>
+    </tr>
+    <!-- HU-09 -->
+    <tr>
+      <td><strong>HU-09</strong></td>
+      <td>Cerrar sesión</td>
+      <td align="justify">
+        <strong>Como</strong> usuario, <strong>quiero</strong> cerrar sesión,
+        <strong>para</strong> proteger mi cuenta en dispositivos compartidos.
+      </td>
+      <td align="justify">
+        <strong>Escenario 1: Cierre de sesión exitoso</strong><br>
+        <strong>Dado</strong> que tengo una sesión activa,<br>
+        <strong>Cuando</strong> ejecuto la acción de cerrar sesión,<br>
+        <strong>Entonces</strong> el sistema invalida el token de sesión y me redirige al login.
+      </td>
+      <td>EP-02</td>
+    </tr>
+    <!-- TS-01 -->
+    <tr>
+      <td><strong>TS-01</strong></td>
+      <td>API de autenticación con JWT</td>
+      <td align="justify">
+        <strong>Como</strong> developer, <strong>quiero</strong> exponer endpoints de registro, login y logout seguros,
+        <strong>para</strong> garantizar autenticación protegida basada en <em>JWT</em>.
+      </td>
+      <td align="justify">
+        <strong>Escenario 1: Emisión de token</strong><br>
+        <strong>Dado</strong> credenciales válidas,<br>
+        <strong>Cuando</strong> el backend autentica al usuario,<br>
+        <strong>Entonces</strong> retorna un <em>JWT</em> con expiración definida.
+        <br><br>
+        <strong>Escenario 2: Acceso a ruta protegida sin token</strong><br>
+        <strong>Dado</strong> una petición sin token o con token inválido,<br>
+        <strong>Cuando</strong> intenta acceder a una ruta protegida,<br>
+        <strong>Entonces</strong> responde con <code>401 Unauthorized</code>.
+        <br><br>
+        <strong>Escenario 3: Almacenamiento seguro de contraseña</strong><br>
+        <strong>Dado</strong> una contraseña enviada en registro o cambio,<br>
+        <strong>Cuando</strong> se persiste en la base de datos,<br>
+        <strong>Entonces</strong> queda almacenada con <em>hash</em> seguro (p. ej., <em>bcrypt</em>).
+      </td>
+      <td>EP-02</td>
+    </tr>
+    <!-- EP-03 -->
+    <tr style="background-color:#F3F8FF; border-left:6px solid #2563EB;">
+      <td><strong>EP-03</strong></td>
+      <td><strong>Gestión de perfil de usuario</strong></td>
+      <td align="justify">
+        <strong>Como</strong> usuario, <strong>quiero</strong> editar datos básicos de mi perfil,
+        <strong>para</strong> mantener la información actualizada.
+      </td>
+      <td align="justify">
+        <strong>Escenario 1: Acceso a la vista de perfil</strong><br>
+        <strong>Dado</strong> que tengo una sesión activa,<br>
+        <strong>Cuando</strong> accedo a la sección “Mi perfil”,<br>
+        <strong>Entonces</strong> visualizo mis datos personales y de contacto disponibles para edición.
+        <br><br>
+        <strong>Escenario 2: Persistencia de cambios</strong><br>
+        <strong>Dado</strong> que edito uno o más campos válidos,<br>
+        <strong>Cuando</strong> guardo los cambios,<br>
+        <strong>Entonces</strong> el sistema persiste la información y muestra una confirmación de éxito.
+      </td>
+      <td>–</td>
+    </tr>
+    <!-- HU-10 -->
+    <tr>
+      <td><strong>HU-10</strong></td>
+      <td>Editar perfil</td>
+      <td align="justify">
+        <strong>Como</strong> usuario, <strong>quiero</strong> actualizar datos personales y de contacto,
+        <strong>para</strong> mantener mi información vigente en la plataforma.
+      </td>
+      <td align="justify">
+        <strong>Escenario 1: Edición exitosa</strong><br>
+        <strong>Dado</strong> que ingreso datos válidos en los campos editables,<br>
+        <strong>Cuando</strong> guardo los cambios,<br>
+        <strong>Entonces</strong> se actualiza la información y se muestra una confirmación.
+        <br><br>
+        <strong>Escenario 2: Error de validación por campos obligatorios</strong><br>
+        <strong>Dado</strong> que dejo campos obligatorios vacíos o con formato inválido,<br>
+        <strong>Cuando</strong> intento guardar los cambios,<br>
+        <strong>Entonces</strong> se muestran mensajes de error indicando los campos a corregir.
+      </td>
+      <td>EP-03</td>
+    </tr>
+    <!-- EP-04 -->
+    <tr style="background-color:#F3F8FF; border-left:6px solid #2563EB;">
+      <td><strong>EP-04</strong></td>
+      <td><strong>Incentivos y recompensas para bañistas</strong></td>
+      <td align="justify">
+        <strong>Como</strong> bañista, <strong>quiero</strong> asociar mi tarjeta RFID, consultar puntos, canjear recompensas y revisar mi historial,
+        <strong>para</strong> participar activamente y obtener beneficios por reciclar.
+      </td>
+      <td align="justify">
+        <strong>Escenario 1: Acceso al panel de incentivos</strong><br>
+        <strong>Dado</strong> que tengo sesión activa,<br>
+        <strong>Cuando</strong> ingreso a “Incentivos”,<br>
+        <strong>Entonces</strong> visualizo accesos a registrar tarjeta, consultar puntos, canjear recompensas y ver historial.
+        <br><br>
+        <strong>Escenario 2: Trazabilidad de puntos</strong><br>
+        <strong>Dado</strong> que he realizado eventos de reciclaje,<br>
+        <strong>Cuando</strong> consulto mi historial y saldo,<br>
+        <strong>Entonces</strong> el sistema muestra movimientos con fecha, municipalidad y puntos acreditados, y refleja el total actualizado.
+      </td>
+      <td>–</td>
+    </tr>
+    <!-- HU-11 -->
+    <tr>
+      <td><strong>HU-11</strong></td>
+      <td>Registrar tarjeta RFID</td>
+      <td align="justify">
+        <strong>Como</strong> bañista, <strong>quiero</strong> asociar mi tarjeta RFID a mi cuenta,
+        <strong>para</strong> acumular puntos automáticamente al reciclar.
+      </td>
+      <td align="justify">
+        <strong>Escenario 1: Asociación exitosa</strong><br>
+        <strong>Dado</strong> que la RFID no está asociada,<br>
+        <strong>Cuando</strong> ejecuto el registro de tarjeta,<br>
+        <strong>Entonces</strong> la tarjeta queda vinculada a mi cuenta y se muestra confirmación.
+        <br><br>
+        <strong>Escenario 2: Tarjeta ya asociada</strong><br>
+        <strong>Dado</strong> que la RFID ya está vinculada a otra cuenta,<br>
+        <strong>Cuando</strong> intento registrarla,<br>
+        <strong>Entonces</strong> se rechaza la acción y se informa el motivo.
+      </td>
+      <td>EP-04</td>
+    </tr>
+    <!-- HU-12 -->
+    <tr>
+      <td><strong>HU-12</strong></td>
+      <td>Consultar puntos por municipalidad</td>
+      <td align="justify">
+        <strong>Como</strong> bañista, <strong>quiero</strong> consultar mis puntos acumulados por municipalidad,
+        <strong>para</strong> conocer mi avance en cada jurisdicción.
+      </td>
+      <td align="justify">
+        <strong>Escenario 1: Visualización de tabla</strong><br>
+        <strong>Dado</strong> que accedo a “Mis puntos”,<br>
+        <strong>Cuando</strong> consulto,<br>
+        <strong>Entonces</strong> visualizo una tabla con municipalidad y puntos acumulados.
+        <br><br>
+        <strong>Escenario 2: Sin registros</strong><br>
+        <strong>Dado</strong> que no tengo movimientos,<br>
+        <strong>Cuando</strong> consulto,<br>
+        <strong>Entonces</strong> aparece el mensaje “Sin registros”.
+      </td>
+      <td>EP-04</td>
+    </tr>
+    <!-- HU-13 -->
+    <tr>
+      <td><strong>HU-13</strong></td>
+      <td>Ver saldo total</td>
+      <td align="justify">
+        <strong>Como</strong> bañista, <strong>quiero</strong> consultar mi saldo total de puntos,
+        <strong>para</strong> saber cuánto puedo canjear.
+      </td>
+      <td align="justify">
+        <strong>Escenario 1: Cálculo de saldo</strong><br>
+        <strong>Dado</strong> que accedo a “Mi saldo”,<br>
+        <strong>Cuando</strong> consulto,<br>
+        <strong>Entonces</strong> visualizo el total actualizado que corresponde a mis puntos disponibles.
+      </td>
+      <td>EP-04</td>
+    </tr>
+    <!-- HU-14 -->
+    <tr>
+      <td><strong>HU-14</strong></td>
+      <td>Canjear recompensas</td>
+      <td align="justify">
+        <strong>Como</strong> bañista, <strong>quiero</strong> canjear mis puntos por recompensas,
+        <strong>para</strong> obtener beneficios del programa.
+      </td>
+      <td align="justify">
+        <strong>Escenario 1: Canje exitoso</strong><br>
+        <strong>Dado</strong> que tengo puntos suficientes,<br>
+        <strong>Cuando</strong> realizo el canje,<br>
+        <strong>Entonces</strong> se descuenta el puntaje, se genera comprobante y se registra la operación.
+        <br><br>
+        <strong>Escenario 2: Puntos insuficientes</strong><br>
+        <strong>Dado</strong> que mi saldo es menor al requerido,<br>
+        <strong>Cuando</strong> intento canjear,<br>
+        <strong>Entonces</strong> aparece el mensaje “puntos insuficientes” y no se procesa el canje.
+      </td>
+      <td>EP-04</td>
+    </tr>
+    <!-- HU-15 -->
+    <tr>
+      <td><strong>HU-15</strong></td>
+      <td>Historial de reciclaje</td>
+      <td align="justify">
+        <strong>Como</strong> bañista, <strong>quiero</strong> consultar mi historial de reciclaje,
+        <strong>para</strong> revisar mis acciones y puntos obtenidos en el tiempo.
+      </td>
+      <td align="justify">
+        <strong>Escenario 1: Listado de actividades</strong><br>
+        <strong>Dado</strong> que accedo a “Historial”,<br>
+        <strong>Cuando</strong> consulto,<br>
+        <strong>Entonces</strong> visualizo fecha, playa/municipalidad y puntos acreditados por evento.
+        <br><br>
+        <strong>Escenario 2: Sin historial</strong><br>
+        <strong>Dado</strong> que aún no tengo actividades registradas,<br>
+        <strong>Cuando</strong> consulto,<br>
+        <strong>Entonces</strong> aparece “Sin historial”.
+      </td>
+      <td>EP-04</td>
+    </tr>
+    <!-- HU-16 -->
+    <tr>
+      <td><strong>HU-16</strong></td>
+      <td>Ranking de bañistas</td>
+      <td align="justify">
+        <strong>Como</strong> bañista, <strong>quiero</strong> consultar el ranking en mi municipalidad,
+        <strong>para</strong> compararme con otros usuarios y motivarme a mejorar.
+      </td>
+      <td align="justify">
+        <strong>Escenario 1: Visualización de ranking</strong><br>
+        <strong>Dado</strong> que selecciono una municipalidad,<br>
+        <strong>Cuando</strong> consulto el ranking,<br>
+        <strong>Entonces</strong> visualizo el top de usuarios con sus puntos acumulados.
+      </td>
+      <td>EP-04</td>
+    </tr>
+    <!-- TS-02 -->
+    <tr>
+      <td><strong>TS-02</strong></td>
+      <td>API de RFID y puntos</td>
+      <td align="justify">
+        <strong>Como</strong> developer, <strong>quiero</strong> validar RFID y sumar puntos por evento,
+        <strong>para</strong> mantener el historial de reciclaje consistente.
+      </td>
+      <td align="justify">
+        <strong>Escenario 1: Acreditación de puntos</strong><br>
+        <strong>Dado</strong> una RFID válida y un evento de reciclaje,<br>
+        <strong>Cuando</strong> el backend procesa el evento,<br>
+        <strong>Entonces</strong> acredita puntos y persiste el registro con timestamp.
+        <br><br>
+        <strong>Escenario 2: Rechazo por RFID inválida</strong><br>
+        <strong>Dado</strong> una RFID inválida o no registrada,<br>
+        <strong>Cuando</strong> se intenta procesar el evento,<br>
+        <strong>Entonces</strong> se rechaza y se registra el intento fallido.
+      </td>
+      <td>EP-04</td>
+    </tr>
+    <!-- TS-03 -->
+    <tr>
+      <td><strong>TS-03</strong></td>
+      <td>API de canje con ID único</td>
+      <td align="justify">
+        <strong>Como</strong> developer, <strong>quiero</strong> generar y validar IDs únicos para los canjes,
+        <strong>para</strong> evitar duplicados y fraudes.
+      </td>
+      <td align="justify">
+        <strong>Escenario 1: Generación y consumo de ID</strong><br>
+        <strong>Dado</strong> un canje válido,<br>
+        <strong>Cuando</strong> lo apruebo,<br>
+        <strong>Entonces</strong> se genera un ID único y se marca el estado como “canjeado”.
+        <br><br>
+        <strong>Escenario 2: ID inválido o expirado</strong><br>
+        <strong>Dado</strong> un ID ya usado o vencido,<br>
+        <strong>Cuando</strong> intento validarlo,<br>
+        <strong>Entonces</strong> el sistema retorna “no válido” y no procesa el canje.
+      </td>
+      <td>EP-04</td>
+    </tr>
+    <!-- EP-05 -->
+    <tr style="background-color:#F3F8FF; border-left:6px solid #2563EB;">
+      <td><strong>EP-05</strong></td>
+      <td><strong>Gestión municipal del reciclaje</strong></td>
+      <td align="justify">
+        <strong>Como</strong> municipalidad, <strong>quiero</strong> gestionar recolectores, recompensas, usuarios y reportes,
+        <strong>para</strong> optimizar las operaciones de reciclaje y la entrega de incentivos.
+      </td>
+      <td align="justify">
+        <strong>Escenario 1: Acceso al panel municipal</strong><br>
+        <strong>Dado</strong> que tengo sesión con rol municipal,<br>
+        <strong>Cuando</strong> ingreso a la consola de administración,<br>
+        <strong>Entonces</strong> visualizo accesos a recolectores, recompensas, usuarios y reportes.
+        <br><br>
+        <strong>Escenario 2: Indicadores operativos</strong><br>
+        <strong>Dado</strong> que existen datos de operación,<br>
+        <strong>Cuando</strong> ingreso al panel principal,<br>
+        <strong>Entonces</strong> veo indicadores de ocupación promedio, alertas de llenado y actividad reciente.
+      </td>
+      <td>–</td>
+    </tr>
+    <!-- HU-17 -->
+    <tr>
+      <td><strong>HU-17</strong></td>
+      <td>Panel de recolectores</td>
+      <td align="justify">
+        <strong>Como</strong> municipalidad, <strong>quiero</strong> consultar ubicación, peso/ocupación y estado de cada recolector,
+        <strong>para</strong> planificar el retiro oportuno.
+      </td>
+      <td align="justify">
+        <strong>Escenario 1: Visualización de estado</strong><br>
+        <strong>Dado</strong> que accedo al panel de recolectores,<br>
+        <strong>Cuando</strong> consulto la lista o mapa,<br>
+        <strong>Entonces</strong> visualizo ubicación, porcentaje de ocupación (%) y estado operativo de cada recolector.
+        <br><br>
+        <strong>Escenario 2: Alerta por umbral</strong><br>
+        <strong>Dado</strong> que un recolector supera el umbral configurado,<br>
+        <strong>Cuando</strong> consulto el panel,<br>
+        <strong>Entonces</strong> el estado aparece como “lleno/por recolectar”.
+      </td>
+      <td>EP-05</td>
+    </tr>
+    <!-- HU-18 -->
+    <tr>
+      <td><strong>HU-18</strong></td>
+      <td>Administración de recompensas</td>
+      <td align="justify">
+        <strong>Como</strong> municipalidad, <strong>quiero</strong> añadir, editar o eliminar recompensas,
+        <strong>para</strong> ofrecer beneficios actualizados a los bañistas.
+      </td>
+      <td align="justify">
+        <strong>Escenario 1: Alta exitosa</strong><br>
+        <strong>Dado</strong> que ingreso datos válidos de una recompensa,<br>
+        <strong>Cuando</strong> guardo,<br>
+        <strong>Entonces</strong> la recompensa queda disponible para canje.
+        <br><br>
+        <strong>Escenario 2: Eliminación confirmada</strong><br>
+        <strong>Dado</strong> que confirmo la eliminación de una recompensa,<br>
+        <strong>Cuando</strong> ejecuto la acción,<br>
+        <strong>Entonces</strong> la recompensa se elimina del catálogo.
+        <br><br>
+        <strong>Escenario 3: Duplicidad</strong><br>
+        <strong>Dado</strong> que intento crear un duplicado (mismo nombre + municipalidad),<br>
+        <strong>Cuando</strong> guardo,<br>
+        <strong>Entonces</strong> se rechaza por duplicidad y se informa el motivo.
+      </td>
+      <td>EP-05</td>
+    </tr>
+    <!-- HU-19 -->
+    <tr>
+      <td><strong>HU-19</strong></td>
+      <td>Ranking de bañistas (vista municipal)</td>
+      <td align="justify">
+        <strong>Como</strong> municipalidad, <strong>quiero</strong> consultar el ranking de bañistas por puntos,
+        <strong>para</strong> incentivar la participación y reconocer a los más activos.
+      </td>
+      <td align="justify">
+        <strong>Escenario 1: Ranking por período</strong><br>
+        <strong>Dado</strong> que selecciono un rango de fechas,<br>
+        <strong>Cuando</strong> consulto el ranking,<br>
+        <strong>Entonces</strong> visualizo el top de usuarios con sus puntos acumulados.
+        <br><br>
+        <strong>Escenario 2: Sin datos</strong><br>
+        <strong>Dado</strong> que no existen registros en el período,<br>
+        <strong>Cuando</strong> consulto,<br>
+        <strong>Entonces</strong> aparece “Sin datos disponibles”.
+      </td>
+      <td>EP-05</td>
+    </tr>
+    <!-- HU-20 -->
+    <tr>
+      <td><strong>HU-20</strong></td>
+      <td>Reporte de residuos</td>
+      <td align="justify">
+        <strong>Como</strong> municipalidad, <strong>quiero</strong> consultar peso y cantidad de residuos recolectados,
+        <strong>para</strong> medir el desempeño y planificar la operación.
+      </td>
+      <td align="justify">
+        <strong>Escenario 1: Reporte agregado</strong><br>
+        <strong>Dado</strong> que selecciono un rango de fechas,<br>
+        <strong>Cuando</strong> consulto el reporte,<br>
+        <strong>Entonces</strong> visualizo peso total y frecuencia de llenado por recolector/municipalidad.
+        <br><br>
+        <strong>Escenario 2: Sin registros</strong><br>
+        <strong>Dado</strong> que no existen datos en el rango,<br>
+        <strong>Cuando</strong> consulto,<br>
+        <strong>Entonces</strong> aparece “No hay registros”.
+      </td>
+      <td>EP-05</td>
+    </tr>
+    <!-- HU-21 -->
+    <tr>
+      <td><strong>HU-21</strong></td>
+      <td>Gestión de usuarios municipales</td>
+      <td align="justify">
+        <strong>Como</strong> municipalidad, <strong>quiero</strong> listar y suspender usuarios en mi jurisdicción,
+        <strong>para</strong> mantener el control de acceso y evitar usos indebidos.
+      </td>
+      <td align="justify">
+        <strong>Escenario 1: Suspensión de usuario</strong><br>
+        <strong>Dado</strong> que busco un usuario válido,<br>
+        <strong>Cuando</strong> lo selecciono y confirmo la suspensión,<br>
+        <strong>Entonces</strong> el estado cambia a “suspendido”.
+        <br><br>
+        <strong>Escenario 2: Intento de canje por suspendido</strong><br>
+        <strong>Dado</strong> que un usuario suspendido intenta canjear,<br>
+        <strong>Cuando</strong> ejecuta la acción de canje,<br>
+        <strong>Entonces</strong> aparece el mensaje “usuario suspendido” y no se procesa el canje.
+      </td>
+      <td>EP-05</td>
+    </tr>
+    <!-- TS-04 -->
+    <tr>
+      <td><strong>TS-04</strong></td>
+      <td>Telemetría de recolectores (Edge/IoT)</td>
+      <td align="justify">
+        <strong>Como</strong> developer, <strong>quiero</strong> procesar en el edge datos de peso y ocupación,
+        <strong>para</strong> optimizar reportes y reducir la latencia.
+      </td>
+      <td align="justify">
+        <strong>Escenario 1: Actualización de ocupación</strong><br>
+        <strong>Dado</strong> un <em>payload</em> válido desde el recolector,<br>
+        <strong>Cuando</strong> se recibe en el edge,<br>
+        <strong>Entonces</strong> se actualiza la ocupación y la hora de la última lectura.
+        <br><br>
+        <strong>Escenario 2: Alerta por umbral</strong><br>
+        <strong>Dado</strong> que el valor reportado supera el umbral,<br>
+        <strong>Cuando</strong> el proceso lo valida,<br>
+        <strong>Entonces</strong> se emite la alerta “por recolectar” para su atención.
+      </td>
+      <td>EP-05</td>
+    </tr>
+    <!-- EP-06 -->
+    <tr style="background-color:#F3F8FF; border-left:6px solid #2563EB;">
+      <td><strong>EP-06</strong></td>
+      <td><strong>Infraestructura técnica y soporte IoT</strong></td>
+      <td align="justify">
+        <strong>Como</strong> responsable técnico, <strong>quiero</strong> contar con infraestructura y APIs,
+        <strong>para</strong> habilitar la operación del sistema Metalix end-to-end.
+      </td>
+      <td align="justify">
+        <strong>Escenario 1: Componentes habilitados</strong><br>
+        <strong>Dado</strong> que la plataforma debe operar en producción,<br>
+        <strong>Cuando</strong> verifico el estado de los servicios,<br>
+        <strong>Entonces</strong> encuentro desplegados la Web App, el backend/API, el broker MQTT y la base de datos con conectividad entre sí.
+        <br><br>
+        <strong>Escenario 2: Observabilidad básica</strong><br>
+        <strong>Dado</strong> que los componentes están en producción,<br>
+        <strong>Cuando</strong> ocurre un fallo o degradación,<br>
+        <strong>Entonces</strong> se registran logs y métricas y se genera una alerta para atención.
+      </td>
+      <td>–</td>
+    </tr>
+    <!-- TS-05 -->
+    <tr>
+      <td><strong>TS-05</strong></td>
+      <td>Despliegue en Azure Web App</td>
+      <td align="justify">
+        <strong>Como</strong> developer, <strong>quiero</strong> desplegar la aplicación en Azure Web App,
+        <strong>para</strong> garantizar disponibilidad sin manejar contenedores.
+      </td>
+      <td align="justify">
+        <strong>Escenario 1: Aplicación accesible</strong><br>
+        <strong>Dado</strong> que realizo un despliegue,<br>
+        <strong>Cuando</strong> la aplicación inicia,<br>
+        <strong>Entonces</strong> queda accesible en la URL configurada.
+        <br><br>
+        <strong>Escenario 2: Recuperación ante fallo</strong><br>
+        <strong>Dado</strong> un fallo de instancia,<br>
+        <strong>Cuando</strong> ocurre,<br>
+        <strong>Entonces</strong> el servicio se reinicia automáticamente y vuelve a estar disponible.
+      </td>
+      <td>EP-06</td>
+    </tr>
+    <!-- TS-06 -->
+    <tr>
+      <td><strong>TS-06</strong></td>
+      <td>Seguridad y cifrado TLS/HTTPS</td>
+      <td align="justify">
+        <strong>Como</strong> developer, <strong>quiero</strong> habilitar HTTPS con TLS,
+        <strong>para</strong> proteger la comunicación entre cliente, backend y broker.
+      </td>
+      <td align="justify">
+        <strong>Escenario 1: Redirección forzada a HTTPS</strong><br>
+        <strong>Dado</strong> que un usuario accede vía HTTP,<br>
+        <strong>Cuando</strong> solicita la aplicación,<br>
+        <strong>Entonces</strong> se redirige automáticamente a HTTPS.
+        <br><br>
+        <strong>Escenario 2: Tráfico cifrado</strong><br>
+        <strong>Dado</strong> que se transmiten tokens o credenciales,<br>
+        <strong>Cuando</strong> viajan por la red,<br>
+        <strong>Entonces</strong> siempre están cifrados mediante TLS.
+        <br><br>
+        <strong>Escenario 3: Gestión de certificados</strong><br>
+        <strong>Dado</strong> certificados válidos,<br>
+        <strong>Cuando</strong> se aproximan a su expiración,<br>
+        <strong>Entonces</strong> el sistema emite una alerta previa de renovación.
+      </td>
+      <td>EP-06</td>
+    </tr>
+    <!-- TS-07 -->
+    <tr>
+      <td><strong>TS-07</strong></td>
+      <td>Configuración de ESP32 (Wi-Fi y MQTT)</td>
+      <td align="justify">
+        <strong>Como</strong> developer, <strong>quiero</strong> configurar el ESP32 para conectarse a Wi-Fi y al broker MQTT,
+        <strong>para</strong> publicar telemetría y recibir comandos.
+      </td>
+      <td align="justify">
+        <strong>Escenario 1: Conexión establecida</strong><br>
+        <strong>Dado</strong> SSID/clave y URL del broker válidos,<br>
+        <strong>Cuando</strong> el ESP32 arranca,<br>
+        <strong>Entonces</strong> se conecta a Wi-Fi y establece sesión MQTT con <em>keep-alive</em>.
+        <br><br>
+        <strong>Escenario 2: Reintentos con <em>backoff</em></strong><br>
+        <strong>Dado</strong> pérdida de conexión,<br>
+        <strong>Cuando</strong> ocurre,<br>
+        <strong>Entonces</strong> el ESP32 reintenta con <em>exponential backoff</em> y registra el evento.
+        <br><br>
+        <strong>Escenario 3: Latido de salud</strong><br>
+        <strong>Dado</strong> una conexión establecida,<br>
+        <strong>Cuando</strong> transcurren 60s,<br>
+        <strong>Entonces</strong> publica un <em>heartbeat</em> al tópico de salud.
+      </td>
+      <td>EP-06</td>
+    </tr>
+    <!-- TS-08 -->
+    <tr>
+      <td><strong>TS-08</strong></td>
+      <td>Configuración del broker de mensajería</td>
+      <td align="justify">
+        <strong>Como</strong> developer, <strong>quiero</strong> configurar HiveMQ como broker MQTT,
+        <strong>para</strong> permitir comunicación segura entre dispositivos IoT y backend.
+      </td>
+      <td align="justify">
+        <strong>Escenario 1: Control de acceso</strong><br>
+        <strong>Dado</strong> el broker en operación,<br>
+        <strong>Cuando</strong> defino autenticación (usuario/clave o certificados),<br>
+        <strong>Entonces</strong> solo clientes autorizados pueden publicar/suscribirse.
+        <br><br>
+        <strong>Escenario 2: TLS habilitado</strong><br>
+        <strong>Dado</strong> TLS activo en el broker,<br>
+        <strong>Cuando</strong> un cliente intenta una conexión insegura,<br>
+        <strong>Entonces</strong> la conexión se rechaza.
+        <br><br>
+        <strong>Escenario 3: Convención de tópicos</strong><br>
+        <strong>Dado</strong> la estructura de tópicos definida,<br>
+        <strong>Cuando</strong> publico o suscribo,<br>
+        <strong>Entonces</strong> se respetan los prefijos.  (p. ej., <code>devices/{id}/telemetry</code> y <code>devices/{id}/commands</code>).
+      </td>
+      <td>EP-06</td>
+    </tr>
+    <!-- TS-09 -->
+    <tr>
+      <td><strong>TS-09</strong></td>
+      <td>Sensores y actuadores en ESP32</td>
+      <td align="justify">
+        <strong>Como</strong> developer, <strong>quiero</strong> configurar sensores y actuadores
+        (inductivo metal, celda de carga/peso, ultrasónico, servo de compuerta),
+        <strong>para</strong> operar el tacho de forma confiable.
+      </td>
+      <td align="justify">
+        <strong>Escenario 1: Detección y accionamiento</strong><br>
+        <strong>Dado</strong> sensores calibrados,<br>
+        <strong>Cuando</strong> detecto metal válido,<br>
+        <strong>Entonces</strong> habilito la compuerta (servo) y registro evento con <em>timestamp</em> y peso aproximado.
+        <br><br>
+        <strong>Escenario 2: Filtrado de ruido</strong><br>
+        <strong>Dado</strong> lecturas ruidosas,<br>
+        <strong>Cuando</strong> aplico filtrado/<em>debounce</em>,<br>
+        <strong>Entonces</strong> evito falsos positivos.
+        <br><br>
+        <strong>Escenario 3: Umbral de llenado</strong><br>
+        <strong>Dado</strong> nivel de llenado alto,<br>
+        <strong>Cuando</strong> el ultrasónico supera el umbral,<br>
+        <strong>Entonces</strong> marco estado “lleno” y publico alerta MQTT.
+      </td>
+      <td>EP-06</td>
+    </tr>
+  </tbody>
+</table>
+
 ## 3.3. Impact mapping
+<div align="justify">
+  En esta sección se presenta cómo el sistema se alinea con los objetivos estratégicos del proyecto, evidenciando de manera clara cómo cada funcionalidad contribuye directamente al logro de los resultados esperados.
+</div>
+
+### Segmento objetivo 1: Bañistas
+
+<div align="center">
+  <img src="./chapter-3/impact-mapping/segmento-1.png" alt="Impact Mapping Bañistas">
+</div>
+
+### Segmento objetivo 2: Municipalidades costeras
+
+<div align="center">
+  <img src="./chapter-3/impact-mapping/segmento-2.png" alt="Impact Mapping Municipalidades Costeras">
+</div>
 
 ## 3.4. Product Backlog
+
+<div align="justify"> 
+  El Product Backlog es una lista priorizada y dinámica que reúne todas las funcionalidades, requisitos, mejoras y tareas necesarias para el desarrollo de la aplicación. Su propósito es servir como guía central del proyecto, asegurando que cada entrega responda a las necesidades del usuario y a los objetivos planteados. Al mantenerlo actualizado y ordenado, se facilita la planificación de iteraciones, la asignación de prioridades y el enfoque del equipo en generar el mayor valor posible en cada incremento del producto.
+</div>
+
+<table align="center" width="100%" cellspacing="0" cellpadding="6" style="border-collapse:collapse;">
+  <thead align="center" style="background:#F8FAFC;">
+    <tr>
+      <th># Orden</th>
+      <th>User Story Id</th>
+      <th>Título</th>
+      <th>Descripción</th>
+      <th>Story Points</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="text-align:center;">
+      <td>1</td>
+      <td>HU-01</td>
+      <td>Ver municipalidades participantes</td>
+      <td align="justify">Como visitante, quiero ver las municipalidades adheridas al programa, para saber si mi distrito participa y dónde.</td>
+      <td>2</td>
+    </tr>
+    <tr style="text-align:center;">
+      <td>2</td>
+      <td>HU-02</td>
+      <td>Ver recompensas destacadas</td>
+      <td align="justify">Como visitante, quiero visualizar recompensas de ejemplo, para entender el valor del programa y motivarme a participar.</td>
+      <td>2</td>
+    </tr>
+    <tr style="text-align:center;">
+      <td>3</td>
+      <td>HU-04</td>
+      <td>Consultar FAQ y enviar contacto</td>
+      <td align="justify">Como visitante, quiero resolver dudas frecuentes y enviar consultas, para recibir soporte oportuno.</td>
+      <td>3</td>
+    </tr>
+    <tr style="text-align:center;">
+      <td>4</td>
+      <td>HU-05</td>
+      <td>Registrar interés municipal</td>
+      <td align="justify">Como representante de municipalidad, quiero registrar una solicitud de adhesión, para que la empresa evalúe mi incorporación y me contacte.</td>
+      <td>3</td>
+    </tr>
+    <tr style="text-align:center;">
+      <td>5</td>
+      <td>HU-03</td>
+      <td>Conocer proceso para obtener tarjeta RFID</td>
+      <td align="justify">Como visitante, quiero conocer los pasos para obtener mi tarjeta, para empezar a usar el sistema y acumular puntos.</td>
+      <td>1</td>
+    </tr>
+    <tr style="text-align:center;">
+      <td>6</td>
+      <td>HU-06</td>
+      <td>Registro de cuenta</td>
+      <td align="justify">Como visitante, quiero crear una cuenta como bañista o municipalidad, para acceder a la aplicación según mi rol.</td>
+      <td>5</td>
+    </tr>
+    <tr style="text-align:center;">
+      <td>7</td>
+      <td>HU-07</td>
+      <td>Inicio de sesión</td>
+      <td align="justify">Como usuario, quiero iniciar sesión con mis credenciales, para acceder a mi panel según mi rol.</td>
+      <td>3</td>
+    </tr>
+    <tr style="text-align:center;">
+      <td>8</td>
+      <td>HU-09</td>
+      <td>Cerrar sesión</td>
+      <td align="justify">Como usuario, quiero cerrar sesión, para proteger mi cuenta en dispositivos compartidos.</td>
+      <td>1</td>
+    </tr>
+    <tr style="text-align:center;">
+      <td>9</td>
+      <td>TS-01</td>
+      <td>API de autenticación con JWT</td>
+      <td align="justify">Como developer, quiero exponer endpoints de registro, login y logout seguros, para garantizar autenticación protegida basada en JWT.</td>
+      <td>5</td>
+    </tr>
+    <tr style="text-align:center;">
+      <td>10</td>
+      <td>HU-08</td>
+      <td>Recuperar contraseña</td>
+      <td align="justify">Como usuario, quiero recuperar mi contraseña por correo, para restablecer el acceso a mi cuenta.</td>
+      <td>3</td>
+    </tr>
+    <tr style="text-align:center;">
+      <td>11</td>
+      <td>HU-10</td>
+      <td>Editar perfil</td>
+      <td align="justify">Como usuario, quiero actualizar datos personales y de contacto, para mantener mi información vigente en la plataforma.</td>
+      <td>3</td>
+    </tr>
+    <tr style="text-align:center;">
+      <td>12</td>
+      <td>TS-08</td>
+      <td>Configuración del broker de mensajería</td>
+      <td align="justify">Como developer, quiero configurar HiveMQ como broker MQTT, para permitir comunicación segura entre dispositivos IoT y backend.</td>
+      <td>5</td>
+    </tr>
+    <tr style="text-align:center;">
+      <td>13</td>
+      <td>TS-07</td>
+      <td>Configuración de ESP32 (Wi-Fi y MQTT)</td>
+      <td align="justify">Como developer, quiero configurar el ESP32 para conectarse a Wi-Fi y al broker MQTT, para publicar telemetría y recibir comandos.</td>
+      <td>5</td>
+    </tr>
+    <tr style="text-align:center;">
+      <td>14</td>
+      <td>TS-09</td>
+      <td>Sensores y actuadores en ESP32</td>
+      <td align="justify">Como developer, quiero configurar sensores y actuadores (inductivo metal, celda de carga/peso, ultrasónico, servo de compuerta), para operar el tacho de forma confiable.</td>
+      <td>8</td>
+    </tr>
+    <tr style="text-align:center;">
+      <td>15</td>
+      <td>TS-02</td>
+      <td>API de RFID y puntos</td>
+      <td align="justify">Como developer, quiero validar RFID y sumar puntos por evento, para mantener el historial de reciclaje consistente.</td>
+      <td>5</td>
+    </tr>
+    <tr style="text-align:center;">
+      <td>16</td>
+      <td>HU-11</td>
+      <td>Registrar tarjeta RFID</td>
+      <td align="justify">Como bañista, quiero asociar mi tarjeta RFID a mi cuenta, para acumular puntos automáticamente al reciclar.</td>
+      <td>5</td>
+    </tr>
+    <tr style="text-align:center;">
+      <td>17</td>
+      <td>HU-12</td>
+      <td>Consultar puntos por municipalidad</td>
+      <td align="justify">Como bañista, quiero consultar mis puntos acumulados por municipalidad, para conocer mi avance en cada jurisdicción.</td>
+      <td>3</td>
+    </tr>
+    <tr style="text-align:center;">
+      <td>18</td>
+      <td>HU-13</td>
+      <td>Ver saldo total</td>
+      <td align="justify">Como bañista, quiero consultar mi saldo total de puntos, para saber cuánto puedo canjear.</td>
+      <td>2</td>
+    </tr>
+    <tr style="text-align:center;">
+      <td>19</td>
+      <td>HU-15</td>
+      <td>Historial de reciclaje</td>
+      <td align="justify">Como bañista, quiero consultar mi historial de reciclaje, para revisar mis acciones y puntos obtenidos en el tiempo.</td>
+      <td>3</td>
+    </tr>
+    <tr style="text-align:center;">
+      <td>20</td>
+      <td>TS-03</td>
+      <td>API de canje con ID único</td>
+      <td align="justify">Como developer, quiero generar y validar IDs únicos para los canjes, para evitar duplicados y fraudes.</td>
+      <td>5</td>
+    </tr>
+    <tr style="text-align:center;">
+      <td>21</td>
+      <td>HU-14</td>
+      <td>Canjear recompensas</td>
+      <td align="justify">Como bañista, quiero canjear mis puntos por recompensas, para obtener beneficios del programa.</td>
+      <td>8</td>
+    </tr>
+    <tr style="text-align:center;">
+      <td>22</td>
+      <td>HU-16</td>
+      <td>Ranking de bañistas</td>
+      <td align="justify">Como bañista, quiero consultar el ranking en mi municipalidad, para compararme con otros usuarios y motivarme a mejorar.</td>
+      <td>3</td>
+    </tr>
+    <tr style="text-align:center;">
+      <td>23</td>
+      <td>TS-04</td>
+      <td>Telemetría de recolectores (Edge/IoT)</td>
+      <td align="justify">Como developer, quiero procesar en el edge datos de peso y ocupación, para optimizar reportes y reducir la latencia.</td>
+      <td>5</td>
+    </tr>
+    <tr style="text-align:center;">
+      <td>24</td>
+      <td>HU-18</td>
+      <td>Administración de recompensas</td>
+      <td align="justify">Como municipalidad, quiero añadir, editar o eliminar recompensas, para ofrecer beneficios actualizados a los bañistas.</td>
+      <td>5</td>
+    </tr>
+    <tr style="text-align:center;">
+      <td>25</td>
+      <td>HU-17</td>
+      <td>Panel de recolectores</td>
+      <td align="justify">Como municipalidad, quiero consultar ubicación, peso/ocupación y estado de cada recolector, para planificar el retiro oportuno.</td>
+      <td>8</td>
+    </tr>
+    <tr style="text-align:center;">
+      <td>26</td>
+      <td>HU-20</td>
+      <td>Reporte de residuos</td>
+      <td align="justify">Como municipalidad, quiero consultar peso y cantidad de residuos recolectados, para medir el desempeño y planificar la operación.</td>
+      <td>5</td>
+    </tr>
+    <tr style="text-align:center;">
+      <td>27</td>
+      <td>HU-19</td>
+      <td>Ranking de bañistas (vista municipal)</td>
+      <td align="justify">Como municipalidad, quiero consultar el ranking de bañistas por puntos, para incentivar la participación y reconocer a los más activos.</td>
+      <td>3</td>
+    </tr>
+    <tr style="text-align:center;">
+      <td>28</td>
+      <td>HU-21</td>
+      <td>Gestión de usuarios municipales</td>
+      <td align="justify">Como municipalidad, quiero listar y suspender usuarios en mi jurisdicción, para mantener el control de acceso y evitar usos indebidos.</td>
+      <td>3</td>
+    </tr>
+    <tr style="text-align:center;">
+      <td>29</td>
+      <td>TS-05</td>
+      <td>Despliegue en Azure Web App</td>
+      <td align="justify">Como developer, quiero desplegar la aplicación en Azure Web App, para garantizar disponibilidad sin manejar contenedores.</td>
+      <td>3</td>
+    </tr>
+    <tr style="text-align:center;">
+      <td>30</td>
+      <td>TS-06</td>
+      <td>Seguridad y cifrado TLS/HTTPS</td>
+      <td align="justify">Como developer, quiero habilitar HTTPS con TLS, para proteger la comunicación entre cliente, backend y broker.</td>
+      <td>1</td>
+    </tr>
+  </tbody>
+</table>
 
 # Capítulo IV: Solution Software Design
 
@@ -1511,6 +2568,7 @@ Esta aproximación permite evolución independiente de cada bounded context mien
 ## 4.2. Tactical-Level Domain-Driven Design
 
 ### 4.2.X. Bounded Context
+### 4.2.X. Bounded Context
 
 #### 4.2.X.1. Domain Layer
 
@@ -1583,29 +2641,41 @@ Esta aproximación permite evolución independiente de cada bounded context mien
 ### 6.2.X. Sprint n
 
 #### 6.2.X.1. Sprint Planning n
+#### 6.2.X.1. Sprint Planning n
 
+#### 6.2.X.2. Sprint Backlog n
 #### 6.2.X.2. Sprint Backlog n
 
 #### 6.2.X.3. Development Evidence for Sprint Review
 
 #### 6.2.X.4. Testing Suite Evidence for Sprint Review
+#### 6.2.X.4. Testing Suite Evidence for Sprint Review
 
+#### 6.2.X.5. Execution Evidence for Sprint Review
 #### 6.2.X.5. Execution Evidence for Sprint Review
 
 #### 6.2.X.6. Services Documentation Evidence for Sprint Review
+#### 6.2.X.6. Services Documentation Evidence for Sprint Review
 
+#### 6.2.X.7. Software Deployment Evidence for Sprint Review
 #### 6.2.X.7. Software Deployment Evidence for Sprint Review
 
 #### 6.2.X.8. Team Collaboration Insights during Sprint
+#### 6.2.X.8. Team Collaboration Insights during Sprint
 
+## 6.3. Validation Interviews
 ## 6.3. Validation Interviews
 
 ### 6.3.1. Diseño de Entrevistas
+### 6.3.1. Diseño de Entrevistas
 
+### 6.3.2. Registro de Entrevistas
 ### 6.3.2. Registro de Entrevistas
 
 ### 6.3.3. Evaluaciones según heurísticas
+### 6.3.3. Evaluaciones según heurísticas
 
+## 6.4. Video About-the-Product
 ## 6.4. Video About-the-Product
 
 # Conclusiones
