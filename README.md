@@ -169,7 +169,15 @@ Esta sección tiene como propósito detallar las actualizaciones significativas 
 
 # Project Report Collaboration Insights
 
-<br><br>
+- Link de la organización: https://github.com/Desarrollo-Soluciones-IOT-Grupo-02
+- Link del reporte: https://github.com/Desarrollo-Soluciones-IOT-Grupo-02/Report
+
+### **TB1:**
+Las coordinaciones iniciales se realizaron en Google Meet, mientras que el seguimiento continuo se llevó a cabo principalmente en WhatsApp. Para la gestión del código se utilizó GitHub, donde los commits reflejan las contribuciones y el trabajo colaborativo del equipo.
+
+- Commits del equipo
+
+![img]()
 
 # Contenido
 
@@ -2448,8 +2456,6 @@ En esta sección, se presenta las User Stories diseñadas que cumplen con las ne
 
 # Capítulo IV: Solution Software Design
 
-# Capítulo IV: Solution Software Design
-
 ## 4.1. Strategic-Level Domain-Driven Design
 En nuestro equipo, abordamos las decisiones estratégicas utilizando Domain-Driven Design (DDD) para asegurarnos de que comprendemos a fondo el dominio y sus complejidades relacionadas con la gestión automatizada de residuos metálicos y el sistema de recompensas municipales. Aplicamos Event Storming como primera herramienta, lo que nos permitió identificar juntos los eventos clave dentro del sistema y visualizar cómo fluye la información y las interacciones en el negocio de reciclaje inteligente.
 
@@ -2744,8 +2750,6 @@ El diagrama muestra claramente cómo los seis bounded contexts interactúan entr
 
 > Muestra dónde se despliegan los contenedores: ESP32 en playa, Backend/DB en Railway, Landing en GitHub Pages, Web Admin en hosting SPA y App móvil en Android.  
 ![Deployment – Production](./diagrams/c4/03-deployment/structurizr-105978-deploy.png)
-
-## 4.2. Tactical-Level Domain-Driven Design
 
 # 4.2. Tactical-Level Domain-Driven Design
 
