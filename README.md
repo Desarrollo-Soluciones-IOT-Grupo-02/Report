@@ -3341,6 +3341,7 @@ El diagrama muestra claramente cómo los seis bounded contexts interactúan entr
 
 # Conclusiones
 
+El equipo logró integrar de manera efectiva tanto la perspectiva estratégica y técnica del modelado de dominio como el enfoque en la experiencia del usuario. Se realizaron entrevistas al primer segmento objetivo y sus respectivos resúmenes, lo que permitió contar con información real para orientar las decisiones. A partir de ello, se desarrollaron entregables clave como el Strategic-Level Domain-Driven Design, EventStorming, Candidate Context Discovery, Bounded Context Canvases, Context Mapping y Lean UX Process (con Problem Statements, Assumptions e Hypothesis Statements). Esta combinación aseguró una base sólida para la solución, garantizando coherencia, organización y un enfoque centrado en los objetivos del proyecto.
 ## Conclusiones y recomendaciones
 
 ## Video About-the-Team
