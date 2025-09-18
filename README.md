@@ -85,13 +85,12 @@ Esta sección tiene como propósito detallar las actualizaciones significativas 
       <td>Quiñones Tintaya, Johan Jorge</td>
       <td>
         - Realice entrevista a usuario<br>
-        - Desarrolle el analisis completo de todas las entrevistas
-        - Desarrolle completamente el punto de Tactical-Level Domain-Driven Design para el BD de WasteCollection
-        - Desarrolle completamente el punto de Tactical-Level Domain-Driven Design para el BD de UserIdentification
-        - Desarrolle completamente el punto de Tactical-Level Domain-Driven Design para el BD de RewardManagement
-        - Desarrolle completamente el punto de Tactical-Level Domain-Driven Design para el BD de MunicipalityManagement
+        - Desarrolle el analisis completo de todas las entrevistas<br>
+        - Desarrolle completamente el punto de Tactical-Level Domain-Driven Design para el BD de WasteCollection<br>
+        - Desarrolle completamente el punto de Tactical-Level Domain-Driven Design para el BD de UserIdentification<br>
+        - Desarrolle completamente el punto de Tactical-Level Domain-Driven Design para el BD de RewardManagement<br>
+        - Desarrolle completamente el punto de Tactical-Level Domain-Driven Design para el BD de MunicipalityManagement<br>
         - Desarrolle completamente el punto de Tactical-Level Domain-Driven Design para el BD de Monitoring & Reporting 
-
       </td>
     </tr>
         <tr>
@@ -256,137 +255,93 @@ Esta sección tiene como propósito detallar las actualizaciones significativas 
 <b>ABET – EAC - Student Outcome 5:</b>
 La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos proporcionan liderazgo, crean un entorno de colaboración e inclusivo, establecen objetivos, planifican tareas y cumplen objetivos.
 
-<table align="center">
+<!-- Student Outcomes – TB1 -->
+<style>
+  .so-table{width:100%;border-collapse:collapse;font-family:system-ui,Segoe UI,Roboto,Arial,sans-serif}
+  .so-table th,.so-table td{border:1px solid #e5e7eb;padding:12px;vertical-align:top}
+  .so-table th{background:#f8fafc;text-align:left}
+  .inner-table{width:100%;border-collapse:collapse}
+  .inner-table td{border:none;padding:8px 0;vertical-align:top}
+  .badge{display:inline-block;background:#eef2ff;color:#3730a3;font-weight:700;border-radius:6px;padding:2px 8px}
+  .who{font-weight:700}
+  .just{text-align:justify}
+</style>
+
+<table class="so-table" align="center">
   <thead>
     <tr>
-      <th>Criterio específico</th>
-      <th>Acciones realizadas</th>
-      <th>Conclusiones</th>
+      <th style="width:22%">Criterio específico</th>
+      <th style="width:48%">Acciones realizadas</th>
+      <th style="width:30%">Conclusiones</th>
     </tr>
   </thead>
   <tbody>
     <!-- Criterio 1 -->
     <tr>
-      <td rowspan="1">
-        Trabaja en equipo para proporcionar liderazgo en forma conjunta
-      </td>
-      <!-- TB1 -->
+      <td>Trabaja en equipo para proporcionar liderazgo en forma conjunta</td>
       <td>
-        <table>
+        <table class="inner-table">
+          <tr><td><span class="badge">TB1</span></td></tr>
           <tr>
-            <td rowspan="7"><b>TB1</b></td>
-          </tr>
-        <!-- Estudiantes -->
-          <tr>
-            <td align="justify">
-              <b>Del Carmen Zorrilla, Ray Alessandro:</b><br>
-              Durante el desarrollo del proyecto asumí un rol activo en la organización de las tareas y coordinación con mis compañeros. 
-              Brindé liderazgo conjunto al proponer la segmentación de los usuarios y en la preparación de las entrevistas, 
+            <td class="just">
+              <span class="who">Del Carmen Zorrilla, Ray Alessandro:</span><br>
+              Durante el desarrollo del proyecto asumí un rol activo en la organización de las tareas y coordinación con mis compañeros.
+              Brindé liderazgo conjunto al proponer la segmentación de los usuarios y en la preparación de las entrevistas,
               fomentando la toma de decisiones compartida y asegurando que el equipo avanzara de forma ordenada y alineada a los objetivos.
             </td>
           </tr>
           <tr>
-            <td align="justify">
-              <b>Estudiante 2:</b><br>
-              Morbi vel tortor id eros dictum venenatis id ut dui. Mauris quis tellus sed nunc hendrerit vehicula ac id mauris.
+            <td class="just">
+              <span class="who">Quiñones Tintaya, Johan Jorge:</span><br>
+              En el avance del Análisis de entrevistas, coordiné con mis compañeros la construcción de preguntas y la redacción de respuestas en primera persona,
+              de modo que todos pudimos aportar desde distintos enfoques. Del mismo modo, en el desarrollo del Tactical-Level Domain-Driven Design
+              y sus subpuntos por cada bounded context, ejercí el desarrollo completo de sus responsabilidades técnicas (diagramas, definición de capas y modelos).
             </td>
           </tr>
-          <tr>
-            <td align="justify">
-              <b>Quiñones Tintaya, Johan Jorge:</b><br>
-              En el avance del Análisis de entrevistas, coordine con mis compañeros la construcción de preguntas y la redacción de respuestas en primera persona, de modo que todos pudimos aportar desde distintos enfoques. Del mismo modo, en el desarrollo del Tactical-Level Domain-Driven Design y sus subpuntos por cada bounded context, ejercí el desarrollo completo de sus responsabilidades técnicas (diagramas, definición de capas y modelos).
-            </td>
-          </tr>
-          <tr>
-            <td align="justify">
-              <b>Estudiante 4:</b><br>
-              Morbi vel tortor id eros dictum venenatis id ut dui. Mauris quis tellus sed nunc hendrerit vehicula ac id mauris.
-            </td>
-          </tr>
-          <tr>
-            <td align="justify">
-              <b>Estudiante 5:</b><br>
-              Morbi vel tortor id eros dictum venenatis id ut dui. Mauris quis tellus sed nunc hendrerit vehicula ac id mauris.
-            </td>
-          </tr>
-          <tr>
-            <td align="justify">
-              <b>Estudiante 6:</b><br>
-              Morbi vel tortor id eros dictum venenatis id ut dui. Mauris quis tellus sed nunc hendrerit vehicula ac id mauris.
-            </td>
-          </tr>
+          <tr><td class="just"><span class="who">Estudiante 2:</span><br>[Aportes en liderazgo compartido].</td></tr>
+          <tr><td class="just"><span class="who">Estudiante 4:</span><br>[Aportes en liderazgo compartido].</td></tr>
+          <tr><td class="just"><span class="who">Estudiante 5:</span><br>[Aportes en liderazgo compartido].</td></tr>
+          <tr><td class="just"><span class="who">Estudiante 6:</span><br>[Aportes en liderazgo compartido].</td></tr>
         </table>
       </td>
-      <!-- Conclusion TB1 -->
-      <td rowspan="1" align="justify">
-        Como grupo distribuimos las responsabilidades de manera equilibrada en cada capítulo del proyecto, 
-        permitiendo que cada integrante asumiera un rol de liderazgo en sus secciones (entrevistas, Lean UX, análisis competitivo, 
-        scenario mapping, user stories, arquitectura, entre otros).  
-        Esto fomentó un liderazgo compartido, donde cada miembro guió al resto en su parte y, al mismo tiempo, 
-        se apoyó en las ideas de los demás para enriquecer los entregables.  
+      <td class="just">
+        Como grupo distribuimos las responsabilidades en cada capítulo del proyecto, permitiendo que cada integrante
+        asumiera un rol de liderazgo en su sección (entrevistas, Lean UX, análisis competitivo, scenario mapping, user stories, arquitectura, etc.).
+        Esto fomentó un liderazgo compartido: cada miembro guió al resto en su parte y, a la vez, se apoyó en las ideas de los demás para enriquecer los entregables.
       </td>
     </tr>
     <!-- Criterio 2 -->
     <tr>
-      <td rowspan="1" >
-        Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.
-      </td>
-      <!-- TB1 -->
+      <td>Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos</td>
       <td>
-        <table>
+        <table class="inner-table">
+          <tr><td><span class="badge">TB1</span></td></tr>
           <tr>
-            <td rowspan="7"><b>TB1</b></td>
-          </tr>
-        <!-- Estudiantes -->
-          <tr>
-            <td align="justify">
-              <b>Del Carmen Zorrilla, Ray Alessandro:</b><br>
-              Contribuí a crear un entorno colaborativo e inclusivo dentro del equipo, 
-              promoviendo la participación de todos y valorando cada propuesta. 
-              Establecí metas claras en la elaboración del To-Be Scenario Mapping, Impact Mapping y Product Backlog, 
-              planificando tareas de manera conjunta y asegurando que se cumplieran los objetivos en los plazos acordados. 
-              Mi aporte se centró en mantener un clima de confianza y compromiso para lograr entregables de calidad.
+            <td class="just">
+              <span class="who">Del Carmen Zorrilla, Ray Alessandro:</span><br>
+              Contribuí a crear un entorno colaborativo e inclusivo promoviendo la participación de todos y valorando cada propuesta.
+              Establecí metas claras en la elaboración del To-Be Scenario Mapping, Impact Mapping y Product Backlog,
+              planificando tareas de manera conjunta y asegurando el cumplimiento de objetivos en los plazos acordados.
             </td>
           </tr>
           <tr>
-            <td align="justify">
-              <b>Estudiante 2:</b><br>
-              Morbi vel tortor id eros dictum venenatis id ut dui. Mauris quis tellus sed nunc hendrerit vehicula ac id mauris.
+            <td class="just">
+              <span class="who">Quiñones Tintaya, Johan Jorge:</span><br>
+              Durante la elaboración del Análisis de entrevistas, integré distintas perspectivas (usuarios, municipalidades y bañistas),
+              garantizando que las voces recogidas se reflejaran en el documento. En el Tactical-Level DDD, establecimos metas por bounded context,
+              planificamos la entrega de diagramas y modelos por fases y cumplimos con los objetivos de manera organizada.
             </td>
           </tr>
-          <tr>
-            <td align="justify">
-              <b>Quiñones Tintaya, Johan Jorge:</b><br>
-              Durante la elaboración del Análisis de entrevistas, fomenté un entorno inclusivo al integrar distintas perspectivas (usuarios, municipalidades y bañistas), garantizando que las voces recogidas se reflejaran en el documento. Asimismo, en el Tactical-Level DDD, establecí junto al equipo metas claras para cada bounded context, planificamos la entrega de diagramas y modelos en fases, y cumplimos con los objetivos trazados de manera organizada, asegurando coherencia entre todas las capas y subpuntos definidos.
-            </td>
-          </tr>
-          <tr>
-            <td align="justify">
-              <b>Estudiante 4:</b><br>
-              Morbi vel tortor id eros dictum venenatis id ut dui. Mauris quis tellus sed nunc hendrerit vehicula ac id mauris.
-            </td>
-          </tr>
-          <tr>
-            <td align="justify">
-              <b>Estudiante 5:</b><br>
-              Morbi vel tortor id eros dictum venenatis id ut dui. Mauris quis tellus sed nunc hendrerit vehicula ac id mauris.
-            </td>
-          </tr>
-          <tr>
-            <td align="justify">
-              <b>Estudiante 6:</b><br>
-              Morbi vel tortor id eros dictum venenatis id ut dui. Mauris quis tellus sed nunc hendrerit vehicula ac id mauris.
-            </td>
-          </tr>
+          <tr><td class="just"><span class="who">Estudiante 2:</span><br>[Aportes en colaboración, metas y planificación].</td></tr>
+          <tr><td class="just"><span class="who">Estudiante 4:</span><br>[Aportes en colaboración, metas y planificación].</td></tr>
+          <tr><td class="just"><span class="who">Estudiante 5:</span><br>[Aportes en colaboración, metas y planificación].</td></tr>
+          <tr><td class="just"><span class="who">Estudiante 6:</span><br>[Aportes en colaboración, metas y planificación].</td></tr>
         </table>
       </td>
-      <!-- Conclusion TB1 -->
-      <td rowspan="1" align="justify">
-        El equipo trabajó en un entorno colaborativo, valorando las propuestas de todos y asegurando la participación equitativa.  
-        Se establecieron metas claras para cada hito (entrevistas, análisis, mapeos, especificaciones y diseño), 
-        planificando tareas de forma conjunta y distribuyendo el trabajo según las fortalezas de cada integrante.  
-        Gracias a esta organización y compromiso colectivo, se cumplieron los objetivos en los tiempos establecidos, 
-        garantizando un proyecto cohesionado y alineado a la solución propuesta.
+      <td class="just">
+        El equipo trabajó en un entorno colaborativo e inclusivo, con metas claras por hito (entrevistas, análisis, mapeos, especificación y diseño),
+        planificación conjunta y distribución según fortalezas. Gracias a esta organización y compromiso colectivo,
+        se cumplieron los objetivos en los tiempos establecidos y se mantuvo la coherencia del proyecto.
       </td>
     </tr>
   </tbody>
@@ -952,7 +907,7 @@ Al finalizar la entrevista, se presenta al entrevistado la idea del proyecto jun
   <li><b>Edad:</b> 21 años</li>
   <li><b>Distrito:</b> Ventanilla</li>
   <li><b>Nombre del entrevistador:</b> Gustavo Pardo</li>
-  <li><b>Duración:</b> 06:09:00</li>
+  <li><b>Duración:</b> 06:09</li>
 </ul>
 
 <p><b>Evidencia de la entrevista:</b></p>
@@ -963,11 +918,11 @@ Al finalizar la entrevista, se presenta al entrevistado la idea del proyecto jun
 
 <p align="center">
   <b>Enlace de entrevista:</b>
-  <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202120347_upc_edu_pe/EV9G5QaBY35HrWKGJiDWL6cBlIZ_fVRdGKS1x7VeihuQOA?e=V2Mybg&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">Ver video</a>
+  <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202124061_upc_edu_pe/EXFy6VcD7ixDr6BRcVRKnp8B2_4B9TrGpuahW1rCm42kIw?e=I9Ug6O&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MTcuNTZ9fQ%3D%3D">Ver video</a>
 </p>
 
 <p align="center">
-  <b>Inicio:</b> 00:00:00 — <b>Fin:</b> 06:09:00
+  <b>Inicio:</b> 00:17 — <b>Fin:</b> 06:15
 </p>
 
 <p><b>Resumen de la entrevista:</b></p>
@@ -984,7 +939,7 @@ Renzo Ramos, de 21 años y residente de Ventanilla, visita la playa Costa Azul c
   <li><b>Edad:</b> 28 años</li>
   <li><b>Distrito:</b> Santiago de Surco, Lima</li>
   <li><b>Nombre del entrevistador:</b> Orlando Roca</li>
-  <li><b>Duración:</b> 00:04:43</li>
+  <li><b>Duración:</b> 04:44</li>
 </ul>
 
 <p><b>Evidencia de la entrevista:</b></p>
@@ -994,11 +949,12 @@ Renzo Ramos, de 21 años y residente de Ventanilla, visita la playa Costa Azul c
 </p>
 
 <p align="center">
-  <b>Enlace de entrevista:</b> <i>(pendiente)</i>
+  <b>Enlace de entrevista:</b>
+  <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202124061_upc_edu_pe/EXFy6VcD7ixDr6BRcVRKnp8B2_4B9TrGpuahW1rCm42kIw?e=ZxcjlI&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6NDI5LjE2fX0%3D">Ver video</a>
 </p>
 
 <p align="center">
-  <b>Inicio:</b> 00:00:00 — <b>Fin:</b> 00:04:43
+  <b>Inicio:</b> 07:09 — <b>Fin:</b> 11:00
 </p>
 
 <p><b>Resumen de la entrevista:</b></p>
@@ -1015,7 +971,7 @@ Carlos Ramírez, de 28 años y residente de Surco, visita las playas con frecuen
   <li><b>Edad:</b> 29 años</li>
   <li><b>Distrito:</b> Santa Anita, Lima</li>
   <li><b>Nombre del entrevistador:</b> Eduardo Mancilla</li>
-  <li><b>Duración:</b> 00:07:17</li>
+  <li><b>Duración:</b> 07:17</li>
 </ul>
 
 <p><b>Evidencia de la entrevista:</b></p>
@@ -1025,11 +981,12 @@ Carlos Ramírez, de 28 años y residente de Surco, visita las playas con frecuen
 </p>
 
 <p align="center">
-  <b>Enlace de entrevista:</b> <i>(pendiente)</i>
+  <b>Enlace de entrevista:</b>
+  <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202124061_upc_edu_pe/EXFy6VcD7ixDr6BRcVRKnp8B2_4B9TrGpuahW1rCm42kIw?e=oU1POG&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6NjcxLjh9fQ%3D%3D">Ver video</a>
 </p>
 
 <p align="center">
-  <b>Inicio:</b> 00:00:00 — <b>Fin:</b> 00:07:17
+  <b>Inicio:</b> 11:11 — <b>Fin:</b> 18:19
 </p>
 
 <p><b>Resumen de la entrevista:</b></p>
@@ -1048,7 +1005,7 @@ Carlos Ramírez, de 28 años y residente de Surco, visita las playas con frecuen
   <li><b>Edad:</b> 32 años</li>
   <li><b>Distrito:</b> Punta Hermosa, Lima</li>
   <li><b>Nombre del entrevistador:</b> Ray Del Carmen</li>
-  <li><b>Duración:</b> 00:00</li>
+  <li><b>Duración:</b> 12:12</li>
 </ul>
 
 <p><b>Evidencia de la entrevista:</b></p>
@@ -1058,11 +1015,11 @@ Carlos Ramírez, de 28 años y residente de Surco, visita las playas con frecuen
 </p>
 
 <p align="center">
-  <b>Enlace de entrevista:</b> <i>(pendiente)</i>
+  <b>Enlace de entrevista:</b>
+  <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202124061_upc_edu_pe/EXFy6VcD7ixDr6BRcVRKnp8B2_4B9TrGpuahW1rCm42kIw?e=Uc1ifP&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MTExNS4zNH19">Ver video</a>
 </p>
-
 <p align="center">
-  <b>Inicio:</b> 00:00:00 — <b>Fin:</b> 00:00:00
+  <b>Inicio:</b> 18:35 — <b>Fin:</b> 30:38
 </p>
 
 <p><b>Resumen de la entrevista:</b></p>
@@ -1097,11 +1054,11 @@ Carlos Ramírez, de 28 años y residente de Surco, visita las playas con frecuen
 </p>
 
 <p align="center">
-  <b>Enlace de entrevista:</b> <i></i>
+  <b>Enlace de entrevista:</b>
+  <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202124061_upc_edu_pe/EXFy6VcD7ixDr6BRcVRKnp8B2_4B9TrGpuahW1rCm42kIw?e=Yzfvyv&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MTg0NS42MX19">Ver video</a>
 </p>
-
 <p align="center">
-  <b>Inicio:</b> 00:00:00 — <b>Fin:</b> 00:00:00
+  <b>Inicio:</b> 30:45 — <b>Fin:</b> 38:36
 </p>
 
 <p><b>Resumen de la entrevista:</b></p>
@@ -1128,11 +1085,12 @@ En la entrevista, Sebastian que es asistente de la coordinación de gestión amb
 </p>
 
 <p align="center">
-  <b>Enlace de entrevista:</b> <i>https://drive.google.com/file/d/1dLXxPsqT8ctrrjbomyTydKOqzZi0B9Jr/view?usp=sharing</i>
+  <b>Enlace de entrevista:</b>
+  <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202124061_upc_edu_pe/EXFy6VcD7ixDr6BRcVRKnp8B2_4B9TrGpuahW1rCm42kIw?e=jyIabQ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MjMzMi4wNH19">Ver video</a>
 </p>
 
 <p align="center">
-  <b>Inicio:</b> 02:05 — <b>Fin:</b> 07:30
+  <b>Inicio:</b> 38:52 — <b>Fin:</b> 46:13
 </p>
 
 <p><b>Resumen de la entrevista:</b></p>
