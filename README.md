@@ -1194,11 +1194,16 @@ En la entrevista, Sebastian que es asistente de la coordinación de gestión amb
 
 Basado en 3 entrevistas (Renzo Ramos, Carlos Ramírez, Michelle Villena)
 
+<br>
+
 **Características Demográficas**
 
 El 100% de los entrevistados se encuentra en el rango de 21-29 años, con edad promedio de 26 años. Todos residen en Lima Metropolitana, distribuidos en distritos diversos como Ventanilla, Surco y Santa Anita.
 
 <img src="./entrevistas/analisis-entrevista/grafico1.png" alt="Grafico de Caracteristicas Demográficas">
+
+<br>
+
 
 **Comportamientos de Consumo**
 
@@ -1206,15 +1211,21 @@ Todos los bañistas visitan playas regularmente durante el verano, con el 67% fr
 
 <img src="./entrevistas/analisis-entrevista/grafico2.png" alt="Grafico de Comportamiento de Consumo">
 
+<br>
+
 **Percepción del Problema Ambiental**
 
 El 100% percibe residuos metálicos frecuentemente y considera que afecta negativamente su experiencia playera. Solo el 33% conoce tachos de reciclaje existentes, pero todos consideran insuficiente la infraestructura actual.
+
+<br>
 
 **Motivaciones para Reciclar**
 
 <img src="./entrevistas/analisis-entrevista/grafico3.png" alt="Grafico de Motivaciones para Reciclar">
 
 El 100% está dispuesto a usar tarjeta RFID con la condición de que el proceso sea rápido y sencillo. El 67% muestra interés en gamificación y competencia con amigos.
+
+<br>
 
 **Características Subjetivas**
 
@@ -1226,19 +1237,27 @@ La principal barrera no es la falta de conciencia ambiental, sino la ausencia de
 
 Basado en 3 entrevistas (Bruce Cipriano, Sebastian Cachis, Christian Matos)
 
+<br>
+
 **Características Demográficas**
 
 Profesionales jóvenes con edad promedio de 26 años (rango 20-32 años). El 100% ocupa cargos de gestión ambiental con experiencia en limpieza de playas. Representan municipalidades costeras de Lima, principalmente Punta Hermosa (67%) y San Miguel (33%).
 
+<br>
+
 **Métodos Actuales de Gestión**
 
 El 100% utiliza recolección manual con cuadrillas. El 67% emplea contenedores diferenciados y campañas de concientización. Solo el 33% tiene convenios con recicladores formalizados y utiliza herramientas tecnológicas básicas como Excel.
+
+<br>
 
 **Principales Desafíos**
 
 <img src="./entrevistas/analisis-entrevista/grafico4.png" alt="Grafico de Principales Desafiós">
 
 El 100% reconoce que los residuos metálicos afectan la imagen turística. El 67% identifica la dependencia de mano de obra como principal desafío, mientras que el 33% menciona limitaciones de financiamiento y falta de métricas.
+
+<br>
 
 **Recepción del Proyecto Metalix**
 
@@ -1260,6 +1279,8 @@ Arquetipo Bañista - "El Recreacionista Consciente": Joven adulto urbano (21-29 
 Arquetipo Municipal - "El Optimizador Pragmático": Profesional joven (20-32 años) en gestión ambiental, busca optimizar recursos operativos, demostrar resultados cuantificables, implementar soluciones sostenibles de largo plazo.
 
 *Metodología: Análisis cualitativo con cuantificación de patrones recurrentes*
+
+<br>
 
 ## 2.3. Needfinding
 
