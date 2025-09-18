@@ -316,7 +316,7 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
       </td>
       <!-- TB1 -->
       <td>
-        <table align="center">
+        <table>
           <tr>
             <td rowspan="7"><b>TB1</b></td>
           </tr>
@@ -350,7 +350,7 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
           <tr>
             <td align="justify">
               <b>Roca Huapaya, Orlando Arturo:</b><br>
-              MParticipé en la entrevista al primer segmento objetivo y elaboré mi propio resumen. Lideré el desarrollo del capítulo 1 y asumí la responsabilidad en los apartados del Lean UX Process, como Problem Statements, Assumptions e Hypothesis Statements. De esta forma, ejercí un liderazgo compartido que permitió al equipo tener una base clara y bien estructurada.
+              Participé en la entrevista al primer segmento objetivo y elaboré mi propio resumen. Lideré el desarrollo del capítulo 1 y asumí la responsabilidad en los apartados del Lean UX Process, como Problem Statements, Assumptions e Hypothesis Statements. De esta forma, ejercí un liderazgo compartido que permitió al equipo tener una base clara y bien estructurada.
             </td>
           </tr>
           <tr>
