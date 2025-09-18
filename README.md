@@ -790,31 +790,31 @@ En la entrevista, Sebastian que es asistente de la coordinación de gestión amb
 
 ##### Entrevista 6
 <ul>
-  <li><b>Nombre del entrevistado:</b> —</li>
-  <li><b>Edad:</b> -- años</li>
-  <li><b>Distrito:</b> —</li>
-  <li><b>Nombre del entrevistador:</b> —</li>
-  <li><b>Duración:</b> —</li>
+  <li><b>Nombre del entrevistado:</b> Matos Fernandez, Johan Jorge</li>
+  <li><b>Edad:</b> 20 años</li>
+  <li><b>Distrito:</b> Punta Hermosa</li>
+  <li><b>Nombre del entrevistador:</b> Quiñones Tintaya, Johan Jorge</li>
+  <li><b>Duración:</b> 07:32</li>
 </ul>
 
 <p><b>Evidencia de la entrevista:</b></p>
 
 <p align="center">
-  <img src="./entrevistas/entrevista_muni_1.png" alt="Entrevista Municipalidad 3" width="85%">
+  <img src="./entrevistas/entrevista-muni_3.png" alt="Entrevista Municipalidad 3" width="85%">
 </p>
 
 <p align="center">
-  <b>Enlace de entrevista:</b> <i>(pendiente)</i>
+  <b>Enlace de entrevista:</b> <i>https://drive.google.com/file/d/1dLXxPsqT8ctrrjbomyTydKOqzZi0B9Jr/view?usp=sharing</i>
 </p>
 
 <p align="center">
-  <b>Inicio:</b> 00:00:00 — <b>Fin:</b> 00:00:00
+  <b>Inicio:</b> 02:05 — <b>Fin:</b> 07:30
 </p>
 
 <p><b>Resumen de la entrevista:</b></p>
 
 <p align="justify">
-  Resumen --------------------
+  Christian Matos, jefe ambiental de Punta Hermosa, indicó que la limpieza de playas hoy depende de trabajo manual y carece de incentivos y métricas. Reconoce que los residuos metálicos afectan la imagen turística y ve en un recolector inteligente con recompensas una solución sostenible para reducir costos y motivar a los bañistas.
 </p>
 
 ### 2.2.3. Análisis de entrevistas
