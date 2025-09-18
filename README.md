@@ -386,14 +386,15 @@ Después, utilizamos el Bounded Context Canvas para definir claramente los lími
 ### 4.1.1. EventStorming
 Event Storming es una herramienta que nos permite descubrir el comportamiento de un negocio, recopilando eventos importantes del negocio, los actores principales, servicios de terceros y otros. Para la implementación de esta sección se realizaron entrevistas correspondientes a los segmentos objetivos (ciudadanos, municipalidades y administradores), de esta manera pudimos identificar los eventos principales relacionados con la recolección de residuos metálicos, identificación de usuarios, gestión de recompensas y desarrollar un entendimiento común.
 
+![EventStorming](./diagrams/BoundedContext/eventstorming.png)
+
 Aquí mostramos los pasos respectivos para la elaboración correcta del Event Storming realizada en la herramienta de Miro.
 
 **Step 1: Unstructured Exploration**
 
 En esta sección se realizó una lluvia de ideas de los eventos del dominio relacionados con el sistema de gestión inteligente de residuos metálicos que se está explorando. Nos permitió identificar los eventos clave como: WasteCollected, UserAuthenticated, MetallicResidueValidated, PointsEarned, RewardClaimed, BenefitDefined, ReportGenerated, entre otros, y las interacciones entre ellos.
 
-<img width=600 high=600 src="https://media.discordapp.net/attachments/1417188407204909217/1417188496409628682/image.png?ex=68c99323&is=68c841a3&hm=5eda63e9430c7258247ae91800268fc56674d791cb8a5514d8892207a40d4c7c&=&format=webp&quality=lossless"/>
-<img width=600 high=600 src="https://media.discordapp.net/attachments/1417188407204909217/1417188595625889883/Mermaid_Chart_-_Create_complex_visual_diagrams_with_text._A_smarter_way_of_creating_diagrams.-2025-09-15-164124.png?ex=68c9933b&is=68c841bb&hm=af056e162ce068aeb6860e419ce95211dbd009f9d9773b82381f674672a48717&=&format=webp&quality=lossless&width=1097&height=602"/>
+
 
 **Step 2: Timelines**
 
@@ -405,39 +406,38 @@ En esta sección, los eventos identificados previamente, son agrupados en subgru
 
 Durante esta fase, identificamos puntos problemáticos o (Pain Points) que son áreas donde los usuarios pueden obtener dificultades al momento de realizar una respectiva funcionalidad en la aplicación. Estos puntos incluyen problemas con la validación RFID, fallos en los sensores de detección metálica, demoras en la asignación de puntos, y dificultades en el proceso de canje de recompensas. Estos puntos son importantes para mejorar la experiencia de usuario e implementar una aplicación eficiente.
 
-<img width=1000 high=900 src="https://media.discordapp.net/attachments/1417188407204909217/1417204725656322048/pain_points.png?ex=68c9a240&is=68c850c0&hm=a4566d8297a78adf3cf9d7d52d5e62ccc5957d275cf5d465c1f169c21b85a614&=&format=webp&quality=lossless&width=882&height=92" />
-
+![EventStorming](./diagrams/BoundedContext/painpoints.png)
 
 **Step 4: Pivotal Points**
 
 En esta fase, nos enfocamos en identificar los puntos cruciales dentro del flujo del negocio de gestión de residuos, los cuales tienen un impacto significativo en la operatividad del sistema o el comportamiento del usuario. Estos puntos incluyen la validación exitosa de residuos metálicos, la correcta identificación del usuario vía RFID, y la confirmación del canje de recompensas. Estos puntos nos ayudan a priorizar qué áreas deben ser optimizadas o revisadas con mayor detalle.
 
-<img width=1000 high=900 src="https://media.discordapp.net/attachments/1417188407204909217/1417204723664289864/Pivotal_points.png?ex=68c9a240&is=68c850c0&hm=0a12200a934673b36165c6a98c2dc8f936410242c710add8291013e2b45533af&=&format=webp&quality=lossless&width=882&height=102" />
+![EventStorming](./diagrams/BoundedContext/pivotalevents.png)
 
 
 **Step 5: Commands**
 
 Los comandos representan acciones que los actores del sistema pueden ejecutar. Durante este paso, mapeamos qué acciones desencadenan los eventos clave dentro del sistema: ValidateWaste, AuthenticateUser, AssignPoints, ClaimReward, DefineBenefit, GenerateReport, y qué actores (ciudadanos, administradores municipales, sistema IoT) son responsables de ejecutarlas.
 
-<img width=700 high=800 src="https://media.discordapp.net/attachments/1417188407204909217/1417196880093515916/Commands.png?ex=68c99af2&is=68c84972&hm=329c6da35f1af84ef304c16ed35c8d57c00927876065307ad88fd5c5d0a034d1&=&format=webp&quality=lossless&width=653&height=607"/>
+![EventStorming](./diagrams/BoundedContext/comands.png)
 
 **Step 6: Policies**
 
 En este paso, se identifican las políticas, que son reglas de negocio o condiciones que deben cumplirse para que un comando pueda ser ejecutado o un evento pueda suceder. Las políticas incluyen: "Solo se asignan puntos si el residuo es validado como metálico", "Cada usuario debe tener una tarjeta RFID única", "Los beneficios son definidos por cada municipio", "Los reportes se actualizan periódicamente".
 
-<img width=1000 high=900 src="https://media.discordapp.net/attachments/1417188407204909217/1417204724217810984/policies.png?ex=68c9a240&is=68c850c0&hm=e6d67b30b540a996c37db6fca76ed4f2cf5e0d63dfba5e906fa3802110a2d8c9&=&format=webp&quality=lossless&width=882&height=93" />
+![EventStorming](./diagrams/BoundedContext/politics.png)
 
 **Step 7: Read Models**
 
 Los Read Models son vistas del estado del sistema, generalmente optimizadas para la consulta por parte de los usuarios o procesos. Durante este paso, definimos qué información necesita ser accesible: estado de puntos del usuario, historial de recolección, beneficios disponibles, métricas de impacto ambiental, y reportes de actividad municipal.
 
-<img width=1000 high=900 src="https://media.discordapp.net/attachments/1417188407204909217/1417204724679311409/read_models.png?ex=68c9a240&is=68c850c0&hm=d30e9e7cbd2f729b4bc00c83fcdd7b6240bd1de60710ba0d92fd28885ba844ad&=&format=webp&quality=lossless&width=882&height=102" />
+![EventStorming](./diagrams/BoundedContext/readmodels.png)
 
 
 **Step 8: External Systems**
 En esta fase, identificamos los sistemas externos que interactúan con nuestro dominio: sistemas de sensores IoT para detección de metales, lectores RFID, plataformas de pago para recompensas, sistemas municipales de gestión, y servicios de notificación. Es crucial entender cómo estos sistemas externos afectan los flujos de recolección y recompensas.
 
-<img width=1000 high=900 src="https://media.discordapp.net/attachments/1417188407204909217/1417204725182631986/external_sistems.png?ex=68c9a240&is=68c850c0&hm=d07e5f9da7f8fe47a53bb4bc0f436b6547a1826d9aadfd55e73be54b89b96657&=&format=webp&quality=lossless&width=882&height=102" />
+![EventStorming](./diagrams/BoundedContext/sistems.png)
 
 
 **Step 9: Aggregates**
@@ -494,7 +494,7 @@ Priorizar los bounded contexts, nos permite identificar situaciones primordiales
 
 **Visión General de los Bounded Contexts:**
 
-<img width=700 high=800 src="https://media.discordapp.net/attachments/1417188407204909217/1417209278410002492/General_bounded_context.png?ex=68c9a67e&is=68c854fe&hm=7a8a9b6deb4502a9082b8d3505ce94c76ff846bdbd37972ecd00eb2add4fb523&=&format=webp&quality=lossless&width=410&height=350"/>
+
 
 #### 4.1.1.2. Domain Message Flows Modeling
 
