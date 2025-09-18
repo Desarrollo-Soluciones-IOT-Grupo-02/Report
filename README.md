@@ -759,21 +759,21 @@ Carlos Ramírez, de 28 años y residente de Surco, visita las playas con frecuen
 
 ##### Entrevista 5
 <ul>
-  <li><b>Nombre del entrevistado:</b> —</li>
-  <li><b>Edad:</b> -- años</li>
-  <li><b>Distrito:</b> —</li>
-  <li><b>Nombre del entrevistador:</b> —</li>
-  <li><b>Duración:</b> —</li>
+  <li><b>Nombre del entrevistado:</b>Sebastian Cachis</li>
+  <li><b>Edad:</b> 26 años</li>
+  <li><b>Distrito:</b> San Miguel</li>
+  <li><b>Nombre del entrevistador:</b> Adriano Cruz</li>
+  <li><b>Duración:</b> 08:02</li>
 </ul>
 
 <p><b>Evidencia de la entrevista:</b></p>
 
 <p align="center">
-  <img src="./entrevistas/entrevista_muni_1.png" alt="Entrevista Municipalidad 2" width="85%">
+  <img src="./entrevistas/entrevista-muni_2.png" alt="Entrevista Municipalidad 2" width="85%">
 </p>
 
 <p align="center">
-  <b>Enlace de entrevista:</b> <i>(pendiente)</i>
+  <b>Enlace de entrevista:</b> <i></i>
 </p>
 
 <p align="center">
@@ -783,7 +783,7 @@ Carlos Ramírez, de 28 años y residente de Surco, visita las playas con frecuen
 <p><b>Resumen de la entrevista:</b></p>
 
 <p align="justify">
-  Resumen --------------------
+En la entrevista, Sebastian que es asistente de la coordinación de gestión ambiental de playas explicó que sus principales responsabilidades son la supervisión de labores de limpieza, coordinación de cuadrillas y diseño de estrategias para mantener limpias las playas. Actualmente, la gestión de residuos metálicos se basa en la recolección manual con cuadrillas y el uso de contenedores diferenciados, complementados con campañas de concientización en temporadas de alta afluencia. Sin embargo, enfrentan limitaciones relacionadas con la dependencia de mano de obra, la variabilidad en la participación ciudadana y la falta de incentivos sostenibles. Entre las dificultades destacan la gran cantidad de residuos en eventos turísticos, obstáculos de financiamiento y la presión por mantener una buena imagen turística. Como mejoras, planteó mayor concientización desde la educación temprana, incremento de contenedores en puntos estratégicos, señalización y programas de incentivos económicos o en especie. Además, valoró la posibilidad de implementar un sistema que permita reciclar y revender los residuos metálicos con recompensas para los bañistas, lo cual consideró una solución atractiva y viable si se superan las barreras burocráticas.
 </p>
 
 ---
