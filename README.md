@@ -151,9 +151,14 @@ Esta sección tiene como propósito detallar las actualizaciones significativas 
     </td>
     </tr>
         <tr>
-      <td>Estudiante</td>
+      <td>Mancilla Ordaya, Eduardo Vicente</td>
       <td>
-        - Entrevistas a usuarios.<br>
+        - Realicé entrevista para el primer segmento objetivo.<br>
+        - Realicé el resumen correspondiente de la entrevista realizada<br>
+        - Actualicé la presentación con los diagramas C4 para su exposición<br>
+           - Desarrolle el System Landscape Diagram.<br>
+           - Desarrolle el Context Level Diagram.<br>
+           - Desarrolle el Deployment Diagram.<br>
       </td>
     </tr>
   <!-- Otras entrega -->
