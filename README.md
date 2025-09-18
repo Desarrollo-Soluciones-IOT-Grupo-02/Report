@@ -126,16 +126,29 @@ Esta sección tiene como propósito detallar las actualizaciones significativas 
       </td>
     </tr>
     <tr>
-      <td>Estudiante</td>
+      <td>Pardo Zapata, Gustavo Adolfo</td>
       <td>
-        - Entrevistas a usuarios.<br>
+        - Realicé entrevista para el primer segmento objetivo<br>
+        - Elaboré el resumen de mi entrevista dedicada<br>
+        - Desarrollé completamente parte del capítulo 4<br>
+        - Desarrollé completamente el punto de Strategic-Level Domain-Driven Design<br>
+        - Desarrollé, analicé y completé el punto de EventStorming<br>
+        - Desarrollé completamente el punto de Candidate Context Discovery<br>
+        - Desarrollé completamente el punto de Bounded Context Canvases<br>
+        - Implementé el punto de Context Mapping
       </td>
     </tr>
         <tr>
-      <td>Estudiante</td>
+      <td>Roca Huapaya, Orlando Arturo</td>
       <td>
-        - Entrevistas a usuarios.<br>
-      </td>
+        - Realicé entrevista para el primer segmento objetivo<br>
+        - Elaboré el resumen de mi entrevista dedicada<br>
+        - Desarrollé completamente parte del capítulo 1<br>
+        - Desarrollé completamente el punto de Lean UX Process<br>
+        - Desarrollé completamente el punto de Lean UX Problem Statements<br>
+        - Desarrollé completamente el punto de Lean UX Assumptions<br>
+        - Implementé el punto de Lean UX Hypothesis Statements
+    </td>
     </tr>
         <tr>
       <td>Estudiante</td>
@@ -330,14 +343,14 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
           </tr>
           <tr>
             <td align="justify">
-              <b>Estudiante 4:</b><br>
-              Morbi vel tortor id eros dictum venenatis id ut dui. Mauris quis tellus sed nunc hendrerit vehicula ac id mauris.
+              <b>Pardo Zapata Gustavo Adolfo:</b><br>
+              Durante el desarrollo del proyecto participé en la entrevista al primer segmento objetivo y realicé mi propio resumen. Asumí un rol de liderazgo al desarrollar por completo el capítulo 4, incluyendo Strategic-Level Domain-Driven Design, EventStorming, Candidate Context Discovery y Bounded Context Canvases, además de implementar el Context Mapping. Con esto guié al equipo en la aplicación de herramientas estratégicas y técnicas, asegurando coherencia y alineación con los objetivos.
             </td>
           </tr>
           <tr>
             <td align="justify">
-              <b>Estudiante 5:</b><br>
-              Morbi vel tortor id eros dictum venenatis id ut dui. Mauris quis tellus sed nunc hendrerit vehicula ac id mauris.
+              <b>Roca Huapaya, Orlando Arturo:</b><br>
+              MParticipé en la entrevista al primer segmento objetivo y elaboré mi propio resumen. Lideré el desarrollo del capítulo 1 y asumí la responsabilidad en los apartados del Lean UX Process, como Problem Statements, Assumptions e Hypothesis Statements. De esta forma, ejercí un liderazgo compartido que permitió al equipo tener una base clara y bien estructurada.
             </td>
           </tr>
           <tr>
@@ -392,15 +405,15 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
             </td>
           </tr>
           <tr>
-            <td align="justify">
-              <b>Estudiante 4:</b><br>
-              Morbi vel tortor id eros dictum venenatis id ut dui. Mauris quis tellus sed nunc hendrerit vehicula ac id mauris.
+           <td align="justify">
+              <b>Pardo Zapata, Gustavo Adolfo:</b><br>
+              Colaboré en la organización de actividades, promoviendo la participación de todos durante el modelado del dominio. Al desarrollar los puntos estratégicos y tácticos, ayudé a establecer metas claras y a planificar tareas de manera conjunta, logrando que los entregables se completaran a tiempo. Fomenté un ambiente de confianza y cooperación que permitió al equipo trabajar de forma inclusiva y orientada a resultados.
             </td>
           </tr>
           <tr>
             <td align="justify">
-              <b>Estudiante 5:</b><br>
-              Morbi vel tortor id eros dictum venenatis id ut dui. Mauris quis tellus sed nunc hendrerit vehicula ac id mauris.
+              <b>Roca Huapaya, Orlando Arturo:</b><br>
+              Fomenté un entorno colaborativo al integrar la visión del usuario en cada etapa del proyecto. Establecí junto a mis compañeros las metas del capítulo 1 y de los apartados Lean UX, planificando tareas y cumpliendo los plazos acordados. Mi participación permitió al equipo avanzar con claridad en los problemas, supuestos e hipótesis, asegurando un trabajo organizado, inclusivo y centrado en los resultados.
             </td>
           </tr>
           <tr>
@@ -2830,4 +2843,6 @@ Esta aproximación permite evolución independiente de cada bounded context mien
 
 # Anexos
 
+- Miro EventStorming - https://miro.com/app/board/uXjVI_LnCNw=/?share_link_id=434975935150
+- Miro Bounded context Canvases - https://miro.com/app/board/uXjVJGNlyKE=/?share_link_id=644740443033
 - Lean UX Canvas - https://miro.com/app/board/uXjVJKqj5v4=/
