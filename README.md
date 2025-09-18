@@ -76,9 +76,17 @@ Esta sección tiene como propósito detallar las actualizaciones significativas 
       </td>
     </tr>
     <tr>
-      <td>Estudiante</td>
+      <td>Cruz Palomino, Adriano Sebastian</td>
       <td>
-        - Entrevistas a usuarios.<br>
+        - Realicé entrevistas al segmento de municipalidades.<br>
+        - Desarrollé el <b>análisis competitivo</b> identificando fortalezas, debilidades, oportunidades y amenazas de los competidores.<br>- Propuse <b>estrategias y tácticas frente a competidores</b> para diferenciar la solución.<br>
+        - Elaboré el proceso de <b>Needfinding</b>.<br>
+        - Construí los <b>User Personas</b> representativos de los segmentos clave.<br>
+        - Diseñé la <b>User Task Matrix</b>.<br>
+        - Desarrollé el <b>User Journey Mapping</b> destacando fases y sentimientos del usuario.<br>
+        - Creé el <b>Empathy Mapping</b> para comprender motivaciones y frustraciones.<br>
+        - Documenté el <b>As-is Scenario Mapping</b>, mostrando el flujo actual de interacción con la problemática.<br>
+        - Definí el <b>Ubiquitous Language</b>, estableciendo el lenguaje común del dominio.<br> 
       </td>
     </tr>
         <tr>
@@ -93,7 +101,7 @@ Esta sección tiene como propósito detallar las actualizaciones significativas 
         - Desarrolle completamente el punto de Tactical-Level Domain-Driven Design para el BD de Monitoring & Reporting 
       </td>
     </tr>
-        <tr>
+    <tr>
       <td>Estudiante</td>
       <td>
         - Entrevistas a usuarios.<br>
@@ -286,8 +294,8 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
           </tr>
           <tr>
             <td align="justify">
-              <b>Estudiante 2:</b><br>
-              Morbi vel tortor id eros dictum venenatis id ut dui. Mauris quis tellus sed nunc hendrerit vehicula ac id mauris.
+              <b>Cruz Palomino, Adriano Sebastian</b><br>
+              Durante el avance del proyecto participé activamente en el análisis competitivo y en la propuesta de estrategias y tácticas frente a competidores, aportando ideas y colaborando con mis compañeros para enriquecer los resultados. También contribuí en la construcción de los User Personas, el User Journey Mapping y el Empathy Mapping, trabajando de manera conjunta con el equipo para reflejar las necesidades, motivaciones y experiencias de los usuarios de forma coherente con los objetivos planteados.
             </td>
           </tr>
           <tr>
@@ -349,8 +357,8 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
           </tr>
           <tr>
             <td align="justify">
-              <b>Estudiante 2:</b><br>
-              Morbi vel tortor id eros dictum venenatis id ut dui. Mauris quis tellus sed nunc hendrerit vehicula ac id mauris.
+              <b>Cruz Palomino, Adriano Sebastian</b><br>
+                En esta etapa del proyecto colaboré en la definición de metas y tareas vinculadas al análisis competitivo y al needfinding, aportando insumos que fueron revisados y mejorados en conjunto con mis compañeros. Participé en la planificación de la construcción de los user personas, la user task matrix y los distintos mapeos (user journey, empathy y as-is), cumpliendo con los plazos establecidos y adaptando mis entregables a las observaciones del equipo. Mi contribución ayudó a consolidar un entorno de trabajo colaborativo, donde cada aporte sumó al cumplimiento de los objetivos trazados.
             </td>
           </tr>
           <tr>
