@@ -819,6 +819,77 @@ En la entrevista, Sebastian que es asistente de la coordinación de gestión amb
 
 ### 2.2.3. Análisis de entrevistas
 
+### Segmento 1: Bañistas
+
+Basado en 3 entrevistas (Renzo Ramos, Carlos Ramírez, Michelle Villena)
+
+**Características Demográficas**
+
+El 100% de los entrevistados se encuentra en el rango de 21-29 años, con edad promedio de 26 años. Todos residen en Lima Metropolitana, distribuidos en distritos diversos como Ventanilla, Surco y Santa Anita.
+
+<img src="./entrevistas/analisis-entrevista/grafico1.png" alt="Grafico de Caracteristicas Demográficas">
+
+**Comportamientos de Consumo**
+
+Todos los bañistas visitan playas regularmente durante el verano, con el 67% frecuentando fines de semana y 33% realizando visitas familiares. El 100% consume bebidas enlatadas en la playa, principalmente gaseosas y cervezas.
+
+<img src="./entrevistas/analisis-entrevista/grafico2.png" alt="Grafico de Comportamiento de Consumo">
+
+**Percepción del Problema Ambiental**
+
+El 100% percibe residuos metálicos frecuentemente y considera que afecta negativamente su experiencia playera. Solo el 33% conoce tachos de reciclaje existentes, pero todos consideran insuficiente la infraestructura actual.
+
+**Motivaciones para Reciclar**
+
+<img src="./entrevistas/analisis-entrevista/grafico3.png" alt="Grafico de Motivaciones para Reciclar">
+
+El 100% está dispuesto a usar tarjeta RFID con la condición de que el proceso sea rápido y sencillo. El 67% muestra interés en gamificación y competencia con amigos.
+
+**Características Subjetivas**
+
+Jóvenes adultos conscientes del problema ambiental pero requieren incentivos tangibles para participar activamente. Valoran la simplicidad y rapidez en procesos tecnológicos. Motivados por recompensas inmediatas y elementos de competencia social.
+
+La principal barrera no es la falta de conciencia ambiental, sino la ausencia de infraestructura conveniente. La exigencia de procesos rápidos refleja que no están dispuestos a sacrificar tiempo de ocio por actividades de reciclaje.
+
+### Segmento 2: Municipalidades Costeras
+
+Basado en 3 entrevistas (Bruce Cipriano, Sebastian Cachis, Christian Matos)
+
+**Características Demográficas**
+
+Profesionales jóvenes con edad promedio de 26 años (rango 20-32 años). El 100% ocupa cargos de gestión ambiental con experiencia en limpieza de playas. Representan municipalidades costeras de Lima, principalmente Punta Hermosa (67%) y San Miguel (33%).
+
+**Métodos Actuales de Gestión**
+
+El 100% utiliza recolección manual con cuadrillas. El 67% emplea contenedores diferenciados y campañas de concientización. Solo el 33% tiene convenios con recicladores formalizados y utiliza herramientas tecnológicas básicas como Excel.
+
+**Principales Desafíos**
+
+<img src="./entrevistas/analisis-entrevista/grafico4.png" alt="Grafico de Principales Desafiós">
+
+El 100% reconoce que los residuos metálicos afectan la imagen turística. El 67% identifica la dependencia de mano de obra como principal desafío, mientras que el 33% menciona limitaciones de financiamiento y falta de métricas.
+
+**Recepción del Proyecto Metalix**
+
+<img src="./entrevistas/analisis-entrevista/grafico5.png" alt="Grafico de Recepcion del Proyecto Metalix">
+
+Características Subjetivas
+Profesionales con enfoque pragmático y orientación a resultados. Altamente colaborativos y abiertos a innovaciones tecnológicas que optimicen procesos. Conscientes de limitaciones presupuestarias pero motivados por soluciones sostenibles.
+
+Operan bajo múltiples presiones: ciudadanos que demandan playas limpias, autoridades que exigen eficiencia presupuestaria, y operadores turísticos que requieren imagen impecable. Buscan soluciones que generen beneficios múltiples y resultados medibles.
+
+Análisis Comparativo
+Ambos segmentos comparten visión pragmática del problema ambiental y alta aceptación tecnológica, pero por razones diferentes: bañistas valoran conveniencia, municipalidades valoran eficiencia operativa.
+
+Los bañistas están motivados por beneficios personales inmediatos, mientras municipalidades buscan beneficios institucionales de mediano plazo. Esta divergencia crea oportunidades de sinergia donde la gamificación genera métricas operativas.
+
+Implicaciones para Arquetipos
+Arquetipo Bañista - "El Recreacionista Consciente": Joven adulto urbano (21-29 años), visitante regular de playas, busca maximizar experiencia de ocio sin comprometer comodidad, requiere incentivos tangibles y procesos simples.
+
+Arquetipo Municipal - "El Optimizador Pragmático": Profesional joven (20-32 años) en gestión ambiental, busca optimizar recursos operativos, demostrar resultados cuantificables, implementar soluciones sostenibles de largo plazo.
+
+*Metodología: Análisis cualitativo con cuantificación de patrones recurrentes*
+
 ## 2.3. Needfinding
 
 ### 2.3.1. User Personas
