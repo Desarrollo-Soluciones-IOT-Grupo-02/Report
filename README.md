@@ -303,7 +303,7 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
       </td>
       <!-- TB1 -->
       <td>
-        <table width="50%" align="center">
+        <table align="center">
           <tr>
             <td rowspan="7"><b>TB1</b></td>
           </tr>
