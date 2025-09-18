@@ -360,8 +360,8 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
           </tr>
           <tr>
             <td align="justify">
-              <b>Estudiante 6:</b><br>
-              Morbi vel tortor id eros dictum venenatis id ut dui. Mauris quis tellus sed nunc hendrerit vehicula ac id mauris.
+                <b>Mancilla Ordaya, Eduardo Vicente:</b><br>
+              Durante el desarrollo de esta entrega apoyé en la entrevista al primer segmento objetivo, asumí mi rol de liderazgo proponiendo los diagramas C4 con las tecnologías en el que podríamos realizar el proyecto. También consideré la coherencia con los otros puntos del informe para la realización de los diagramas.
             </td>
           </tr>
         </table>
@@ -423,8 +423,8 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
           </tr>
           <tr>
             <td align="justify">
-              <b>Estudiante 6:</b><br>
-              Morbi vel tortor id eros dictum venenatis id ut dui. Mauris quis tellus sed nunc hendrerit vehicula ac id mauris.
+              <b>Mancilla Ordaya, Eduardo Vicente:</b><br>
+              Formé parte de las reuniones grupales para el planteamiento y desarrollo preliminar del proyecto. Lo cual me llevó a la realización de los diagramas C4 para poder visualizar de una mejor manera los puntos clave del proyecto. El desarrollo grupal de la TB1 fue clave para poder tener coherencia en los diferentes puntos del informe.
             </td>
           </tr>
         </table>
@@ -515,11 +515,12 @@ Convertirse en la startup líder en soluciones IoT para la gestión de residuos 
       </td>
     </tr>
     <tr>
-      <td><i>(colocar foto)</i></td>
-      <td><b>Integrante 5</b></td>
-      <td>[por completar]</td>
-      <td>[carrera]</td>
-      <td>[contribución]</td>
+      <td><img src="./foto_integrantes/EduardoMancilla.jpeg" alt="Foto de Eduardo Mancilla" width="400"></td>
+      <td><b>Mancilla Ordaya, Eduardo Vicente</b></td>
+      <td>U20201889</td>
+      <td>Ingeniería de Software</td>
+      <td>Soy Eduardo, estudiante entusiasta de la tecnología, con gusto por el trabajo en equipo y la búsqueda de nuevos aprendizajes. Me interesa explorar nuevas tecnologías y aplicarlas en el desarrollo de proyectos, aportando compromiso, creatividad y una comunicación clara que favorezca la colaboración.
+      </td>
     </tr>
     <tr>
       <td><img src="./foto_integrantes/RayDelCarmen.png" alt="Foto de Ray Alessandro Del Carmen Zorrilla" width="400"></td>
