@@ -177,7 +177,7 @@ Las coordinaciones iniciales se realizaron en Google Meet, mientras que el segui
 
 - Commits del equipo
 
-![img]()
+<img src="./foto_integrantes/insights.png"  width="1000">
 
 # Contenido
 
