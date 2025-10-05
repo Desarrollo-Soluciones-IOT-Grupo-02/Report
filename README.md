@@ -3347,6 +3347,40 @@ El proyecto se desarrolló bajo convenciones internacionalmente reconocidas, imp
 
 ### 6.1.3. Source Code Style Guide & Conventions
 
+**Frontend (TypeScript/Angular)**
+
+- Nomenclatura: PascalCase para clases, componentes y servicios; camelCase para variables, métodos y propiedades
+
+- Estructura de Archivos: Convenciones de Angular CLI para organización de proyectos: components/, services/, models/, modules/
+
+- Componentes: Uso de decoradores @Component, separación clara entre lógica TypeScript, plantillas HTML y estilos CSS/SCSS
+
+- Servicios: Implementación con decorador @Injectable para inyección de dependencias
+
+**Landing Page (HTML/CSS/JavaScript)**
+
+- HTML: Estructura semántica, uso de atributos alt en imágenes, y indentación consistente
+
+- CSS: Nomenclatura descriptiva para clases, organización modular de estilos, y diseño responsive
+
+- JavaScript: Uso de const/let en lugar de var, nombres descriptivos para variables y funciones
+
+**Backend (Java/Spring Boot)**
+
+- Nomenclatura: PascalCase para clases e interfaces, camelCase para variables y métodos
+
+- Estructura: Seguimiento de las convenciones de Spring Boot para organización de paquetes (controller, service, repository, model)
+
+- Documentación: Uso de JavaDoc para documentación de APIs y clases principales
+
+**Convenciones de Commits**
+
+Implementación del estándar Conventional Commits con la estructura:
+
+<tipo>[alcance opcional]: <descripción>
+
+(Tipos: feat, fix, docs, style, refactor, test, chore)
+
 ### 6.1.4. Software Deployment Configuration
 
 ## 6.2. Landing Page, Services & Applications Implementation
