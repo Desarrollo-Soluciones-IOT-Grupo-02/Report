@@ -3323,6 +3323,28 @@ La documentación técnica se centralizó en GitHub para el versionado de códig
 
 ### 6.1.2. Source Code Management
 
+Para garantizar un control versión del código eficiente y una colaboración organizada durante el desarrollo del proyecto, se implementó una estrategia integral de gestión de código fuente. Se estableció una organización en GitHub como repositorio central para alojar todos los componentes del sistema, empleando el sistema de control de versiones Git como herramienta fundamental.
+
+**Estrategia de Ramas: GitFlow**
+
+Se adoptó la metodología GitFlow para organizar el flujo de trabajo, definiendo las siguientes ramas principales:
+
+- **main:** Contiene exclusivamente el código estable y listo para producción, representando las versiones desplegadas para usuarios finales.
+
+- **develop:** Sirve como rama de integración continua donde se consolidan los desarrollos de nuevas funcionalidades antes de su liberación a producción.
+
+- **feature/:** Ramas efímeras dedicadas al desarrollo de nuevas características, utilizando la nomenclatura feature/nombre-característica.
+
+- **hotfix/:** Ramas para corrección urgente de errores en producción, con el formato hotfix/nombre-fix.
+
+**Diagrama de flujo de trabajo usando Gitflow**
+
+![Gitflow](./diagrams/gitflow.png)
+
+**Convenciones y Estándares**
+
+El proyecto se desarrolló bajo convenciones internacionalmente reconocidas, implementando el estándar "Conventional Commits" (versión 1.0.0) para los mensajes de commit. Esta práctica garantiza un historial de cambios claro y estructurado, facilitando la trazabilidad y el mantenimiento del código. Adicionalmente, todo el desarrollo se realizó en inglés para mantener consistencia en la nomenclatura de ramas, commits y documentación técnica.
+
 ### 6.1.3. Source Code Style Guide & Conventions
 
 ### 6.1.4. Software Deployment Configuration
