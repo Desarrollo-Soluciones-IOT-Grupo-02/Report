@@ -3289,7 +3289,37 @@ El diagrama muestra claramente cómo los seis bounded contexts interactúan entr
 
 ## 6.1. Software Configuration Management
 
+Este apartado documenta el ecosistema completo de herramientas, convenciones y procesos establecidos para garantizar el desarrollo colaborativo, eficiente y de alta calidad del Sistema CleanWave de Monitoreo Inteligente de Residuos en Playas. La configuración abarca desde la gestión del proyecto y el diseño de la experiencia de usuario hasta el desarrollo, las pruebas, el despliegue automatizado y la documentación.
+
 ### 6.1.1. Software Development Environment Configuration
+
+**Gestión de Proyecto y Comunicación**
+
+La coordinación del equipo se sustentó en Discord como canal principal para reuniones virtuales síncronas, facilitando la comunicación mediante videollamadas y mensajería instantánea. Paralelamente, se utilizó la suite Microsoft 365 para la gestión colaborativa de la documentación del proyecto, incluyendo el reporte final y las actas de reuniones.
+
+**Gestión de Requisitos y Diseño de Experiencia**
+
+El análisis de requisitos se realizó mediante Trello, empleando su sistema de tableros para organizar user stories y gestionar el progreso por sprints. Para el diseño de experiencia de usuario, se utilizó UXPressia en la creación de User Personas, Empathy Maps e Impact Maps. La plataforma Miro permitió modelar los escenarios As-Is y To-Be, mientras que Lucidchart y Structurizr se destinaron al diseño de diagramas de flujo y la arquitectura del sistema mediante diagramas C4.
+
+**Desarrollo de Producto**
+
+El diseño de interfaces se elaboró en Figma, herramienta que permitió desarrollar wireframes, mockups y prototipos interactivos para la aplicación web.
+
+**Desarrollo de Software**
+
+El proceso de codificación empleó Visual Studio Code para el desarrollo frontend y IntelliJ IDEA para el backend. El control de versiones se gestionó mediante Git, asegurando un flujo de desarrollo organizado y trazable.
+
+**Pruebas de Software**
+
+El aseguramiento de calidad se implementó mediante JUnit 5 y Mockito para la ejecución de pruebas unitarias y la creación de objetos mock en el backend.
+
+**Despliegue de Software**
+
+La implementación en producción utilizó Vercel para el despliegue de la aplicación web, GitHub Pages para la landing page estática, y Render para los servicios backend de la API.
+
+**Documentación de Software**
+
+La documentación técnica se centralizó en GitHub para el versionado de código, complementado con Swagger para la documentación interactiva de los endpoints de la API.
 
 ### 6.1.2. Source Code Management
 
