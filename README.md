@@ -3321,6 +3321,20 @@ El diagrama muestra claramente cómo los seis bounded contexts interactúan entr
 
 ### 5.4.2. Applications Wireflow Diagrams
 
+**Web App wireflow**
+
+**Login**
+
+![login-register](./chapter-5/WebAppWireframesDiagrams/login-register.png)
+
+**Historial de Reciclaje**
+
+![recycle-history](./chapter-5/WebAppWireframesDiagrams/recycle-history.png)
+
+**Salto de puntos**
+
+![balance](./chapter-5/WebAppWireframesDiagrams/balance.png)
+
 ### 5.4.3. Applications Mock-ups
 
 ### 5.4.4. Applications User Flow Diagrams
