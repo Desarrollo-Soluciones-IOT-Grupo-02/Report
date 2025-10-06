@@ -3277,6 +3277,48 @@ El diagrama muestra claramente cómo los seis bounded contexts interactúan entr
 
 ### 5.4.1. Applications Wireframes
 
+**Web application wireframes**
+
+**Login**
+
+![Login](./chapter-5/WebAppWireframes/login.png)
+
+**Register**
+
+![Register](./chapter-5/WebAppWireframes/register.png)
+
+**Dashboard**
+
+![Dashboard](./chapter-5/WebAppWireframes/dashboard.png)
+
+**WasteCollections**
+
+![WasteCollections](./chapter-5/WebAppWireframes/WasteCollections.png)
+
+**Rewards- Available Rewards**
+
+![Rewards-AvailableRewards](./chapter-5/WebAppWireframes/Rewards-AvailableRewards.png)
+
+**Rewards- My Rewards**
+
+![Rewards-MyRewards](./chapter-5/WebAppWireframes/Rewards-MyRewards.png)
+
+**Rewards-  Points History**
+
+![Rewards-PointsHistory](./chapter-5/WebAppWireframes/Rewards-PointsHistory.png)
+
+**Profile - Personal Information**
+
+![Profile-PersonalInformation](./chapter-5/WebAppWireframes/Profile-PersonalInformation.png)
+
+**Profile - Achivements**
+
+![Profile-Achivements](./chapter-5/WebAppWireframes/Profile-Achivements.png)
+
+**Profile-  Activity History**
+
+![Profile-ActivityHistory](./chapter-5/WebAppWireframes/Profile-ActivityHistory.png)
+
 ### 5.4.2. Applications Wireflow Diagrams
 
 ### 5.4.3. Applications Mock-ups
@@ -3307,7 +3349,7 @@ El diagrama muestra claramente cómo los seis bounded contexts interactúan entr
 #### 6.2.X.2. Sprint Backlog n
 #### 6.2.X.2. Sprint Backlog n
 
-#### 6.2.X.3. Development Evidence for Sprint Review
+#### 6.2.X.3. Development Evidence for Sprint Review 
 
 #### 6.2.X.4. Testing Suite Evidence for Sprint Review
 #### 6.2.X.4. Testing Suite Evidence for Sprint Review
