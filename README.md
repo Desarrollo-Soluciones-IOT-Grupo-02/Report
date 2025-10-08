@@ -3295,7 +3295,7 @@ El diagrama muestra claramente cómo los seis bounded contexts interactúan entr
 
 ![WasteCollections](./chapter-5/WebAppWireframes/WasteCollections.png)
 
-**Rewards- Available Rewards**
+**Rewards-Available Rewards**
 
 ![Rewards-AvailableRewards](./chapter-5/WebAppWireframes/Rewards-AvailableRewards.png)
 
@@ -3337,7 +3337,59 @@ El diagrama muestra claramente cómo los seis bounded contexts interactúan entr
 
 ### 5.4.3. Applications Mock-ups
 
+**Login**
+
+![Login](./chapter-5/WebAppMockUps/login.png)
+
+**Register**
+
+![Register](./chapter-5/WebAppMockUps/register.png)
+
+**Dashboard**
+
+![Dashboard](./chapter-5/WebAppMockUps/dashboard.png)
+
+**WasteCollections**
+
+![WasteCollections](./chapter-5/WebAppMockUps/WasteCollections.png)
+
+**Rewards-Available Rewards**
+
+![Rewards-AvailableRewards](./chapter-5/WebAppMockUps/Rewards-Available-Rewards.png)
+
+**Rewards- My Rewards**
+
+![Rewards-MyRewards](./chapter-5/WebAppMockUps/Rewards-My-Rewards.png)
+
+**Rewards-  Points History**
+
+![Rewards-PointsHistory](./chapter-5/WebAppMockUps/Rewards-Points-History.png)
+
+**Profile - Personal Information**
+
+![Profile-PersonalInformation](./chapter-5/WebAppMockUps/Profile-Personal-Information.png)
+
+**Profile - Achivements**
+
+![Profile-Achivements](./chapter-5/WebAppMockUps/Profile-Achivements.png)
+
+**Profile-  Activity History**
+
+![Profile-ActivityHistory](./chapter-5/WebAppMockUps/Profile-Activity-History.png)
+
 ### 5.4.4. Applications User Flow Diagrams
+
+**Login**
+
+![login-register](./chapter-5/WebAppUserFlowDiagrams/login-register.png)
+
+**Historial de Reciclaje**
+
+![recycle-history](./chapter-5/WebAppUserFlowDiagrams/recycle-history.png)
+
+**Salto de puntos**
+
+![balance](./chapter-5/WebAppUserFlowDiagrams/balance.png)
 
 ## 5.5. Applications Prototyping
 
