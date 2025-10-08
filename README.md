@@ -3392,6 +3392,12 @@ El diagrama muestra claramente cómo los seis bounded contexts interactúan entr
 ![balance](./chapter-5/WebAppUserFlowDiagrams/balance.png)
 
 ## 5.5. Applications Prototyping
+Se desarrollaron prototipos de las aplicaciones en Figma, permitiendo visualizar la interfaz, navegación y funcionalidades antes del desarrollo final.
+
+![prototype](./chapter-5/WebAppPrototype/WebAppPrototype1.png)
+![prototype](./chapter-5/WebAppPrototype/WebAppPrototype2.png)
+
+Url Prototipo: https://www.figma.com/proto/tXjXHAxGRAcKYU0rNvETrO/Metalix?node-id=38-2&p=f&t=LBfmbCUFy9Fbl4Vg-1&scaling=min-zoom&content-scaling=fixed&page-id=3%3A3&starting-point-node-id=38%3A2
 
 # Capítulo VI: Product Implementation, Validation & Deployment
 
