@@ -450,14 +450,6 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
               Durante el desarrollo de esta entrega apoyé en la entrevista al primer segmento objetivo, asumí mi rol de liderazgo proponiendo los diagramas C4 con las tecnologías en el que podríamos realizar el proyecto. También consideré la coherencia con los otros puntos del informe para la realización de los diagramas.
             </td>
           </tr>
-          <!-- TP -->
-          <tr>
-            <td><b>TP</b></td>
-            <td align="justify">
-              <b>Roca Huapaya, Orlando Arturo:</b><br>
-              Realicé la integración entre los entregables de Lean UX y el diseño UI de Metalix para asegurar una narrativa consistente del problema a la solución. Coordiné la priorización de hipótesis y la segmentación de usuarios, preparé sesiones de revisión de entrevistas y consolidé el capítulo 1 con criterios comunes de calidad. Definí la versión inicial de pautas del design system y del tono de comunicación, y armé un backlog de investigación y prototipado que permitió a cada integrante liderar su sección sin perder coherencia con el objetivo general.
-            </td>
-          </tr>
         </table>
           <table>
           <tr>
@@ -494,8 +486,8 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
           </tr>
           <tr>
             <td align="justify">
-              <b>Roca Huapaya, Orlando Arturo:</b><br>
-              Participé en la entrevista al primer segmento objetivo y elaboré mi propio resumen. Lideré el desarrollo del capítulo 1 y asumí la responsabilidad en los apartados del Lean UX Process, como Problem Statements, Assumptions e Hypothesis Statements. De esta forma, ejercí un liderazgo compartido que permitió al equipo tener una base clara y bien estructurada.
+                <b>Roca Huapaya, Orlando Arturo:</b><br>
+                Realicé la integración entre los entregables de Lean UX y el diseño UI de Metalix para asegurar una narrativa consistente del problema a la solución. Coordiné la priorización de hipótesis y la segmentación de usuarios, preparé sesiones de revisión de entrevistas y consolidé el capítulo 1 con criterios comunes de calidad. Definí la versión inicial de pautas del design system y del tono de comunicación, y armé un backlog de investigación y prototipado que permitió a cada integrante liderar su sección sin perder coherencia con el objetivo general.
             </td>
           </tr>
           <tr>
@@ -567,14 +559,6 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
               Formé parte de las reuniones grupales para el planteamiento y desarrollo preliminar del proyecto. Lo cual me llevó a la realización de los diagramas C4 para poder visualizar de una mejor manera los puntos clave del proyecto. El desarrollo grupal de la TB1 fue clave para poder tener coherencia en los diferentes puntos del informe.
             </td>
           </tr>
-          <!-- TP -->
-          <tr>
-            <td><b>TP</b></td>
-            <td align="justify">
-              <b>Roca Huapaya, Orlando Arturo:</b><br>
-              Promoví un entorno colaborativo e inclusivo al proponer metas semanales claras con criterios de aceptación y responsables. Planifiqué tareas y dependencias por capítulo, organicé el calendario de entregas y di seguimiento a avances y bloqueos para mantener el ritmo del equipo. Integré comentarios en los apartados de Lean UX, ajusté prioridades cuando fue necesario y aseguré el cumplimiento de plazos y calidad. Mantuvimos una comunicación abierta para resolver dudas y redistribuir trabajo, lo que permitió alcanzar los objetivos sin sacrificar consistencia ni claridad.
-            </td>
-          </tr>
         </table>
           <table>
           <tr>
@@ -612,7 +596,7 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
           <tr>
             <td align="justify">
               <b>Roca Huapaya, Orlando Arturo:</b><br>
-              Participé en la entrevista al primer segmento objetivo y elaboré mi propio resumen. Lideré el desarrollo del capítulo 1 y asumí la responsabilidad en los apartados del Lean UX Process, como Problem Statements, Assumptions e Hypothesis Statements. De esta forma, ejercí un liderazgo compartido que permitió al equipo tener una base clara y bien estructurada.
+              Promoví un entorno colaborativo e inclusivo al proponer metas semanales claras con criterios de aceptación y responsables. Planifiqué tareas y dependencias por capítulo, organicé el calendario de entregas y di seguimiento a avances y bloqueos para mantener el ritmo del equipo. Integré comentarios en los apartados de Lean UX, ajusté prioridades cuando fue necesario y aseguré el cumplimiento de plazos y calidad. Mantuvimos una comunicación abierta para resolver dudas y redistribuir trabajo, lo que permitió alcanzar los objetivos sin sacrificar consistencia ni claridad.
             </td>
           </tr>
           <tr>
