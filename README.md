@@ -195,13 +195,15 @@ Esta sección tiene como propósito detallar las actualizaciones significativas 
         <tr>
       <td>Quiñones Tintaya, Johan Jorge</td>
       <td>
-        - Realice entrevista a usuario<br>
-        - Desarrolle el analisis completo de todas las entrevistas<br>
-        - Desarrolle completamente el punto de Tactical-Level Domain-Driven Design para el BD de WasteCollection<br>
-        - Desarrolle completamente el punto de Tactical-Level Domain-Driven Design para el BD de UserIdentification<br>
-        - Desarrolle completamente el punto de Tactical-Level Domain-Driven Design para el BD de RewardManagement<br>
-        - Desarrolle completamente el punto de Tactical-Level Domain-Driven Design para el BD de MunicipalityManagement<br>
-        - Desarrolle completamente el punto de Tactical-Level Domain-Driven Design para el BD de Monitoring & Reporting 
+        - Implementé el <b>backend completo de Metalix</b> con Spring Boot 3.5.6 y Java 21 siguiendo arquitectura DDD<br>
+        - Desarrollé los <b>6 Bounded Contexts</b>: IAM, Municipality, Waste Collection, Reward, Monitoring y User Identification<br>
+        - Creé y documenté <b>25 endpoints RESTful</b> con autenticación JWT y seguridad con Spring Security<br>
+        - Implementé la <b>documentación OpenAPI/Swagger</b> para todos los endpoints del sistema<br>
+        - Desarrollé la <b>landing page</b> completa con secciones hero, features, benefits y testimonials<br>
+        - Configuré el <b>frontend base con Angular</b> incluyendo módulos de autenticación, dashboard y componentes principales<br>
+        - Realicé el <b>deployment</b> de la landing page en GitHub Pages y frontend en Vercel<br>
+        - Implementé <b>tests unitarios</b> con JUnit alcanzando 85% de cobertura en módulos core<br>
+        - Documenté el <b>Sprint 1</b> con evidencias de commits (28/09-10/10/2025) para landing, frontend y backend
       </td>
     </tr>
     <tr>
