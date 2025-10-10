@@ -467,7 +467,9 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
           <tr>
             <td align="justify">
               <b>Cruz Palomino, Adriano Sebastian</b><br>
-              Durante el avance del proyecto participé activamente en el análisis competitivo y en la propuesta de estrategias y tácticas frente a competidores, aportando ideas y colaborando con mis compañeros para enriquecer los resultados. También contribuí en la construcción de los User Personas, el User Journey Mapping y el Empathy Mapping, trabajando de manera conjunta con el equipo para reflejar las necesidades, motivaciones y experiencias de los usuarios de forma coherente con los objetivos planteados.
+              Durante la TP1 ejercí un liderazgo compartido al desarrollar los mockups, el user wireflow y el prototipo funcional. 
+              Coordiné con mis compañeros para alinear el diseño con los objetivos del proyecto, promoviendo decisiones conjuntas 
+              y una comunicación constante entre las áreas de diseño y desarrollo.
             </td>
           </tr>
           <tr>
@@ -574,7 +576,9 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
           <tr>
             <td align="justify">
               <b>Cruz Palomino, Adriano Sebastian</b><br>
-              Durante el avance del proyecto participé activamente en el análisis competitivo y en la propuesta de estrategias y tácticas frente a competidores, aportando ideas y colaborando con mis compañeros para enriquecer los resultados. También contribuí en la construcción de los User Personas, el User Journey Mapping y el Empathy Mapping, trabajando de manera conjunta con el equipo para reflejar las necesidades, motivaciones y experiencias de los usuarios de forma coherente con los objetivos planteados.
+              En esta etapa planifiqué las tareas de diseño y compartí los avances en Figma para recibir aportes del equipo. 
+              Fomenté un entorno participativo y ordenado, lo que permitió cumplir los plazos y mejorar continuamente el prototipo 
+              a partir del trabajo conjunto.
             </td>
           </tr>
           <tr>
