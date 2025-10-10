@@ -161,6 +161,84 @@ Esta sección tiene como propósito detallar las actualizaciones significativas 
            - Desarrolle el Deployment Diagram.<br>
       </td>
     </tr>
+    <!-- TP -->
+    <tr>
+      <td rowspan="7">TP</td>
+      <td rowspan="7">10/10/2025</td>
+    </tr>
+    <tr>
+      <td>Del Carmen Zorrilla, Ray Alessandro</td>
+      <td>
+        - Diseñé las entrevistas para recolectar información de usuarios.<br>
+        - Realicé entrevistas al segmento de <b>municipalidades costeras</b> para identificar necesidades y problemáticas.<br>
+        - Segmenté y definí los <b>segmentos objetivo</b> principales del proyecto (bañistas y municipalidades).<br>
+        - Desarrollé el <b>To-Be Scenario Mapping</b> de ambos segmentos, mostrando el flujo ideal de interacción con el sistema.<br>
+        - Redacté y estructuré las <b>User Stories</b> centradas en los bañistas.<br>
+        - Elaboré el <b>Impact Mapping</b> conectando objetivos estratégicos, impactos y entregables.<br>
+        - Organicé y documenté el <b>Product Backlog</b>, priorizando las historias y asignando story points.<br>
+      </td>
+    </tr>
+    <tr>
+      <td>Cruz Palomino, Adriano Sebastian</td>
+      <td>
+        - Realicé entrevistas al segmento de municipalidades.<br>
+        - Desarrollé el <b>análisis competitivo</b> identificando fortalezas, debilidades, oportunidades y amenazas de los competidores.<br>- Propuse <b>estrategias y tácticas frente a competidores</b> para diferenciar la solución.<br>
+        - Elaboré el proceso de <b>Needfinding</b>.<br>
+        - Construí los <b>User Personas</b> representativos de los segmentos clave.<br>
+        - Diseñé la <b>User Task Matrix</b>.<br>
+        - Desarrollé el <b>User Journey Mapping</b> destacando fases y sentimientos del usuario.<br>
+        - Creé el <b>Empathy Mapping</b> para comprender motivaciones y frustraciones.<br>
+        - Documenté el <b>As-is Scenario Mapping</b>, mostrando el flujo actual de interacción con la problemática.<br>
+        - Definí el <b>Ubiquitous Language</b>, estableciendo el lenguaje común del dominio.<br> 
+      </td>
+    </tr>
+        <tr>
+      <td>Quiñones Tintaya, Johan Jorge</td>
+      <td>
+        - Realice entrevista a usuario<br>
+        - Desarrolle el analisis completo de todas las entrevistas<br>
+        - Desarrolle completamente el punto de Tactical-Level Domain-Driven Design para el BD de WasteCollection<br>
+        - Desarrolle completamente el punto de Tactical-Level Domain-Driven Design para el BD de UserIdentification<br>
+        - Desarrolle completamente el punto de Tactical-Level Domain-Driven Design para el BD de RewardManagement<br>
+        - Desarrolle completamente el punto de Tactical-Level Domain-Driven Design para el BD de MunicipalityManagement<br>
+        - Desarrolle completamente el punto de Tactical-Level Domain-Driven Design para el BD de Monitoring & Reporting 
+      </td>
+    </tr>
+    <tr>
+      <td>Pardo Zapata, Gustavo Adolfo</td>
+      <td>
+        - Diseño e implementacion tecnica del sistema Metalix BC<br>
+        - Desarrolle el capitulo VI Product Implementation,Validation and Deployment<br>
+        - Se implemento la estrategia de Software Configuration Management con Gitflow<br>
+        - Configuré y documenté el entorno completo de desarrollo (VSCode, IntelliJ, Discord, Trello, Figma)<br>
+        - Desarrollé, analicé y completé el punto de EventStorming<br>
+        - Documenté la gestión de configuración de software y control de versionesy<br>
+        - Colaboré en las correcciones y mejoras del Event Storming para el modelado de dominio
+      </td>
+    </tr>
+        <tr>
+      <td>Roca Huapaya, Orlando Arturo</td>
+      <td>
+        - Realicé entrevista para el primer segmento objetivo<br>
+        - Elaboré el resumen de mi entrevista dedicada<br>
+        - Desarrollé completamente parte del capítulo 1<br>
+        - Desarrollé completamente el punto de Lean UX Process<br>
+        - Desarrollé completamente el punto de Lean UX Problem Statements<br>
+        - Desarrollé completamente el punto de Lean UX Assumptions<br>
+        - Implementé el punto de Lean UX Hypothesis Statements
+    </td>
+    </tr>
+        <tr>
+      <td>Mancilla Ordaya, Eduardo Vicente</td>
+      <td>
+        - Realicé entrevista para el primer segmento objetivo.<br>
+        - Realicé el resumen correspondiente de la entrevista realizada<br>
+        - Actualicé la presentación con los diagramas C4 para su exposición<br>
+           - Desarrolle el System Landscape Diagram.<br>
+           - Desarrolle el Context Level Diagram.<br>
+           - Desarrolle el Deployment Diagram.<br>
+      </td>
+    </tr>
   <!-- Otras entrega -->
   </tbody>
 </table>
