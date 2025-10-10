@@ -327,13 +327,13 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
       <td rowspan="1">
         Trabaja en equipo para proporcionar liderazgo en forma conjunta
       </td>
-      <!-- TB1 -->
+      <!-- TB1 + TP -->
       <td>
         <table>
           <tr>
             <td rowspan="7"><b>TB1</b></td>
           </tr>
-        <!-- Estudiantes -->
+          <!-- Estudiantes TB1 -->
           <tr>
             <td align="justify">
               <b>Del Carmen Zorrilla, Ray Alessandro:</b><br>
@@ -351,7 +351,7 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
           <tr>
             <td align="justify">
               <b>Quiñones Tintaya, Johan Jorge:</b><br>
-              En el avance del Análisis de entrevistas, coordine con mis compañeros la construcción de preguntas y la redacción de respuestas en primera persona, de modo que todos pudimos aportar desde distintos enfoques. Del mismo modo, en el desarrollo del Tactical-Level Domain-Driven Design y sus subpuntos por cada bounded context, ejercí el desarrollo completo de sus responsabilidades técnicas (diagramas, definición de capas y modelos).
+              En el avance del Análisis de entrevistas, coordiné con mis compañeros la construcción de preguntas y la redacción de respuestas en primera persona, de modo que todos pudimos aportar desde distintos enfoques. Del mismo modo, en el desarrollo del Tactical-Level Domain-Driven Design y sus subpuntos por cada bounded context, ejercí el desarrollo completo de sus responsabilidades técnicas (diagramas, definición de capas y modelos).
             </td>
           </tr>
           <tr>
@@ -368,8 +368,16 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
           </tr>
           <tr>
             <td align="justify">
-                <b>Mancilla Ordaya, Eduardo Vicente:</b><br>
+              <b>Mancilla Ordaya, Eduardo Vicente:</b><br>
               Durante el desarrollo de esta entrega apoyé en la entrevista al primer segmento objetivo, asumí mi rol de liderazgo proponiendo los diagramas C4 con las tecnologías en el que podríamos realizar el proyecto. También consideré la coherencia con los otros puntos del informe para la realización de los diagramas.
+            </td>
+          </tr>
+          <!-- TP -->
+          <tr>
+            <td><b>TP</b></td>
+            <td align="justify">
+              <b>Roca Huapaya, Orlando Arturo:</b><br>
+              Realicé la integración entre los entregables de Lean UX y el diseño UI de Metalix para asegurar una narrativa consistente del problema a la solución. Coordiné la priorización de hipótesis y la segmentación de usuarios, preparé sesiones de revisión de entrevistas y consolidé el capítulo 1 con criterios comunes de calidad. Definí la versión inicial de pautas del design system y del tono de comunicación, y armé un backlog de investigación y prototipado que permitió a cada integrante liderar su sección sin perder coherencia con el objetivo general.
             </td>
           </tr>
         </table>
@@ -385,16 +393,16 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
     </tr>
     <!-- Criterio 2 -->
     <tr>
-      <td rowspan="1" >
+      <td rowspan="1">
         Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.
       </td>
-      <!-- TB1 -->
+      <!-- TB1 + TP -->
       <td>
         <table>
           <tr>
             <td rowspan="7"><b>TB1</b></td>
           </tr>
-        <!-- Estudiantes -->
+          <!-- Estudiantes TB1 -->
           <tr>
             <td align="justify">
               <b>Del Carmen Zorrilla, Ray Alessandro:</b><br>
@@ -408,7 +416,7 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
           <tr>
             <td align="justify">
               <b>Cruz Palomino, Adriano Sebastian</b><br>
-                En esta etapa del proyecto colaboré en la definición de metas y tareas vinculadas al análisis competitivo y al needfinding, aportando insumos que fueron revisados y mejorados en conjunto con mis compañeros. Participé en la planificación de la construcción de los user personas, la user task matrix y los distintos mapeos (user journey, empathy y as-is), cumpliendo con los plazos establecidos y adaptando mis entregables a las observaciones del equipo. Mi contribución ayudó a consolidar un entorno de trabajo colaborativo, donde cada aporte sumó al cumplimiento de los objetivos trazados.
+              En esta etapa del proyecto colaboré en la definición de metas y tareas vinculadas al análisis competitivo y al needfinding, aportando insumos que fueron revisados y mejorados en conjunto con mis compañeros. Participé en la planificación de la construcción de los user personas, la user task matrix y los distintos mapeos (user journey, empathy y as-is), cumpliendo con los plazos establecidos y adaptando mis entregables a las observaciones del equipo. Mi contribución ayudó a consolidar un entorno de trabajo colaborativo, donde cada aporte sumó al cumplimiento de los objetivos trazados.
             </td>
           </tr>
           <tr>
@@ -418,7 +426,7 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
             </td>
           </tr>
           <tr>
-           <td align="justify">
+            <td align="justify">
               <b>Pardo Zapata, Gustavo Adolfo:</b><br>
               Colaboré en la organización de actividades, promoviendo la participación de todos durante el modelado del dominio. Al desarrollar los puntos estratégicos y tácticos, ayudé a establecer metas claras y a planificar tareas de manera conjunta, logrando que los entregables se completaran a tiempo. Fomenté un ambiente de confianza y cooperación que permitió al equipo trabajar de forma inclusiva y orientada a resultados.
             </td>
@@ -435,6 +443,14 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
               Formé parte de las reuniones grupales para el planteamiento y desarrollo preliminar del proyecto. Lo cual me llevó a la realización de los diagramas C4 para poder visualizar de una mejor manera los puntos clave del proyecto. El desarrollo grupal de la TB1 fue clave para poder tener coherencia en los diferentes puntos del informe.
             </td>
           </tr>
+          <!-- TP -->
+          <tr>
+            <td><b>TP</b></td>
+            <td align="justify">
+              <b>Roca Huapaya, Orlando Arturo:</b><br>
+              Promoví un entorno colaborativo e inclusivo al proponer metas semanales claras con criterios de aceptación y responsables. Planifiqué tareas y dependencias por capítulo, organicé el calendario de entregas y di seguimiento a avances y bloqueos para mantener el ritmo del equipo. Integré comentarios en los apartados de Lean UX, ajusté prioridades cuando fue necesario y aseguré el cumplimiento de plazos y calidad. Mantuvimos una comunicación abierta para resolver dudas y redistribuir trabajo, lo que permitió alcanzar los objetivos sin sacrificar consistencia ni claridad.
+            </td>
+          </tr>
         </table>
       </td>
       <!-- Conclusion TB1 -->
@@ -448,6 +464,7 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
     </tr>
   </tbody>
 </table>
+
 
 <br><br>
 
@@ -3253,19 +3270,58 @@ El diagrama muestra claramente cómo los seis bounded contexts interactúan entr
 
 ### 5.1.1. General Style Guidelines
 
+- Branding: Metalix comunica tecnología al servicio del cuidado ambiental. El logotipo y la iconografía se mantienen simples, para que funcionen bien en cualquier escala y dimensiones de la pantalla del recolector IoT. La marca utiliza un estilo limpio y directo. Esto ayuda a transmitir a las personas el mensaje de reciclar puede generar recompensas de inmediato.
+
+- Typography: Usamos Poppins para titulares y acciones principales porque transmite una buena presencia visual. Para textos y tablas preferimos Inter por su legibilidad en pantallas pequeñas. Procuramos no mezclar más de dos fuentes de letra para no perder coherencia.
+
+- Colors: La paleta de colores esta compuesta por un tono turquesa que identifica a Metalix y transmite frescura e innovación. Se puede combinar con blancos y grises, tambien utilizamos el color violeta suave para resaltar estados o indicadores puntuales, ya que necesitamos visibilidad en interfaces de datos como tarjetas KPI, tablas y facilidad de uso al aire libre en el equipo IoT.
+
+- Spacing: Aplicamos un sistema de ocho puntos para márgenes. Esta regla hace que las pantallas respiren y mantenga un ritmo visual en web, app móvil y landing page. Las tarjetas y campos de formulario usan esquinas redondeadas y sombras suaves, solo para separar capas sin distraer.
+
+- Tono y lenguaje: El tono es sereno y positivo, y preferimos un estilo semi-formal respetuoso. Evitamos tecnicismos cuando nos dirigimos a ciudadanos y usamos mensajes cortos, orientados a la acción, por ejemplo “Recoge”, “Canjea”, “Ver detalles”.
+
+- Principios que sostienen estas decisiones: Claridad antes que estética, consistencia por encima de la “novedad” visual, accesibilidad como requisito y no como extra, y feedback inmediato en cada acción. Estos principios se eligieron porque el producto se visualizará en landing page, aplicación y dispositivo IoT, por lo tanto, necesita verse y sentirse igual en todas.
+
 ### 5.1.2. Web, Mobile and IoT Style Guidelines
+Metalix debe sentirse igual en todas las superficies, pero comportarse según el contexto. Compartimos los mismos tokens de diseño como colores, tipografías y espaciados, también adaptamos lo justo para que cada interfaz sea cómoda y eficiente. La idea es que el usuario reconozca la marca en cualquier lugar y no tenga que volver a aprender cómo usarla.
+
+En **Web** trabajamos con una maqueta responsiva que prioriza claridad y lectura de datos. La disposición habitual combina una barra lateral estable para la navegación y una barra superior con acciones de cuenta, dejando el cuerpo para tarjetas de KPIs, actividad reciente, tablas y formularios. Las tarjetas muestran títulos cortos, valores grandes e iconos discretos, tambien las listas y tablas mantienen estados claros, y los formularios siempre enseñan etiquetas, ayudas breves y mensajes de error debajo del campo. Todos los componentes tienen estados de interacción consistentes (hover, focus, disabled).
+
+En **Móvil** reducimos el esfuerzo cognitivo y el número de toques. La navegación se organiza con una barra inferior de cuatro secciones Inicio, Recolección/Mapa, Recompensas y Perfil, las pantallas tipo “stack” con un botón de retorno claro. Usamos una tipografía base, botones altos e iconos reconocibles. Habilitamos gestos como deslizar para acciones secundarias o “pull to refresh”. Si el usuario pierde conexión, lo avisamos con un banner y ofrecemos reintentos sin interrumpir su flujo.
+
+En el **Dispositivo IoT** la prioridad es la comprensión inmediata en condiciones cambiantes de luz y a cierta distancia. La pantalla usa alto contraste, textos muy breves y grandes, e iconografía universal (reciclaje, batería, conexión). Los estados se codifican por color como verde para listo, amarillo para procesando y rojo para error, y los mensajes no superan cuatro palabras. La interacción se apoya en botones físicos con pictogramas y confirmaciones sonoras cortas que distinguen el éxito del error. Además, el sistema tolera fallos comunes como la conexión automáticamente y ofrece un modo seguro con funciones básicas si algún sensor falla.
 
 ## 5.2. Information Architecture
 
 ### 5.2.1. Organization Systems
+En Metalix organizamos la información de tres formas, según lo que el usuario necesita hacer. Cuando tiene que “ubicar rápido”, usamos una estructura jerárquica en la Landing y el Dashboard lo importante va arriba como los KPIs, y lo complementario debajo como la actividad y detalles. Para tareas con pasos, aplicamos un flujo secuencial en el registro, recolección y canje para que de esta manera se guíen paso a paso para evitar dudas. Y cuando hay que comparar o explorar datos, preferimos una vista matricial como los historial y los reportes.
+
+Además, la categorización se adapta al contexto mediante tópicos, audiencia, orden cronológico en los listados con lo más reciente primero y orden alfabético cuando conviene buscar por nombre, por ejemplo en recompensas o dispositivos. Así cada pantalla reduce la carga mental y acerca al usuario a su objetivo con el menor esfuerzo.
 
 ### 5.2.2. Labeling Systems
+Usamos etiquetas claras y breves para que nadie se confunda al navegar. Preferimos palabras comunes, con el mismo vocabulario en web, móvil e IoT. Cuando hay una acción elegimos verbos simples como “Sign in”, “Create account”, “Collect waste”, “Redeem”, cuando solo identificamos contenido usamos sustantivos directos como “Dashboard”, “Rewards”, “Profile”. Los mensajes de estado son cortos y amables, por ejemplo “Cargando”, “Acción completada”, “Revisa los datos”, “Aún no hay elementos”. Siempre que ayuda, acompañamos con un ícono para acelerar el reconocimiento. Cuidamos la accesibilidad con etiquetas visibles en formularios, descripciones en iconos mediante aria-label. Con estas reglas las etiquetas son claras, suenan igual en todas las pantallas y reducen la carga mental de los usuarios.
 
 ### 5.2.3. SEO Tags and Meta Tags
 
+Para la Landing Page de Metalix usamos un título directo y una descripción que explique el valor en pocas palabras. Añadimos las palabras clave más relevantes para el proyecto y declaramos el autor para mantener coherencia. Además, incluimos metadatos Open Graph y Twitter Card para que, al compartir la página, aparezcan un título, una descripción y una imagen adecuados en redes sociales. A continuación se muestra los metatags listos.
+
+```HTML
+<title>Metalix – Recicla metales y gana recompensas con IoT</title>
+<meta name="description" content="Plataforma que incentiva el reciclaje de metales mediante tecnología IoT y un sistema de puntos canjeables por recompensas. Únete y reduce CO₂ con Metalix." />
+<meta name="keywords" content="reciclaje, IoT, metal, recompensas, sostenibilidad, puntos, medio ambiente, Metalix" />
+<meta name="author" content="Metalix UX/UI Team" />
+<meta property="og:title" content="Metalix – Recicla metales y gana recompensas con IoT" />
+<meta property="og:description" content="Recicla metales con tecnología IoT y gana recompensas. Únete y reduce CO₂ con Metalix." />
+<meta property="og:image" content="https://example.com/og/metalix-cover.jpg" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary_large_image" />
+```
+
 ### 5.2.4. Searching Systems
+En Metalix la búsqueda está pensada para que el usuario encuentre lo que necesita sin perderse entre datos. En la web y el móvil ofrecemos un campo de búsqueda visible donde se puede escribir por nombre, ubicación o tipo de metal, y a partir de ahí se refinan los resultados con filtros sencillos como rango de fechas, categoría de recompensa, estado de canje o dispositivo IoT. Los resultados se muestran en listas o tarjetas claras, con el término buscado destacado y acciones directas como ver detalles o canjear. Cuando no hay coincidencias, el sistema explica qué pasó y sugiere quitar filtros o probar con otras palabras. Para administradores, la búsqueda admite filtros avanzados y ordenamientos por fecha, cantidad recolectada o zona, y recuerda los últimos criterios usados para acelerar el trabajo diario. En móvil cuidamos que todo sea de pocos toques, así que los filtros se presentan como chips activables y el listado prioriza lo más útil primero. En todos los casos hay retroalimentación inmediata al aplicar un filtro o cambiar el término, evitando esperas innecesarias y manteniendo la interfaz estable.
 
 ### 5.2.5. Navigation Systems
+La navegación guía al usuario por la landing y las aplicaciones con la menor fricción posible. En la landing el recorrido es lineal y muy claro con un encabezado fijo con enlaces a Inicio, Problema, Solución, Beneficios, Como funciona y Contacto, acompañado de un llamado a la acción que lleva a crear cuenta o iniciar sesión. En la web se mantiene un patrón estable con barra lateral para las secciones principales como Dashboard, Waste Collection, Rewards y Profile, y una barra superior con el acceso a la cuenta. En la app móvil la navegación se simplifica con una barra inferior de cuatro ítems y transiciones tipo “pila” que conservan el contexto, con un botón de regreso visible. En el dispositivo IoT el flujo es lineal y muy breve, pensado para resolver en segundos.
 
 ## 5.3. Landing Page UI Design
 
