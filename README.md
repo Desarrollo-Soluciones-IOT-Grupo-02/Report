@@ -3383,6 +3383,37 @@ Implementación del estándar Conventional Commits con la estructura:
 
 ### 6.1.4. Software Deployment Configuration
 
+**Landing Page Deployment Configuration**
+
+Para el despliegue de la Landing Page de Metalix, se utilizó GitHub Pages, un servicio de alojamiento web estático que permite a los desarrolladores alojar sitios web estáticos de forma gratuita. Los pasos fueron los siguientes:
+
+Crear un repositorio en GitHub con el código fuente de la Landing Page. El repositorio contiene el archivo index.html en la raíz del proyecto.
+
+Habilitar GitHub Pages en la configuración del repositorio, seleccionando la rama y la carpeta de despliegue.
+
+Se seleccionó la rama main y la carpeta raíz del proyecto como fuente de despliegue.
+
+Acceder a la URL proporcionada por GitHub Pages para visualizar la Landing Page. La URL tiene el siguiente formato: "https://username.github.io/repository"
+
+**Web Application Deployment Configuration**
+
+Para desplegar el frontend de la aplicación web de Metalix, se utilizó Vercel, una plataforma que facilita el despliegue de aplicaciones front-end. Los pasos para el despliegue en Vercel son:
+
+Crear una cuenta en Vercel si aún no se tiene una.
+
+Conectar el repositorio de GitHub donde se encuentra el código del frontend. Vercel permite la integración directa con GitHub.
+
+Seleccionar el repositorio correspondiente y configurar el proyecto según las necesidades.
+
+Configurar las variables de entorno necesarias para la aplicación, si corresponde.
+
+Desplegar la aplicación haciendo clic en el botón de despliegue. Vercel generará una URL única donde la aplicación será accesible.
+
+Acceder a la URL proporcionada por Vercel para visualizar la aplicación web.
+
+GitHub Pages Deployment
+Accede al Landing Page de Metalix: https://johaanq.github.io/metalix-landing-page/
+
 ## 6.2. Landing Page, Services & Applications Implementation
 
 ### 6.2.X. Sprint n
