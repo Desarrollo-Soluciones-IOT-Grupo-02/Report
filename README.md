@@ -471,7 +471,7 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
           <tr>
             <td align="justify">
               <b>Quiñones Tintaya, Johan Jorge:</b><br>
-              En el avance del Análisis de entrevistas, coordine con mis compañeros la construcción de preguntas y la redacción de respuestas en primera persona, de modo que todos pudimos aportar desde distintos enfoques. Del mismo modo, en el desarrollo del Tactical-Level Domain-Driven Design y sus subpuntos por cada bounded context, ejercí el desarrollo completo de sus responsabilidades técnicas (diagramas, definición de capas y modelos).
+              Durante el Sprint 1, lideré conjuntamente el desarrollo completo de la arquitectura técnica del proyecto Metalix, asumiendo la responsabilidad principal en la implementación del backend con Spring Boot 3.5.6 siguiendo Domain-Driven Design. Coordiné con el equipo la estructura de los 6 bounded contexts (IAM, Municipality, Waste Collection, Reward, Monitoring, User Identification), guiando en las decisiones técnicas y promoviendo la participación activa de todos en las revisiones de código. Además, dirigí el desarrollo de la landing page y configuré la base del frontend con Angular, documentando 25 endpoints con OpenAPI/Swagger. Mi liderazgo técnico permitió que el equipo trabajara de forma integrada entre las diferentes capas de la aplicación.
             </td>
           </tr>
           <tr>
@@ -580,7 +580,7 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
           <tr>
             <td align="justify">
               <b>Quiñones Tintaya, Johan Jorge:</b><br>
-              En el avance del Análisis de entrevistas, coordine con mis compañeros la construcción de preguntas y la redacción de respuestas en primera persona, de modo que todos pudimos aportar desde distintos enfoques. Del mismo modo, en el desarrollo del Tactical-Level Domain-Driven Design y sus subpuntos por cada bounded context, ejercí el desarrollo completo de sus responsabilidades técnicas (diagramas, definición de capas y modelos).
+              Promoví un entorno colaborativo e inclusivo durante el Sprint 1 al establecer reuniones técnicas periódicas donde todos los integrantes podían aportar ideas sobre la arquitectura y funcionalidades del sistema. Definí metas claras para cada fase del desarrollo: inicialización del proyecto Spring Boot (28/09), implementación de los 6 bounded contexts (29/09-06/10), documentación con Swagger (07/10), y testing y deployment (08/10-10/10). Planifiqué las tareas siguiendo Conventional Commits y GitFlow, asegurando que cada módulo se integrara correctamente. Cumplí con todos los objetivos técnicos entregando un backend robusto con 25 endpoints documentados, landing page desplegada en GitHub Pages, y frontend funcional en Vercel, permitiendo que el equipo avanzara de manera coordinada y eficiente en el desarrollo completo del sistema Metalix.
             </td>
           </tr>
           <tr>
