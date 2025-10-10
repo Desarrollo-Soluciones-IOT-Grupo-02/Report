@@ -3477,11 +3477,95 @@ En Metalix la búsqueda está pensada para que el usuario encuentre lo que neces
 ### 5.2.5. Navigation Systems
 La navegación guía al usuario por la landing y las aplicaciones con la menor fricción posible. En la landing el recorrido es lineal y muy claro con un encabezado fijo con enlaces a Inicio, Problema, Solución, Beneficios, Como funciona y Contacto, acompañado de un llamado a la acción que lleva a crear cuenta o iniciar sesión. En la web se mantiene un patrón estable con barra lateral para las secciones principales como Dashboard, Waste Collection, Rewards y Profile, y una barra superior con el acceso a la cuenta. En la app móvil la navegación se simplifica con una barra inferior de cuatro ítems y transiciones tipo “pila” que conservan el contexto, con un botón de regreso visible. En el dispositivo IoT el flujo es lineal y muy breve, pensado para resolver en segundos.
 
+
 ## 5.3. Landing Page UI Design
+
+En esta sección se presentan los wireframes de la landing page, que muestran la estructura y disposición de cada una de las vistas principales antes de pasar al diseño visual final. Cada pantalla está pensada para guiar al usuario a través del recorrido de la propuesta de valor de Metalix.
 
 ### 5.3.1. Landing Page Wireframe
 
+**Pantalla de Inicio**
+![Pantalla de Inicio - Wireframe](./chapter-5/LandingWireframes/01-Inicio-LandingPage-Wireframe.jpg)
+
+**Sección Problema**
+![Sección Problema - Wireframe](./chapter-5/LandingWireframes/02-Problema-LandingPage-Wireframe.jpg)
+
+**Sección Solución**
+![Sección Solución - Wireframe](./chapter-5/LandingWireframes/03-Solucion-LandingPage-Wireframe.jpg)
+
+**Sección Beneficios**
+![Sección Beneficios - Wireframe](./chapter-5/LandingWireframes/04-Beneficios-LandingPage-Wireframe.jpg)
+
+**Sección Cómo Funciona**
+![Sección Cómo Funciona - Wireframe](./chapter-5/LandingWireframes/05-Como%20Funciona-LandingPage-Wireframe.jpg)
+
+**Vista Diferencia / Impacto**
+![Vista Diferencia - Wireframe](./chapter-5/LandingWireframes/06-Diferencia-LandingPage-Wireframe.jpg)
+
+**Sección Contáctanos**
+![Sección Contáctanos - Wireframe](./chapter-5/LandingWireframes/07-Contactanos-LandingPage-Wireframe.jpg)
+
+**Pie de Página (Footer)**
+![Footer - Wireframe](./chapter-5/LandingWireframes/08-Footer-LandingPage-Wireframe.jpg)
+
 ### 5.3.2. Landing Page Mock-up
+
+A continuación, presentaremos las pantallas de nuestra landing page, tanto en su versión web como en su versión mobile.
+
+#### Mock-ups Versión Web
+
+**Pantalla de Inicio**
+![Pantalla de Inicio - Web](./chapter-5/LandingMockUps/01-Inicio-LandingPage-MockUp.jpg)
+
+**Sección Problema**
+![Sección Problema - Web](./chapter-5/LandingMockUps/02-Problema-LandingPage-MockUp.jpg)
+
+**Sección Solución**
+![Sección Solución - Web](./chapter-5/LandingMockUps/03-Solucion-LandingPage-MockUp.jpg)
+
+**Sección Beneficios**
+![Sección Beneficios - Web](./chapter-5/LandingMockUps/04-Beneficios-LandingPage-MockUp.jpg)
+
+**Sección Cómo Funciona**
+![Sección Cómo Funciona - Web](./chapter-5/LandingMockUps/05-Como%20Funciona-LandingPage-MockUp.jpg)
+
+**Vista Diferencia / Impacto**
+![Vista Diferencia - Web](./chapter-5/LandingMockUps/06-Diferencia-LandingPage-MockUp.jpg)
+
+**Sección Contáctanos**
+![Sección Contáctanos - Web](./chapter-5/LandingMockUps/07-Contactanos-LandingPage-MockUp.jpg)
+
+**Pie de Página (Footer)**
+![Footer - Web](./chapter-5/LandingMockUps/08-Footer-LandingPage-MockUp.jpg)
+
+#### Mock-ups Versión Mobile
+
+**Menú Hamburguesa**
+![Menú Hamburguesa - Mobile](./chapter-5/LandingMobileMockUps/00-Barra%20Hamburguesa-LandingPage-Mobile-MockUp.jpg)
+
+**Pantalla de Inicio**
+![Pantalla de Inicio - Mobile](./chapter-5/LandingMobileMockUps/01-Inicio-LandingPage-Mobile-MockUp.jpg)
+
+**Sección Problema**
+![Sección Problema - Mobile](./chapter-5/LandingMobileMockUps/02-Problema-LandingPage-Mobile-MockUp.jpg)
+
+**Sección Solución**
+![Sección Solución - Mobile](./chapter-5/LandingMobileMockUps/03-Solucion-LandingPage-Mobile-MockUp.jpg)
+
+**Sección Beneficios**
+![Sección Beneficios - Mobile](./chapter-5/LandingMobileMockUps/04-Beneficios-LandingPage-Mobile-MockUp.jpg)
+
+**Sección Cómo Funciona**
+![Sección Cómo Funciona - Mobile](./chapter-5/LandingMobileMockUps/05-Como%20Funciona-LandingPage-Mobile-MockUp.jpg)
+
+**Vista Diferencia / Impacto**
+![Vista Diferencia - Mobile](./chapter-5/LandingMobileMockUps/06-Diferencia-LandingPage-Mobile-MockUp.jpg)
+
+**Sección Contáctanos**
+![Sección Contáctanos - Mobile](./chapter-5/LandingMobileMockUps/07-Contactanos-LandingPage-Mobile-MockUp.jpg)
+
+**Pie de Página (Footer)**
+![Footer - Mobile](./chapter-5/LandingMobileMockUps/08-Footer-LandingPage-Mobile-MockUp.jpg)
 
 ## 5.4. Application UX/UI Design
 
