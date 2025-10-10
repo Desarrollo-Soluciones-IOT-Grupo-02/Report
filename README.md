@@ -3339,15 +3339,15 @@ El diagrama muestra claramente cómo los seis bounded contexts interactúan entr
 
 **Login**
 
-![Login](./chapter-5/WebAppMockUps/login.png)
+![Login](./chapter-5/WebAppMockUps/Login.png)
 
 **Register**
 
-![Register](./chapter-5/WebAppMockUps/register.png)
+![Register](./chapter-5/WebAppMockUps/Register.png)
 
 **Dashboard**
 
-![Dashboard](./chapter-5/WebAppMockUps/dashboard.png)
+![Dashboard](./chapter-5/WebAppMockUps/Dashboard.png)
 
 **WasteCollections**
 
