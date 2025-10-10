@@ -451,6 +451,50 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
             </td>
           </tr>
         </table>
+          <table>
+          <tr>
+            <td rowspan="7"><b>TP</b></td>
+          </tr>
+        <!-- Estudiantes -->
+          <tr>
+            <td align="justify">
+              <b>Del Carmen Zorrilla, Ray Alessandro:</b><br>
+              Durante el desarrollo del proyecto asumí un rol activo en la organización de las tareas y coordinación con mis compañeros. 
+              Brindé liderazgo conjunto al proponer la segmentación de los usuarios y en la preparación de las entrevistas, 
+              fomentando la toma de decisiones compartida y asegurando que el equipo avanzara de forma ordenada y alineada a los objetivos.
+            </td>
+          </tr>
+          <tr>
+            <td align="justify">
+              <b>Cruz Palomino, Adriano Sebastian</b><br>
+              Durante el avance del proyecto participé activamente en el análisis competitivo y en la propuesta de estrategias y tácticas frente a competidores, aportando ideas y colaborando con mis compañeros para enriquecer los resultados. También contribuí en la construcción de los User Personas, el User Journey Mapping y el Empathy Mapping, trabajando de manera conjunta con el equipo para reflejar las necesidades, motivaciones y experiencias de los usuarios de forma coherente con los objetivos planteados.
+            </td>
+          </tr>
+          <tr>
+            <td align="justify">
+              <b>Quiñones Tintaya, Johan Jorge:</b><br>
+              En el avance del Análisis de entrevistas, coordine con mis compañeros la construcción de preguntas y la redacción de respuestas en primera persona, de modo que todos pudimos aportar desde distintos enfoques. Del mismo modo, en el desarrollo del Tactical-Level Domain-Driven Design y sus subpuntos por cada bounded context, ejercí el desarrollo completo de sus responsabilidades técnicas (diagramas, definición de capas y modelos).
+            </td>
+          </tr>
+          <tr>
+            <td align="justify">
+              <b>Pardo Zapata Gustavo Adolfo:</b><br>
+              Durante la fase de implementación del proyecto, ejercí un liderazgo técnico integral al diseñar y documentar completamente la arquitectura de despliegue y configuración del sistema Metalix. Lideré la implementación de la estrategia GitFlow, estableciendo los flujos de trabajo colaborativo que permitieron al equipo desarrollar características de manera paralela y organizada. Guié la configuración del entorno de desarrollo unificado y los estándares de calidad de código, facilitando la integración continua y el trabajo coordinado en frontend.
+            </td>
+          </tr>
+          <tr>
+            <td align="justify">
+              <b>Roca Huapaya, Orlando Arturo:</b><br>
+              Participé en la entrevista al primer segmento objetivo y elaboré mi propio resumen. Lideré el desarrollo del capítulo 1 y asumí la responsabilidad en los apartados del Lean UX Process, como Problem Statements, Assumptions e Hypothesis Statements. De esta forma, ejercí un liderazgo compartido que permitió al equipo tener una base clara y bien estructurada.
+            </td>
+          </tr>
+          <tr>
+            <td align="justify">
+                <b>Mancilla Ordaya, Eduardo Vicente:</b><br>
+              Durante el desarrollo de esta entrega apoyé en la entrevista al primer segmento objetivo, asumí mi rol de liderazgo proponiendo los diagramas C4 con las tecnologías en el que podríamos realizar el proyecto. También consideré la coherencia con los otros puntos del informe para la realización de los diagramas.
+            </td>
+          </tr>
+        </table>
       </td>
       <!-- Conclusion TB1 -->
       <td rowspan="1" align="justify">
@@ -511,6 +555,50 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
             <td align="justify">
               <b>Mancilla Ordaya, Eduardo Vicente:</b><br>
               Formé parte de las reuniones grupales para el planteamiento y desarrollo preliminar del proyecto. Lo cual me llevó a la realización de los diagramas C4 para poder visualizar de una mejor manera los puntos clave del proyecto. El desarrollo grupal de la TB1 fue clave para poder tener coherencia en los diferentes puntos del informe.
+            </td>
+          </tr>
+        </table>
+          <table>
+          <tr>
+            <td rowspan="7"><b>TP</b></td>
+          </tr>
+        <!-- Estudiantes -->
+          <tr>
+            <td align="justify">
+              <b>Del Carmen Zorrilla, Ray Alessandro:</b><br>
+              Durante el desarrollo del proyecto asumí un rol activo en la organización de las tareas y coordinación con mis compañeros. 
+              Brindé liderazgo conjunto al proponer la segmentación de los usuarios y en la preparación de las entrevistas, 
+              fomentando la toma de decisiones compartida y asegurando que el equipo avanzara de forma ordenada y alineada a los objetivos.
+            </td>
+          </tr>
+          <tr>
+            <td align="justify">
+              <b>Cruz Palomino, Adriano Sebastian</b><br>
+              Durante el avance del proyecto participé activamente en el análisis competitivo y en la propuesta de estrategias y tácticas frente a competidores, aportando ideas y colaborando con mis compañeros para enriquecer los resultados. También contribuí en la construcción de los User Personas, el User Journey Mapping y el Empathy Mapping, trabajando de manera conjunta con el equipo para reflejar las necesidades, motivaciones y experiencias de los usuarios de forma coherente con los objetivos planteados.
+            </td>
+          </tr>
+          <tr>
+            <td align="justify">
+              <b>Quiñones Tintaya, Johan Jorge:</b><br>
+              En el avance del Análisis de entrevistas, coordine con mis compañeros la construcción de preguntas y la redacción de respuestas en primera persona, de modo que todos pudimos aportar desde distintos enfoques. Del mismo modo, en el desarrollo del Tactical-Level Domain-Driven Design y sus subpuntos por cada bounded context, ejercí el desarrollo completo de sus responsabilidades técnicas (diagramas, definición de capas y modelos).
+            </td>
+          </tr>
+          <tr>
+            <td align="justify">
+              <b>Pardo Zapata Gustavo Adolfo:</b><br>
+              Creé un entorno de desarrollo colaborativo mediante la implementación de herramientas unificadas (Discord, Trello, GitHub) y documentación técnica accesible. Establecí metas claras para la configuración de los entornos de desarrollo, prueba y producción, planificando las tareas de implementación en fases sucesivas. Implementé procesos de revisión de código y convenciones que fomentaron la inclusión de todos los miembros del equipo. Cumplí con los objetivos entregando una infraestructura robusta que permitió al equipo focalizarse en el desarrollo de funcionalidades.
+            </td>
+          </tr>
+          <tr>
+            <td align="justify">
+              <b>Roca Huapaya, Orlando Arturo:</b><br>
+              Participé en la entrevista al primer segmento objetivo y elaboré mi propio resumen. Lideré el desarrollo del capítulo 1 y asumí la responsabilidad en los apartados del Lean UX Process, como Problem Statements, Assumptions e Hypothesis Statements. De esta forma, ejercí un liderazgo compartido que permitió al equipo tener una base clara y bien estructurada.
+            </td>
+          </tr>
+          <tr>
+            <td align="justify">
+                <b>Mancilla Ordaya, Eduardo Vicente:</b><br>
+              Durante el desarrollo de esta entrega apoyé en la entrevista al primer segmento objetivo, asumí mi rol de liderazgo proponiendo los diagramas C4 con las tecnologías en el que podríamos realizar el proyecto. También consideré la coherencia con los otros puntos del informe para la realización de los diagramas.
             </td>
           </tr>
         </table>
