@@ -231,12 +231,8 @@ Esta sección tiene como propósito detallar las actualizaciones significativas 
         <tr>
       <td>Mancilla Ordaya, Eduardo Vicente</td>
       <td>
-        - Realicé entrevista para el primer segmento objetivo.<br>
-        - Realicé el resumen correspondiente de la entrevista realizada<br>
-        - Actualicé la presentación con los diagramas C4 para su exposición<br>
-           - Desarrolle el System Landscape Diagram.<br>
-           - Desarrolle el Context Level Diagram.<br>
-           - Desarrolle el Deployment Diagram.<br>
+        - Realicé los wireframes de la aplicación web<br>
+           - Realicé los Wireframes diagramas para historias de usuario<br>
       </td>
     </tr>
   <!-- Otras entrega -->
@@ -602,7 +598,7 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
           <tr>
             <td align="justify">
                 <b>Mancilla Ordaya, Eduardo Vicente:</b><br>
-              Durante el desarrollo de esta entrega apoyé en la entrevista al primer segmento objetivo, asumí mi rol de liderazgo proponiendo los diagramas C4 con las tecnologías en el que podríamos realizar el proyecto. También consideré la coherencia con los otros puntos del informe para la realización de los diagramas.
+              Durante el desarrollo de esta entrega realicé el diseño de los wireframes de la aplicación web del proyecto, siguiendo los lineamientos del style guideline del informe correspondiente. A su vez, se realizarón los respectivos diagramas de flujo para los wireframes con el fin de satisfacer historias de usuario relevantes.
             </td>
           </tr>
         </table>
