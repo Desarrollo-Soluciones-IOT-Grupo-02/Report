@@ -3293,7 +3293,7 @@ El diagrama muestra claramente cómo los seis bounded contexts interactúan entr
 
 **WasteCollections**
 
-![WasteCollections](./chapter-5/WebAppWireframes/WasteCollections.png)
+![WasteCollections](./chapter-5/WebAppWireframes/WasteCollection.png)
 
 **Rewards-Available Rewards**
 
