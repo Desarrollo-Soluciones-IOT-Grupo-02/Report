@@ -195,13 +195,15 @@ Esta sección tiene como propósito detallar las actualizaciones significativas 
         <tr>
       <td>Quiñones Tintaya, Johan Jorge</td>
       <td>
-        - Realice entrevista a usuario<br>
-        - Desarrolle el analisis completo de todas las entrevistas<br>
-        - Desarrolle completamente el punto de Tactical-Level Domain-Driven Design para el BD de WasteCollection<br>
-        - Desarrolle completamente el punto de Tactical-Level Domain-Driven Design para el BD de UserIdentification<br>
-        - Desarrolle completamente el punto de Tactical-Level Domain-Driven Design para el BD de RewardManagement<br>
-        - Desarrolle completamente el punto de Tactical-Level Domain-Driven Design para el BD de MunicipalityManagement<br>
-        - Desarrolle completamente el punto de Tactical-Level Domain-Driven Design para el BD de Monitoring & Reporting 
+        - Implementé el <b>backend completo de Metalix</b> con Spring Boot 3.5.6 y Java 21 siguiendo arquitectura DDD<br>
+        - Desarrollé los <b>6 Bounded Contexts</b>: IAM, Municipality, Waste Collection, Reward, Monitoring y User Identification<br>
+        - Creé y documenté <b>25 endpoints RESTful</b> con autenticación JWT y seguridad con Spring Security<br>
+        - Implementé la <b>documentación OpenAPI/Swagger</b> para todos los endpoints del sistema<br>
+        - Desarrollé la <b>landing page</b> completa con secciones hero, features, benefits y testimonials<br>
+        - Configuré el <b>frontend base con Angular</b> incluyendo módulos de autenticación, dashboard y componentes principales<br>
+        - Realicé el <b>deployment</b> de la landing page en GitHub Pages y frontend en Vercel<br>
+        - Implementé <b>tests unitarios</b> con JUnit alcanzando 85% de cobertura en módulos core<br>
+        - Documenté el <b>Sprint 1</b> con evidencias de commits (28/09-10/10/2025) para landing, frontend y backend
       </td>
     </tr>
     <tr>
@@ -231,12 +233,8 @@ Esta sección tiene como propósito detallar las actualizaciones significativas 
         <tr>
       <td>Mancilla Ordaya, Eduardo Vicente</td>
       <td>
-        - Realicé entrevista para el primer segmento objetivo.<br>
-        - Realicé el resumen correspondiente de la entrevista realizada<br>
-        - Actualicé la presentación con los diagramas C4 para su exposición<br>
-           - Desarrolle el System Landscape Diagram.<br>
-           - Desarrolle el Context Level Diagram.<br>
-           - Desarrolle el Deployment Diagram.<br>
+        - Realicé los wireframes de la aplicación web<br>
+           - Realicé los Wireframes diagramas para historias de usuario<br>
       </td>
     </tr>
   <!-- Otras entrega -->
@@ -475,7 +473,7 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
           <tr>
             <td align="justify">
               <b>Quiñones Tintaya, Johan Jorge:</b><br>
-              En el avance del Análisis de entrevistas, coordine con mis compañeros la construcción de preguntas y la redacción de respuestas en primera persona, de modo que todos pudimos aportar desde distintos enfoques. Del mismo modo, en el desarrollo del Tactical-Level Domain-Driven Design y sus subpuntos por cada bounded context, ejercí el desarrollo completo de sus responsabilidades técnicas (diagramas, definición de capas y modelos).
+              Durante el Sprint 1, lideré conjuntamente el desarrollo completo de la arquitectura técnica del proyecto Metalix, asumiendo la responsabilidad principal en la implementación del backend con Spring Boot 3.5.6 siguiendo Domain-Driven Design. Coordiné con el equipo la estructura de los 6 bounded contexts (IAM, Municipality, Waste Collection, Reward, Monitoring, User Identification), guiando en las decisiones técnicas y promoviendo la participación activa de todos en las revisiones de código. Además, dirigí el desarrollo de la landing page y configuré la base del frontend con Angular, documentando 25 endpoints con OpenAPI/Swagger. Mi liderazgo técnico permitió que el equipo trabajara de forma integrada entre las diferentes capas de la aplicación.
             </td>
           </tr>
           <tr>
@@ -584,7 +582,7 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
           <tr>
             <td align="justify">
               <b>Quiñones Tintaya, Johan Jorge:</b><br>
-              En el avance del Análisis de entrevistas, coordine con mis compañeros la construcción de preguntas y la redacción de respuestas en primera persona, de modo que todos pudimos aportar desde distintos enfoques. Del mismo modo, en el desarrollo del Tactical-Level Domain-Driven Design y sus subpuntos por cada bounded context, ejercí el desarrollo completo de sus responsabilidades técnicas (diagramas, definición de capas y modelos).
+              Promoví un entorno colaborativo e inclusivo durante el Sprint 1 al establecer reuniones técnicas periódicas donde todos los integrantes podían aportar ideas sobre la arquitectura y funcionalidades del sistema. Definí metas claras para cada fase del desarrollo: inicialización del proyecto Spring Boot (28/09), implementación de los 6 bounded contexts (29/09-06/10), documentación con Swagger (07/10), y testing y deployment (08/10-10/10). Planifiqué las tareas siguiendo Conventional Commits y GitFlow, asegurando que cada módulo se integrara correctamente. Cumplí con todos los objetivos técnicos entregando un backend robusto con 25 endpoints documentados, landing page desplegada en GitHub Pages, y frontend funcional en Vercel, permitiendo que el equipo avanzara de manera coordinada y eficiente en el desarrollo completo del sistema Metalix.
             </td>
           </tr>
           <tr>
@@ -602,7 +600,7 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
           <tr>
             <td align="justify">
                 <b>Mancilla Ordaya, Eduardo Vicente:</b><br>
-              Durante el desarrollo de esta entrega apoyé en la entrevista al primer segmento objetivo, asumí mi rol de liderazgo proponiendo los diagramas C4 con las tecnologías en el que podríamos realizar el proyecto. También consideré la coherencia con los otros puntos del informe para la realización de los diagramas.
+              Durante el desarrollo de esta entrega realicé el diseño de los wireframes de la aplicación web del proyecto, siguiendo los lineamientos del style guideline del informe correspondiente. A su vez, se realizarón los respectivos diagramas de flujo para los wireframes con el fin de satisfacer historias de usuario relevantes.
             </td>
           </tr>
         </table>
