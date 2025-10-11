@@ -64,7 +64,7 @@
   </table>
 </div>
 
-<h3 align="center">Septiembre, 2025</h3>
+<h3 align="center">Agosto, 2025</h3>
 
 <br><br>
 
@@ -179,27 +179,24 @@ Esta sección tiene como propósito detallar las actualizaciones significativas 
     <tr>
       <td>Cruz Palomino, Adriano Sebastian</td>
       <td>
-        - Realicé entrevistas al segmento de municipalidades.<br>
-        - Desarrollé el <b>análisis competitivo</b> identificando fortalezas, debilidades, oportunidades y amenazas de los competidores.<br>- Propuse <b>estrategias y tácticas frente a competidores</b> para diferenciar la solución.<br>
-        - Elaboré el proceso de <b>Needfinding</b>.<br>
-        - Construí los <b>User Personas</b> representativos de los segmentos clave.<br>
-        - Diseñé la <b>User Task Matrix</b>.<br>
-        - Desarrollé el <b>User Journey Mapping</b> destacando fases y sentimientos del usuario.<br>
-        - Creé el <b>Empathy Mapping</b> para comprender motivaciones y frustraciones.<br>
-        - Documenté el <b>As-is Scenario Mapping</b>, mostrando el flujo actual de interacción con la problemática.<br>
-        - Definí el <b>Ubiquitous Language</b>, estableciendo el lenguaje común del dominio.<br> 
+        - Desarrollé los <b>wireframes</b> de la aplicación web estructurando la interfaz de usuario para todas las pantallas principales.<br>
+        - Creé los <b>wireflow diagrams</b> mostrando los flujos de navegación entre las diferentes pantallas de la aplicación.<br>
+        - Elaboré los <b>mockups</b> de la aplicación web con el diseño visual completo aplicando las Style Guidelines establecidas.<br>
+        - Desarrollé los <b>user flow diagrams</b> detallando los recorridos completos del usuario en escenarios clave.<br>
+        - Diseñé el <b>prototipo interactivo</b> en Figma permitiendo la validación temprana del diseño UI/UX con el equipo.<br>
+        - Coordiné con el equipo la consistencia visual y funcional de todos los componentes de diseño.<br>
       </td>
     </tr>
         <tr>
       <td>Quiñones Tintaya, Johan Jorge</td>
       <td>
-        - Realice entrevista a usuario<br>
-        - Desarrolle el analisis completo de todas las entrevistas<br>
-        - Desarrolle completamente el punto de Tactical-Level Domain-Driven Design para el BD de WasteCollection<br>
-        - Desarrolle completamente el punto de Tactical-Level Domain-Driven Design para el BD de UserIdentification<br>
-        - Desarrolle completamente el punto de Tactical-Level Domain-Driven Design para el BD de RewardManagement<br>
-        - Desarrolle completamente el punto de Tactical-Level Domain-Driven Design para el BD de MunicipalityManagement<br>
-        - Desarrolle completamente el punto de Tactical-Level Domain-Driven Design para el BD de Monitoring & Reporting 
+        - Implementé el <b>backend completo</b> con Spring Boot 3.5.6 y Java 21 siguiendo arquitectura Domain-Driven Design.<br>
+        - Desarrollé los <b>6 bounded contexts</b>: IAM, WasteCollection, UserIdentification, RewardManagement, MunicipalityManagement, Monitoring & Reporting.<br>
+        - Diseñé la arquitectura de <b>capas por contexto</b>: Domain Layer, Interface Layer, Application Layer e Infrastructure Layer.<br>
+        - Creé los <b>diagramas de componentes</b> para visualizar la arquitectura de cada bounded context.<br>
+        - Elaboré los <b>diagramas de clases</b> del dominio detallando entidades, value objects y servicios para todos los contextos.<br>
+        - Diseñé los <b>diagramas de base de datos</b> con sus relaciones, restricciones y estrategia de persistencia.<br>
+        - Documenté todos los <b>endpoints REST</b> con Swagger/OpenAPI para facilitar la integración con frontend.<br>
       </td>
     </tr>
     <tr>
@@ -217,24 +214,23 @@ Esta sección tiene como propósito detallar las actualizaciones significativas 
         <tr>
       <td>Roca Huapaya, Orlando Arturo</td>
       <td>
-        - Realicé entrevista para el primer segmento objetivo<br>
-        - Elaboré el resumen de mi entrevista dedicada<br>
-        - Desarrollé completamente parte del capítulo 1<br>
-        - Desarrollé completamente el punto de Lean UX Process<br>
-        - Desarrollé completamente el punto de Lean UX Problem Statements<br>
-        - Desarrollé completamente el punto de Lean UX Assumptions<br>
-        - Implementé el punto de Lean UX Hypothesis Statements
+        - Desarrollé la sección completa de <b>Information Architecture</b> con Organization Systems, Labeling Systems y Navigation Systems.<br>
+        - Elaboré las <b>Style Guidelines</b> generales y específicas para Web, Mobile e IoT estableciendo la identidad visual del proyecto.<br>
+        - Documenté los <b>SEO Tags y Meta Tags</b> para optimizar la presencia digital de la landing page.<br>
+        - Definí los <b>Searching Systems</b> y estrategias de búsqueda para mejorar la experiencia del usuario.<br>
+        - Coordiné la integración entre los principios de Lean UX y el diseño UI/UX para mantener coherencia conceptual.<br>
+        - Aseguré la consistencia del tono de comunicación y branding a través de todos los entregables de diseño.<br>
     </td>
     </tr>
         <tr>
       <td>Mancilla Ordaya, Eduardo Vicente</td>
       <td>
-        - Realicé entrevista para el primer segmento objetivo.<br>
-        - Realicé el resumen correspondiente de la entrevista realizada<br>
-        - Actualicé la presentación con los diagramas C4 para su exposición<br>
-           - Desarrolle el System Landscape Diagram.<br>
-           - Desarrolle el Context Level Diagram.<br>
-           - Desarrolle el Deployment Diagram.<br>
+        - Desarrollé los <b>diagramas C4 completos</b> del sistema Metalix: Landscape, Context, Container y Deployment.<br>
+        - Documenté la <b>arquitectura de software</b> a nivel estratégico mostrando la interacción entre sistemas externos.<br>
+        - Diseñé el <b>Context Level Diagram</b> identificando actores y sistemas relacionados con Metalix.<br>
+        - Elaboré el <b>Container Level Diagram</b> detallando la arquitectura de contenedores (frontend, backend, bases de datos).<br>
+        - Creé el <b>Deployment Diagram</b> especificando la infraestructura de despliegue en GitHub Pages, Vercel y Railway.<br>
+        - Coordiné con el equipo backend la coherencia entre arquitectura documentada e implementación real.<br>
       </td>
     </tr>
   <!-- Otras entrega -->
@@ -339,27 +335,213 @@ En la entrega del Trabajo Parcial (TP), el equipo avanzó significativamente en 
 
 ### [Capítulo IV: Solutions Software Design](#capítulo-iv-solution-software-design)
 
-- [4.1. Strategic-Level Domain-Driven Design](#41-strategic-level-domain-driven-design)
-  - [4.1.1. EventStorming](#411-eventstorming)
-    - [4.1.1.1. Candidate Context Discovery](#4111-candidate-context-discovery)
-    - [4.1.1.2. Domain Message Flows Modeling](#4112-domain-message-flows-modeling)
-    - [4.1.1.3. Bounded COntext Canvases](#4113-bounded-context-canvases)
-  - [4.1.2. Context Mapping](#412-context-mapping)
-  - [4.1.3. Software Architecture](#413-software-architecture)
-    - [4.1.3.1. Software Architecture System Landscape Diagram](#4131-software-architecture-system-landscape-diagram)
-    - [4.1.3.2. Software Architecture Context Level Diagrams](#4132-software-architecture-context-level-diagrams)
-    - [4.1.3.3. Software Architecture Container Level Diagrams](#4133-software-architecture-container-level-diagrams)
-    - [4.1.3.4. Software Architecture Deployment Diagrams](#4134-software-architecture-deployment-diagrams)
+- [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
+- [Project Report Collaboration Insights](#project-report-collaboration-insights)
+  - [TB1 - Collaboration Insights](#tb1---collaboration-insights)
+  - [TP - Collaboration Insights](#tp---collaboration-insights)
+- [Contenido](#contenido)
+  - [Tabla de Contenidos](#tabla-de-contenidos)
+    - [Registro de versiones del informe](#registro-de-versiones-del-informe-1)
+    - [Project Report Collaboration Insights](#project-report-collaboration-insights-1)
+    - [Contenido](#contenido-1)
+    - [Student Outcome](#student-outcome)
+    - [Capítulo I: Introducción](#capítulo-i-introducción)
+    - [Capítulo II: Requirements Elicitation \& Analysis](#capítulo-ii-requirements-elicitation--analysis)
+    - [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
+    - [Capítulo IV: Solutions Software Design](#capítulo-iv-solutions-software-design)
+    - [Capítulo V: Solution UI/UX Design](#capítulo-v-solution-uiux-design)
+    - [Capítulo VI: Product Implementation, Validation \& Deployment](#capítulo-vi-product-implementation-validation--deployment)
+    - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
+    - [Video About-the-Team](#video-about-the-team)
+    - [Bibliografía](#bibliografía)
+    - [Anexos](#anexos)
+- [Student Outcome](#student-outcome-1)
+- [Capítulo I: Introducción](#capítulo-i-introducción-1)
+  - [1.1. StartUp Profile](#11-startup-profile)
+    - [1.1.1. Descripción de la StartUp](#111-descripción-de-la-startup)
+    - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
+  - [1.2. Solution Profile](#12-solution-profile)
+    - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
+      - [5W + 2H](#5w--2h)
+        - [What (¿qué?)](#what-qué)
+        - [When (¿cuándo?)](#when-cuándo)
+        - [Where (¿dónde?)](#where-dónde)
+        - [Who (¿quiénes?)](#who-quiénes)
+        - [Why (¿por qué?)](#why-por-qué)
+        - [How (¿cómo sucede?)](#how-cómo-sucede)
+        - [How much (¿cuánto?)](#how-much-cuánto)
+    - [1.2.2. Lean UX Process](#122-lean-ux-process)
+      - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
+      - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
+      - [1.2.2.3. Lean UX Hyphotesis Statements](#1223-lean-ux-hyphotesis-statements)
+      - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
+  - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
+    - [1.3.1 Segmento objetivo 1: Bañistas](#131-segmento-objetivo-1-bañistas)
+    - [1.3.2 Segmento objetivo 2: Municipalidades costeras](#132-segmento-objetivo-2-municipalidades-costeras)
+- [Capítulo II: Requirements Elicitation \& Analysis](#capítulo-ii-requirements-elicitation--analysis-1)
+  - [2.1. Competidores](#21-competidores)
+    - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
+    - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
+  - [2.2. Entrevistas](#22-entrevistas)
+    - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
+      - [Características demográficas](#características-demográficas)
+      - [Características personales y sociales](#características-personales-y-sociales)
+      - [Dispositivos y canales digitales](#dispositivos-y-canales-digitales)
+      - [Objetivos y frustraciones (contexto de playa y sostenibilidad)](#objetivos-y-frustraciones-contexto-de-playa-y-sostenibilidad)
+      - [Biografía o antecedentes](#biografía-o-antecedentes)
+    - [Segmento 1: Bañistas (turistas y pobladores locales)](#segmento-1-bañistas-turistas-y-pobladores-locales)
+    - [Segmento 2: Municipalidades costeras](#segmento-2-municipalidades-costeras)
+    - [Validación del proyecto (para ambos segmentos)](#validación-del-proyecto-para-ambos-segmentos)
+    - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
+      - [Segmento: Bañistas](#segmento-bañistas)
+        - [Entrevista 1](#entrevista-1)
+        - [Entrevista 2](#entrevista-2)
+        - [Entrevista 3](#entrevista-3)
+      - [Segmento: Municipalidades costeras](#segmento-municipalidades-costeras)
+        - [Entrevista 4](#entrevista-4)
+        - [Entrevista 5](#entrevista-5)
+        - [Entrevista 6](#entrevista-6)
+    - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
+    - [Segmento 1: Bañistas](#segmento-1-bañistas)
+    - [Segmento 2: Municipalidades Costeras](#segmento-2-municipalidades-costeras-1)
+  - [2.3. Needfinding](#23-needfinding)
+    - [2.3.1. User Personas](#231-user-personas)
+      - [**Segmento 1: Bañistas**](#segmento-1-bañistas-1)
+      - [**Segmento 2: Miembros de Municipalidades Costeras**](#segmento-2-miembros-de-municipalidades-costeras)
+    - [2.3.2. User Task Matrix](#232-user-task-matrix)
+    - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
+      - [**Segmento 1: Bañistas**](#segmento-1-bañistas-2)
+      - [**Segmento 2: Miembros de Municipalidades Costeras**](#segmento-2-miembros-de-municipalidades-costeras-1)
+    - [2.3.4. Empathy Mapping](#234-empathy-mapping)
+      - [**Segmento 1: Bañistas**](#segmento-1-bañistas-3)
+      - [**Segmento 2: Miembros de Municipalidades Costeras**](#segmento-2-miembros-de-municipalidades-costeras-2)
+    - [2.3.5. As-Is Scenario Mapping](#235-as-is-scenario-mapping)
+      - [**Segmento 1: Bañistas**](#segmento-1-bañistas-4)
+      - [**Segmento 2: Miembros de Municipalidades Costeras**](#segmento-2-miembros-de-municipalidades-costeras-3)
+  - [2.4. Ubiquitous Language](#24-ubiquitous-language)
+- [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification-1)
+  - [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
+    - [Segmento objetivo 1: Bañistas](#segmento-objetivo-1-bañistas)
+    - [Segmento objetivo 2: Municipalidades costeras](#segmento-objetivo-2-municipalidades-costeras)
+  - [3.2. User Stories](#32-user-stories)
+  - [3.3. Impact mapping](#33-impact-mapping)
+    - [Segmento objetivo 1: Bañistas](#segmento-objetivo-1-bañistas-1)
+    - [Segmento objetivo 2: Municipalidades costeras](#segmento-objetivo-2-municipalidades-costeras-1)
+  - [3.4. Product Backlog](#34-product-backlog)
+- [Capítulo IV: Solution Software Design](#capítulo-iv-solution-software-design)
+  - [4.1. Strategic-Level Domain-Driven Design](#41-strategic-level-domain-driven-design)
+    - [4.1.1. EventStorming](#411-eventstorming)
+      - [4.1.1.1. Candidate Context Discovery](#4111-candidate-context-discovery)
+      - [4.1.1.2. Domain Message Flows Modeling](#4112-domain-message-flows-modeling)
+      - [4.1.1.3. Bounded Context Canvases](#4113-bounded-context-canvases)
+    - [4.1.2 Context mapping](#412-context-mapping)
+    - [4.1.3. Software Architecture](#413-software-architecture)
+      - [4.1.3.1. Software Architecture System Landscape Diagram](#4131-software-architecture-system-landscape-diagram)
+      - [4.1.3.2. Software Architecture Context Level Diagrams](#4132-software-architecture-context-level-diagrams)
+      - [4.1.3.3. Software Architecture Container Level Diagrams](#4133-software-architecture-container-level-diagrams)
+      - [4.1.3.4. Software Architecture Deployment Diagrams](#4134-software-architecture-deployment-diagrams)
 - [4.2. Tactical-Level Domain-Driven Design](#42-tactical-level-domain-driven-design)
-  - [4.2.X. Bounded Context: <Bounded Context name>](#42x-bounded-context)
-    - [4.2.X.1. Domain Layer](#42x1-domain-layer)
-    - [4.2.X.2. Interface Layer](#42x2-interface-context)
-    - [4.2.X.3. Application Layer](#42x3-application-context)
-    - [4.2.X.4. Infrastructure Layer](#42x4-infrastructure-context)
-    - [4.2.X.5. Bounded Context Software Architecture Component Level Diagrams](#42x5-bounded-context-software-architecture-component-level-diagrams)
-    - [4.2.X.6. Bounded Context Software Architecture Code Level Diagrams](#42x6-bounded-context-software-architecture-code-level-diagrams)
-      - [4.2.X.6.1. Bounded Context Domain Layer Class Diagrams](#42x61-bounded-context-domain-layer-class-diagrams)
-      - [4.2.X.6.2. Bounded Context Database Design Diagram](#42x62-bounded-context-database-design-diagram)
+  - [4.2.1. Bounded Context: IAM](#421-bounded-context-iam)
+    - [4.2.1.1. Domain Layer](#4211-domain-layer)
+    - [4.2.1.2. Interface Layer](#4212-interface-layer)
+    - [4.2.1.3. Application Layer](#4213-application-layer)
+    - [4.2.1.4. Infrastructure Layer](#4214-infrastructure-layer)
+    - [4.2.1.5. Bounded Context Software Architecture Component Level Diagrams](#4215-bounded-context-software-architecture-component-level-diagrams)
+    - [4.2.1.6. Bounded Context Software Architecture Code Level Diagrams](#4216-bounded-context-software-architecture-code-level-diagrams)
+      - [4.2.1.6.1. Bounded Context Domain Layer Class Diagrams](#42161-bounded-context-domain-layer-class-diagrams)
+      - [4.2.1.6.2. Bounded Context Database Design Diagram](#42162-bounded-context-database-design-diagram)
+  - [4.2.2. Bounded Context: WasteCollection](#422-bounded-context-wastecollection)
+    - [4.2.2.1. Domain Layer](#4221-domain-layer)
+    - [4.2.2.2. Interface Layer](#4222-interface-layer)
+    - [4.2.2.3. Application Layer](#4223-application-layer)
+    - [4.2.2.4. Infrastructure Layer](#4224-infrastructure-layer)
+    - [4.2.2.5. Bounded Context Software Architecture Component Level Diagrams](#4225-bounded-context-software-architecture-component-level-diagrams)
+    - [4.2.2.6. Bounded Context Software Architecture Code Level Diagrams](#4226-bounded-context-software-architecture-code-level-diagrams)
+      - [4.2.2.6.1. Bounded Context Domain Layer Class Diagrams](#42261-bounded-context-domain-layer-class-diagrams)
+      - [4.2.2.6.2. Bounded Context Database Design Diagram](#42262-bounded-context-database-design-diagram)
+  - [4.2.3. Bounded Context: UserIdentification](#423-bounded-context-useridentification)
+    - [4.2.3.1. Domain Layer](#4231-domain-layer)
+    - [4.2.3.2. Interface Layer](#4232-interface-layer)
+    - [4.2.3.3. Application Layer](#4233-application-layer)
+    - [4.2.3.4. Infrastructure Layer](#4234-infrastructure-layer)
+    - [4.2.3.5. Bounded Context Software Architecture Component Level Diagrams](#4235-bounded-context-software-architecture-component-level-diagrams)
+    - [4.2.3.6. Bounded Context Software Architecture Code Level Diagrams](#4236-bounded-context-software-architecture-code-level-diagrams)
+      - [4.2.3.6.1. Bounded Context Domain Layer Class Diagrams](#42361-bounded-context-domain-layer-class-diagrams)
+      - [4.2.3.6.2. Bounded Context Database Design Diagram](#42362-bounded-context-database-design-diagram)
+  - [4.2.4. Bounded Context: RewardManagement](#424-bounded-context-rewardmanagement)
+    - [4.2.4.1. Domain Layer](#4241-domain-layer)
+    - [4.2.4.2. Interface Layer](#4242-interface-layer)
+    - [4.2.4.3. Application Layer](#4243-application-layer)
+    - [4.2.4.4. Infrastructure Layer](#4244-infrastructure-layer)
+    - [4.2.4.5. Bounded Context Software Architecture Component Level Diagrams](#4245-bounded-context-software-architecture-component-level-diagrams)
+    - [4.2.4.6. Bounded Context Software Architecture Code Level Diagrams](#4246-bounded-context-software-architecture-code-level-diagrams)
+      - [4.2.4.6.1. Bounded Context Domain Layer Class Diagrams](#42461-bounded-context-domain-layer-class-diagrams)
+      - [4.2.4.6.2. Bounded Context Database Design Diagram](#42462-bounded-context-database-design-diagram)
+  - [4.2.5. Bounded Context: MunicipalityManagement](#425-bounded-context-municipalitymanagement)
+    - [4.2.5.1. Domain Layer](#4251-domain-layer)
+    - [4.2.5.2. Interface Layer](#4252-interface-layer)
+    - [4.2.5.3. Application Layer](#4253-application-layer)
+    - [4.2.5.4. Infrastructure Layer](#4254-infrastructure-layer)
+    - [4.2.5.5. Bounded Context Software Architecture Component Level Diagrams](#4255-bounded-context-software-architecture-component-level-diagrams)
+    - [4.2.5.6. Bounded Context Software Architecture Code Level Diagrams](#4256-bounded-context-software-architecture-code-level-diagrams)
+      - [4.2.5.6.1. Bounded Context Domain Layer Class Diagrams](#42561-bounded-context-domain-layer-class-diagrams)
+      - [4.2.5.6.2. Bounded Context Database Design Diagram](#42562-bounded-context-database-design-diagram)
+  - [4.2.6. Bounded Context: Monitoring \& Reporting](#426-bounded-context-monitoring--reporting)
+    - [4.2.6.1. Domain Layer](#4261-domain-layer)
+    - [4.2.6.2. Interface Layer](#4262-interface-layer)
+    - [4.2.6.3. Application Layer](#4263-application-layer)
+    - [4.2.6.4. Infrastructure Layer](#4264-infrastructure-layer)
+    - [4.2.6.5. Bounded Context Software Architecture Component Level Diagrams](#4265-bounded-context-software-architecture-component-level-diagrams)
+    - [4.2.6.6. Bounded Context Software Architecture Code Level Diagrams](#4266-bounded-context-software-architecture-code-level-diagrams)
+      - [4.2.6.6.1. Bounded Context Domain Layer Class Diagrams](#42661-bounded-context-domain-layer-class-diagrams)
+      - [4.2.6.6.2. Bounded Context Database Design Diagram](#42662-bounded-context-database-design-diagram)
+- [Capítulo V: Solutions UI/UX Design](#capítulo-v-solutions-uiux-design)
+  - [5.1. Style Guidelines](#51-style-guidelines)
+    - [5.1.1. General Style Guidelines](#511-general-style-guidelines)
+    - [5.1.2. Web, Mobile and IoT Style Guidelines](#512-web-mobile-and-iot-style-guidelines)
+  - [5.2. Information Architecture](#52-information-architecture)
+    - [5.2.1. Organization Systems](#521-organization-systems)
+    - [5.2.2. Labeling Systems](#522-labeling-systems)
+    - [5.2.3. SEO Tags and Meta Tags](#523-seo-tags-and-meta-tags)
+    - [5.2.4. Searching Systems](#524-searching-systems)
+    - [5.2.5. Navigation Systems](#525-navigation-systems)
+  - [5.3. Landing Page UI Design](#53-landing-page-ui-design)
+    - [5.3.1. Landing Page Wireframe](#531-landing-page-wireframe)
+    - [5.3.2. Landing Page Mock-up](#532-landing-page-mock-up)
+      - [Mock-ups Versión Web](#mock-ups-versión-web)
+      - [Mock-ups Versión Mobile](#mock-ups-versión-mobile)
+  - [5.4. Application UX/UI Design](#54-application-uxui-design)
+    - [5.4.1. Applications Wireframes](#541-applications-wireframes)
+    - [5.4.2. Applications Wireflow Diagrams](#542-applications-wireflow-diagrams)
+    - [5.4.3. Applications Mock-ups](#543-applications-mock-ups)
+    - [5.4.4. Applications User Flow Diagrams](#544-applications-user-flow-diagrams)
+  - [5.5. Applications Prototyping](#55-applications-prototyping)
+- [Capítulo VI: Product Implementation, Validation \& Deployment](#capítulo-vi-product-implementation-validation--deployment-1)
+  - [6.1. Software Configuration Management](#61-software-configuration-management)
+    - [6.1.1. Software Development Environment Configuration](#611-software-development-environment-configuration)
+    - [6.1.2. Source Code Management](#612-source-code-management)
+    - [6.1.3. Source Code Style Guide \& Conventions](#613-source-code-style-guide--conventions)
+    - [6.1.4. Software Deployment Configuration](#614-software-deployment-configuration)
+  - [6.2. Landing Page, Services \& Applications Implementation](#62-landing-page-services--applications-implementation)
+    - [6.2.1. Sprint 1](#621-sprint-1)
+      - [6.2.1.1. Sprint Planning 1](#6211-sprint-planning-1)
+      - [6.2.1.2. Aspect Leaders and Collaborators](#6212-aspect-leaders-and-collaborators)
+      - [6.2.1.3. Sprint Backlog 1](#6213-sprint-backlog-1)
+      - [6.2.1.4. Development Evidence for Sprint Review](#6214-development-evidence-for-sprint-review)
+      - [6.2.1.5. Testing Suite Evidence for Sprint Review](#6215-testing-suite-evidence-for-sprint-review)
+      - [6.2.1.6. Execution Evidence for Sprint Review](#6216-execution-evidence-for-sprint-review)
+      - [6.2.1.7. Services Documentation Evidence for Sprint Review](#6217-services-documentation-evidence-for-sprint-review)
+      - [6.2.1.8. Software Deployment Evidence for Sprint Review](#6218-software-deployment-evidence-for-sprint-review)
+      - [6.2.1.9. Team Collaboration Insights during Sprint](#6219-team-collaboration-insights-during-sprint)
+  - [6.3. Validation Interviews](#63-validation-interviews)
+    - [6.3.1. Diseño de Entrevistas](#631-diseño-de-entrevistas)
+    - [6.3.2. Registro de Entrevistas](#632-registro-de-entrevistas)
+    - [6.3.3. Evaluaciones según heurísticas](#633-evaluaciones-según-heurísticas)
+  - [6.4. Video About-the-Product](#64-video-about-the-product)
+  - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones-1)
+  - [Video About-the-Team](#video-about-the-team-1)
+- [Bibliografía](#bibliografía-1)
+- [Anexos](#anexos-1)
 
 ### [Capítulo V: Solution UI/UX Design](#capítulo-v-solutions-uiux-design)
 
@@ -406,10 +588,9 @@ En la entrega del Trabajo Parcial (TP), el equipo avanzó significativamente en 
   - [6.3.3. Evaluaciones según heurísticas](#633-evaluaciones-según-heurísticas)
 - [6.4. Video About-the-Product](#64-video-about-the-product)
 
-### [Conclusiones](#conclusiones-1)
+### [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
 
-- [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
-- [Video About-the-Team](#video-about-the-team)
+### [Video About-the-Team](#video-about-the-team)
 
 ### [Bibliografía](#bibliografía-1)
 
