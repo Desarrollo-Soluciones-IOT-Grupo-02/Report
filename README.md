@@ -169,13 +169,11 @@ Esta sección tiene como propósito detallar las actualizaciones significativas 
     <tr>
       <td>Del Carmen Zorrilla, Ray Alessandro</td>
       <td>
-        - Diseñé las entrevistas para recolectar información de usuarios.<br>
-        - Realicé entrevistas al segmento de <b>municipalidades costeras</b> para identificar necesidades y problemáticas.<br>
-        - Segmenté y definí los <b>segmentos objetivo</b> principales del proyecto (bañistas y municipalidades).<br>
-        - Desarrollé el <b>To-Be Scenario Mapping</b> de ambos segmentos, mostrando el flujo ideal de interacción con el sistema.<br>
-        - Redacté y estructuré las <b>User Stories</b> centradas en los bañistas.<br>
-        - Elaboré el <b>Impact Mapping</b> conectando objetivos estratégicos, impactos y entregables.<br>
-        - Organicé y documenté el <b>Product Backlog</b>, priorizando las historias y asignando story points.<br>
+        - Diseñé la <b>Landing Page UI</b> aplicando principios de usabilidad y comunicación visual orientados al público general y a las municipalidades.<br>
+        - Desarrollé el <b>Wireframe</b> de la Landing Page en Figma, estructurando la jerarquía de secciones informativas, el formulario de contacto y los llamados a la acción.<br>
+        - Elaboré el <b>Mock-up</b> final de la Landing Page con la línea gráfica oficial del proyecto, integrando la paleta de colores, tipografía y diseño responsivo.<br>
+        - Lideré la <b>planificación del Sprint</b> definiendo los objetivos, tareas priorizadas y responsables, alineados con el Product Backlog del proyecto.<br>
+        - Documenté la sección de <b>Sprint Planning</b> en el informe, detallando los entregables de la iteración, tiempos estimados y dependencias entre actividades.<br>
       </td>
     </tr>
     <tr>
@@ -195,15 +193,13 @@ Esta sección tiene como propósito detallar las actualizaciones significativas 
         <tr>
       <td>Quiñones Tintaya, Johan Jorge</td>
       <td>
-        - Implementé el <b>backend completo de Metalix</b> con Spring Boot 3.5.6 y Java 21 siguiendo arquitectura DDD<br>
-        - Desarrollé los <b>6 Bounded Contexts</b>: IAM, Municipality, Waste Collection, Reward, Monitoring y User Identification<br>
-        - Creé y documenté <b>25 endpoints RESTful</b> con autenticación JWT y seguridad con Spring Security<br>
-        - Implementé la <b>documentación OpenAPI/Swagger</b> para todos los endpoints del sistema<br>
-        - Desarrollé la <b>landing page</b> completa con secciones hero, features, benefits y testimonials<br>
-        - Configuré el <b>frontend base con Angular</b> incluyendo módulos de autenticación, dashboard y componentes principales<br>
-        - Realicé el <b>deployment</b> de la landing page en GitHub Pages y frontend en Vercel<br>
-        - Implementé <b>tests unitarios</b> con JUnit alcanzando 85% de cobertura en módulos core<br>
-        - Documenté el <b>Sprint 1</b> con evidencias de commits (28/09-10/10/2025) para landing, frontend y backend
+        - Realice entrevista a usuario<br>
+        - Desarrolle el analisis completo de todas las entrevistas<br>
+        - Desarrolle completamente el punto de Tactical-Level Domain-Driven Design para el BD de WasteCollection<br>
+        - Desarrolle completamente el punto de Tactical-Level Domain-Driven Design para el BD de UserIdentification<br>
+        - Desarrolle completamente el punto de Tactical-Level Domain-Driven Design para el BD de RewardManagement<br>
+        - Desarrolle completamente el punto de Tactical-Level Domain-Driven Design para el BD de MunicipalityManagement<br>
+        - Desarrolle completamente el punto de Tactical-Level Domain-Driven Design para el BD de Monitoring & Reporting 
       </td>
     </tr>
     <tr>
@@ -233,8 +229,12 @@ Esta sección tiene como propósito detallar las actualizaciones significativas 
         <tr>
       <td>Mancilla Ordaya, Eduardo Vicente</td>
       <td>
-        - Realicé los wireframes de la aplicación web<br>
-           - Realicé los Wireframes diagramas para historias de usuario<br>
+        - Realicé entrevista para el primer segmento objetivo.<br>
+        - Realicé el resumen correspondiente de la entrevista realizada<br>
+        - Actualicé la presentación con los diagramas C4 para su exposición<br>
+           - Desarrolle el System Landscape Diagram.<br>
+           - Desarrolle el Context Level Diagram.<br>
+           - Desarrolle el Deployment Diagram.<br>
       </td>
     </tr>
   <!-- Otras entrega -->
@@ -473,7 +473,7 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
           <tr>
             <td align="justify">
               <b>Quiñones Tintaya, Johan Jorge:</b><br>
-              Durante el Sprint 1, lideré conjuntamente el desarrollo completo de la arquitectura técnica del proyecto Metalix, asumiendo la responsabilidad principal en la implementación del backend con Spring Boot 3.5.6 siguiendo Domain-Driven Design. Coordiné con el equipo la estructura de los 6 bounded contexts (IAM, Municipality, Waste Collection, Reward, Monitoring, User Identification), guiando en las decisiones técnicas y promoviendo la participación activa de todos en las revisiones de código. Además, dirigí el desarrollo de la landing page y configuré la base del frontend con Angular, documentando 25 endpoints con OpenAPI/Swagger. Mi liderazgo técnico permitió que el equipo trabajara de forma integrada entre las diferentes capas de la aplicación.
+              En el avance del Análisis de entrevistas, coordine con mis compañeros la construcción de preguntas y la redacción de respuestas en primera persona, de modo que todos pudimos aportar desde distintos enfoques. Del mismo modo, en el desarrollo del Tactical-Level Domain-Driven Design y sus subpuntos por cada bounded context, ejercí el desarrollo completo de sus responsabilidades técnicas (diagramas, definición de capas y modelos).
             </td>
           </tr>
           <tr>
@@ -496,13 +496,30 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
           </tr>
         </table>
       </td>
-      <!-- Conclusion TB1 -->
-      <td rowspan="1" align="justify">
-        Como grupo distribuimos las responsabilidades de manera equilibrada en cada capítulo del proyecto, 
-        permitiendo que cada integrante asumiera un rol de liderazgo en sus secciones (entrevistas, Lean UX, análisis competitivo, 
-        scenario mapping, user stories, arquitectura, entre otros).  
-        Esto fomentó un liderazgo compartido, donde cada miembro guió al resto en su parte y, al mismo tiempo, 
-        se apoyó en las ideas de los demás para enriquecer los entregables.  
+      <!-- Conclusiones -->
+      <td>
+        <table>
+          <tr>
+            <td><b>TB1</b></td>
+            <td align="justify">
+              Como grupo distribuimos las responsabilidades de manera equilibrada en cada capítulo del proyecto, 
+              permitiendo que cada integrante asumiera un rol de liderazgo en sus secciones (entrevistas, Lean UX, análisis competitivo, 
+              scenario mapping, user stories, arquitectura, entre otros).  
+              Esto fomentó un liderazgo compartido, donde cada miembro guió al resto en su parte y, al mismo tiempo, 
+              se apoyó en las ideas de los demás para enriquecer los entregables.  
+            </td>
+          </tr>
+          <tr>
+            <td><b>TP</b></td>
+            <td align="justify">
+              Durante el TP, el equipo continuó fortaleciendo el liderazgo compartido al integrar nuevas responsabilidades técnicas y de diseño. 
+              Cada miembro asumió roles específicos en la implementación de la landing page, el desarrollo de mockups y wireframes, 
+              la configuración del entorno de desarrollo y la documentación de sprints. 
+              Esta distribución permitió mantener la cohesión del proyecto mientras se avanzaba hacia la materialización de la solución Metalix, 
+              consolidando tanto la visión estratégica como la ejecución práctica del sistema IoT.
+            </td>
+          </tr>
+        </table>
       </td>
     </tr>
     <!-- Criterio 2 -->
@@ -566,9 +583,10 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
           <tr>
             <td align="justify">
               <b>Del Carmen Zorrilla, Ray Alessandro:</b><br>
-              Durante el desarrollo del proyecto asumí un rol activo en la organización de las tareas y coordinación con mis compañeros. 
-              Brindé liderazgo conjunto al proponer la segmentación de los usuarios y en la preparación de las entrevistas, 
-              fomentando la toma de decisiones compartida y asegurando que el equipo avanzara de forma ordenada y alineada a los objetivos.
+              Ejercí un liderazgo compartido en el diseño UI/UX de la landing page, coordinando la estructura visual y funcional del proyecto. 
+              Lideré la planificación del Sprint definiendo objetivos claros, asignación de tareas y cronograma de entregables. 
+              Desarrollé wireframes y mockups (versión web y mobile) aplicando principios de usabilidad, fomentando la toma de decisiones colaborativa 
+              con el equipo y asegurando coherencia entre la propuesta de valor y la experiencia de usuario final.
             </td>
           </tr>
           <tr>
@@ -582,7 +600,7 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
           <tr>
             <td align="justify">
               <b>Quiñones Tintaya, Johan Jorge:</b><br>
-              Promoví un entorno colaborativo e inclusivo durante el Sprint 1 al establecer reuniones técnicas periódicas donde todos los integrantes podían aportar ideas sobre la arquitectura y funcionalidades del sistema. Definí metas claras para cada fase del desarrollo: inicialización del proyecto Spring Boot (28/09), implementación de los 6 bounded contexts (29/09-06/10), documentación con Swagger (07/10), y testing y deployment (08/10-10/10). Planifiqué las tareas siguiendo Conventional Commits y GitFlow, asegurando que cada módulo se integrara correctamente. Cumplí con todos los objetivos técnicos entregando un backend robusto con 25 endpoints documentados, landing page desplegada en GitHub Pages, y frontend funcional en Vercel, permitiendo que el equipo avanzara de manera coordinada y eficiente en el desarrollo completo del sistema Metalix.
+              En el avance del Análisis de entrevistas, coordine con mis compañeros la construcción de preguntas y la redacción de respuestas en primera persona, de modo que todos pudimos aportar desde distintos enfoques. Del mismo modo, en el desarrollo del Tactical-Level Domain-Driven Design y sus subpuntos por cada bounded context, ejercí el desarrollo completo de sus responsabilidades técnicas (diagramas, definición de capas y modelos).
             </td>
           </tr>
           <tr>
@@ -600,18 +618,35 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
           <tr>
             <td align="justify">
                 <b>Mancilla Ordaya, Eduardo Vicente:</b><br>
-              Durante el desarrollo de esta entrega realicé el diseño de los wireframes de la aplicación web del proyecto, siguiendo los lineamientos del style guideline del informe correspondiente. A su vez, se realizarón los respectivos diagramas de flujo para los wireframes con el fin de satisfacer historias de usuario relevantes.
+              Durante el desarrollo de esta entrega apoyé en la entrevista al primer segmento objetivo, asumí mi rol de liderazgo proponiendo los diagramas C4 con las tecnologías en el que podríamos realizar el proyecto. También consideré la coherencia con los otros puntos del informe para la realización de los diagramas.
             </td>
           </tr>
         </table>
       </td>
-      <!-- Conclusion TB1 -->
-      <td rowspan="1" align="justify">
-        El equipo trabajó en un entorno colaborativo, valorando las propuestas de todos y asegurando la participación equitativa.  
-        Se establecieron metas claras para cada hito (entrevistas, análisis, mapeos, especificaciones y diseño), 
-        planificando tareas de forma conjunta y distribuyendo el trabajo según las fortalezas de cada integrante.  
-        Gracias a esta organización y compromiso colectivo, se cumplieron los objetivos en los tiempos establecidos, 
-        garantizando un proyecto cohesionado y alineado a la solución propuesta.
+      <!-- Conclusiones -->
+      <td>
+        <table>
+          <tr>
+            <td><b>TB1</b></td>
+            <td align="justify">
+              El equipo trabajó en un entorno colaborativo, valorando las propuestas de todos y asegurando la participación equitativa.  
+              Se establecieron metas claras para cada hito (entrevistas, análisis, mapeos, especificaciones y diseño), 
+              planificando tareas de forma conjunta y distribuyendo el trabajo según las fortalezas de cada integrante.  
+              Gracias a esta organización y compromiso colectivo, se cumplieron los objetivos en los tiempos establecidos, 
+              garantizando un proyecto cohesionado y alineado a la solución propuesta.
+            </td>
+          </tr>
+          <tr>
+            <td><b>TP</b></td>
+            <td align="justify">
+              En el TP, el equipo mantuvo y profundizó el entorno colaborativo establecido, creando nuevas dinámicas de trabajo 
+              que integraron el desarrollo técnico con la experiencia de usuario. Se planificaron sprints con metas específicas, 
+              se distribuyeron tareas técnicas complejas y se establecieron procesos de revisión cruzada que aseguraron 
+              la calidad y consistencia. El cumplimiento de objetivos se logró mediante una comunicación fluida, 
+              adaptación ágil a los cambios y un compromiso colectivo con la excelencia en cada entregable.
+            </td>
+          </tr>
+        </table>
       </td>
     </tr>
   </tbody>
@@ -2632,7 +2667,9 @@ Después, utilizamos el Bounded Context Canvas para definir claramente los lími
 ### 4.1.1. EventStorming
 Event Storming es una herramienta que nos permite descubrir el comportamiento de un negocio, recopilando eventos importantes del negocio, los actores principales, servicios de terceros y otros. Para la implementación de esta sección se realizaron entrevistas correspondientes a los segmentos objetivos (ciudadanos, municipalidades y administradores), de esta manera pudimos identificar los eventos principales relacionados con la recolección de residuos metálicos, identificación de usuarios, gestión de recompensas y desarrollar un entendimiento común.
 
-![EventStorming](./diagrams/BoundedContext/eventstorming.png)
+<div align="center">
+  <img src="./diagrams/BoundedContext/eventstorming.png" alt="EventStorming">
+</div>
 
 Aquí mostramos los pasos respectivos para la elaboración correcta del Event Storming realizada en la herramienta de Miro.
 
@@ -2643,57 +2680,75 @@ Aquí mostramos los pasos respectivos para la elaboración correcta del Event St
 
 En esta sección se realizó una lluvia de ideas de los eventos del dominio relacionados con el sistema de gestión inteligente de residuos metálicos que se está explorando. Nos permitió identificar los eventos clave como: WasteCollected, UserAuthenticated, MetallicResidueValidated, PointsEarned, RewardClaimed, BenefitDefined, ReportGenerated, entre otros, y las interacciones entre ellos.
 
-![EventStorming](./diagrams/Canvases/event_keys.png)
+<div align="center">
+  <img src="./diagrams/Canvases/event_keys.png" alt="EventStorming Event Keys">
+</div>
 
 **Step 2: Timelines**
 
 En esta sección, los eventos identificados previamente, son agrupados en subgrupos lo cual tiene como líder al evento principal (es quien encapsula la funcionalidad principal del grupo). Estos eventos comienzan con el flujo que describe el escenario empresarial exitoso (Happy path) relacionado con la recolección de residuos, validación de usuarios, asignación de puntos y canje de recompensas, así como también escenarios alternativos cuando hay fallos en la validación o problemas técnicos.
 
-![EventStorming](./diagrams/Canvases/Flujo_Principal.png)
+<div align="center">
+  <img src="./diagrams/Canvases/Flujo_Principal.png" alt="EventStorming Flujo Principal">
+</div>
 
 **Step 3: Paint Points**
 
 Durante esta fase, identificamos puntos problemáticos o (Pain Points) que son áreas donde los usuarios pueden obtener dificultades al momento de realizar una respectiva funcionalidad en la aplicación. Estos puntos incluyen problemas con la validación RFID, fallos en los sensores de detección metálica, demoras en la asignación de puntos, y dificultades en el proceso de canje de recompensas. Estos puntos son importantes para mejorar la experiencia de usuario e implementar una aplicación eficiente.
 
-![EventStorming](./diagrams/BoundedContext/painpoints.png)
+<div align="center">
+  <img src="./diagrams/BoundedContext/painpoints.png" alt="EventStorming Pain Points">
+</div>
 
 **Step 4: Pivotal Points**
 
 En esta fase, nos enfocamos en identificar los puntos cruciales dentro del flujo del negocio de gestión de residuos, los cuales tienen un impacto significativo en la operatividad del sistema o el comportamiento del usuario. Estos puntos incluyen la validación exitosa de residuos metálicos, la correcta identificación del usuario vía RFID, y la confirmación del canje de recompensas. Estos puntos nos ayudan a priorizar qué áreas deben ser optimizadas o revisadas con mayor detalle.
 
-![EventStorming](./diagrams/BoundedContext/pivotalevents.png)
+<div align="center">
+  <img src="./diagrams/BoundedContext/pivotalevents.png" alt="EventStorming Pivotal Points">
+</div>
 
 
 **Step 5: Commands**
 
 Los comandos representan acciones que los actores del sistema pueden ejecutar. Durante este paso, mapeamos qué acciones desencadenan los eventos clave dentro del sistema: ValidateWaste, AuthenticateUser, AssignPoints, ClaimReward, DefineBenefit, GenerateReport, y qué actores (ciudadanos, administradores municipales, sistema IoT) son responsables de ejecutarlas.
 
-![EventStorming](./diagrams/BoundedContext/comands.png)
+<div align="center">
+  <img src="./diagrams/BoundedContext/comands.png" alt="EventStorming Commands">
+</div>
 
 **Step 6: Policies**
 
 En este paso, se identifican las políticas, que son reglas de negocio o condiciones que deben cumplirse para que un comando pueda ser ejecutado o un evento pueda suceder. Las políticas incluyen: "Solo se asignan puntos si el residuo es validado como metálico", "Cada usuario debe tener una tarjeta RFID única", "Los beneficios son definidos por cada municipio", "Los reportes se actualizan periódicamente".
 
-![EventStorming](./diagrams/BoundedContext/politics.png)
+<div align="center">
+  <img src="./diagrams/BoundedContext/politics.png" alt="EventStorming Policies">
+</div>
 
 **Step 7: Read Models**
 
 Los Read Models son vistas del estado del sistema, generalmente optimizadas para la consulta por parte de los usuarios o procesos. Durante este paso, definimos qué información necesita ser accesible: estado de puntos del usuario, historial de recolección, beneficios disponibles, métricas de impacto ambiental, y reportes de actividad municipal.
 
-![EventStorming](./diagrams/BoundedContext/readmodels.png)
+<div align="center">
+  <img src="./diagrams/BoundedContext/readmodels.png" alt="EventStorming Read Models">
+</div>
 
 
 **Step 8: External Systems**
 En esta fase, identificamos los sistemas externos que interactúan con nuestro dominio: sistemas de sensores IoT para detección de metales, lectores RFID, plataformas de pago para recompensas, sistemas municipales de gestión, y servicios de notificación. Es crucial entender cómo estos sistemas externos afectan los flujos de recolección y recompensas.
 
-![EventStorming](./diagrams/BoundedContext/sistems.png)
+<div align="center">
+  <img src="./diagrams/BoundedContext/sistems.png" alt="EventStorming External Systems">
+</div>
 
 
 **Step 9: Aggregates**
 
 En este último paso, agrupamos los eventos y comandos que pertenecen a un agregado específico: Waste Collection Aggregate, User Identity Aggregate, Reward Management Aggregate, Municipal Agreement Aggregate, y Reporting Aggregate, para garantizar que todas las operaciones dentro de un contexto estén alineadas y mantengan la consistencia del sistema.
 
-![EventStorming](./diagrams/Canvases/Aggregates.png)
+<div align="center">
+  <img src="./diagrams/Canvases/Aggregates.png" alt="EventStorming Aggregates">
+</div>
 
 #### 4.1.1.1. Candidate Context Discovery
 
@@ -2719,31 +2774,45 @@ Priorizar los bounded contexts, nos permite identificar situaciones primordiales
 
 **Bounded Context Identity & Access Management:**
 
-![EventStorming](./diagrams/Canvases/BCIAM.png)
+<div align="center">
+  <img src="./diagrams/Canvases/BCIAM.png" alt="Bounded Context Identity & Access Management">
+</div>
 
 **Bounded Context Waste Collection:**
 
-![EventStorming](./diagrams/Canvases/BCWASTECOLECTION.png)
+<div align="center">
+  <img src="./diagrams/Canvases/BCWASTECOLECTION.png" alt="Bounded Context Waste Collection">
+</div>
 
 **Bounded Context User Identification:**
 
-![EventStorming](./diagrams/Canvases/BCIDENTY.png)
+<div align="center">
+  <img src="./diagrams/Canvases/BCIDENTY.png" alt="Bounded Context User Identification">
+</div>
 
 **Bounded Context Reward Management:**
 
-![EventStorming](./diagrams/Canvases/BCREWARD.png)
+<div align="center">
+  <img src="./diagrams/Canvases/BCREWARD.png" alt="Bounded Context Reward Management">
+</div>
 
 **Bounded Context Municipality Management:**
 
-![EventStorming](./diagrams/Canvases/BCMUNICIPALMANG.png)
+<div align="center">
+  <img src="./diagrams/Canvases/BCMUNICIPALMANG.png" alt="Bounded Context Municipality Management">
+</div>
 
 **Bounded Context Monitoring & Reporting:**
 
-![EventStorming](./diagrams/Canvases/BCREPORT.png)
+<div align="center">
+  <img src="./diagrams/Canvases/BCREPORT.png" alt="Bounded Context Monitoring & Reporting">
+</div>
 
 **Visión General de los Bounded Contexts:**
 
-![EventStorming](./diagrams/Canvases/Bounded_context.png)
+<div align="center">
+  <img src="./diagrams/Canvases/Bounded_context.png" alt="Visión General de los Bounded Contexts">
+</div>
 
 
 #### 4.1.1.2. Domain Message Flows Modeling
@@ -2754,31 +2823,41 @@ En esta sección, se describe el proceso utilizado para visualizar la interacci�
 
 En este escenario, se describe el proceso de autenticación de usuario en el sistema. El ciudadano interactúa con el contexto de Identity & Access Management para autenticarse y acceder a las funcionalidades de la plataforma de reciclaje.
 
-![EventStorming](./diagrams/Canvases/user_authentication.png)
+<div align="center">
+  <img src="./diagrams/Canvases/user_authentication.png" alt="Scenario User Authentication">
+</div>
 
 **Scenario: Waste Collection Process**
 
 En este escenario, se describe el proceso completo de recolección de residuos metálicos. El ciudadano interactúa con los contextos de User Identification y Waste Collection para depositar residuos metálicos y ser identificado mediante su tarjeta RFID.
 
-![EventStorming](./diagrams/Canvases/Waste_Collection_process.png)
+<div align="center">
+  <img src="./diagrams/Canvases/Waste_Collection_process.png" alt="Scenario Waste Collection Process">
+</div>
 
 **Scenario: Reward Points Assignment**
 
 En este escenario, se describe el proceso de asignación de puntos de recompensa. Tras la validación exitosa del residuo metálico y la identificación del usuario, el contexto de Reward Management asigna puntos al usuario basado en las reglas definidas.
 
-![EventStorming](./diagrams/Canvases/Reward_Points_assignment.png)
+<div align="center">
+  <img src="./diagrams/Canvases/Reward_Points_assignment.png" alt="Scenario Reward Points Assignment">
+</div>
 
 **Scenario: Benefit Redemption**
 
 En este escenario, se describe el proceso de canje de beneficios municipales. El ciudadano interactúa con los contextos de Reward Management y Municipality Management para canjear sus puntos por beneficios definidos por su municipio.
 
-![EventStorming](./diagrams/Canvases/benefit_redemption.png)
+<div align="center">
+  <img src="./diagrams/Canvases/benefit_redemption.png" alt="Scenario Benefit Redemption">
+</div>
 
 **Scenario: Generate Impact Report**
 
 En este escenario, se describe el proceso de generación de reportes de impacto ambiental. Los administradores municipales interactúan con el contexto de Monitoring & Reporting para visualizar métricas de recolección, impacto ambiental y participación ciudadana.
 
-![EventStorming](./diagrams/Canvases/generate_impact_report.png)
+<div align="center">
+  <img src="./diagrams/Canvases/generate_impact_report.png" alt="Scenario Generate Impact Report">
+</div>
    
 #### 4.1.1.3. Bounded Context Canvases
 
@@ -2804,7 +2883,9 @@ En esta sección, se detallan los pasos seguidos por el equipo para diseñar los
 - **Reglas de negocio:** Los tokens de acceso tienen tiempo de expiración; Los usuarios deben autenticarse antes de acceder a funcionalidades; Diferentes roles tienen diferentes niveles de acceso
 - **Dependencias:** User Identification Context (para validar identidad de usuarios finales)
 
-![EventStorming](./diagrams/Canvases/IAMCANVAS.png)
+<div align="center">
+  <img src="./diagrams/Canvases/IAMCANVAS.png" alt="Bounded Context Canvas IAM">
+</div>
 
 **Bounded Context Canvas Waste Collection:**
 
@@ -2814,7 +2895,9 @@ En esta sección, se detallan los pasos seguidos por el equipo para diseñar los
 - **Reglas de negocio:** Solo se acepta para la compuerta si el material es metálico; La validación debe ser confirmada por sensores IoT
 - **Dependencias:** User Identification Context
 
-![EventStorming](./diagrams/Canvases/WASTECOLLECTIONCANVAS.png)
+<div align="center">
+  <img src="./diagrams/Canvases/WASTECOLLECTIONCANVAS.png" alt="Bounded Context Canvas Waste Collection">
+</div>
 
 **Bounded Context Canvas User Identification:**
 
@@ -2824,7 +2907,9 @@ En esta sección, se detallan los pasos seguidos por el equipo para diseñar los
 - **Reglas de negocio:** Cada usuario posee una tarjeta única; La tarjeta RFID debe estar activa y registrada
 - **Dependencias:** Reward Management Context
 
-![EventStorming](./diagrams/Canvases/USERIDENTIFICATIONCANVAS.png)
+<div align="center">
+  <img src="./diagrams/Canvases/USERIDENTIFICATIONCANVAS.png" alt="Bounded Context Canvas User Identification">
+</div>
 
 **Bounded Context Canvas Reward Management:**
 
@@ -2834,7 +2919,9 @@ En esta sección, se detallan los pasos seguidos por el equipo para diseñar los
 - **Reglas de negocio:** Los puntos sólo se asignan tras validar residuo y usuario; Los puntos tienen fecha de expiración
 - **Dependencias:** Municipality Management Context
 
-![EventStorming](./diagrams/Canvases/REWARDMANAGCANVAS.png)
+<div align="center">
+  <img src="./diagrams/Canvases/REWARDMANAGCANVAS.png" alt="Bounded Context Canvas Reward Management">
+</div>
 
 **Bounded Context Canvas Municipality Management:**
 
@@ -2844,7 +2931,9 @@ En esta sección, se detallan los pasos seguidos por el equipo para diseñar los
 - **Reglas de negocio:** Cada municipio define sus propios beneficios; Los convenios deben ser renovados periódicamente
 - **Dependencias:** Ninguna (contexto independiente)
 
-![EventStorming](./diagrams/Canvases/MUNICIPALMANGCANVAS.png)
+<div align="center">
+  <img src="./diagrams/Canvases/MUNICIPALMANGCANVAS.png" alt="Bounded Context Canvas Municipality Management">
+</div>
 
 **Bounded Context Canvas Monitoring & Reporting:**
 
@@ -2854,7 +2943,9 @@ En esta sección, se detallan los pasos seguidos por el equipo para diseñar los
 - **Reglas de negocio:** Los reportes deben actualizarse periódicamente; Las métricas deben reflejar el impacto ambiental real
 - **Dependencias:** Todos los demás contextos (para recopilar datos)
 
-![EventStorming](./diagrams/Canvases/MONITORINGREPORTCANVAS.png)
+<div align="center">
+  <img src="./diagrams/Canvases/MONITORINGREPORTCANVAS.png" alt="Bounded Context Canvas Monitoring & Reporting">
+</div>
 
 ### 4.1.2 Context mapping
 
@@ -2887,7 +2978,9 @@ En esta sección, se analizan las relaciones entre los bounded contexts identifi
 
 **Context Mapping Diagram**
 
-![EventStorming](./diagrams/Canvases/CCM.png)
+<div align="center">
+  <img src="./diagrams/Canvases/CCM.png" alt="Context Mapping Diagram">
+</div>
 
 El diagrama muestra claramente cómo los seis bounded contexts interactúan entre sí, con Identity & Access Management como el proveedor central de servicios de seguridad, User Identification como el núcleo de identificación de ciudadanos, Waste Collection como el procesador central de residuos, Reward Management como el gestor de incentivos, Municipality Management como el definidor de políticas de beneficios, y Monitoring & Reporting como el consumidor de datos para análisis e informes del sistema de reciclaje inteligente.
 
@@ -2897,28 +2990,39 @@ El diagrama muestra claramente cómo los seis bounded contexts interactúan entr
 
 > Muestra la visión general del ecosistema de ReciclaMar, con la plataforma RIMP como sistema central y los actores principales.   
 
-![System Landscape – IBMCS](./diagrams/c4/00-landscape/structurizr-105978-landscape.png)
+<div align="center">
+  <img src="./diagrams/c4/00-landscape/structurizr-105978-landscape.png" alt="System Landscape Diagram">
+</div>
 
 ---
 
 #### 4.1.3.2. Software Architecture Context Level Diagrams
 
 > Representa a RIMP como caja negra y cómo interactúan los segmentos: bañistas, municipalidades y mantenimiento.   
-![Context – General](./diagrams/c4/01-context/structurizr-105978-context.png)
+
+<div align="center">
+  <img src="./diagrams/c4/01-context/structurizr-105978-context.png" alt="Context Level Diagram">
+</div>
 
 ---
 
 #### 4.1.3.3. Software Architecture Container Level Diagrams
 
 > Descompone RIMP en sus aplicaciones y servicios: App móvil (Flutter), Web Admin (React), Backend (Spring Boot), DB, Storage y Firmware (ESP32).  
-![Containers – General](./diagrams/c4/02-containers/structurizr-105978-containers-usuarios.png)
+
+<div align="center">
+  <img src="./diagrams/c4/02-containers/structurizr-105978-containers-usuarios.png" alt="Container Level Diagram">
+</div>
 
 ---
 
 #### 4.1.3.4. Software Architecture Deployment Diagrams
 
 > Muestra dónde se despliegan los contenedores: ESP32 en playa, Backend/DB en Railway, Landing en GitHub Pages, Web Admin en hosting SPA y App móvil en Android.  
-![Deployment – Production](./diagrams/c4/03-deployment/structurizr-105978-deploy.png)
+
+<div align="center">
+  <img src="./diagrams/c4/03-deployment/structurizr-105978-deploy.png" alt="Deployment Diagram">
+</div>
 
 # 4.2. Tactical-Level Domain-Driven Design
 
@@ -2976,17 +3080,23 @@ El diagrama muestra claramente cómo los seis bounded contexts interactúan entr
 
 ### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams
 
-![IAMComponentDiagram](./diagrams/component-diagrams/IAM_Component_Diagram.png)
+<div align="center">
+  <img src="./diagrams/component-diagrams/IAM_Component_Diagram.png" alt="IAM Component Diagram">
+</div>
 
 ### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams
 
 #### 4.2.1.6.1. Bounded Context Domain Layer Class Diagrams
 
-![IAMClassDiagram](./diagrams/class-diagrams/IAM_Domain_Class_Diagram.png)
+<div align="center">
+  <img src="./diagrams/class-diagrams/IAM_Domain_Class_Diagram.png" alt="IAM Class Diagram">
+</div>
 
 #### 4.2.1.6.2. Bounded Context Database Design Diagram
 
-![IAMDatabaseDiagram](./diagrams/db-diagrams/IAM_Database_Design.png)
+<div align="center">
+  <img src="./diagrams/db-diagrams/IAM_Database_Design.png" alt="IAM Database Diagram">
+</div>
 
 ## 4.2.2. Bounded Context: WasteCollection
 
@@ -3062,17 +3172,23 @@ El diagrama muestra claramente cómo los seis bounded contexts interactúan entr
 
 ### 4.2.2.5. Bounded Context Software Architecture Component Level Diagrams
 
-![WateCollectionComponentDiagram](./diagrams/component-diagrams/WasteCollection_Component_Diagram.png)
+<div align="center">
+  <img src="./diagrams/component-diagrams/WasteCollection_Component_Diagram.png" alt="WasteCollection Component Diagram">
+</div>
 
 ### 4.2.2.6. Bounded Context Software Architecture Code Level Diagrams
 
 #### 4.2.2.6.1. Bounded Context Domain Layer Class Diagrams
 
-![WasteCollectionClassDiagram](./diagrams/class-diagrams/WasteCollection_Domain_Class_Diagram.png)
+<div align="center">
+  <img src="./diagrams/class-diagrams/WasteCollection_Domain_Class_Diagram.png" alt="WasteCollection Class Diagram">
+</div>
 
 #### 4.2.2.6.2. Bounded Context Database Design Diagram
 
-![WasteCollecionDatabaseDiagram](./diagrams/db-diagrams/WasteCollection_Database_Design.png)
+<div align="center">
+  <img src="./diagrams/db-diagrams/WasteCollection_Database_Design.png" alt="WasteCollection Database Diagram">
+</div>
 
 ## 4.2.3. Bounded Context: UserIdentification
 
@@ -3142,17 +3258,23 @@ El diagrama muestra claramente cómo los seis bounded contexts interactúan entr
 
 ### 4.2.3.5. Bounded Context Software Architecture Component Level Diagrams
 
-![UserIdentificationComponentDiagram](./diagrams/component-diagrams/UserIdentification_Component_Diagram.png)
+<div align="center">
+  <img src="./diagrams/component-diagrams/UserIdentification_Component_Diagram.png" alt="UserIdentification Component Diagram">
+</div>
 
 ### 4.2.3.6. Bounded Context Software Architecture Code Level Diagrams
 
 #### 4.2.3.6.1. Bounded Context Domain Layer Class Diagrams
 
-![UserIdentificationClassDiagram](./diagrams/class-diagrams/UserIdentification_Domain_Class_Diagram.png)
+<div align="center">
+  <img src="./diagrams/class-diagrams/UserIdentification_Domain_Class_Diagram.png" alt="UserIdentification Class Diagram">
+</div>
 
 #### 4.2.3.6.2. Bounded Context Database Design Diagram
 
-![UserIdentificationDatabaseDiagram](./diagrams/db-diagrams/UserIdentification_Database_Design.png)
+<div align="center">
+  <img src="./diagrams/db-diagrams/UserIdentification_Database_Design.png" alt="UserIdentification Database Diagram">
+</div>
 
 ## 4.2.4. Bounded Context: RewardManagement
 
@@ -3227,17 +3349,23 @@ El diagrama muestra claramente cómo los seis bounded contexts interactúan entr
 
 ### 4.2.4.5. Bounded Context Software Architecture Component Level Diagrams
 
-![RewardManagmentComponentDiagram](./diagrams/component-diagrams/RewardManagement_Component_Diagram.png)
+<div align="center">
+  <img src="./diagrams/component-diagrams/RewardManagement_Component_Diagram.png" alt="RewardManagement Component Diagram">
+</div>
 
 ### 4.2.4.6. Bounded Context Software Architecture Code Level Diagrams
 
 #### 4.2.4.6.1. Bounded Context Domain Layer Class Diagrams
 
-![RewardManagmentClassDiagram](./diagrams/class-diagrams/RewardManagement_Domain_Class_Diagram.png)
+<div align="center">
+  <img src="./diagrams/class-diagrams/RewardManagement_Domain_Class_Diagram.png" alt="RewardManagement Class Diagram">
+</div>
 
 #### 4.2.4.6.2. Bounded Context Database Design Diagram
 
-![RewardManagmentDatabaseDiagram](./diagrams/db-diagrams/RewardManagement_Database_Design.png)
+<div align="center">
+  <img src="./diagrams/db-diagrams/RewardManagement_Database_Design.png" alt="RewardManagement Database Diagram">
+</div>
 
 ## 4.2.5. Bounded Context: MunicipalityManagement
 
@@ -3312,17 +3440,23 @@ El diagrama muestra claramente cómo los seis bounded contexts interactúan entr
 
 ### 4.2.5.5. Bounded Context Software Architecture Component Level Diagrams
 
-![MunicipalityManagmentComponentDiagram](./diagrams/component-diagrams/MunicipalityManagement_Component_Diagram.png)
+<div align="center">
+  <img src="./diagrams/component-diagrams/MunicipalityManagement_Component_Diagram.png" alt="MunicipalityManagement Component Diagram">
+</div>
 
 ### 4.2.5.6. Bounded Context Software Architecture Code Level Diagrams
 
 #### 4.2.5.6.1. Bounded Context Domain Layer Class Diagrams
 
-![MunicipalityManagmentClassDiagram](./diagrams/class-diagrams/MunicipalityManagement_Domain_Class_Diagram.png)
+<div align="center">
+  <img src="./diagrams/class-diagrams/MunicipalityManagement_Domain_Class_Diagram.png" alt="MunicipalityManagement Class Diagram">
+</div>
 
 #### 4.2.5.6.2. Bounded Context Database Design Diagram
 
-![MunicipalityManagmentDatabaseDiagram](./diagrams/db-diagrams/MunicipalityManagement_Database_Design.png)
+<div align="center">
+  <img src="./diagrams/db-diagrams/MunicipalityManagement_Database_Design.png" alt="MunicipalityManagement Database Diagram">
+</div>
 
 ## 4.2.6. Bounded Context: Monitoring & Reporting
 
@@ -3404,17 +3538,23 @@ El diagrama muestra claramente cómo los seis bounded contexts interactúan entr
 
 ### 4.2.6.5. Bounded Context Software Architecture Component Level Diagrams
 
-![MonitoringReportingComponentDiagram](./diagrams/component-diagrams/MonitoringReporting_Component_Diagram.png)
+<div align="center">
+  <img src="./diagrams/component-diagrams/MonitoringReporting_Component_Diagram.png" alt="MonitoringReporting Component Diagram">
+</div>
 
 ### 4.2.6.6. Bounded Context Software Architecture Code Level Diagrams
 
 #### 4.2.6.6.1. Bounded Context Domain Layer Class Diagrams
 
-![MonitoringReportingClassDiagram](./diagrams/class-diagrams/MonitoringReporting_Domain_Class_Diagram.png)
+<div align="center">
+  <img src="./diagrams/class-diagrams/MonitoringReporting_Domain_Class_Diagram.png" alt="MonitoringReporting Class Diagram">
+</div>
 
 #### 4.2.6.6.2. Bounded Context Database Design Diagram
 
-![MonitoringReportingDatabaseDiagram](./diagrams/db-diagrams/MonitoringReporting_Database_Design.png)
+<div align="center">
+  <img src="./diagrams/db-diagrams/MonitoringReporting_Database_Design.png" alt="MonitoringReporting Database Diagram">
+</div>
 
 # Capítulo V: Solutions UI/UX Design
 
@@ -3478,33 +3618,55 @@ La navegación guía al usuario por la landing y las aplicaciones con la menor f
 
 ## 5.3. Landing Page UI Design
 
-En esta sección se presentan los wireframes de la landing page, que muestran la estructura y disposición de cada una de las vistas principales antes de pasar al diseño visual final. Cada pantalla está pensada para guiar al usuario a través del recorrido de la propuesta de valor de Metalix.
-
 ### 5.3.1. Landing Page Wireframe
 
-**Pantalla de Inicio**
-![Pantalla de Inicio - Wireframe](./chapter-5/LandingWireframes/01-Inicio-LandingPage-Wireframe.jpg)
+**Inicio**
 
-**Sección Problema**
-![Sección Problema - Wireframe](./chapter-5/LandingWireframes/02-Problema-LandingPage-Wireframe.jpg)
+<div align="center">
+  <img src="./chapter-5/LandingWireframes/01-Inicio-LandingPage-Wireframe.jpg" alt="Inicio Landing Page Wireframe">
+</div>
 
-**Sección Solución**
-![Sección Solución - Wireframe](./chapter-5/LandingWireframes/03-Solucion-LandingPage-Wireframe.jpg)
+**Problema**
 
-**Sección Beneficios**
-![Sección Beneficios - Wireframe](./chapter-5/LandingWireframes/04-Beneficios-LandingPage-Wireframe.jpg)
+<div align="center">
+  <img src="./chapter-5/LandingWireframes/02-Problema-LandingPage-Wireframe.jpg" alt="Problema Landing Page Wireframe">
+</div>
 
-**Sección Cómo Funciona**
-![Sección Cómo Funciona - Wireframe](./chapter-5/LandingWireframes/05-Como%20Funciona-LandingPage-Wireframe.jpg)
+**Solución**
 
-**Vista Diferencia / Impacto**
-![Vista Diferencia - Wireframe](./chapter-5/LandingWireframes/06-Diferencia-LandingPage-Wireframe.jpg)
+<div align="center">
+  <img src="./chapter-5/LandingWireframes/03-Solucion-LandingPage-Wireframe.jpg" alt="Solución Landing Page Wireframe">
+</div>
 
-**Sección Contáctanos**
-![Sección Contáctanos - Wireframe](./chapter-5/LandingWireframes/07-Contactanos-LandingPage-Wireframe.jpg)
+**Beneficios**
 
-**Pie de Página (Footer)**
-![Footer - Wireframe](./chapter-5/LandingWireframes/08-Footer-LandingPage-Wireframe.jpg)
+<div align="center">
+  <img src="./chapter-5/LandingWireframes/04-Beneficios-LandingPage-Wireframe.jpg" alt="Beneficios Landing Page Wireframe">
+</div>
+
+**Cómo Funciona**
+
+<div align="center">
+  <img src="./chapter-5/LandingWireframes/05-Como%20Funciona-LandingPage-Wireframe.jpg" alt="Cómo Funciona Landing Page Wireframe">
+</div>
+
+**Diferencia**
+
+<div align="center">
+  <img src="./chapter-5/LandingWireframes/06-Diferencia-LandingPage-Wireframe.jpg" alt="Diferencia Landing Page Wireframe">
+</div>
+
+**Contáctanos**
+
+<div align="center">
+  <img src="./chapter-5/LandingWireframes/07-Contactanos-LandingPage-Wireframe.jpg" alt="Contáctanos Landing Page Wireframe">
+</div>
+
+**Footer**
+
+<div align="center">
+  <img src="./chapter-5/LandingWireframes/08-Footer-LandingPage-Wireframe.jpg" alt="Footer Landing Page Wireframe">
+</div>
 
 ### 5.3.2. Landing Page Mock-up
 
@@ -3513,57 +3675,91 @@ A continuación, presentaremos las pantallas de nuestra landing page, tanto en s
 #### Mock-ups Versión Web
 
 **Pantalla de Inicio**
-![Pantalla de Inicio - Web](./chapter-5/LandingMockUps/01-Inicio-LandingPage-MockUp.jpg)
+<div align="center">
+  <img src="./chapter-5/LandingMockUps/01-Inicio-LandingPage-MockUp.jpg" alt="Pantalla de Inicio - Web">
+</div>
 
 **Sección Problema**
-![Sección Problema - Web](./chapter-5/LandingMockUps/02-Problema-LandingPage-MockUp.jpg)
+<div align="center">
+  <img src="./chapter-5/LandingMockUps/02-Problema-LandingPage-MockUp.jpg" alt="Sección Problema - Web">
+</div>
 
 **Sección Solución**
-![Sección Solución - Web](./chapter-5/LandingMockUps/03-Solucion-LandingPage-MockUp.jpg)
+<div align="center">
+  <img src="./chapter-5/LandingMockUps/03-Solucion-LandingPage-MockUp.jpg" alt="Sección Solución - Web">
+</div>
 
 **Sección Beneficios**
-![Sección Beneficios - Web](./chapter-5/LandingMockUps/04-Beneficios-LandingPage-MockUp.jpg)
+<div align="center">
+  <img src="./chapter-5/LandingMockUps/04-Beneficios-LandingPage-MockUp.jpg" alt="Sección Beneficios - Web">
+</div>
 
 **Sección Cómo Funciona**
-![Sección Cómo Funciona - Web](./chapter-5/LandingMockUps/05-Como%20Funciona-LandingPage-MockUp.jpg)
+<div align="center">
+  <img src="./chapter-5/LandingMockUps/05-Como%20Funciona-LandingPage-MockUp.jpg" alt="Sección Cómo Funciona - Web">
+</div>
 
 **Vista Diferencia / Impacto**
-![Vista Diferencia - Web](./chapter-5/LandingMockUps/06-Diferencia-LandingPage-MockUp.jpg)
+<div align="center">
+  <img src="./chapter-5/LandingMockUps/06-Diferencia-LandingPage-MockUp.jpg" alt="Vista Diferencia - Web">
+</div>
 
 **Sección Contáctanos**
-![Sección Contáctanos - Web](./chapter-5/LandingMockUps/07-Contactanos-LandingPage-MockUp.jpg)
+<div align="center">
+  <img src="./chapter-5/LandingMockUps/07-Contactanos-LandingPage-MockUp.jpg" alt="Sección Contáctanos - Web">
+</div>
 
 **Pie de Página (Footer)**
-![Footer - Web](./chapter-5/LandingMockUps/08-Footer-LandingPage-MockUp.jpg)
+<div align="center">
+  <img src="./chapter-5/LandingMockUps/08-Footer-LandingPage-MockUp.jpg" alt="Footer - Web">
+</div>
 
 #### Mock-ups Versión Mobile
 
 **Menú Hamburguesa**
-![Menú Hamburguesa - Mobile](./chapter-5/LandingMobileMockUps/00-Barra%20Hamburguesa-LandingPage-Mobile-MockUp.jpg)
+<div align="center">
+  <img src="./chapter-5/LandingMobileMockUps/00-Barra%20Hamburguesa-LandingPage-Mobile-MockUp.jpg" alt="Menú Hamburguesa - Mobile">
+</div>
 
 **Pantalla de Inicio**
-![Pantalla de Inicio - Mobile](./chapter-5/LandingMobileMockUps/01-Inicio-LandingPage-Mobile-MockUp.jpg)
+<div align="center">
+  <img src="./chapter-5/LandingMobileMockUps/01-Inicio-LandingPage-Mobile-MockUp.jpg" alt="Pantalla de Inicio - Mobile">
+</div>
 
 **Sección Problema**
-![Sección Problema - Mobile](./chapter-5/LandingMobileMockUps/02-Problema-LandingPage-Mobile-MockUp.jpg)
+<div align="center">
+  <img src="./chapter-5/LandingMobileMockUps/02-Problema-LandingPage-Mobile-MockUp.jpg" alt="Sección Problema - Mobile">
+</div>
 
 **Sección Solución**
-![Sección Solución - Mobile](./chapter-5/LandingMobileMockUps/03-Solucion-LandingPage-Mobile-MockUp.jpg)
+<div align="center">
+  <img src="./chapter-5/LandingMobileMockUps/03-Solucion-LandingPage-Mobile-MockUp.jpg" alt="Sección Solución - Mobile">
+</div>
 
 **Sección Beneficios**
-![Sección Beneficios - Mobile](./chapter-5/LandingMobileMockUps/04-Beneficios-LandingPage-Mobile-MockUp.jpg)
+<div align="center">
+  <img src="./chapter-5/LandingMobileMockUps/04-Beneficios-LandingPage-Mobile-MockUp.jpg" alt="Sección Beneficios - Mobile">
+</div>
 
 **Sección Cómo Funciona**
-![Sección Cómo Funciona - Mobile](./chapter-5/LandingMobileMockUps/05-Como%20Funciona-LandingPage-Mobile-MockUp.jpg)
+<div align="center">
+  <img src="./chapter-5/LandingMobileMockUps/05-Como%20Funciona-LandingPage-Mobile-MockUp.jpg" alt="Sección Cómo Funciona - Mobile">
+</div>
 
 **Vista Diferencia / Impacto**
-![Vista Diferencia - Mobile](./chapter-5/LandingMobileMockUps/06-Diferencia-LandingPage-Mobile-MockUp.jpg)
+<div align="center">
+  <img src="./chapter-5/LandingMobileMockUps/06-Diferencia-LandingPage-Mobile-MockUp.jpg" alt="Vista Diferencia - Mobile">
+</div>
 
 **Sección Contáctanos**
-![Sección Contáctanos - Mobile](./chapter-5/LandingMobileMockUps/07-Contactanos-LandingPage-Mobile-MockUp.jpg)
+<div align="center">
+  <img src="./chapter-5/LandingMobileMockUps/07-Contactanos-LandingPage-Mobile-MockUp.jpg" alt="Sección Contáctanos - Mobile">
+</div>
 
 **Pie de Página (Footer)**
-![Footer - Mobile](./chapter-5/LandingMobileMockUps/08-Footer-LandingPage-Mobile-MockUp.jpg)
+<div align="center">
+  <img src="./chapter-5/LandingMobileMockUps/08-Footer-LandingPage-Mobile-MockUp.jpg" alt="Footer - Mobile">
+</div>
 
 ## 5.4. Application UX/UI Design
 
@@ -3573,43 +3769,63 @@ A continuación, presentaremos las pantallas de nuestra landing page, tanto en s
 
 **Login**
 
-![Login](./chapter-5/WebAppWireframes/login.png)
+<div align="center">
+  <img src="./chapter-5/WebAppWireframes/login.png" alt="Login Wireframe">
+</div>
 
 **Register**
 
-![Register](./chapter-5/WebAppWireframes/register.png)
+<div align="center">
+  <img src="./chapter-5/WebAppWireframes/register.png" alt="Register Wireframe">
+</div>
 
 **Dashboard**
 
-![Dashboard](./chapter-5/WebAppWireframes/dashboard.png)
+<div align="center">
+  <img src="./chapter-5/WebAppWireframes/dashboard.png" alt="Dashboard Wireframe">
+</div>
 
 **WasteCollections**
 
-![WasteCollections](./chapter-5/WebAppWireframes/WasteCollection.png)
+<div align="center">
+  <img src="./chapter-5/WebAppWireframes/WasteCollection.png" alt="WasteCollections Wireframe">
+</div>
 
 **Rewards-Available Rewards**
 
-![Rewards-AvailableRewards](./chapter-5/WebAppWireframes/Rewards-AvailableRewards.png)
+<div align="center">
+  <img src="./chapter-5/WebAppWireframes/Rewards-AvailableRewards.png" alt="Rewards-AvailableRewards Wireframe">
+</div>
 
 **Rewards- My Rewards**
 
-![Rewards-MyRewards](./chapter-5/WebAppWireframes/Rewards-MyRewards.png)
+<div align="center">
+  <img src="./chapter-5/WebAppWireframes/Rewards-MyRewards.png" alt="Rewards-MyRewards Wireframe">
+</div>
 
 **Rewards-  Points History**
 
-![Rewards-PointsHistory](./chapter-5/WebAppWireframes/Rewards-PointsHistory.png)
+<div align="center">
+  <img src="./chapter-5/WebAppWireframes/Rewards-PointsHistory.png" alt="Rewards-PointsHistory Wireframe">
+</div>
 
 **Profile - Personal Information**
 
-![Profile-PersonalInformation](./chapter-5/WebAppWireframes/Profile-PersonalInformation.png)
+<div align="center">
+  <img src="./chapter-5/WebAppWireframes/Profile-PersonalInformation.png" alt="Profile-PersonalInformation Wireframe">
+</div>
 
 **Profile - Achivements**
 
-![Profile-Achivements](./chapter-5/WebAppWireframes/Profile-Achivements.png)
+<div align="center">
+  <img src="./chapter-5/WebAppWireframes/Profile-Achivements.png" alt="Profile-Achivements Wireframe">
+</div>
 
 **Profile-  Activity History**
 
-![Profile-ActivityHistory](./chapter-5/WebAppWireframes/Profile-ActivityHistory.png)
+<div align="center">
+  <img src="./chapter-5/WebAppWireframes/Profile-ActivityHistory.png" alt="Profile-ActivityHistory Wireframe">
+</div>
 
 ### 5.4.2. Applications Wireflow Diagrams
 
@@ -3617,77 +3833,115 @@ A continuación, presentaremos las pantallas de nuestra landing page, tanto en s
 
 **Login**
 
-![login-register](./chapter-5/WebAppWireframesDiagrams/login-register.png)
+<div align="center">
+  <img src="./chapter-5/WebAppWireframesDiagrams/login-register.png" alt="Login Wireflow">
+</div>
 
 **Historial de Reciclaje**
 
-![recycle-history](./chapter-5/WebAppWireframesDiagrams/recycle-history.png)
+<div align="center">
+  <img src="./chapter-5/WebAppWireframesDiagrams/recycle-history.png" alt="Historial de Reciclaje Wireflow">
+</div>
 
 **Salto de puntos**
 
-![balance](./chapter-5/WebAppWireframesDiagrams/balance.png)
+<div align="center">
+  <img src="./chapter-5/WebAppWireframesDiagrams/balance.png" alt="Salto de puntos Wireflow">
+</div>
 
 ### 5.4.3. Applications Mock-ups
 
 **Login**
 
-![Login](./chapter-5/WebAppMockUps/Login.png)
+<div align="center">
+  <img src="./chapter-5/WebAppMockUps/Login.png" alt="Login Mock-up">
+</div>
 
 **Register**
 
-![Register](./chapter-5/WebAppMockUps/Register.png)
+<div align="center">
+  <img src="./chapter-5/WebAppMockUps/Register.png" alt="Register Mock-up">
+</div>
 
 **Dashboard**
 
-![Dashboard](./chapter-5/WebAppMockUps/Dashboard.png)
+<div align="center">
+  <img src="./chapter-5/WebAppMockUps/Dashboard.png" alt="Dashboard Mock-up">
+</div>
 
 **WasteCollections**
 
-![WasteCollections](./chapter-5/WebAppMockUps/WasteCollections.png)
+<div align="center">
+  <img src="./chapter-5/WebAppMockUps/WasteCollections.png" alt="WasteCollections Mock-up">
+</div>
 
 **Rewards-Available Rewards**
 
-![Rewards-AvailableRewards](./chapter-5/WebAppMockUps/Rewards-Available-Rewards.png)
+<div align="center">
+  <img src="./chapter-5/WebAppMockUps/Rewards-Available-Rewards.png" alt="Rewards-Available Rewards Mock-up">
+</div>
 
 **Rewards- My Rewards**
 
-![Rewards-MyRewards](./chapter-5/WebAppMockUps/Rewards-My-Rewards.png)
+<div align="center">
+  <img src="./chapter-5/WebAppMockUps/Rewards-My-Rewards.png" alt="Rewards-My Rewards Mock-up">
+</div>
 
 **Rewards-  Points History**
 
-![Rewards-PointsHistory](./chapter-5/WebAppMockUps/Rewards-Points-History.png)
+<div align="center">
+  <img src="./chapter-5/WebAppMockUps/Rewards-Points-History.png" alt="Rewards-Points History Mock-up">
+</div>
 
 **Profile - Personal Information**
 
-![Profile-PersonalInformation](./chapter-5/WebAppMockUps/Profile-Personal-Information.png)
+<div align="center">
+  <img src="./chapter-5/WebAppMockUps/Profile-Personal-Information.png" alt="Profile-Personal Information Mock-up">
+</div>
 
 **Profile - Achivements**
 
-![Profile-Achivements](./chapter-5/WebAppMockUps/Profile-Achivements.png)
+<div align="center">
+  <img src="./chapter-5/WebAppMockUps/Profile-Achivements.png" alt="Profile-Achivements Mock-up">
+</div>
 
 **Profile-  Activity History**
 
-![Profile-ActivityHistory](./chapter-5/WebAppMockUps/Profile-Activity-History.png)
+<div align="center">
+  <img src="./chapter-5/WebAppMockUps/Profile-Activity-History.png" alt="Profile-Activity History Mock-up">
+</div>
 
 ### 5.4.4. Applications User Flow Diagrams
 
 **Login**
 
-![login-register](./chapter-5/WebAppUserFlowDiagrams/login-register.png)
+<div align="center">
+  <img src="./chapter-5/WebAppUserFlowDiagrams/login-register.png" alt="Login User Flow">
+</div>
 
 **Historial de Reciclaje**
 
-![recycle-history](./chapter-5/WebAppUserFlowDiagrams/recycle-history.png)
+<div align="center">
+  <img src="./chapter-5/WebAppUserFlowDiagrams/recycle-history.png" alt="Historial de Reciclaje User Flow">
+</div>
 
 **Salto de puntos**
 
-![balance](./chapter-5/WebAppUserFlowDiagrams/balance.png)
+<div align="center">
+  <img src="./chapter-5/WebAppUserFlowDiagrams/balance.png" alt="Salto de puntos User Flow">
+</div>
 
 ## 5.5. Applications Prototyping
+
 Se desarrolló el prototipo de la aplicación en Figma, permitiendo visualizar la interfaz, navegación y funcionalidades antes del desarrollo final.
 
-![prototype](./chapter-5/WebAppPrototype/WebAppPrototype1.png)
-![prototype](./chapter-5/WebAppPrototype/WebAppPrototype2.png)
+<div align="center">
+  <img src="./chapter-5/WebAppPrototype/WebAppPrototype1.png" alt="Prototype 1">
+</div>
+
+<div align="center">
+  <img src="./chapter-5/WebAppPrototype/WebAppPrototype2.png" alt="Prototype 2">
+</div>
 
 Url Prototipo: https://www.figma.com/proto/tXjXHAxGRAcKYU0rNvETrO/Metalix?node-id=38-2&p=f&t=LBfmbCUFy9Fbl4Vg-1&scaling=min-zoom&content-scaling=fixed&page-id=3%3A3&starting-point-node-id=38%3A2
 
