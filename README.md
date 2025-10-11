@@ -245,15 +245,47 @@ Esta sección tiene como propósito detallar las actualizaciones significativas 
 
 # Project Report Collaboration Insights
 
+**Repositorios del Proyecto:**
 - Link de la organización: https://github.com/Desarrollo-Soluciones-IOT-Grupo-02
 - Link del reporte: https://github.com/Desarrollo-Soluciones-IOT-Grupo-02/Report
 
-### **TB1:**
-Las coordinaciones iniciales se realizaron en Google Meet, mientras que el seguimiento continuo se llevó a cabo principalmente en WhatsApp. Para la gestión del código se utilizó GitHub, donde los commits reflejan las contribuciones y el trabajo colaborativo del equipo.
+## TB1 - Collaboration Insights
 
-- Commits del equipo
+Durante la entrega TB1, el equipo estableció las bases del proyecto mediante la definición de requisitos, análisis de usuarios y diseño estratégico del sistema. Las coordinaciones iniciales se realizaron en Google Meet, mientras que el seguimiento continuo se llevó a cabo principalmente en WhatsApp. Para la gestión del código se utilizó GitHub, donde los commits reflejan las contribuciones y el trabajo colaborativo del equipo.
 
-<img src="./foto_integrantes/insights.png"  width="1000">
+**Principales actividades realizadas:**
+- Análisis de competidores y definición de segmentos objetivo
+- Realización de entrevistas a usuarios y análisis de needfinding
+- Desarrollo de User Personas, Journey Maps y Empathy Maps
+- Diseño estratégico con EventStorming y Domain-Driven Design
+- Definición de Bounded Contexts y arquitectura C4
+- Elaboración de User Stories y Product Backlog
+
+**Commits del equipo - TB1:**
+
+<div align="center">
+  <img src="./insights/insights-tb1.png" alt="GitHub Insights TB1" width="1000">
+</div>
+
+## TP - Collaboration Insights
+
+En la entrega del Trabajo Parcial (TP), el equipo avanzó significativamente en la implementación técnica del proyecto, desarrollando la landing page, el frontend base de la aplicación web y el backend completo con Spring Boot. La colaboración se intensificó con el uso de GitHub para control de versiones y despliegues automatizados.
+
+**Principales actividades realizadas:**
+- Desarrollo completo de la landing page con diseño responsive
+- Implementación del frontend base con Angular y componentes principales
+- Desarrollo del backend con Spring Boot 3.5.6 siguiendo arquitectura DDD
+- Implementación de 6 bounded contexts (IAM, Waste Collection, Rewards, Municipality, Monitoring, RFID)
+- Configuración de CI/CD con GitHub Pages, Vercel y Railway
+- Documentación de APIs con Swagger/OpenAPI
+- Diseño UI/UX completo con wireframes, mockups y prototipos
+- Desarrollo del Sprint 1 con planning, ejecución y review
+
+**Commits del equipo - TP:**
+
+<div align="center">
+  <img src="./insights/insights-tp.jpg" alt="GitHub Insights TP" width="1000">
+</div>
 
 # Contenido
 
@@ -4351,24 +4383,32 @@ Las analíticas muestran una distribución equilibrada del trabajo entre los mie
 - Uso efectivo de ramas feature para desarrollo paralelo
 
 ## 6.3. Validation Interviews
-## 6.3. Validation Interviews
 
-### 6.3.1. Diseño de Entrevistas
 ### 6.3.1. Diseño de Entrevistas
 
 ### 6.3.2. Registro de Entrevistas
-### 6.3.2. Registro de Entrevistas
 
-### 6.3.3. Evaluaciones según heurísticas
 ### 6.3.3. Evaluaciones según heurísticas
 
 ## 6.4. Video About-the-Product
-## 6.4. Video About-the-Product
 
-# Conclusiones
-
-El equipo logró integrar de manera efectiva tanto la perspectiva estratégica y técnica del modelado de dominio como el enfoque en la experiencia del usuario. Se realizaron entrevistas al primer segmento objetivo y sus respectivos resúmenes, lo que permitió contar con información real para orientar las decisiones. A partir de ello, se desarrollaron entregables clave como el Strategic-Level Domain-Driven Design, EventStorming, Candidate Context Discovery, Bounded Context Canvases, Context Mapping y Lean UX Process (con Problem Statements, Assumptions e Hypothesis Statements). Esta combinación aseguró una base sólida para la solución, garantizando coherencia, organización y un enfoque centrado en los objetivos del proyecto.
 ## Conclusiones y recomendaciones
+
+- El equipo logró integrar de manera efectiva tanto la perspectiva estratégica y técnica del modelado de dominio como el enfoque en la experiencia del usuario. Se realizaron entrevistas al primer segmento objetivo y sus respectivos resúmenes, lo que permitió contar con información real para orientar las decisiones. A partir de ello, se desarrollaron entregables clave como el Strategic-Level Domain-Driven Design, EventStorming, Candidate Context Discovery, Bounded Context Canvases, Context Mapping y Lean UX Process (con Problem Statements, Assumptions e Hypothesis Statements). Esta combinación aseguró una base sólida para la solución, garantizando coherencia, organización y un enfoque centrado en los objetivos del proyecto.
+
+- La implementación de Domain-Driven Design (DDD) mediante EventStorming permitió identificar seis bounded contexts bien definidos (IAM, Waste Collection, User Identification, Reward Management, Municipality Management, y Monitoring & Reporting), estableciendo límites claros de responsabilidad y facilitando el desarrollo modular del sistema. Esta arquitectura garantiza la escalabilidad y mantenibilidad del proyecto a largo plazo.
+
+- El desarrollo del Sprint 1 demostró la viabilidad técnica de la solución, logrando implementar exitosamente la landing page en GitHub Pages y el frontend base en Vercel, con componentes principales de autenticación y navegación. La arquitectura del backend con Spring Boot 3.5.6 y Java 21, siguiendo principios DDD, estableció fundamentos sólidos para los siguientes sprints.
+
+- La aplicación de Lean UX Canvas y el mapeo detallado de user journeys, empathy maps y scenarios (As-Is y To-Be) evidenciaron una comprensión profunda de las necesidades de los segmentos objetivo: bañistas y municipalidades costeras. Esta metodología centrada en el usuario asegura que cada funcionalidad desarrollada aporte valor real y resuelva problemas concretos identificados en las entrevistas.
+
+- El diseño UI/UX siguiendo las Style Guidelines establecidas garantiza una experiencia consistente y profesional en todas las plataformas (web, mobile e IoT). La implementación de Information Architecture con sistemas de organización jerárquicos, secuenciales y matriciales facilita la navegación intuitiva y reduce la carga cognitiva de los usuarios.
+
+- La documentación exhaustiva del sistema mediante diagramas C4 (Landscape, Context, Container y Deployment), diagramas de componentes, diagramas de clases y diseños de base de datos proporciona una visión completa de la arquitectura, facilitando el onboarding de nuevos desarrolladores y la toma de decisiones técnicas informadas.
+
+- El uso de herramientas colaborativas como Miro para EventStorming y Bounded Context Canvases, junto con GitHub para control de versiones, demostró ser efectivo para mantener al equipo sincronizado y permitir el trabajo distribuido. La matriz RACI claramente definida evitó duplicidad de esfuerzos y aseguró accountability en cada tarea.
+
+- La estrategia de deployment automatizado con GitHub Actions para la landing page y Vercel para el frontend estableció un pipeline de CI/CD que agilizará las entregas continuas en futuros sprints. La implementación de Railway para el backend permitirá escalabilidad y alta disponibilidad del sistema en producción.
 
 ## Video About-the-Team
 
@@ -4388,8 +4428,8 @@ El equipo logró integrar de manera efectiva tanto la perspectiva estratégica y
 
 # Anexos
 
-- Miro EventStorming - https://miro.com/app/board/uXjVI_LnCNw=/?share_link_id=434975935150
-- Miro Bounded context Canvases - https://miro.com/app/board/uXjVJGNlyKE=/?share_link_id=644740443033
-- Lean UX Canvas - https://miro.com/app/board/uXjVJKqj5v4=/
-- Landing-page: - https://johaanq.github.io/metalix-landing-page/
-- Web Application - https://metalix-frontend.vercel.app/
+- [Miro EventStorming](https://miro.com/app/board/uXjVI_LnCNw=/?share_link_id=434975935150)
+- [Miro Bounded Context Canvases](https://miro.com/app/board/uXjVJGNlyKE=/?share_link_id=644740443033)
+- [Lean UX Canvas](https://miro.com/app/board/uXjVJKqj5v4=/)
+- [Landing Page - Metalix](https://johaanq.github.io/metalix-landing-page/)
+- [Aplicación Web - Metalix](https://metalix-frontend.vercel.app/)
