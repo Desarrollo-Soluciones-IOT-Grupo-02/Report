@@ -3722,20 +3722,20 @@ El objetivo principal de esta matriz es proporcionar mayor claridad y efectivida
 
 **Matriz de Liderazgo y Colaboración (LACX) - Sprint 2:**
 
-| Miembro del Equipo | GitHub Username | Landing Page Leader (L)/Collaborator (C) | Frontend Development Leader (L)/Collaborator (C) | UI/UX Design Leader (L)/Collaborator (C) |
-|-------------------|-----------------|-------------------------------------------|---------------------------------------------------|-------------------------------------------|
-| Johan Quinones | johaanq | L | L | C |
-| Eduardo Mancilla | EduardoMancilla | C | C | C |
-| Adriano Cruz | adrianocruz | C | C | L |
-| Orlando Roca | orlandoroca | C | C | C |
-| Gustavo Perfil | gustavoperfil | C | C | C |
-| Ray del Carmen | raydelcarmen | C | C | C |
+| Miembro del Equipo | GitHub Username | IOT proyect Leader (L)/Collaborator (C) | Mobile app Development Leader (L)/Collaborator (C) |  
+|-------------------|-----------------|-------------------------------------------|---------------------------------------------------|
+| Johan Quinones | johaanq | L | L | 
+| Eduardo Mancilla | EduardoMancilla | C | C | 
+| Adriano Cruz | adrianocruz | C | C | 
+| Orlando Roca | orlandoroca | C | C | 
+| Gustavo Pardo | gustavoperfil | C | C | 
+| Ray del Carmen | raydelcarmen | C | C | 
 
 La organización de líderes y colaboradores está relacionada con la selección posterior de tareas en el Sprint.
 
 #### 6.2.2.3. Sprint Backlog 2
 
-Esta sección debe comenzar con una introducción resumiendo el objetivo principal del Sprint, seguida de una captura de pantalla del Sprint Board de la herramienta de control (ej: Trello) y su URL pública. Luego se debe incluir una tabla para especificar los User Stories asignados al Sprint, junto con los Work-items/Tasks resultantes de la descomposición de User Stories.
+Esta sección debe comenzar con una introducción resumiendo el objetivo principal del Sprint 2 . Luego se debe incluir una tabla para especificar los User Stories asignados al Sprint, junto con los Work-items/Tasks resultantes de la descomposición de User Stories.
 
 **Objetivo del Sprint 2:**
 Desarrollar la landing page de Metalix y establecer el frontend base de la aplicación web con funcionalidades de navegación y componentes principales.
@@ -3743,91 +3743,91 @@ Desarrollar la landing page de Metalix y establecer el frontend base de la aplic
 
 | Sprint # | User Story | Work-item/Task | Descripción | Estimación (Horas) | Asignado a | Status |
 |----------|------------|----------------|-------------|-------------------|------------|--------|
-| Sprint 1 | US001 - Landing Page | T001 - Crear estructura HTML | Desarrollar la estructura base de la landing page | 4 | Johan Quinones | Done |
-| Sprint 1 | US001 - Landing Page | T002 - Implementar estilos CSS | Crear diseño responsive y atractivo | 6 | Johan Quinones | Done |
-| Sprint 1 | US001 - Landing Page | T003 - Agregar funcionalidad JavaScript | Implementar interacciones básicas | 3 | Johan Quinones | Done |
-| Sprint 1 | US002 - Frontend Base | T004 - Configurar proyecto Angular | Establecer estructura del proyecto frontend | 5 | Eduardo Mancilla | Done |
-| Sprint 1 | US002 - Frontend Base | T005 - Crear componentes base | Desarrollar componentes principales | 8 | Eduardo Mancilla | Done |
-| Sprint 1 | US003 - UI/UX Design | T006 - Diseñar wireframes | Crear prototipos de interfaz | 6 | Adriano Cruz | Done |
-| Sprint 1 | US003 - UI/UX Design | T007 - Implementar sistema de diseño | Establecer guías de estilo | 4 | Adriano Cruz | Done |
+| Sprint 2 |  |  |  | 4 | Johan Quinones | Done |
+| Sprint 2 | |  |  | 6 | Johan Quinones | Done |
+| Sprint 2 |  |  |  | 3 | Johan Quinones | Done |
+| Sprint 2 |  | |  | 5 | Eduardo Mancilla | Done |
+| Sprint 2 |  |  |  | 8 | Eduardo Mancilla | Done |
+| Sprint 2 |  |  |  | 6 | Adriano Cruz | Done |
+| Sprint 2 |  |  |  | 4 | Adriano Cruz | Done |
 
 #### 6.2.2.4. Development Evidence for Sprint Review
 
-Esta sección presenta el progreso de implementación relacionado con los productos de la solución dentro del alcance del Sprint, como Landing Page, Aplicaciones Web, Servicios Web, entre otros. Comienza con una introducción resumiendo los principales avances de implementación.
+Esta sección presenta el progreso de implementación relacionado con los productos de la solución dentro del alcance del Sprint 2 , Mobile App, Sistema IOT, entre otras mejoras . Comienza con una introducción resumiendo los principales avances de implementación.
 
 **Resumen de Avances de Implementación:**
-Durante el Sprint 2 se logró completar exitosamente el desarrollo de la landing page de Metalix y establecer la base del frontend de la aplicación web. Se implementaron componentes clave y se estableció la arquitectura base para futuras funcionalidades.
+Durante el Sprint 2 se logró completar parcialmente el desarrollo del sistema de Metalix y establecer la base de la Mobile APP. Se implementaron componentes clave y se estableció la arquitectura base para futuras funcionalidades.
 
-**Commits del Repositorio - Landing Page:**
-
-| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
-|------------|--------|-----------|----------------|-------------------|-------------------|
-| johaanq/metalix-landing-page | main | 7f8a2c3 | feat: initialize landing page project | Created initial project structure with index.html and base configuration | 28/09/2025 |
-| johaanq/metalix-landing-page | main | 4d9e1b6 | feat: add hero section | Implemented hero section with Metalix branding and call-to-action buttons | 29/09/2025 |
-| johaanq/metalix-landing-page | main | 2a5f8c9 | feat: implement features section | Added features showcase highlighting waste management capabilities | 01/10/2025 |
-| johaanq/metalix-landing-page | main | 9b3c4d7 | feat: add benefits section | Created benefits section with environmental impact metrics | 02/10/2025 |
-| johaanq/metalix-landing-page | main | 6e2a9f1 | style: implement responsive design | Added responsive CSS with mobile-first approach and breakpoints | 03/10/2025 |
-| johaanq/metalix-landing-page | main | 3c8b5e4 | feat: add contact form | Implemented contact form with validation and submission handling | 05/10/2025 |
-| johaanq/metalix-landing-page | main | 1f7d3a8 | feat: add testimonials section | Created testimonials carousel with municipality success stories | 06/10/2025 |
-| johaanq/metalix-landing-page | main | 5b9e2c6 | style: add animations and transitions | Implemented smooth scroll animations and hover effects | 08/10/2025 |
-| johaanq/metalix-landing-page | main | 8a4f1d9 | fix: improve cross-browser compatibility | Fixed CSS issues for Safari and Firefox browsers | 09/10/2025 |
-| johaanq/metalix-landing-page | main | 2e6c9b3 | docs: update README and add deployment guide | Added comprehensive documentation for landing page deployment | 10/10/2025 |
-
-**Commits del Repositorio - Frontend:**
+**Commits del Repositorio - Sistema Metalix:**
 
 | Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
 |------------|--------|-----------|----------------|-------------------|-------------------|
-| johaanq/metalix-frontend | develop | a7e4f2b | feat: initialize Angular project | Created Angular project with TypeScript configuration and project structure | 28/09/2025 |
-| johaanq/metalix-frontend | develop | 3c9d6a1 | feat: configure routing module | Set up Angular routing with lazy loading and route guards | 30/09/2025 |
-| johaanq/metalix-frontend | develop | 8f2e5c4 | feat: create shared module | Implemented shared module with common components and directives | 01/10/2025 |
-| johaanq/metalix-frontend | develop | 5d8a3b9 | feat: implement authentication module | Created login, register components and authentication service | 02/10/2025 |
-| johaanq/metalix-frontend | develop | 9b4e7c2 | feat: add user dashboard | Implemented user dashboard with waste collection statistics | 03/10/2025 |
-| johaanq/metalix-frontend | develop | 2f6c8a5 | feat: create waste collection module | Added components for waste collection tracking and history | 04/10/2025 |
-| johaanq/metalix-frontend | develop | 7a3d9e1 | feat: implement rewards system UI | Created rewards management interface with points display | 05/10/2025 |
-| johaanq/metalix-frontend | develop | 4e8b2c6 | feat: add municipality management views | Implemented admin views for municipality configuration | 06/10/2025 |
-| johaanq/metalix-frontend | develop | 6c1f5a8 | feat: create monitoring reports module | Added charts and reports for waste collection analytics | 07/10/2025 |
-| johaanq/metalix-frontend | develop | 1d9e4b7 | style: implement Material Design theme | Applied Material Design components with custom Metalix theme | 08/10/2025 |
-| johaanq/metalix-frontend | develop | 9a5c2f3 | feat: add notification service | Implemented real-time notifications for waste collection events | 09/10/2025 |
-| johaanq/metalix-frontend | develop | 3e7b8d1 | fix: resolve routing and navigation issues | Fixed navigation guards and route parameter handling | 10/10/2025 |
+|  | main | 7f8a2c3 | feat:  |  | 28/09/2025 |
+| | main | 4d9e1b6 | feat:  |  | 29/09/2025 |
+|  | main | 2a5f8c9 | feat:  |  | 01/10/2025 |
+|  | main | 9b3c4d7 | feat:  |  | 02/10/2025 |
+|  | main | 6e2a9f1 | style:  |  | 03/10/2025 |
+|  | main | 3c8b5e4 | feat:  |  | 05/10/2025 |
+|  | main | 1f7d3a8 | feat:  |  | 06/10/2025 |
+|  | main | 5b9e2c6 | style:  |  | 08/10/2025 |
+|  | main | 8a4f1d9 | fix:  |  | 09/10/2025 |
+|  | main | 2e6c9b3 | docs:  |  | 10/10/2025 |
+
+**Commits del Repositorio - Mobile App:**
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
+|------------|--------|-----------|----------------|-------------------|-------------------|
+| | develop | a7e4f2b | feat:  |  | 28/09/2025 |
+|  | develop | 3c9d6a1 | feat:  |  | 30/09/2025 |
+|  | develop | 8f2e5c4 | feat:  |  | 01/10/2025 |
+|  | develop | 5d8a3b9 | feat:  |  | 02/10/2025 |
+|  | develop | 9b4e7c2 | feat:  |  | 03/10/2025 |
+|  | develop | 2f6c8a5 | feat:  |  | 04/10/2025 |
+|  | develop | 7a3d9e1 | feat:  | | 05/10/2025 |
+|  | develop | 4e8b2c6 | feat:  |  | 06/10/2025 |
+|  | develop | 6c1f5a8 | feat:  |  | 07/10/2025 |
+|  | develop | 1d9e4b7 | style:  |  | 08/10/2025 |
+|  | develop | 9a5c2f3 | feat:  |  | 09/10/2025 |
+|  | develop | 3e7b8d1 | fix:  |  | 10/10/2025 |
 
 #### 6.2.2.5. Testing Suite Evidence for Sprint Review
 
 Esta sección debe detallar el conjunto de pruebas automatizadas Unit Tests, Integration Tests y Acceptance Tests para Web Services relacionados con los User Stories especificados en el Sprint.
 
 **Progreso en Testing para este Sprint:**
-Durante el Sprint 2 se estableció la base para las pruebas automatizadas, implementando tests unitarios para los componentes principales del frontend y validaciones básicas para la landing page.
+Durante el Sprint 2 se estableció la base para las pruebas automatizadas, implementando pruebas de solicitudes del Sistema IOT y validaciones básicas para el mobile app.
 
 **Commits de Testing:**
 
 | Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
 |------------|--------|-----------|----------------|-------------------|-------------------|
-| johaanq/metalix-frontend | develop | y1z2a3b | test: add unit tests for components | Implemented unit tests for header, footer, and navigation components using Jasmine and Karma | 18/11/2024 |
-| johaanq/metalix-frontend | develop | c4d5e6f | test: add integration tests | Created integration tests for user authentication flow and routing | 19/11/2024 |
-| johaanq/metalix-landing-page | main | g7h8i9j | test: add form validation tests | Implemented JavaScript tests for form validation and user interactions | 18/11/2024 |
+|  | develop | y1z2a3b | test: |  | 18/11/2024 |
+|  | develop | c4d5e6f | test: |  | 19/11/2024 |
+|  | main | g7h8i9j | test:  |  | 18/11/2024 |
 
 #### 6.2.2.6. Execution Evidence for Sprint Review
 
 Esta sección debe comenzar con un resumen explicando qué se logró en el Sprint actual. También requiere capturas de pantalla de las principales vistas implementadas y un enlace a un video que ilustre y explique la visualización y navegación lograda durante el Sprint.
 
 **Resumen de Logros del Sprint 2:**
-Se completó exitosamente el desarrollo de la landing page de Metalix con diseño responsive y funcionalidades interactivas. Además, se estableció la base del frontend de la aplicación web con componentes principales y sistema de autenticación.
+Se completó exitosamente el desarrollo del sistema IOT de Metalix. Además, se estableció la base de la mobile app con componentes principales.
 
 **Capturas de Pantalla de Vistas Principales:**
 
-![Landing Page - Home](./chapter-6/sprint-1/landing-home.png)
-*Página principal de la landing page con diseño moderno y responsive*
+![Landing Page - Home]()
+* diseño moderno y responsive*
 
-![Landing Page - Problema](./chapter-6/sprint-1/landing-problema.png)
-*Sección "Problema" con información del proyecto*
+![Landing Page - Problema]()
+*Sección o*
 
-![Landing Page - Solución](./chapter-6/sprint-1/landing-solucion.png)
-*Sección "Solución" con información del proyecto*
+![Landing Page - Solución]()
+*Sección *
 
-![Frontend - Login](./chapter-6/sprint-1/front-login.png)
-*Pantalla de login del frontend de la aplicación*
+![Frontend - Login]()
+*Pantalla de *
 
-![Frontend - Dashboard](./chapter-6/sprint-1/front-dashboard.png)
-*Dashboard principal con navegación y componentes base*
+![Frontend - Dashboard]()
+*Dashboard principal *
 
 
 #### 6.2.2.7. Services Documentation Evidence for Sprint Review
@@ -3903,11 +3903,11 @@ Durante el Sprint 2 se implementó exitosamente el backend de Metalix utilizando
 
 **Capturas de Pantalla de Documentación:**
 
-![Swagger UI - Endpoints Overview](./chapter-6/sprint-1/swagger-overview.png)
-*Vista general de endpoints documentados en Swagger UI*
+![Swagger UI - Endpoints Overview]()
+*Vista general de *
 
-![OpenAPI - IAM Context](./chapter-6/sprint-1/swagger-iam.png)
-*Documentación detallada del contexto IAM con esquemas de request/response*
+![OpenAPI - IAM Context]()
+*Documentación detallada *
 
 #### 6.2.2.8. Software Deployment Evidence for Sprint Review
 
