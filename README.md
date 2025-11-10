@@ -3430,7 +3430,7 @@ Esta sección especifica los principales aspectos de la Reunión de Sprint Plann
 | Aspecto | Detalle |
 |---------|---------|
 | **Sprint #** | Sprint 1 |
-| **Fecha** | 2024-11-15 |
+| **Fecha** | 2025-10-15 |
 | **Hora** | 10:00 AM |
 | **Ubicación** | Reunión virtual (Microsoft Teams) |
 | **Preparado por** | Johan Quinones |
@@ -3692,7 +3692,7 @@ Las analíticas muestran una distribución equilibrada del trabajo entre los mie
 
 ### 6.2.2. Sprint 2
 
-Esta sección registra y explica el progreso en términos de producto y trabajo colaborativo para el Sprint 1. El Sprint 1 se enfocó en el desarrollo del frontend de la aplicación web y la landing page del proyecto Metalix, estableciendo las bases para la interfaz de usuario y la presencia digital del proyecto.
+Esta sección registra y explica el progreso en términos de producto y trabajo colaborativo para el Sprint 2. El Sprint 2 se enfocó en el desarrollo de la configuracion de la solucion IOT y la aplicacion mobile, de manera de mejora continua tambien se refinaron partes del frontend, backend y landing page del proyecto Metalix, finalizando las bases para la interfaz de usuario y la presentacion fisica del proyecto.
 
 #### 6.2.2.1. Sprint Planning 2
 
@@ -3707,12 +3707,12 @@ Esta sección especifica los principales aspectos de la Reunión de Sprint Plann
 | **Hora** | 10:00 AM |
 | **Ubicación** | Reunión virtual (Microsoft Teams) |
 | **Preparado por** | Johan Quinones |
-| **Asistentes** | Johan Quinones, Eduardo Mancilla, Adriano Cruz, Orlando Roca, Gustavo Perfil, Ray del Carmen |
-| **Resumen del Sprint 2:** | Durante el Sprint 1 se completó la configuración inicial del proyecto, incluyendo la creación de repositorios, configuración de herramientas de desarrollo, y establecimiento de la arquitectura base del sistema. |
-| **Resumen de la Retrospectiva del Sprint 1:** | El equipo identificó la necesidad de mejorar la comunicación entre miembros y establecer roles más claros para el desarrollo del frontend y landing page. |
-| **Objetivo del Sprint 2:** | Nuestro enfoque está en desarrollar una landing page atractiva y funcional junto con el frontend base de la aplicación web. Creemos que esto entrega una presencia digital sólida y una base técnica robusta a nuestros usuarios y stakeholders. Esto será confirmado cuando tengamos una landing page desplegada y un frontend funcional con navegación básica. |
-| **Velocity del Sprint 2:** | 21 Story Points |
-| **Suma de Story Points:** | 21 Story Points |
+| **Asistentes** | Johan Quinones, Eduardo Mancilla, Adriano Cruz, Orlando Roca, Gustavo Adolfo, Ray del Carmen |
+| **Resumen del Sprint 2:** | Durante el Sprint 2 se completó la configuración inicial del proyecto IOT , incluyendo la creación de repositorios, configuración de herramientas de desarrollo, y establecimiento de la arquitectura base del sistema. |
+| **Resumen de la Retrospectiva del Sprint 1:** | El equipo identificó la necesidad de mejorar la comunicación entre miembros y establecer roles más claros para el desarrollo del sistema IOT y mobile app. |
+| **Objetivo del Sprint 2:** | Nuestro enfoque está en desarrollar una mobile app atractiva y  con algunas funcionalidades parciales junto con el sistema IOT base. Creemos que esto entrega una presencia digital sólida y una base técnica robusta a nuestros usuarios y stakeholders. Esto será confirmado cuando tengamos totalmente una landing page desplegada y un frontend funcional , con unas primeras versiones del sistema IOT y Mobile App. |
+| **Velocity del Sprint 2:** | 24 Story Points |
+| **Suma de Story Points:** | 24 Story Points |
 
 #### 6.2.2.2. Aspect Leaders and Collaborators
 
