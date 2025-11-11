@@ -3964,19 +3964,94 @@ Las analíticas muestran una distribución equilibrada del trabajo entre los mie
 - Uso efectivo de ramas feature para desarrollo paralelo
   
 ## 6.3. Validation Interviews
-## 6.3. Validation Interviews
 
 ### 6.3.1. Diseño de Entrevistas
-### 6.3.1. Diseño de Entrevistas
 
+**1. Información general**
+
+- ¿Cuál es tu nombre?
+- ¿Qué edad tienes?
+- ¿A qué te dedicas?
+- ¿Dónde vives?
+  
+**2. Opinión sobre el diseño**
+
+- ¿Qué te parece el diseño de la aplicación?
+- ¿Consideras que los colores y la disposición de los elementos son adecuados?
+- ¿El diseño te resulta atractivo y fácil de entender?
+
+**3. Experiencia de uso**
+
+- ¿Cómo describirías tu experiencia al usar la aplicación?
+- ¿Fue sencillo realizar las acciones que necesitabas?
+- ¿Encontraste algún obstáculo al navegar por la aplicación?
+
+**4. Funcionalidad más útil**
+
+- ¿Cuál fue la función que más te llamó la atención o que más utilizaste?
+- ¿Por qué consideras que esa función fue la más útil?
+  
+**5. Sugerencias de mejora**
+
+- ¿Qué añadirías a la aplicación para mejorarla?
+- ¿Hay algo que cambiarías en el diseño o en las funcionalidades?
+- ¿Crees que falta alguna característica importante para ti?
+
+**6. Impacto general**
+
+- ¿Crees que la aplicación cumple con sus objetivos?
+- ¿Cómo crees que esta aplicación podría beneficiarte?
+- ¿Recomendarías esta aplicación a otras personas? ¿Por qué?
+  
+**7. Retroalimentación final**
+
+- ¿Hay algo más que te gustaría comentar sobre la aplicación?
+- ¿Qué impresión general te deja el uso de esta herramienta?
+- 
 ### 6.3.2. Registro de Entrevistas
-### 6.3.2. Registro de Entrevistas
+
 
 ### 6.3.3. Evaluaciones según heurísticas
-### 6.3.3. Evaluaciones según heurísticas
+
+**UX Heuristics & Principles Evaluation**
+
+Usability – Inclusive Design – Information Architecture
+
+- CARRERA: Ingeniería de Software
+- CURSO: Desarrollo de Soluciones IOT
+- RNC: 3355
+- PROFESOR: David Carlos Vera
+- AUDITOR: Grupo 2
+- CLIENTE: 
+
+**SITE o APP A EVALUAR**
+
+Nombre de App: Metalix
+
+**Tareas a evaluar:**
+
+- Creación de un usuario
+- Validación de las creaciones
+- Editar perfil de usuario
+- Recoleccion de puntos
+- Vista de reportes de los sistemas IOT
+- Agregar sistema IOT
+
+**ESCALA DE SEVERIDAD**
+
+Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
+
+- Nivel 1: Problema superficial: puede ser fácilmente superado por el usuario o ocurre con muy poca frecuencia. No necesita ser arreglado a menos que exista disponibilidad de tiempo.
+- Nivel 2: Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente reléase.
+- Nivel 3: Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta.
+- Nivel 4: Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento.
+
+**Tabla Reusmen**
+
+**Descripcion de Problemas**
 
 ## 6.4. Video About-the-Product
-## 6.4. Video About-the-Product
+
 
 # Conclusiones
 
