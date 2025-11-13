@@ -3740,16 +3740,18 @@ Esta sección debe comenzar con una introducción resumiendo el objetivo princip
 **Objetivo del Sprint 2:**
 Desarrollar la landing page de Metalix y establecer el frontend base de la aplicación web con funcionalidades de navegación y componentes principales.
 
+| User Story | Titulo  | Relación con Product Backlog   | Estimación (Horas) | Asignado a        | Estado |
+| --------- | --------- | ---------------------------- | ------------- | ------------- | ------------------ |
+| HU-06 | Registro de cuenta | EP-02 - Acceso seguro a la plataforma | 8 | Johan | Done |
+| HU-07 | Inicio de sesión | EP-02 - Acceso seguro a la plataforma | 6 | Johan | Done |
+| HU-09 | Cerrar sesión | EP-02 - Acceso seguro a la plataforma | 3 | Eduardo | Done |
+| HU-08 | Recuperar contraseña | EP-02 - Acceso seguro a la plataforma | 6 | Eduardo | Done |
+| HU-10 | Editar perfil | EP-03 - Gestión de perfil de usuario | 8 | Adriano | Done |
+| HU-02 | Ver recompensas destacadas | EP-01 - Páginas informativas | 5 | Gustavo | Done |
+| HU-03 | Conocer proceso para obtener tarjeta RFID | EP-01 - Páginas informativas | 4 | Ray | Done |
+| HU-04 | Consultar FAQ y enviar contacto | EP-01 - Páginas informativas | 7 | Adriano | Done |
+| HU-05 | Registrar interés municipal | EP-01 - Páginas informativas | 6 | Orlando | Done|
 
-| Sprint # | User Story | Work-item/Task | Descripción | Estimación (Horas) | Asignado a | Status |
-|----------|------------|----------------|-------------|-------------------|------------|--------|
-| Sprint 2 |  |  |  | 4 | Johan Quinones | Done |
-| Sprint 2 | |  |  | 6 | Johan Quinones | Done |
-| Sprint 2 |  |  |  | 3 | Johan Quinones | Done |
-| Sprint 2 |  | |  | 5 | Eduardo Mancilla | Done |
-| Sprint 2 |  |  |  | 8 | Eduardo Mancilla | Done |
-| Sprint 2 |  |  |  | 6 | Adriano Cruz | Done |
-| Sprint 2 |  |  |  | 4 | Adriano Cruz | Done |
 
 #### 6.2.2.4. Development Evidence for Sprint Review
 
