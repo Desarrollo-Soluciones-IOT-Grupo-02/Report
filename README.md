@@ -4026,7 +4026,7 @@ Las analíticas muestran una distribución equilibrada del trabajo entre los mie
 <p><b>Evidencia de la entrevista:</b></p>
 
 <p align="center">
-  <img src=" " alt="Entrevista 2" width="85%">
+  <img src="./entrevistas/entrevista 2 review.png" alt="Entrevista 2" width="85%">
 </p>
 
 <p align="center">
