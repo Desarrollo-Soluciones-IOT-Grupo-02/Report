@@ -4012,6 +4012,44 @@ Las analíticas muestran una distribución equilibrada del trabajo entre los mie
 - 
 ### 6.3.2. Registro de Entrevistas
 
+#### Segmento: Bañistas
+
+##### Entrevista 1
+<ul>
+  <li><b>Nombre del entrevistado:</b> Carlos Ramírez</li>
+  <li><b>Edad:</b> 28 años</li>
+  <li><b>Distrito:</b> Santiago de Surco, Lima</li>
+  <li><b>Nombre del entrevistador:</b> Gustavo Pardo</li>
+  <li><b>Duración:</b> 09:26</li>
+</ul>
+
+<p><b>Evidencia de la entrevista:</b></p>
+
+<p align="center">
+  <img src=" " alt="Entrevista 2" width="85%">
+</p>
+
+<p align="center">
+  <b>Enlace de entrevista:</b>
+  <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202120347_upc_edu_pe/IQB0t6Il8sh8TpaOn8QpyW7oAQ7l5wSOCk0UgpgwZ3DbGpQ?e=mvPgWb&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">Ver video</a>
+</p>
+
+
+<p><b>Resumen de la entrevista:</b></p>
+
+<p align="justify">
+Carlos Ramírez, un diseñador gráfico de 29 años, opina que la aplicación tiene un diseño moderno, intuitivo y muy atractivo que transmite confianza y se alinea perfectamente con su propósito ecológico. Destaca como la función más útil la sección de recolección de residuos, que permite localizar recolectores cercanos de manera eficiente, y valora que la experiencia general sea fluida y sin complicaciones. Si bien sugiere mejoras como un mapa interactivo, un modo oscuro y un sistema de notificaciones, su impresión general es extremadamente positiva, ya que considera que la aplicación cumple con creces su objetivo, motiva a la acción y es una herramienta con un potencial real para impactar positivamente en el medio ambiente, por lo que no dudaría en recomendarla.
+</p>
+
+<hr>
+
+
+
+---
+
+#### Segmento: Municipalidades costeras
+
+
 
 ### 6.3.3. Evaluaciones según heurísticas
 
