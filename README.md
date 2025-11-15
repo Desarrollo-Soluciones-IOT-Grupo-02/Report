@@ -806,9 +806,10 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
           <tr>
             <td align="justify">
               <b>Cruz Palomino, Adriano Sebastian</b><br>
-              Durante la TP1 ejercí un liderazgo compartido al desarrollar los mockups, el user wireflow y el prototipo funcional. 
-              Coordiné con mis compañeros para alinear el diseño con los objetivos del proyecto, promoviendo decisiones conjuntas 
-              y una comunicación constante entre las áreas de diseño y desarrollo.
+                Realicé la entrevista de validación correspondiente a esta fase, lo que permitió recoger comentarios directos sobre la solución 
+                y reforzar la toma de decisiones colaborativas del equipo. Asimismo, participé en la alineación de los mockups y flujos 
+                con los objetivos técnicos del proyecto, manteniendo una comunicación permanente que facilitó la coherencia entre el diseño, 
+                las necesidades del usuario y el trabajo del resto del equipo.
             </td>
           </tr>
           <tr>
@@ -986,9 +987,10 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
           <tr>
             <td align="justify">
               <b>Cruz Palomino, Adriano Sebastian</b><br>
-              En esta etapa planifiqué las tareas de diseño y compartí los avances en Figma para recibir aportes del equipo. 
-              Fomenté un entorno participativo y ordenado, lo que permitió cumplir los plazos y mejorar continuamente el prototipo 
-              a partir del trabajo conjunto.
+              En la TB2 contribuí a mantener un entorno colaborativo mediante la planificación de tareas de diseño y la coordinación continua con el equipo. 
+              Además, realicé la entrevista de validación de esta fase, la cual permitió confirmar supuestos, ajustar prioridades 
+              y orientar las tareas del sprint a partir de evidencia directa de usuarios. Esta participación reforzó el cumplimiento de metas, 
+              el orden en las entregas y la integración efectiva entre diseño, validación y desarrollo.
             </td>
           </tr>
           <tr>
