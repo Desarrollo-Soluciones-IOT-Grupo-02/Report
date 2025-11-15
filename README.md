@@ -233,6 +233,77 @@ Esta sección tiene como propósito detallar las actualizaciones significativas 
         - Coordiné con el equipo backend la coherencia entre arquitectura documentada e implementación real.<br>
       </td>
     </tr>
+     <!-- TB2 -->
+    <tr>
+      <td rowspan="7">TB2</td>
+      <td rowspan="7">10/11/2025</td>
+    </tr>
+    <tr>
+      <td>Del Carmen Zorrilla, Ray Alessandro</td>
+      <td>
+        - Diseñé la <b>Landing Page UI</b> aplicando principios de usabilidad y comunicación visual orientados al público general y a las municipalidades.<br>
+        - Desarrollé el <b>Wireframe</b> de la Landing Page en Figma, estructurando la jerarquía de secciones informativas, el formulario de contacto y los llamados a la acción.<br>
+        - Elaboré el <b>Mock-up</b> final de la Landing Page con la línea gráfica oficial del proyecto, integrando la paleta de colores, tipografía y diseño responsivo.<br>
+        - Lideré la <b>planificación del Sprint</b> definiendo los objetivos, tareas priorizadas y responsables, alineados con el Product Backlog del proyecto.<br>
+        - Documenté la sección de <b>Sprint Planning</b> en el informe, detallando los entregables de la iteración, tiempos estimados y dependencias entre actividades.<br>
+      </td>
+    </tr>
+    <tr>
+      <td>Cruz Palomino, Adriano Sebastian</td>
+      <td>
+        - Desarrollé los <b>wireframes</b> de la aplicación web estructurando la interfaz de usuario para todas las pantallas principales.<br>
+        - Creé los <b>wireflow diagrams</b> mostrando los flujos de navegación entre las diferentes pantallas de la aplicación.<br>
+        - Elaboré los <b>mockups</b> de la aplicación web con el diseño visual completo aplicando las Style Guidelines establecidas.<br>
+        - Desarrollé los <b>user flow diagrams</b> detallando los recorridos completos del usuario en escenarios clave.<br>
+        - Diseñé el <b>prototipo interactivo</b> en Figma permitiendo la validación temprana del diseño UI/UX con el equipo.<br>
+        - Coordiné con el equipo la consistencia visual y funcional de todos los componentes de diseño.<br>
+      </td>
+    </tr>
+        <tr>
+      <td>Quiñones Tintaya, Johan Jorge</td>
+      <td>
+        - Implementé el <b>backend completo</b> con Spring Boot 3.5.6 y Java 21 siguiendo arquitectura Domain-Driven Design.<br>
+        - Desarrollé los <b>6 bounded contexts</b>: IAM, WasteCollection, UserIdentification, RewardManagement, MunicipalityManagement, Monitoring & Reporting.<br>
+        - Diseñé la arquitectura de <b>capas por contexto</b>: Domain Layer, Interface Layer, Application Layer e Infrastructure Layer.<br>
+        - Creé los <b>diagramas de componentes</b> para visualizar la arquitectura de cada bounded context.<br>
+        - Elaboré los <b>diagramas de clases</b> del dominio detallando entidades, value objects y servicios para todos los contextos.<br>
+        - Diseñé los <b>diagramas de base de datos</b> con sus relaciones, restricciones y estrategia de persistencia.<br>
+        - Documenté todos los <b>endpoints REST</b> con Swagger/OpenAPI para facilitar la integración con frontend.<br>
+      </td>
+    </tr>
+    <tr>
+      <td>Pardo Zapata, Gustavo Adolfo</td>
+      <td>
+         - Lideré el diseño e implementación del segundo sprint del proyecto<br>
+         - Implementé y desarrolle los recursos evaluados para el Sprint 2<br>
+         - Implemente el correcto desarrollo del sprint backlog<br>
+         - Realize la evaluacion segun heurística<br>
+         - Desarrolle las preguntas para la entrevista de validacion de nuestro proyecto<br>
+         - Ejecuté mi entrevista de validacion a nuestro primer segmento objetivo
+      </td>
+    </tr>
+        <tr>
+      <td>Roca Huapaya, Orlando Arturo</td>
+      <td>
+        - Desarrollé la sección completa de <b>Information Architecture</b> con Organization Systems, Labeling Systems y Navigation Systems.<br>
+        - Elaboré las <b>Style Guidelines</b> generales y específicas para Web, Mobile e IoT estableciendo la identidad visual del proyecto.<br>
+        - Documenté los <b>SEO Tags y Meta Tags</b> para optimizar la presencia digital de la landing page.<br>
+        - Definí los <b>Searching Systems</b> y estrategias de búsqueda para mejorar la experiencia del usuario.<br>
+        - Coordiné la integración entre los principios de Lean UX y el diseño UI/UX para mantener coherencia conceptual.<br>
+        - Aseguré la consistencia del tono de comunicación y branding a través de todos los entregables de diseño.<br>
+    </td>
+    </tr>
+        <tr>
+      <td>Mancilla Ordaya, Eduardo Vicente</td>
+      <td>
+        - Desarrollé los <b>diagramas C4 completos</b> del sistema Metalix: Landscape, Context, Container y Deployment.<br>
+        - Documenté la <b>arquitectura de software</b> a nivel estratégico mostrando la interacción entre sistemas externos.<br>
+        - Diseñé el <b>Context Level Diagram</b> identificando actores y sistemas relacionados con Metalix.<br>
+        - Elaboré el <b>Container Level Diagram</b> detallando la arquitectura de contenedores (frontend, backend, bases de datos).<br>
+        - Creé el <b>Deployment Diagram</b> especificando la infraestructura de despliegue en GitHub Pages, Vercel y Railway.<br>
+        - Coordiné con el equipo backend la coherencia entre arquitectura documentada e implementación real.<br>
+      </td>
+    </tr>
   <!-- Otras entrega -->
   </tbody>
 </table>
@@ -582,6 +653,16 @@ En la entrega del Trabajo Parcial (TP), el equipo avanzó significativamente en 
     - [6.2.1.7. Services Documentation Evidence for Sprint Review](#6217-services-documentation-evidence-for-sprint-review)
     - [6.2.1.8. Software Deployment Evidence for Sprint Review](#6218-software-deployment-evidence-for-sprint-review)
     - [6.2.1.9. Team Collaboration Insights during Sprint](#6219-team-collaboration-insights-during-sprint)
+  - [6.2.2. Sprint 2](#622-sprint-2)
+    - [6.2.2.2. Sprint Planning 2](#6222-sprint-planning-2)
+    - [6.2.2.2. Aspect Leaders and Collaborators](#6222-aspect-leaders-and-collaborators)
+    - [6.2.2.3. Sprint Backlog 1](#6223-sprint-backlog-2)
+    - [6.2.2.4. Development Evidence for Sprint Review](#6224-development-evidence-for-sprint-review)
+    - [6.2.2.5. Testing Suite Evidence for Sprint Review](#6225-testing-suite-evidence-for-sprint-review)
+    - [6.2.2.6. Execution Evidence for Sprint Review](#6226-execution-evidence-for-sprint-review)
+    - [6.2.2.7. Services Documentation Evidence for Sprint Review](#6227-services-documentation-evidence-for-sprint-review)
+    - [6.2.2.8. Software Deployment Evidence for Sprint Review](#6228-software-deployment-evidence-for-sprint-review)
+    - [6.2.2.9. Team Collaboration Insights during Sprint](#6229-team-collaboration-insights-during-sprint)
 - [6.3. Validation Interviews](#63-validation-interviews)
   - [6.3.1. Diseño de Entrevistas](#631-diseño-de-entrevistas)
   - [6.3.2. Registro de Entrevistas](#632-registro-de-entrevistas)
@@ -709,6 +790,52 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
             </td>
           </tr>
         </table>
+         <table>
+          <tr>
+            <td rowspan="7"><b>TB2</b></td>
+          </tr>
+        <!-- Estudiantes -->
+          <tr>
+            <td align="justify">
+              <b>Del Carmen Zorrilla, Ray Alessandro:</b><br>
+              Durante el desarrollo del proyecto asumí un rol activo en la organización de las tareas y coordinación con mis compañeros. 
+              Brindé liderazgo conjunto al proponer la segmentación de los usuarios y en la preparación de las entrevistas, 
+              fomentando la toma de decisiones compartida y asegurando que el equipo avanzara de forma ordenada y alineada a los objetivos.
+            </td>
+          </tr>
+          <tr>
+            <td align="justify">
+              <b>Cruz Palomino, Adriano Sebastian</b><br>
+              Durante la TP1 ejercí un liderazgo compartido al desarrollar los mockups, el user wireflow y el prototipo funcional. 
+              Coordiné con mis compañeros para alinear el diseño con los objetivos del proyecto, promoviendo decisiones conjuntas 
+              y una comunicación constante entre las áreas de diseño y desarrollo.
+            </td>
+          </tr>
+          <tr>
+            <td align="justify">
+              <b>Quiñones Tintaya, Johan Jorge:</b><br>
+              En el avance del Análisis de entrevistas, coordine con mis compañeros la construcción de preguntas y la redacción de respuestas en primera persona, de modo que todos pudimos aportar desde distintos enfoques. Del mismo modo, en el desarrollo del Tactical-Level Domain-Driven Design y sus subpuntos por cada bounded context, ejercí el desarrollo completo de sus responsabilidades técnicas (diagramas, definición de capas y modelos).
+            </td>
+          </tr>
+          <tr>
+            <td align="justify">
+              <b>Pardo Zapata Gustavo Adolfo:</b><br>
+             Durante la TB2, ejercí un liderazgo en la reparticion de tarea y coordinar la implementación del sprint 2. Guié al equipo en la toma de decisiones de diseño, como la especificación de las interfaces de aplicación y fomentando una visión compartida de la solución. Este liderazgo conjunto permitió traducir el diseño estratégico en las preguntas de la entrevista y la recoleccion de puntos de mejora o cambio dentro del proyecto.
+            </td>
+          </tr>
+          <tr>
+            <td align="justify">
+                <b>Roca Huapaya, Orlando Arturo:</b><br>
+                Realicé la integración entre los entregables de Lean UX y el diseño UI de Metalix para asegurar una narrativa consistente del problema a la solución. Coordiné la priorización de hipótesis y la segmentación de usuarios, preparé sesiones de revisión de entrevistas y consolidé el capítulo 1 con criterios comunes de calidad. Definí la versión inicial de pautas del design system y del tono de comunicación, y armé un backlog de investigación y prototipado que permitió a cada integrante liderar su sección sin perder coherencia con el objetivo general.
+            </td>
+          </tr>
+          <tr>
+            <td align="justify">
+                <b>Mancilla Ordaya, Eduardo Vicente:</b><br>
+              Durante el desarrollo de esta entrega apoyé en la entrevista al primer segmento objetivo, asumí mi rol de liderazgo proponiendo los diagramas C4 con las tecnologías en el que podríamos realizar el proyecto. También consideré la coherencia con los otros puntos del informe para la realización de los diagramas.
+            </td>
+          </tr>
+        </table>
       </td>
       <!-- Conclusiones -->
       <td>
@@ -731,6 +858,12 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
               la configuración del entorno de desarrollo y la documentación de sprints. 
               Esta distribución permitió mantener la cohesión del proyecto mientras se avanzaba hacia la materialización de la solución Metalix, 
               consolidando tanto la visión estratégica como la ejecución práctica del sistema IoT.
+            </td>
+          </tr>
+          <tr>
+            <td><b>TB2</b></td>
+            <td align="justify">
+              Durante la TB2, el equipo profundizó su enfoque colaborativo al enfrentar los desafíos técnicos de la implementación avanzada del sistema Metalix. Cada integrante ejerció liderazgo en componentes críticos como el desarrollo de microservicios, la arquitectura de eventos, las pruebas de integración y el despliegue en la nube. Esta especialización técnica, coordinada mediante metodologías ágiles, permitió mantener la coherencia arquitectónica mientras se escalaba la funcionalidad del producto. La distribución estratégica de responsabilidades facilitó la integración exitosa de frontend, backend e infraestructura, materializando una solución IoT robusta y alineada con los objetivos de diseño establecidos en fases anteriores.
             </td>
           </tr>
         </table>
@@ -836,6 +969,53 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
             </td>
           </tr>
         </table>
+        <table>
+          <tr>
+            <td rowspan="7"><b>TB2</b></td>
+          </tr>
+        <!-- Estudiantes -->
+          <tr>
+            <td align="justify">
+              <b>Del Carmen Zorrilla, Ray Alessandro:</b><br>
+              Ejercí un liderazgo compartido en el diseño UI/UX de la landing page, coordinando la estructura visual y funcional del proyecto. 
+              Lideré la planificación del Sprint definiendo objetivos claros, asignación de tareas y cronograma de entregables. 
+              Desarrollé wireframes y mockups (versión web y mobile) aplicando principios de usabilidad, fomentando la toma de decisiones colaborativa 
+              con el equipo y asegurando coherencia entre la propuesta de valor y la experiencia de usuario final.
+            </td>
+          </tr>
+          <tr>
+            <td align="justify">
+              <b>Cruz Palomino, Adriano Sebastian</b><br>
+              En esta etapa planifiqué las tareas de diseño y compartí los avances en Figma para recibir aportes del equipo. 
+              Fomenté un entorno participativo y ordenado, lo que permitió cumplir los plazos y mejorar continuamente el prototipo 
+              a partir del trabajo conjunto.
+            </td>
+          </tr>
+          <tr>
+            <td align="justify">
+              <b>Quiñones Tintaya, Johan Jorge:</b><br>
+              En el avance del Análisis de entrevistas, coordine con mis compañeros la construcción de preguntas y la redacción de respuestas en primera persona, de modo que todos pudimos aportar desde distintos enfoques. Del mismo modo, en el desarrollo del Tactical-Level Domain-Driven Design y sus subpuntos por cada bounded context, ejercí el desarrollo completo de sus responsabilidades técnicas (diagramas, definición de capas y modelos).
+            </td>
+          </tr>
+          <tr>
+            <td align="justify">
+              <b>Pardo Zapata Gustavo Adolfo:</b><br>
+              En la TB2, consolidé un entorno de desarrollo colaborativo. Establecimos metas técnicas claras, planificando las tareas en sprints semanales con Trello y revisiones de código en GitHub. Cumplí con los objetivos al implementar  la configuración de los entornos de integración, lo que permitió al equipo comenzar el desarrollo de frontend y backend de manera paralela, coordinada y sobre una base técnica sólida.
+            </td>
+          </tr>
+          <tr>
+            <td align="justify">
+              <b>Roca Huapaya, Orlando Arturo:</b><br>
+              Promoví un entorno colaborativo e inclusivo al proponer metas semanales claras con criterios de aceptación y responsables. Planifiqué tareas y dependencias por capítulo, organicé el calendario de entregas y di seguimiento a avances y bloqueos para mantener el ritmo del equipo. Integré comentarios en los apartados de Lean UX, ajusté prioridades cuando fue necesario y aseguré el cumplimiento de plazos y calidad. Mantuvimos una comunicación abierta para resolver dudas y redistribuir trabajo, lo que permitió alcanzar los objetivos sin sacrificar consistencia ni claridad.
+            </td>
+          </tr>
+          <tr>
+            <td align="justify">
+                <b>Mancilla Ordaya, Eduardo Vicente:</b><br>
+              Durante el desarrollo de esta entrega apoyé en la entrevista al primer segmento objetivo, asumí mi rol de liderazgo proponiendo los diagramas C4 con las tecnologías en el que podríamos realizar el proyecto. También consideré la coherencia con los otros puntos del informe para la realización de los diagramas.
+            </td>
+          </tr>
+        </table>
       </td>
       <!-- Conclusiones -->
       <td>
@@ -858,6 +1038,12 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
               se distribuyeron tareas técnicas complejas y se establecieron procesos de revisión cruzada que aseguraron 
               la calidad y consistencia. El cumplimiento de objetivos se logró mediante una comunicación fluida, 
               adaptación ágil a los cambios y un compromiso colectivo con la excelencia en cada entregable.
+            </td>
+          </tr>
+           <tr>
+            <td><b>TB2</b></td>
+            <td align="justify">
+              Durante la TB2, el equipo consolidó su madurez técnica y colaborativa al ejecutar exitosamente la fase de implementación del proyecto Metalix. Cada integrante asumió roles de liderazgo y colaborativo especializado en áreas críticas como el desarrollo de frontend y backend, la implementación de DevOps y la gestión de calidad del código. Esta distribución permitió mantener un entorno de trabajo inclusivo y coordinado, donde se establecieron metas técnicas ambiciosas, se planificaron sprints con entregables claros y se cumplieron los objetivos de implementación funcional. El resultado fue la entrega de un producto integral y cohesivo, respaldado por una infraestructura técnica robusta y alineada con los principios de Domain-Driven Design y las mejores prácticas de ingeniería de software.
             </td>
           </tr>
         </table>
