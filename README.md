@@ -4072,6 +4072,38 @@ Mathias Contreras, un estudiante universitario de 19 años, que vive en el distr
 
 #### Segmento: Municipalidades costeras
 
+##### Entrevista 1
+<ul>
+  <li><b>Nombre del entrevistado:</b> Sebastian Cachis</li>
+  <li><b>Edad:</b> 21 años</li>
+  <li><b>Distrito:</b> San Miguel</li>
+  <li><b>Nombre del entrevistador:</b> Adriano Cruz</li>
+  <li><b>Duración:</b> 09:08</li>
+</ul>
+
+<p><b>Evidencia de la entrevista:</b></p>
+
+<p align="center">
+  <img src="./entrevistas/entrevista-muni-validation-1.png" alt="Entrevista 2" width="85%">
+</p>
+
+<p align="center">
+  <b>Enlace de entrevista:</b>
+  <a href="https://upcedupe-my.sharepoint.com/personal/u202210697_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202210697%5Fupc%5Fedu%5Fpe%2FDocuments%2FEntrevista%2DValidacion%2DSebastian%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Ee948b022%2D6449%2D46a3%2Db254%2D641c81a831ef">Ver video</a>
+</p>
+
+
+<p><b>Resumen de la entrevista:</b></p>
+
+<p align="justify">
+El entrevistado, Nicolás González, considera que la landing page está bien diseñada, clara y alineada con el objetivo ecológico del proyecto. Sobre la aplicación, destaca que es fácil de usar, visualmente agradable y muy útil como herramienta interna de monitoreo, especialmente por el uso de filtros y la sección de municipalidades, que ofrece información detallada y relevante. No encontró dificultades de navegación, pero sugiere añadir un modo oscuro, mejorar la sección de monitoreo con métricas más compactas o detalladas y permitir la exportación de datos. En general, opina que la app cumple sus objetivos, facilita la toma de decisiones basadas en datos y sería valiosa para municipalidades u organizaciones ambientales.
+</p>
+
+
+<hr>
+
+
+
 
 
 ### 6.3.3. Evaluaciones según heurísticas
