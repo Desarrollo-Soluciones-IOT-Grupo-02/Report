@@ -4111,8 +4111,23 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
 
 **Tabla Reusmen**
 
+| Problema | Tipo | Prioridad (Inferida) | Descripción |
+|----------|------|---------------------|-------------|
+| Mapa no interactivo | Funcionalidad | Media-Alta | Implementar un mapa visual para localizar recolectores, mejorando la usabilidad y planificación. |
+| Falta de modo oscuro | Experiencia de Usuario (UX) | Media | Añadir una opción de modo oscuro para mayor comodidad visual y modernidad. |
+| Falta de comunidad | Engagement | Media | Crear un espacio para que los usuarios interactúen, compartan ideas y fomenten una comunidad. |
+| Sin notificaciones | Engagement / Retención | Media | Desarrollar un sistema de notificaciones para informar sobre recolecciones, recompensas e impacto. |
+
 **Descripcion de Problemas**
 
+- Mapa No Interactivo: La función de localización de recolectores es útil, pero los usuarios sugieren un mapa visual para hacerla más intuitiva y fácil de usar.
+  
+- Falta de Personalización: Se echa de menos la opción de un modo oscuro para mejorar la comodidad visual en diferentes entornos.
+
+- Ausencia de Comunidad: No existe un espacio para que los usuarios interactúen, compartan ideas o formen una comunidad alrededor del reciclaje.
+
+- Notificaciones Inexistentes: La app no envía recordatorios o alertas, lo que limita su capacidad para mantener a los usuarios comprometidos y informados.
+- 
 ## 6.4. Video About-the-Product
 
 
