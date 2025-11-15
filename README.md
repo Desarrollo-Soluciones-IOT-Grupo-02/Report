@@ -3942,25 +3942,28 @@ Durante el Sprint 2 se configuró y desplegó exitosamente la landing page de Me
 
 #### 6.2.2.9. Team Collaboration Insights during Sprint
 
-Esta sección se enfoca en la dinámica del equipo. Requiere que el equipo explique cómo se desarrollaron las actividades de implementación, capturas de pantalla de analíticas de colaboración y commits de GitHub realizados por miembros del equipo, y la interpretación del equipo de estas analíticas.
-
-**Cómo se Desarrollaron las Actividades de Implementación:**
-Durante el Sprint 2, el equipo trabajó de manera colaborativa utilizando metodologías ágiles. Johan Quinones lideró el desarrollo de la landing page, mientras que Eduardo Mancilla se enfocó en la configuración y desarrollo del frontend. Adriano Cruz coordinó el diseño UI/UX y proporcionó guías de estilo. Los demás miembros del equipo colaboraron en revisiones de código, testing y documentación.
+Durante este sprint, el equipo trabajó de manera colaborativa siguiendo metodologías ágiles para el desarrollo de Metalix-Embedded-System y la aplicación móvil. Ray estuvo a cargo del desarrollo del sistema embebido, incluyendo la integración del hardware, el manejo de sensores y la comunicación con el backend. Eduardo lideró el desarrollo de la app mobile, implementando interfaces, navegación y conexión con los servicios del sistema. Mientras que los demás integrantes del equipo apoyaron en pruebas, revisión de código, documentación y mejoras continuas durante el sprint.
 
 **Analíticas de Colaboración de GitHub:**
 
-![GitHub Collaboration Analytics](./chapter-6/sprint-1/github-analytics-1.png)
-![GitHub Collaboration Analytics](./chapter-6/sprint-1/github-analytics-2.png)
+Metalix Embedded System Contributions:
+
+![GitHub Collaboration Analytics](./chapter-6/sprint-2/Metalix-Embedded-System-Contributions.png)
+
+Metalix Flutter App Contributions:
+
+![GitHub Collaboration Analytics](./chapter-6/sprint-2/Metalix-Flutter-App-Contributions.png)
+
 *Analíticas de commits y colaboración del equipo durante el Sprint 1*
 
 **Interpretación del Equipo de las Analíticas:**
-Las analíticas muestran una distribución equilibrada del trabajo entre los miembros del equipo. Johan Quinones tuvo el mayor número de commits debido a su rol como líder de la landing page, mientras que Eduardo Mancilla se concentró en commits más grandes pero menos frecuentes para el frontend. La colaboración fue efectiva, con todos los miembros contribuyendo según sus roles asignados en la matriz LACX.
+Las analíticas muestran una participación coherente con los roles asignados. Ray presenta un mayor número de commits, reflejando el trabajo iterativo necesario para el sistema embebido. Eduardo, encargado del desarrollo mobile, realizó commits más concentrados y de mayor tamaño al avanzar por módulos completos. La colaboración fue efectiva, con revisiones de código, creación de Issues y Pull Requests que permitieron mantener la calidad y el orden del repositorio.
 
 **Insights Clave:**
-- Comunicación efectiva a través de GitHub Issues y Pull Requests
-- Revisión de código colaborativa mejoró la calidad del producto
-- Distribución clara de responsabilidades según la matriz LACX
-- Uso efectivo de ramas feature para desarrollo paralelo
+- Comunicación constante mediante GitHub Issues y Pull Requests.
+- Revisión de código colaborativa que mejoró la estabilidad del sistema.
+- Roles definidos según la matriz LACX, permitiendo un flujo de trabajo organizado.
+- Uso adecuado de ramas feature para desarrollar el sistema embebido y la app móvil de forma paralela.
   
 ## 6.3. Validation Interviews
 
@@ -4073,6 +4076,38 @@ Mathias Contreras, un estudiante universitario de 19 años, que vive en el distr
 ---
 
 #### Segmento: Municipalidades costeras
+
+##### Entrevista 1
+<ul>
+  <li><b>Nombre del entrevistado:</b> Sebastian Cachis</li>
+  <li><b>Edad:</b> 21 años</li>
+  <li><b>Distrito:</b> San Miguel</li>
+  <li><b>Nombre del entrevistador:</b> Adriano Cruz</li>
+  <li><b>Duración:</b> 09:08</li>
+</ul>
+
+<p><b>Evidencia de la entrevista:</b></p>
+
+<p align="center">
+  <img src="./entrevistas/entrevista-muni-validation-1.png" alt="Entrevista 2" width="85%">
+</p>
+
+<p align="center">
+  <b>Enlace de entrevista:</b>
+  <a href="https://upcedupe-my.sharepoint.com/personal/u202210697_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202210697%5Fupc%5Fedu%5Fpe%2FDocuments%2FEntrevista%2DValidacion%2DSebastian%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Ee948b022%2D6449%2D46a3%2Db254%2D641c81a831ef">Ver video</a>
+</p>
+
+
+<p><b>Resumen de la entrevista:</b></p>
+
+<p align="justify">
+El entrevistado, Nicolás González, considera que la landing page está bien diseñada, clara y alineada con el objetivo ecológico del proyecto. Sobre la aplicación, destaca que es fácil de usar, visualmente agradable y muy útil como herramienta interna de monitoreo, especialmente por el uso de filtros y la sección de municipalidades, que ofrece información detallada y relevante. No encontró dificultades de navegación, pero sugiere añadir un modo oscuro, mejorar la sección de monitoreo con métricas más compactas o detalladas y permitir la exportación de datos. En general, opina que la app cumple sus objetivos, facilita la toma de decisiones basadas en datos y sería valiosa para municipalidades u organizaciones ambientales.
+</p>
+
+
+<hr>
+
+
 
 
 
