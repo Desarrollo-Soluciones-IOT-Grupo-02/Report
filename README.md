@@ -827,7 +827,7 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
           <tr>
             <td align="justify">
                 <b>Roca Huapaya, Orlando Arturo:</b><br>
-                Realicé la integración entre los entregables de Lean UX y el diseño UI de Metalix para asegurar una narrativa consistente del problema a la solución. Coordiné la priorización de hipótesis y la segmentación de usuarios, preparé sesiones de revisión de entrevistas y consolidé el capítulo 1 con criterios comunes de calidad. Definí la versión inicial de pautas del design system y del tono de comunicación, y armé un backlog de investigación y prototipado que permitió a cada integrante liderar su sección sin perder coherencia con el objetivo general.
+                Realicé una entrevista a un bañista para validar la propuesta de valor de Metalix, presentando la landing page y la aplicación web como demostración del funcionamiento de la solución. Recopilé percepciones sobre la utilidad, facilidad de uso y relevancia del sistema en el contexto real de playa. Además, organicé y ordené los commits del repositorio para mantener una línea de tiempo clara del trabajo realizado, asegurando trazabilidad y coherencia entre los avances del equipo.
             </td>
           </tr>
           <tr>
@@ -1008,7 +1008,7 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
           <tr>
             <td align="justify">
               <b>Roca Huapaya, Orlando Arturo:</b><br>
-              Promoví un entorno colaborativo e inclusivo al proponer metas semanales claras con criterios de aceptación y responsables. Planifiqué tareas y dependencias por capítulo, organicé el calendario de entregas y di seguimiento a avances y bloqueos para mantener el ritmo del equipo. Integré comentarios en los apartados de Lean UX, ajusté prioridades cuando fue necesario y aseguré el cumplimiento de plazos y calidad. Mantuvimos una comunicación abierta para resolver dudas y redistribuir trabajo, lo que permitió alcanzar los objetivos sin sacrificar consistencia ni claridad.
+              Fomenté un entorno colaborativo al mantener una comunicación clara con el equipo y organizar los avances de forma accesible para todos. Establecí metas relacionadas con la validación temprana de la solución y planifiqué la tarea de realizar una entrevista a un bañista, donde presenté la landing page y la aplicación web para obtener retroalimentación real. Además, ordené y estructuré los commits del proyecto para asegurar trazabilidad y facilitar el trabajo conjunto, lo que contribuyó al cumplimiento de los objetivos y a mantener la coherencia del desarrollo.
             </td>
           </tr>
           <tr>
