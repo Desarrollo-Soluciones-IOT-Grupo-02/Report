@@ -3804,28 +3804,30 @@ Durante el Sprint 2 se estableció la base para las pruebas automatizadas, imple
 
 #### 6.2.2.6. Execution Evidence for Sprint Review
 
-Esta sección debe comenzar con un resumen explicando qué se logró en el Sprint actual. También requiere capturas de pantalla de las principales vistas implementadas y un enlace a un video que ilustre y explique la visualización y navegación lograda durante el Sprint.
-
 **Resumen de Logros del Sprint 2:**
 Se completó exitosamente el desarrollo del sistema IOT de Metalix. Además, se estableció la base de la mobile app con componentes principales.
 
 **Capturas de Pantalla de Vistas Principales:**
 
-![Landing Page - Home]()
-* diseño moderno y responsive*
+* Login 
 
-![Landing Page - Problema]()
-*Sección o*
 
-![Landing Page - Solución]()
-*Sección *
+![evidencia/e3](/evidencias_sprint2/e3.jpeg)
 
-![Frontend - Login]()
+* Dashboard
+
+![Landing Page - Problema](/evidencias_sprint2/e4.jpeg)
+
+* Profile
+
+![Landing Page - Solución](/evidencias_sprint2/e2.jpeg)
+
+* Rewards
+
+![Frontend - Login](/evidencias_sprint2/e7.jpeg)
 *Pantalla de *
 
-![Frontend - Dashboard]()
-*Dashboard principal *
-
+Aplicación Móvil: https://youtube.com/shorts/vP6ROVJ0D2Q
 
 #### 6.2.2.7. Services Documentation Evidence for Sprint Review
 
