@@ -3777,20 +3777,15 @@ Durante el Sprint 2 se logró completar parcialmente el desarrollo del sistema d
 
 **Commits del Repositorio - Mobile App:**
 
-| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
-|------------|--------|-----------|----------------|-------------------|-------------------|
-| | develop | a7e4f2b | feat:  |  | 28/09/2025 |
-|  | develop | 3c9d6a1 | feat:  |  | 30/09/2025 |
-|  | develop | 8f2e5c4 | feat:  |  | 01/10/2025 |
-|  | develop | 5d8a3b9 | feat:  |  | 02/10/2025 |
-|  | develop | 9b4e7c2 | feat:  |  | 03/10/2025 |
-|  | develop | 2f6c8a5 | feat:  |  | 04/10/2025 |
-|  | develop | 7a3d9e1 | feat:  | | 05/10/2025 |
-|  | develop | 4e8b2c6 | feat:  |  | 06/10/2025 |
-|  | develop | 6c1f5a8 | feat:  |  | 07/10/2025 |
-|  | develop | 1d9e4b7 | style:  |  | 08/10/2025 |
-|  | develop | 9a5c2f3 | feat:  |  | 09/10/2025 |
-|  | develop | 3e7b8d1 | fix:  |  | 10/10/2025 |
+| Repository           | Branch | Commit Id | Commit Message                                                        | Commit Message Body                                                                                       | Commited on (Date) |
+|----------------------|--------|-----------|------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|--------------------|
+| metalix-flutter-app  | main   | 8374cbd   | feat: implement editable profile view                                 | Added editable profile screen with basic field validation and API call to update user data.              | 10/11/2025         |
+| metalix-flutter-app  | main   | 6d270af   | feat: add rewards view                                                | Created rewards screen listing available benefits and integrated navigation from the main dashboard.     | 10/11/2025       |
+| metalix-flutter-app  | main   | b123701   | feat: create waste collection screen                                  | Implemented waste collection screen showing recycled metal stats, points, and recent collection history. | 10/11/2025         |
+| metalix-flutter-app  | main   | 6ec5562   | feat: implement main dashboard layout with responsive sidebar navigation | Built main dashboard layout with responsive sidebar navigation and routing between core app sections.    | 10/11/2025         |
+| metalix-flutter-app  | main   | 6c9fd5c   | feat: add responsive login screen with Metalix theme and sign-in button | Added responsive login screen with Metalix branding, sign-in button, and basic error handling.           | 10/11/2025        |
+| metalix-flutter-app  | main   | 36a7a26   | feat: Initial commit - Flutter Metalix Login                          | Initial Flutter project setup with base login screen and core dependencies configured.                   | 10/11/2025         |
+
 
 #### 6.2.2.5. Testing Suite Evidence for Sprint Review
 
