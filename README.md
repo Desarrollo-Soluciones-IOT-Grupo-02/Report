@@ -3467,16 +3467,15 @@ Esta sección debe comenzar con una introducción resumiendo el objetivo princip
 **Objetivo del Sprint 1:**
 Desarrollar la landing page de Metalix y establecer el frontend base de la aplicación web con funcionalidades de navegación y componentes principales.
 
+| User Story | Titulo  | Relación con Product Backlog   | Estimación (Horas) | Asignado a        | Estado |
+| --------- | --------- | ---------------------------- | ------------- | ------------- | ------------------ |
+| HU-13 | Ver saldo | EP-02 - Acceso seguro a la plataforma | 6 | Johan | Done |
+| HU-12 | Consultar puntos por municipalidad| EP-04 - Interes Municipal | 3 | Eduardo | Done |
+| HU-15 | Registrar interes municipal | EP-04 -  Interes Munipal| 6 | Ray | Done |
+| HU-10 | Editar perfil | EP-03 - Gestión de perfil de usuario | 8 | Adriano | Done |
+| HU-14 | Canjear recompensas | EP-21 - Recompensas para bañistas | 7 | Gustavo | Done |
+| HU-21 | Gestion de usuarios municipales | EP-28 - Gestion de usuarios municipales | 6 | Orlando | Done|
 
-| Sprint # | User Story | Work-item/Task | Descripción | Estimación (Horas) | Asignado a | Status |
-|----------|------------|----------------|-------------|-------------------|------------|--------|
-| Sprint 1 | US001 - Landing Page | T001 - Crear estructura HTML | Desarrollar la estructura base de la landing page | 4 | Johan Quinones | Done |
-| Sprint 1 | US001 - Landing Page | T002 - Implementar estilos CSS | Crear diseño responsive y atractivo | 6 | Johan Quinones | Done |
-| Sprint 1 | US001 - Landing Page | T003 - Agregar funcionalidad JavaScript | Implementar interacciones básicas | 3 | Johan Quinones | Done |
-| Sprint 1 | US002 - Frontend Base | T004 - Configurar proyecto Angular | Establecer estructura del proyecto frontend | 5 | Eduardo Mancilla | Done |
-| Sprint 1 | US002 - Frontend Base | T005 - Crear componentes base | Desarrollar componentes principales | 8 | Eduardo Mancilla | Done |
-| Sprint 1 | US003 - UI/UX Design | T006 - Diseñar wireframes | Crear prototipos de interfaz | 6 | Adriano Cruz | Done |
-| Sprint 1 | US003 - UI/UX Design | T007 - Implementar sistema de diseño | Establecer guías de estilo | 4 | Adriano Cruz | Done |
 
 #### 6.2.1.4. Development Evidence for Sprint Review
 
@@ -4191,6 +4190,11 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
 - Notificaciones Inexistentes: La app no envía recordatorios o alertas, lo que limita su capacidad para mantener a los usuarios comprometidos y informados.
 - 
 ## 6.4. Video About-the-Product
+
+<p align="center">
+  <b>Enlace del Video About The Product:</b>
+  <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202120347_upc_edu_pe/IQCAaoM2uKvmSrQsLLyHvz0ZAYO-zzIDN3xVNRrgVs23w64?e=rU0tof&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">Ver video</a>
+</p>
 
 
 # Conclusiones
