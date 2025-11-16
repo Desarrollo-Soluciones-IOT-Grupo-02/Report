@@ -4068,7 +4068,32 @@ Carlos Ramírez, un diseñador gráfico de 29 años, opina que la aplicación ti
 Mathias Contreras, un estudiante universitario de 19 años, que vive en el distrito de Puente Piedra y trabaja al mediodía, percibe la iniciativa de Metallics como una propuesta innovadora y muy positiva, ya que recompensa a las personas que cuidan las playas. Durante la entrevista, destacó que la aplicación web le resulta visualmente atractiva, con colores llamativos pero no recargados, un diseño fácil de entender y una navegación clara, sin obstáculos. Valora especialmente la sección de recompensas, donde puede canjear los puntos obtenidos por reciclar metales por beneficios como descuentos en supermercados o entradas al cine, lo que considera un incentivo directo para usar la plataforma y, al mismo tiempo, promover el cuidado del medio ambiente. Señaló que el sistema cumple con sus objetivos, le deja una impresión general muy buena y lo ve útil tanto para reducir algunos gastos personales como para proteger las playas que frecuenta; solo sugeriría añadir un espacio para que los usuarios puedan interactuar y compartir ideas, y afirma que recomendaría la aplicación a otras personas por los beneficios que ofrece y su contribución a una buena causa.
 </p>
 
+##### Entrevista 3
+<ul>
+  <li><b>Nombre del entrevistado:</b> Sheyla Rodriguez</li>
+  <li><b>Edad:</b> 31 años</li>
+  <li><b>Distrito:</b> San Borja, Lima</li>
+  <li><b>Nombre del entrevistador:</b> Eduardo Mancilla</li>
+  <li><b>Duración:</b> 07:17</li>
+</ul>
 
+<p><b>Evidencia de la entrevista:</b></p>
+
+<p align="center">
+  <img src="./entrevistas/entrevista 1 review.png" alt="Entrevista 2" width="85%">
+</p>
+
+<p align="center">
+  <b>Enlace de entrevista:</b>
+  <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018894_upc_edu_pe/IQDf5x-HFZkOTI_D4RL0Sas1AbMfdf1P2hzDcfDiiz28xsI?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=jqnriY">Ver video</a>
+</p>
+
+
+<p><b>Resumen de la entrevista:</b></p>
+
+<p align="justify">
+Sheyla Rodríguez, de 31 años, comenta que la aplicación le resulta visualmente atractiva, transmite seguridad y refleja muy bien su enfoque ecológico. Considera que la herramienta de recolección de residuos es la funcionalidad más valiosa, ya que le permite ubicar recolectores cercanos de manera rápida y práctica. También destaca que el sistema de recompensas es uno de los elementos que más le entusiasma, pues reconoce el esfuerzo de los usuarios y los motiva a seguir participando activamente. Si bien sugiere seguir ampliando las opciones de recompensas y hacer este sistema aún más dinámico y variado por ejemplo, agregando nuevos beneficios, niveles o desafíos, su percepción global es muy positiva. Para Sheyla, la aplicación cumple plenamente su propósito, impulsa acciones responsables y tiene un verdadero potencial para generar un impacto ambiental significativo. Por ello, afirma que la recomendaría sin dudarlo.
+</p>
 <hr>
 
 
