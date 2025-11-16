@@ -296,12 +296,10 @@ Esta sección tiene como propósito detallar las actualizaciones significativas 
         <tr>
       <td>Mancilla Ordaya, Eduardo Vicente</td>
       <td>
-        - Desarrollé los <b>diagramas C4 completos</b> del sistema Metalix: Landscape, Context, Container y Deployment.<br>
-        - Documenté la <b>arquitectura de software</b> a nivel estratégico mostrando la interacción entre sistemas externos.<br>
-        - Diseñé el <b>Context Level Diagram</b> identificando actores y sistemas relacionados con Metalix.<br>
-        - Elaboré el <b>Container Level Diagram</b> detallando la arquitectura de contenedores (frontend, backend, bases de datos).<br>
-        - Creé el <b>Deployment Diagram</b> especificando la infraestructura de despliegue en GitHub Pages, Vercel y Railway.<br>
-        - Coordiné con el equipo backend la coherencia entre arquitectura documentada e implementación real.<br>
+        - Desarrollé las <b>vistas correspondientes</b> al sistema Metalix para la aplicación movil.<br>
+        - Ejecuté mi entrevista de validacion a nuestro primer segmento objetivo<br>
+        - Implementé la <b>navegación y el flujo entre las vistas</b>, configurando rutas, componentes y primeras interacciones para asegurar una experiencia coherente dentro de la app.<br>
+        - Implementé ajustes y mejoras en las vistas creadas, optimizando la usabilidad, coherencia visual </b>y flujo de interacción, asegurando que cada pantalla responda al propósito del módulo al que pertenece.<br>
       </td>
     </tr>
   <!-- Otras entrega -->
@@ -833,7 +831,7 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
           <tr>
             <td align="justify">
                 <b>Mancilla Ordaya, Eduardo Vicente:</b><br>
-              Durante el desarrollo de esta entrega apoyé en la entrevista al primer segmento objetivo, asumí mi rol de liderazgo proponiendo los diagramas C4 con las tecnologías en el que podríamos realizar el proyecto. También consideré la coherencia con los otros puntos del informe para la realización de los diagramas.
+                Durante esta etapa, asumí un rol activo en el desarrollo del proyecto fortaleciendo tanto la parte técnica como la de validación del prototipo. Contribuí directamente en la construcción de la aplicación móvil de Metalix, desarrollando las vistas principales del sistema y asegurando un flujo de navegación coherente entre ellas. Además, apoyé en la ejecución de la entrevista de validación a nuestro primer segmento objetivo, recopilando información clave sobre la usabilidad y percepción del prototipo. A partir de estos hallazgos, realicé un análisis inicial que permitirá orientar futuras mejoras en la interfaz y en las funcionalidades planteadas.
             </td>
           </tr>
         </table>
@@ -1014,7 +1012,7 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
           <tr>
             <td align="justify">
                 <b>Mancilla Ordaya, Eduardo Vicente:</b><br>
-              Durante el desarrollo de esta entrega apoyé en la entrevista al primer segmento objetivo, asumí mi rol de liderazgo proponiendo los diagramas C4 con las tecnologías en el que podríamos realizar el proyecto. También consideré la coherencia con los otros puntos del informe para la realización de los diagramas.
+              Durante el desarrollo de esta entrega asumí un rol más operativo dentro del equipo, enfocándome en la construcción del prototipo móvil. Contribuí directamente en el desarrollo de las vistas del sistema Metalix y en la configuración del flujo de navegación entre ellas, asegurando consistencia visual y funcional. Además, apoyé en la entrevista de validación realizada a nuestro primer segmento objetivo, aportando en la interpretación de los comentarios recopilados para fortalecer el diseño y orientar los siguientes pasos del proyecto.
             </td>
           </tr>
         </table>
