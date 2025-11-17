@@ -3835,6 +3835,7 @@ Esta sección incluye la relación de Endpoints documentados con OpenAPI, releva
 **Resumen de Logros en Documentación de Servicios Web:**
 Durante el Sprint 2 se implementó exitosamente el backend de Metalix utilizando Spring Boot 3.5.6 y Java 21, siguiendo arquitectura Domain-Driven Design (DDD). Se crearon 6 bounded contexts principales y se documentaron todos los endpoints con OpenAPI/Swagger. El sistema incluye autenticación JWT, gestión de municipalidades, recolección de residuos, sistema de recompensas, monitoreo y gestión de tarjetas RFID.
 
+**URL del Repositorio de Web Services:** https://github.com/Desarrollo-Soluciones-IOT-Grupo-02/metalix-backend
 **URL del Repositorio de Web Services:** https://github.com/johaanq/metalix-backend
 
 **Documentación OpenAPI:** 
@@ -3898,14 +3899,11 @@ Durante el Sprint 2 se implementó exitosamente el backend de Metalix utilizando
 | johaanq/metalix-backend | develop | 4d2b9f6 | test: add unit tests for IAM and Municipality | Implemented JUnit tests with 85% coverage for core modules | 08/10/2025 |
 | johaanq/metalix-backend | develop | 8a5c3d1 | fix: resolve CORS and JWT token issues | Fixed CORS configuration and JWT expiration handling | 09/10/2025 |
 | johaanq/metalix-backend | main | 2e6f9b4 | chore: prepare for Railway deployment | Added Dockerfile and Railway configuration files | 10/10/2025 |
-
+| Desarrollo-Soluciones-IOT-Grupo-02/metalix-backend | main | 86ac2b3| commit | first commit | 16/11/2025 |
 **Capturas de Pantalla de Documentación:**
 
-![Swagger UI - Endpoints Overview]()
-*Vista general de *
-
-![OpenAPI - IAM Context]()
-*Documentación detallada *
+![Swagger UI - Endpoints Overview](./chapter-6/sprint-1/swagger-overview.png)
+*Vista general de endpoints documentados en Swagger UI*
 
 #### 6.2.2.8. Software Deployment Evidence for Sprint Review
 
@@ -3926,7 +3924,10 @@ Durante el Sprint 2 se configuró y desplegó exitosamente la landing page de Me
    - Conexión del repositorio de GitHub
    - Configuración de variables de entorno
    - Configuración de build settings
-
+3. **Configuración de la Aplicación Móvil:**
+   - ConfiguracCión del entorno de compilación en Android Studio.
+   - Generación del archivo APK en modo release para instalación en dispositivos móviles.
+   - Pruebas de instalación del APK en equipos físicos para validar funcionamiento y accesibilidad del prototipo.
 **Capturas de Pantalla del Proceso de Deployment:**
 
 ![GitHub Pages Configuration](./chapter-6/sprint-1/landing-deploy.png)
@@ -3953,7 +3954,7 @@ Metalix Flutter App Contributions:
 
 ![GitHub Collaboration Analytics](./chapter-6/sprint-2/Metalix-Flutter-App-Contributions.png)
 
-*Analíticas de commits y colaboración del equipo durante el Sprint 1*
+*Analíticas de commits y colaboración del equipo durante el Sprint 2*
 
 **Interpretación del Equipo de las Analíticas:**
 Las analíticas muestran una participación coherente con los roles asignados. Ray presenta un mayor número de commits, reflejando el trabajo iterativo necesario para el sistema embebido. Eduardo, encargado del desarrollo mobile, realizó commits más concentrados y de mayor tamaño al avanzar por módulos completos. La colaboración fue efectiva, con revisiones de código, creación de Issues y Pull Requests que permitieron mantener la calidad y el orden del repositorio.
