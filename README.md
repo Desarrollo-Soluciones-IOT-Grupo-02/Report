@@ -5184,7 +5184,7 @@ Mathias Contreras, un estudiante universitario de 19 años, que vive en el distr
 <p><b>Evidencia de la entrevista:</b></p>
 
 <p align="center">
-  <img src="./entrevistas/entrevista 1 review.png" alt="Entrevista 2" width="85%">
+  <img src="./entrevistas/entrevista 1 review.PNG" alt="Entrevista 2" width="85%">
 </p>
 
 <p align="center">
