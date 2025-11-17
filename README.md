@@ -4125,6 +4125,35 @@ El entrevistado, Nicolás González, considera que la landing page está bien di
 </p>
 
 <hr>
+##### Entrevista 2
+<ul>
+  <li><b>Nombre del entrevistado:</b> Matos Fernandez, Christian Andre</li>
+  <li><b>Edad:</b> 20 años</li>
+  <li><b>Distrito:</b> Punta Hermosa</li>
+  <li><b>Nombre del entrevistador:</b> Quiñones Tintaya, Johan Jorge</li>
+  <li><b>Duración:</b> 07:32</li>
+</ul>
+
+<p><b>Evidencia de la entrevista:</b></p>
+
+<p align="center">
+  <img src="./entrevistas/entrevista-muni_3.png" alt="Entrevista Municipalidad 3" width="85%">
+</p>
+
+<p align="center">
+  <b>Enlace de entrevista:</b>
+  <a href="https://upcedupe-my.sharepoint.com/:f:/g/personal/u202124061_upc_edu_pe/IgBVyEHAQ5MpSISHtmwI4LETAY5bXAgN8scRsBASq_kQS38?e=K1uTAP">Ver video</a>
+</p>
+
+<p align="center">
+  <b>Inicio:</b> 38:52 — <b>Fin:</b> 46:13
+</p>
+
+<p><b>Resumen de la entrevista:</b></p>
+
+<p align="justify">
+  Christian Matos, jefe ambiental de Punta Hermosa, indicó que visualmente se ve bien e interactivo. Reconoce que los residuos metálicos afectan la imagen turística y ve en un recolector inteligente con recompensas una solución sostenible para reducir costos y motivar a los bañistas.Usaria desde luego nuestro servicio y lo implementaria.
+</p>
 
 ##### Entrevista 2
 <ul>
