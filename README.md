@@ -3808,6 +3808,8 @@ Se completó exitosamente el desarrollo del sistema IOT de Metalix. Además, se 
 
 **Capturas de Pantalla de Vistas Principales:**
 
+<div align="center">
+
 * Login 
 
 
@@ -3827,6 +3829,8 @@ Se completó exitosamente el desarrollo del sistema IOT de Metalix. Además, se 
 *Pantalla de *
 
 Aplicación Móvil: https://youtube.com/shorts/vP6ROVJ0D2Q
+
+</div>
 
 #### 6.2.2.7. Services Documentation Evidence for Sprint Review
 
@@ -4009,7 +4013,7 @@ Las analíticas muestran una participación coherente con los roles asignados. R
 
 - ¿Hay algo más que te gustaría comentar sobre la aplicación?
 - ¿Qué impresión general te deja el uso de esta herramienta?
-- 
+  
 ### 6.3.2. Registro de Entrevistas
 
 #### Segmento: Bañistas
@@ -4041,6 +4045,8 @@ Las analíticas muestran una participación coherente con los roles asignados. R
 Carlos Ramírez, un diseñador gráfico de 29 años, opina que la aplicación tiene un diseño moderno, intuitivo y muy atractivo que transmite confianza y se alinea perfectamente con su propósito ecológico. Destaca como la función más útil la sección de recolección de residuos, que permite localizar recolectores cercanos de manera eficiente, y valora que la experiencia general sea fluida y sin complicaciones. Si bien sugiere mejoras como un mapa interactivo, un modo oscuro y un sistema de notificaciones, su impresión general es extremadamente positiva, ya que considera que la aplicación cumple con creces su objetivo, motiva a la acción y es una herramienta con un potencial real para impactar positivamente en el medio ambiente, por lo que no dudaría en recomendarla.
 </p>
 
+<hr>
+
 ##### Entrevista 2
 <ul>
   <li><b>Nombre del entrevistado:</b> Mathias Contreras</li>
@@ -4067,6 +4073,8 @@ Carlos Ramírez, un diseñador gráfico de 29 años, opina que la aplicación ti
 <p align="justify">
 Mathias Contreras, un estudiante universitario de 19 años, que vive en el distrito de Puente Piedra y trabaja al mediodía, percibe la iniciativa de Metallics como una propuesta innovadora y muy positiva, ya que recompensa a las personas que cuidan las playas. Durante la entrevista, destacó que la aplicación web le resulta visualmente atractiva, con colores llamativos pero no recargados, un diseño fácil de entender y una navegación clara, sin obstáculos. Valora especialmente la sección de recompensas, donde puede canjear los puntos obtenidos por reciclar metales por beneficios como descuentos en supermercados o entradas al cine, lo que considera un incentivo directo para usar la plataforma y, al mismo tiempo, promover el cuidado del medio ambiente. Señaló que el sistema cumple con sus objetivos, le deja una impresión general muy buena y lo ve útil tanto para reducir algunos gastos personales como para proteger las playas que frecuenta; solo sugeriría añadir un espacio para que los usuarios puedan interactuar y compartir ideas, y afirma que recomendaría la aplicación a otras personas por los beneficios que ofrece y su contribución a una buena causa.
 </p>
+
+<hr>
 
 ##### Entrevista 3
 <ul>
@@ -4129,12 +4137,36 @@ Sheyla Rodríguez, de 31 años, comenta que la aplicación le resulta visualment
 El entrevistado, Nicolás González, considera que la landing page está bien diseñada, clara y alineada con el objetivo ecológico del proyecto. Sobre la aplicación, destaca que es fácil de usar, visualmente agradable y muy útil como herramienta interna de monitoreo, especialmente por el uso de filtros y la sección de municipalidades, que ofrece información detallada y relevante. No encontró dificultades de navegación, pero sugiere añadir un modo oscuro, mejorar la sección de monitoreo con métricas más compactas o detalladas y permitir la exportación de datos. En general, opina que la app cumple sus objetivos, facilita la toma de decisiones basadas en datos y sería valiosa para municipalidades u organizaciones ambientales.
 </p>
 
-
 <hr>
 
+##### Entrevista 2
+<ul>
+  <li><b>Nombre del entrevistado:</b> Bruce Cipriano</li>
+  <li><b>Edad:</b> 32 años</li>
+  <li><b>Distrito:</b> Punta Hermosa, Lima</li>
+  <li><b>Nombre del entrevistador:</b> Ray Del Carmen</li>
+  <li><b>Duración:</b> 14:57</li>
+</ul>
+
+<p><b>Evidencia de la entrevista:</b></p>
+
+<p align="center">
+  <img src="./entrevistas/entrevista-muni-validation-2.jpg" alt="Entrevista 2" width="85%">
+</p>
+
+<p align="center">
+  <b>Enlace de entrevista:</b>
+  <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202124061_upc_edu_pe/IQBW6syz9aRTSLfYyRqTsSmGAUg7pEo4SxQl5C-dFonsFd0?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=N4uFbY">Ver video</a>
+</p>
 
 
+<p><b>Resumen de la entrevista:</b></p>
 
+<p align="justify">
+El entrevistado, Bruce Cipriano, opina que la landing page de Metalix es visualmente impactante y profesional, con una paleta de colores que evoca sostenibilidad y una disposición de elementos que invita a explorar más. Le encantó la aplicación web por su simplicidad y fluidez, destacando cómo la navegación intuitiva facilita el acceso a funciones clave como el dashboard y los reportes de recolección. La sección de monitoreo le pareció especialmente útil para obtener insights rápidos sobre el estado de los residuos. Aunque la experiencia general fue positiva, sugiere mejorar visualmente algunos botones para que sean más llamativos, tal vez con efectos hover o gradientes que resalten su importancia. En resumen, cree que la aplicación cumple plenamente con sus propósitos ambientales, ofreciendo una herramienta valiosa para municipalidades, y la recomendaría a organizaciones interesadas en innovación ecológica.
+</p>
+
+<hr>
 
 ### 6.3.3. Evaluaciones según heurísticas
 
