@@ -3788,15 +3788,7 @@ Durante el Sprint 2 se logró completar parcialmente el desarrollo del sistema d
 Esta sección debe detallar el conjunto de pruebas automatizadas Unit Tests, Integration Tests y Acceptance Tests para Web Services relacionados con los User Stories especificados en el Sprint.
 
 **Progreso en Testing para este Sprint:**
-Durante el Sprint 2 se estableció la base para las pruebas automatizadas, implementando pruebas de solicitudes del Sistema IOT y validaciones básicas para el mobile app.
-
-**Commits de Testing:**
-
-| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
-|------------|--------|-----------|----------------|-------------------|-------------------|
-|  | develop | y1z2a3b | test: |  | 18/11/2024 |
-|  | develop | c4d5e6f | test: |  | 19/11/2024 |
-|  | main | g7h8i9j | test:  |  | 18/11/2024 |
+Durante el Sprint 2, el enfoque principal estuvo en el desarrollo inicial del sistema IoT y la aplicación móvil, por lo que las pruebas automatizadas no se aplicaron en esta etapa. Se planea implementar un conjunto completo de pruebas en sprints futuros.
 
 #### 6.2.2.6. Execution Evidence for Sprint Review
 
@@ -3807,25 +3799,23 @@ Se completó exitosamente el desarrollo del sistema IOT de Metalix. Además, se 
 
 <div align="center">
 
-* Login 
-
+Login
 
 ![evidencia/e3](/evidencias_sprint2/e3.jpeg)
 
-* Dashboard
+Dashboard
 
 ![Landing Page - Problema](/evidencias_sprint2/e4.jpeg)
 
-* Profile
+Profile
 
 ![Landing Page - Solución](/evidencias_sprint2/e2.jpeg)
 
-* Rewards
+Rewards
 
 ![Frontend - Login](/evidencias_sprint2/e7.jpeg)
-*Pantalla de *
 
-Aplicación Móvil: https://youtube.com/shorts/vP6ROVJ0D2Q
+Pantalla de la Aplicación Móvil: https://youtube.com/shorts/vP6ROVJ0D2Q
 
 </div>
 
@@ -4176,7 +4166,6 @@ Usability – Inclusive Design – Information Architecture
 - RNC: 3355
 - PROFESOR: David Carlos Vera
 - AUDITOR: Grupo 2
-- CLIENTE: 
 
 **SITE o APP A EVALUAR**
 
@@ -4218,8 +4207,12 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
 - Ausencia de Comunidad: No existe un espacio para que los usuarios interactúen, compartan ideas o formen una comunidad alrededor del reciclaje.
 
 - Notificaciones Inexistentes: La app no envía recordatorios o alertas, lo que limita su capacidad para mantener a los usuarios comprometidos y informados.
-- 
+
 ## 6.4. Video About-the-Product
+
+<p align="center">
+  <img src="./chapter-6/about-the-product.jpg" alt="Video About-the-Product" width="85%">
+</p>
 
 <p align="center">
   <b>Enlace del Video About The Product:</b>
