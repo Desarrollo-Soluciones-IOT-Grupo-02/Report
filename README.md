@@ -5323,6 +5323,8 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
 - 
 ## 6.4. Video About-the-Product
 
+<img src="./foto_integrantes/product.jpg" alt="team" width="1000">
+
 <p align="center">
   <b>Enlace del Video About The Product:</b>
   <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202120347_upc_edu_pe/IQCAaoM2uKvmSrQsLLyHvz0ZAYO-zzIDN3xVNRrgVs23w64?e=rU0tof&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">Ver video</a>
