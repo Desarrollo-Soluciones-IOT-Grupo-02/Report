@@ -234,74 +234,82 @@ Esta sección tiene como propósito detallar las actualizaciones significativas 
       </td>
     </tr>
      <!-- TB2 -->
-    <tr>
-      <td rowspan="7">TB2</td>
-      <td rowspan="7">10/11/2025</td>
-    </tr>
-    <tr>
-      <td>Del Carmen Zorrilla, Ray Alessandro</td>
-      <td>
-        - Diseñé la <b>Landing Page UI</b> aplicando principios de usabilidad y comunicación visual orientados al público general y a las municipalidades.<br>
-        - Desarrollé el <b>Wireframe</b> de la Landing Page en Figma, estructurando la jerarquía de secciones informativas, el formulario de contacto y los llamados a la acción.<br>
-        - Elaboré el <b>Mock-up</b> final de la Landing Page con la línea gráfica oficial del proyecto, integrando la paleta de colores, tipografía y diseño responsivo.<br>
-        - Lideré la <b>planificación del Sprint</b> definiendo los objetivos, tareas priorizadas y responsables, alineados con el Product Backlog del proyecto.<br>
-        - Documenté la sección de <b>Sprint Planning</b> en el informe, detallando los entregables de la iteración, tiempos estimados y dependencias entre actividades.<br>
-      </td>
-    </tr>
-    <tr>
-      <td>Cruz Palomino, Adriano Sebastian</td>
-      <td>
-        - Desarrollé los <b>wireframes</b> de la aplicación web estructurando la interfaz de usuario para todas las pantallas principales.<br>
-        - Creé los <b>wireflow diagrams</b> mostrando los flujos de navegación entre las diferentes pantallas de la aplicación.<br>
-        - Elaboré los <b>mockups</b> de la aplicación web con el diseño visual completo aplicando las Style Guidelines establecidas.<br>
-        - Desarrollé los <b>user flow diagrams</b> detallando los recorridos completos del usuario en escenarios clave.<br>
-        - Diseñé el <b>prototipo interactivo</b> en Figma permitiendo la validación temprana del diseño UI/UX con el equipo.<br>
-        - Coordiné con el equipo la consistencia visual y funcional de todos los componentes de diseño.<br>
-      </td>
-    </tr>
-        <tr>
-      <td>Quiñones Tintaya, Johan Jorge</td>
-      <td>
-        - Implementé el <b>backend completo</b> con Spring Boot 3.5.6 y Java 21 siguiendo arquitectura Domain-Driven Design.<br>
-        - Desarrollé los <b>6 bounded contexts</b>: IAM, WasteCollection, UserIdentification, RewardManagement, MunicipalityManagement, Monitoring & Reporting.<br>
-        - Diseñé la arquitectura de <b>capas por contexto</b>: Domain Layer, Interface Layer, Application Layer e Infrastructure Layer.<br>
-        - Creé los <b>diagramas de componentes</b> para visualizar la arquitectura de cada bounded context.<br>
-        - Elaboré los <b>diagramas de clases</b> del dominio detallando entidades, value objects y servicios para todos los contextos.<br>
-        - Diseñé los <b>diagramas de base de datos</b> con sus relaciones, restricciones y estrategia de persistencia.<br>
-        - Documenté todos los <b>endpoints REST</b> con Swagger/OpenAPI para facilitar la integración con frontend.<br>
-      </td>
-    </tr>
-    <tr>
-      <td>Pardo Zapata, Gustavo Adolfo</td>
-      <td>
-         - Lideré el diseño e implementación del segundo sprint del proyecto<br>
-         - Implementé y desarrolle los recursos evaluados para el Sprint 2<br>
-         - Implemente el correcto desarrollo del sprint backlog<br>
-         - Realize la evaluacion segun heurística<br>
-         - Desarrolle las preguntas para la entrevista de validacion de nuestro proyecto<br>
-         - Ejecuté mi entrevista de validacion a nuestro primer segmento objetivo
-      </td>
-    </tr>
-        <tr>
-      <td>Roca Huapaya, Orlando Arturo</td>
-      <td>
-        - Desarrollé la sección completa de <b>Information Architecture</b> con Organization Systems, Labeling Systems y Navigation Systems.<br>
-        - Elaboré las <b>Style Guidelines</b> generales y específicas para Web, Mobile e IoT estableciendo la identidad visual del proyecto.<br>
-        - Documenté los <b>SEO Tags y Meta Tags</b> para optimizar la presencia digital de la landing page.<br>
-        - Definí los <b>Searching Systems</b> y estrategias de búsqueda para mejorar la experiencia del usuario.<br>
-        - Coordiné la integración entre los principios de Lean UX y el diseño UI/UX para mantener coherencia conceptual.<br>
-        - Aseguré la consistencia del tono de comunicación y branding a través de todos los entregables de diseño.<br>
-    </td>
-    </tr>
-        <tr>
-      <td>Mancilla Ordaya, Eduardo Vicente</td>
-      <td>
-        - Desarrollé las <b>vistas correspondientes</b> al sistema Metalix para la aplicación movil.<br>
-        - Ejecuté mi entrevista de validacion a nuestro primer segmento objetivo<br>
-        - Implementé la <b>navegación y el flujo entre las vistas</b>, configurando rutas, componentes y primeras interacciones para asegurar una experiencia coherente dentro de la app.<br>
-        - Implementé ajustes y mejoras en las vistas creadas, optimizando la usabilidad, coherencia visual </b>y flujo de interacción, asegurando que cada pantalla responda al propósito del módulo al que pertenece.<br>
-      </td>
-    </tr>
+    <!-- TB2 -->
+<tr>
+  <td rowspan="7">TB2</td>
+  <td rowspan="7">10/11/2025</td>
+</tr>
+<tr>
+  <td>Roca Huapaya, Orlando Arturo</td>
+  <td>
+    - Completó su Student Outcome.<br>
+    - Elaboró su Video de Entrevista.<br>
+    - Se encargó de la configuración de los repositorios de la organización, asegurando:<br>
+    - Correcta estructura del repositorio raíz.<br>
+    - Políticas de ramas y permisos.<br>
+    - Convenciones para commits y pull requests.<br>
+    - Documentación organizada en el README, descrita de manera clara y profesional.<br>
+    - Validó la correcta conexión entre repositorios de backend, frontend y mobile.<br>
+  </td>
+</tr>
+<tr>
+  <td>Cruz Palomino, Adriano Sebastian</td>
+  <td>
+    - Completó su Student Outcome.<br>
+    - Entregó su Video de Entrevista.<br>
+    - Avanzó con el desarrollo tanto en mobile como en el backend, logrando:<br>
+    - Estructurar las vistas principales del aplicativo móvil.<br>
+    - Implementar endpoints iniciales y pruebas básicas en backend.<br>
+    - Integrar las funcionalidades desarrolladas con el flujo general del sistema.<br>
+  </td>
+</tr>
+<tr>
+  <td>Del Carmen Zorrilla, Ray Alessandro</td>
+  <td>
+    - Completó su Student Outcome.<br>
+    - Entregó su Video de Entrevista.<br>
+    - Trabajó en el sistema embebido IoT, específicamente:<br>
+    - Configuración del dispositivo (ESP32 u otros).<br>
+    - Interacción con sensores, lectores o actuadores.<br>
+    - Preparación del entorno de pruebas para integración futura con el backend.<br>
+    - Asimismo, avanzó en la configuración del entorno general del sistema y soporte técnico transversal.<br>
+  </td>
+</tr>
+<tr>
+  <td>Pardo Zapata, Gustavo Adolfo</td>
+  <td>
+    - Completó su Student Outcome.<br>
+    - Entregó su Video de Entrevista.<br>
+    - Avanzó en la sección "About the Product" del informe general, detallando:<br>
+    - Descripción del producto.<br>
+    - Alcance funcional.<br>
+    - Justificación y propuesta de valor.<br>
+    - Participó en la elaboración y corrección de puntos del informe del sprint, incluyendo mejoras según la retroalimentación.<br>
+  </td>
+</tr>
+<tr>
+  <td>Mancilla Ordaya, Eduardo Vicente</td>
+  <td>
+    - Completó su Student Outcome.<br>
+    - Entregó su Video de Entrevista.<br>
+    - Avanzó en el módulo mobile, logrando:<br>
+    - Implementación de vistas adicionales.<br>
+    - Integración con endpoints backend entregados en el sprint.<br>
+    - Aportó evidencias del sprint y trabajó en la configuración de entornos, tanto de producción como de prueba, asegurando la correcta ejecución de los endpoints implementados.<br>
+  </td>
+</tr>
+<tr>
+  <td>Quiñones Tintaya, Johan Jorge</td>
+  <td>
+    - Completó su Student Outcome.<br>
+    - Entregó su Video de Entrevista.<br>
+    - Avanzó en la aplicación web (frontend) y en el backend, logrando:<br>
+    - Desarrollo de componentes del frontend.<br>
+    - Consumo e integración de endpoints.<br>
+    - Ajustes en servicios, controladores o vistas según los requerimientos del sprint.<br>
+    - Además, participó en correcciones según la retroalimentación del sprint anterior.<br>
+  </td>
+</tr>
   <!-- Otras entrega -->
   </tbody>
 </table>
