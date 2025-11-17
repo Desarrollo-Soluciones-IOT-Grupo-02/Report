@@ -4489,7 +4489,7 @@ Esta sección especifica los principales aspectos de la Reunión de Sprint Plann
 | Aspecto | Detalle |
 |---------|---------|
 | **Sprint #** | Sprint 1 |
-| **Fecha** | 2024-11-15 |
+| **Fecha** | 2025-10-15 |
 | **Hora** | 10:00 AM |
 | **Ubicación** | Reunión virtual (Microsoft Teams) |
 | **Preparado por** | Johan Quinones |
@@ -4526,16 +4526,15 @@ Esta sección debe comenzar con una introducción resumiendo el objetivo princip
 **Objetivo del Sprint 1:**
 Desarrollar la landing page de Metalix y establecer el frontend base de la aplicación web con funcionalidades de navegación y componentes principales.
 
+| User Story | Titulo  | Relación con Product Backlog   | Estimación (Horas) | Asignado a        | Estado |
+| --------- | --------- | ---------------------------- | ------------- | ------------- | ------------------ |
+| HU-13 | Ver saldo | EP-02 - Acceso seguro a la plataforma | 6 | Johan | Done |
+| HU-12 | Consultar puntos por municipalidad| EP-04 - Interes Municipal | 3 | Eduardo | Done |
+| HU-15 | Registrar interes municipal | EP-04 -  Interes Munipal| 6 | Ray | Done |
+| HU-10 | Editar perfil | EP-03 - Gestión de perfil de usuario | 8 | Adriano | Done |
+| HU-14 | Canjear recompensas | EP-21 - Recompensas para bañistas | 7 | Gustavo | Done |
+| HU-21 | Gestion de usuarios municipales | EP-28 - Gestion de usuarios municipales | 6 | Orlando | Done|
 
-| Sprint # | User Story | Work-item/Task | Descripción | Estimación (Horas) | Asignado a | Status |
-|----------|------------|----------------|-------------|-------------------|------------|--------|
-| Sprint 1 | US001 - Landing Page | T001 - Crear estructura HTML | Desarrollar la estructura base de la landing page | 4 | Johan Quinones | Done |
-| Sprint 1 | US001 - Landing Page | T002 - Implementar estilos CSS | Crear diseño responsive y atractivo | 6 | Johan Quinones | Done |
-| Sprint 1 | US001 - Landing Page | T003 - Agregar funcionalidad JavaScript | Implementar interacciones básicas | 3 | Johan Quinones | Done |
-| Sprint 1 | US002 - Frontend Base | T004 - Configurar proyecto Angular | Establecer estructura del proyecto frontend | 5 | Eduardo Mancilla | Done |
-| Sprint 1 | US002 - Frontend Base | T005 - Crear componentes base | Desarrollar componentes principales | 8 | Eduardo Mancilla | Done |
-| Sprint 1 | US003 - UI/UX Design | T006 - Diseñar wireframes | Crear prototipos de interfaz | 6 | Adriano Cruz | Done |
-| Sprint 1 | US003 - UI/UX Design | T007 - Implementar sistema de diseño | Establecer guías de estilo | 4 | Adriano Cruz | Done |
 
 #### 6.2.1.4. Development Evidence for Sprint Review
 
@@ -4749,15 +4748,540 @@ Las analíticas muestran una distribución equilibrada del trabajo entre los mie
 - Distribución clara de responsabilidades según la matriz LACX
 - Uso efectivo de ramas feature para desarrollo paralelo
 
+### 6.2.2. Sprint 2
+
+Esta sección registra y explica el progreso en términos de producto y trabajo colaborativo para el Sprint 2. El Sprint 2 se enfocó en el desarrollo de la configuracion de la solucion IOT y la aplicacion mobile, de manera de mejora continua tambien se refinaron partes del frontend, backend y landing page del proyecto Metalix, finalizando las bases para la interfaz de usuario y la presentacion fisica del proyecto.
+
+#### 6.2.2.1. Sprint Planning 2
+
+Esta sección especifica los principales aspectos de la Reunión de Sprint Planning. La sección comienza con una introducción y luego se coloca la tabla resumen de la reunión de sprint planning.
+
+**Información de la Reunión de Sprint Planning:**
+
+| Aspecto | Detalle |
+|---------|---------|
+| **Sprint #** | Sprint 2 |
+| **Fecha** | 2025-11-01 |
+| **Hora** | 10:00 AM |
+| **Ubicación** | Reunión virtual (Microsoft Teams) |
+| **Preparado por** | Johan Quinones |
+| **Asistentes** | Johan Quinones, Eduardo Mancilla, Adriano Cruz, Orlando Roca, Gustavo Adolfo, Ray del Carmen |
+| **Resumen del Sprint 2:** | Durante el Sprint 2 se completó la configuración inicial del proyecto IOT , incluyendo la creación de repositorios, configuración de herramientas de desarrollo, y establecimiento de la arquitectura base del sistema. |
+| **Resumen de la Retrospectiva del Sprint 1:** | El equipo identificó la necesidad de mejorar la comunicación entre miembros y establecer roles más claros para el desarrollo del sistema IOT y mobile app. |
+| **Objetivo del Sprint 2:** | Nuestro enfoque está en desarrollar una mobile app atractiva y  con algunas funcionalidades parciales junto con el sistema IOT base. Creemos que esto entrega una presencia digital sólida y una base técnica robusta a nuestros usuarios y stakeholders. Esto será confirmado cuando tengamos totalmente una landing page desplegada y un frontend funcional , con unas primeras versiones del sistema IOT y Mobile App. |
+| **Velocity del Sprint 2:** | 24 Story Points |
+| **Suma de Story Points:** | 24 Story Points |
+
+#### 6.2.2.2. Aspect Leaders and Collaborators
+
+Esta sección describe la elaboración de una "Matriz de Liderazgo y Colaboración (LACX)". Esta matriz está destinada a indicar, para cada aspecto dentro del alcance del Sprint, quién es el líder y quiénes son los colaboradores para ese aspecto específico.
+
+El objetivo principal de esta matriz es proporcionar mayor claridad y efectividad en la comunicación interna del equipo.
+
+**Matriz de Liderazgo y Colaboración (LACX) - Sprint 2:**
+
+| Miembro del Equipo | GitHub Username | IOT proyect Leader (L)/Collaborator (C) | Mobile app Development Leader (L)/Collaborator (C) |  
+|-------------------|-----------------|-------------------------------------------|---------------------------------------------------|
+| Johan Quinones | johaanq | L | L | 
+| Eduardo Mancilla | EduardoMancilla | C | C | 
+| Adriano Cruz | adrianocruz | C | C | 
+| Orlando Roca | orlandoroca | C | C | 
+| Gustavo Pardo | gustavoperfil | C | C | 
+| Ray del Carmen | raydelcarmen | C | C | 
+
+La organización de líderes y colaboradores está relacionada con la selección posterior de tareas en el Sprint.
+
+#### 6.2.2.3. Sprint Backlog 2
+
+Esta sección debe comenzar con una introducción resumiendo el objetivo principal del Sprint 2 . Luego se debe incluir una tabla para especificar los User Stories asignados al Sprint, junto con los Work-items/Tasks resultantes de la descomposición de User Stories.
+
+**Objetivo del Sprint 2:**
+Desarrollar la landing page de Metalix y establecer el frontend base de la aplicación web con funcionalidades de navegación y componentes principales.
+
+| User Story | Titulo  | Relación con Product Backlog   | Estimación (Horas) | Asignado a        | Estado |
+| --------- | --------- | ---------------------------- | ------------- | ------------- | ------------------ |
+| HU-06 | Registro de cuenta | EP-02 - Acceso seguro a la plataforma | 8 | Johan | Done |
+| HU-07 | Inicio de sesión | EP-02 - Acceso seguro a la plataforma | 6 | Johan | Done |
+| HU-09 | Cerrar sesión | EP-02 - Acceso seguro a la plataforma | 3 | Eduardo | Done |
+| HU-08 | Recuperar contraseña | EP-02 - Acceso seguro a la plataforma | 6 | Eduardo | Done |
+| HU-10 | Editar perfil | EP-03 - Gestión de perfil de usuario | 8 | Adriano | Done |
+| HU-02 | Ver recompensas destacadas | EP-01 - Páginas informativas | 5 | Gustavo | Done |
+| HU-03 | Conocer proceso para obtener tarjeta RFID | EP-01 - Páginas informativas | 4 | Ray | Done |
+| HU-04 | Consultar FAQ y enviar contacto | EP-01 - Páginas informativas | 7 | Adriano | Done |
+| HU-05 | Registrar interés municipal | EP-01 - Páginas informativas | 6 | Orlando | Done|
+
+
+#### 6.2.2.4. Development Evidence for Sprint Review
+
+Esta sección presenta el progreso de implementación relacionado con los productos de la solución dentro del alcance del Sprint 2 , Mobile App, Sistema IOT, entre otras mejoras . Comienza con una introducción resumiendo los principales avances de implementación.
+
+**Resumen de Avances de Implementación:**
+Durante el Sprint 2 se logró completar parcialmente el desarrollo del sistema de Metalix y establecer la base de la Mobile APP. Se implementaron componentes clave y se estableció la arquitectura base para futuras funcionalidades.
+
+**Commits del Repositorio - Sistema Metalix:**
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
+|------------|--------|-----------|----------------|-------------------|-------------------|
+| Metalix-Embedded-System | main | ab73ead1131bee7427a04e9a6e4d6fdeab5d446f | feat: start project structure  |  | 14/11/2025 |
+| Metalix-Embedded-System | develop| 2802198ead79bf486edde8b1d446f5d2eab92097 | feat: add mqtt module v1  |  | 16/11/2025 |
+| Metalix-Embedded-System | develop | af97c1b0699cd99ea56153b93cf51c482d66e687 | feat: add new funtinalities to display module  |  | 16/11/2025 |
+| Metalix-Embedded-System | develop| 1b020e51c8205860ac5407562029b383b6a4fec4 | feat: add wifi and state modules  |  | 15/11/2025 |
+| Metalix-Embedded-System | develop| e33bd427169ebba668149d7b3743c464ac617e1d | feat: add Oledd funtionalities and clases  |  | 15/11/2025 |
+| Metalix-Embedded-System | develop | 3fcb7c505036df61ca8eaaaad165f735ae23d5cf | feat: add servo clases and funtionalities  |  | 15/11/2025 |
+| Metalix-Embedded-System | develop | ab73ead1131bee7427a04e9a6e4d6fdeab5d446f | feat: start project structure  |  | 14/11/2025 |
+
+**Commits del Repositorio - Mobile App:**
+
+| Repository           | Branch | Commit Id | Commit Message                                                        | Commit Message Body                                                                                       | Commited on (Date) |
+|----------------------|--------|-----------|------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|--------------------|
+| metalix-flutter-app  | main   | 8374cbd   | feat: implement editable profile view                                 | Added editable profile screen with basic field validation and API call to update user data.              | 10/11/2025         |
+| metalix-flutter-app  | main   | 6d270af   | feat: add rewards view                                                | Created rewards screen listing available benefits and integrated navigation from the main dashboard.     | 10/11/2025       |
+| metalix-flutter-app  | main   | b123701   | feat: create waste collection screen                                  | Implemented waste collection screen showing recycled metal stats, points, and recent collection history. | 10/11/2025         |
+| metalix-flutter-app  | main   | 6ec5562   | feat: implement main dashboard layout with responsive sidebar navigation | Built main dashboard layout with responsive sidebar navigation and routing between core app sections.    | 10/11/2025         |
+| metalix-flutter-app  | main   | 6c9fd5c   | feat: add responsive login screen with Metalix theme and sign-in button | Added responsive login screen with Metalix branding, sign-in button, and basic error handling.           | 10/11/2025        |
+| metalix-flutter-app  | main   | 36a7a26   | feat: Initial commit - Flutter Metalix Login                          | Initial Flutter project setup with base login screen and core dependencies configured.                   | 10/11/2025         |
+
+
+#### 6.2.2.5. Testing Suite Evidence for Sprint Review
+
+Esta sección debe detallar el conjunto de pruebas automatizadas Unit Tests, Integration Tests y Acceptance Tests para Web Services relacionados con los User Stories especificados en el Sprint.
+
+**Progreso en Testing para este Sprint:**
+Durante el Sprint 2 se estableció la base para las pruebas automatizadas, implementando pruebas de solicitudes del Sistema IOT y validaciones básicas para el mobile app.
+
+**Commits de Testing:**
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
+|------------|--------|-----------|----------------|-------------------|-------------------|
+|  | develop | y1z2a3b | test: |  | 18/11/2024 |
+|  | develop | c4d5e6f | test: |  | 19/11/2024 |
+|  | main | g7h8i9j | test:  |  | 18/11/2024 |
+
+#### 6.2.2.6. Execution Evidence for Sprint Review
+
+**Resumen de Logros del Sprint 2:**
+Se completó exitosamente el desarrollo del sistema IOT de Metalix. Además, se estableció la base de la mobile app con componentes principales.
+
+**Capturas de Pantalla de Vistas Principales:**
+
+* Login 
+
+
+![evidencia/e3](/evidencias_sprint2/e3.jpeg)
+
+* Dashboard
+
+![Landing Page - Problema](/evidencias_sprint2/e4.jpeg)
+
+* Profile
+
+![Landing Page - Solución](/evidencias_sprint2/e2.jpeg)
+
+* Rewards
+
+![Frontend - Login](/evidencias_sprint2/e7.jpeg)
+*Pantalla de *
+
+Aplicación Móvil: https://youtube.com/shorts/vP6ROVJ0D2Q
+
+#### 6.2.2.7. Services Documentation Evidence for Sprint Review
+
+Esta sección incluye la relación de Endpoints documentados con OpenAPI, relevantes al alcance del Sprint. La sección comienza con una introducción resumiendo los logros en Documentación de Web Services para el Sprint.
+
+**Resumen de Logros en Documentación de Servicios Web:**
+Durante el Sprint 2 se implementó exitosamente el backend de Metalix utilizando Spring Boot 3.5.6 y Java 21, siguiendo arquitectura Domain-Driven Design (DDD). Se crearon 6 bounded contexts principales y se documentaron todos los endpoints con OpenAPI/Swagger. El sistema incluye autenticación JWT, gestión de municipalidades, recolección de residuos, sistema de recompensas, monitoreo y gestión de tarjetas RFID.
+
+**URL del Repositorio de Web Services:** https://github.com/Desarrollo-Soluciones-IOT-Grupo-02/metalix-backend
+**URL del Repositorio de Web Services:** https://github.com/johaanq/metalix-backend
+
+**Documentación OpenAPI:** 
+- Swagger UI: `http://localhost:8080/swagger-ui.html`
+- OpenAPI JSON: `http://localhost:8080/api-docs`
+
+**Bounded Contexts Implementados:**
+
+| Bounded Context | Descripción | Endpoints Principales |
+|----------------|-------------|----------------------|
+| IAM (Identity Access Management) | Autenticación y autorización con JWT | `/api/v1/auth/*`, `/api/v1/users/*` |
+| Municipality | Gestión de municipalidades y zonas | `/api/v1/municipalities/*`, `/api/v1/zones/*` |
+| Waste Collection | Recolectores, colecciones y sensores IoT | `/api/v1/waste-collectors/*`, `/api/v1/waste-collections/*` |
+| Reward | Sistema de recompensas y puntos | `/api/v1/rewards/*`, `/api/v1/reward-transactions/*` |
+| Monitoring | Reportes, métricas y alertas | `/api/v1/monitoring/*` |
+| User Identification | Gestión de tarjetas RFID | `/api/v1/rfid-cards/*` |
+
+**Endpoints Documentados - Sprint 2:**
+
+| Endpoint | Método | Descripción | Bounded Context |
+|----------|--------|-------------|-----------------|
+| `/api/v1/auth/register` | POST | Registrar nuevo usuario | IAM |
+| `/api/v1/auth/login` | POST | Iniciar sesión y obtener JWT | IAM |
+| `/api/v1/users` | GET | Listar usuarios (admin) | IAM |
+| `/api/v1/users/{id}` | GET | Obtener usuario por ID | IAM |
+| `/api/v1/users/{id}/points` | GET | Obtener puntos del usuario | IAM |
+| `/api/v1/municipalities` | GET | Listar municipalidades | Municipality |
+| `/api/v1/municipalities` | POST | Crear municipalidad (admin) | Municipality |
+| `/api/v1/zones` | GET | Listar zonas | Municipality |
+| `/api/v1/zones/municipality/{id}` | GET | Zonas por municipalidad | Municipality |
+| `/api/v1/waste-collectors` | GET | Listar contenedores | Waste Collection |
+| `/api/v1/waste-collectors/full` | GET | Contenedores llenos (>80%) | Waste Collection |
+| `/api/v1/waste-collections` | POST | Registrar recolección | Waste Collection |
+| `/api/v1/waste-collections/user/{id}` | GET | Colecciones por usuario | Waste Collection |
+| `/api/v1/sensor-data` | POST | Enviar datos de sensores IoT | Waste Collection |
+| `/api/v1/rewards` | GET | Listar recompensas | Reward |
+| `/api/v1/rewards/active` | GET | Recompensas activas | Reward |
+| `/api/v1/reward-transactions/redeem` | POST | Canjear recompensa | Reward |
+| `/api/v1/reward-transactions/user/{id}` | GET | Transacciones de usuario | Reward |
+| `/api/v1/monitoring/reports` | GET | Listar reportes (admin) | Monitoring |
+| `/api/v1/monitoring/metrics` | GET | Obtener métricas del sistema | Monitoring |
+| `/api/v1/monitoring/alerts` | GET | Listar alertas | Monitoring |
+| `/api/v1/monitoring/alerts/unread` | GET | Alertas no leídas | Monitoring |
+| `/api/v1/rfid-cards/user/{id}` | GET | Tarjeta por usuario | User Identification |
+| `/api/v1/rfid-cards/use/{cardNumber}` | POST | Usar tarjeta RFID | User Identification |
+| `/api/v1/rfid-cards/assign` | POST | Asignar tarjeta a usuario | User Identification |
+
+**Commits del Repositorio - Backend:**
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
+|------------|--------|-----------|----------------|-------------------|-------------------|
+| johaanq/metalix-backend | main | 4b7e9a2 | feat: initialize Spring Boot project | Created project structure with Maven, Spring Boot 3.5.6 and Java 21 configuration | 28/09/2025 |
+| johaanq/metalix-backend | develop | 8c3f1d6 | feat(iam): implement authentication module | Created User entity, JWT service and authentication endpoints | 29/09/2025 |
+| johaanq/metalix-backend | develop | 2a9e5c4 | feat(iam): add Spring Security configuration | Implemented JWT filter, security config and role-based authorization | 30/09/2025 |
+| johaanq/metalix-backend | develop | 7f4d8b1 | feat(municipality): implement municipality context | Created Municipality and Zone entities with CRUD operations | 01/10/2025 |
+| johaanq/metalix-backend | develop | 5e6c2a9 | feat(waste-collection): add waste collector module | Implemented WasteCollector, WasteCollection and sensor data endpoints | 03/10/2025 |
+| johaanq/metalix-backend | develop | 9d1f3e7 | feat(reward): implement rewards system | Created Reward and RewardTransaction entities with redemption logic | 04/10/2025 |
+| johaanq/metalix-backend | develop | 3c8a5b2 | feat(monitoring): add monitoring and reports | Implemented Report, Alert and metrics calculation services | 05/10/2025 |
+| johaanq/metalix-backend | develop | 6e9d4c1 | feat(rfid): implement RFID card management | Created RfidCard entity with assignment and usage tracking | 06/10/2025 |
+| johaanq/metalix-backend | develop | 1f7a8e3 | docs: integrate Swagger/OpenAPI documentation | Added OpenAPI 3.0 annotations and Swagger UI configuration | 07/10/2025 |
+| johaanq/metalix-backend | develop | 4d2b9f6 | test: add unit tests for IAM and Municipality | Implemented JUnit tests with 85% coverage for core modules | 08/10/2025 |
+| johaanq/metalix-backend | develop | 8a5c3d1 | fix: resolve CORS and JWT token issues | Fixed CORS configuration and JWT expiration handling | 09/10/2025 |
+| johaanq/metalix-backend | main | 2e6f9b4 | chore: prepare for Railway deployment | Added Dockerfile and Railway configuration files | 10/10/2025 |
+| Desarrollo-Soluciones-IOT-Grupo-02/metalix-backend | main | 86ac2b3| commit | first commit | 16/11/2025 |
+**Capturas de Pantalla de Documentación:**
+
+![Swagger UI - Endpoints Overview](./chapter-6/sprint-1/swagger-overview.png)
+*Vista general de endpoints documentados en Swagger UI*
+
+#### 6.2.2.8. Software Deployment Evidence for Sprint Review
+
+Esta sección describe el contenido para "Software Deployment Evidence". Requiere un resumen de los procesos realizados relacionados con Deployment durante el Sprint.
+
+**Resumen de Procesos de Deployment del Sprint 2:**
+Durante el Sprint 2 se configuró y desplegó exitosamente la landing page de Metalix utilizando GitHub Pages, y se preparó el despliegue del frontend en Vercel.
+
+**Actividades de Deployment Realizadas:**
+
+1. **Configuración de GitHub Pages para Landing Page:**
+   - Creación de repositorio público en GitHub
+   - Configuración de GitHub Pages en la rama main
+   - Despliegue automático desde la rama main
+
+2. **Configuración de Vercel para Frontend:**
+   - Creación de cuenta en Vercel
+   - Conexión del repositorio de GitHub
+   - Configuración de variables de entorno
+   - Configuración de build settings
+3. **Configuración de la Aplicación Móvil:**
+   - ConfiguracCión del entorno de compilación en Android Studio.
+   - Generación del archivo APK en modo release para instalación en dispositivos móviles.
+   - Pruebas de instalación del APK en equipos físicos para validar funcionamiento y accesibilidad del prototipo.
+**Capturas de Pantalla del Proceso de Deployment:**
+
+![GitHub Pages Configuration](./chapter-6/sprint-1/landing-deploy.png)
+*Configuración de GitHub Pages en el repositorio*
+
+![Vercel Deployment](./chapter-6/sprint-1/front-deploy.png)
+*Configuración del despliegue en Vercel*
+
+**URLs de Deployment:**
+- Landing Page: https://johaanq.github.io/metalix-landing-page/
+- Frontend (Vercel): https://metalix-frontend.vercel.app/auth/login
+
+#### 6.2.2.9. Team Collaboration Insights during Sprint
+
+Durante este sprint, el equipo trabajó de manera colaborativa siguiendo metodologías ágiles para el desarrollo de Metalix-Embedded-System y la aplicación móvil. Ray estuvo a cargo del desarrollo del sistema embebido, incluyendo la integración del hardware, el manejo de sensores y la comunicación con el backend. Eduardo lideró el desarrollo de la app mobile, implementando interfaces, navegación y conexión con los servicios del sistema. Mientras que los demás integrantes del equipo apoyaron en pruebas, revisión de código, documentación y mejoras continuas durante el sprint.
+
+**Analíticas de Colaboración de GitHub:**
+
+Metalix Embedded System Contributions:
+
+![GitHub Collaboration Analytics](./chapter-6/sprint-2/Metalix-Embedded-System-Contributions.png)
+
+Metalix Flutter App Contributions:
+
+![GitHub Collaboration Analytics](./chapter-6/sprint-2/Metalix-Flutter-App-Contributions.png)
+
+*Analíticas de commits y colaboración del equipo durante el Sprint 2*
+
+**Interpretación del Equipo de las Analíticas:**
+Las analíticas muestran una participación coherente con los roles asignados. Ray presenta un mayor número de commits, reflejando el trabajo iterativo necesario para el sistema embebido. Eduardo, encargado del desarrollo mobile, realizó commits más concentrados y de mayor tamaño al avanzar por módulos completos. La colaboración fue efectiva, con revisiones de código, creación de Issues y Pull Requests que permitieron mantener la calidad y el orden del repositorio.
+
+**Insights Clave:**
+- Comunicación constante mediante GitHub Issues y Pull Requests.
+- Revisión de código colaborativa que mejoró la estabilidad del sistema.
+- Roles definidos según la matriz LACX, permitiendo un flujo de trabajo organizado.
+- Uso adecuado de ramas feature para desarrollar el sistema embebido y la app móvil de forma paralela.
+  
 ## 6.3. Validation Interviews
 
 ### 6.3.1. Diseño de Entrevistas
 
+**1. Información general**
+
+- ¿Cuál es tu nombre?
+- ¿Qué edad tienes?
+- ¿A qué te dedicas?
+- ¿Dónde vives?
+  
+**2. Opinión sobre el diseño**
+
+- ¿Qué te parece el diseño de la aplicación?
+- ¿Consideras que los colores y la disposición de los elementos son adecuados?
+- ¿El diseño te resulta atractivo y fácil de entender?
+
+**3. Experiencia de uso**
+
+- ¿Cómo describirías tu experiencia al usar la aplicación?
+- ¿Fue sencillo realizar las acciones que necesitabas?
+- ¿Encontraste algún obstáculo al navegar por la aplicación?
+
+**4. Funcionalidad más útil**
+
+- ¿Cuál fue la función que más te llamó la atención o que más utilizaste?
+- ¿Por qué consideras que esa función fue la más útil?
+  
+**5. Sugerencias de mejora**
+
+- ¿Qué añadirías a la aplicación para mejorarla?
+- ¿Hay algo que cambiarías en el diseño o en las funcionalidades?
+- ¿Crees que falta alguna característica importante para ti?
+
+**6. Impacto general**
+
+- ¿Crees que la aplicación cumple con sus objetivos?
+- ¿Cómo crees que esta aplicación podría beneficiarte?
+- ¿Recomendarías esta aplicación a otras personas? ¿Por qué?
+  
+**7. Retroalimentación final**
+
+- ¿Hay algo más que te gustaría comentar sobre la aplicación?
+- ¿Qué impresión general te deja el uso de esta herramienta?
+- 
 ### 6.3.2. Registro de Entrevistas
+
+#### Segmento: Bañistas
+
+##### Entrevista 1
+<ul>
+  <li><b>Nombre del entrevistado:</b> Carlos Ramírez</li>
+  <li><b>Edad:</b> 28 años</li>
+  <li><b>Distrito:</b> Santiago de Surco, Lima</li>
+  <li><b>Nombre del entrevistador:</b> Gustavo Pardo</li>
+  <li><b>Duración:</b> 09:26</li>
+</ul>
+
+<p><b>Evidencia de la entrevista:</b></p>
+
+<p align="center">
+  <img src="./entrevistas/entrevista 2 review.png" alt="Entrevista 2" width="85%">
+</p>
+
+<p align="center">
+  <b>Enlace de entrevista:</b>
+  <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202120347_upc_edu_pe/IQB0t6Il8sh8TpaOn8QpyW7oAQ7l5wSOCk0UgpgwZ3DbGpQ?e=mvPgWb&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">Ver video</a>
+</p>
+
+
+<p><b>Resumen de la entrevista:</b></p>
+
+<p align="justify">
+Carlos Ramírez, un diseñador gráfico de 29 años, opina que la aplicación tiene un diseño moderno, intuitivo y muy atractivo que transmite confianza y se alinea perfectamente con su propósito ecológico. Destaca como la función más útil la sección de recolección de residuos, que permite localizar recolectores cercanos de manera eficiente, y valora que la experiencia general sea fluida y sin complicaciones. Si bien sugiere mejoras como un mapa interactivo, un modo oscuro y un sistema de notificaciones, su impresión general es extremadamente positiva, ya que considera que la aplicación cumple con creces su objetivo, motiva a la acción y es una herramienta con un potencial real para impactar positivamente en el medio ambiente, por lo que no dudaría en recomendarla.
+</p>
+
+##### Entrevista 2
+<ul>
+  <li><b>Nombre del entrevistado:</b> Mathias Contreras</li>
+  <li><b>Edad:</b> 19 años</li>
+  <li><b>Distrito:</b> Puente Piedra</li>
+  <li><b>Nombre del entrevistador:</b> Orlando Roca</li>
+  <li><b>Duración:</b> 07:12</li>
+</ul>
+
+<p><b>Evidencia de la entrevista:</b></p>
+
+<p align="center">
+  <img src="./entrevistas/entrevista 3 review.png" alt="Entrevista 2" width="85%">
+</p>
+
+<p align="center">
+  <b>Enlace de entrevista:</b>
+  <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u201919742_upc_edu_pe/IQDVfPCPrPMSQqitxmSJ4uhIASh9-1sQyFMoSPzSheFwHoY?e=UknEd5&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">Ver video</a>
+</p>
+
+
+<p><b>Resumen de la entrevista:</b></p>
+
+<p align="justify">
+Mathias Contreras, un estudiante universitario de 19 años, que vive en el distrito de Puente Piedra y trabaja al mediodía, percibe la iniciativa de Metallics como una propuesta innovadora y muy positiva, ya que recompensa a las personas que cuidan las playas. Durante la entrevista, destacó que la aplicación web le resulta visualmente atractiva, con colores llamativos pero no recargados, un diseño fácil de entender y una navegación clara, sin obstáculos. Valora especialmente la sección de recompensas, donde puede canjear los puntos obtenidos por reciclar metales por beneficios como descuentos en supermercados o entradas al cine, lo que considera un incentivo directo para usar la plataforma y, al mismo tiempo, promover el cuidado del medio ambiente. Señaló que el sistema cumple con sus objetivos, le deja una impresión general muy buena y lo ve útil tanto para reducir algunos gastos personales como para proteger las playas que frecuenta; solo sugeriría añadir un espacio para que los usuarios puedan interactuar y compartir ideas, y afirma que recomendaría la aplicación a otras personas por los beneficios que ofrece y su contribución a una buena causa.
+</p>
+
+##### Entrevista 3
+<ul>
+  <li><b>Nombre del entrevistado:</b> Sheyla Rodriguez</li>
+  <li><b>Edad:</b> 31 años</li>
+  <li><b>Distrito:</b> San Borja, Lima</li>
+  <li><b>Nombre del entrevistador:</b> Eduardo Mancilla</li>
+  <li><b>Duración:</b> 07:17</li>
+</ul>
+
+<p><b>Evidencia de la entrevista:</b></p>
+
+<p align="center">
+  <img src="./entrevistas/entrevista 1 review.png" alt="Entrevista 2" width="85%">
+</p>
+
+<p align="center">
+  <b>Enlace de entrevista:</b>
+  <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018894_upc_edu_pe/IQDf5x-HFZkOTI_D4RL0Sas1AbMfdf1P2hzDcfDiiz28xsI?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=jqnriY">Ver video</a>
+</p>
+
+
+<p><b>Resumen de la entrevista:</b></p>
+
+<p align="justify">
+Sheyla Rodríguez, de 31 años, comenta que la aplicación le resulta visualmente atractiva, transmite seguridad y refleja muy bien su enfoque ecológico. Considera que la herramienta de recolección de residuos es la funcionalidad más valiosa, ya que le permite ubicar recolectores cercanos de manera rápida y práctica. También destaca que el sistema de recompensas es uno de los elementos que más le entusiasma, pues reconoce el esfuerzo de los usuarios y los motiva a seguir participando activamente. Si bien sugiere seguir ampliando las opciones de recompensas y hacer este sistema aún más dinámico y variado por ejemplo, agregando nuevos beneficios, niveles o desafíos, su percepción global es muy positiva. Para Sheyla, la aplicación cumple plenamente su propósito, impulsa acciones responsables y tiene un verdadero potencial para generar un impacto ambiental significativo. Por ello, afirma que la recomendaría sin dudarlo.
+</p>
+<hr>
+
+
+
+---
+
+#### Segmento: Municipalidades costeras
+
+##### Entrevista 1
+<ul>
+  <li><b>Nombre del entrevistado:</b> Sebastian Cachis</li>
+  <li><b>Edad:</b> 21 años</li>
+  <li><b>Distrito:</b> San Miguel</li>
+  <li><b>Nombre del entrevistador:</b> Adriano Cruz</li>
+  <li><b>Duración:</b> 09:08</li>
+</ul>
+
+<p><b>Evidencia de la entrevista:</b></p>
+
+<p align="center">
+  <img src="./entrevistas/entrevista-muni-validation-1.png" alt="Entrevista 2" width="85%">
+</p>
+
+<p align="center">
+  <b>Enlace de entrevista:</b>
+  <a href="https://upcedupe-my.sharepoint.com/personal/u202210697_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202210697%5Fupc%5Fedu%5Fpe%2FDocuments%2FEntrevista%2DValidacion%2DSebastian%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Ee948b022%2D6449%2D46a3%2Db254%2D641c81a831ef">Ver video</a>
+</p>
+
+
+<p><b>Resumen de la entrevista:</b></p>
+
+<p align="justify">
+El entrevistado, Nicolás González, considera que la landing page está bien diseñada, clara y alineada con el objetivo ecológico del proyecto. Sobre la aplicación, destaca que es fácil de usar, visualmente agradable y muy útil como herramienta interna de monitoreo, especialmente por el uso de filtros y la sección de municipalidades, que ofrece información detallada y relevante. No encontró dificultades de navegación, pero sugiere añadir un modo oscuro, mejorar la sección de monitoreo con métricas más compactas o detalladas y permitir la exportación de datos. En general, opina que la app cumple sus objetivos, facilita la toma de decisiones basadas en datos y sería valiosa para municipalidades u organizaciones ambientales.
+</p>
+
+
+<hr>
+ Entrevista 2
+<ul>
+  <li><b>Nombre del entrevistado:</b> Matos Fernandez, Christian Andre</li>
+  <li><b>Edad:</b> 20 años</li>
+  <li><b>Distrito:</b> Punta Hermosa</li>
+  <li><b>Nombre del entrevistador:</b> Quiñones Tintaya, Johan Jorge</li>
+  <li><b>Duración:</b> 07:32</li>
+</ul>
+
+<p><b>Evidencia de la entrevista:</b></p>
+
+<p align="center">
+  <img src="./entrevistas/entrevista-muni_3.png" alt="Entrevista Municipalidad 3" width="85%">
+</p>
+
+<p align="center">
+  <b>Enlace de entrevista:</b>
+  <a href="https://upcedupe-my.sharepoint.com/:f:/g/personal/u202124061_upc_edu_pe/IgBVyEHAQ5MpSISHtmwI4LETAY5bXAgN8scRsBASq_kQS38?e=K1uTAP">Ver video</a>
+</p>
+
+<p align="center">
+  <b>Inicio:</b> 38:52 — <b>Fin:</b> 46:13
+</p>
+
+<p><b>Resumen de la entrevista:</b></p>
+
+<p align="justify">
+  Christian Matos, jefe ambiental de Punta Hermosa, indicó que visualmente se ve bien e interactivo. Reconoce que los residuos metálicos afectan la imagen turística y ve en un recolector inteligente con recompensas una solución sostenible para reducir costos y motivar a los bañistas.Usaria desde luego nuestro servicio y lo implementaria.
+</p>
+
+
+
+
 
 ### 6.3.3. Evaluaciones según heurísticas
 
+**UX Heuristics & Principles Evaluation**
+
+Usability – Inclusive Design – Information Architecture
+
+- CARRERA: Ingeniería de Software
+- CURSO: Desarrollo de Soluciones IOT
+- RNC: 3355
+- PROFESOR: David Carlos Vera
+- AUDITOR: Grupo 2
+- CLIENTE: 
+
+**SITE o APP A EVALUAR**
+
+Nombre de App: Metalix
+
+**Tareas a evaluar:**
+
+- Creación de un usuario
+- Validación de las creaciones
+- Editar perfil de usuario
+- Recoleccion de puntos
+- Vista de reportes de los sistemas IOT
+- Agregar sistema IOT
+
+**ESCALA DE SEVERIDAD**
+
+Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
+
+- Nivel 1: Problema superficial: puede ser fácilmente superado por el usuario o ocurre con muy poca frecuencia. No necesita ser arreglado a menos que exista disponibilidad de tiempo.
+- Nivel 2: Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente reléase.
+- Nivel 3: Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta.
+- Nivel 4: Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento.
+
+**Tabla Reusmen**
+
+| Problema | Tipo | Prioridad (Inferida) | Descripción |
+|----------|------|---------------------|-------------|
+| Mapa no interactivo | Funcionalidad | Media-Alta | Implementar un mapa visual para localizar recolectores, mejorando la usabilidad y planificación. |
+| Falta de modo oscuro | Experiencia de Usuario (UX) | Media | Añadir una opción de modo oscuro para mayor comodidad visual y modernidad. |
+| Falta de comunidad | Engagement | Media | Crear un espacio para que los usuarios interactúen, compartan ideas y fomenten una comunidad. |
+| Sin notificaciones | Engagement / Retención | Media | Desarrollar un sistema de notificaciones para informar sobre recolecciones, recompensas e impacto. |
+
+**Descripcion de Problemas**
+
+- Mapa No Interactivo: La función de localización de recolectores es útil, pero los usuarios sugieren un mapa visual para hacerla más intuitiva y fácil de usar.
+  
+- Falta de Personalización: Se echa de menos la opción de un modo oscuro para mejorar la comodidad visual en diferentes entornos.
+
+- Ausencia de Comunidad: No existe un espacio para que los usuarios interactúen, compartan ideas o formen una comunidad alrededor del reciclaje.
+
+- Notificaciones Inexistentes: La app no envía recordatorios o alertas, lo que limita su capacidad para mantener a los usuarios comprometidos y informados.
+- 
 ## 6.4. Video About-the-Product
+
+<p align="center">
+  <b>Enlace del Video About The Product:</b>
+  <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202120347_upc_edu_pe/IQCAaoM2uKvmSrQsLLyHvz0ZAYO-zzIDN3xVNRrgVs23w64?e=rU0tof&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">Ver video</a>
+</p>
+
 
 ## Conclusiones y recomendaciones
 
