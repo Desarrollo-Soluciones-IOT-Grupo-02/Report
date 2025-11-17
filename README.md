@@ -352,6 +352,27 @@ En la entrega del Trabajo Parcial (TP), el equipo avanzó significativamente en 
   <img src="./insights/insights-tp.jpg" alt="GitHub Insights TP" width="1000">
 </div>
 
+## TB2 - Collaboration Insights
+
+En la entrega de la TB2, el equipo consolidó los avances del TP y extendió significativamente el desarrollo del proyecto. Se completaron módulos clave del backend, se avanzó en el frontend web, se integró el aplicativo móvil y se desarrolló el sistema embebido IoT necesario para la operación del sistema. Además, se reforzó la coordinación del equipo mediante ramas organizadas, evidencias en GitHub y revisión colaborativa de tareas.
+
+**Principales actividades realizadas:**
+- Avance del backend con Spring Boot 3.5.6 aplicando arquitectura DDD en los bounded contexts definidos
+- Desarrollo del sistema IoT embebido (lectores, sensores, lógica MQTT/HTTP y configuración del entorno)
+- Implementación de vistas y componentes adicionales en el frontend web con Angular
+- Avances en el aplicativo móvil, integración con Firebase Auth y consumo inicial de endpoints
+- Configuración unificada de repositorios de la organización con documentación en README
+- Integración y pruebas preliminares entre IoT → Backend → Web/Mobile
+- Actualización de la documentación técnica del sistema y endpoints
+- Desarrollo del Sprint 2: planificación, ejecución, evidencias y revisión
+- Correcciones del Sprint 1 y alineamiento con la retroalimentación del docente
+
+**Commits del equipo - TB2:**
+
+<div align="center">
+  <img src="./insights/insights-tb2.jpg" alt="GitHub Insights TB2" width="1000">
+</div>
+
 # Contenido
 
 ## Tabla de Contenidos
@@ -408,6 +429,7 @@ En la entrega del Trabajo Parcial (TP), el equipo avanzó significativamente en 
 - [Project Report Collaboration Insights](#project-report-collaboration-insights)
   - [TB1 - Collaboration Insights](#tb1---collaboration-insights)
   - [TP - Collaboration Insights](#tp---collaboration-insights)
+  - [TB2 - Collaboration Insights](#tb2---collaboration-insights)
 - [Contenido](#contenido)
   - [Tabla de Contenidos](#tabla-de-contenidos)
     - [Registro de versiones del informe](#registro-de-versiones-del-informe-1)
@@ -602,9 +624,25 @@ En la entrega del Trabajo Parcial (TP), el equipo avanzó significativamente en 
       - [6.2.1.7. Services Documentation Evidence for Sprint Review](#6217-services-documentation-evidence-for-sprint-review)
       - [6.2.1.8. Software Deployment Evidence for Sprint Review](#6218-software-deployment-evidence-for-sprint-review)
       - [6.2.1.9. Team Collaboration Insights during Sprint](#6219-team-collaboration-insights-during-sprint)
+    - [6.2.2. Sprint 2](#622-sprint-2)
+      - [6.2.2.1. Sprint Planning 2](#6221-sprint-planning-2)
+      - [6.2.2.2. Aspect Leaders and Collaborators](#6222-aspect-leaders-and-collaborators)
+      - [6.2.2.3. Sprint Backlog 2](#6223-sprint-backlog-2)
+      - [6.2.2.4. Development Evidence for Sprint Review](#6224-development-evidence-for-sprint-review)
+      - [6.2.2.5. Testing Suite Evidence for Sprint Review](#6225-testing-suite-evidence-for-sprint-review)
+      - [6.2.2.6. Execution Evidence for Sprint Review](#6226-execution-evidence-for-sprint-review)
+      - [6.2.2.7. Services Documentation Evidence for Sprint Review](#6227-services-documentation-evidence-for-sprint-review)
+      - [6.2.2.8. Software Deployment Evidence for Sprint Review](#6228-software-deployment-evidence-for-sprint-review)
+      - [6.2.2.9. Team Collaboration Insights during Sprint](#6229-team-collaboration-insights-during-sprint)
   - [6.3. Validation Interviews](#63-validation-interviews)
     - [6.3.1. Diseño de Entrevistas](#631-diseño-de-entrevistas)
     - [6.3.2. Registro de Entrevistas](#632-registro-de-entrevistas)
+      - [Segmento: Bañistas](#segmento-bañistas-1)
+        - [Entrevista 1](#entrevista-1-1)
+        - [Entrevista 2](#entrevista-2-1)
+        - [Entrevista 3](#entrevista-3-1)
+      - [Segmento: Municipalidades costeras](#segmento-municipalidades-costeras-1)
+        - [Entrevista 1](#entrevista-1-2)
     - [6.3.3. Evaluaciones según heurísticas](#633-evaluaciones-según-heurísticas)
   - [6.4. Video About-the-Product](#64-video-about-the-product)
   - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones-1)
