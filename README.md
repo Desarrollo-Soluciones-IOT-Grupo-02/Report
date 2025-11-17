@@ -651,6 +651,8 @@ En la entrega de la TB2, el equipo consolidó los avances del TP y extendió sig
         - [Entrevista 3](#entrevista-3-1)
       - [Segmento: Municipalidades costeras](#segmento-municipalidades-costeras-1)
         - [Entrevista 1](#entrevista-1-2)
+        - [Entrevista 2](#entrevista-1-2)
+        - [Entrevista 3](#entrevista-1-2)
     - [6.3.3. Evaluaciones según heurísticas](#633-evaluaciones-según-heurísticas)
   - [6.4. Video About-the-Product](#64-video-about-the-product)
   - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones-1)
