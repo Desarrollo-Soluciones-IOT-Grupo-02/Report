@@ -5182,7 +5182,7 @@ Mathias Contreras, un estudiante universitario de 19 años, que vive en el distr
 <p><b>Evidencia de la entrevista:</b></p>
 
 <p align="center">
-  <img src="./entrevistas/entrevista 1 review.png" alt="Entrevista 2" width="85%">
+  <img src="./entrevistas/entrevista 1 review.PNG" alt="Entrevista 2" width="85%">
 </p>
 
 <p align="center">
@@ -5322,6 +5322,8 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
 - Notificaciones Inexistentes: La app no envía recordatorios o alertas, lo que limita su capacidad para mantener a los usuarios comprometidos y informados.
 - 
 ## 6.4. Video About-the-Product
+
+<img src="./foto_integrantes/product.jpg" alt="team" width="1000">
 
 <p align="center">
   <b>Enlace del Video About The Product:</b>
