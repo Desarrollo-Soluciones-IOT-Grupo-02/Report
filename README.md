@@ -5236,10 +5236,10 @@ El entrevistado, Nicolás González, considera que la landing page está bien di
  Entrevista 2
 <ul>
   <li><b>Nombre del entrevistado:</b> Matos Fernandez, Christian Andre</li>
-  <li><b>Edad:</b> 20 años</li>
+  <li><b>Edad:</b> 27 años</li>
   <li><b>Distrito:</b> Punta Hermosa</li>
   <li><b>Nombre del entrevistador:</b> Quiñones Tintaya, Johan Jorge</li>
-  <li><b>Duración:</b> 07:32</li>
+  <li><b>Duración:</b> 12:54</li>
 </ul>
 
 <p><b>Evidencia de la entrevista:</b></p>
@@ -5250,17 +5250,17 @@ El entrevistado, Nicolás González, considera que la landing page está bien di
 
 <p align="center">
   <b>Enlace de entrevista:</b>
-  <a href="https://upcedupe-my.sharepoint.com/:f:/g/personal/u202124061_upc_edu_pe/IgBVyEHAQ5MpSISHtmwI4LETAY5bXAgN8scRsBASq_kQS38?e=K1uTAP">Ver video</a>
+  <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218183_upc_edu_pe/IQB7TlP6LfThTb-rbygkozrPAU00zKu1wDgr6TmM7Fjr22E?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=YL16mV">Ver video</a>
 </p>
 
 <p align="center">
-  <b>Inicio:</b> 38:52 — <b>Fin:</b> 46:13
+  <b>Inicio:</b> 38:52 — <b>Fin:</b> 51:46
 </p>
 
 <p><b>Resumen de la entrevista:</b></p>
 
 <p align="justify">
-  Christian Matos, jefe ambiental de Punta Hermosa, indicó que visualmente se ve bien e interactivo. Reconoce que los residuos metálicos afectan la imagen turística y ve en un recolector inteligente con recompensas una solución sostenible para reducir costos y motivar a los bañistas.Usaria desde luego nuestro servicio y lo implementaria.
+  Christian Matos, jefe ambiental de Punta Hermosa, reporta experiencia altamente positiva con Metalix (9/10). El diseño profesional con colores azul marino es identitario e intuitivo. La funcionalidad más valorada son las alertas en tiempo real que reducen el tiempo de respuesta de 3-5 días a 2-4 horas. Las principales limitaciones son: mapeo geolocalizado, integración con redes sociales, versión offline y predicciones automáticas. Recomienda la aplicación para todas las municipalidades costeras por transformar el enfoque de reactivo a proactivo, siendo esencial para gestionar erosión, contaminación y cambios climáticos. Solicita capacitación en español y soporte técnico continuo.
 </p>
 
 
