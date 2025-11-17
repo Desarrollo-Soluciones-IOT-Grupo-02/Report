@@ -12,7 +12,7 @@
   <img width=250 src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png"/>
 </div>
 
-<h1 align="center"> TB1 Report </h1>
+<h1 align="center"> TB2 Report </h1>
 
 <h3 align="center"> Docente: Vera Olivera, David Carlos </h3>
 
@@ -64,7 +64,7 @@
   </table>
 </div>
 
-<h3 align="center">Septiembre, 2025</h3>
+<h3 align="center">Agosto, 2025</h3>
 
 <br><br>
 
@@ -161,6 +161,155 @@ Esta sección tiene como propósito detallar las actualizaciones significativas 
            - Desarrolle el Deployment Diagram.<br>
       </td>
     </tr>
+    <!-- TP -->
+    <tr>
+      <td rowspan="7">TP</td>
+      <td rowspan="7">10/10/2025</td>
+    </tr>
+    <tr>
+      <td>Del Carmen Zorrilla, Ray Alessandro</td>
+      <td>
+        - Diseñé la <b>Landing Page UI</b> aplicando principios de usabilidad y comunicación visual orientados al público general y a las municipalidades.<br>
+        - Desarrollé el <b>Wireframe</b> de la Landing Page en Figma, estructurando la jerarquía de secciones informativas, el formulario de contacto y los llamados a la acción.<br>
+        - Elaboré el <b>Mock-up</b> final de la Landing Page con la línea gráfica oficial del proyecto, integrando la paleta de colores, tipografía y diseño responsivo.<br>
+        - Lideré la <b>planificación del Sprint</b> definiendo los objetivos, tareas priorizadas y responsables, alineados con el Product Backlog del proyecto.<br>
+        - Documenté la sección de <b>Sprint Planning</b> en el informe, detallando los entregables de la iteración, tiempos estimados y dependencias entre actividades.<br>
+      </td>
+    </tr>
+    <tr>
+      <td>Cruz Palomino, Adriano Sebastian</td>
+      <td>
+        - Desarrollé los <b>wireframes</b> de la aplicación web estructurando la interfaz de usuario para todas las pantallas principales.<br>
+        - Creé los <b>wireflow diagrams</b> mostrando los flujos de navegación entre las diferentes pantallas de la aplicación.<br>
+        - Elaboré los <b>mockups</b> de la aplicación web con el diseño visual completo aplicando las Style Guidelines establecidas.<br>
+        - Desarrollé los <b>user flow diagrams</b> detallando los recorridos completos del usuario en escenarios clave.<br>
+        - Diseñé el <b>prototipo interactivo</b> en Figma permitiendo la validación temprana del diseño UI/UX con el equipo.<br>
+        - Coordiné con el equipo la consistencia visual y funcional de todos los componentes de diseño.<br>
+      </td>
+    </tr>
+        <tr>
+      <td>Quiñones Tintaya, Johan Jorge</td>
+      <td>
+        - Implementé el <b>backend completo</b> con Spring Boot 3.5.6 y Java 21 siguiendo arquitectura Domain-Driven Design.<br>
+        - Desarrollé los <b>6 bounded contexts</b>: IAM, WasteCollection, UserIdentification, RewardManagement, MunicipalityManagement, Monitoring & Reporting.<br>
+        - Diseñé la arquitectura de <b>capas por contexto</b>: Domain Layer, Interface Layer, Application Layer e Infrastructure Layer.<br>
+        - Creé los <b>diagramas de componentes</b> para visualizar la arquitectura de cada bounded context.<br>
+        - Elaboré los <b>diagramas de clases</b> del dominio detallando entidades, value objects y servicios para todos los contextos.<br>
+        - Diseñé los <b>diagramas de base de datos</b> con sus relaciones, restricciones y estrategia de persistencia.<br>
+        - Documenté todos los <b>endpoints REST</b> con Swagger/OpenAPI para facilitar la integración con frontend.<br>
+      </td>
+    </tr>
+    <tr>
+      <td>Pardo Zapata, Gustavo Adolfo</td>
+      <td>
+        - Diseño e implementacion tecnica del sistema Metalix BC<br>
+        - Desarrolle el capitulo VI Product Implementation,Validation and Deployment<br>
+        - Se implemento la estrategia de Software Configuration Management con Gitflow<br>
+        - Configuré y documenté el entorno completo de desarrollo (VSCode, IntelliJ, Discord, Trello, Figma)<br>
+        - Desarrollé, analicé y completé el punto de EventStorming<br>
+        - Documenté la gestión de configuración de software y control de versionesy<br>
+        - Colaboré en las correcciones y mejoras del Event Storming para el modelado de dominio
+      </td>
+    </tr>
+        <tr>
+      <td>Roca Huapaya, Orlando Arturo</td>
+      <td>
+        - Desarrollé la sección completa de <b>Information Architecture</b> con Organization Systems, Labeling Systems y Navigation Systems.<br>
+        - Elaboré las <b>Style Guidelines</b> generales y específicas para Web, Mobile e IoT estableciendo la identidad visual del proyecto.<br>
+        - Documenté los <b>SEO Tags y Meta Tags</b> para optimizar la presencia digital de la landing page.<br>
+        - Definí los <b>Searching Systems</b> y estrategias de búsqueda para mejorar la experiencia del usuario.<br>
+        - Coordiné la integración entre los principios de Lean UX y el diseño UI/UX para mantener coherencia conceptual.<br>
+        - Aseguré la consistencia del tono de comunicación y branding a través de todos los entregables de diseño.<br>
+    </td>
+    </tr>
+        <tr>
+      <td>Mancilla Ordaya, Eduardo Vicente</td>
+      <td>
+        - Desarrollé los <b>diagramas C4 completos</b> del sistema Metalix: Landscape, Context, Container y Deployment.<br>
+        - Documenté la <b>arquitectura de software</b> a nivel estratégico mostrando la interacción entre sistemas externos.<br>
+        - Diseñé el <b>Context Level Diagram</b> identificando actores y sistemas relacionados con Metalix.<br>
+        - Elaboré el <b>Container Level Diagram</b> detallando la arquitectura de contenedores (frontend, backend, bases de datos).<br>
+        - Creé el <b>Deployment Diagram</b> especificando la infraestructura de despliegue en GitHub Pages, Vercel y Railway.<br>
+        - Coordiné con el equipo backend la coherencia entre arquitectura documentada e implementación real.<br>
+      </td>
+    </tr>
+     <!-- TB2 -->
+    <!-- TB2 -->
+<tr>
+  <td rowspan="7">TB2</td>
+  <td rowspan="7">10/11/2025</td>
+</tr>
+<tr>
+  <td>Roca Huapaya, Orlando Arturo</td>
+  <td>
+    - Completó su Student Outcome.<br>
+    - Elaboró su Video de Entrevista.<br>
+    - Se encargó de la configuración de los repositorios de la organización, asegurando:<br>
+    - Correcta estructura del repositorio raíz.<br>
+    - Políticas de ramas y permisos.<br>
+    - Convenciones para commits y pull requests.<br>
+    - Documentación organizada en el README, descrita de manera clara y profesional.<br>
+    - Validó la correcta conexión entre repositorios de backend, frontend y mobile.<br>
+  </td>
+</tr>
+<tr>
+  <td>Cruz Palomino, Adriano Sebastian</td>
+  <td>
+    - Completó su Student Outcome.<br>
+    - Entregó su Video de Entrevista.<br>
+    - Avanzó con el desarrollo tanto en mobile como en el backend, logrando:<br>
+    - Estructurar las vistas principales del aplicativo móvil.<br>
+    - Implementar endpoints iniciales y pruebas básicas en backend.<br>
+    - Integrar las funcionalidades desarrolladas con el flujo general del sistema.<br>
+  </td>
+</tr>
+<tr>
+  <td>Del Carmen Zorrilla, Ray Alessandro</td>
+  <td>
+    - Completó su Student Outcome.<br>
+    - Entregó su Video de Entrevista.<br>
+    - Trabajó en el sistema embebido IoT, específicamente:<br>
+    - Configuración del dispositivo (ESP32 u otros).<br>
+    - Interacción con sensores, lectores o actuadores.<br>
+    - Preparación del entorno de pruebas para integración futura con el backend.<br>
+    - Asimismo, avanzó en la configuración del entorno general del sistema y soporte técnico transversal.<br>
+  </td>
+</tr>
+<tr>
+  <td>Pardo Zapata, Gustavo Adolfo</td>
+  <td>
+    - Completó su Student Outcome.<br>
+    - Entregó su Video de Entrevista.<br>
+    - Avanzó en la sección "About the Product" del informe general, detallando:<br>
+    - Descripción del producto.<br>
+    - Alcance funcional.<br>
+    - Justificación y propuesta de valor.<br>
+    - Participó en la elaboración y corrección de puntos del informe del sprint, incluyendo mejoras según la retroalimentación.<br>
+  </td>
+</tr>
+<tr>
+  <td>Mancilla Ordaya, Eduardo Vicente</td>
+  <td>
+    - Completó su Student Outcome.<br>
+    - Entregó su Video de Entrevista.<br>
+    - Avanzó en el módulo mobile, logrando:<br>
+    - Implementación de vistas adicionales.<br>
+    - Integración con endpoints backend entregados en el sprint.<br>
+    - Aportó evidencias del sprint y trabajó en la configuración de entornos, tanto de producción como de prueba, asegurando la correcta ejecución de los endpoints implementados.<br>
+  </td>
+</tr>
+<tr>
+  <td>Quiñones Tintaya, Johan Jorge</td>
+  <td>
+    - Completó su Student Outcome.<br>
+    - Entregó su Video de Entrevista.<br>
+    - Avanzó en la aplicación web (frontend) y en el backend, logrando:<br>
+    - Desarrollo de componentes del frontend.<br>
+    - Consumo e integración de endpoints.<br>
+    - Ajustes en servicios, controladores o vistas según los requerimientos del sprint.<br>
+    - Además, participó en correcciones según la retroalimentación del sprint anterior.<br>
+  </td>
+</tr>
   <!-- Otras entrega -->
   </tbody>
 </table>
@@ -169,15 +318,68 @@ Esta sección tiene como propósito detallar las actualizaciones significativas 
 
 # Project Report Collaboration Insights
 
+**Repositorios del Proyecto:**
 - Link de la organización: https://github.com/Desarrollo-Soluciones-IOT-Grupo-02
 - Link del reporte: https://github.com/Desarrollo-Soluciones-IOT-Grupo-02/Report
 
-### **TB1:**
-Las coordinaciones iniciales se realizaron en Google Meet, mientras que el seguimiento continuo se llevó a cabo principalmente en WhatsApp. Para la gestión del código se utilizó GitHub, donde los commits reflejan las contribuciones y el trabajo colaborativo del equipo.
+## TB1 - Collaboration Insights
 
-- Commits del equipo
+Durante la entrega TB1, el equipo estableció las bases del proyecto mediante la definición de requisitos, análisis de usuarios y diseño estratégico del sistema. Las coordinaciones iniciales se realizaron en Google Meet, mientras que el seguimiento continuo se llevó a cabo principalmente en WhatsApp. Para la gestión del código se utilizó GitHub, donde los commits reflejan las contribuciones y el trabajo colaborativo del equipo.
 
-<img src="./foto_integrantes/insights.png"  width="1000">
+**Principales actividades realizadas:**
+- Análisis de competidores y definición de segmentos objetivo
+- Realización de entrevistas a usuarios y análisis de needfinding
+- Desarrollo de User Personas, Journey Maps y Empathy Maps
+- Diseño estratégico con EventStorming y Domain-Driven Design
+- Definición de Bounded Contexts y arquitectura C4
+- Elaboración de User Stories y Product Backlog
+
+**Commits del equipo - TB1:**
+
+<div align="center">
+  <img src="./insights/insights-tb1.png" alt="GitHub Insights TB1" width="1000">
+</div>
+
+## TP - Collaboration Insights
+
+En la entrega del Trabajo Parcial (TP), el equipo avanzó significativamente en la implementación técnica del proyecto, desarrollando la landing page, el frontend base de la aplicación web y el backend completo con Spring Boot. La colaboración se intensificó con el uso de GitHub para control de versiones y despliegues automatizados.
+
+**Principales actividades realizadas:**
+- Desarrollo completo de la landing page con diseño responsive
+- Implementación del frontend base con Angular y componentes principales
+- Desarrollo del backend con Spring Boot 3.5.6 siguiendo arquitectura DDD
+- Implementación de 6 bounded contexts (IAM, Waste Collection, Rewards, Municipality, Monitoring, RFID)
+- Configuración de CI/CD con GitHub Pages, Vercel y Railway
+- Documentación de APIs con Swagger/OpenAPI
+- Diseño UI/UX completo con wireframes, mockups y prototipos
+- Desarrollo del Sprint 1 con planning, ejecución y review
+
+**Commits del equipo - TP:**
+
+<div align="center">
+  <img src="./insights/insights-tp.jpg" alt="GitHub Insights TP" width="1000">
+</div>
+
+## TB2 - Collaboration Insights
+
+En la entrega de la TB2, el equipo consolidó los avances del TP y extendió significativamente el desarrollo del proyecto. Se completaron módulos clave del backend, se avanzó en el frontend web, se integró el aplicativo móvil y se desarrolló el sistema embebido IoT necesario para la operación del sistema. Además, se reforzó la coordinación del equipo mediante ramas organizadas, evidencias en GitHub y revisión colaborativa de tareas.
+
+**Principales actividades realizadas:**
+- Avance del backend con Spring Boot 3.5.6 aplicando arquitectura DDD en los bounded contexts definidos
+- Desarrollo del sistema IoT embebido (lectores, sensores, lógica MQTT/HTTP y configuración del entorno)
+- Implementación de vistas y componentes adicionales en el frontend web con Angular
+- Avances en el aplicativo móvil, integración con Firebase Auth y consumo inicial de endpoints
+- Configuración unificada de repositorios de la organización con documentación en README
+- Integración y pruebas preliminares entre IoT → Backend → Web/Mobile
+- Actualización de la documentación técnica del sistema y endpoints
+- Desarrollo del Sprint 2: planificación, ejecución, evidencias y revisión
+- Correcciones del Sprint 1 y alineamiento con la retroalimentación del docente
+
+**Commits del equipo - TB2:**
+
+<div align="center">
+  <img src="./insights/insights-tb2.jpg" alt="GitHub Insights TB2" width="1000">
+</div>
 
 # Contenido
 
@@ -231,27 +433,230 @@ Las coordinaciones iniciales se realizaron en Google Meet, mientras que el segui
 
 ### [Capítulo IV: Solutions Software Design](#capítulo-iv-solution-software-design)
 
-- [4.1. Strategic-Level Domain-Driven Design](#41-strategic-level-domain-driven-design)
-  - [4.1.1. EventStorming](#411-eventstorming)
-    - [4.1.1.1. Candidate Context Discovery](#4111-candidate-context-discovery)
-    - [4.1.1.2. Domain Message Flows Modeling](#4112-domain-message-flows-modeling)
-    - [4.1.1.3. Bounded COntext Canvases](#4113-bounded-context-canvases)
-  - [4.1.2. Context Mapping](#412-context-mapping)
-  - [4.1.3. Software Architecture](#413-software-architecture)
-    - [4.1.3.1. Software Architecture System Landscape Diagram](#4131-software-architecture-system-landscape-diagram)
-    - [4.1.3.2. Software Architecture Context Level Diagrams](#4132-software-architecture-context-level-diagrams)
-    - [4.1.3.3. Software Architecture Container Level Diagrams](#4133-software-architecture-container-level-diagrams)
-    - [4.1.3.4. Software Architecture Deployment Diagrams](#4134-software-architecture-deployment-diagrams)
+- [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
+- [Project Report Collaboration Insights](#project-report-collaboration-insights)
+  - [TB1 - Collaboration Insights](#tb1---collaboration-insights)
+  - [TP - Collaboration Insights](#tp---collaboration-insights)
+  - [TB2 - Collaboration Insights](#tb2---collaboration-insights)
+- [Contenido](#contenido)
+  - [Tabla de Contenidos](#tabla-de-contenidos)
+    - [Registro de versiones del informe](#registro-de-versiones-del-informe-1)
+    - [Project Report Collaboration Insights](#project-report-collaboration-insights-1)
+    - [Contenido](#contenido-1)
+    - [Student Outcome](#student-outcome)
+    - [Capítulo I: Introducción](#capítulo-i-introducción)
+    - [Capítulo II: Requirements Elicitation \& Analysis](#capítulo-ii-requirements-elicitation--analysis)
+    - [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
+    - [Capítulo IV: Solutions Software Design](#capítulo-iv-solutions-software-design)
+    - [Capítulo V: Solution UI/UX Design](#capítulo-v-solution-uiux-design)
+    - [Capítulo VI: Product Implementation, Validation \& Deployment](#capítulo-vi-product-implementation-validation--deployment)
+    - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
+    - [Video About-the-Team](#video-about-the-team)
+    - [Bibliografía](#bibliografía)
+    - [Anexos](#anexos)
+- [Student Outcome](#student-outcome-1)
+- [Capítulo I: Introducción](#capítulo-i-introducción-1)
+  - [1.1. StartUp Profile](#11-startup-profile)
+    - [1.1.1. Descripción de la StartUp](#111-descripción-de-la-startup)
+    - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
+  - [1.2. Solution Profile](#12-solution-profile)
+    - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
+      - [5W + 2H](#5w--2h)
+        - [What (¿qué?)](#what-qué)
+        - [When (¿cuándo?)](#when-cuándo)
+        - [Where (¿dónde?)](#where-dónde)
+        - [Who (¿quiénes?)](#who-quiénes)
+        - [Why (¿por qué?)](#why-por-qué)
+        - [How (¿cómo sucede?)](#how-cómo-sucede)
+        - [How much (¿cuánto?)](#how-much-cuánto)
+    - [1.2.2. Lean UX Process](#122-lean-ux-process)
+      - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
+      - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
+      - [1.2.2.3. Lean UX Hyphotesis Statements](#1223-lean-ux-hyphotesis-statements)
+      - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
+  - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
+    - [1.3.1 Segmento objetivo 1: Bañistas](#131-segmento-objetivo-1-bañistas)
+    - [1.3.2 Segmento objetivo 2: Municipalidades costeras](#132-segmento-objetivo-2-municipalidades-costeras)
+- [Capítulo II: Requirements Elicitation \& Analysis](#capítulo-ii-requirements-elicitation--analysis-1)
+  - [2.1. Competidores](#21-competidores)
+    - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
+    - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
+  - [2.2. Entrevistas](#22-entrevistas)
+    - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
+      - [Características demográficas](#características-demográficas)
+      - [Características personales y sociales](#características-personales-y-sociales)
+      - [Dispositivos y canales digitales](#dispositivos-y-canales-digitales)
+      - [Objetivos y frustraciones (contexto de playa y sostenibilidad)](#objetivos-y-frustraciones-contexto-de-playa-y-sostenibilidad)
+      - [Biografía o antecedentes](#biografía-o-antecedentes)
+    - [Segmento 1: Bañistas (turistas y pobladores locales)](#segmento-1-bañistas-turistas-y-pobladores-locales)
+    - [Segmento 2: Municipalidades costeras](#segmento-2-municipalidades-costeras)
+    - [Validación del proyecto (para ambos segmentos)](#validación-del-proyecto-para-ambos-segmentos)
+    - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
+      - [Segmento: Bañistas](#segmento-bañistas)
+        - [Entrevista 1](#entrevista-1)
+        - [Entrevista 2](#entrevista-2)
+        - [Entrevista 3](#entrevista-3)
+      - [Segmento: Municipalidades costeras](#segmento-municipalidades-costeras)
+        - [Entrevista 4](#entrevista-4)
+        - [Entrevista 5](#entrevista-5)
+        - [Entrevista 6](#entrevista-6)
+    - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
+    - [Segmento 1: Bañistas](#segmento-1-bañistas)
+    - [Segmento 2: Municipalidades Costeras](#segmento-2-municipalidades-costeras-1)
+  - [2.3. Needfinding](#23-needfinding)
+    - [2.3.1. User Personas](#231-user-personas)
+      - [**Segmento 1: Bañistas**](#segmento-1-bañistas-1)
+      - [**Segmento 2: Miembros de Municipalidades Costeras**](#segmento-2-miembros-de-municipalidades-costeras)
+    - [2.3.2. User Task Matrix](#232-user-task-matrix)
+    - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
+      - [**Segmento 1: Bañistas**](#segmento-1-bañistas-2)
+      - [**Segmento 2: Miembros de Municipalidades Costeras**](#segmento-2-miembros-de-municipalidades-costeras-1)
+    - [2.3.4. Empathy Mapping](#234-empathy-mapping)
+      - [**Segmento 1: Bañistas**](#segmento-1-bañistas-3)
+      - [**Segmento 2: Miembros de Municipalidades Costeras**](#segmento-2-miembros-de-municipalidades-costeras-2)
+    - [2.3.5. As-Is Scenario Mapping](#235-as-is-scenario-mapping)
+      - [**Segmento 1: Bañistas**](#segmento-1-bañistas-4)
+      - [**Segmento 2: Miembros de Municipalidades Costeras**](#segmento-2-miembros-de-municipalidades-costeras-3)
+  - [2.4. Ubiquitous Language](#24-ubiquitous-language)
+- [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification-1)
+  - [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
+    - [Segmento objetivo 1: Bañistas](#segmento-objetivo-1-bañistas)
+    - [Segmento objetivo 2: Municipalidades costeras](#segmento-objetivo-2-municipalidades-costeras)
+  - [3.2. User Stories](#32-user-stories)
+  - [3.3. Impact mapping](#33-impact-mapping)
+    - [Segmento objetivo 1: Bañistas](#segmento-objetivo-1-bañistas-1)
+    - [Segmento objetivo 2: Municipalidades costeras](#segmento-objetivo-2-municipalidades-costeras-1)
+  - [3.4. Product Backlog](#34-product-backlog)
+- [Capítulo IV: Solution Software Design](#capítulo-iv-solution-software-design)
+  - [4.1. Strategic-Level Domain-Driven Design](#41-strategic-level-domain-driven-design)
+    - [4.1.1. EventStorming](#411-eventstorming)
+      - [4.1.1.1. Candidate Context Discovery](#4111-candidate-context-discovery)
+      - [4.1.1.2. Domain Message Flows Modeling](#4112-domain-message-flows-modeling)
+      - [4.1.1.3. Bounded Context Canvases](#4113-bounded-context-canvases)
+    - [4.1.2 Context mapping](#412-context-mapping)
+    - [4.1.3. Software Architecture](#413-software-architecture)
+      - [4.1.3.1. Software Architecture System Landscape Diagram](#4131-software-architecture-system-landscape-diagram)
+      - [4.1.3.2. Software Architecture Context Level Diagrams](#4132-software-architecture-context-level-diagrams)
+      - [4.1.3.3. Software Architecture Container Level Diagrams](#4133-software-architecture-container-level-diagrams)
+      - [4.1.3.4. Software Architecture Deployment Diagrams](#4134-software-architecture-deployment-diagrams)
 - [4.2. Tactical-Level Domain-Driven Design](#42-tactical-level-domain-driven-design)
-  - [4.2.X. Bounded Context: <Bounded Context name>](#42x-bounded-context)
-    - [4.2.X.1. Domain Layer](#42x1-domain-layer)
-    - [4.2.X.2. Interface Layer](#42x2-interface-context)
-    - [4.2.X.3. Application Layer](#42x3-application-context)
-    - [4.2.X.4. Infrastructure Layer](#42x4-infrastructure-context)
-    - [4.2.X.5. Bounded Context Software Architecture Component Level Diagrams](#42x5-bounded-context-software-architecture-component-level-diagrams)
-    - [4.2.X.6. Bounded Context Software Architecture Code Level Diagrams](#42x6-bounded-context-software-architecture-code-level-diagrams)
-      - [4.2.X.6.1. Bounded Context Domain Layer Class Diagrams](#42x61-bounded-context-domain-layer-class-diagrams)
-      - [4.2.X.6.2. Bounded Context Database Design Diagram](#42x62-bounded-context-database-design-diagram)
+  - [4.2.1. Bounded Context: IAM](#421-bounded-context-iam)
+    - [4.2.1.1. Domain Layer](#4211-domain-layer)
+    - [4.2.1.2. Interface Layer](#4212-interface-layer)
+    - [4.2.1.3. Application Layer](#4213-application-layer)
+    - [4.2.1.4. Infrastructure Layer](#4214-infrastructure-layer)
+    - [4.2.1.5. Bounded Context Software Architecture Component Level Diagrams](#4215-bounded-context-software-architecture-component-level-diagrams)
+    - [4.2.1.6. Bounded Context Software Architecture Code Level Diagrams](#4216-bounded-context-software-architecture-code-level-diagrams)
+      - [4.2.1.6.1. Bounded Context Domain Layer Class Diagrams](#42161-bounded-context-domain-layer-class-diagrams)
+      - [4.2.1.6.2. Bounded Context Database Design Diagram](#42162-bounded-context-database-design-diagram)
+  - [4.2.2. Bounded Context: WasteCollection](#422-bounded-context-wastecollection)
+    - [4.2.2.1. Domain Layer](#4221-domain-layer)
+    - [4.2.2.2. Interface Layer](#4222-interface-layer)
+    - [4.2.2.3. Application Layer](#4223-application-layer)
+    - [4.2.2.4. Infrastructure Layer](#4224-infrastructure-layer)
+    - [4.2.2.5. Bounded Context Software Architecture Component Level Diagrams](#4225-bounded-context-software-architecture-component-level-diagrams)
+    - [4.2.2.6. Bounded Context Software Architecture Code Level Diagrams](#4226-bounded-context-software-architecture-code-level-diagrams)
+      - [4.2.2.6.1. Bounded Context Domain Layer Class Diagrams](#42261-bounded-context-domain-layer-class-diagrams)
+      - [4.2.2.6.2. Bounded Context Database Design Diagram](#42262-bounded-context-database-design-diagram)
+  - [4.2.3. Bounded Context: UserIdentification](#423-bounded-context-useridentification)
+    - [4.2.3.1. Domain Layer](#4231-domain-layer)
+    - [4.2.3.2. Interface Layer](#4232-interface-layer)
+    - [4.2.3.3. Application Layer](#4233-application-layer)
+    - [4.2.3.4. Infrastructure Layer](#4234-infrastructure-layer)
+    - [4.2.3.5. Bounded Context Software Architecture Component Level Diagrams](#4235-bounded-context-software-architecture-component-level-diagrams)
+    - [4.2.3.6. Bounded Context Software Architecture Code Level Diagrams](#4236-bounded-context-software-architecture-code-level-diagrams)
+      - [4.2.3.6.1. Bounded Context Domain Layer Class Diagrams](#42361-bounded-context-domain-layer-class-diagrams)
+      - [4.2.3.6.2. Bounded Context Database Design Diagram](#42362-bounded-context-database-design-diagram)
+  - [4.2.4. Bounded Context: RewardManagement](#424-bounded-context-rewardmanagement)
+    - [4.2.4.1. Domain Layer](#4241-domain-layer)
+    - [4.2.4.2. Interface Layer](#4242-interface-layer)
+    - [4.2.4.3. Application Layer](#4243-application-layer)
+    - [4.2.4.4. Infrastructure Layer](#4244-infrastructure-layer)
+    - [4.2.4.5. Bounded Context Software Architecture Component Level Diagrams](#4245-bounded-context-software-architecture-component-level-diagrams)
+    - [4.2.4.6. Bounded Context Software Architecture Code Level Diagrams](#4246-bounded-context-software-architecture-code-level-diagrams)
+      - [4.2.4.6.1. Bounded Context Domain Layer Class Diagrams](#42461-bounded-context-domain-layer-class-diagrams)
+      - [4.2.4.6.2. Bounded Context Database Design Diagram](#42462-bounded-context-database-design-diagram)
+  - [4.2.5. Bounded Context: MunicipalityManagement](#425-bounded-context-municipalitymanagement)
+    - [4.2.5.1. Domain Layer](#4251-domain-layer)
+    - [4.2.5.2. Interface Layer](#4252-interface-layer)
+    - [4.2.5.3. Application Layer](#4253-application-layer)
+    - [4.2.5.4. Infrastructure Layer](#4254-infrastructure-layer)
+    - [4.2.5.5. Bounded Context Software Architecture Component Level Diagrams](#4255-bounded-context-software-architecture-component-level-diagrams)
+    - [4.2.5.6. Bounded Context Software Architecture Code Level Diagrams](#4256-bounded-context-software-architecture-code-level-diagrams)
+      - [4.2.5.6.1. Bounded Context Domain Layer Class Diagrams](#42561-bounded-context-domain-layer-class-diagrams)
+      - [4.2.5.6.2. Bounded Context Database Design Diagram](#42562-bounded-context-database-design-diagram)
+  - [4.2.6. Bounded Context: Monitoring \& Reporting](#426-bounded-context-monitoring--reporting)
+    - [4.2.6.1. Domain Layer](#4261-domain-layer)
+    - [4.2.6.2. Interface Layer](#4262-interface-layer)
+    - [4.2.6.3. Application Layer](#4263-application-layer)
+    - [4.2.6.4. Infrastructure Layer](#4264-infrastructure-layer)
+    - [4.2.6.5. Bounded Context Software Architecture Component Level Diagrams](#4265-bounded-context-software-architecture-component-level-diagrams)
+    - [4.2.6.6. Bounded Context Software Architecture Code Level Diagrams](#4266-bounded-context-software-architecture-code-level-diagrams)
+      - [4.2.6.6.1. Bounded Context Domain Layer Class Diagrams](#42661-bounded-context-domain-layer-class-diagrams)
+      - [4.2.6.6.2. Bounded Context Database Design Diagram](#42662-bounded-context-database-design-diagram)
+- [Capítulo V: Solutions UI/UX Design](#capítulo-v-solutions-uiux-design)
+  - [5.1. Style Guidelines](#51-style-guidelines)
+    - [5.1.1. General Style Guidelines](#511-general-style-guidelines)
+    - [5.1.2. Web, Mobile and IoT Style Guidelines](#512-web-mobile-and-iot-style-guidelines)
+  - [5.2. Information Architecture](#52-information-architecture)
+    - [5.2.1. Organization Systems](#521-organization-systems)
+    - [5.2.2. Labeling Systems](#522-labeling-systems)
+    - [5.2.3. SEO Tags and Meta Tags](#523-seo-tags-and-meta-tags)
+    - [5.2.4. Searching Systems](#524-searching-systems)
+    - [5.2.5. Navigation Systems](#525-navigation-systems)
+  - [5.3. Landing Page UI Design](#53-landing-page-ui-design)
+    - [5.3.1. Landing Page Wireframe](#531-landing-page-wireframe)
+    - [5.3.2. Landing Page Mock-up](#532-landing-page-mock-up)
+      - [Mock-ups Versión Web](#mock-ups-versión-web)
+      - [Mock-ups Versión Mobile](#mock-ups-versión-mobile)
+  - [5.4. Application UX/UI Design](#54-application-uxui-design)
+    - [5.4.1. Applications Wireframes](#541-applications-wireframes)
+    - [5.4.2. Applications Wireflow Diagrams](#542-applications-wireflow-diagrams)
+    - [5.4.3. Applications Mock-ups](#543-applications-mock-ups)
+    - [5.4.4. Applications User Flow Diagrams](#544-applications-user-flow-diagrams)
+  - [5.5. Applications Prototyping](#55-applications-prototyping)
+- [Capítulo VI: Product Implementation, Validation \& Deployment](#capítulo-vi-product-implementation-validation--deployment-1)
+  - [6.1. Software Configuration Management](#61-software-configuration-management)
+    - [6.1.1. Software Development Environment Configuration](#611-software-development-environment-configuration)
+    - [6.1.2. Source Code Management](#612-source-code-management)
+    - [6.1.3. Source Code Style Guide \& Conventions](#613-source-code-style-guide--conventions)
+    - [6.1.4. Software Deployment Configuration](#614-software-deployment-configuration)
+  - [6.2. Landing Page, Services \& Applications Implementation](#62-landing-page-services--applications-implementation)
+    - [6.2.1. Sprint 1](#621-sprint-1)
+      - [6.2.1.1. Sprint Planning 1](#6211-sprint-planning-1)
+      - [6.2.1.2. Aspect Leaders and Collaborators](#6212-aspect-leaders-and-collaborators)
+      - [6.2.1.3. Sprint Backlog 1](#6213-sprint-backlog-1)
+      - [6.2.1.4. Development Evidence for Sprint Review](#6214-development-evidence-for-sprint-review)
+      - [6.2.1.5. Testing Suite Evidence for Sprint Review](#6215-testing-suite-evidence-for-sprint-review)
+      - [6.2.1.6. Execution Evidence for Sprint Review](#6216-execution-evidence-for-sprint-review)
+      - [6.2.1.7. Services Documentation Evidence for Sprint Review](#6217-services-documentation-evidence-for-sprint-review)
+      - [6.2.1.8. Software Deployment Evidence for Sprint Review](#6218-software-deployment-evidence-for-sprint-review)
+      - [6.2.1.9. Team Collaboration Insights during Sprint](#6219-team-collaboration-insights-during-sprint)
+    - [6.2.2. Sprint 2](#622-sprint-2)
+      - [6.2.2.1. Sprint Planning 2](#6221-sprint-planning-2)
+      - [6.2.2.2. Aspect Leaders and Collaborators](#6222-aspect-leaders-and-collaborators)
+      - [6.2.2.3. Sprint Backlog 2](#6223-sprint-backlog-2)
+      - [6.2.2.4. Development Evidence for Sprint Review](#6224-development-evidence-for-sprint-review)
+      - [6.2.2.5. Testing Suite Evidence for Sprint Review](#6225-testing-suite-evidence-for-sprint-review)
+      - [6.2.2.6. Execution Evidence for Sprint Review](#6226-execution-evidence-for-sprint-review)
+      - [6.2.2.7. Services Documentation Evidence for Sprint Review](#6227-services-documentation-evidence-for-sprint-review)
+      - [6.2.2.8. Software Deployment Evidence for Sprint Review](#6228-software-deployment-evidence-for-sprint-review)
+      - [6.2.2.9. Team Collaboration Insights during Sprint](#6229-team-collaboration-insights-during-sprint)
+  - [6.3. Validation Interviews](#63-validation-interviews)
+    - [6.3.1. Diseño de Entrevistas](#631-diseño-de-entrevistas)
+    - [6.3.2. Registro de Entrevistas](#632-registro-de-entrevistas)
+      - [Segmento: Bañistas](#segmento-bañistas-1)
+        - [Entrevista 1](#entrevista-1-1)
+        - [Entrevista 2](#entrevista-2-1)
+        - [Entrevista 3](#entrevista-3-1)
+      - [Segmento: Municipalidades costeras](#segmento-municipalidades-costeras-1)
+        - [Entrevista 1](#entrevista-1-2)
+    - [6.3.3. Evaluaciones según heurísticas](#633-evaluaciones-según-heurísticas)
+  - [6.4. Video About-the-Product](#64-video-about-the-product)
+  - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones-1)
+  - [Video About-the-Team](#video-about-the-team-1)
+- [Bibliografía](#bibliografía-1)
+- [Anexos](#anexos-1)
 
 ### [Capítulo V: Solution UI/UX Design](#capítulo-v-solutions-uiux-design)
 
@@ -282,25 +687,35 @@ Las coordinaciones iniciales se realizaron en Google Meet, mientras que el segui
   - [6.1.3. Source Code Style Guide \& Conventions](#613-source-code-style-guide--conventions)
   - [6.1.4. Software Deployment Configuration](#614-software-deployment-configuration)
 - [6.2. Landing Page, Services \& Applications Implementation](#62-landing-page-services--applications-implementation)
-  - [6.2.X. Sprint X](#62x-sprint-n)
-    - [6.2.X.1. Sprint Planning 1](#62x1-sprint-planning-n)
-    - [6.2.X.2. Sprint Backlog 1](#62x2-sprint-backlog-n)
-    - [6.2.X.3. Development Evidence for Sprint Review](#62x3-development-evidence-for-sprint-review)
-    - [6.2.X.4. Testing Suite Evidence for Sprint Review](#62x4-testing-suite-evidence-for-sprint-review)
-    - [6.2.X.5. Execution Evidence for Sprint Review](#62x5-execution-evidence-for-sprint-review)
-    - [6.2.X.6. Services Documentation Evidence for Sprint Review](#62x6-services-documentation-evidence-for-sprint-review)
-    - [6.2.X.7. Software Deployment Evidence for Sprint Review](#62x7-software-deployment-evidence-for-sprint-review)
-    - [6.2.X.8. Team Collaboration Insights during Sprint](#62x8-team-collaboration-insights-during-sprint)
+  - [6.2.1. Sprint 1](#621-sprint-1)
+    - [6.2.1.1. Sprint Planning 1](#6211-sprint-planning-1)
+    - [6.2.1.2. Aspect Leaders and Collaborators](#6212-aspect-leaders-and-collaborators)
+    - [6.2.1.3. Sprint Backlog 1](#6213-sprint-backlog-1)
+    - [6.2.1.4. Development Evidence for Sprint Review](#6214-development-evidence-for-sprint-review)
+    - [6.2.1.5. Testing Suite Evidence for Sprint Review](#6215-testing-suite-evidence-for-sprint-review)
+    - [6.2.1.6. Execution Evidence for Sprint Review](#6216-execution-evidence-for-sprint-review)
+    - [6.2.1.7. Services Documentation Evidence for Sprint Review](#6217-services-documentation-evidence-for-sprint-review)
+    - [6.2.1.8. Software Deployment Evidence for Sprint Review](#6218-software-deployment-evidence-for-sprint-review)
+    - [6.2.1.9. Team Collaboration Insights during Sprint](#6219-team-collaboration-insights-during-sprint)
+  - [6.2.2. Sprint 2](#622-sprint-2)
+    - [6.2.2.2. Sprint Planning 2](#6222-sprint-planning-2)
+    - [6.2.2.2. Aspect Leaders and Collaborators](#6222-aspect-leaders-and-collaborators)
+    - [6.2.2.3. Sprint Backlog 1](#6223-sprint-backlog-2)
+    - [6.2.2.4. Development Evidence for Sprint Review](#6224-development-evidence-for-sprint-review)
+    - [6.2.2.5. Testing Suite Evidence for Sprint Review](#6225-testing-suite-evidence-for-sprint-review)
+    - [6.2.2.6. Execution Evidence for Sprint Review](#6226-execution-evidence-for-sprint-review)
+    - [6.2.2.7. Services Documentation Evidence for Sprint Review](#6227-services-documentation-evidence-for-sprint-review)
+    - [6.2.2.8. Software Deployment Evidence for Sprint Review](#6228-software-deployment-evidence-for-sprint-review)
+    - [6.2.2.9. Team Collaboration Insights during Sprint](#6229-team-collaboration-insights-during-sprint)
 - [6.3. Validation Interviews](#63-validation-interviews)
   - [6.3.1. Diseño de Entrevistas](#631-diseño-de-entrevistas)
   - [6.3.2. Registro de Entrevistas](#632-registro-de-entrevistas)
   - [6.3.3. Evaluaciones según heurísticas](#633-evaluaciones-según-heurísticas)
 - [6.4. Video About-the-Product](#64-video-about-the-product)
 
-### [Conclusiones](#conclusiones-1)
+### [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
 
-- [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
-- [Video About-the-Team](#video-about-the-team)
+### [Video About-the-Team](#video-about-the-team)
 
 ### [Bibliografía](#bibliografía-1)
 
@@ -327,13 +742,13 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
       <td rowspan="1">
         Trabaja en equipo para proporcionar liderazgo en forma conjunta
       </td>
-      <!-- TB1 -->
+      <!-- TB1 + TP -->
       <td>
         <table>
           <tr>
             <td rowspan="7"><b>TB1</b></td>
           </tr>
-        <!-- Estudiantes -->
+          <!-- Estudiantes TB1 -->
           <tr>
             <td align="justify">
               <b>Del Carmen Zorrilla, Ray Alessandro:</b><br>
@@ -351,7 +766,7 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
           <tr>
             <td align="justify">
               <b>Quiñones Tintaya, Johan Jorge:</b><br>
-              En el avance del Análisis de entrevistas, coordine con mis compañeros la construcción de preguntas y la redacción de respuestas en primera persona, de modo que todos pudimos aportar desde distintos enfoques. Del mismo modo, en el desarrollo del Tactical-Level Domain-Driven Design y sus subpuntos por cada bounded context, ejercí el desarrollo completo de sus responsabilidades técnicas (diagramas, definición de capas y modelos).
+              En el avance del Análisis de entrevistas, coordiné con mis compañeros la construcción de preguntas y la redacción de respuestas en primera persona, de modo que todos pudimos aportar desde distintos enfoques. Del mismo modo, en el desarrollo del Tactical-Level Domain-Driven Design y sus subpuntos por cada bounded context, ejercí el desarrollo completo de sus responsabilidades técnicas (diagramas, definición de capas y modelos).
             </td>
           </tr>
           <tr>
@@ -368,33 +783,149 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
           </tr>
           <tr>
             <td align="justify">
+              <b>Mancilla Ordaya, Eduardo Vicente:</b><br>
+              Durante el desarrollo de esta entrega apoyé en la entrevista al primer segmento objetivo, asumí mi rol de liderazgo proponiendo los diagramas C4 con las tecnologías en el que podríamos realizar el proyecto. También consideré la coherencia con los otros puntos del informe para la realización de los diagramas.
+            </td>
+          </tr>
+        </table>
+          <table>
+          <tr>
+            <td rowspan="7"><b>TP</b></td>
+          </tr>
+        <!-- Estudiantes -->
+          <tr>
+            <td align="justify">
+              <b>Del Carmen Zorrilla, Ray Alessandro:</b><br>
+              Durante el desarrollo del proyecto asumí un rol activo en la organización de las tareas y coordinación con mis compañeros. 
+              Brindé liderazgo conjunto al proponer la segmentación de los usuarios y en la preparación de las entrevistas, 
+              fomentando la toma de decisiones compartida y asegurando que el equipo avanzara de forma ordenada y alineada a los objetivos.
+            </td>
+          </tr>
+          <tr>
+            <td align="justify">
+              <b>Cruz Palomino, Adriano Sebastian</b><br>
+              Durante la TP1 ejercí un liderazgo compartido al desarrollar los mockups, el user wireflow y el prototipo funcional. 
+              Coordiné con mis compañeros para alinear el diseño con los objetivos del proyecto, promoviendo decisiones conjuntas 
+              y una comunicación constante entre las áreas de diseño y desarrollo.
+            </td>
+          </tr>
+          <tr>
+            <td align="justify">
+              <b>Quiñones Tintaya, Johan Jorge:</b><br>
+              En el avance del Análisis de entrevistas, coordine con mis compañeros la construcción de preguntas y la redacción de respuestas en primera persona, de modo que todos pudimos aportar desde distintos enfoques. Del mismo modo, en el desarrollo del Tactical-Level Domain-Driven Design y sus subpuntos por cada bounded context, ejercí el desarrollo completo de sus responsabilidades técnicas (diagramas, definición de capas y modelos).
+            </td>
+          </tr>
+          <tr>
+            <td align="justify">
+              <b>Pardo Zapata Gustavo Adolfo:</b><br>
+              Durante la fase de implementación del proyecto, ejercí un liderazgo técnico integral al diseñar y documentar completamente la arquitectura de despliegue y configuración del sistema Metalix. Lideré la implementación de la estrategia GitFlow, estableciendo los flujos de trabajo colaborativo que permitieron al equipo desarrollar características de manera paralela y organizada. Guié la configuración del entorno de desarrollo unificado y los estándares de calidad de código, facilitando la integración continua y el trabajo coordinado en frontend.
+            </td>
+          </tr>
+          <tr>
+            <td align="justify">
+                <b>Roca Huapaya, Orlando Arturo:</b><br>
+                Realicé la integración entre los entregables de Lean UX y el diseño UI de Metalix para asegurar una narrativa consistente del problema a la solución. Coordiné la priorización de hipótesis y la segmentación de usuarios, preparé sesiones de revisión de entrevistas y consolidé el capítulo 1 con criterios comunes de calidad. Definí la versión inicial de pautas del design system y del tono de comunicación, y armé un backlog de investigación y prototipado que permitió a cada integrante liderar su sección sin perder coherencia con el objetivo general.
+            </td>
+          </tr>
+          <tr>
+            <td align="justify">
                 <b>Mancilla Ordaya, Eduardo Vicente:</b><br>
               Durante el desarrollo de esta entrega apoyé en la entrevista al primer segmento objetivo, asumí mi rol de liderazgo proponiendo los diagramas C4 con las tecnologías en el que podríamos realizar el proyecto. También consideré la coherencia con los otros puntos del informe para la realización de los diagramas.
             </td>
           </tr>
         </table>
+         <table>
+          <tr>
+            <td rowspan="7"><b>TB2</b></td>
+          </tr>
+        <!-- Estudiantes -->
+          <tr>
+            <td align="justify">
+              <b>Del Carmen Zorrilla, Ray Alessandro:</b><br>
+              Durante el desarrollo del proyecto asumí un rol activo en la organización de las tareas y coordinación con mis compañeros. 
+              Brindé liderazgo conjunto al proponer la segmentación de los usuarios y en la preparación de las entrevistas, 
+              fomentando la toma de decisiones compartida y asegurando que el equipo avanzara de forma ordenada y alineada a los objetivos.
+            </td>
+          </tr>
+          <tr>
+            <td align="justify">
+              <b>Cruz Palomino, Adriano Sebastian</b><br>
+                Realicé la entrevista de validación correspondiente a esta fase, lo que permitió recoger comentarios directos sobre la solución 
+                y reforzar la toma de decisiones colaborativas del equipo. Asimismo, participé en la alineación de los mockups y flujos 
+                con los objetivos técnicos del proyecto, manteniendo una comunicación permanente que facilitó la coherencia entre el diseño, 
+                las necesidades del usuario y el trabajo del resto del equipo.
+            </td>
+          </tr>
+          <tr>
+            <td align="justify">
+              <b>Quiñones Tintaya, Johan Jorge:</b><br>
+              En el avance del Análisis de entrevistas, coordine con mis compañeros la construcción de preguntas y la redacción de respuestas en primera persona, de modo que todos pudimos aportar desde distintos enfoques. Del mismo modo, en el desarrollo del Tactical-Level Domain-Driven Design y sus subpuntos por cada bounded context, ejercí el desarrollo completo de sus responsabilidades técnicas (diagramas, definición de capas y modelos).
+            </td>
+          </tr>
+          <tr>
+            <td align="justify">
+              <b>Pardo Zapata Gustavo Adolfo:</b><br>
+             Durante la TB2, ejercí un liderazgo en la reparticion de tarea y coordinar la implementación del sprint 2. Guié al equipo en la toma de decisiones de diseño, como la especificación de las interfaces de aplicación y fomentando una visión compartida de la solución. Este liderazgo conjunto permitió traducir el diseño estratégico en las preguntas de la entrevista y la recoleccion de puntos de mejora o cambio dentro del proyecto.
+            </td>
+          </tr>
+          <tr>
+            <td align="justify">
+                <b>Roca Huapaya, Orlando Arturo:</b><br>
+                Realicé una entrevista a un bañista para validar la propuesta de valor de Metalix, presentando la landing page y la aplicación web como demostración del funcionamiento de la solución. Recopilé percepciones sobre la utilidad, facilidad de uso y relevancia del sistema en el contexto real de playa. Además, organicé y ordené los commits del repositorio para mantener una línea de tiempo clara del trabajo realizado, asegurando trazabilidad y coherencia entre los avances del equipo.
+            </td>
+          </tr>
+          <tr>
+            <td align="justify">
+                <b>Mancilla Ordaya, Eduardo Vicente:</b><br>
+                Durante esta etapa, asumí un rol activo en el desarrollo del proyecto fortaleciendo tanto la parte técnica como la de validación del prototipo. Contribuí directamente en la construcción de la aplicación móvil de Metalix, desarrollando las vistas principales del sistema y asegurando un flujo de navegación coherente entre ellas. Además, apoyé en la ejecución de la entrevista de validación a nuestro primer segmento objetivo, recopilando información clave sobre la usabilidad y percepción del prototipo. A partir de estos hallazgos, realicé un análisis inicial que permitirá orientar futuras mejoras en la interfaz y en las funcionalidades planteadas.
+            </td>
+          </tr>
+        </table>
       </td>
-      <!-- Conclusion TB1 -->
-      <td rowspan="1" align="justify">
-        Como grupo distribuimos las responsabilidades de manera equilibrada en cada capítulo del proyecto, 
-        permitiendo que cada integrante asumiera un rol de liderazgo en sus secciones (entrevistas, Lean UX, análisis competitivo, 
-        scenario mapping, user stories, arquitectura, entre otros).  
-        Esto fomentó un liderazgo compartido, donde cada miembro guió al resto en su parte y, al mismo tiempo, 
-        se apoyó en las ideas de los demás para enriquecer los entregables.  
+      <!-- Conclusiones -->
+      <td>
+        <table>
+          <tr>
+            <td><b>TB1</b></td>
+            <td align="justify">
+              Como grupo distribuimos las responsabilidades de manera equilibrada en cada capítulo del proyecto, 
+              permitiendo que cada integrante asumiera un rol de liderazgo en sus secciones (entrevistas, Lean UX, análisis competitivo, 
+              scenario mapping, user stories, arquitectura, entre otros).  
+              Esto fomentó un liderazgo compartido, donde cada miembro guió al resto en su parte y, al mismo tiempo, 
+              se apoyó en las ideas de los demás para enriquecer los entregables.  
+            </td>
+          </tr>
+          <tr>
+            <td><b>TP</b></td>
+            <td align="justify">
+              Durante el TP, el equipo continuó fortaleciendo el liderazgo compartido al integrar nuevas responsabilidades técnicas y de diseño. 
+              Cada miembro asumió roles específicos en la implementación de la landing page, el desarrollo de mockups y wireframes, 
+              la configuración del entorno de desarrollo y la documentación de sprints. 
+              Esta distribución permitió mantener la cohesión del proyecto mientras se avanzaba hacia la materialización de la solución Metalix, 
+              consolidando tanto la visión estratégica como la ejecución práctica del sistema IoT.
+            </td>
+          </tr>
+          <tr>
+            <td><b>TB2</b></td>
+            <td align="justify">
+              Durante la TB2, el equipo profundizó su enfoque colaborativo al enfrentar los desafíos técnicos de la implementación avanzada del sistema Metalix. Cada integrante ejerció liderazgo en componentes críticos como el desarrollo de microservicios, la arquitectura de eventos, las pruebas de integración y el despliegue en la nube. Esta especialización técnica, coordinada mediante metodologías ágiles, permitió mantener la coherencia arquitectónica mientras se escalaba la funcionalidad del producto. La distribución estratégica de responsabilidades facilitó la integración exitosa de frontend, backend e infraestructura, materializando una solución IoT robusta y alineada con los objetivos de diseño establecidos en fases anteriores.
+            </td>
+          </tr>
+        </table>
       </td>
     </tr>
     <!-- Criterio 2 -->
     <tr>
-      <td rowspan="1" >
+      <td rowspan="1">
         Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.
       </td>
-      <!-- TB1 -->
+      <!-- TB1 + TP -->
       <td>
         <table>
           <tr>
             <td rowspan="7"><b>TB1</b></td>
           </tr>
-        <!-- Estudiantes -->
+          <!-- Estudiantes TB1 -->
           <tr>
             <td align="justify">
               <b>Del Carmen Zorrilla, Ray Alessandro:</b><br>
@@ -408,7 +939,7 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
           <tr>
             <td align="justify">
               <b>Cruz Palomino, Adriano Sebastian</b><br>
-                En esta etapa del proyecto colaboré en la definición de metas y tareas vinculadas al análisis competitivo y al needfinding, aportando insumos que fueron revisados y mejorados en conjunto con mis compañeros. Participé en la planificación de la construcción de los user personas, la user task matrix y los distintos mapeos (user journey, empathy y as-is), cumpliendo con los plazos establecidos y adaptando mis entregables a las observaciones del equipo. Mi contribución ayudó a consolidar un entorno de trabajo colaborativo, donde cada aporte sumó al cumplimiento de los objetivos trazados.
+              En esta etapa del proyecto colaboré en la definición de metas y tareas vinculadas al análisis competitivo y al needfinding, aportando insumos que fueron revisados y mejorados en conjunto con mis compañeros. Participé en la planificación de la construcción de los user personas, la user task matrix y los distintos mapeos (user journey, empathy y as-is), cumpliendo con los plazos establecidos y adaptando mis entregables a las observaciones del equipo. Mi contribución ayudó a consolidar un entorno de trabajo colaborativo, donde cada aporte sumó al cumplimiento de los objetivos trazados.
             </td>
           </tr>
           <tr>
@@ -418,7 +949,7 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
             </td>
           </tr>
           <tr>
-           <td align="justify">
+            <td align="justify">
               <b>Pardo Zapata, Gustavo Adolfo:</b><br>
               Colaboré en la organización de actividades, promoviendo la participación de todos durante el modelado del dominio. Al desarrollar los puntos estratégicos y tácticos, ayudé a establecer metas claras y a planificar tareas de manera conjunta, logrando que los entregables se completaran a tiempo. Fomenté un ambiente de confianza y cooperación que permitió al equipo trabajar de forma inclusiva y orientada a resultados.
             </td>
@@ -436,18 +967,137 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
             </td>
           </tr>
         </table>
+          <table>
+          <tr>
+            <td rowspan="7"><b>TP</b></td>
+          </tr>
+        <!-- Estudiantes -->
+          <tr>
+            <td align="justify">
+              <b>Del Carmen Zorrilla, Ray Alessandro:</b><br>
+              Ejercí un liderazgo compartido en el diseño UI/UX de la landing page, coordinando la estructura visual y funcional del proyecto. 
+              Lideré la planificación del Sprint definiendo objetivos claros, asignación de tareas y cronograma de entregables. 
+              Desarrollé wireframes y mockups (versión web y mobile) aplicando principios de usabilidad, fomentando la toma de decisiones colaborativa 
+              con el equipo y asegurando coherencia entre la propuesta de valor y la experiencia de usuario final.
+            </td>
+          </tr>
+          <tr>
+            <td align="justify">
+              <b>Cruz Palomino, Adriano Sebastian</b><br>
+              En esta etapa planifiqué las tareas de diseño y compartí los avances en Figma para recibir aportes del equipo. 
+              Fomenté un entorno participativo y ordenado, lo que permitió cumplir los plazos y mejorar continuamente el prototipo 
+              a partir del trabajo conjunto.
+            </td>
+          </tr>
+          <tr>
+            <td align="justify">
+              <b>Quiñones Tintaya, Johan Jorge:</b><br>
+              En el avance del Análisis de entrevistas, coordine con mis compañeros la construcción de preguntas y la redacción de respuestas en primera persona, de modo que todos pudimos aportar desde distintos enfoques. Del mismo modo, en el desarrollo del Tactical-Level Domain-Driven Design y sus subpuntos por cada bounded context, ejercí el desarrollo completo de sus responsabilidades técnicas (diagramas, definición de capas y modelos).
+            </td>
+          </tr>
+          <tr>
+            <td align="justify">
+              <b>Pardo Zapata Gustavo Adolfo:</b><br>
+              Creé un entorno de desarrollo colaborativo mediante la implementación de herramientas unificadas (Discord, Trello, GitHub) y documentación técnica accesible. Establecí metas claras para la configuración de los entornos de desarrollo, prueba y producción, planificando las tareas de implementación en fases sucesivas. Implementé procesos de revisión de código y convenciones que fomentaron la inclusión de todos los miembros del equipo. Cumplí con los objetivos entregando una infraestructura robusta que permitió al equipo focalizarse en el desarrollo de funcionalidades.
+            </td>
+          </tr>
+          <tr>
+            <td align="justify">
+              <b>Roca Huapaya, Orlando Arturo:</b><br>
+              Promoví un entorno colaborativo e inclusivo al proponer metas semanales claras con criterios de aceptación y responsables. Planifiqué tareas y dependencias por capítulo, organicé el calendario de entregas y di seguimiento a avances y bloqueos para mantener el ritmo del equipo. Integré comentarios en los apartados de Lean UX, ajusté prioridades cuando fue necesario y aseguré el cumplimiento de plazos y calidad. Mantuvimos una comunicación abierta para resolver dudas y redistribuir trabajo, lo que permitió alcanzar los objetivos sin sacrificar consistencia ni claridad.
+            </td>
+          </tr>
+          <tr>
+            <td align="justify">
+                <b>Mancilla Ordaya, Eduardo Vicente:</b><br>
+              Durante el desarrollo de esta entrega apoyé en la entrevista al primer segmento objetivo, asumí mi rol de liderazgo proponiendo los diagramas C4 con las tecnologías en el que podríamos realizar el proyecto. También consideré la coherencia con los otros puntos del informe para la realización de los diagramas.
+            </td>
+          </tr>
+        </table>
+        <table>
+          <tr>
+            <td rowspan="7"><b>TB2</b></td>
+          </tr>
+        <!-- Estudiantes -->
+          <tr>
+            <td align="justify">
+              <b>Del Carmen Zorrilla, Ray Alessandro:</b><br>
+              Ejercí un liderazgo compartido en el diseño UI/UX de la landing page, coordinando la estructura visual y funcional del proyecto. 
+              Lideré la planificación del Sprint definiendo objetivos claros, asignación de tareas y cronograma de entregables. 
+              Desarrollé wireframes y mockups (versión web y mobile) aplicando principios de usabilidad, fomentando la toma de decisiones colaborativa 
+              con el equipo y asegurando coherencia entre la propuesta de valor y la experiencia de usuario final.
+            </td>
+          </tr>
+          <tr>
+            <td align="justify">
+              <b>Cruz Palomino, Adriano Sebastian</b><br>
+              En la TB2 contribuí a mantener un entorno colaborativo mediante la planificación de tareas de diseño y la coordinación continua con el equipo. 
+              Además, realicé la entrevista de validación de esta fase, la cual permitió confirmar supuestos, ajustar prioridades 
+              y orientar las tareas del sprint a partir de evidencia directa de usuarios. Esta participación reforzó el cumplimiento de metas, 
+              el orden en las entregas y la integración efectiva entre diseño, validación y desarrollo.
+            </td>
+          </tr>
+          <tr>
+            <td align="justify">
+              <b>Quiñones Tintaya, Johan Jorge:</b><br>
+              En el avance del Análisis de entrevistas, coordine con mis compañeros la construcción de preguntas y la redacción de respuestas en primera persona, de modo que todos pudimos aportar desde distintos enfoques. Del mismo modo, en el desarrollo del Tactical-Level Domain-Driven Design y sus subpuntos por cada bounded context, ejercí el desarrollo completo de sus responsabilidades técnicas (diagramas, definición de capas y modelos).
+            </td>
+          </tr>
+          <tr>
+            <td align="justify">
+              <b>Pardo Zapata Gustavo Adolfo:</b><br>
+              En la TB2, consolidé un entorno de desarrollo colaborativo. Establecimos metas técnicas claras, planificando las tareas en sprints semanales con Trello y revisiones de código en GitHub. Cumplí con los objetivos al implementar  la configuración de los entornos de integración, lo que permitió al equipo comenzar el desarrollo de frontend y backend de manera paralela, coordinada y sobre una base técnica sólida.
+            </td>
+          </tr>
+          <tr>
+            <td align="justify">
+              <b>Roca Huapaya, Orlando Arturo:</b><br>
+              Fomenté un entorno colaborativo al mantener una comunicación clara con el equipo y organizar los avances de forma accesible para todos. Establecí metas relacionadas con la validación temprana de la solución y planifiqué la tarea de realizar una entrevista a un bañista, donde presenté la landing page y la aplicación web para obtener retroalimentación real. Además, ordené y estructuré los commits del proyecto para asegurar trazabilidad y facilitar el trabajo conjunto, lo que contribuyó al cumplimiento de los objetivos y a mantener la coherencia del desarrollo.
+            </td>
+          </tr>
+          <tr>
+            <td align="justify">
+                <b>Mancilla Ordaya, Eduardo Vicente:</b><br>
+              Durante el desarrollo de esta entrega asumí un rol más operativo dentro del equipo, enfocándome en la construcción del prototipo móvil. Contribuí directamente en el desarrollo de las vistas del sistema Metalix y en la configuración del flujo de navegación entre ellas, asegurando consistencia visual y funcional. Además, apoyé en la entrevista de validación realizada a nuestro primer segmento objetivo, aportando en la interpretación de los comentarios recopilados para fortalecer el diseño y orientar los siguientes pasos del proyecto.
+            </td>
+          </tr>
+        </table>
       </td>
-      <!-- Conclusion TB1 -->
-      <td rowspan="1" align="justify">
-        El equipo trabajó en un entorno colaborativo, valorando las propuestas de todos y asegurando la participación equitativa.  
-        Se establecieron metas claras para cada hito (entrevistas, análisis, mapeos, especificaciones y diseño), 
-        planificando tareas de forma conjunta y distribuyendo el trabajo según las fortalezas de cada integrante.  
-        Gracias a esta organización y compromiso colectivo, se cumplieron los objetivos en los tiempos establecidos, 
-        garantizando un proyecto cohesionado y alineado a la solución propuesta.
+      <!-- Conclusiones -->
+      <td>
+        <table>
+          <tr>
+            <td><b>TB1</b></td>
+            <td align="justify">
+              El equipo trabajó en un entorno colaborativo, valorando las propuestas de todos y asegurando la participación equitativa.  
+              Se establecieron metas claras para cada hito (entrevistas, análisis, mapeos, especificaciones y diseño), 
+              planificando tareas de forma conjunta y distribuyendo el trabajo según las fortalezas de cada integrante.  
+              Gracias a esta organización y compromiso colectivo, se cumplieron los objetivos en los tiempos establecidos, 
+              garantizando un proyecto cohesionado y alineado a la solución propuesta.
+            </td>
+          </tr>
+          <tr>
+            <td><b>TP</b></td>
+            <td align="justify">
+              En el TP, el equipo mantuvo y profundizó el entorno colaborativo establecido, creando nuevas dinámicas de trabajo 
+              que integraron el desarrollo técnico con la experiencia de usuario. Se planificaron sprints con metas específicas, 
+              se distribuyeron tareas técnicas complejas y se establecieron procesos de revisión cruzada que aseguraron 
+              la calidad y consistencia. El cumplimiento de objetivos se logró mediante una comunicación fluida, 
+              adaptación ágil a los cambios y un compromiso colectivo con la excelencia en cada entregable.
+            </td>
+          </tr>
+           <tr>
+            <td><b>TB2</b></td>
+            <td align="justify">
+              Durante la TB2, el equipo consolidó su madurez técnica y colaborativa al ejecutar exitosamente la fase de implementación del proyecto Metalix. Cada integrante asumió roles de liderazgo y colaborativo especializado en áreas críticas como el desarrollo de frontend y backend, la implementación de DevOps y la gestión de calidad del código. Esta distribución permitió mantener un entorno de trabajo inclusivo y coordinado, donde se establecieron metas técnicas ambiciosas, se planificaron sprints con entregables claros y se cumplieron los objetivos de implementación funcional. El resultado fue la entrega de un producto integral y cohesivo, respaldado por una infraestructura técnica robusta y alineada con los principios de Domain-Driven Design y las mejores prácticas de ingeniería de software.
+            </td>
+          </tr>
+        </table>
       </td>
     </tr>
   </tbody>
 </table>
+
 
 <br><br>
 
@@ -2463,7 +3113,9 @@ Después, utilizamos el Bounded Context Canvas para definir claramente los lími
 ### 4.1.1. EventStorming
 Event Storming es una herramienta que nos permite descubrir el comportamiento de un negocio, recopilando eventos importantes del negocio, los actores principales, servicios de terceros y otros. Para la implementación de esta sección se realizaron entrevistas correspondientes a los segmentos objetivos (ciudadanos, municipalidades y administradores), de esta manera pudimos identificar los eventos principales relacionados con la recolección de residuos metálicos, identificación de usuarios, gestión de recompensas y desarrollar un entendimiento común.
 
-![EventStorming](./diagrams/BoundedContext/eventstorming.png)
+<div align="center">
+  <img src="./diagrams/BoundedContext/eventstorming.png" alt="EventStorming">
+</div>
 
 Aquí mostramos los pasos respectivos para la elaboración correcta del Event Storming realizada en la herramienta de Miro.
 
@@ -2474,57 +3126,75 @@ Aquí mostramos los pasos respectivos para la elaboración correcta del Event St
 
 En esta sección se realizó una lluvia de ideas de los eventos del dominio relacionados con el sistema de gestión inteligente de residuos metálicos que se está explorando. Nos permitió identificar los eventos clave como: WasteCollected, UserAuthenticated, MetallicResidueValidated, PointsEarned, RewardClaimed, BenefitDefined, ReportGenerated, entre otros, y las interacciones entre ellos.
 
-![EventStorming](./diagrams/Canvases/event_keys.png)
+<div align="center">
+  <img src="./diagrams/Canvases/event_keys.png" alt="EventStorming Event Keys">
+</div>
 
 **Step 2: Timelines**
 
 En esta sección, los eventos identificados previamente, son agrupados en subgrupos lo cual tiene como líder al evento principal (es quien encapsula la funcionalidad principal del grupo). Estos eventos comienzan con el flujo que describe el escenario empresarial exitoso (Happy path) relacionado con la recolección de residuos, validación de usuarios, asignación de puntos y canje de recompensas, así como también escenarios alternativos cuando hay fallos en la validación o problemas técnicos.
 
-![EventStorming](./diagrams/Canvases/Flujo_Principal.png)
+<div align="center">
+  <img src="./diagrams/Canvases/Flujo_Principal.png" alt="EventStorming Flujo Principal">
+</div>
 
 **Step 3: Paint Points**
 
 Durante esta fase, identificamos puntos problemáticos o (Pain Points) que son áreas donde los usuarios pueden obtener dificultades al momento de realizar una respectiva funcionalidad en la aplicación. Estos puntos incluyen problemas con la validación RFID, fallos en los sensores de detección metálica, demoras en la asignación de puntos, y dificultades en el proceso de canje de recompensas. Estos puntos son importantes para mejorar la experiencia de usuario e implementar una aplicación eficiente.
 
-![EventStorming](./diagrams/BoundedContext/painpoints.png)
+<div align="center">
+  <img src="./diagrams/BoundedContext/painpoints.png" alt="EventStorming Pain Points">
+</div>
 
 **Step 4: Pivotal Points**
 
 En esta fase, nos enfocamos en identificar los puntos cruciales dentro del flujo del negocio de gestión de residuos, los cuales tienen un impacto significativo en la operatividad del sistema o el comportamiento del usuario. Estos puntos incluyen la validación exitosa de residuos metálicos, la correcta identificación del usuario vía RFID, y la confirmación del canje de recompensas. Estos puntos nos ayudan a priorizar qué áreas deben ser optimizadas o revisadas con mayor detalle.
 
-![EventStorming](./diagrams/BoundedContext/pivotalevents.png)
+<div align="center">
+  <img src="./diagrams/BoundedContext/pivotalevents.png" alt="EventStorming Pivotal Points">
+</div>
 
 
 **Step 5: Commands**
 
 Los comandos representan acciones que los actores del sistema pueden ejecutar. Durante este paso, mapeamos qué acciones desencadenan los eventos clave dentro del sistema: ValidateWaste, AuthenticateUser, AssignPoints, ClaimReward, DefineBenefit, GenerateReport, y qué actores (ciudadanos, administradores municipales, sistema IoT) son responsables de ejecutarlas.
 
-![EventStorming](./diagrams/BoundedContext/comands.png)
+<div align="center">
+  <img src="./diagrams/BoundedContext/comands.png" alt="EventStorming Commands">
+</div>
 
 **Step 6: Policies**
 
 En este paso, se identifican las políticas, que son reglas de negocio o condiciones que deben cumplirse para que un comando pueda ser ejecutado o un evento pueda suceder. Las políticas incluyen: "Solo se asignan puntos si el residuo es validado como metálico", "Cada usuario debe tener una tarjeta RFID única", "Los beneficios son definidos por cada municipio", "Los reportes se actualizan periódicamente".
 
-![EventStorming](./diagrams/BoundedContext/politics.png)
+<div align="center">
+  <img src="./diagrams/BoundedContext/politics.png" alt="EventStorming Policies">
+</div>
 
 **Step 7: Read Models**
 
 Los Read Models son vistas del estado del sistema, generalmente optimizadas para la consulta por parte de los usuarios o procesos. Durante este paso, definimos qué información necesita ser accesible: estado de puntos del usuario, historial de recolección, beneficios disponibles, métricas de impacto ambiental, y reportes de actividad municipal.
 
-![EventStorming](./diagrams/BoundedContext/readmodels.png)
+<div align="center">
+  <img src="./diagrams/BoundedContext/readmodels.png" alt="EventStorming Read Models">
+</div>
 
 
 **Step 8: External Systems**
 En esta fase, identificamos los sistemas externos que interactúan con nuestro dominio: sistemas de sensores IoT para detección de metales, lectores RFID, plataformas de pago para recompensas, sistemas municipales de gestión, y servicios de notificación. Es crucial entender cómo estos sistemas externos afectan los flujos de recolección y recompensas.
 
-![EventStorming](./diagrams/BoundedContext/sistems.png)
+<div align="center">
+  <img src="./diagrams/BoundedContext/sistems.png" alt="EventStorming External Systems">
+</div>
 
 
 **Step 9: Aggregates**
 
 En este último paso, agrupamos los eventos y comandos que pertenecen a un agregado específico: Waste Collection Aggregate, User Identity Aggregate, Reward Management Aggregate, Municipal Agreement Aggregate, y Reporting Aggregate, para garantizar que todas las operaciones dentro de un contexto estén alineadas y mantengan la consistencia del sistema.
 
-![EventStorming](./diagrams/Canvases/Aggregates.png)
+<div align="center">
+  <img src="./diagrams/Canvases/Aggregates.png" alt="EventStorming Aggregates">
+</div>
 
 #### 4.1.1.1. Candidate Context Discovery
 
@@ -2550,31 +3220,45 @@ Priorizar los bounded contexts, nos permite identificar situaciones primordiales
 
 **Bounded Context Identity & Access Management:**
 
-![EventStorming](./diagrams/Canvases/BCIAM.png)
+<div align="center">
+  <img src="./diagrams/Canvases/BCIAM.png" alt="Bounded Context Identity & Access Management">
+</div>
 
 **Bounded Context Waste Collection:**
 
-![EventStorming](./diagrams/Canvases/BCWASTECOLECTION.png)
+<div align="center">
+  <img src="./diagrams/Canvases/BCWASTECOLECTION.png" alt="Bounded Context Waste Collection">
+</div>
 
 **Bounded Context User Identification:**
 
-![EventStorming](./diagrams/Canvases/BCIDENTY.png)
+<div align="center">
+  <img src="./diagrams/Canvases/BCIDENTY.png" alt="Bounded Context User Identification">
+</div>
 
 **Bounded Context Reward Management:**
 
-![EventStorming](./diagrams/Canvases/BCREWARD.png)
+<div align="center">
+  <img src="./diagrams/Canvases/BCREWARD.png" alt="Bounded Context Reward Management">
+</div>
 
 **Bounded Context Municipality Management:**
 
-![EventStorming](./diagrams/Canvases/BCMUNICIPALMANG.png)
+<div align="center">
+  <img src="./diagrams/Canvases/BCMUNICIPALMANG.png" alt="Bounded Context Municipality Management">
+</div>
 
 **Bounded Context Monitoring & Reporting:**
 
-![EventStorming](./diagrams/Canvases/BCREPORT.png)
+<div align="center">
+  <img src="./diagrams/Canvases/BCREPORT.png" alt="Bounded Context Monitoring & Reporting">
+</div>
 
 **Visión General de los Bounded Contexts:**
 
-![EventStorming](./diagrams/Canvases/Bounded_context.png)
+<div align="center">
+  <img src="./diagrams/Canvases/Bounded_context.png" alt="Visión General de los Bounded Contexts">
+</div>
 
 
 #### 4.1.1.2. Domain Message Flows Modeling
@@ -2585,31 +3269,41 @@ En esta sección, se describe el proceso utilizado para visualizar la interacci�
 
 En este escenario, se describe el proceso de autenticación de usuario en el sistema. El ciudadano interactúa con el contexto de Identity & Access Management para autenticarse y acceder a las funcionalidades de la plataforma de reciclaje.
 
-![EventStorming](./diagrams/Canvases/user_authentication.png)
+<div align="center">
+  <img src="./diagrams/Canvases/user_authentication.png" alt="Scenario User Authentication">
+</div>
 
 **Scenario: Waste Collection Process**
 
 En este escenario, se describe el proceso completo de recolección de residuos metálicos. El ciudadano interactúa con los contextos de User Identification y Waste Collection para depositar residuos metálicos y ser identificado mediante su tarjeta RFID.
 
-![EventStorming](./diagrams/Canvases/Waste_Collection_process.png)
+<div align="center">
+  <img src="./diagrams/Canvases/Waste_Collection_process.png" alt="Scenario Waste Collection Process">
+</div>
 
 **Scenario: Reward Points Assignment**
 
 En este escenario, se describe el proceso de asignación de puntos de recompensa. Tras la validación exitosa del residuo metálico y la identificación del usuario, el contexto de Reward Management asigna puntos al usuario basado en las reglas definidas.
 
-![EventStorming](./diagrams/Canvases/Reward_Points_assignment.png)
+<div align="center">
+  <img src="./diagrams/Canvases/Reward_Points_assignment.png" alt="Scenario Reward Points Assignment">
+</div>
 
 **Scenario: Benefit Redemption**
 
 En este escenario, se describe el proceso de canje de beneficios municipales. El ciudadano interactúa con los contextos de Reward Management y Municipality Management para canjear sus puntos por beneficios definidos por su municipio.
 
-![EventStorming](./diagrams/Canvases/benefit_redemption.png)
+<div align="center">
+  <img src="./diagrams/Canvases/benefit_redemption.png" alt="Scenario Benefit Redemption">
+</div>
 
 **Scenario: Generate Impact Report**
 
 En este escenario, se describe el proceso de generación de reportes de impacto ambiental. Los administradores municipales interactúan con el contexto de Monitoring & Reporting para visualizar métricas de recolección, impacto ambiental y participación ciudadana.
 
-![EventStorming](./diagrams/Canvases/generate_impact_report.png)
+<div align="center">
+  <img src="./diagrams/Canvases/generate_impact_report.png" alt="Scenario Generate Impact Report">
+</div>
    
 #### 4.1.1.3. Bounded Context Canvases
 
@@ -2635,7 +3329,9 @@ En esta sección, se detallan los pasos seguidos por el equipo para diseñar los
 - **Reglas de negocio:** Los tokens de acceso tienen tiempo de expiración; Los usuarios deben autenticarse antes de acceder a funcionalidades; Diferentes roles tienen diferentes niveles de acceso
 - **Dependencias:** User Identification Context (para validar identidad de usuarios finales)
 
-![EventStorming](./diagrams/Canvases/IAMCANVAS.png)
+<div align="center">
+  <img src="./diagrams/Canvases/IAMCANVAS.png" alt="Bounded Context Canvas IAM">
+</div>
 
 **Bounded Context Canvas Waste Collection:**
 
@@ -2645,7 +3341,9 @@ En esta sección, se detallan los pasos seguidos por el equipo para diseñar los
 - **Reglas de negocio:** Solo se acepta para la compuerta si el material es metálico; La validación debe ser confirmada por sensores IoT
 - **Dependencias:** User Identification Context
 
-![EventStorming](./diagrams/Canvases/WASTECOLLECTIONCANVAS.png)
+<div align="center">
+  <img src="./diagrams/Canvases/WASTECOLLECTIONCANVAS.png" alt="Bounded Context Canvas Waste Collection">
+</div>
 
 **Bounded Context Canvas User Identification:**
 
@@ -2655,7 +3353,9 @@ En esta sección, se detallan los pasos seguidos por el equipo para diseñar los
 - **Reglas de negocio:** Cada usuario posee una tarjeta única; La tarjeta RFID debe estar activa y registrada
 - **Dependencias:** Reward Management Context
 
-![EventStorming](./diagrams/Canvases/USERIDENTIFICATIONCANVAS.png)
+<div align="center">
+  <img src="./diagrams/Canvases/USERIDENTIFICATIONCANVAS.png" alt="Bounded Context Canvas User Identification">
+</div>
 
 **Bounded Context Canvas Reward Management:**
 
@@ -2665,7 +3365,9 @@ En esta sección, se detallan los pasos seguidos por el equipo para diseñar los
 - **Reglas de negocio:** Los puntos sólo se asignan tras validar residuo y usuario; Los puntos tienen fecha de expiración
 - **Dependencias:** Municipality Management Context
 
-![EventStorming](./diagrams/Canvases/REWARDMANAGCANVAS.png)
+<div align="center">
+  <img src="./diagrams/Canvases/REWARDMANAGCANVAS.png" alt="Bounded Context Canvas Reward Management">
+</div>
 
 **Bounded Context Canvas Municipality Management:**
 
@@ -2675,7 +3377,9 @@ En esta sección, se detallan los pasos seguidos por el equipo para diseñar los
 - **Reglas de negocio:** Cada municipio define sus propios beneficios; Los convenios deben ser renovados periódicamente
 - **Dependencias:** Ninguna (contexto independiente)
 
-![EventStorming](./diagrams/Canvases/MUNICIPALMANGCANVAS.png)
+<div align="center">
+  <img src="./diagrams/Canvases/MUNICIPALMANGCANVAS.png" alt="Bounded Context Canvas Municipality Management">
+</div>
 
 **Bounded Context Canvas Monitoring & Reporting:**
 
@@ -2685,7 +3389,9 @@ En esta sección, se detallan los pasos seguidos por el equipo para diseñar los
 - **Reglas de negocio:** Los reportes deben actualizarse periódicamente; Las métricas deben reflejar el impacto ambiental real
 - **Dependencias:** Todos los demás contextos (para recopilar datos)
 
-![EventStorming](./diagrams/Canvases/MONITORINGREPORTCANVAS.png)
+<div align="center">
+  <img src="./diagrams/Canvases/MONITORINGREPORTCANVAS.png" alt="Bounded Context Canvas Monitoring & Reporting">
+</div>
 
 ### 4.1.2 Context mapping
 
@@ -2718,7 +3424,9 @@ En esta sección, se analizan las relaciones entre los bounded contexts identifi
 
 **Context Mapping Diagram**
 
-![EventStorming](./diagrams/Canvases/CCM.png)
+<div align="center">
+  <img src="./diagrams/Canvases/CCM.png" alt="Context Mapping Diagram">
+</div>
 
 El diagrama muestra claramente cómo los seis bounded contexts interactúan entre sí, con Identity & Access Management como el proveedor central de servicios de seguridad, User Identification como el núcleo de identificación de ciudadanos, Waste Collection como el procesador central de residuos, Reward Management como el gestor de incentivos, Municipality Management como el definidor de políticas de beneficios, y Monitoring & Reporting como el consumidor de datos para análisis e informes del sistema de reciclaje inteligente.
 
@@ -2728,28 +3436,39 @@ El diagrama muestra claramente cómo los seis bounded contexts interactúan entr
 
 > Muestra la visión general del ecosistema de ReciclaMar, con la plataforma RIMP como sistema central y los actores principales.   
 
-![System Landscape – IBMCS](./diagrams/c4/00-landscape/structurizr-105978-landscape.png)
+<div align="center">
+  <img src="./diagrams/c4/00-landscape/structurizr-105978-landscape.png" alt="System Landscape Diagram">
+</div>
 
 ---
 
 #### 4.1.3.2. Software Architecture Context Level Diagrams
 
 > Representa a RIMP como caja negra y cómo interactúan los segmentos: bañistas, municipalidades y mantenimiento.   
-![Context – General](./diagrams/c4/01-context/structurizr-105978-context.png)
+
+<div align="center">
+  <img src="./diagrams/c4/01-context/structurizr-105978-context.png" alt="Context Level Diagram">
+</div>
 
 ---
 
 #### 4.1.3.3. Software Architecture Container Level Diagrams
 
 > Descompone RIMP en sus aplicaciones y servicios: App móvil (Flutter), Web Admin (React), Backend (Spring Boot), DB, Storage y Firmware (ESP32).  
-![Containers – General](./diagrams/c4/02-containers/structurizr-105978-containers-usuarios.png)
+
+<div align="center">
+  <img src="./diagrams/c4/02-containers/structurizr-105978-containers-usuarios.png" alt="Container Level Diagram">
+</div>
 
 ---
 
 #### 4.1.3.4. Software Architecture Deployment Diagrams
 
 > Muestra dónde se despliegan los contenedores: ESP32 en playa, Backend/DB en Railway, Landing en GitHub Pages, Web Admin en hosting SPA y App móvil en Android.  
-![Deployment – Production](./diagrams/c4/03-deployment/structurizr-105978-deploy.png)
+
+<div align="center">
+  <img src="./diagrams/c4/03-deployment/structurizr-105978-deploy.png" alt="Deployment Diagram">
+</div>
 
 # 4.2. Tactical-Level Domain-Driven Design
 
@@ -2807,17 +3526,23 @@ El diagrama muestra claramente cómo los seis bounded contexts interactúan entr
 
 ### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams
 
-![IAMComponentDiagram](./diagrams/component-diagrams/IAM_Component_Diagram.png)
+<div align="center">
+  <img src="./diagrams/component-diagrams/IAM_Component_Diagram.png" alt="IAM Component Diagram">
+</div>
 
 ### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams
 
 #### 4.2.1.6.1. Bounded Context Domain Layer Class Diagrams
 
-![IAMClassDiagram](./diagrams/class-diagrams/IAM_Domain_Class_Diagram.png)
+<div align="center">
+  <img src="./diagrams/class-diagrams/IAM_Domain_Class_Diagram.png" alt="IAM Class Diagram">
+</div>
 
 #### 4.2.1.6.2. Bounded Context Database Design Diagram
 
-![IAMDatabaseDiagram](./diagrams/db-diagrams/IAM_Database_Design.png)
+<div align="center">
+  <img src="./diagrams/db-diagrams/IAM_Database_Design.png" alt="IAM Database Diagram">
+</div>
 
 ## 4.2.2. Bounded Context: WasteCollection
 
@@ -2893,17 +3618,23 @@ El diagrama muestra claramente cómo los seis bounded contexts interactúan entr
 
 ### 4.2.2.5. Bounded Context Software Architecture Component Level Diagrams
 
-![WateCollectionComponentDiagram](./diagrams/component-diagrams/WasteCollection_Component_Diagram.png)
+<div align="center">
+  <img src="./diagrams/component-diagrams/WasteCollection_Component_Diagram.png" alt="WasteCollection Component Diagram">
+</div>
 
 ### 4.2.2.6. Bounded Context Software Architecture Code Level Diagrams
 
 #### 4.2.2.6.1. Bounded Context Domain Layer Class Diagrams
 
-![WasteCollectionClassDiagram](./diagrams/class-diagrams/WasteCollection_Domain_Class_Diagram.png)
+<div align="center">
+  <img src="./diagrams/class-diagrams/WasteCollection_Domain_Class_Diagram.png" alt="WasteCollection Class Diagram">
+</div>
 
 #### 4.2.2.6.2. Bounded Context Database Design Diagram
 
-![WasteCollecionDatabaseDiagram](./diagrams/db-diagrams/WasteCollection_Database_Design.png)
+<div align="center">
+  <img src="./diagrams/db-diagrams/WasteCollection_Database_Design.png" alt="WasteCollection Database Diagram">
+</div>
 
 ## 4.2.3. Bounded Context: UserIdentification
 
@@ -2973,17 +3704,23 @@ El diagrama muestra claramente cómo los seis bounded contexts interactúan entr
 
 ### 4.2.3.5. Bounded Context Software Architecture Component Level Diagrams
 
-![UserIdentificationComponentDiagram](./diagrams/component-diagrams/UserIdentification_Component_Diagram.png)
+<div align="center">
+  <img src="./diagrams/component-diagrams/UserIdentification_Component_Diagram.png" alt="UserIdentification Component Diagram">
+</div>
 
 ### 4.2.3.6. Bounded Context Software Architecture Code Level Diagrams
 
 #### 4.2.3.6.1. Bounded Context Domain Layer Class Diagrams
 
-![UserIdentificationClassDiagram](./diagrams/class-diagrams/UserIdentification_Domain_Class_Diagram.png)
+<div align="center">
+  <img src="./diagrams/class-diagrams/UserIdentification_Domain_Class_Diagram.png" alt="UserIdentification Class Diagram">
+</div>
 
 #### 4.2.3.6.2. Bounded Context Database Design Diagram
 
-![UserIdentificationDatabaseDiagram](./diagrams/db-diagrams/UserIdentification_Database_Design.png)
+<div align="center">
+  <img src="./diagrams/db-diagrams/UserIdentification_Database_Design.png" alt="UserIdentification Database Diagram">
+</div>
 
 ## 4.2.4. Bounded Context: RewardManagement
 
@@ -3058,17 +3795,23 @@ El diagrama muestra claramente cómo los seis bounded contexts interactúan entr
 
 ### 4.2.4.5. Bounded Context Software Architecture Component Level Diagrams
 
-![RewardManagmentComponentDiagram](./diagrams/component-diagrams/RewardManagement_Component_Diagram.png)
+<div align="center">
+  <img src="./diagrams/component-diagrams/RewardManagement_Component_Diagram.png" alt="RewardManagement Component Diagram">
+</div>
 
 ### 4.2.4.6. Bounded Context Software Architecture Code Level Diagrams
 
 #### 4.2.4.6.1. Bounded Context Domain Layer Class Diagrams
 
-![RewardManagmentClassDiagram](./diagrams/class-diagrams/RewardManagement_Domain_Class_Diagram.png)
+<div align="center">
+  <img src="./diagrams/class-diagrams/RewardManagement_Domain_Class_Diagram.png" alt="RewardManagement Class Diagram">
+</div>
 
 #### 4.2.4.6.2. Bounded Context Database Design Diagram
 
-![RewardManagmentDatabaseDiagram](./diagrams/db-diagrams/RewardManagement_Database_Design.png)
+<div align="center">
+  <img src="./diagrams/db-diagrams/RewardManagement_Database_Design.png" alt="RewardManagement Database Diagram">
+</div>
 
 ## 4.2.5. Bounded Context: MunicipalityManagement
 
@@ -3143,17 +3886,23 @@ El diagrama muestra claramente cómo los seis bounded contexts interactúan entr
 
 ### 4.2.5.5. Bounded Context Software Architecture Component Level Diagrams
 
-![MunicipalityManagmentComponentDiagram](./diagrams/component-diagrams/MunicipalityManagement_Component_Diagram.png)
+<div align="center">
+  <img src="./diagrams/component-diagrams/MunicipalityManagement_Component_Diagram.png" alt="MunicipalityManagement Component Diagram">
+</div>
 
 ### 4.2.5.6. Bounded Context Software Architecture Code Level Diagrams
 
 #### 4.2.5.6.1. Bounded Context Domain Layer Class Diagrams
 
-![MunicipalityManagmentClassDiagram](./diagrams/class-diagrams/MunicipalityManagement_Domain_Class_Diagram.png)
+<div align="center">
+  <img src="./diagrams/class-diagrams/MunicipalityManagement_Domain_Class_Diagram.png" alt="MunicipalityManagement Class Diagram">
+</div>
 
 #### 4.2.5.6.2. Bounded Context Database Design Diagram
 
-![MunicipalityManagmentDatabaseDiagram](./diagrams/db-diagrams/MunicipalityManagement_Database_Design.png)
+<div align="center">
+  <img src="./diagrams/db-diagrams/MunicipalityManagement_Database_Design.png" alt="MunicipalityManagement Database Diagram">
+</div>
 
 ## 4.2.6. Bounded Context: Monitoring & Reporting
 
@@ -3235,17 +3984,23 @@ El diagrama muestra claramente cómo los seis bounded contexts interactúan entr
 
 ### 4.2.6.5. Bounded Context Software Architecture Component Level Diagrams
 
-![MonitoringReportingComponentDiagram](./diagrams/component-diagrams/MonitoringReporting_Component_Diagram.png)
+<div align="center">
+  <img src="./diagrams/component-diagrams/MonitoringReporting_Component_Diagram.png" alt="MonitoringReporting Component Diagram">
+</div>
 
 ### 4.2.6.6. Bounded Context Software Architecture Code Level Diagrams
 
 #### 4.2.6.6.1. Bounded Context Domain Layer Class Diagrams
 
-![MonitoringReportingClassDiagram](./diagrams/class-diagrams/MonitoringReporting_Domain_Class_Diagram.png)
+<div align="center">
+  <img src="./diagrams/class-diagrams/MonitoringReporting_Domain_Class_Diagram.png" alt="MonitoringReporting Class Diagram">
+</div>
 
 #### 4.2.6.6.2. Bounded Context Database Design Diagram
 
-![MonitoringReportingDatabaseDiagram](./diagrams/db-diagrams/MonitoringReporting_Database_Design.png)
+<div align="center">
+  <img src="./diagrams/db-diagrams/MonitoringReporting_Database_Design.png" alt="MonitoringReporting Database Diagram">
+</div>
 
 # Capítulo V: Solutions UI/UX Design
 
@@ -3253,98 +4008,1355 @@ El diagrama muestra claramente cómo los seis bounded contexts interactúan entr
 
 ### 5.1.1. General Style Guidelines
 
+- Branding: Metalix comunica tecnología al servicio del cuidado ambiental. El logotipo y la iconografía se mantienen simples, para que funcionen bien en cualquier escala y dimensiones de la pantalla del recolector IoT. La marca utiliza un estilo limpio y directo. Esto ayuda a transmitir a las personas el mensaje de reciclar puede generar recompensas de inmediato.
+
+- Typography: Usamos Poppins para titulares y acciones principales porque transmite una buena presencia visual. Para textos y tablas preferimos Inter por su legibilidad en pantallas pequeñas. Procuramos no mezclar más de dos fuentes de letra para no perder coherencia.
+
+- Colors: La paleta de colores esta compuesta por un tono turquesa que identifica a Metalix y transmite frescura e innovación. Se puede combinar con blancos y grises, tambien utilizamos el color violeta suave para resaltar estados o indicadores puntuales, ya que necesitamos visibilidad en interfaces de datos como tarjetas KPI, tablas y facilidad de uso al aire libre en el equipo IoT.
+
+- Spacing: Aplicamos un sistema de ocho puntos para márgenes. Esta regla hace que las pantallas respiren y mantenga un ritmo visual en web, app móvil y landing page. Las tarjetas y campos de formulario usan esquinas redondeadas y sombras suaves, solo para separar capas sin distraer.
+
+- Tono y lenguaje: El tono es sereno y positivo, y preferimos un estilo semi-formal respetuoso. Evitamos tecnicismos cuando nos dirigimos a ciudadanos y usamos mensajes cortos, orientados a la acción, por ejemplo “Recoge”, “Canjea”, “Ver detalles”.
+
+- Principios que sostienen estas decisiones: Claridad antes que estética, consistencia por encima de la “novedad” visual, accesibilidad como requisito y no como extra, y feedback inmediato en cada acción. Estos principios se eligieron porque el producto se visualizará en landing page, aplicación y dispositivo IoT, por lo tanto, necesita verse y sentirse igual en todas.
+
 ### 5.1.2. Web, Mobile and IoT Style Guidelines
+Metalix debe sentirse igual en todas las superficies, pero comportarse según el contexto. Compartimos los mismos tokens de diseño como colores, tipografías y espaciados, también adaptamos lo justo para que cada interfaz sea cómoda y eficiente. La idea es que el usuario reconozca la marca en cualquier lugar y no tenga que volver a aprender cómo usarla.
+
+En **Web** trabajamos con una maqueta responsiva que prioriza claridad y lectura de datos. La disposición habitual combina una barra lateral estable para la navegación y una barra superior con acciones de cuenta, dejando el cuerpo para tarjetas de KPIs, actividad reciente, tablas y formularios. Las tarjetas muestran títulos cortos, valores grandes e iconos discretos, tambien las listas y tablas mantienen estados claros, y los formularios siempre enseñan etiquetas, ayudas breves y mensajes de error debajo del campo. Todos los componentes tienen estados de interacción consistentes (hover, focus, disabled).
+
+En **Móvil** reducimos el esfuerzo cognitivo y el número de toques. La navegación se organiza con una barra inferior de cuatro secciones Inicio, Recolección/Mapa, Recompensas y Perfil, las pantallas tipo “stack” con un botón de retorno claro. Usamos una tipografía base, botones altos e iconos reconocibles. Habilitamos gestos como deslizar para acciones secundarias o “pull to refresh”. Si el usuario pierde conexión, lo avisamos con un banner y ofrecemos reintentos sin interrumpir su flujo.
+
+En el **Dispositivo IoT** la prioridad es la comprensión inmediata en condiciones cambiantes de luz y a cierta distancia. La pantalla usa alto contraste, textos muy breves y grandes, e iconografía universal (reciclaje, batería, conexión). Los estados se codifican por color como verde para listo, amarillo para procesando y rojo para error, y los mensajes no superan cuatro palabras. La interacción se apoya en botones físicos con pictogramas y confirmaciones sonoras cortas que distinguen el éxito del error. Además, el sistema tolera fallos comunes como la conexión automáticamente y ofrece un modo seguro con funciones básicas si algún sensor falla.
 
 ## 5.2. Information Architecture
 
 ### 5.2.1. Organization Systems
+En Metalix organizamos la información de tres formas, según lo que el usuario necesita hacer. Cuando tiene que “ubicar rápido”, usamos una estructura jerárquica en la Landing y el Dashboard lo importante va arriba como los KPIs, y lo complementario debajo como la actividad y detalles. Para tareas con pasos, aplicamos un flujo secuencial en el registro, recolección y canje para que de esta manera se guíen paso a paso para evitar dudas. Y cuando hay que comparar o explorar datos, preferimos una vista matricial como los historial y los reportes.
+
+Además, la categorización se adapta al contexto mediante tópicos, audiencia, orden cronológico en los listados con lo más reciente primero y orden alfabético cuando conviene buscar por nombre, por ejemplo en recompensas o dispositivos. Así cada pantalla reduce la carga mental y acerca al usuario a su objetivo con el menor esfuerzo.
 
 ### 5.2.2. Labeling Systems
+Usamos etiquetas claras y breves para que nadie se confunda al navegar. Preferimos palabras comunes, con el mismo vocabulario en web, móvil e IoT. Cuando hay una acción elegimos verbos simples como “Sign in”, “Create account”, “Collect waste”, “Redeem”, cuando solo identificamos contenido usamos sustantivos directos como “Dashboard”, “Rewards”, “Profile”. Los mensajes de estado son cortos y amables, por ejemplo “Cargando”, “Acción completada”, “Revisa los datos”, “Aún no hay elementos”. Siempre que ayuda, acompañamos con un ícono para acelerar el reconocimiento. Cuidamos la accesibilidad con etiquetas visibles en formularios, descripciones en iconos mediante aria-label. Con estas reglas las etiquetas son claras, suenan igual en todas las pantallas y reducen la carga mental de los usuarios.
 
 ### 5.2.3. SEO Tags and Meta Tags
 
+Para la Landing Page de Metalix usamos un título directo y una descripción que explique el valor en pocas palabras. Añadimos las palabras clave más relevantes para el proyecto y declaramos el autor para mantener coherencia. Además, incluimos metadatos Open Graph y Twitter Card para que, al compartir la página, aparezcan un título, una descripción y una imagen adecuados en redes sociales. A continuación se muestra los metatags listos.
+
+```HTML
+<title>Metalix – Recicla metales y gana recompensas con IoT</title>
+<meta name="description" content="Plataforma que incentiva el reciclaje de metales mediante tecnología IoT y un sistema de puntos canjeables por recompensas. Únete y reduce CO₂ con Metalix." />
+<meta name="keywords" content="reciclaje, IoT, metal, recompensas, sostenibilidad, puntos, medio ambiente, Metalix" />
+<meta name="author" content="Metalix UX/UI Team" />
+<meta property="og:title" content="Metalix – Recicla metales y gana recompensas con IoT" />
+<meta property="og:description" content="Recicla metales con tecnología IoT y gana recompensas. Únete y reduce CO₂ con Metalix." />
+<meta property="og:image" content="https://example.com/og/metalix-cover.jpg" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary_large_image" />
+```
+
 ### 5.2.4. Searching Systems
+En Metalix la búsqueda está pensada para que el usuario encuentre lo que necesita sin perderse entre datos. En la web y el móvil ofrecemos un campo de búsqueda visible donde se puede escribir por nombre, ubicación o tipo de metal, y a partir de ahí se refinan los resultados con filtros sencillos como rango de fechas, categoría de recompensa, estado de canje o dispositivo IoT. Los resultados se muestran en listas o tarjetas claras, con el término buscado destacado y acciones directas como ver detalles o canjear. Cuando no hay coincidencias, el sistema explica qué pasó y sugiere quitar filtros o probar con otras palabras. Para administradores, la búsqueda admite filtros avanzados y ordenamientos por fecha, cantidad recolectada o zona, y recuerda los últimos criterios usados para acelerar el trabajo diario. En móvil cuidamos que todo sea de pocos toques, así que los filtros se presentan como chips activables y el listado prioriza lo más útil primero. En todos los casos hay retroalimentación inmediata al aplicar un filtro o cambiar el término, evitando esperas innecesarias y manteniendo la interfaz estable.
 
 ### 5.2.5. Navigation Systems
+La navegación guía al usuario por la landing y las aplicaciones con la menor fricción posible. En la landing el recorrido es lineal y muy claro con un encabezado fijo con enlaces a Inicio, Problema, Solución, Beneficios, Como funciona y Contacto, acompañado de un llamado a la acción que lleva a crear cuenta o iniciar sesión. En la web se mantiene un patrón estable con barra lateral para las secciones principales como Dashboard, Waste Collection, Rewards y Profile, y una barra superior con el acceso a la cuenta. En la app móvil la navegación se simplifica con una barra inferior de cuatro ítems y transiciones tipo “pila” que conservan el contexto, con un botón de regreso visible. En el dispositivo IoT el flujo es lineal y muy breve, pensado para resolver en segundos.
+
 
 ## 5.3. Landing Page UI Design
 
 ### 5.3.1. Landing Page Wireframe
 
+**Inicio**
+
+<div align="center">
+  <img src="./chapter-5/LandingWireframes/01-Inicio-LandingPage-Wireframe.jpg" alt="Inicio Landing Page Wireframe">
+</div>
+
+**Problema**
+
+<div align="center">
+  <img src="./chapter-5/LandingWireframes/02-Problema-LandingPage-Wireframe.jpg" alt="Problema Landing Page Wireframe">
+</div>
+
+**Solución**
+
+<div align="center">
+  <img src="./chapter-5/LandingWireframes/03-Solucion-LandingPage-Wireframe.jpg" alt="Solución Landing Page Wireframe">
+</div>
+
+**Beneficios**
+
+<div align="center">
+  <img src="./chapter-5/LandingWireframes/04-Beneficios-LandingPage-Wireframe.jpg" alt="Beneficios Landing Page Wireframe">
+</div>
+
+**Cómo Funciona**
+
+<div align="center">
+  <img src="./chapter-5/LandingWireframes/05-Como%20Funciona-LandingPage-Wireframe.jpg" alt="Cómo Funciona Landing Page Wireframe">
+</div>
+
+**Diferencia**
+
+<div align="center">
+  <img src="./chapter-5/LandingWireframes/06-Diferencia-LandingPage-Wireframe.jpg" alt="Diferencia Landing Page Wireframe">
+</div>
+
+**Contáctanos**
+
+<div align="center">
+  <img src="./chapter-5/LandingWireframes/07-Contactanos-LandingPage-Wireframe.jpg" alt="Contáctanos Landing Page Wireframe">
+</div>
+
+**Footer**
+
+<div align="center">
+  <img src="./chapter-5/LandingWireframes/08-Footer-LandingPage-Wireframe.jpg" alt="Footer Landing Page Wireframe">
+</div>
+
 ### 5.3.2. Landing Page Mock-up
+
+A continuación, presentaremos las pantallas de nuestra landing page, tanto en su versión web como en su versión mobile.
+
+#### Mock-ups Versión Web
+
+**Pantalla de Inicio**
+<div align="center">
+  <img src="./chapter-5/LandingMockUps/01-Inicio-LandingPage-MockUp.jpg" alt="Pantalla de Inicio - Web">
+</div>
+
+**Sección Problema**
+<div align="center">
+  <img src="./chapter-5/LandingMockUps/02-Problema-LandingPage-MockUp.jpg" alt="Sección Problema - Web">
+</div>
+
+**Sección Solución**
+<div align="center">
+  <img src="./chapter-5/LandingMockUps/03-Solucion-LandingPage-MockUp.jpg" alt="Sección Solución - Web">
+</div>
+
+**Sección Beneficios**
+<div align="center">
+  <img src="./chapter-5/LandingMockUps/04-Beneficios-LandingPage-MockUp.jpg" alt="Sección Beneficios - Web">
+</div>
+
+**Sección Cómo Funciona**
+<div align="center">
+  <img src="./chapter-5/LandingMockUps/05-Como%20Funciona-LandingPage-MockUp.jpg" alt="Sección Cómo Funciona - Web">
+</div>
+
+**Vista Diferencia / Impacto**
+<div align="center">
+  <img src="./chapter-5/LandingMockUps/06-Diferencia-LandingPage-MockUp.jpg" alt="Vista Diferencia - Web">
+</div>
+
+**Sección Contáctanos**
+<div align="center">
+  <img src="./chapter-5/LandingMockUps/07-Contactanos-LandingPage-MockUp.jpg" alt="Sección Contáctanos - Web">
+</div>
+
+**Pie de Página (Footer)**
+<div align="center">
+  <img src="./chapter-5/LandingMockUps/08-Footer-LandingPage-MockUp.jpg" alt="Footer - Web">
+</div>
+
+#### Mock-ups Versión Mobile
+
+**Menú Hamburguesa**
+<div align="center">
+  <img src="./chapter-5/LandingMobileMockUps/00-Barra%20Hamburguesa-LandingPage-Mobile-MockUp.jpg" alt="Menú Hamburguesa - Mobile">
+</div>
+
+**Pantalla de Inicio**
+<div align="center">
+  <img src="./chapter-5/LandingMobileMockUps/01-Inicio-LandingPage-Mobile-MockUp.jpg" alt="Pantalla de Inicio - Mobile">
+</div>
+
+**Sección Problema**
+<div align="center">
+  <img src="./chapter-5/LandingMobileMockUps/02-Problema-LandingPage-Mobile-MockUp.jpg" alt="Sección Problema - Mobile">
+</div>
+
+**Sección Solución**
+<div align="center">
+  <img src="./chapter-5/LandingMobileMockUps/03-Solucion-LandingPage-Mobile-MockUp.jpg" alt="Sección Solución - Mobile">
+</div>
+
+**Sección Beneficios**
+<div align="center">
+  <img src="./chapter-5/LandingMobileMockUps/04-Beneficios-LandingPage-Mobile-MockUp.jpg" alt="Sección Beneficios - Mobile">
+</div>
+
+**Sección Cómo Funciona**
+<div align="center">
+  <img src="./chapter-5/LandingMobileMockUps/05-Como%20Funciona-LandingPage-Mobile-MockUp.jpg" alt="Sección Cómo Funciona - Mobile">
+</div>
+
+**Vista Diferencia / Impacto**
+<div align="center">
+  <img src="./chapter-5/LandingMobileMockUps/06-Diferencia-LandingPage-Mobile-MockUp.jpg" alt="Vista Diferencia - Mobile">
+</div>
+
+**Sección Contáctanos**
+<div align="center">
+  <img src="./chapter-5/LandingMobileMockUps/07-Contactanos-LandingPage-Mobile-MockUp.jpg" alt="Sección Contáctanos - Mobile">
+</div>
+
+**Pie de Página (Footer)**
+<div align="center">
+  <img src="./chapter-5/LandingMobileMockUps/08-Footer-LandingPage-Mobile-MockUp.jpg" alt="Footer - Mobile">
+</div>
 
 ## 5.4. Application UX/UI Design
 
 ### 5.4.1. Applications Wireframes
 
+**Web application wireframes**
+
+**Login**
+
+<div align="center">
+  <img src="./chapter-5/WebAppWireframes/login.png" alt="Login Wireframe">
+</div>
+
+**Register**
+
+<div align="center">
+  <img src="./chapter-5/WebAppWireframes/register.png" alt="Register Wireframe">
+</div>
+
+**Dashboard**
+
+<div align="center">
+  <img src="./chapter-5/WebAppWireframes/dashboard.png" alt="Dashboard Wireframe">
+</div>
+
+**WasteCollections**
+
+<div align="center">
+  <img src="./chapter-5/WebAppWireframes/WasteCollection.png" alt="WasteCollections Wireframe">
+</div>
+
+**Rewards-Available Rewards**
+
+<div align="center">
+  <img src="./chapter-5/WebAppWireframes/Rewards-AvailableRewards.png" alt="Rewards-AvailableRewards Wireframe">
+</div>
+
+**Rewards- My Rewards**
+
+<div align="center">
+  <img src="./chapter-5/WebAppWireframes/Rewards-MyRewards.png" alt="Rewards-MyRewards Wireframe">
+</div>
+
+**Rewards-  Points History**
+
+<div align="center">
+  <img src="./chapter-5/WebAppWireframes/Rewards-PointsHistory.png" alt="Rewards-PointsHistory Wireframe">
+</div>
+
+**Profile - Personal Information**
+
+<div align="center">
+  <img src="./chapter-5/WebAppWireframes/Profile-PersonalInformation.png" alt="Profile-PersonalInformation Wireframe">
+</div>
+
+**Profile - Achivements**
+
+<div align="center">
+  <img src="./chapter-5/WebAppWireframes/Profile-Achivements.png" alt="Profile-Achivements Wireframe">
+</div>
+
+**Profile-  Activity History**
+
+<div align="center">
+  <img src="./chapter-5/WebAppWireframes/Profile-ActivityHistory.png" alt="Profile-ActivityHistory Wireframe">
+</div>
+
 ### 5.4.2. Applications Wireflow Diagrams
+
+**Web App wireflow**
+
+**Login**
+
+<div align="center">
+  <img src="./chapter-5/WebAppWireframesDiagrams/login-register.png" alt="Login Wireflow">
+</div>
+
+**Historial de Reciclaje**
+
+<div align="center">
+  <img src="./chapter-5/WebAppWireframesDiagrams/recycle-history.png" alt="Historial de Reciclaje Wireflow">
+</div>
+
+**Salto de puntos**
+
+<div align="center">
+  <img src="./chapter-5/WebAppWireframesDiagrams/balance.png" alt="Salto de puntos Wireflow">
+</div>
 
 ### 5.4.3. Applications Mock-ups
 
+**Login**
+
+<div align="center">
+  <img src="./chapter-5/WebAppMockUps/Login.png" alt="Login Mock-up">
+</div>
+
+**Register**
+
+<div align="center">
+  <img src="./chapter-5/WebAppMockUps/Register.png" alt="Register Mock-up">
+</div>
+
+**Dashboard**
+
+<div align="center">
+  <img src="./chapter-5/WebAppMockUps/Dashboard.png" alt="Dashboard Mock-up">
+</div>
+
+**WasteCollections**
+
+<div align="center">
+  <img src="./chapter-5/WebAppMockUps/WasteCollections.png" alt="WasteCollections Mock-up">
+</div>
+
+**Rewards-Available Rewards**
+
+<div align="center">
+  <img src="./chapter-5/WebAppMockUps/Rewards-Available-Rewards.png" alt="Rewards-Available Rewards Mock-up">
+</div>
+
+**Rewards- My Rewards**
+
+<div align="center">
+  <img src="./chapter-5/WebAppMockUps/Rewards-My-Rewards.png" alt="Rewards-My Rewards Mock-up">
+</div>
+
+**Rewards-  Points History**
+
+<div align="center">
+  <img src="./chapter-5/WebAppMockUps/Rewards-Points-History.png" alt="Rewards-Points History Mock-up">
+</div>
+
+**Profile - Personal Information**
+
+<div align="center">
+  <img src="./chapter-5/WebAppMockUps/Profile-Personal-Information.png" alt="Profile-Personal Information Mock-up">
+</div>
+
+**Profile - Achivements**
+
+<div align="center">
+  <img src="./chapter-5/WebAppMockUps/Profile-Achivements.png" alt="Profile-Achivements Mock-up">
+</div>
+
+**Profile-  Activity History**
+
+<div align="center">
+  <img src="./chapter-5/WebAppMockUps/Profile-Activity-History.png" alt="Profile-Activity History Mock-up">
+</div>
+
 ### 5.4.4. Applications User Flow Diagrams
 
+**Login**
+
+<div align="center">
+  <img src="./chapter-5/WebAppUserFlowDiagrams/login-register.png" alt="Login User Flow">
+</div>
+
+**Historial de Reciclaje**
+
+<div align="center">
+  <img src="./chapter-5/WebAppUserFlowDiagrams/recycle-history.png" alt="Historial de Reciclaje User Flow">
+</div>
+
+**Salto de puntos**
+
+<div align="center">
+  <img src="./chapter-5/WebAppUserFlowDiagrams/balance.png" alt="Salto de puntos User Flow">
+</div>
+
 ## 5.5. Applications Prototyping
+
+Se desarrolló el prototipo de la aplicación en Figma, permitiendo visualizar la interfaz, navegación y funcionalidades antes del desarrollo final.
+
+<div align="center">
+  <img src="./chapter-5/WebAppPrototype/WebAppPrototype1.png" alt="Prototype 1">
+</div>
+
+<div align="center">
+  <img src="./chapter-5/WebAppPrototype/WebAppPrototype2.png" alt="Prototype 2">
+</div>
+
+Url Prototipo: https://www.figma.com/proto/tXjXHAxGRAcKYU0rNvETrO/Metalix?node-id=38-2&p=f&t=LBfmbCUFy9Fbl4Vg-1&scaling=min-zoom&content-scaling=fixed&page-id=3%3A3&starting-point-node-id=38%3A2
 
 # Capítulo VI: Product Implementation, Validation & Deployment
 
 ## 6.1. Software Configuration Management
 
+Este apartado documenta el ecosistema completo de herramientas, convenciones y procesos establecidos para garantizar el desarrollo colaborativo, eficiente y de alta calidad del Sistema CleanWave de Monitoreo Inteligente de Residuos en Playas. La configuración abarca desde la gestión del proyecto y el diseño de la experiencia de usuario hasta el desarrollo, las pruebas, el despliegue automatizado y la documentación.
+
 ### 6.1.1. Software Development Environment Configuration
+
+**Gestión de Proyecto y Comunicación**
+
+La coordinación del equipo se sustentó en Discord como canal principal para reuniones virtuales síncronas, facilitando la comunicación mediante videollamadas y mensajería instantánea. Paralelamente, se utilizó la suite Microsoft 365 para la gestión colaborativa de la documentación del proyecto, incluyendo el reporte final y las actas de reuniones.
+
+**Gestión de Requisitos y Diseño de Experiencia**
+
+El análisis de requisitos se realizó mediante Trello, empleando su sistema de tableros para organizar user stories y gestionar el progreso por sprints. Para el diseño de experiencia de usuario, se utilizó UXPressia en la creación de User Personas, Empathy Maps e Impact Maps. La plataforma Miro permitió modelar los escenarios As-Is y To-Be, mientras que Lucidchart y Structurizr se destinaron al diseño de diagramas de flujo y la arquitectura del sistema mediante diagramas C4.
+
+**Desarrollo de Producto**
+
+El diseño de interfaces se elaboró en Figma, herramienta que permitió desarrollar wireframes, mockups y prototipos interactivos para la aplicación web.
+
+**Desarrollo de Software**
+
+El proceso de codificación empleó Visual Studio Code para el desarrollo frontend y IntelliJ IDEA para el backend. El control de versiones se gestionó mediante Git, asegurando un flujo de desarrollo organizado y trazable.
+
+**Pruebas de Software**
+
+El aseguramiento de calidad se implementó mediante JUnit 5 y Mockito para la ejecución de pruebas unitarias y la creación de objetos mock en el backend.
+
+**Despliegue de Software**
+
+La implementación en producción utilizó Vercel para el despliegue de la aplicación web, GitHub Pages para la landing page estática, y Render para los servicios backend de la API.
+
+**Documentación de Software**
+
+La documentación técnica se centralizó en GitHub para el versionado de código, complementado con Swagger para la documentación interactiva de los endpoints de la API.
 
 ### 6.1.2. Source Code Management
 
+Para garantizar un control versión del código eficiente y una colaboración organizada durante el desarrollo del proyecto, se implementó una estrategia integral de gestión de código fuente. Se estableció una organización en GitHub como repositorio central para alojar todos los componentes del sistema, empleando el sistema de control de versiones Git como herramienta fundamental.
+
+**Estrategia de Ramas: GitFlow**
+
+Se adoptó la metodología GitFlow para organizar el flujo de trabajo, definiendo las siguientes ramas principales:
+
+- **main:** Contiene exclusivamente el código estable y listo para producción, representando las versiones desplegadas para usuarios finales.
+
+- **develop:** Sirve como rama de integración continua donde se consolidan los desarrollos de nuevas funcionalidades antes de su liberación a producción.
+
+- **feature/:** Ramas efímeras dedicadas al desarrollo de nuevas características, utilizando la nomenclatura feature/nombre-característica.
+
+- **hotfix/:** Ramas para corrección urgente de errores en producción, con el formato hotfix/nombre-fix.
+
+**Diagrama de flujo de trabajo usando Gitflow**
+
+![Gitflow](./diagrams/gitflow.png)
+
+**Convenciones y Estándares**
+
+El proyecto se desarrolló bajo convenciones internacionalmente reconocidas, implementando el estándar "Conventional Commits" (versión 1.0.0) para los mensajes de commit. Esta práctica garantiza un historial de cambios claro y estructurado, facilitando la trazabilidad y el mantenimiento del código. Adicionalmente, todo el desarrollo se realizó en inglés para mantener consistencia en la nomenclatura de ramas, commits y documentación técnica.
+
 ### 6.1.3. Source Code Style Guide & Conventions
+
+**Frontend (TypeScript/Angular)**
+
+- Nomenclatura: PascalCase para clases, componentes y servicios; camelCase para variables, métodos y propiedades
+
+- Estructura de Archivos: Convenciones de Angular CLI para organización de proyectos: components/, services/, models/, modules/
+
+- Componentes: Uso de decoradores @Component, separación clara entre lógica TypeScript, plantillas HTML y estilos CSS/SCSS
+
+- Servicios: Implementación con decorador @Injectable para inyección de dependencias
+
+**Landing Page (HTML/CSS/JavaScript)**
+
+- HTML: Estructura semántica, uso de atributos alt en imágenes, y indentación consistente
+
+- CSS: Nomenclatura descriptiva para clases, organización modular de estilos, y diseño responsive
+
+- JavaScript: Uso de const/let en lugar de var, nombres descriptivos para variables y funciones
+
+**Backend (Java/Spring Boot)**
+
+- Nomenclatura: PascalCase para clases e interfaces, camelCase para variables y métodos
+
+- Estructura: Seguimiento de las convenciones de Spring Boot para organización de paquetes (controller, service, repository, model)
+
+- Documentación: Uso de JavaDoc para documentación de APIs y clases principales
+
+**Convenciones de Commits**
+
+Implementación del estándar Conventional Commits con la estructura:
+
+<tipo>[alcance opcional]: <descripción>
+
+(Tipos: feat, fix, docs, style, refactor, test, chore)
 
 ### 6.1.4. Software Deployment Configuration
 
+**Landing Page Deployment Configuration**
+
+Para el despliegue de la Landing Page de Metalix, se utilizó GitHub Pages, un servicio de alojamiento web estático que permite a los desarrolladores alojar sitios web estáticos de forma gratuita. Los pasos fueron los siguientes:
+
+Crear un repositorio en GitHub con el código fuente de la Landing Page. El repositorio contiene el archivo index.html en la raíz del proyecto.
+
+Habilitar GitHub Pages en la configuración del repositorio, seleccionando la rama y la carpeta de despliegue.
+
+Se seleccionó la rama main y la carpeta raíz del proyecto como fuente de despliegue.
+
+Acceder a la URL proporcionada por GitHub Pages para visualizar la Landing Page. La URL tiene el siguiente formato: "https://username.github.io/repository"
+
+**Web Application Deployment Configuration**
+
+Para desplegar el frontend de la aplicación web de Metalix, se utilizó Vercel, una plataforma que facilita el despliegue de aplicaciones front-end. Los pasos para el despliegue en Vercel son:
+
+Crear una cuenta en Vercel si aún no se tiene una.
+
+Conectar el repositorio de GitHub donde se encuentra el código del frontend. Vercel permite la integración directa con GitHub.
+
+Seleccionar el repositorio correspondiente y configurar el proyecto según las necesidades.
+
+Configurar las variables de entorno necesarias para la aplicación, si corresponde.
+
+Desplegar la aplicación haciendo clic en el botón de despliegue. Vercel generará una URL única donde la aplicación será accesible.
+
+Acceder a la URL proporcionada por Vercel para visualizar la aplicación web.
+
+GitHub Pages Deployment
+Accede al Landing Page de Metalix: https://johaanq.github.io/metalix-landing-page/
+
 ## 6.2. Landing Page, Services & Applications Implementation
 
-### 6.2.X. Sprint n
+### 6.2.1. Sprint 1
 
-#### 6.2.X.1. Sprint Planning n
-#### 6.2.X.1. Sprint Planning n
+Esta sección registra y explica el progreso en términos de producto y trabajo colaborativo para el Sprint 1. El Sprint 1 se enfocó en el desarrollo del frontend de la aplicación web y la landing page del proyecto Metalix, estableciendo las bases para la interfaz de usuario y la presencia digital del proyecto.
 
-#### 6.2.X.2. Sprint Backlog n
-#### 6.2.X.2. Sprint Backlog n
+#### 6.2.1.1. Sprint Planning 1
 
-#### 6.2.X.3. Development Evidence for Sprint Review
+Esta sección especifica los principales aspectos de la Reunión de Sprint Planning. La sección comienza con una introducción y luego se coloca la tabla resumen de la reunión de sprint planning.
 
-#### 6.2.X.4. Testing Suite Evidence for Sprint Review
-#### 6.2.X.4. Testing Suite Evidence for Sprint Review
+**Información de la Reunión de Sprint Planning:**
 
-#### 6.2.X.5. Execution Evidence for Sprint Review
-#### 6.2.X.5. Execution Evidence for Sprint Review
+| Aspecto | Detalle |
+|---------|---------|
+| **Sprint #** | Sprint 1 |
+| **Fecha** | 2025-10-15 |
+| **Hora** | 10:00 AM |
+| **Ubicación** | Reunión virtual (Microsoft Teams) |
+| **Preparado por** | Johan Quinones |
+| **Asistentes** | Johan Quinones, Eduardo Mancilla, Adriano Cruz, Orlando Roca, Gustavo Perfil, Ray del Carmen |
+| **Resumen del Sprint 1:** | Durante el Sprint 1 se completó la configuración inicial del proyecto, incluyendo la creación de repositorios, configuración de herramientas de desarrollo, y establecimiento de la arquitectura base del sistema. |
+| **Resumen de la Retrospectiva del Sprint 1:** | El equipo identificó la necesidad de mejorar la comunicación entre miembros y establecer roles más claros para el desarrollo del frontend y landing page. |
+| **Objetivo del Sprint 1:** | Nuestro enfoque está en desarrollar una landing page atractiva y funcional junto con el frontend base de la aplicación web. Creemos que esto entrega una presencia digital sólida y una base técnica robusta a nuestros usuarios y stakeholders. Esto será confirmado cuando tengamos una landing page desplegada y un frontend funcional con navegación básica. |
+| **Velocity del Sprint 1:** | 21 Story Points |
+| **Suma de Story Points:** | 21 Story Points |
 
-#### 6.2.X.6. Services Documentation Evidence for Sprint Review
-#### 6.2.X.6. Services Documentation Evidence for Sprint Review
+#### 6.2.1.2. Aspect Leaders and Collaborators
 
-#### 6.2.X.7. Software Deployment Evidence for Sprint Review
-#### 6.2.X.7. Software Deployment Evidence for Sprint Review
+Esta sección describe la elaboración de una "Matriz de Liderazgo y Colaboración (LACX)". Esta matriz está destinada a indicar, para cada aspecto dentro del alcance del Sprint, quién es el líder y quiénes son los colaboradores para ese aspecto específico.
 
-#### 6.2.X.8. Team Collaboration Insights during Sprint
-#### 6.2.X.8. Team Collaboration Insights during Sprint
+El objetivo principal de esta matriz es proporcionar mayor claridad y efectividad en la comunicación interna del equipo.
 
-## 6.3. Validation Interviews
+**Matriz de Liderazgo y Colaboración (LACX) - Sprint 1:**
+
+| Miembro del Equipo | GitHub Username | Landing Page Leader (L)/Collaborator (C) | Frontend Development Leader (L)/Collaborator (C) | UI/UX Design Leader (L)/Collaborator (C) |
+|-------------------|-----------------|-------------------------------------------|---------------------------------------------------|-------------------------------------------|
+| Johan Quinones | johaanq | L | L | C |
+| Eduardo Mancilla | EduardoMancilla | C | C | C |
+| Adriano Cruz | adrianocruz | C | C | L |
+| Orlando Roca | orlandoroca | C | C | C |
+| Gustavo Perfil | gustavoperfil | C | C | C |
+| Ray del Carmen | raydelcarmen | C | C | C |
+
+La organización de líderes y colaboradores está relacionada con la selección posterior de tareas en el Sprint.
+
+#### 6.2.1.3. Sprint Backlog 1
+
+Esta sección debe comenzar con una introducción resumiendo el objetivo principal del Sprint, seguida de una captura de pantalla del Sprint Board de la herramienta de control (ej: Trello) y su URL pública. Luego se debe incluir una tabla para especificar los User Stories asignados al Sprint, junto con los Work-items/Tasks resultantes de la descomposición de User Stories.
+
+**Objetivo del Sprint 1:**
+Desarrollar la landing page de Metalix y establecer el frontend base de la aplicación web con funcionalidades de navegación y componentes principales.
+
+| User Story | Titulo  | Relación con Product Backlog   | Estimación (Horas) | Asignado a        | Estado |
+| --------- | --------- | ---------------------------- | ------------- | ------------- | ------------------ |
+| HU-13 | Ver saldo | EP-02 - Acceso seguro a la plataforma | 6 | Johan | Done |
+| HU-12 | Consultar puntos por municipalidad| EP-04 - Interes Municipal | 3 | Eduardo | Done |
+| HU-15 | Registrar interes municipal | EP-04 -  Interes Munipal| 6 | Ray | Done |
+| HU-10 | Editar perfil | EP-03 - Gestión de perfil de usuario | 8 | Adriano | Done |
+| HU-14 | Canjear recompensas | EP-21 - Recompensas para bañistas | 7 | Gustavo | Done |
+| HU-21 | Gestion de usuarios municipales | EP-28 - Gestion de usuarios municipales | 6 | Orlando | Done|
+
+
+#### 6.2.1.4. Development Evidence for Sprint Review
+
+Esta sección presenta el progreso de implementación relacionado con los productos de la solución dentro del alcance del Sprint, como Landing Page, Aplicaciones Web, Servicios Web, entre otros. Comienza con una introducción resumiendo los principales avances de implementación.
+
+**Resumen de Avances de Implementación:**
+Durante el Sprint 1 se logró completar exitosamente el desarrollo de la landing page de Metalix y establecer la base del frontend de la aplicación web. Se implementaron componentes clave y se estableció la arquitectura base para futuras funcionalidades.
+
+**Commits del Repositorio - Landing Page:**
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
+|------------|--------|-----------|----------------|-------------------|-------------------|
+| johaanq/metalix-landing-page | main | 7f8a2c3 | feat: initialize landing page project | Created initial project structure with index.html and base configuration | 28/09/2025 |
+| johaanq/metalix-landing-page | main | 4d9e1b6 | feat: add hero section | Implemented hero section with Metalix branding and call-to-action buttons | 29/09/2025 |
+| johaanq/metalix-landing-page | main | 2a5f8c9 | feat: implement features section | Added features showcase highlighting waste management capabilities | 01/10/2025 |
+| johaanq/metalix-landing-page | main | 9b3c4d7 | feat: add benefits section | Created benefits section with environmental impact metrics | 02/10/2025 |
+| johaanq/metalix-landing-page | main | 6e2a9f1 | style: implement responsive design | Added responsive CSS with mobile-first approach and breakpoints | 03/10/2025 |
+| johaanq/metalix-landing-page | main | 3c8b5e4 | feat: add contact form | Implemented contact form with validation and submission handling | 05/10/2025 |
+| johaanq/metalix-landing-page | main | 1f7d3a8 | feat: add testimonials section | Created testimonials carousel with municipality success stories | 06/10/2025 |
+| johaanq/metalix-landing-page | main | 5b9e2c6 | style: add animations and transitions | Implemented smooth scroll animations and hover effects | 08/10/2025 |
+| johaanq/metalix-landing-page | main | 8a4f1d9 | fix: improve cross-browser compatibility | Fixed CSS issues for Safari and Firefox browsers | 09/10/2025 |
+| johaanq/metalix-landing-page | main | 2e6c9b3 | docs: update README and add deployment guide | Added comprehensive documentation for landing page deployment | 10/10/2025 |
+
+**Commits del Repositorio - Frontend:**
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
+|------------|--------|-----------|----------------|-------------------|-------------------|
+| johaanq/metalix-frontend | develop | a7e4f2b | feat: initialize Angular project | Created Angular project with TypeScript configuration and project structure | 28/09/2025 |
+| johaanq/metalix-frontend | develop | 3c9d6a1 | feat: configure routing module | Set up Angular routing with lazy loading and route guards | 30/09/2025 |
+| johaanq/metalix-frontend | develop | 8f2e5c4 | feat: create shared module | Implemented shared module with common components and directives | 01/10/2025 |
+| johaanq/metalix-frontend | develop | 5d8a3b9 | feat: implement authentication module | Created login, register components and authentication service | 02/10/2025 |
+| johaanq/metalix-frontend | develop | 9b4e7c2 | feat: add user dashboard | Implemented user dashboard with waste collection statistics | 03/10/2025 |
+| johaanq/metalix-frontend | develop | 2f6c8a5 | feat: create waste collection module | Added components for waste collection tracking and history | 04/10/2025 |
+| johaanq/metalix-frontend | develop | 7a3d9e1 | feat: implement rewards system UI | Created rewards management interface with points display | 05/10/2025 |
+| johaanq/metalix-frontend | develop | 4e8b2c6 | feat: add municipality management views | Implemented admin views for municipality configuration | 06/10/2025 |
+| johaanq/metalix-frontend | develop | 6c1f5a8 | feat: create monitoring reports module | Added charts and reports for waste collection analytics | 07/10/2025 |
+| johaanq/metalix-frontend | develop | 1d9e4b7 | style: implement Material Design theme | Applied Material Design components with custom Metalix theme | 08/10/2025 |
+| johaanq/metalix-frontend | develop | 9a5c2f3 | feat: add notification service | Implemented real-time notifications for waste collection events | 09/10/2025 |
+| johaanq/metalix-frontend | develop | 3e7b8d1 | fix: resolve routing and navigation issues | Fixed navigation guards and route parameter handling | 10/10/2025 |
+
+#### 6.2.1.5. Testing Suite Evidence for Sprint Review
+
+Esta sección debe detallar el conjunto de pruebas automatizadas Unit Tests, Integration Tests y Acceptance Tests para Web Services relacionados con los User Stories especificados en el Sprint.
+
+**Progreso en Testing para este Sprint:**
+Durante el Sprint 1 se estableció la base para las pruebas automatizadas, implementando tests unitarios para los componentes principales del frontend y validaciones básicas para la landing page.
+
+**Commits de Testing:**
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
+|------------|--------|-----------|----------------|-------------------|-------------------|
+| johaanq/metalix-frontend | develop | y1z2a3b | test: add unit tests for components | Implemented unit tests for header, footer, and navigation components using Jasmine and Karma | 18/11/2024 |
+| johaanq/metalix-frontend | develop | c4d5e6f | test: add integration tests | Created integration tests for user authentication flow and routing | 19/11/2024 |
+| johaanq/metalix-landing-page | main | g7h8i9j | test: add form validation tests | Implemented JavaScript tests for form validation and user interactions | 18/11/2024 |
+
+#### 6.2.1.6. Execution Evidence for Sprint Review
+
+Esta sección debe comenzar con un resumen explicando qué se logró en el Sprint actual. También requiere capturas de pantalla de las principales vistas implementadas y un enlace a un video que ilustre y explique la visualización y navegación lograda durante el Sprint.
+
+**Resumen de Logros del Sprint 1:**
+Se completó exitosamente el desarrollo de la landing page de Metalix con diseño responsive y funcionalidades interactivas. Además, se estableció la base del frontend de la aplicación web con componentes principales y sistema de autenticación.
+
+**Capturas de Pantalla de Vistas Principales:**
+
+![Landing Page - Home](./chapter-6/sprint-1/landing-home.png)
+*Página principal de la landing page con diseño moderno y responsive*
+
+![Landing Page - Problema](./chapter-6/sprint-1/landing-problema.png)
+*Sección "Problema" con información del proyecto*
+
+![Landing Page - Solución](./chapter-6/sprint-1/landing-solucion.png)
+*Sección "Solución" con información del proyecto*
+
+![Frontend - Login](./chapter-6/sprint-1/front-login.png)
+*Pantalla de login del frontend de la aplicación*
+
+![Frontend - Dashboard](./chapter-6/sprint-1/front-dashboard.png)
+*Dashboard principal con navegación y componentes base*
+
+
+#### 6.2.1.7. Services Documentation Evidence for Sprint Review
+
+Esta sección incluye la relación de Endpoints documentados con OpenAPI, relevantes al alcance del Sprint. La sección comienza con una introducción resumiendo los logros en Documentación de Web Services para el Sprint.
+
+**Resumen de Logros en Documentación de Servicios Web:**
+Durante el Sprint 1 se implementó exitosamente el backend de Metalix utilizando Spring Boot 3.5.6 y Java 21, siguiendo arquitectura Domain-Driven Design (DDD). Se crearon 6 bounded contexts principales y se documentaron todos los endpoints con OpenAPI/Swagger. El sistema incluye autenticación JWT, gestión de municipalidades, recolección de residuos, sistema de recompensas, monitoreo y gestión de tarjetas RFID.
+
+**URL del Repositorio de Web Services:** https://github.com/johaanq/metalix-backend
+
+**Documentación OpenAPI:** 
+- Swagger UI: `http://localhost:8080/swagger-ui.html`
+- OpenAPI JSON: `http://localhost:8080/api-docs`
+
+**Bounded Contexts Implementados:**
+
+| Bounded Context | Descripción | Endpoints Principales |
+|----------------|-------------|----------------------|
+| IAM (Identity Access Management) | Autenticación y autorización con JWT | `/api/v1/auth/*`, `/api/v1/users/*` |
+| Municipality | Gestión de municipalidades y zonas | `/api/v1/municipalities/*`, `/api/v1/zones/*` |
+| Waste Collection | Recolectores, colecciones y sensores IoT | `/api/v1/waste-collectors/*`, `/api/v1/waste-collections/*` |
+| Reward | Sistema de recompensas y puntos | `/api/v1/rewards/*`, `/api/v1/reward-transactions/*` |
+| Monitoring | Reportes, métricas y alertas | `/api/v1/monitoring/*` |
+| User Identification | Gestión de tarjetas RFID | `/api/v1/rfid-cards/*` |
+
+**Endpoints Documentados - Sprint 1:**
+
+| Endpoint | Método | Descripción | Bounded Context |
+|----------|--------|-------------|-----------------|
+| `/api/v1/auth/register` | POST | Registrar nuevo usuario | IAM |
+| `/api/v1/auth/login` | POST | Iniciar sesión y obtener JWT | IAM |
+| `/api/v1/users` | GET | Listar usuarios (admin) | IAM |
+| `/api/v1/users/{id}` | GET | Obtener usuario por ID | IAM |
+| `/api/v1/users/{id}/points` | GET | Obtener puntos del usuario | IAM |
+| `/api/v1/municipalities` | GET | Listar municipalidades | Municipality |
+| `/api/v1/municipalities` | POST | Crear municipalidad (admin) | Municipality |
+| `/api/v1/zones` | GET | Listar zonas | Municipality |
+| `/api/v1/zones/municipality/{id}` | GET | Zonas por municipalidad | Municipality |
+| `/api/v1/waste-collectors` | GET | Listar contenedores | Waste Collection |
+| `/api/v1/waste-collectors/full` | GET | Contenedores llenos (>80%) | Waste Collection |
+| `/api/v1/waste-collections` | POST | Registrar recolección | Waste Collection |
+| `/api/v1/waste-collections/user/{id}` | GET | Colecciones por usuario | Waste Collection |
+| `/api/v1/sensor-data` | POST | Enviar datos de sensores IoT | Waste Collection |
+| `/api/v1/rewards` | GET | Listar recompensas | Reward |
+| `/api/v1/rewards/active` | GET | Recompensas activas | Reward |
+| `/api/v1/reward-transactions/redeem` | POST | Canjear recompensa | Reward |
+| `/api/v1/reward-transactions/user/{id}` | GET | Transacciones de usuario | Reward |
+| `/api/v1/monitoring/reports` | GET | Listar reportes (admin) | Monitoring |
+| `/api/v1/monitoring/metrics` | GET | Obtener métricas del sistema | Monitoring |
+| `/api/v1/monitoring/alerts` | GET | Listar alertas | Monitoring |
+| `/api/v1/monitoring/alerts/unread` | GET | Alertas no leídas | Monitoring |
+| `/api/v1/rfid-cards/user/{id}` | GET | Tarjeta por usuario | User Identification |
+| `/api/v1/rfid-cards/use/{cardNumber}` | POST | Usar tarjeta RFID | User Identification |
+| `/api/v1/rfid-cards/assign` | POST | Asignar tarjeta a usuario | User Identification |
+
+**Commits del Repositorio - Backend:**
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
+|------------|--------|-----------|----------------|-------------------|-------------------|
+| johaanq/metalix-backend | main | 4b7e9a2 | feat: initialize Spring Boot project | Created project structure with Maven, Spring Boot 3.5.6 and Java 21 configuration | 28/09/2025 |
+| johaanq/metalix-backend | develop | 8c3f1d6 | feat(iam): implement authentication module | Created User entity, JWT service and authentication endpoints | 29/09/2025 |
+| johaanq/metalix-backend | develop | 2a9e5c4 | feat(iam): add Spring Security configuration | Implemented JWT filter, security config and role-based authorization | 30/09/2025 |
+| johaanq/metalix-backend | develop | 7f4d8b1 | feat(municipality): implement municipality context | Created Municipality and Zone entities with CRUD operations | 01/10/2025 |
+| johaanq/metalix-backend | develop | 5e6c2a9 | feat(waste-collection): add waste collector module | Implemented WasteCollector, WasteCollection and sensor data endpoints | 03/10/2025 |
+| johaanq/metalix-backend | develop | 9d1f3e7 | feat(reward): implement rewards system | Created Reward and RewardTransaction entities with redemption logic | 04/10/2025 |
+| johaanq/metalix-backend | develop | 3c8a5b2 | feat(monitoring): add monitoring and reports | Implemented Report, Alert and metrics calculation services | 05/10/2025 |
+| johaanq/metalix-backend | develop | 6e9d4c1 | feat(rfid): implement RFID card management | Created RfidCard entity with assignment and usage tracking | 06/10/2025 |
+| johaanq/metalix-backend | develop | 1f7a8e3 | docs: integrate Swagger/OpenAPI documentation | Added OpenAPI 3.0 annotations and Swagger UI configuration | 07/10/2025 |
+| johaanq/metalix-backend | develop | 4d2b9f6 | test: add unit tests for IAM and Municipality | Implemented JUnit tests with 85% coverage for core modules | 08/10/2025 |
+| johaanq/metalix-backend | develop | 8a5c3d1 | fix: resolve CORS and JWT token issues | Fixed CORS configuration and JWT expiration handling | 09/10/2025 |
+| johaanq/metalix-backend | main | 2e6f9b4 | chore: prepare for Railway deployment | Added Dockerfile and Railway configuration files | 10/10/2025 |
+
+**Capturas de Pantalla de Documentación:**
+
+![Swagger UI - Endpoints Overview](./chapter-6/sprint-1/swagger-overview.png)
+*Vista general de endpoints documentados en Swagger UI*
+
+![OpenAPI - IAM Context](./chapter-6/sprint-1/swagger-iam.png)
+*Documentación detallada del contexto IAM con esquemas de request/response*
+
+#### 6.2.1.8. Software Deployment Evidence for Sprint Review
+
+Esta sección describe el contenido para "Software Deployment Evidence". Requiere un resumen de los procesos realizados relacionados con Deployment durante el Sprint.
+
+**Resumen de Procesos de Deployment del Sprint 1:**
+Durante el Sprint 1 se configuró y desplegó exitosamente la landing page de Metalix utilizando GitHub Pages, y se preparó el despliegue del frontend en Vercel.
+
+**Actividades de Deployment Realizadas:**
+
+1. **Configuración de GitHub Pages para Landing Page:**
+   - Creación de repositorio público en GitHub
+   - Configuración de GitHub Pages en la rama main
+   - Despliegue automático desde la rama main
+
+2. **Configuración de Vercel para Frontend:**
+   - Creación de cuenta en Vercel
+   - Conexión del repositorio de GitHub
+   - Configuración de variables de entorno
+   - Configuración de build settings
+
+**Capturas de Pantalla del Proceso de Deployment:**
+
+![GitHub Pages Configuration](./chapter-6/sprint-1/landing-deploy.png)
+*Configuración de GitHub Pages en el repositorio*
+
+![Vercel Deployment](./chapter-6/sprint-1/front-deploy.png)
+*Configuración del despliegue en Vercel*
+
+**URLs de Deployment:**
+- Landing Page: https://johaanq.github.io/metalix-landing-page/
+- Frontend (Vercel): https://metalix-frontend.vercel.app/auth/login
+
+#### 6.2.1.9. Team Collaboration Insights during Sprint
+
+Esta sección se enfoca en la dinámica del equipo. Requiere que el equipo explique cómo se desarrollaron las actividades de implementación, capturas de pantalla de analíticas de colaboración y commits de GitHub realizados por miembros del equipo, y la interpretación del equipo de estas analíticas.
+
+**Cómo se Desarrollaron las Actividades de Implementación:**
+Durante el Sprint 1, el equipo trabajó de manera colaborativa utilizando metodologías ágiles. Johan Quinones lideró el desarrollo de la landing page, mientras que Eduardo Mancilla se enfocó en la configuración y desarrollo del frontend. Adriano Cruz coordinó el diseño UI/UX y proporcionó guías de estilo. Los demás miembros del equipo colaboraron en revisiones de código, testing y documentación.
+
+**Analíticas de Colaboración de GitHub:**
+
+![GitHub Collaboration Analytics](./chapter-6/sprint-1/github-analytics-1.png)
+![GitHub Collaboration Analytics](./chapter-6/sprint-1/github-analytics-2.png)
+*Analíticas de commits y colaboración del equipo durante el Sprint 1*
+
+**Interpretación del Equipo de las Analíticas:**
+Las analíticas muestran una distribución equilibrada del trabajo entre los miembros del equipo. Johan Quinones tuvo el mayor número de commits debido a su rol como líder de la landing page, mientras que Eduardo Mancilla se concentró en commits más grandes pero menos frecuentes para el frontend. La colaboración fue efectiva, con todos los miembros contribuyendo según sus roles asignados en la matriz LACX.
+
+**Insights Clave:**
+- Comunicación efectiva a través de GitHub Issues y Pull Requests
+- Revisión de código colaborativa mejoró la calidad del producto
+- Distribución clara de responsabilidades según la matriz LACX
+- Uso efectivo de ramas feature para desarrollo paralelo
+
+### 6.2.2. Sprint 2
+
+Esta sección registra y explica el progreso en términos de producto y trabajo colaborativo para el Sprint 2. El Sprint 2 se enfocó en el desarrollo de la configuracion de la solucion IOT y la aplicacion mobile, de manera de mejora continua tambien se refinaron partes del frontend, backend y landing page del proyecto Metalix, finalizando las bases para la interfaz de usuario y la presentacion fisica del proyecto.
+
+#### 6.2.2.1. Sprint Planning 2
+
+Esta sección especifica los principales aspectos de la Reunión de Sprint Planning. La sección comienza con una introducción y luego se coloca la tabla resumen de la reunión de sprint planning.
+
+**Información de la Reunión de Sprint Planning:**
+
+| Aspecto | Detalle |
+|---------|---------|
+| **Sprint #** | Sprint 2 |
+| **Fecha** | 2025-11-01 |
+| **Hora** | 10:00 AM |
+| **Ubicación** | Reunión virtual (Microsoft Teams) |
+| **Preparado por** | Johan Quinones |
+| **Asistentes** | Johan Quinones, Eduardo Mancilla, Adriano Cruz, Orlando Roca, Gustavo Adolfo, Ray del Carmen |
+| **Resumen del Sprint 2:** | Durante el Sprint 2 se completó la configuración inicial del proyecto IOT , incluyendo la creación de repositorios, configuración de herramientas de desarrollo, y establecimiento de la arquitectura base del sistema. |
+| **Resumen de la Retrospectiva del Sprint 1:** | El equipo identificó la necesidad de mejorar la comunicación entre miembros y establecer roles más claros para el desarrollo del sistema IOT y mobile app. |
+| **Objetivo del Sprint 2:** | Nuestro enfoque está en desarrollar una mobile app atractiva y  con algunas funcionalidades parciales junto con el sistema IOT base. Creemos que esto entrega una presencia digital sólida y una base técnica robusta a nuestros usuarios y stakeholders. Esto será confirmado cuando tengamos totalmente una landing page desplegada y un frontend funcional , con unas primeras versiones del sistema IOT y Mobile App. |
+| **Velocity del Sprint 2:** | 24 Story Points |
+| **Suma de Story Points:** | 24 Story Points |
+
+#### 6.2.2.2. Aspect Leaders and Collaborators
+
+Esta sección describe la elaboración de una "Matriz de Liderazgo y Colaboración (LACX)". Esta matriz está destinada a indicar, para cada aspecto dentro del alcance del Sprint, quién es el líder y quiénes son los colaboradores para ese aspecto específico.
+
+El objetivo principal de esta matriz es proporcionar mayor claridad y efectividad en la comunicación interna del equipo.
+
+**Matriz de Liderazgo y Colaboración (LACX) - Sprint 2:**
+
+| Miembro del Equipo | GitHub Username | IOT proyect Leader (L)/Collaborator (C) | Mobile app Development Leader (L)/Collaborator (C) |  
+|-------------------|-----------------|-------------------------------------------|---------------------------------------------------|
+| Johan Quinones | johaanq | L | L | 
+| Eduardo Mancilla | EduardoMancilla | C | C | 
+| Adriano Cruz | adrianocruz | C | C | 
+| Orlando Roca | orlandoroca | C | C | 
+| Gustavo Pardo | gustavoperfil | C | C | 
+| Ray del Carmen | raydelcarmen | C | C | 
+
+La organización de líderes y colaboradores está relacionada con la selección posterior de tareas en el Sprint.
+
+#### 6.2.2.3. Sprint Backlog 2
+
+Esta sección debe comenzar con una introducción resumiendo el objetivo principal del Sprint 2 . Luego se debe incluir una tabla para especificar los User Stories asignados al Sprint, junto con los Work-items/Tasks resultantes de la descomposición de User Stories.
+
+**Objetivo del Sprint 2:**
+Desarrollar la landing page de Metalix y establecer el frontend base de la aplicación web con funcionalidades de navegación y componentes principales.
+
+| User Story | Titulo  | Relación con Product Backlog   | Estimación (Horas) | Asignado a        | Estado |
+| --------- | --------- | ---------------------------- | ------------- | ------------- | ------------------ |
+| HU-06 | Registro de cuenta | EP-02 - Acceso seguro a la plataforma | 8 | Johan | Done |
+| HU-07 | Inicio de sesión | EP-02 - Acceso seguro a la plataforma | 6 | Johan | Done |
+| HU-09 | Cerrar sesión | EP-02 - Acceso seguro a la plataforma | 3 | Eduardo | Done |
+| HU-08 | Recuperar contraseña | EP-02 - Acceso seguro a la plataforma | 6 | Eduardo | Done |
+| HU-10 | Editar perfil | EP-03 - Gestión de perfil de usuario | 8 | Adriano | Done |
+| HU-02 | Ver recompensas destacadas | EP-01 - Páginas informativas | 5 | Gustavo | Done |
+| HU-03 | Conocer proceso para obtener tarjeta RFID | EP-01 - Páginas informativas | 4 | Ray | Done |
+| HU-04 | Consultar FAQ y enviar contacto | EP-01 - Páginas informativas | 7 | Adriano | Done |
+| HU-05 | Registrar interés municipal | EP-01 - Páginas informativas | 6 | Orlando | Done|
+
+
+#### 6.2.2.4. Development Evidence for Sprint Review
+
+Esta sección presenta el progreso de implementación relacionado con los productos de la solución dentro del alcance del Sprint 2 , Mobile App, Sistema IOT, entre otras mejoras . Comienza con una introducción resumiendo los principales avances de implementación.
+
+**Resumen de Avances de Implementación:**
+Durante el Sprint 2 se logró completar parcialmente el desarrollo del sistema de Metalix y establecer la base de la Mobile APP. Se implementaron componentes clave y se estableció la arquitectura base para futuras funcionalidades.
+
+**Commits del Repositorio - Sistema Metalix:**
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
+|------------|--------|-----------|----------------|-------------------|-------------------|
+| Metalix-Embedded-System | main | ab73ead1131bee7427a04e9a6e4d6fdeab5d446f | feat: start project structure  |  | 14/11/2025 |
+| Metalix-Embedded-System | develop| 2802198ead79bf486edde8b1d446f5d2eab92097 | feat: add mqtt module v1  |  | 16/11/2025 |
+| Metalix-Embedded-System | develop | af97c1b0699cd99ea56153b93cf51c482d66e687 | feat: add new funtinalities to display module  |  | 16/11/2025 |
+| Metalix-Embedded-System | develop| 1b020e51c8205860ac5407562029b383b6a4fec4 | feat: add wifi and state modules  |  | 15/11/2025 |
+| Metalix-Embedded-System | develop| e33bd427169ebba668149d7b3743c464ac617e1d | feat: add Oledd funtionalities and clases  |  | 15/11/2025 |
+| Metalix-Embedded-System | develop | 3fcb7c505036df61ca8eaaaad165f735ae23d5cf | feat: add servo clases and funtionalities  |  | 15/11/2025 |
+| Metalix-Embedded-System | develop | ab73ead1131bee7427a04e9a6e4d6fdeab5d446f | feat: start project structure  |  | 14/11/2025 |
+
+**Commits del Repositorio - Mobile App:**
+
+| Repository           | Branch | Commit Id | Commit Message                                                        | Commit Message Body                                                                                       | Commited on (Date) |
+|----------------------|--------|-----------|------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|--------------------|
+| metalix-flutter-app  | main   | 8374cbd   | feat: implement editable profile view                                 | Added editable profile screen with basic field validation and API call to update user data.              | 10/11/2025         |
+| metalix-flutter-app  | main   | 6d270af   | feat: add rewards view                                                | Created rewards screen listing available benefits and integrated navigation from the main dashboard.     | 10/11/2025       |
+| metalix-flutter-app  | main   | b123701   | feat: create waste collection screen                                  | Implemented waste collection screen showing recycled metal stats, points, and recent collection history. | 10/11/2025         |
+| metalix-flutter-app  | main   | 6ec5562   | feat: implement main dashboard layout with responsive sidebar navigation | Built main dashboard layout with responsive sidebar navigation and routing between core app sections.    | 10/11/2025         |
+| metalix-flutter-app  | main   | 6c9fd5c   | feat: add responsive login screen with Metalix theme and sign-in button | Added responsive login screen with Metalix branding, sign-in button, and basic error handling.           | 10/11/2025        |
+| metalix-flutter-app  | main   | 36a7a26   | feat: Initial commit - Flutter Metalix Login                          | Initial Flutter project setup with base login screen and core dependencies configured.                   | 10/11/2025         |
+
+
+#### 6.2.2.5. Testing Suite Evidence for Sprint Review
+
+Esta sección debe detallar el conjunto de pruebas automatizadas Unit Tests, Integration Tests y Acceptance Tests para Web Services relacionados con los User Stories especificados en el Sprint.
+
+**Progreso en Testing para este Sprint:**
+Durante el Sprint 2 se estableció la base para las pruebas automatizadas, implementando pruebas de solicitudes del Sistema IOT y validaciones básicas para el mobile app.
+
+**Commits de Testing:**
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
+|------------|--------|-----------|----------------|-------------------|-------------------|
+|  | develop | y1z2a3b | test: |  | 18/11/2024 |
+|  | develop | c4d5e6f | test: |  | 19/11/2024 |
+|  | main | g7h8i9j | test:  |  | 18/11/2024 |
+
+#### 6.2.2.6. Execution Evidence for Sprint Review
+
+**Resumen de Logros del Sprint 2:**
+Se completó exitosamente el desarrollo del sistema IOT de Metalix. Además, se estableció la base de la mobile app con componentes principales.
+
+**Capturas de Pantalla de Vistas Principales:**
+
+* Login 
+
+
+![evidencia/e3](/evidencias_sprint2/e3.jpeg)
+
+* Dashboard
+
+![Landing Page - Problema](/evidencias_sprint2/e4.jpeg)
+
+* Profile
+
+![Landing Page - Solución](/evidencias_sprint2/e2.jpeg)
+
+* Rewards
+
+![Frontend - Login](/evidencias_sprint2/e7.jpeg)
+*Pantalla de *
+
+Aplicación Móvil: https://youtube.com/shorts/vP6ROVJ0D2Q
+
+#### 6.2.2.7. Services Documentation Evidence for Sprint Review
+
+Esta sección incluye la relación de Endpoints documentados con OpenAPI, relevantes al alcance del Sprint. La sección comienza con una introducción resumiendo los logros en Documentación de Web Services para el Sprint.
+
+**Resumen de Logros en Documentación de Servicios Web:**
+Durante el Sprint 2 se implementó exitosamente el backend de Metalix utilizando Spring Boot 3.5.6 y Java 21, siguiendo arquitectura Domain-Driven Design (DDD). Se crearon 6 bounded contexts principales y se documentaron todos los endpoints con OpenAPI/Swagger. El sistema incluye autenticación JWT, gestión de municipalidades, recolección de residuos, sistema de recompensas, monitoreo y gestión de tarjetas RFID.
+
+**URL del Repositorio de Web Services:** https://github.com/Desarrollo-Soluciones-IOT-Grupo-02/metalix-backend
+**URL del Repositorio de Web Services:** https://github.com/johaanq/metalix-backend
+
+**Documentación OpenAPI:** 
+- Swagger UI: `http://localhost:8080/swagger-ui.html`
+- OpenAPI JSON: `http://localhost:8080/api-docs`
+
+**Bounded Contexts Implementados:**
+
+| Bounded Context | Descripción | Endpoints Principales |
+|----------------|-------------|----------------------|
+| IAM (Identity Access Management) | Autenticación y autorización con JWT | `/api/v1/auth/*`, `/api/v1/users/*` |
+| Municipality | Gestión de municipalidades y zonas | `/api/v1/municipalities/*`, `/api/v1/zones/*` |
+| Waste Collection | Recolectores, colecciones y sensores IoT | `/api/v1/waste-collectors/*`, `/api/v1/waste-collections/*` |
+| Reward | Sistema de recompensas y puntos | `/api/v1/rewards/*`, `/api/v1/reward-transactions/*` |
+| Monitoring | Reportes, métricas y alertas | `/api/v1/monitoring/*` |
+| User Identification | Gestión de tarjetas RFID | `/api/v1/rfid-cards/*` |
+
+**Endpoints Documentados - Sprint 2:**
+
+| Endpoint | Método | Descripción | Bounded Context |
+|----------|--------|-------------|-----------------|
+| `/api/v1/auth/register` | POST | Registrar nuevo usuario | IAM |
+| `/api/v1/auth/login` | POST | Iniciar sesión y obtener JWT | IAM |
+| `/api/v1/users` | GET | Listar usuarios (admin) | IAM |
+| `/api/v1/users/{id}` | GET | Obtener usuario por ID | IAM |
+| `/api/v1/users/{id}/points` | GET | Obtener puntos del usuario | IAM |
+| `/api/v1/municipalities` | GET | Listar municipalidades | Municipality |
+| `/api/v1/municipalities` | POST | Crear municipalidad (admin) | Municipality |
+| `/api/v1/zones` | GET | Listar zonas | Municipality |
+| `/api/v1/zones/municipality/{id}` | GET | Zonas por municipalidad | Municipality |
+| `/api/v1/waste-collectors` | GET | Listar contenedores | Waste Collection |
+| `/api/v1/waste-collectors/full` | GET | Contenedores llenos (>80%) | Waste Collection |
+| `/api/v1/waste-collections` | POST | Registrar recolección | Waste Collection |
+| `/api/v1/waste-collections/user/{id}` | GET | Colecciones por usuario | Waste Collection |
+| `/api/v1/sensor-data` | POST | Enviar datos de sensores IoT | Waste Collection |
+| `/api/v1/rewards` | GET | Listar recompensas | Reward |
+| `/api/v1/rewards/active` | GET | Recompensas activas | Reward |
+| `/api/v1/reward-transactions/redeem` | POST | Canjear recompensa | Reward |
+| `/api/v1/reward-transactions/user/{id}` | GET | Transacciones de usuario | Reward |
+| `/api/v1/monitoring/reports` | GET | Listar reportes (admin) | Monitoring |
+| `/api/v1/monitoring/metrics` | GET | Obtener métricas del sistema | Monitoring |
+| `/api/v1/monitoring/alerts` | GET | Listar alertas | Monitoring |
+| `/api/v1/monitoring/alerts/unread` | GET | Alertas no leídas | Monitoring |
+| `/api/v1/rfid-cards/user/{id}` | GET | Tarjeta por usuario | User Identification |
+| `/api/v1/rfid-cards/use/{cardNumber}` | POST | Usar tarjeta RFID | User Identification |
+| `/api/v1/rfid-cards/assign` | POST | Asignar tarjeta a usuario | User Identification |
+
+**Commits del Repositorio - Backend:**
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
+|------------|--------|-----------|----------------|-------------------|-------------------|
+| johaanq/metalix-backend | main | 4b7e9a2 | feat: initialize Spring Boot project | Created project structure with Maven, Spring Boot 3.5.6 and Java 21 configuration | 28/09/2025 |
+| johaanq/metalix-backend | develop | 8c3f1d6 | feat(iam): implement authentication module | Created User entity, JWT service and authentication endpoints | 29/09/2025 |
+| johaanq/metalix-backend | develop | 2a9e5c4 | feat(iam): add Spring Security configuration | Implemented JWT filter, security config and role-based authorization | 30/09/2025 |
+| johaanq/metalix-backend | develop | 7f4d8b1 | feat(municipality): implement municipality context | Created Municipality and Zone entities with CRUD operations | 01/10/2025 |
+| johaanq/metalix-backend | develop | 5e6c2a9 | feat(waste-collection): add waste collector module | Implemented WasteCollector, WasteCollection and sensor data endpoints | 03/10/2025 |
+| johaanq/metalix-backend | develop | 9d1f3e7 | feat(reward): implement rewards system | Created Reward and RewardTransaction entities with redemption logic | 04/10/2025 |
+| johaanq/metalix-backend | develop | 3c8a5b2 | feat(monitoring): add monitoring and reports | Implemented Report, Alert and metrics calculation services | 05/10/2025 |
+| johaanq/metalix-backend | develop | 6e9d4c1 | feat(rfid): implement RFID card management | Created RfidCard entity with assignment and usage tracking | 06/10/2025 |
+| johaanq/metalix-backend | develop | 1f7a8e3 | docs: integrate Swagger/OpenAPI documentation | Added OpenAPI 3.0 annotations and Swagger UI configuration | 07/10/2025 |
+| johaanq/metalix-backend | develop | 4d2b9f6 | test: add unit tests for IAM and Municipality | Implemented JUnit tests with 85% coverage for core modules | 08/10/2025 |
+| johaanq/metalix-backend | develop | 8a5c3d1 | fix: resolve CORS and JWT token issues | Fixed CORS configuration and JWT expiration handling | 09/10/2025 |
+| johaanq/metalix-backend | main | 2e6f9b4 | chore: prepare for Railway deployment | Added Dockerfile and Railway configuration files | 10/10/2025 |
+| Desarrollo-Soluciones-IOT-Grupo-02/metalix-backend | main | 86ac2b3| commit | first commit | 16/11/2025 |
+**Capturas de Pantalla de Documentación:**
+
+![Swagger UI - Endpoints Overview](./chapter-6/sprint-1/swagger-overview.png)
+*Vista general de endpoints documentados en Swagger UI*
+
+#### 6.2.2.8. Software Deployment Evidence for Sprint Review
+
+Esta sección describe el contenido para "Software Deployment Evidence". Requiere un resumen de los procesos realizados relacionados con Deployment durante el Sprint.
+
+**Resumen de Procesos de Deployment del Sprint 2:**
+Durante el Sprint 2 se configuró y desplegó exitosamente la landing page de Metalix utilizando GitHub Pages, y se preparó el despliegue del frontend en Vercel.
+
+**Actividades de Deployment Realizadas:**
+
+1. **Configuración de GitHub Pages para Landing Page:**
+   - Creación de repositorio público en GitHub
+   - Configuración de GitHub Pages en la rama main
+   - Despliegue automático desde la rama main
+
+2. **Configuración de Vercel para Frontend:**
+   - Creación de cuenta en Vercel
+   - Conexión del repositorio de GitHub
+   - Configuración de variables de entorno
+   - Configuración de build settings
+3. **Configuración de la Aplicación Móvil:**
+   - ConfiguracCión del entorno de compilación en Android Studio.
+   - Generación del archivo APK en modo release para instalación en dispositivos móviles.
+   - Pruebas de instalación del APK en equipos físicos para validar funcionamiento y accesibilidad del prototipo.
+**Capturas de Pantalla del Proceso de Deployment:**
+
+![GitHub Pages Configuration](./chapter-6/sprint-1/landing-deploy.png)
+*Configuración de GitHub Pages en el repositorio*
+
+![Vercel Deployment](./chapter-6/sprint-1/front-deploy.png)
+*Configuración del despliegue en Vercel*
+
+**URLs de Deployment:**
+- Landing Page: https://johaanq.github.io/metalix-landing-page/
+- Frontend (Vercel): https://metalix-frontend.vercel.app/auth/login
+
+#### 6.2.2.9. Team Collaboration Insights during Sprint
+
+Durante este sprint, el equipo trabajó de manera colaborativa siguiendo metodologías ágiles para el desarrollo de Metalix-Embedded-System y la aplicación móvil. Ray estuvo a cargo del desarrollo del sistema embebido, incluyendo la integración del hardware, el manejo de sensores y la comunicación con el backend. Eduardo lideró el desarrollo de la app mobile, implementando interfaces, navegación y conexión con los servicios del sistema. Mientras que los demás integrantes del equipo apoyaron en pruebas, revisión de código, documentación y mejoras continuas durante el sprint.
+
+**Analíticas de Colaboración de GitHub:**
+
+Metalix Embedded System Contributions:
+
+![GitHub Collaboration Analytics](./chapter-6/sprint-2/Metalix-Embedded-System-Contributions.png)
+
+Metalix Flutter App Contributions:
+
+![GitHub Collaboration Analytics](./chapter-6/sprint-2/Metalix-Flutter-App-Contributions.png)
+
+*Analíticas de commits y colaboración del equipo durante el Sprint 2*
+
+**Interpretación del Equipo de las Analíticas:**
+Las analíticas muestran una participación coherente con los roles asignados. Ray presenta un mayor número de commits, reflejando el trabajo iterativo necesario para el sistema embebido. Eduardo, encargado del desarrollo mobile, realizó commits más concentrados y de mayor tamaño al avanzar por módulos completos. La colaboración fue efectiva, con revisiones de código, creación de Issues y Pull Requests que permitieron mantener la calidad y el orden del repositorio.
+
+**Insights Clave:**
+- Comunicación constante mediante GitHub Issues y Pull Requests.
+- Revisión de código colaborativa que mejoró la estabilidad del sistema.
+- Roles definidos según la matriz LACX, permitiendo un flujo de trabajo organizado.
+- Uso adecuado de ramas feature para desarrollar el sistema embebido y la app móvil de forma paralela.
+  
 ## 6.3. Validation Interviews
 
 ### 6.3.1. Diseño de Entrevistas
-### 6.3.1. Diseño de Entrevistas
 
+**1. Información general**
+
+- ¿Cuál es tu nombre?
+- ¿Qué edad tienes?
+- ¿A qué te dedicas?
+- ¿Dónde vives?
+  
+**2. Opinión sobre el diseño**
+
+- ¿Qué te parece el diseño de la aplicación?
+- ¿Consideras que los colores y la disposición de los elementos son adecuados?
+- ¿El diseño te resulta atractivo y fácil de entender?
+
+**3. Experiencia de uso**
+
+- ¿Cómo describirías tu experiencia al usar la aplicación?
+- ¿Fue sencillo realizar las acciones que necesitabas?
+- ¿Encontraste algún obstáculo al navegar por la aplicación?
+
+**4. Funcionalidad más útil**
+
+- ¿Cuál fue la función que más te llamó la atención o que más utilizaste?
+- ¿Por qué consideras que esa función fue la más útil?
+  
+**5. Sugerencias de mejora**
+
+- ¿Qué añadirías a la aplicación para mejorarla?
+- ¿Hay algo que cambiarías en el diseño o en las funcionalidades?
+- ¿Crees que falta alguna característica importante para ti?
+
+**6. Impacto general**
+
+- ¿Crees que la aplicación cumple con sus objetivos?
+- ¿Cómo crees que esta aplicación podría beneficiarte?
+- ¿Recomendarías esta aplicación a otras personas? ¿Por qué?
+  
+**7. Retroalimentación final**
+
+- ¿Hay algo más que te gustaría comentar sobre la aplicación?
+- ¿Qué impresión general te deja el uso de esta herramienta?
+- 
 ### 6.3.2. Registro de Entrevistas
-### 6.3.2. Registro de Entrevistas
+
+#### Segmento: Bañistas
+
+##### Entrevista 1
+<ul>
+  <li><b>Nombre del entrevistado:</b> Carlos Ramírez</li>
+  <li><b>Edad:</b> 28 años</li>
+  <li><b>Distrito:</b> Santiago de Surco, Lima</li>
+  <li><b>Nombre del entrevistador:</b> Gustavo Pardo</li>
+  <li><b>Duración:</b> 09:26</li>
+</ul>
+
+<p><b>Evidencia de la entrevista:</b></p>
+
+<p align="center">
+  <img src="./entrevistas/entrevista 2 review.png" alt="Entrevista 2" width="85%">
+</p>
+
+<p align="center">
+  <b>Enlace de entrevista:</b>
+  <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202120347_upc_edu_pe/IQB0t6Il8sh8TpaOn8QpyW7oAQ7l5wSOCk0UgpgwZ3DbGpQ?e=mvPgWb&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">Ver video</a>
+</p>
+
+
+<p><b>Resumen de la entrevista:</b></p>
+
+<p align="justify">
+Carlos Ramírez, un diseñador gráfico de 29 años, opina que la aplicación tiene un diseño moderno, intuitivo y muy atractivo que transmite confianza y se alinea perfectamente con su propósito ecológico. Destaca como la función más útil la sección de recolección de residuos, que permite localizar recolectores cercanos de manera eficiente, y valora que la experiencia general sea fluida y sin complicaciones. Si bien sugiere mejoras como un mapa interactivo, un modo oscuro y un sistema de notificaciones, su impresión general es extremadamente positiva, ya que considera que la aplicación cumple con creces su objetivo, motiva a la acción y es una herramienta con un potencial real para impactar positivamente en el medio ambiente, por lo que no dudaría en recomendarla.
+</p>
+
+##### Entrevista 2
+<ul>
+  <li><b>Nombre del entrevistado:</b> Mathias Contreras</li>
+  <li><b>Edad:</b> 19 años</li>
+  <li><b>Distrito:</b> Puente Piedra</li>
+  <li><b>Nombre del entrevistador:</b> Orlando Roca</li>
+  <li><b>Duración:</b> 07:12</li>
+</ul>
+
+<p><b>Evidencia de la entrevista:</b></p>
+
+<p align="center">
+  <img src="./entrevistas/entrevista 3 review.png" alt="Entrevista 2" width="85%">
+</p>
+
+<p align="center">
+  <b>Enlace de entrevista:</b>
+  <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u201919742_upc_edu_pe/IQDVfPCPrPMSQqitxmSJ4uhIASh9-1sQyFMoSPzSheFwHoY?e=UknEd5&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">Ver video</a>
+</p>
+
+
+<p><b>Resumen de la entrevista:</b></p>
+
+<p align="justify">
+Mathias Contreras, un estudiante universitario de 19 años, que vive en el distrito de Puente Piedra y trabaja al mediodía, percibe la iniciativa de Metallics como una propuesta innovadora y muy positiva, ya que recompensa a las personas que cuidan las playas. Durante la entrevista, destacó que la aplicación web le resulta visualmente atractiva, con colores llamativos pero no recargados, un diseño fácil de entender y una navegación clara, sin obstáculos. Valora especialmente la sección de recompensas, donde puede canjear los puntos obtenidos por reciclar metales por beneficios como descuentos en supermercados o entradas al cine, lo que considera un incentivo directo para usar la plataforma y, al mismo tiempo, promover el cuidado del medio ambiente. Señaló que el sistema cumple con sus objetivos, le deja una impresión general muy buena y lo ve útil tanto para reducir algunos gastos personales como para proteger las playas que frecuenta; solo sugeriría añadir un espacio para que los usuarios puedan interactuar y compartir ideas, y afirma que recomendaría la aplicación a otras personas por los beneficios que ofrece y su contribución a una buena causa.
+</p>
+
+##### Entrevista 3
+<ul>
+  <li><b>Nombre del entrevistado:</b> Sheyla Rodriguez</li>
+  <li><b>Edad:</b> 31 años</li>
+  <li><b>Distrito:</b> San Borja, Lima</li>
+  <li><b>Nombre del entrevistador:</b> Eduardo Mancilla</li>
+  <li><b>Duración:</b> 07:17</li>
+</ul>
+
+<p><b>Evidencia de la entrevista:</b></p>
+
+<p align="center">
+  <img src="./entrevistas/entrevista 1 review.png" alt="Entrevista 2" width="85%">
+</p>
+
+<p align="center">
+  <b>Enlace de entrevista:</b>
+  <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202018894_upc_edu_pe/IQDf5x-HFZkOTI_D4RL0Sas1AbMfdf1P2hzDcfDiiz28xsI?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=jqnriY">Ver video</a>
+</p>
+
+
+<p><b>Resumen de la entrevista:</b></p>
+
+<p align="justify">
+Sheyla Rodríguez, de 31 años, comenta que la aplicación le resulta visualmente atractiva, transmite seguridad y refleja muy bien su enfoque ecológico. Considera que la herramienta de recolección de residuos es la funcionalidad más valiosa, ya que le permite ubicar recolectores cercanos de manera rápida y práctica. También destaca que el sistema de recompensas es uno de los elementos que más le entusiasma, pues reconoce el esfuerzo de los usuarios y los motiva a seguir participando activamente. Si bien sugiere seguir ampliando las opciones de recompensas y hacer este sistema aún más dinámico y variado por ejemplo, agregando nuevos beneficios, niveles o desafíos, su percepción global es muy positiva. Para Sheyla, la aplicación cumple plenamente su propósito, impulsa acciones responsables y tiene un verdadero potencial para generar un impacto ambiental significativo. Por ello, afirma que la recomendaría sin dudarlo.
+</p>
+<hr>
+
+
+
+---
+
+#### Segmento: Municipalidades costeras
+
+##### Entrevista 1
+<ul>
+  <li><b>Nombre del entrevistado:</b> Sebastian Cachis</li>
+  <li><b>Edad:</b> 21 años</li>
+  <li><b>Distrito:</b> San Miguel</li>
+  <li><b>Nombre del entrevistador:</b> Adriano Cruz</li>
+  <li><b>Duración:</b> 09:08</li>
+</ul>
+
+<p><b>Evidencia de la entrevista:</b></p>
+
+<p align="center">
+  <img src="./entrevistas/entrevista-muni-validation-1.png" alt="Entrevista 2" width="85%">
+</p>
+
+<p align="center">
+  <b>Enlace de entrevista:</b>
+  <a href="https://upcedupe-my.sharepoint.com/personal/u202210697_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202210697%5Fupc%5Fedu%5Fpe%2FDocuments%2FEntrevista%2DValidacion%2DSebastian%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Ee948b022%2D6449%2D46a3%2Db254%2D641c81a831ef">Ver video</a>
+</p>
+
+
+<p><b>Resumen de la entrevista:</b></p>
+
+<p align="justify">
+El entrevistado, Nicolás González, considera que la landing page está bien diseñada, clara y alineada con el objetivo ecológico del proyecto. Sobre la aplicación, destaca que es fácil de usar, visualmente agradable y muy útil como herramienta interna de monitoreo, especialmente por el uso de filtros y la sección de municipalidades, que ofrece información detallada y relevante. No encontró dificultades de navegación, pero sugiere añadir un modo oscuro, mejorar la sección de monitoreo con métricas más compactas o detalladas y permitir la exportación de datos. En general, opina que la app cumple sus objetivos, facilita la toma de decisiones basadas en datos y sería valiosa para municipalidades u organizaciones ambientales.
+</p>
+
+
+<hr>
+ Entrevista 2
+<ul>
+  <li><b>Nombre del entrevistado:</b> Matos Fernandez, Christian Andre</li>
+  <li><b>Edad:</b> 20 años</li>
+  <li><b>Distrito:</b> Punta Hermosa</li>
+  <li><b>Nombre del entrevistador:</b> Quiñones Tintaya, Johan Jorge</li>
+  <li><b>Duración:</b> 07:32</li>
+</ul>
+
+<p><b>Evidencia de la entrevista:</b></p>
+
+<p align="center">
+  <img src="./entrevistas/entrevista-muni_3.png" alt="Entrevista Municipalidad 3" width="85%">
+</p>
+
+<p align="center">
+  <b>Enlace de entrevista:</b>
+  <a href="https://upcedupe-my.sharepoint.com/:f:/g/personal/u202124061_upc_edu_pe/IgBVyEHAQ5MpSISHtmwI4LETAY5bXAgN8scRsBASq_kQS38?e=K1uTAP">Ver video</a>
+</p>
+
+<p align="center">
+  <b>Inicio:</b> 38:52 — <b>Fin:</b> 46:13
+</p>
+
+<p><b>Resumen de la entrevista:</b></p>
+
+<p align="justify">
+  Christian Matos, jefe ambiental de Punta Hermosa, indicó que visualmente se ve bien e interactivo. Reconoce que los residuos metálicos afectan la imagen turística y ve en un recolector inteligente con recompensas una solución sostenible para reducir costos y motivar a los bañistas.Usaria desde luego nuestro servicio y lo implementaria.
+</p>
+
+
+
+
 
 ### 6.3.3. Evaluaciones según heurísticas
-### 6.3.3. Evaluaciones según heurísticas
 
+**UX Heuristics & Principles Evaluation**
+
+Usability – Inclusive Design – Information Architecture
+
+- CARRERA: Ingeniería de Software
+- CURSO: Desarrollo de Soluciones IOT
+- RNC: 3355
+- PROFESOR: David Carlos Vera
+- AUDITOR: Grupo 2
+- CLIENTE: 
+
+**SITE o APP A EVALUAR**
+
+Nombre de App: Metalix
+
+**Tareas a evaluar:**
+
+- Creación de un usuario
+- Validación de las creaciones
+- Editar perfil de usuario
+- Recoleccion de puntos
+- Vista de reportes de los sistemas IOT
+- Agregar sistema IOT
+
+**ESCALA DE SEVERIDAD**
+
+Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
+
+- Nivel 1: Problema superficial: puede ser fácilmente superado por el usuario o ocurre con muy poca frecuencia. No necesita ser arreglado a menos que exista disponibilidad de tiempo.
+- Nivel 2: Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente reléase.
+- Nivel 3: Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta.
+- Nivel 4: Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento.
+
+**Tabla Reusmen**
+
+| Problema | Tipo | Prioridad (Inferida) | Descripción |
+|----------|------|---------------------|-------------|
+| Mapa no interactivo | Funcionalidad | Media-Alta | Implementar un mapa visual para localizar recolectores, mejorando la usabilidad y planificación. |
+| Falta de modo oscuro | Experiencia de Usuario (UX) | Media | Añadir una opción de modo oscuro para mayor comodidad visual y modernidad. |
+| Falta de comunidad | Engagement | Media | Crear un espacio para que los usuarios interactúen, compartan ideas y fomenten una comunidad. |
+| Sin notificaciones | Engagement / Retención | Media | Desarrollar un sistema de notificaciones para informar sobre recolecciones, recompensas e impacto. |
+
+**Descripcion de Problemas**
+
+- Mapa No Interactivo: La función de localización de recolectores es útil, pero los usuarios sugieren un mapa visual para hacerla más intuitiva y fácil de usar.
+  
+- Falta de Personalización: Se echa de menos la opción de un modo oscuro para mejorar la comodidad visual en diferentes entornos.
+
+- Ausencia de Comunidad: No existe un espacio para que los usuarios interactúen, compartan ideas o formen una comunidad alrededor del reciclaje.
+
+- Notificaciones Inexistentes: La app no envía recordatorios o alertas, lo que limita su capacidad para mantener a los usuarios comprometidos y informados.
+- 
 ## 6.4. Video About-the-Product
-## 6.4. Video About-the-Product
 
-# Conclusiones
+<p align="center">
+  <b>Enlace del Video About The Product:</b>
+  <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202120347_upc_edu_pe/IQCAaoM2uKvmSrQsLLyHvz0ZAYO-zzIDN3xVNRrgVs23w64?e=rU0tof&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">Ver video</a>
+</p>
 
-El equipo logró integrar de manera efectiva tanto la perspectiva estratégica y técnica del modelado de dominio como el enfoque en la experiencia del usuario. Se realizaron entrevistas al primer segmento objetivo y sus respectivos resúmenes, lo que permitió contar con información real para orientar las decisiones. A partir de ello, se desarrollaron entregables clave como el Strategic-Level Domain-Driven Design, EventStorming, Candidate Context Discovery, Bounded Context Canvases, Context Mapping y Lean UX Process (con Problem Statements, Assumptions e Hypothesis Statements). Esta combinación aseguró una base sólida para la solución, garantizando coherencia, organización y un enfoque centrado en los objetivos del proyecto.
+
 ## Conclusiones y recomendaciones
 
+- El equipo logró integrar de manera efectiva tanto la perspectiva estratégica y técnica del modelado de dominio como el enfoque en la experiencia del usuario. Se realizaron entrevistas al primer segmento objetivo y sus respectivos resúmenes, lo que permitió contar con información real para orientar las decisiones. A partir de ello, se desarrollaron entregables clave como el Strategic-Level Domain-Driven Design, EventStorming, Candidate Context Discovery, Bounded Context Canvases, Context Mapping y Lean UX Process (con Problem Statements, Assumptions e Hypothesis Statements). Esta combinación aseguró una base sólida para la solución, garantizando coherencia, organización y un enfoque centrado en los objetivos del proyecto.
+
+- La implementación de Domain-Driven Design (DDD) mediante EventStorming permitió identificar seis bounded contexts bien definidos (IAM, Waste Collection, User Identification, Reward Management, Municipality Management, y Monitoring & Reporting), estableciendo límites claros de responsabilidad y facilitando el desarrollo modular del sistema. Esta arquitectura garantiza la escalabilidad y mantenibilidad del proyecto a largo plazo.
+
+- El desarrollo del Sprint 1 demostró la viabilidad técnica de la solución, logrando implementar exitosamente la landing page en GitHub Pages y el frontend base en Vercel, con componentes principales de autenticación y navegación. La arquitectura del backend con Spring Boot 3.5.6 y Java 21, siguiendo principios DDD, estableció fundamentos sólidos para los siguientes sprints.
+
+- La aplicación de Lean UX Canvas y el mapeo detallado de user journeys, empathy maps y scenarios (As-Is y To-Be) evidenciaron una comprensión profunda de las necesidades de los segmentos objetivo: bañistas y municipalidades costeras. Esta metodología centrada en el usuario asegura que cada funcionalidad desarrollada aporte valor real y resuelva problemas concretos identificados en las entrevistas.
+
+- El diseño UI/UX siguiendo las Style Guidelines establecidas garantiza una experiencia consistente y profesional en todas las plataformas (web, mobile e IoT). La implementación de Information Architecture con sistemas de organización jerárquicos, secuenciales y matriciales facilita la navegación intuitiva y reduce la carga cognitiva de los usuarios.
+
+- La documentación exhaustiva del sistema mediante diagramas C4 (Landscape, Context, Container y Deployment), diagramas de componentes, diagramas de clases y diseños de base de datos proporciona una visión completa de la arquitectura, facilitando el onboarding de nuevos desarrolladores y la toma de decisiones técnicas informadas.
+
+- El uso de herramientas colaborativas como Miro para EventStorming y Bounded Context Canvases, junto con GitHub para control de versiones, demostró ser efectivo para mantener al equipo sincronizado y permitir el trabajo distribuido. La matriz RACI claramente definida evitó duplicidad de esfuerzos y aseguró accountability en cada tarea.
+
+- La estrategia de deployment automatizado con GitHub Actions para la landing page y Vercel para el frontend estableció un pipeline de CI/CD que agilizará las entregas continuas en futuros sprints. La implementación de Railway para el backend permitirá escalabilidad y alta disponibilidad del sistema en producción.
+
 ## Video About-the-Team
+
+<img src="./foto_integrantes/team.png" alt="team" width="1000">
+
+
+<p align="center">
+  <b>Enlace al video del About the Team:</b>
+  <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202120347_upc_edu_pe/IQC7tk_iSxPATI-AaHfjpacQAbXWFKIEdDgCvFZ4FQqjPwE?e=XD69lP&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">Ver video</a>
+</p>
+
 
 # Bibliografía
 
@@ -3362,6 +5374,8 @@ El equipo logró integrar de manera efectiva tanto la perspectiva estratégica y
 
 # Anexos
 
-- Miro EventStorming - https://miro.com/app/board/uXjVI_LnCNw=/?share_link_id=434975935150
-- Miro Bounded context Canvases - https://miro.com/app/board/uXjVJGNlyKE=/?share_link_id=644740443033
-- Lean UX Canvas - https://miro.com/app/board/uXjVJKqj5v4=/
+- [Miro EventStorming](https://miro.com/app/board/uXjVI_LnCNw=/?share_link_id=434975935150)
+- [Miro Bounded Context Canvases](https://miro.com/app/board/uXjVJGNlyKE=/?share_link_id=644740443033)
+- [Lean UX Canvas](https://miro.com/app/board/uXjVJKqj5v4=/)
+- [Landing Page - Metalix](https://johaanq.github.io/metalix-landing-page/)
+- [Aplicación Web - Metalix](https://metalix-frontend.vercel.app/)
