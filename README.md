@@ -378,7 +378,7 @@ En la entrega de la TB2, el equipo consolidó los avances del TP y extendió sig
 **Commits del equipo - TB2:**
 
 <div align="center">
-  <img src="./insights/insights-tb2.jpg" alt="GitHub Insights TB2" width="1000">
+  <img src="./insights/commits.jpg" alt="GitHub Insights TB2" width="1000">
 </div>
 
 # Contenido
