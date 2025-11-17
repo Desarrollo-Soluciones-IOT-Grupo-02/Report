@@ -4779,6 +4779,9 @@ Las analíticas muestran una distribución equilibrada del trabajo entre los mie
 
 ## Video About-the-Team
 
+<img src="./foto_integrantes/team.png" alt="team" width="1000">
+
+
 <p align="center">
   <b>Enlace al video del About the Team:</b>
   <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202120347_upc_edu_pe/IQC7tk_iSxPATI-AaHfjpacQAbXWFKIEdDgCvFZ4FQqjPwE?e=XD69lP&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">Ver video</a>
