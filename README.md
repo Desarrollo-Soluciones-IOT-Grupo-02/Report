@@ -3763,16 +3763,13 @@ Durante el Sprint 2 se logró completar parcialmente el desarrollo del sistema d
 
 | Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
 |------------|--------|-----------|----------------|-------------------|-------------------|
-|  | main | 7f8a2c3 | feat:  |  | 28/09/2025 |
-| | main | 4d9e1b6 | feat:  |  | 29/09/2025 |
-|  | main | 2a5f8c9 | feat:  |  | 01/10/2025 |
-|  | main | 9b3c4d7 | feat:  |  | 02/10/2025 |
-|  | main | 6e2a9f1 | style:  |  | 03/10/2025 |
-|  | main | 3c8b5e4 | feat:  |  | 05/10/2025 |
-|  | main | 1f7d3a8 | feat:  |  | 06/10/2025 |
-|  | main | 5b9e2c6 | style:  |  | 08/10/2025 |
-|  | main | 8a4f1d9 | fix:  |  | 09/10/2025 |
-|  | main | 2e6c9b3 | docs:  |  | 10/10/2025 |
+| Metalix-Embedded-System | main | ab73ead1131bee7427a04e9a6e4d6fdeab5d446f | feat: start project structure  |  | 14/11/2025 |
+| Metalix-Embedded-System | develop| 2802198ead79bf486edde8b1d446f5d2eab92097 | feat: add mqtt module v1  |  | 16/11/2025 |
+| Metalix-Embedded-System | develop | af97c1b0699cd99ea56153b93cf51c482d66e687 | feat: add new funtinalities to display module  |  | 16/11/2025 |
+| Metalix-Embedded-System | develop| 1b020e51c8205860ac5407562029b383b6a4fec4 | feat: add wifi and state modules  |  | 15/11/2025 |
+| Metalix-Embedded-System | develop| e33bd427169ebba668149d7b3743c464ac617e1d | feat: add Oledd funtionalities and clases  |  | 15/11/2025 |
+| Metalix-Embedded-System | develop | 3fcb7c505036df61ca8eaaaad165f735ae23d5cf | feat: add servo clases and funtionalities  |  | 15/11/2025 |
+| Metalix-Embedded-System | develop | ab73ead1131bee7427a04e9a6e4d6fdeab5d446f | feat: start project structure  |  | 14/11/2025 |
 
 **Commits del Repositorio - Mobile App:**
 
