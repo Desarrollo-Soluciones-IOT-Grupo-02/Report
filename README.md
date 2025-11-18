@@ -651,8 +651,8 @@ En la entrega de la TB2, el equipo consolidó los avances del TP y extendió sig
         - [Entrevista 3](#entrevista-3-1)
       - [Segmento: Municipalidades costeras](#segmento-municipalidades-costeras-1)
         - [Entrevista 1](#entrevista-1-2)
-        - [Entrevista 2](#entrevista-1-2)
-        - [Entrevista 3](#entrevista-1-2)
+        - [Entrevista 2](#entrevista-2-2)
+        - [Entrevista 3](#entrevista-3-2)
     - [6.3.3. Evaluaciones según heurísticas](#633-evaluaciones-según-heurísticas)
   - [6.4. Video About-the-Product](#64-video-about-the-product)
   - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones-1)
@@ -844,42 +844,62 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
           <tr>
             <td align="justify">
               <b>Del Carmen Zorrilla, Ray Alessandro:</b><br>
-              Durante el desarrollo del proyecto asumí un rol activo en la organización de las tareas y coordinación con mis compañeros. 
-              Brindé liderazgo conjunto al proponer la segmentación de los usuarios y en la preparación de las entrevistas, 
-              fomentando la toma de decisiones compartida y asegurando que el equipo avanzara de forma ordenada y alineada a los objetivos.
+              Durante esta iteración asumí un liderazgo colaborativo centrado en el soporte técnico transversal del proyecto. 
+              Organicé y configuré el sistema embebido IoT, asegurando la correcta preparación del entorno con los sensores, 
+              lectores y actuadores necesarios para la integración futura con el backend. Además, brindé apoyo estratégico al equipo 
+              al coordinar la estructura técnica general del sistema, facilitando que las demás áreas (backend, frontend y mobile) 
+              se mantuvieran alineadas en objetivos, dependencias y tiempos del sprint. Mi rol permitió orientar decisiones técnicas 
+              conjuntas y garantizar que la base tecnológica del proyecto avanzara de manera ordenada y colaborativa.
             </td>
           </tr>
           <tr>
             <td align="justify">
               <b>Cruz Palomino, Adriano Sebastian</b><br>
-                Realicé la entrevista de validación correspondiente a esta fase, lo que permitió recoger comentarios directos sobre la solución 
-                y reforzar la toma de decisiones colaborativas del equipo. Asimismo, participé en la alineación de los mockups y flujos 
-                con los objetivos técnicos del proyecto, manteniendo una comunicación permanente que facilitó la coherencia entre el diseño, 
-                las necesidades del usuario y el trabajo del resto del equipo.
+              En esta etapa fortalecí el liderazgo técnico conjunto al avanzar tanto en la aplicación móvil como en el backend. 
+              Implementé las vistas principales del aplicativo y desarrollé endpoints iniciales, lo que permitió habilitar las primeras 
+              interacciones entre ambos componentes. Asimismo, coordiné con el equipo la integración de estas funcionalidades en el flujo 
+              general del sistema, asegurando consistencia técnica y funcional. Mi participación promovió una comunicación fluida y una 
+              toma de decisiones conjunta entre los miembros responsables del desarrollo.
             </td>
           </tr>
           <tr>
             <td align="justify">
               <b>Quiñones Tintaya, Johan Jorge:</b><br>
-              En el avance del Análisis de entrevistas, coordine con mis compañeros la construcción de preguntas y la redacción de respuestas en primera persona, de modo que todos pudimos aportar desde distintos enfoques. Del mismo modo, en el desarrollo del Tactical-Level Domain-Driven Design y sus subpuntos por cada bounded context, ejercí el desarrollo completo de sus responsabilidades técnicas (diagramas, definición de capas y modelos).
+              Durante el sprint asumí funciones de liderazgo técnico en el desarrollo del frontend web y en el backend. 
+              Construí componentes clave del frontend y realicé la integración con los endpoints entregados por el equipo. 
+              Además, ejecuté ajustes en servicios, controladores y vistas para asegurar que los requerimientos estuvieran alineados con 
+              los objetivos del sprint. También participé en la revisión y corrección de puntos observados en la entrega anterior, 
+              contribuyendo a la mejora continua del proyecto mediante un liderazgo colaborativo.
             </td>
           </tr>
           <tr>
             <td align="justify">
               <b>Pardo Zapata Gustavo Adolfo:</b><br>
-             Durante la TB2, ejercí un liderazgo en la reparticion de tarea y coordinar la implementación del sprint 2. Guié al equipo en la toma de decisiones de diseño, como la especificación de las interfaces de aplicación y fomentando una visión compartida de la solución. Este liderazgo conjunto permitió traducir el diseño estratégico en las preguntas de la entrevista y la recoleccion de puntos de mejora o cambio dentro del proyecto.
+              Durante la TB2 lideré parte del desarrollo documental al avanzar en la sección "About the Product", detallando la 
+              descripción del producto, alcance funcional, justificación y propuesta de valor. Este trabajo permitió consolidar una 
+              visión común sobre la solución. Asimismo, participé activamente en la elaboración y corrección del informe del sprint, 
+              guiando al equipo en mantener coherencia estructural y claridad en la presentación de los avances. Mi participación 
+              favoreció la toma de decisiones alineadas y una visión compartida del enfoque del proyecto.
             </td>
           </tr>
           <tr>
             <td align="justify">
                 <b>Roca Huapaya, Orlando Arturo:</b><br>
-                Realicé una entrevista a un bañista para validar la propuesta de valor de Metalix, presentando la landing page y la aplicación web como demostración del funcionamiento de la solución. Recopilé percepciones sobre la utilidad, facilidad de uso y relevancia del sistema en el contexto real de playa. Además, organicé y ordené los commits del repositorio para mantener una línea de tiempo clara del trabajo realizado, asegurando trazabilidad y coherencia entre los avances del equipo.
+                Ejercí liderazgo técnico y organizativo mediante la configuración completa de los repositorios de la organización. 
+                Definí y aseguré la estructura del repositorio raíz, políticas de ramas, permisos, convenciones de commits y pautas para 
+                pull requests. Además, documenté correctamente el README y verifiqué la vinculación entre backend, frontend y mobile, 
+                garantizando una base sólida y ordenada para el trabajo del equipo. También completé las validaciones y entregables 
+                individuales del sprint, contribuyendo al avance coordinado del proyecto.
             </td>
           </tr>
           <tr>
             <td align="justify">
                 <b>Mancilla Ordaya, Eduardo Vicente:</b><br>
-                Durante esta etapa, asumí un rol activo en el desarrollo del proyecto fortaleciendo tanto la parte técnica como la de validación del prototipo. Contribuí directamente en la construcción de la aplicación móvil de Metalix, desarrollando las vistas principales del sistema y asegurando un flujo de navegación coherente entre ellas. Además, apoyé en la ejecución de la entrevista de validación a nuestro primer segmento objetivo, recopilando información clave sobre la usabilidad y percepción del prototipo. A partir de estos hallazgos, realicé un análisis inicial que permitirá orientar futuras mejoras en la interfaz y en las funcionalidades planteadas.
+                Durante este sprint asumí un rol activo en la construcción de la aplicación móvil, desarrollando nuevas vistas e integrando 
+                funcionalidades con los endpoints del backend. Aporté evidencia técnica del avance e intervine en la configuración de los 
+                entornos de prueba y producción, asegurando que todas las funcionalidades implementadas por el equipo se ejecutaran 
+                correctamente. Mi participación facilitó un liderazgo conjunto orientado a mantener la estabilidad, funcionamiento y 
+                progresión coordinada del proyecto.
             </td>
           </tr>
         </table>
@@ -1024,43 +1044,57 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
           <tr>
             <td align="justify">
               <b>Del Carmen Zorrilla, Ray Alessandro:</b><br>
-              Ejercí un liderazgo compartido en el diseño UI/UX de la landing page, coordinando la estructura visual y funcional del proyecto. 
-              Lideré la planificación del Sprint definiendo objetivos claros, asignación de tareas y cronograma de entregables. 
-              Desarrollé wireframes y mockups (versión web y mobile) aplicando principios de usabilidad, fomentando la toma de decisiones colaborativa 
-              con el equipo y asegurando coherencia entre la propuesta de valor y la experiencia de usuario final.
+              En esta entrega contribuí a un entorno colaborativo fortaleciendo la organización técnica del proyecto desde el sistema embebido IoT. 
+              Preparé y configuré el dispositivo con sensores y actuadores para asegurar su futura integración con el backend, 
+              lo que permitió al equipo tener una base clara para la planificación del siguiente sprint. Asimismo, brindé soporte transversal 
+              en la definición de las metas técnicas del sistema y orienté la alineación entre los distintos frentes del proyecto, 
+              facilitando que el equipo trabajara de manera inclusiva, ordenada y orientada al cumplimiento de los objetivos del sprint.
             </td>
           </tr>
           <tr>
             <td align="justify">
               <b>Cruz Palomino, Adriano Sebastian</b><br>
-              En la TB2 contribuí a mantener un entorno colaborativo mediante la planificación de tareas de diseño y la coordinación continua con el equipo. 
-              Además, realicé la entrevista de validación de esta fase, la cual permitió confirmar supuestos, ajustar prioridades 
-              y orientar las tareas del sprint a partir de evidencia directa de usuarios. Esta participación reforzó el cumplimiento de metas, 
-              el orden en las entregas y la integración efectiva entre diseño, validación y desarrollo.
+              Durante la TB2 contribuí activamente a la creación de un entorno colaborativo mediante la coordinación continua con el equipo 
+              y la planificación de tareas asociadas al desarrollo mobile y backend. Avancé en la implementación de vistas principales y 
+              endpoints iniciales, asegurando que el trabajo técnico se alineara con las metas definidas del sprint. Además, participé en 
+              la validación con usuarios mediante la entrevista correspondiente, lo que permitió ajustar prioridades y garantizar que las 
+              decisiones del equipo respondieran al cumplimiento de objetivos claros y basados en evidencia.
             </td>
           </tr>
           <tr>
             <td align="justify">
               <b>Quiñones Tintaya, Johan Jorge:</b><br>
-              En el avance del Análisis de entrevistas, coordine con mis compañeros la construcción de preguntas y la redacción de respuestas en primera persona, de modo que todos pudimos aportar desde distintos enfoques. Del mismo modo, en el desarrollo del Tactical-Level Domain-Driven Design y sus subpuntos por cada bounded context, ejercí el desarrollo completo de sus responsabilidades técnicas (diagramas, definición de capas y modelos).
+              En esta fase aporté al entorno colaborativo del equipo a través de mejoras técnicas en el frontend web y en el backend. 
+              Desarrollé componentes del sistema y realicé la integración con los endpoints, manteniendo una comunicación constante con mis compañeros 
+              para asegurar coherencia funcional. Además, participé en los ajustes derivados de la retroalimentación del sprint anterior, 
+              ayudando al equipo a cumplir los objetivos planteados gracias a una planificación ordenada y un trabajo técnico coordinado.
             </td>
           </tr>
           <tr>
             <td align="justify">
               <b>Pardo Zapata Gustavo Adolfo:</b><br>
-              En la TB2, consolidé un entorno de desarrollo colaborativo. Establecimos metas técnicas claras, planificando las tareas en sprints semanales con Trello y revisiones de código en GitHub. Cumplí con los objetivos al implementar  la configuración de los entornos de integración, lo que permitió al equipo comenzar el desarrollo de frontend y backend de manera paralela, coordinada y sobre una base técnica sólida.
+              Durante la TB2 promoví un entorno colaborativo al avanzar en el apartado “About the Product”, permitiendo al equipo alinear su visión 
+              funcional y estratégica del sistema. Establecí metas documentales claras y participé en la elaboración y corrección del informe del sprint, 
+              coordinando la integración de los aportes de los demás miembros. Gracias a esta organización y planificación conjunta, el equipo logró 
+              cumplir los objetivos propuestos manteniendo cohesión y claridad en el desarrollo.
             </td>
           </tr>
           <tr>
             <td align="justify">
               <b>Roca Huapaya, Orlando Arturo:</b><br>
-              Fomenté un entorno colaborativo al mantener una comunicación clara con el equipo y organizar los avances de forma accesible para todos. Establecí metas relacionadas con la validación temprana de la solución y planifiqué la tarea de realizar una entrevista a un bañista, donde presenté la landing page y la aplicación web para obtener retroalimentación real. Además, ordené y estructuré los commits del proyecto para asegurar trazabilidad y facilitar el trabajo conjunto, lo que contribuyó al cumplimiento de los objetivos y a mantener la coherencia del desarrollo.
+              Consolidé un entorno colaborativo al estructurar y organizar los repositorios del proyecto, definiendo políticas de ramas, permisos, 
+              convenciones de commits y un README claro y profesional. Esta organización facilitó la planificación y ejecución de tareas del sprint 
+              en los distintos frentes técnicos. Asimismo, realicé una entrevista de validación presentando la landing page y la aplicación web, 
+              lo que permitió obtener retroalimentación real para orientar los objetivos del equipo y reforzar la toma de decisiones informada.
             </td>
           </tr>
           <tr>
             <td align="justify">
-                <b>Mancilla Ordaya, Eduardo Vicente:</b><br>
-              Durante el desarrollo de esta entrega asumí un rol más operativo dentro del equipo, enfocándome en la construcción del prototipo móvil. Contribuí directamente en el desarrollo de las vistas del sistema Metalix y en la configuración del flujo de navegación entre ellas, asegurando consistencia visual y funcional. Además, apoyé en la entrevista de validación realizada a nuestro primer segmento objetivo, aportando en la interpretación de los comentarios recopilados para fortalecer el diseño y orientar los siguientes pasos del proyecto.
+              <b>Mancilla Ordaya, Eduardo Vicente:</b><br>
+              Aporté a un entorno colaborativo trabajando activamente en el desarrollo del prototipo móvil, implementando nuevas vistas e integrando 
+              funcionalidades con el backend. Colaboré en la configuración de entornos de prueba y producción para asegurar la correcta ejecución de los 
+              endpoints, lo que permitió al equipo avanzar de forma ordenada y orientada al cumplimiento de los objetivos del sprint. 
+              También participé en la validación con usuarios, contribuyendo al análisis de retroalimentación que guió las siguientes decisiones del proyecto.
             </td>
           </tr>
         </table>
@@ -4647,20 +4681,24 @@ Se completó exitosamente el desarrollo de la landing page de Metalix con diseñ
 
 **Capturas de Pantalla de Vistas Principales:**
 
-![Landing Page - Home](./chapter-6/sprint-1/landing-home.png)
+<div align="center">
+
+<img src="./chapter-6/sprint-1/landing-home.png" alt="Landing Page - Home">
 *Página principal de la landing page con diseño moderno y responsive*
 
-![Landing Page - Problema](./chapter-6/sprint-1/landing-problema.png)
+<img src="./chapter-6/sprint-1/landing-problema.png" alt="Landing Page - Problema">
 *Sección "Problema" con información del proyecto*
 
-![Landing Page - Solución](./chapter-6/sprint-1/landing-solucion.png)
+<img src="./chapter-6/sprint-1/landing-solucion.png" alt="Landing Page - Solución">
 *Sección "Solución" con información del proyecto*
 
-![Frontend - Login](./chapter-6/sprint-1/front-login.png)
+<img src="./chapter-6/sprint-1/front-login.png" alt="Frontend - Login">
 *Pantalla de login del frontend de la aplicación*
 
-![Frontend - Dashboard](./chapter-6/sprint-1/front-dashboard.png)
+<img src="./chapter-6/sprint-1/front-dashboard.png" alt="Frontend - Dashboard">
 *Dashboard principal con navegación y componentes base*
+
+</div>
 
 
 #### 6.2.1.7. Services Documentation Evidence for Sprint Review
@@ -4908,22 +4946,41 @@ Se completó exitosamente el desarrollo del sistema IOT de Metalix. Además, se 
 
 Login
 
-![evidencia/e3](/evidencias_sprint2/e3.jpeg)
+<img src="./evidencias_sprint2/e3.jpeg" alt="Login">
 
 Dashboard
 
-![Landing Page - Problema](/evidencias_sprint2/e4.jpeg)
+<img src="./evidencias_sprint2/e4.jpeg" alt="Dashboard">
 
 Profile
 
-![Landing Page - Solución](/evidencias_sprint2/e2.jpeg)
+<img src="./evidencias_sprint2/e2.jpeg" alt="Profile">
 
 Rewards
 
-![Frontend - Login](/evidencias_sprint2/e7.jpeg)
+<img src="./evidencias_sprint2/e7.jpeg" alt="Rewards">
 
 Pantalla de la Aplicación Móvil: https://youtube.com/shorts/vP6ROVJ0D2Q
 
+Embedded System
+
+<img src="./chapter-6/sprint-2/embeded-system.jpg" alt="Embedded System">
+
+Embedded System Evidence 1
+
+<img src="./chapter-6/sprint-2/embeded-system01.png" alt="Embedded System Evidence 1">
+
+Embedded System Evidence 2
+
+<img src="./chapter-6/sprint-2/embeded-system02.png" alt="Embedded System Evidence 2">
+
+Embedded System Evidence 3
+
+<img src="./chapter-6/sprint-2/embeded-system03.png" alt="Embedded System Evidence 3">
+
+Embedded System Evidence 4
+
+<img src="./chapter-6/sprint-2/embeded-system04.png" alt="Embedded System Evidence 4">
 </div>
 
 #### 6.2.2.7. Services Documentation Evidence for Sprint Review
@@ -5279,10 +5336,6 @@ El entrevistado, Bruce Cipriano, opina que la landing page de Metalix es visualm
   <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218183_upc_edu_pe/IQB7TlP6LfThTb-rbygkozrPAU00zKu1wDgr6TmM7Fjr22E?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=YL16mV">Ver video</a>
 </p>
 
-<p align="center">
-  <b>Inicio:</b> 38:52 — <b>Fin:</b> 51:46
-</p>
-
 <p><b>Resumen de la entrevista:</b></p>
 
 <p align="justify">
@@ -5345,12 +5398,14 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
 
 ## 6.4. Video About-the-Product
 
-<img src="./foto_integrantes/product.jpg" alt="team" width="1000">
 
-<p align="center">
+<div align="center">
+
+  <img src="./foto_integrantes/product.jpg" alt="product" width="1000">
+
   <b>Enlace del Video About The Product:</b>
   <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202120347_upc_edu_pe/IQCAaoM2uKvmSrQsLLyHvz0ZAYO-zzIDN3xVNRrgVs23w64?e=rU0tof&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">Ver video</a>
-</p>
+</div>
 
 
 ## Conclusiones y recomendaciones
@@ -5373,13 +5428,13 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
 
 ## Video About-the-Team
 
-<img src="./foto_integrantes/team.png" alt="team" width="1000">
+<div align="center">
 
+  <img src="./foto_integrantes/team.png" alt="team" width="1000">
 
-<p align="center">
   <b>Enlace al video del About the Team:</b>
   <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202120347_upc_edu_pe/IQC7tk_iSxPATI-AaHfjpacQAbXWFKIEdDgCvFZ4FQqjPwE?e=XD69lP&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">Ver video</a>
-</p>
+</div>
 
 
 # Bibliografía
