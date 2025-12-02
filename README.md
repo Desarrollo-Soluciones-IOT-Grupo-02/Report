@@ -436,6 +436,24 @@ En la entrega de la TB2, el equipo consolidó los avances del TP y extendió sig
   <img src="./insights/commits.jpg" alt="GitHub Insights TB2" width="1000">
 </div>
 
+## TF - Collaboration Insights
+
+En la entrega de la TF, el equipo consolidó los avances del TF y extendió significativamente el desarrollo del proyecto. Se completaron módulos clave para la documentacion final y correciones hechas. Además, se reforzó la coordinación del equipo mediante ramas organizadas,reunions , evidencias en GitHub y revisión colaborativa de tareas.
+
+**Principales actividades realizadas:**
+- Desarrollo del sistema IoT embebido (lectores, sensores, lógica MQTT/HTTP y configuración del entorno)
+- Avances en el aplicativo móvil, integración con Firebase Auth y consumo inicial de endpoints
+- Configuración unificada de repositorios de la organización con documentación en README
+- Actualización de la documentación técnica del sistema y endpoints
+- Desarrollo del Sprint 3: planificación, ejecución, evidencias y revisión
+- Correcciones del Sprint 2 y 1 con alineamiento con la retroalimentación del docente
+
+**Commits del equipo - TF:**
+
+<div align="center">
+  <img src="./insights/commits.jpg" alt="" width="1000">
+</div>
+
 # Contenido
 
 ## Tabla de Contenidos
@@ -762,6 +780,16 @@ En la entrega de la TB2, el equipo consolidó los avances del TP y extendió sig
     - [6.2.2.7. Services Documentation Evidence for Sprint Review](#6227-services-documentation-evidence-for-sprint-review)
     - [6.2.2.8. Software Deployment Evidence for Sprint Review](#6228-software-deployment-evidence-for-sprint-review)
     - [6.2.2.9. Team Collaboration Insights during Sprint](#6229-team-collaboration-insights-during-sprint)
+  - [6.2.3. Sprint 3](#623-sprint-3)
+    - [6.2.3.1. Sprint Planning 2](#6222-sprint-planning-3)
+    - [6.2.3.2. Aspect Leaders and Collaborators](#6232-aspect-leaders-and-collaborators)
+    - [6.2.3.3. Sprint Backlog 3](#6233-sprint-backlog-3)
+    - [6.2.3.4. Development Evidence for Sprint Review](#6234-development-evidence-for-sprint-review)
+    - [6.2.3.5. Testing Suite Evidence for Sprint Review](#6235-testing-suite-evidence-for-sprint-review)
+    - [6.2.3.6. Execution Evidence for Sprint Review](#6236-execution-evidence-for-sprint-review)
+    - [6.2.3.7. Services Documentation Evidence for Sprint Review](#6237-services-documentation-evidence-for-sprint-review)
+    - [6.2.3.8. Software Deployment Evidence for Sprint Review](#6238-software-deployment-evidence-for-sprint-review)
+    - [6.2.3.9. Team Collaboration Insights during Sprint](#6239-team-collaboration-insights-during-sprint)
 - [6.3. Validation Interviews](#63-validation-interviews)
   - [6.3.1. Diseño de Entrevistas](#631-diseño-de-entrevistas)
   - [6.3.2. Registro de Entrevistas](#632-registro-de-entrevistas)
