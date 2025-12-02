@@ -963,6 +963,43 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
                 Durante esta etapa, asumí un rol activo en el desarrollo del proyecto fortaleciendo tanto la parte técnica como la de validación del prototipo. Contribuí directamente en la construcción de la aplicación móvil de Metalix, desarrollando las vistas principales del sistema y asegurando un flujo de navegación coherente entre ellas. Además, apoyé en la ejecución de la entrevista de validación a nuestro primer segmento objetivo, recopilando información clave sobre la usabilidad y percepción del prototipo. A partir de estos hallazgos, realicé un análisis inicial que permitirá orientar futuras mejoras en la interfaz y en las funcionalidades planteadas.
             </td>
           </tr>
+        <!-- Estudiantes  TF-->
+          <tr>
+            <td align="justify">
+              <b>Del Carmen Zorrilla, Ray Alessandro:</b><br>
+              Durante el desarrollo del proyecto asumí un rol activo en la organización de las tareas y coordinación con mis compañeros. 
+            </td>
+          </tr>
+          <tr>
+            <td align="justify">
+              <b>Cruz Palomino, Adriano Sebastian</b><br>
+              Durante la TP1 ejercí un liderazgo compartido al desarrollar los mockups, el user wireflow y el prototipo funcional. 
+            </td>
+          </tr>
+          <tr>
+            <td align="justify">
+              <b>Quiñones Tintaya, Johan Jorge:</b><br>
+              En el avance del Análisis de entrevistas, coordine con mis compañeros la construcción de preguntas y la redacción de respuestas en primera persona, de modo que todos pudimos aportar desde distintos enfoques. 
+            </td>
+          </tr>
+          <tr>
+            <td align="justify">
+              <b>Pardo Zapata Gustavo Adolfo:</b><br>
+              Durante la ultima parte de este proyecto, ejercí un liderazgo técnico integral al diseñar y documentar completamente el ultimo sprint. Lideré la implementación de la estrategia GitFlow, estableciendo los flujos de trabajo colaborativo que permitieron al equipo desarrollar características de manera paralela y organizada. Guié la configuración del entorno de desarrollo unificado.
+            </td>
+          </tr>
+          <tr>
+            <td align="justify">
+                <b>Roca Huapaya, Orlando Arturo:</b><br>
+                Realicé la integración entre los entregables de Lean UX y el diseño UI de Metalix para asegurar una narrativa consistente del problema a la solución. 
+            </td>
+          </tr>
+          <tr>
+            <td align="justify">
+                <b>Mancilla Ordaya, Eduardo Vicente:</b><br>
+              Durante el desarrollo de esta entrega apoyé en la entrevista al primer segmento objetivo, asumí mi rol de liderazgo proponiendo los diagramas C4 con las tecnologías en el que podríamos realizar el proyecto. También consideré la coherencia con los otros puntos del informe para la realización de los diagramas.
+            </td>
+          </tr>
         </table>
       </td>
       <!-- Conclusiones -->
@@ -992,6 +1029,15 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
             <td><b>TB2</b></td>
             <td align="justify">
               Durante la TB2, el equipo profundizó su enfoque colaborativo al enfrentar los desafíos técnicos de la implementación avanzada del sistema Metalix. Cada integrante ejerció liderazgo en componentes críticos como el desarrollo de microservicios, la arquitectura de eventos, las pruebas de integración y el despliegue en la nube. Esta especialización técnica, coordinada mediante metodologías ágiles, permitió mantener la coherencia arquitectónica mientras se escalaba la funcionalidad del producto. La distribución estratégica de responsabilidades facilitó la integración exitosa de frontend, backend e infraestructura, materializando una solución IoT robusta y alineada con los objetivos de diseño establecidos en fases anteriores.
+            </td>
+          </tr>
+          <tr>
+            <td><b>TF</b></td>
+            <td align="justify">
+              Como grupo distribuimos las responsabilidades de manera equilibrada en este report final, 
+              permitiendo que cada integrante asumiera un rol de liderazgo en sus secciones respectivamente.  
+              Esto fomentó un liderazgo compartido, donde cada miembro guió la tarea en su parte y, al mismo tiempo, 
+              se apoyó en las ideas de los demás para enriquecer los entregables.  
             </td>
           </tr>
         </table>
@@ -1144,6 +1190,43 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
               Durante el desarrollo de esta entrega asumí un rol más operativo dentro del equipo, enfocándome en la construcción del prototipo móvil. Contribuí directamente en el desarrollo de las vistas del sistema Metalix y en la configuración del flujo de navegación entre ellas, asegurando consistencia visual y funcional. Además, apoyé en la entrevista de validación realizada a nuestro primer segmento objetivo, aportando en la interpretación de los comentarios recopilados para fortalecer el diseño y orientar los siguientes pasos del proyecto.
             </td>
           </tr>
+        <!-- Estudiantes TF-->
+          <tr>
+            <td align="justify">
+              <b>Del Carmen Zorrilla, Ray Alessandro:</b><br>
+              Ejercí un liderazgo compartido en el diseño UI/UX de la landing page, coordinando la estructura visual y funcional del proyecto. 
+            </td>
+          </tr>
+          <tr>
+            <td align="justify">
+              <b>Cruz Palomino, Adriano Sebastian</b><br>
+              En la TB2 contribuí a mantener un entorno colaborativo mediante la planificación de tareas de diseño y la coordinación continua con el equipo. 
+            </td>
+          </tr>
+          <tr>
+            <td align="justify">
+              <b>Quiñones Tintaya, Johan Jorge:</b><br>
+              En el avance del Análisis de entrevistas, coordine con mis compañeros la construcción de preguntas y la redacción de respuestas en primera persona, de modo que todos pudimos aportar desde distintos enfoques. 
+            </td>
+          </tr>
+          <tr>
+            <td align="justify">
+              <b>Pardo Zapata Gustavo Adolfo:</b><br>
+              En la TF, consolidé un entorno de desarrollo colaborativo. Establecimos metas técnicas claras, planificando las tareas en sprints semanales con Trello. Cumplí con los objetivos al implementar  la configuración de los entornos de integración, lo que permitió al equipo comenzar el desarrollo de MANERA  coordinada y sobre una base técnica sólida.
+            </td>
+          </tr>
+          <tr>
+            <td align="justify">
+              <b>Roca Huapaya, Orlando Arturo:</b><br>
+              Fomenté un entorno colaborativo al mantener una comunicación clara con el equipo y organizar los avances de forma accesible para todos. 
+            </td>
+          </tr>
+          <tr>
+            <td align="justify">
+                <b>Mancilla Ordaya, Eduardo Vicente:</b><br>
+              Durante el desarrollo de esta entrega asumí un rol más operativo dentro del equipo, enfocándome en la construcción del prototipo móvil. 
+            </td>
+          </tr>
         </table>
       </td>
       <!-- Conclusiones -->
@@ -1173,6 +1256,16 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
             <td><b>TB2</b></td>
             <td align="justify">
               Durante la TB2, el equipo consolidó su madurez técnica y colaborativa al ejecutar exitosamente la fase de implementación del proyecto Metalix. Cada integrante asumió roles de liderazgo y colaborativo especializado en áreas críticas como el desarrollo de frontend y backend, la implementación de DevOps y la gestión de calidad del código. Esta distribución permitió mantener un entorno de trabajo inclusivo y coordinado, donde se establecieron metas técnicas ambiciosas, se planificaron sprints con entregables claros y se cumplieron los objetivos de implementación funcional. El resultado fue la entrega de un producto integral y cohesivo, respaldado por una infraestructura técnica robusta y alineada con los principios de Domain-Driven Design y las mejores prácticas de ingeniería de software.
+            </td>
+          </tr>
+          <tr>
+            <td><b>TF</b></td>
+            <td align="justify">
+              El equipo trabajó en un entorno colaborativo, valorando las propuestas de todos y asegurando la participación equitativa.  
+              Se establecieron tareas y correciones necesaria repartidas equitativamente, 
+              planificando tareas de forma conjunta y distribuyendo el trabajo según las fortalezas de cada integrante.  
+              Gracias a esta organización y compromiso colectivo, se cumplieron los objetivos en los tiempos establecidos, 
+              garantizando un proyecto cohesionado y alineado a la solución propuesta.
             </td>
           </tr>
         </table>
