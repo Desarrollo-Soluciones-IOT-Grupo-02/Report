@@ -12,7 +12,7 @@
   <img width=250 src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png"/>
 </div>
 
-<h1 align="center"> TB2 Report </h1>
+<h1 align="center"> TF Report </h1>
 
 <h3 align="center"> Docente: Vera Olivera, David Carlos </h3>
 
@@ -64,7 +64,7 @@
   </table>
 </div>
 
-<h3 align="center">Agosto, 2025</h3>
+<h3 align="center">Diciembre, 2025</h3>
 
 <br><br>
 
@@ -310,6 +310,61 @@ Esta sección tiene como propósito detallar las actualizaciones significativas 
     - Además, participó en correcciones según la retroalimentación del sprint anterior.<br>
   </td>
 </tr>
+    <!-- TF -->
+    <tr>
+      <td rowspan="7">TF</td>
+      <td rowspan="7">10/10/2025</td>
+    </tr>
+    <tr>
+      <td>Del Carmen Zorrilla, Ray Alessandro</td>
+      <td>
+        - <br>
+        - 
+        - 
+        - 
+        - 
+      </td>
+    </tr>
+    <tr>
+      <td>Cruz Palomino, Adriano Sebastian</td>
+      <td>
+        - <br>
+      </td>
+    </tr>
+        <tr>
+      <td>Quiñones Tintaya, Johan Jorge</td>
+      <td>
+        - .<br>
+        - 
+        - 
+        - 
+        - 
+        - 
+        - 
+      </td>
+    </tr>
+    <tr>
+      <td>Pardo Zapata, Gustavo Adolfo</td>
+      <td>
+        - Desarrollo del sprint 3<br>
+        - Implementacion del sprint planning 3 <br>
+        - Se completo el sprint backlog 3<br>
+        - Correciones generales del informe final <br>
+      </td>
+    </tr>
+        <tr>
+      <td>Roca Huapaya, Orlando Arturo</td>
+      <td>
+        - .<br>
+    </td>
+    </tr>
+        <tr>
+      <td>Mancilla Ordaya, Eduardo Vicente</td>
+      <td>
+        - .<br>
+      </td>
+    </tr>
+     <!-- TB2 -->
   <!-- Otras entrega -->
   </tbody>
 </table>
