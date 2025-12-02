@@ -963,6 +963,10 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
                 Durante esta etapa, asumí un rol activo en el desarrollo del proyecto fortaleciendo tanto la parte técnica como la de validación del prototipo. Contribuí directamente en la construcción de la aplicación móvil de Metalix, desarrollando las vistas principales del sistema y asegurando un flujo de navegación coherente entre ellas. Además, apoyé en la ejecución de la entrevista de validación a nuestro primer segmento objetivo, recopilando información clave sobre la usabilidad y percepción del prototipo. A partir de estos hallazgos, realicé un análisis inicial que permitirá orientar futuras mejoras en la interfaz y en las funcionalidades planteadas.
             </td>
           </tr>
+     <table>
+          <tr>
+            <td rowspan="7"><b>TF</b></td>
+          </tr>
         <!-- Estudiantes  TF-->
           <tr>
             <td align="justify">
@@ -1189,6 +1193,10 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
                 <b>Mancilla Ordaya, Eduardo Vicente:</b><br>
               Durante el desarrollo de esta entrega asumí un rol más operativo dentro del equipo, enfocándome en la construcción del prototipo móvil. Contribuí directamente en el desarrollo de las vistas del sistema Metalix y en la configuración del flujo de navegación entre ellas, asegurando consistencia visual y funcional. Además, apoyé en la entrevista de validación realizada a nuestro primer segmento objetivo, aportando en la interpretación de los comentarios recopilados para fortalecer el diseño y orientar los siguientes pasos del proyecto.
             </td>
+          </tr>
+    <table>
+          <tr>
+            <td rowspan="7"><b>TF</b></td>
           </tr>
         <!-- Estudiantes TF-->
           <tr>
