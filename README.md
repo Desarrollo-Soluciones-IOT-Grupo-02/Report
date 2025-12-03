@@ -5382,106 +5382,299 @@ Durante el Sprint 2 se estableció la base para las pruebas automatizadas, imple
 
 #### 6.2.3.6. Execution Evidence for Sprint Review
 
-**Resumen de Logros del Sprint 2:**
-Se completó exitosamente el desarrollo del sistema IOT de Metalix. Además, se estableció la base de la mobile app con componentes principales.
+Durante el Sprint 3 se completó el sistema IoT embebido funcional de Metalix, integrando sensores, actuadores, pantalla OLED, lector NFC y comunicación MQTT con HiveMQ Cloud.  
+El sistema ejecuta el ciclo completo de la lógica del contenedor inteligente: detección de metal, acumulación de puntos, identificación del usuario mediante NFC y proceso de canje.
 
-**Capturas de Pantalla de Vistas Principales:**
+A continuación se registran las evidencias de ejecución:
 
-* Login 
+### **1. Sistema IoT general armado y en funcionamiento**
+
+La primera imagen muestra el sistema completo sobre el protoboard, incluyendo:
+
+- **ESP32 DevKit** como microcontrolador central.  
+- **Sensor inductivo LJ12A3-4-Z/BX** para detección de metales.  
+- **Pantalla OLED I2C** para retroalimentación inmediata al usuario.  
+- **Módulo NFC PN532** para lectura de tarjetas RFID.  
+- **Servomotor MG996R** para el mecanismo de apertura/canje.  
+- **Conexión MQTT activa** con HiveMQ Cloud.
+
+Esto evidencia la integración física y lógica del ecosistema IoT.
+
+![Sistema general](/chapter-6/sprint-3/iot_1.jpg)
+
+### **2. Detección de metal y asignación de puntos**
+
+En esta captura se observa el momento en que el sensor inductivo detecta la presencia de metal.  
+La pantalla OLED actualiza el puntaje generado (10 puntos por metal detectado) y el sistema publica el evento `metal_detected` via MQTT.
+
+Esto corresponde al comportamiento real del contenedor Metalix.
+
+![Metal detectado](/chapter-6/sprint-3/iot_2.jpg)
+
+### **3. Activación del servomotor**
+
+Esta imagen evidencia el movimiento del servomotor al momento de confirmar el depósito de metal o al ejecutar el proceso de canje.  
+El servomotor es parte crucial del mecanismo que permitirá físicamente liberar recompensas.
+
+![Servo en acción](/chapter-6/sprint-3/iot_3.jpg)
+
+### **4. Solicitud de tarjeta NFC para asignar puntos**
+
+Aquí se aprecia la pantalla mostrando el mensaje:
+
+**"Pase su tarjeta para canjear"**
+
+El sistema entra en modo de espera y aguarda la identificación del usuario mediante el módulo PN532.
+
+![Solicitando tarjeta](/chapter-6/sprint-3/iot_4.jpg)
+
+### **5. Proceso de canje al pasar la tarjeta NFC**
+
+Una vez leída la tarjeta NFC, el sistema:
+
+- Recupera los puntos acumulados.
+- Ejecuta el proceso de canje.
+- Muestra mensaje de éxito en la pantalla OLED.
+
+En la imagen se visualiza claramente el texto:
+
+**"CANJEADO! 150 pts"**
+
+![Canje exitoso](/chapter-6/sprint-3/iot_5.jpg)
+
+### **6. Registro de eventos MQTT en HiveMQ Cloud**
+
+Esta evidencia muestra el dashboard de HiveMQ Cloud recibiendo en tiempo real los eventos enviados por el ESP32, como:
+
+- `"event": "metal_detected"`
+- `"event": "redeem_requested"`
+- `"status"` messages del dispositivo  
+
+Cada mensaje contiene:
+- Timestamp  
+- Total de puntos acumulados  
+- Datos de telemetría (heap, uptime)
+
+Esto demuestra la correcta integración IoT → Cloud.
+
+![MQTT Evidence 1](/chapter-6/sprint-3/iot_6.jpg)
 
 
-![evidencia/e3](/evidencias_sprint2/e3.jpeg)
+### **7. Log de ejecución en tiempo real desde VSCode / PlatformIO**
 
-* Dashboard
+Finalmente, el log del ESP32 demuestra:
 
-![Landing Page - Problema](/evidencias_sprint2/e4.jpeg)
+- Inicialización y reconexión automática del PN532  
+- Detección de metal  
+- Publicación MQTT exitosa  
+- Lectura de tarjetas NFC  
+- Ejecución del proceso de canje  
+- Manejo de timeouts e inactividad  
 
-* Profile
+Esto comprueba que el firmware del dispositivo está estable y realiza correctamente todas las funciones definidas.
 
-![Landing Page - Solución](/evidencias_sprint2/e2.jpeg)
+![MQTT Evidence 2](/chapter-6/sprint-3/iot_7.jpg)
 
-* Rewards
-
-![Frontend - Login](/evidencias_sprint2/e7.jpeg)
-*Pantalla de *
-
-Aplicación Móvil: https://youtube.com/shorts/vP6ROVJ0D2Q
 
 #### 6.2.3.7. Services Documentation Evidence for Sprint Review
 
-Esta sección incluye la relación de Endpoints documentados con OpenAPI, relevantes al alcance del Sprint. La sección comienza con una introducción resumiendo los logros en Documentación de Web Services para el Sprint.
+Durante el Sprint 3 se consolidó la capa de servicios de Metalix, ampliando y refactorizando los endpoints desarrollados en sprints previos.  
+Se completó la documentación del conjunto final de APIs que conforman la plataforma, integrando todos los módulos del proyecto: autenticación, usuarios, municipalidades, zonas, contenedores inteligentes, tarjetas RFID, recolecciones IoT, recompensas y monitoreo.
 
-**Resumen de Logros en Documentación de Servicios Web:**
-Durante el Sprint 2 se implementó exitosamente el backend de Metalix utilizando Spring Boot 3.5.6 y Java 21, siguiendo arquitectura Domain-Driven Design (DDD). Se crearon 6 bounded contexts principales y se documentaron todos los endpoints con OpenAPI/Swagger. El sistema incluye autenticación JWT, gestión de municipalidades, recolección de residuos, sistema de recompensas, monitoreo y gestión de tarjetas RFID.
+El backend mantiene la arquitectura basada en Spring Boot 3.5.6, Java 21 y Domain-Driven Design (DDD), con 6 bounded contexts principales que encapsulan la lógica del dominio.  
+Todos los servicios fueron expuestos y documentados con OpenAPI/Swagger, permitiendo a los equipos de frontend, mobile e IoT integrar el sistema de forma consistente.
 
-**URL del Repositorio de Web Services:** https://github.com/Desarrollo-Soluciones-IOT-Grupo-02/metalix-backend
-**URL del Repositorio de Web Services:** https://github.com/johaanq/metalix-backend
+### **Resumen de Logros en Documentación de Web Services – Sprint 3**
 
-**Documentación OpenAPI:** 
-- Swagger UI: `http://localhost:8080/swagger-ui.html`
-- OpenAPI JSON: `http://localhost:8080/api-docs`
+Durante este sprint se completaron:
 
-**Bounded Contexts Implementados:**
+- La **documentación final** de todos los endpoints REST.
+- La unificación del diseño API con **Swagger/OpenAPI 3.0**.
+- La ampliación de funcionalidades en los módulos más críticos (Usuarios, Recolecciones, RFID, IoT Devices).
+- La normalización de rutas, modelos de respuesta y códigos HTTP.
+- La verificación y despliegue de los endpoints finales en el proyecto backend.
 
-| Bounded Context | Descripción | Endpoints Principales |
+Este sprint marca la finalización funcional completa del backend de Metalix.
+
+### **Repositorios del Backend**
+
+- **Repositorio oficial:**  
+  https://github.com/Desarrollo-Soluciones-IOT-Grupo-02/metalix-backend
+
+- **Repositorio espejo / dev:**  
+  https://github.com/johaanq/metalix-backend
+
+### **Documentación OpenAPI**
+
+- **Swagger UI:**  
+  `https://metalix-backend.onrender.com/swagger-ui/index.html#/`
+
+### **Bounded Contexts Implementados**
+
+| Bounded Context | Descripción | Endpoints Asociados |
 |----------------|-------------|----------------------|
-| IAM (Identity Access Management) | Autenticación y autorización con JWT | `/api/v1/auth/*`, `/api/v1/users/*` |
-| Municipality | Gestión de municipalidades y zonas | `/api/v1/municipalities/*`, `/api/v1/zones/*` |
-| Waste Collection | Recolectores, colecciones y sensores IoT | `/api/v1/waste-collectors/*`, `/api/v1/waste-collections/*` |
-| Reward | Sistema de recompensas y puntos | `/api/v1/rewards/*`, `/api/v1/reward-transactions/*` |
-| Monitoring | Reportes, métricas y alertas | `/api/v1/monitoring/*` |
-| User Identification | Gestión de tarjetas RFID | `/api/v1/rfid-cards/*` |
+| IAM | Autenticación, roles, JWT | Auth, Users |
+| Municipality | Administración municipal | Municipalities, Zones |
+| Waste Collection | Contenedores, sensores y recolecciones | Waste Collectors, Waste Collections |
+| Reward | Recompensas y transacciones | Rewards, Reward Transactions |
+| User Identification | Tarjetas RFID | RFID Cards |
+| Monitoring | Métricas, alertas y reportes | Monitoring |
 
-**Endpoints Documentados - Sprint 2:**
+## **Endpoints Finales Implementados – Sprint 3**
 
-| Endpoint | Método | Descripción | Bounded Context |
-|----------|--------|-------------|-----------------|
-| `/api/v1/auth/register` | POST | Registrar nuevo usuario | IAM |
-| `/api/v1/auth/login` | POST | Iniciar sesión y obtener JWT | IAM |
-| `/api/v1/users` | GET | Listar usuarios (admin) | IAM |
-| `/api/v1/users/{id}` | GET | Obtener usuario por ID | IAM |
-| `/api/v1/users/{id}/points` | GET | Obtener puntos del usuario | IAM |
-| `/api/v1/municipalities` | GET | Listar municipalidades | Municipality |
-| `/api/v1/municipalities` | POST | Crear municipalidad (admin) | Municipality |
-| `/api/v1/zones` | GET | Listar zonas | Municipality |
-| `/api/v1/zones/municipality/{id}` | GET | Zonas por municipalidad | Municipality |
-| `/api/v1/waste-collectors` | GET | Listar contenedores | Waste Collection |
-| `/api/v1/waste-collectors/full` | GET | Contenedores llenos (>80%) | Waste Collection |
-| `/api/v1/waste-collections` | POST | Registrar recolección | Waste Collection |
-| `/api/v1/waste-collections/user/{id}` | GET | Colecciones por usuario | Waste Collection |
-| `/api/v1/sensor-data` | POST | Enviar datos de sensores IoT | Waste Collection |
-| `/api/v1/rewards` | GET | Listar recompensas | Reward |
-| `/api/v1/rewards/active` | GET | Recompensas activas | Reward |
-| `/api/v1/reward-transactions/redeem` | POST | Canjear recompensa | Reward |
-| `/api/v1/reward-transactions/user/{id}` | GET | Transacciones de usuario | Reward |
-| `/api/v1/monitoring/reports` | GET | Listar reportes (admin) | Monitoring |
-| `/api/v1/monitoring/metrics` | GET | Obtener métricas del sistema | Monitoring |
-| `/api/v1/monitoring/alerts` | GET | Listar alertas | Monitoring |
-| `/api/v1/monitoring/alerts/unread` | GET | Alertas no leídas | Monitoring |
-| `/api/v1/rfid-cards/user/{id}` | GET | Tarjeta por usuario | User Identification |
-| `/api/v1/rfid-cards/use/{cardNumber}` | POST | Usar tarjeta RFID | User Identification |
-| `/api/v1/rfid-cards/assign` | POST | Asignar tarjeta a usuario | User Identification |
+A continuación se presenta la lista completa de endpoints consolidados durante el Sprint 3.
 
-**Commits del Repositorio - Backend:**
+### **Users – User Management**
 
-| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
-|------------|--------|-----------|----------------|-------------------|-------------------|
-| johaanq/metalix-backend | main | 4b7e9a2 | feat: initialize Spring Boot project | Created project structure with Maven, Spring Boot 3.5.6 and Java 21 configuration | 28/09/2025 |
-| johaanq/metalix-backend | develop | 8c3f1d6 | feat(iam): implement authentication module | Created User entity, JWT service and authentication endpoints | 29/09/2025 |
-| johaanq/metalix-backend | develop | 2a9e5c4 | feat(iam): add Spring Security configuration | Implemented JWT filter, security config and role-based authorization | 30/09/2025 |
-| johaanq/metalix-backend | develop | 7f4d8b1 | feat(municipality): implement municipality context | Created Municipality and Zone entities with CRUD operations | 01/10/2025 |
-| johaanq/metalix-backend | develop | 5e6c2a9 | feat(waste-collection): add waste collector module | Implemented WasteCollector, WasteCollection and sensor data endpoints | 03/10/2025 |
-| johaanq/metalix-backend | develop | 9d1f3e7 | feat(reward): implement rewards system | Created Reward and RewardTransaction entities with redemption logic | 04/10/2025 |
-| johaanq/metalix-backend | develop | 3c8a5b2 | feat(monitoring): add monitoring and reports | Implemented Report, Alert and metrics calculation services | 05/10/2025 |
-| johaanq/metalix-backend | develop | 6e9d4c1 | feat(rfid): implement RFID card management | Created RfidCard entity with assignment and usage tracking | 06/10/2025 |
-| johaanq/metalix-backend | develop | 1f7a8e3 | docs: integrate Swagger/OpenAPI documentation | Added OpenAPI 3.0 annotations and Swagger UI configuration | 07/10/2025 |
-| johaanq/metalix-backend | develop | 4d2b9f6 | test: add unit tests for IAM and Municipality | Implemented JUnit tests with 85% coverage for core modules | 08/10/2025 |
-| johaanq/metalix-backend | develop | 8a5c3d1 | fix: resolve CORS and JWT token issues | Fixed CORS configuration and JWT expiration handling | 09/10/2025 |
-| johaanq/metalix-backend | main | 2e6f9b4 | chore: prepare for Railway deployment | Added Dockerfile and Railway configuration files | 10/10/2025 |
-| Desarrollo-Soluciones-IOT-Grupo-02/metalix-backend | main | 86ac2b3| commit | first commit | 16/11/2025 |
+| Método | Endpoint | Descripción |
+|--------|----------|-------------|
+| GET | `/api/v1/users/{id}` | Obtener usuario por ID |
+| PUT | `/api/v1/users/{id}` | Actualizar usuario |
+| DELETE | `/api/v1/users/{id}` | Eliminar usuario |
+| PATCH | `/api/v1/users/{id}/deactivate` | Desactivar usuario |
+| GET | `/api/v1/users` | Listar usuarios (paginado) |
+| GET | `/api/v1/users/{id}/stats` | Estadísticas del usuario |
+| GET | `/api/v1/users/{id}/profile` | Perfil extendido |
+| GET | `/api/v1/users/{id}/points` | Puntos del usuario |
+| GET | `/api/v1/users/{id}/activity` | Historial de actividad |
+| GET | `/api/v1/users/role/{role}` | Usuarios por rol |
+| GET | `/api/v1/users/municipality/{municipalityId}` | Usuarios por municipalidad |
+
+### **Zones – Zone Management**
+
+| Método | Endpoint | Descripción |
+|--------|----------|-------------|
+| GET | `/api/v1/zones/{id}` | Obtener zona |
+| PUT | `/api/v1/zones/{id}` | Actualizar zona |
+| DELETE | `/api/v1/zones/{id}` | Eliminar zona |
+| GET | `/api/v1/zones` | Listar zonas |
+| POST | `/api/v1/zones` | Crear zona |
+| GET | `/api/v1/zones/municipality/{municipalityId}` | Zonas por municipalidad |
+
+### **Waste Collectors – Contenedores Inteligentes**
+
+| Método | Endpoint | Descripción |
+|--------|----------|-------------|
+| GET | `/api/v1/waste-collectors/{id}` | Obtener contenedor |
+| PUT | `/api/v1/waste-collectors/{id}` | Actualizar contenedor |
+| DELETE | `/api/v1/waste-collectors/{id}` | Eliminar contenedor |
+| GET | `/api/v1/waste-collectors` | Listar contenedores |
+| POST | `/api/v1/waste-collectors` | Crear contenedor |
+| PATCH | `/api/v1/waste-collectors/{id}/empty` | Vaciar contenedor |
+| GET | `/api/v1/waste-collectors/zone/{zoneId}` | Contenedores por zona |
+| GET | `/api/v1/waste-collectors/municipality/{municipalityId}` | Contenedores por municipalidad |
+| GET | `/api/v1/waste-collectors/full` | Contenedores al 80%+ |
+
+### **RFID Cards – Identificación de Usuarios**
+
+| Método | Endpoint | Descripción |
+|--------|----------|-------------|
+| GET | `/api/v1/rfid-cards` | Listar tarjetas |
+| POST | `/api/v1/rfid-cards` | Crear tarjeta |
+| POST | `/api/v1/rfid-cards/use/{cardNumber}` | Usar tarjeta |
+| POST | `/api/v1/rfid-cards/link` | Vincular tarjeta al ciudadano |
+| POST | `/api/v1/rfid-cards/assign` | Asignar tarjeta a usuario |
+| PATCH | `/api/v1/rfid-cards/{id}/block` | Bloquear tarjeta |
+| GET | `/api/v1/rfid-cards/user/{userId}` | Tarjeta por usuario |
+
+### **Waste Collections – Gestión de Recolecciones**
+
+| Método | Endpoint | Descripción |
+|--------|----------|-------------|
+| GET | `/api/v1/waste-collections` | Listar recolecciones |
+| POST | `/api/v1/waste-collections` | Registrar recolección |
+| GET | `/api/v1/waste-collections/{id}` | Obtener recolección |
+| GET | `/api/v1/waste-collections/user/{userId}` | Recolecciones por usuario |
+| GET | `/api/v1/waste-collections/municipality/{municipalityId}` | Recolecciones por municipalidad |
+| GET | `/api/v1/waste-collections/collector/{collectorId}` | Recolecciones por contenedor |
+
+### **IoT Collections – Integración con Dispositivos IoT**
+
+| Método | Endpoint | Descripción |
+|--------|----------|-------------|
+| POST | `/api/v1/iot/collections/register` | Registrar colección desde IoT |
+| GET | `/api/v1/iot/collections/health` | Health check del endpoint IoT |
+
+### **Reward Transactions**
+
+| Método | Endpoint | Descripción |
+|--------|----------|-------------|
+| POST | `/api/v1/reward-transactions/redeem` | Canjear recompensa |
+| GET | `/api/v1/reward-transactions` | Listar transacciones |
+| GET | `/api/v1/reward-transactions/user/{userId}` | Transacciones por usuario |
+
+### **Authentication**
+
+| Método | Endpoint | Descripción |
+|--------|----------|-------------|
+| POST | `/api/v1/auth/register` | Registrar usuario |
+| POST | `/api/v1/auth/register-municipality` | Registrar municipalidad + admin |
+| POST | `/api/v1/auth/login` | Iniciar sesión |
+
+### **Municipalities**
+
+| Método | Endpoint | Descripción |
+|--------|----------|-------------|
+| GET | `/api/v1/municipalities/{id}` | Obtener municipalidad |
+| PUT | `/api/v1/municipalities/{id}` | Actualizar municipalidad |
+| DELETE | `/api/v1/municipalities/{id}` | Eliminar municipalidad |
+| GET | `/api/v1/municipalities` | Listar municipalidades |
+| POST | `/api/v1/municipalities` | Crear municipalidad |
+| GET | `/api/v1/municipalities/{id}/stats` | Estadísticas |
+| GET | `/api/v1/municipalities/{id}/dashboard` | Dashboard |
+
+### **Rewards**
+
+| Método | Endpoint | Descripción |
+|--------|----------|-------------|
+| GET | `/api/v1/rewards/{id}` | Obtener recompensa |
+| PUT | `/api/v1/rewards/{id}` | Actualizar recompensa |
+| DELETE | `/api/v1/rewards/{id}` | Eliminar recompensa |
+| GET | `/api/v1/rewards` | Listar recompensas |
+| POST | `/api/v1/rewards` | Crear recompensa |
+| GET | `/api/v1/rewards/municipality/{municipalityId}` | Recompensas por municipalidad |
+| GET | `/api/v1/rewards/active` | Recompensas activas |
+
+### **Monitoring – Métricas, Alertas y Reportes**
+
+| Método | Endpoint | Descripción |
+|--------|----------|-------------|
+| GET | `/api/v1/monitoring/reports` | Listar reportes |
+| POST | `/api/v1/monitoring/reports` | Crear reporte |
+| GET | `/api/v1/monitoring/reports/{id}` | Obtener reporte |
+| GET | `/api/v1/monitoring/reports/municipality/{municipalityId}` | Reportes por municipalidad |
+| GET | `/api/v1/monitoring/metrics` | Listar métricas |
+| POST | `/api/v1/monitoring/metrics` | Crear métrica |
+| GET | `/api/v1/monitoring/metrics/municipality/{municipalityId}` | Métricas por municipalidad |
+| GET | `/api/v1/monitoring/alerts` | Listar alertas |
+| POST | `/api/v1/monitoring/alerts` | Crear alerta |
+| PATCH | `/api/v1/monitoring/alerts/{id}` | Resolver alerta |
+| GET | `/api/v1/monitoring/alerts/unread` | Alertas no leídas |
+| GET | `/api/v1/monitoring/alerts/municipality/{municipalityId}` | Alertas por municipalidad |
+
+### **Admin – Data Loader**
+
+| Método | Endpoint | Descripción |
+|--------|----------|-------------|
+| POST | `/api/v1/admin/test-password` | Test de autenticación interna |
+| POST | `/api/v1/admin/test-auth-service` | Test de service de auth |
+| POST | `/api/v1/admin/load-sample-data` | Cargar datos de ejemplo |
+| POST | `/api/v1/admin/create-test-user` | Crear usuario de prueba |
+| POST | `/api/v1/admin/create-basic-data` | Crear datos base |
+| GET | `/api/v1/admin/data-status` | Estado de la data |
+| GET | `/api/v1/admin/check-users` | Verificar usuarios |
+| DELETE | `/api/v1/admin/clear-all-data` | Borrar todos los datos |
+
+### **Home Controller**
+
+| Método | Endpoint | Descripción |
+|--------|----------|-------------|
+| GET | `/` | Endpoint raíz para verificación |
+
 **Capturas de Pantalla de Documentación:**
 
-![Swagger UI - Endpoints Overview](./chapter-6/sprint-1/swagger-overview.png)
+![Swagger UI - Endpoints Overview](./chapter-6/sprint-3/swagger-overview.png)
+
 *Vista general de endpoints documentados en Swagger UI*
 
 #### 6.2.3.8. Software Deployment Evidence for Sprint Review
