@@ -5329,7 +5329,7 @@ Desarrollar la landing page de Metalix y establecer el frontend base de la aplic
 | HU-11 | Registrar tarjeta RDID | EP-03 - Gestión de perfil de usuario |5 | Adriano | Done |
 | TS-03 | API de canje con ID unico | EP-04 - Interes Municipal | 5 | Gustavo | Done |
 | HU-20 | Panel de recolectores | EP-04 - Interes Municipal | 8 | Orlando | Done|
-| HU-19 | RReporte de residuos | EP-04 - Interes Municipal | 5 | Adriano | Done |
+| HU-19 | Reporte de residuos | EP-04 - Interes Municipal | 5 | Adriano | Done |
 | TS-04 | Ranking bañistas,vista municipal | EP-01 - Páginas informativas | 3 | Orlando | Done|
 
 #### 6.2.3.4. Development Evidence for Sprint Review
