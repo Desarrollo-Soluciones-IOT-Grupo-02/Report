@@ -5677,63 +5677,49 @@ A continuación se presenta la lista completa de endpoints consolidados durante 
 
 #### 6.2.3.8. Software Deployment Evidence for Sprint Review
 
-Esta sección describe el contenido para "Software Deployment Evidence". Requiere un resumen de los procesos realizados relacionados con Deployment durante el Sprint.
-
-**Resumen de Procesos de Deployment del Sprint 3:**
-Durante el Sprint 3 se configuró y desplegó exitosamente la landing page de Metalix utilizando GitHub Pages, y se preparó el despliegue del frontend en Vercel.
+Durante el Sprint 3 se desplegó el prototipo completo de Metalix en un entorno de prueba accesible desde internet. Para ello se publicó el backend IoT en un servidor con IP pública, se configuró un *reverse proxy* para manejar las peticiones externas y se habilitaron los puertos necesarios para la comunicación entre el dispositivo embebido, la aplicación móvil y los servicios de backend. Con este despliegue fue posible validar el comportamiento del sistema en un escenario cercano a producción, sin limitarse únicamente a pruebas en red local.
 
 **Actividades de Deployment Realizadas:**
 
-1. **Configuración de GitHub Pages para Landing Page:**
-   - Creación de repositorio público en GitHub
-   - Configuración de GitHub Pages en la rama main
-   - Despliegue automático desde la rama main
+- **Despliegue del Backend IoT en Servidor con IP Pública:**
+  - Configuración de Docker y levantamiento del servicio backend como contenedor, facilitando su gestión y futuras actualizaciones.
+  - Configuración de un *reverse proxy* con Nginx para enrutar las solicitudes externas hacia la API REST interna.
 
-2. **Configuración de Vercel para Frontend:**
-   - Creación de cuenta en Vercel
-   - Conexión del repositorio de GitHub
-   - Configuración de variables de entorno
-   - Configuración de build settings
-3. **Configuración de la Aplicación Móvil:**
-   - ConfiguracCión del entorno de compilación en Android Studio.
-   - Generación del archivo APK en modo release para instalación en dispositivos móviles.
-   - Pruebas de instalación del APK en equipos físicos para validar funcionamiento y accesibilidad del prototipo.
-**Capturas de Pantalla del Proceso de Deployment:**
+- **Apertura de Puertos y Configuración de Firewall:**
+  - Apertura del puerto HTTP/HTTPS utilizado por la API para el consumo desde la aplicación móvil y herramientas de prueba.
+  - Apertura del puerto del broker MQTT para permitir el envío de eventos desde el sistema embebido hacia el backend.
+  - Actualización de las reglas de firewall y seguridad del servidor, restringiendo el acceso únicamente a las IPs y rangos necesarios para el entorno de pruebas.
 
-![GitHub Pages Configuration](./chapter-6/sprint-1/landing-deploy.png)
-*Configuración de GitHub Pages en el repositorio*
+- **Integración del Sistema Embebido con el Backend:**
+  - Actualización de la configuración de red del dispositivo para que se conecte al backend usando la IP pública del servidor.
+  - Parametrización de las credenciales de MQTT y de los *endpoints* REST en el firmware, permitiendo el envío de lecturas de peso y estados del contenedor hacia la plataforma.
+  - Ejecución de pruebas de comunicación extremo a extremo, verificando que cada evento generado en el dispositivo se refleje correctamente en el backend.
 
-![Vercel Deployment](./chapter-6/sprint-1/front-deploy.png)
-*Configuración del despliegue en Vercel*
+- **Exposición del Servicio a la App Móvil Metalix:**
+  - Configuración de la URL base del backend en la aplicación móvil, apuntando al dominio/IP pública del servidor.
+  - Pruebas de consumo de la API desde dispositivos móviles conectados a redes externas (Wi-Fi y datos móviles) para comprobar la accesibilidad del servicio.
+  - Verificación de que los cambios de estado enviados por el prototipo se visualizan en tiempo real en la interfaz de usuario.
 
-**URLs de Deployment:**
-- Landing Page: https://johaanq.github.io/metalix-landing-page/
-- Frontend (Vercel): https://metalix-frontend.vercel.app/auth/login
-
+Con estas actividades se logró disponer de un entorno desplegado y estable para el prototipo de Metalix, evidenciando que la arquitectura propuesta es viable y que el sistema puede operar correctamente fuera del contexto de laboratorio, sirviendo como base para futuros despliegues en un entorno productivo.
 #### 6.2.3.9. Team Collaboration Insights during Sprint
 
-Durante este sprint, el equipo trabajó de manera colaborativa siguiendo metodologías ágiles para el desarrollo de Metalix-Embedded-System y la aplicación móvil. Ray estuvo a cargo del desarrollo del sistema embebido, incluyendo la integración del hardware, el manejo de sensores y la comunicación con el backend. Eduardo lideró el desarrollo de la app mobile, implementando interfaces, navegación y conexión con los servicios del sistema. Mientras que los demás integrantes del equipo apoyaron en pruebas, revisión de código, documentación y mejoras continuas durante el sprint.
+En el Sprint 3 se evidenció un trabajo colaborativo más estructurado entre los integrantes del equipo de Metalix, tanto en el desarrollo del sistema embebido como de la aplicación móvil. El uso disciplinado de ramas en Git y la integración progresiva de cambios permitió que cada integrante pudiera avanzar en sus tareas sin bloquear al resto, manteniendo al mismo tiempo un historial claro de los aportes individuales.
 
-**Analíticas de Colaboración de GitHub:**
+![](./evidencias_sprint3/image.png)
 
-Metalix Embedded System Contributions:
+![](./evidencias_sprint3/image2.png)
 
-![GitHub Collaboration Analytics](./chapter-6/sprint-2/Metalix-Embedded-System-Contributions.png)
+- En el **repositorio Metalix-Embedded-System** se observa la rama `main` como línea base estable y la rama `develop` como espacio de integración de nuevas funcionalidades de firmware. Los commits se distribuyen a lo largo del tiempo y culminan con la integración en `develop`, lo que refleja ciclos cortos de desarrollo y consolidación del código antes de ser considerado estable.
+- En el **repositorio metalix_flutter_app** se aprecia un modelo similar, con `main` como rama estable y `develop` como rama de integración. Además, se distinguen las ramas asociadas a las historias de usuario (`HU01`, `HU02`), que se desarrollan en paralelo y luego se fusionan hacia `develop`. Esto evidencia que las tareas se asignaron y desarrollaron de manera distribuida, favoreciendo el paralelismo y la especialización por funcionalidad.
 
-Metalix Flutter App Contributions:
+A partir de estas evidencias pueden extraerse los siguientes insights de colaboración:
 
-![GitHub Collaboration Analytics](./chapter-6/sprint-2/Metalix-Flutter-App-Contributions.png)
+- El equipo aplicó un esquema cercano a **GitFlow**, separando el código estable de las funcionalidades en desarrollo.
+- Las ramas por historia de usuario permitieron que cada integrante trabajara en features específicos (por ejemplo, autenticación, vistas de dashboard o lógica de bloqueo por peso) sin interferir con el trabajo del resto.
+- Los puntos de merge hacia `develop` reflejan momentos de integración coordinada, donde se realizaron pruebas básicas y verificación conjunta antes de consolidar cambios.
+- La coexistencia de commits de distintos miembros en ambas ramas (`main` y `develop`) muestra una participación activa de todo el equipo, evitando que el desarrollo se concentre en una sola persona.
 
-*Analíticas de commits y colaboración del equipo durante el Sprint 3*
-
-**Interpretación del Equipo de las Analíticas:**
-Las analíticas muestran una participación coherente con los roles asignados. Ray presenta un mayor número de commits, reflejando el trabajo iterativo necesario para el sistema embebido. Eduardo, encargado del desarrollo mobile, realizó commits más concentrados y de mayor tamaño al avanzar por módulos completos. La colaboración fue efectiva, con revisiones de código, creación de Issues y Pull Requests que permitieron mantener la calidad y el orden del repositorio.
-
-**Insights Clave:**
-- Comunicación constante mediante GitHub Issues y Pull Requests.
-- Revisión de código colaborativa que mejoró la estabilidad del sistema.
-- Roles definidos según la matriz LACX, permitiendo un flujo de trabajo organizado.
-- Uso adecuado de ramas feature para desarrollar el sistema embebido y la app móvil de forma paralela.
+En conjunto, estas prácticas y la evidencia visual de los grafos de ramas de GitHub demuestran que, durante el Sprint 3, el equipo trabajó de forma colaborativa y coordinada, alineando el flujo de trabajo en los distintos componentes de la solución (firmware e interfaz móvil) para lograr un avance coherente del prototipo de Metalix.
   
 ## 6.3. Validation Interviews
 
