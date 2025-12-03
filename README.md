@@ -2853,7 +2853,7 @@ En esta sección, se presenta las User Stories diseñadas que cumplen con las ne
         <strong>Escenario 1: Reporte agregado</strong><br>
         <strong>Dado</strong> que selecciono un rango de fechas,<br>
         <strong>Cuando</strong> consulto el reporte,<br>
-        <strong>Entonces</strong> visualizo peso total y frecuencia de llenado por recolector/municipalidad.
+        <strong>Entonces</strong> frecuencia de llenado por recolector/municipalidad.
         <br><br>
         <strong>Escenario 2: Sin registros</strong><br>
         <strong>Dado</strong> que no existen datos en el rango,<br>
@@ -3185,7 +3185,7 @@ En esta sección, se presenta las User Stories diseñadas que cumplen con las ne
       <td>14</td>
       <td>TS-09</td>
       <td>Sensores y actuadores en ESP32</td>
-      <td align="justify">Como developer, quiero configurar sensores y actuadores (inductivo metal, celda de carga/peso, ultrasónico, servo de compuerta), para operar el tacho de forma confiable.</td>
+      <td align="justify">Como developer, quiero configurar sensores y actuadores (servo de compuerta), para operar el tacho de forma confiable.</td>
       <td>8</td>
     </tr>
     <tr style="text-align:center;">
@@ -3248,7 +3248,7 @@ En esta sección, se presenta las User Stories diseñadas que cumplen con las ne
       <td>23</td>
       <td>TS-04</td>
       <td>Telemetría de recolectores (Edge/IoT)</td>
-      <td align="justify">Como developer, quiero procesar en el edge datos de peso y ocupación, para optimizar reportes y reducir la latencia.</td>
+      <td align="justify">Como developer, quiero ver como optimizar reportes y reducir la latencia.</td>
       <td>5</td>
     </tr>
     <tr style="text-align:center;">
@@ -3262,14 +3262,14 @@ En esta sección, se presenta las User Stories diseñadas que cumplen con las ne
       <td>25</td>
       <td>HU-17</td>
       <td>Panel de recolectores</td>
-      <td align="justify">Como municipalidad, quiero consultar ubicación, peso/ocupación y estado de cada recolector, para planificar el retiro oportuno.</td>
+      <td align="justify">Como municipalidad y estado de cada recolector, para planificar el retiro oportuno.</td>
       <td>8</td>
     </tr>
     <tr style="text-align:center;">
       <td>26</td>
       <td>HU-20</td>
       <td>Reporte de residuos</td>
-      <td align="justify">Como municipalidad, quiero consultar peso y cantidad de residuos recolectados, para medir el desempeño y planificar la operación.</td>
+      <td align="justify">Como municipalidad y cantidad de residuos recolectados, para medir el desempeño y planificar la operación.</td>
       <td>5</td>
     </tr>
     <tr style="text-align:center;">
@@ -5323,14 +5323,13 @@ Desarrollar la landing page de Metalix y establecer el frontend base de la aplic
 | User Story | Titulo  | Relación con Product Backlog   | Estimación (Horas) | Asignado a        | Estado |
 | --------- | --------- | ---------------------------- | ------------- | ------------- | ------------------ |
 | TS-08 | Configuracion del broker de mensajeria | EP-02 - Acceso seguro a la plataforma | 5 | Johan | Done |
-| TS-07 | Configuracion de ESP32 | EP-02 - Acceso seguro a la plataforma | 5 | Johan | Done |
-| TS-09 | Sensores y actuadores en ESP32 | EP-02 - Acceso seguro a la plataforma | 8 | Eduardo | Done |
+| TS-07 | Configuracion de ESP32 | EP-04 - Interes Municipal | 5 | Johan | Done |
+| TS-09 | Sensores y actuadores en ESP32 | EP-04 - Interes Municipal | 8 | Eduardo | Done |
 | TS-02 | API de RFID y puntos | EP-02 - Acceso seguro a la plataforma | 5 | Ray | Done |
 | HU-11 | Registrar tarjeta RDID | EP-03 - Gestión de perfil de usuario |5 | Adriano | Done |
-| TS-03 | API de canje con ID unico | EP-01 - Páginas informativas | 5 | Gustavo | Done |
-| HU-17 | Ranking bañistas | EP-01 - Páginas informativas | 4 | Adriano | Done |
-| HU-20 | Panel de recolectores | EP-01 - Páginas informativas | 8 | Orlando | Done|
-| HU-19 | RReporte de residuos | EP-01 - Páginas informativas | 5 | Adriano | Done |
+| TS-03 | API de canje con ID unico | EP-04 - Interes Municipal | 5 | Gustavo | Done |
+| HU-20 | Panel de recolectores | EP-04 - Interes Municipal | 8 | Orlando | Done|
+| HU-19 | RReporte de residuos | EP-04 - Interes Municipal | 5 | Adriano | Done |
 | TS-04 | Ranking bañistas,vista municipal | EP-01 - Páginas informativas | 3 | Orlando | Done|
 
 #### 6.2.3.4. Development Evidence for Sprint Review
