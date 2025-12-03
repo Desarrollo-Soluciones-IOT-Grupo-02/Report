@@ -313,55 +313,68 @@ Esta sección tiene como propósito detallar las actualizaciones significativas 
     <!-- TF -->
     <tr>
       <td rowspan="7">TF</td>
-      <td rowspan="7">10/10/2025</td>
+      <td rowspan="7">02/12/2025</td>
     </tr>
     <tr>
       <td>Del Carmen Zorrilla, Ray Alessandro</td>
       <td>
-        - <br>
-        - 
-        - 
-        - 
-        - 
+        - Participé en Sprint Planning 3 definiendo las actividades relacionadas al módulo IoT. <br>
+        - Documenté las evidencias técnicas del módulo IoT en Development Evidence for Sprint Review. <br>
+        - Registré las pruebas de conectividad y funcionamiento del prototipo IoT en Testing Suite Evidence for Sprint Review. <br>
+        - Incorporé los logs, payloads y capturas del dispositivo físico en Execution Evidence for Sprint Review. <br>
+        - Describí el flujo final del servicio IoT–Backend en Services Documentation Evidence for Sprint Review. <br>
       </td>
     </tr>
     <tr>
       <td>Cruz Palomino, Adriano Sebastian</td>
       <td>
-        - <br>
+      - Participé en Sprint Planning 3 definiendo las tareas de la aplicación móvil.<br>
+      - Documenté los componentes actualizados del aplicativo en Development Evidence for Sprint Review.<br>
+      - Registré las pruebas funcionales del módulo mobile en Testing Suite Evidence for Sprint Review.<br>
+      - Subí capturas y videos del funcionamiento real de la app en Execution Evidence for Sprint Review.<br>
+      - Describí el consumo de servicios desde la app mobile en Services Documentation Evidence for Sprint Review.<br>
       </td>
     </tr>
         <tr>
       <td>Quiñones Tintaya, Johan Jorge</td>
       <td>
-        - .<br>
-        - 
-        - 
-        - 
-        - 
-        - 
-        - 
+      - Participé en Sprint Planning 3 definiendo los objetivos de implementación del backend.<br>
+      - Documenté los controladores, servicios y entidades finalizadas en Development Evidence for Sprint Review.<br>
+      - Registré las pruebas unitarias e integración en Testing Suite Evidence for Sprint Review.<br>
+      - Subí respuestas de endpoints, logs y validaciones de API en Execution Evidence for Sprint Review.<br>
+      - Redacté la documentación final de endpoints en Services Documentation Evidence for Sprint Review.<br>
+      - Registré el estado del backend desplegado en Software Deployment Evidence for Sprint Review.<br>
       </td>
     </tr>
     <tr>
       <td>Pardo Zapata, Gustavo Adolfo</td>
       <td>
-        - Desarrollo del sprint 3<br>
-        - Implementacion del sprint planning 3 <br>
-        - Se completo el sprint backlog 3<br>
-        - Correciones generales del informe final <br>
+      - Apoyé en la organización de tareas durante Sprint Planning 3.<br>
+      - Colaboré en la consolidación del Sprint Backlog 3, verificando dependencias y responsables.<br>
+      - Organicé las evidencias de commits y estructura de ramas en Development Evidence for Sprint Review.<br>
+      - Revisé y ordené las evidencias del funcionamiento del sistema en Execution Evidence for Sprint Review.<br>
+      - Documenté el proceso de despliegue en Software Deployment Evidence for Sprint Review.<br>
       </td>
     </tr>
         <tr>
       <td>Roca Huapaya, Orlando Arturo</td>
       <td>
-        - .<br>
+      - Participé en Sprint Planning 3 planificando las tareas finales de UI/UX y Frontend Web.<br>
+      - Documenté los cambios finales del dashboard en Development Evidence for Sprint Review.<br>
+      - Registré las pruebas de interfaz y usabilidad en Testing Suite Evidence for Sprint Review.<br>
+      - Subí capturas del funcionamiento del dashboard conectado al backend en Execution Evidence for Sprint Review.<br>
+      - Documenté el consumo de servicios desde el portal web en Services Documentation Evidence for Sprint Review.<br>
     </td>
     </tr>
         <tr>
       <td>Mancilla Ordaya, Eduardo Vicente</td>
       <td>
-        - .<br>
+      - Participé en Sprint Planning 3 definiendo actividades de arquitectura y despliegue.<br>
+      - Documenté los cambios finales de la arquitectura en Development Evidence for Sprint Review.<br>
+      - Registré las pruebas de integración entre módulos en Testing Suite Evidence for Sprint Review.<br>
+      - Documenté logs y verificación de contenedores en ejecución en Execution Evidence for Sprint Review.<br>
+      - Registré los pasos y evidencias del despliegue en Software Deployment Evidence for Sprint Review.<br>
+      - Documenté coordinaciones técnicas en Team Collaboration Insights during Sprint.<br>
       </td>
     </tr>
      <!-- TB2 -->
@@ -773,7 +786,7 @@ En la entrega de la TF, el equipo consolidó los avances del TF y extendió sign
   - [6.2.2. Sprint 2](#622-sprint-2)
     - [6.2.2.2. Sprint Planning 2](#6222-sprint-planning-2)
     - [6.2.2.2. Aspect Leaders and Collaborators](#6222-aspect-leaders-and-collaborators)
-    - [6.2.2.3. Sprint Backlog 1](#6223-sprint-backlog-2)
+    - [6.2.2.3. Sprint Backlog 2](#6223-sprint-backlog-2)
     - [6.2.2.4. Development Evidence for Sprint Review](#6224-development-evidence-for-sprint-review)
     - [6.2.2.5. Testing Suite Evidence for Sprint Review](#6225-testing-suite-evidence-for-sprint-review)
     - [6.2.2.6. Execution Evidence for Sprint Review](#6226-execution-evidence-for-sprint-review)
@@ -781,7 +794,7 @@ En la entrega de la TF, el equipo consolidó los avances del TF y extendió sign
     - [6.2.2.8. Software Deployment Evidence for Sprint Review](#6228-software-deployment-evidence-for-sprint-review)
     - [6.2.2.9. Team Collaboration Insights during Sprint](#6229-team-collaboration-insights-during-sprint)
   - [6.2.3. Sprint 3](#623-sprint-3)
-    - [6.2.3.1. Sprint Planning 2](#6222-sprint-planning-3)
+    - [6.2.3.1. Sprint Planning 3](#6222-sprint-planning-3)
     - [6.2.3.2. Aspect Leaders and Collaborators](#6232-aspect-leaders-and-collaborators)
     - [6.2.3.3. Sprint Backlog 3](#6233-sprint-backlog-3)
     - [6.2.3.4. Development Evidence for Sprint Review](#6234-development-evidence-for-sprint-review)
@@ -971,37 +984,37 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
           <tr>
             <td align="justify">
               <b>Del Carmen Zorrilla, Ray Alessandro:</b><br>
-              Durante el desarrollo del proyecto asumí un rol activo en la organización de las tareas y coordinación con mis compañeros. 
+              En el TF me encargué de cerrar la parte del IoT. Actualicé las evidencias del dispositivo y coordiné con backend las últimas correcciones del formato del payload. También apoyé en ordenar los apartados técnicos que involucraban telemetría para que el documento final quedara consistente.
             </td>
           </tr>
           <tr>
             <td align="justify">
               <b>Cruz Palomino, Adriano Sebastian</b><br>
-              Durante la TP1 ejercí un liderazgo compartido al desarrollar los mockups, el user wireflow y el prototipo funcional. 
+              Para el TF organicé las evidencias del módulo móvil y verifiqué que los flujos de navegación que ya estaban implementados quedaran bien explicados. Me mantuve en comunicación con backend para resolver dudas sobre los endpoints y asegurar que la documentación final reflejara lo que realmente funciona en la app.
             </td>
           </tr>
           <tr>
             <td align="justify">
               <b>Quiñones Tintaya, Johan Jorge:</b><br>
-              En el avance del Análisis de entrevistas, coordine con mis compañeros la construcción de preguntas y la redacción de respuestas en primera persona, de modo que todos pudimos aportar desde distintos enfoques. 
+              En esta última etapa consolidé toda la parte del backend que correspondía al Sprint 3. Revisé los endpoints finales, ajusté la explicación de algunos flujos internos y coordiné con el resto del equipo para que la integración completa estuviera correctamente descrita en el documento. También me aseguré de que las evidencias técnicas quedaran claras.
             </td>
           </tr>
           <tr>
             <td align="justify">
               <b>Pardo Zapata Gustavo Adolfo:</b><br>
-              Durante la ultima parte de este proyecto, ejercí un liderazgo técnico integral al diseñar y documentar completamente el ultimo sprint. Lideré la implementación de la estrategia GitFlow, estableciendo los flujos de trabajo colaborativo que permitieron al equipo desarrollar características de manera paralela y organizada. Guié la configuración del entorno de desarrollo unificado.
+              Durante el TF apoyé principalmente en organizar y revisar la documentación final. Ordené las evidencias del repositorio, revisé que los componentes técnicos estén alineados entre sí y ayudé al equipo a resolver dudas sobre el orden y la estructura del informe. Me encargué de que el documento final quedara coherente antes de enviarlo.
             </td>
           </tr>
           <tr>
             <td align="justify">
                 <b>Roca Huapaya, Orlando Arturo:</b><br>
-                Realicé la integración entre los entregables de Lean UX y el diseño UI de Metalix para asegurar una narrativa consistente del problema a la solución. 
+                En el cierre me ocupé de la parte visual y de validar que el dashboard y los componentes UI estuvieran correctamente reflejados en el informe. Organicé las capturas finales, revisé que el diseño coincidiera con la implementación y apoyé con la edición del documento en los apartados donde había relación con experiencia de usuario.
             </td>
           </tr>
           <tr>
             <td align="justify">
                 <b>Mancilla Ordaya, Eduardo Vicente:</b><br>
-              Durante el desarrollo de esta entrega apoyé en la entrevista al primer segmento objetivo, asumí mi rol de liderazgo proponiendo los diagramas C4 con las tecnologías en el que podríamos realizar el proyecto. También consideré la coherencia con los otros puntos del informe para la realización de los diagramas.
+                En el TF trabajé en la parte de despliegue e integración. Revisé que los diagramas de arquitectura quedaran actualizados y que las evidencias de ejecución correspondieran a la versión final del sistema. También apoyé verificando el funcionamiento entre módulos para que el documento reflejara el estado real del proyecto.
             </td>
           </tr>
         </table>
@@ -1038,10 +1051,12 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
           <tr>
             <td><b>TF</b></td>
             <td align="justify">
-              Como grupo distribuimos las responsabilidades de manera equilibrada en este report final, 
-              permitiendo que cada integrante asumiera un rol de liderazgo en sus secciones respectivamente.  
-              Esto fomentó un liderazgo compartido, donde cada miembro guió la tarea en su parte y, al mismo tiempo, 
-              se apoyó en las ideas de los demás para enriquecer los entregables.  
+                En el TF, el liderazgo compartido se fortaleció al asumir cada integrante la responsabilidad principal de su módulo 
+                (IoT, backend, mobile, frontend, despliegue y documentación) y coordinar la integración final de Metalix durante el Sprint 3. 
+                Las decisiones ya no se limitaron a la fase de diseño, sino que se extendieron a la resolución de incidencias técnicas, 
+                priorización de ajustes y cierre de evidencias para la entrega final. 
+                Esto permitió que el equipo se autoorganice, redistribuya tareas cuando fue necesario y brinde apoyo puntual a quien enfrentaba bloqueos. 
+                Como resultado, el proyecto culminó con un liderazgo más maduro, orientado tanto a la calidad técnica del producto como al cumplimiento de los compromisos del curso.
             </td>
           </tr>
         </table>
@@ -1202,37 +1217,37 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
           <tr>
             <td align="justify">
               <b>Del Carmen Zorrilla, Ray Alessandro:</b><br>
-              Ejercí un liderazgo compartido en el diseño UI/UX de la landing page, coordinando la estructura visual y funcional del proyecto. 
+              Durante el TF procuré mantener el trabajo ordenado dentro del equipo. Organicé la información que generaba el IoT y la puse a disposición para que los demás pudieran avanzar sin trabas. También revisé partes del documento para asegurar que los apartados estuvieran alineados antes de cerrar la entrega.
             </td>
           </tr>
           <tr>
             <td align="justify">
               <b>Cruz Palomino, Adriano Sebastian</b><br>
-              En la TB2 contribuí a mantener un entorno colaborativo mediante la planificación de tareas de diseño y la coordinación continua con el equipo. 
+              En esta etapa final participé en la planificación de las tareas relacionadas al mobile, registré mis avances y verifiqué qué puntos del documento todavía necesitaban completarse. Coordiné con distintos compañeros para que las evidencias de Sprint 3 quedaran listas y claras antes del cierre.
             </td>
           </tr>
           <tr>
             <td align="justify">
               <b>Quiñones Tintaya, Johan Jorge:</b><br>
-              En el avance del Análisis de entrevistas, coordine con mis compañeros la construcción de preguntas y la redacción de respuestas en primera persona, de modo que todos pudimos aportar desde distintos enfoques. 
+              En el TF coordiné con el equipo backend y con los otros módulos para ajustar las metas del Sprint 3. Revisé la documentación para verificar que no hubiera contradicciones técnicas y organicé la parte del backend del documento final, manteniendo comunicación constante para evitar vacíos.
             </td>
           </tr>
           <tr>
             <td align="justify">
               <b>Pardo Zapata Gustavo Adolfo:</b><br>
-              En la TF, consolidé un entorno de desarrollo colaborativo. Establecimos metas técnicas claras, planificando las tareas en sprints semanales con Trello. Cumplí con los objetivos al implementar  la configuración de los entornos de integración, lo que permitió al equipo comenzar el desarrollo de MANERA  coordinada y sobre una base técnica sólida.
+              Durante el cierre organicé el avance del documento y verifiqué que cada uno completara su parte. Ayudé a corregir secciones, revisé la coherencia técnica y apoyé con la organización de archivos para que la entrega final tuviera una estructura ordenada y fácil de revisar.
             </td>
           </tr>
           <tr>
             <td align="justify">
               <b>Roca Huapaya, Orlando Arturo:</b><br>
-              Fomenté un entorno colaborativo al mantener una comunicación clara con el equipo y organizar los avances de forma accesible para todos. 
+              En el TF participé en la organización de las partes visuales y en coordinar el cierre de los apartados que dependían del diseño. Revisé que las metas del Sprint 3 estuvieran representadas en el documento y apoyé a los demás validando cómo se integraban los flujos con la interfaz.
             </td>
           </tr>
           <tr>
             <td align="justify">
                 <b>Mancilla Ordaya, Eduardo Vicente:</b><br>
-              Durante el desarrollo de esta entrega asumí un rol más operativo dentro del equipo, enfocándome en la construcción del prototipo móvil. 
+                En el TF contribuí coordinando la parte de despliegue y verificando que los cambios de arquitectura se reflejaran correctamente. Me aseguré de que la documentación técnica estuviera actualizada y apoyé al equipo con la revisión final para mantener la coherencia entre todos los módulos.
             </td>
           </tr>
         </table>
@@ -1269,11 +1284,12 @@ La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos propo
           <tr>
             <td><b>TF</b></td>
             <td align="justify">
-              El equipo trabajó en un entorno colaborativo, valorando las propuestas de todos y asegurando la participación equitativa.  
-              Se establecieron tareas y correciones necesaria repartidas equitativamente, 
-              planificando tareas de forma conjunta y distribuyendo el trabajo según las fortalezas de cada integrante.  
-              Gracias a esta organización y compromiso colectivo, se cumplieron los objetivos en los tiempos establecidos, 
-              garantizando un proyecto cohesionado y alineado a la solución propuesta.
+                En el Trabajo Final, el equipo reforzó el entorno colaborativo construido en las entregas anteriores, 
+                enfocándose en cerrar pendientes y alinear los avances de todos los módulos en el Sprint 3. 
+                Se definieron metas específicas para la integración del sistema, la documentación de evidencias y el despliegue, 
+                planificando las tareas según las fortalezas y disponibilidad de cada integrante. 
+                La comunicación constante permitió detectar a tiempo inconsistencias entre módulos y ajustar el trabajo sin afectar los plazos. 
+                Gracias a ello, se lograron los objetivos del TF con un producto funcional documentado de manera consistente y un equipo capaz de coordinarse en un contexto de mayor exigencia.
             </td>
           </tr>
         </table>
@@ -5268,7 +5284,7 @@ Esta sección especifica los principales aspectos de la Reunión de Sprint Plann
 | Aspecto | Detalle |
 |---------|---------|
 | **Sprint #** | Sprint 3 |
-| **Fecha** | 2025-21-01 |
+| **Fecha** | 2025-11-22 |
 | **Hora** | 10:00 AM |
 | **Ubicación** | Reunión virtual (Microsoft Teams) |
 | **Preparado por** | Johan Quinones |
