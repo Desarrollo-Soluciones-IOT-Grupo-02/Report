@@ -5334,49 +5334,53 @@ Desarrollar la landing page de Metalix y establecer el frontend base de la aplic
 
 #### 6.2.3.4. Development Evidence for Sprint Review
 
-Esta sección presenta el progreso de implementación relacionado con los productos de la solución dentro del alcance del Sprint 3 , Mobile App, Sistema IOT, entre otras mejoras . Comienza con una introducción resumiendo los principales avances de implementación.
+Esta sección presenta el progreso de implementación relacionado con los productos de la solución dentro del alcance del Sprint 3, específicamente la **Mobile App Metalix** desarrollada en Flutter e integrada con el backend. Comienza con una introducción resumiendo los principales avances de implementación.
 
-**Resumen de Avances de Implementación:**
-Durante el Sprint 3 se logró completar parcialmente el desarrollo del sistema de Metalix y establecer la base de la Mobile APP. Se implementaron componentes clave y se estableció la arquitectura base para futuras funcionalidades.
+**Resumen de Avances de Implementación:**  
+Durante el Sprint 3 se consolidó la base funcional de la aplicación móvil de Metalix. Se implementaron pantallas esenciales como el login con tema Metalix, el dashboard principal con barra lateral responsive, la vista de colección de residuos, la sección de recompensas y la vista de perfil editable. Asimismo, se integró el flujo de autenticación con el backend mediante el `ApiService` y el `AuthController`, y se realizaron *merges* de las ramas asociadas a las historias de usuario hacia la rama `develop`, dejando lista la estructura para seguir incorporando nuevas funcionalidades en iteraciones posteriores.
 
-**Commits del Repositorio - Sistema Metalix:**
+**Metalix Mobile App (Flutter):**
 
-| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
-|------------|--------|-----------|----------------|-------------------|-------------------|
-| Metalix-Embedded-System | main | ab73ead1131bee7427a04e9a6e4d6fdeab5d446f | feat: start project structure  |  | 14/11/2025 |
-| Metalix-Embedded-System | develop| 2802198ead79bf486edde8b1d446f5d2eab92097 | feat: add mqtt module v1  |  | 16/11/2025 |
-| Metalix-Embedded-System | develop | af97c1b0699cd99ea56153b93cf51c482d66e687 | feat: add new funtinalities to display module  |  | 16/11/2025 |
-| Metalix-Embedded-System | develop| 1b020e51c8205860ac5407562029b383b6a4fec4 | feat: add wifi and state modules  |  | 15/11/2025 |
-| Metalix-Embedded-System | develop| e33bd427169ebba668149d7b3743c464ac617e1d | feat: add Oledd funtionalities and clases  |  | 15/11/2025 |
-| Metalix-Embedded-System | develop | 3fcb7c505036df61ca8eaaaad165f735ae23d5cf | feat: add servo clases and funtionalities  |  | 15/11/2025 |
-| Metalix-Embedded-System | develop | ab73ead1131bee7427a04e9a6e4d6fdeab5d446f | feat: start project structure  |  | 14/11/2025 |
+| Repository          | Branch  | Commit Id | Commit Message                                                           | Commit Message Body | Commited on (Date) |
+|---------------------|---------|-----------|---------------------------------------------------------------------------|---------------------|--------------------|
+| metalix_flutter_app | develop | d3c2411   | Merge branch 'hu02' into develop                                          |                     | 03/12/2025         |
+| metalix_flutter_app | develop | d2b7c5a   | Merge branch 'hu01' into develop                                          |                     | 03/12/2025         |
+| metalix_flutter_app | develop | 75c67bd   | feat: feature developed                                                   |                     | 03/12/2025         |
+| metalix_flutter_app | develop | 7c9ff87   | feat: feature developed                                                   |                     | 03/12/2025         |
+| metalix_flutter_app | develop | aea7bc2   | feat: feature developed                                                   |                     | 03/12/2025         |
+| metalix_flutter_app | main    | 4340202   | feat(auth): integrate backend login with ApiService and AuthController    |                     | 02/12/2025         |
+| metalix_flutter_app | main    | 8374cbd   | feat: implement editable profile view                                     |                     | 09/11/2025         |
+| metalix_flutter_app | main    | 6d270af   | feat: add rewards view                                                    |                     | 09/11/2025         |
+| metalix_flutter_app | main    | b123701   | feat: create waste collection screen                                      |                     | 09/11/2025         |
+| metalix_flutter_app | main    | 6ec5562   | feat: implement main dashboard layout with responsive sidebar navigation  |                     | 09/11/2025         |
+| metalix_flutter_app | main    | 6c9fd5c   | feat: add responsive login screen with Metalix theme and sign-in button   |                     | 09/11/2025         |
+| metalix_flutter_app | main    | 36a7a26   | feat: Initial commit - Flutter Metalix Login                              |                     | 09/11/2025         |
 
-**Commits del Repositorio - Mobile App:**
+**Sistema Metalix (Embedded System):**
 
-| Repository           | Branch | Commit Id | Commit Message                                                        | Commit Message Body                                                                                       | Commited on (Date) |
-|----------------------|--------|-----------|------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|--------------------|
-| metalix-flutter-app  | main   | 8374cbd   | feat: implement editable profile view                                 | Added editable profile screen with basic field validation and API call to update user data.              | 10/11/2025         |
-| metalix-flutter-app  | main   | 6d270af   | feat: add rewards view                                                | Created rewards screen listing available benefits and integrated navigation from the main dashboard.     | 10/11/2025       |
-| metalix-flutter-app  | main   | b123701   | feat: create waste collection screen                                  | Implemented waste collection screen showing recycled metal stats, points, and recent collection history. | 10/11/2025         |
-| metalix-flutter-app  | main   | 6ec5562   | feat: implement main dashboard layout with responsive sidebar navigation | Built main dashboard layout with responsive sidebar navigation and routing between core app sections.    | 10/11/2025         |
-| metalix-flutter-app  | main   | 6c9fd5c   | feat: add responsive login screen with Metalix theme and sign-in button | Added responsive login screen with Metalix branding, sign-in button, and basic error handling.           | 10/11/2025        |
-| metalix-flutter-app  | main   | 36a7a26   | feat: Initial commit - Flutter Metalix Login                          | Initial Flutter project setup with base login screen and core dependencies configured.                   | 10/11/2025         |
+| Repository               | Branch  | Commit Id | Commit Message                                                                                           | Commit Message Body | Commited on (Date) |
+|--------------------------|---------|-----------|----------------------------------------------------------------------------------------------------------|---------------------|--------------------|
+| Metalix-Embedded-System  | develop | 0a0fcc    | Merge branch 'develop' of https://github.com/Desarrollo-Soluciones-IOT-Grupo-02/Metalix-Embedded-System into develop |                     | 03/12/2025         |
+| Metalix-Embedded-System  | develop | 00a854c   | feat: feature developed                                                                                  |                     | 03/12/2025         |
+| Metalix-Embedded-System  | develop | 04bda07   | feat: feature developed                                                                                  |                     | 03/12/2025         |
+| Metalix-Embedded-System  | develop | 370f5f3   | feat: feature developed                                                                                  |                     | 03/12/2025         |
+| Metalix-Embedded-System  | develop | 47345a7   | feat: feature developed                                                                                  |                     | 03/12/2025         |
+| Metalix-Embedded-System  | develop | 595cc8e   | feat: add block device by weight                                                                         |                     | 03/12/2025         |
+| Metalix-Embedded-System  | develop | 2802198   | feat: add mqtt module v1                                                                                 |                     | 16/11/2025         |
+| Metalix-Embedded-System  | develop | af8721b   | feat: add new funtinalities to display module                                                            |                     | 16/11/2025         |
+| Metalix-Embedded-System  | develop | 1b020e5   | feat: add wifi and state modules                                                                         |                     | 15/11/2025         |
+| Metalix-Embedded-System  | develop | e33bd42   | feat: add Oledd funtionalities and clases                                                                |                     | 15/11/2025         |
+| Metalix-Embedded-System  | develop | 3fcb7c5   | feat: add servo clases and funtionalities                                                                |                     | 15/11/2025         |
+| Metalix-Embedded-System  | main    | ab73ead   | feat: start project structure                                                                            |                     | 15/11/2025         |
 
 
 #### 6.2.3.5. Testing Suite Evidence for Sprint Review
 
-Esta sección debe detallar el conjunto de pruebas automatizadas Unit Tests, Integration Tests y Acceptance Tests para Web Services relacionados con los User Stories especificados en el Sprint.
+No se incorporaron nuevas pruebas formales para el sistema Metalix. La razón principal es que el prototipo funcional del sistema tanto a nivel de firmware del dispositivo embebido como de la integración con la plataforma IoT y la aplicación móvil, ya había sido validado en iteraciones previas mediante pruebas unitarias básicas, pruebas de integración y sesiones de verificación manual en entorno controlado.
 
-**Progreso en Testing para este Sprint:**
-Durante el Sprint 2 se estableció la base para las pruebas automatizadas, implementando pruebas de solicitudes del Sistema IOT y validaciones básicas para el mobile app.
+Durante este Sprint 3, el foco estuvo orientado a consolidar la arquitectura, refinar funcionalidades clave y asegurar la estabilidad del prototipo para su demostración como trabajo final. Por ello, se optó por mantener el conjunto de pruebas ya ejecutado en sprints anteriores y realizar únicamente verificaciones manuales puntuales, luego de cada cambio relevante en el código, tales como la validación del flujo de comunicación MQTT, la actualización del estado del dispositivo según el peso detectado y la correcta visualización de la información en la interfaz.
 
-**Commits de Testing:**
-
-| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
-|------------|--------|-----------|----------------|-------------------|-------------------|
-|  | develop | y1z2a3b | test: |  | 18/11/2024 |
-|  | develop | c4d5e6f | test: |  | 19/11/2024 |
-|  | main | g7h8i9j | test:  |  | 18/11/2024 |
+En consecuencia, no se diseñó ni ejecutó una nueva suite de pruebas automatizadas para este sprint, ya que el objetivo principal era demostrar el funcionamiento estable del prototipo de Metalix y no ampliar el alcance funcional. Sin embargo, el sistema se considera suficientemente probado para los fines del presente trabajo académico.
 
 #### 6.2.3.6. Execution Evidence for Sprint Review
 
