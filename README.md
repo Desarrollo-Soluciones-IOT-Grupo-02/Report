@@ -20,12 +20,11 @@
 
 <h4 align="center"> NRC: 3355 </h4>
 
+<h4 align="center"> Startup: CleanWave </h4>
 
-<h3> Startup: CleanWave </h3>
+<h4 align="center"> Product: Metalix </h4>
 
-<h3> Product: Metalix </h3>
-
-<h3> Team Members: </h3>
+<h4 align="center"> Team Members: </h4>
 
 <div align="center">
   <table>
