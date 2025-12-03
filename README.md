@@ -4727,8 +4727,8 @@ Esta sección especifica los principales aspectos de la Reunión de Sprint Plann
 | **Resumen del Sprint 1:** | Durante el Sprint 1 se completó la configuración inicial del proyecto, incluyendo la creación de repositorios, configuración de herramientas de desarrollo, y establecimiento de la arquitectura base del sistema. |
 | **Resumen de la Retrospectiva del Sprint 1:** | El equipo identificó la necesidad de mejorar la comunicación entre miembros y establecer roles más claros para el desarrollo del frontend y landing page. |
 | **Objetivo del Sprint 1:** | Nuestro enfoque está en desarrollar una landing page atractiva y funcional junto con el frontend base de la aplicación web. Creemos que esto entrega una presencia digital sólida y una base técnica robusta a nuestros usuarios y stakeholders. Esto será confirmado cuando tengamos una landing page desplegada y un frontend funcional con navegación básica. |
-| **Velocity del Sprint 1:** | 21 Story Points |
-| **Suma de Story Points:** | 21 Story Points |
+| **Velocity del Sprint 1:** | 48 Story Points |
+| **Suma de Story Points:** | 48 Story Points |
 
 #### 6.2.1.2. Aspect Leaders and Collaborators
 
@@ -4764,6 +4764,9 @@ Desarrollar la landing page de Metalix y establecer el frontend base de la aplic
 | HU-10 | Editar perfil | EP-03 - Gestión de perfil de usuario | 8 | Adriano | Done |
 | HU-14 | Canjear recompensas | EP-21 - Recompensas para bañistas | 7 | Gustavo | Done |
 | HU-21 | Gestion de usuarios municipales | EP-28 - Gestion de usuarios municipales | 6 | Orlando | Done|
+| HU-01 | Ver municiaples participantes | EP-4 - interes municipal | 2 | Orlando | Done|
+| TS-01 | API de autenticacion con JWT | EP-2 - Acceso seguro a la plataforma | 5 | Johan | Done|
+| HU-18 | Administracion de recompensas | EP-4 - interes mmunicipal | 5 | Ray | Done|
 
 
 #### 6.2.1.4. Development Evidence for Sprint Review
@@ -5039,7 +5042,8 @@ Desarrollar la landing page de Metalix y establecer el frontend base de la aplic
 | HU-03 | Conocer proceso para obtener tarjeta RFID | EP-01 - Páginas informativas | 4 | Ray | Done |
 | HU-04 | Consultar FAQ y enviar contacto | EP-01 - Páginas informativas | 7 | Adriano | Done |
 | HU-05 | Registrar interés municipal | EP-01 - Páginas informativas | 6 | Orlando | Done|
-
+| TS-05 | Despliegue en azure Web App | EP-03 - Acceso seguro a la plataforma | 3 | Orlando | Done|
+| TS-06 | Seguridad y cifrado | EP-03 - Acceso seguro a la plataforma | 1 | Johan | Done|
 
 #### 6.2.2.4. Development Evidence for Sprint Review
 
@@ -5272,8 +5276,8 @@ Esta sección especifica los principales aspectos de la Reunión de Sprint Plann
 | **Resumen del Sprint 3:** | Durante el Sprint 3 se completó la configuración inicial del proyecto IOT , incluyendo la creación de repositorios, configuración de herramientas de desarrollo, y establecimiento de la arquitectura base del sistema. |
 | **Resumen de la Retrospectiva del Sprint 3:** | El equipo identificó la necesidad de mejorar la comunicación entre miembros y establecer roles más claros para el desarrollo del sistema IOT y mobile app. |
 | **Objetivo del Sprint 3:** | Nuestro enfoque está en desarrollar una mobile app atractiva y  con algunas funcionalidades parciales junto con el sistema IOT base. Creemos que esto entrega una presencia digital sólida y una base técnica robusta a nuestros usuarios y stakeholders. Esto será confirmado cuando tengamos totalmente una landing page desplegada y un frontend funcional , con unas primeras versiones del sistema IOT y Mobile App. |
-| **Velocity del Sprint 3:** | 24 Story Points |
-| **Suma de Story Points:** | 24 Story Points |
+| **Velocity del Sprint 3:** | 52 Story Points |
+| **Suma de Story Points:** | 52 Story Points |
 
 #### 6.2.3.2. Aspect Leaders and Collaborators
 
@@ -5303,16 +5307,16 @@ Desarrollar la landing page de Metalix y establecer el frontend base de la aplic
 
 | User Story | Titulo  | Relación con Product Backlog   | Estimación (Horas) | Asignado a        | Estado |
 | --------- | --------- | ---------------------------- | ------------- | ------------- | ------------------ |
-| HU-06 | Registro de cuenta | EP-02 - Acceso seguro a la plataforma | 8 | Johan | Done |
-| HU-07 | Inicio de sesión | EP-02 - Acceso seguro a la plataforma | 6 | Johan | Done |
-| HU-09 | Cerrar sesión | EP-02 - Acceso seguro a la plataforma | 3 | Eduardo | Done |
-| HU-08 | Recuperar contraseña | EP-02 - Acceso seguro a la plataforma | 6 | Eduardo | Done |
-| HU-10 | Editar perfil | EP-03 - Gestión de perfil de usuario | 8 | Adriano | Done |
-| HU-02 | Ver recompensas destacadas | EP-01 - Páginas informativas | 5 | Gustavo | Done |
-| HU-03 | Conocer proceso para obtener tarjeta RFID | EP-01 - Páginas informativas | 4 | Ray | Done |
-| HU-04 | Consultar FAQ y enviar contacto | EP-01 - Páginas informativas | 7 | Adriano | Done |
-| HU-05 | Registrar interés municipal | EP-01 - Páginas informativas | 6 | Orlando | Done|
-
+| TS-08 | Configuracion del broker de mensajeria | EP-02 - Acceso seguro a la plataforma | 5 | Johan | Done |
+| TS-07 | Configuracion de ESP32 | EP-02 - Acceso seguro a la plataforma | 5 | Johan | Done |
+| TS-09 | Sensores y actuadores en ESP32 | EP-02 - Acceso seguro a la plataforma | 8 | Eduardo | Done |
+| TS-02 | API de RFID y puntos | EP-02 - Acceso seguro a la plataforma | 5 | Ray | Done |
+| HU-11 | Registrar tarjeta RDID | EP-03 - Gestión de perfil de usuario |5 | Adriano | Done |
+| TS-03 | API de canje con ID unico | EP-01 - Páginas informativas | 5 | Gustavo | Done |
+| HU-17 | Ranking bañistas | EP-01 - Páginas informativas | 4 | Adriano | Done |
+| HU-20 | Panel de recolectores | EP-01 - Páginas informativas | 8 | Orlando | Done|
+| HU-19 | RReporte de residuos | EP-01 - Páginas informativas | 5 | Adriano | Done |
+| TS-04 | Ranking bañistas,vista municipal | EP-01 - Páginas informativas | 3 | Orlando | Done|
 
 #### 6.2.3.4. Development Evidence for Sprint Review
 
